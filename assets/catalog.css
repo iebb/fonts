@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "Monaco GP Sans";
+  src: url("../Monaco%20GP%20Sans/fonts/MonacoGPSans%5Bwght%5D.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --paper: #f4e4c6;
+  --paper-light: #fff3db;
+  --ink: #052f5f;
+  --red: #a71e1e;
+  --gold: #9a6816;
+  --rule: rgb(154 104 22 / 48%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 14% 7%, rgb(255 255 255 / 62%), transparent 36rem),
+    repeating-linear-gradient(0deg, rgb(96 55 8 / 2.6%) 0 1px, transparent 1px 4px),
+    var(--paper);
+}
+
+a {
+  color: inherit;
+}
+
+.catalog-header,
+.catalog-intro,
+.catalog-list,
+.catalog-footer {
+  padding-inline: clamp(1.25rem, 5vw, 5rem);
+}
+
+.catalog-header {
+  min-height: 5.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.wordmark {
+  display: flex;
+  gap: 0.55rem;
+  align-items: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+}
+
+.wordmark b {
+  color: var(--red);
+  font-size: 1.2rem;
+}
+
+.catalog-header p,
+.catalog-footer,
+.font-card-meta,
+.font-card-foot,
+.section-label,
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.catalog-header p {
+  margin: 0;
+  text-align: right;
+}
+
+.catalog-intro {
+  min-height: min(74svh, 50rem);
+  display: grid;
+  align-content: center;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.eyebrow {
+  grid-column: 1 / -1;
+  margin: 0 0 clamp(1rem, 3vw, 2rem);
+  color: var(--red);
+}
+
+.catalog-intro h1 {
+  margin: 0;
+  font-family: "Monaco GP Sans", sans-serif;
+  font-size: clamp(4rem, 12vw, 11rem);
+  font-weight: 760;
+  font-variation-settings: "wght" 760;
+  line-height: 0.78;
+  letter-spacing: -0.055em;
+  text-transform: uppercase;
+}
+
+.lede {
+  justify-self: end;
+  max-width: 27ch;
+  margin: clamp(1.75rem, 4vw, 3.5rem) 0 0;
+  font-family: "Monaco GP Sans", sans-serif;
+  font-size: clamp(1.2rem, 2.3vw, 2rem);
+  font-weight: 350;
+  line-height: 1.08;
+}
+
+.catalog-list {
+  padding-top: clamp(4rem, 8vw, 7rem);
+  padding-bottom: clamp(5rem, 10vw, 9rem);
+}
+
+.section-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-label h2 {
+  margin: 0;
+  font: inherit;
+}
+
+.font-card {
+  display: block;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 2px solid var(--ink);
+  background: var(--paper-light);
+  text-decoration: none;
+  transition: color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.font-card:hover,
+.font-card:focus-visible {
+  background: var(--ink);
+  color: var(--paper-light);
+  transform: translateY(-0.25rem);
+}
+
+.font-card:focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 4px;
+}
+
+.font-card-meta,
+.font-card-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.font-card-name {
+  padding-block: clamp(3rem, 8vw, 7rem);
+}
+
+.font-card-name strong {
+  display: block;
+  font-family: "Monaco GP Sans", sans-serif;
+  font-size: clamp(4rem, 14vw, 13rem);
+  font-weight: 900;
+  font-variation-settings: "wght" 900;
+  line-height: 0.76;
+  letter-spacing: -0.05em;
+}
+
+.font-card-name strong:last-child {
+  color: var(--red);
+}
+
+.font-card:hover .font-card-name strong:last-child,
+.font-card:focus-visible .font-card-name strong:last-child {
+  color: #f4b43f;
+}
+
+.font-card-foot p {
+  margin: 0;
+}
+
+.catalog-footer {
+  min-height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--rule);
+}
+
+@media (max-width: 700px) {
+  .catalog-header p {
+    display: none;
+  }
+
+  .catalog-intro {
+    min-height: 70svh;
+    grid-template-columns: 1fr;
+  }
+
+  .lede {
+    justify-self: start;
+  }
+
+  .font-card-meta span:nth-child(2),
+  .catalog-footer p:nth-child(2) {
+    display: none;
+  }
+
+  .catalog-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .font-card {
+    transition: none;
+  }
+}
