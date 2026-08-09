@@ -6,13 +6,13 @@
     <meta name="color-scheme" content="light" />
     <meta name="description" content="Monaco GP Sans — a Latin geometric variable type family inspired by 1930s racing posters." />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23052f5f'/%3E%3Cpath d='M9 48V13l14 13 14-13v35H27V35l-4 4-4-4v13zm32 0 7-35 7 35h-8l-.5-5h-3L43 48z' fill='%23f4e4c6'/%3E%3C/svg%3E" />
-    <link rel="stylesheet" href="specimen.css?v=1.002" />
+    <link rel="stylesheet" href="specimen.css?v=1.003" />
     <title>Monaco GP Sans — Variable Font Specimen</title>
   </head>
   <body data-family="filled">
     <header class="site-header">
       <a href="../" class="back-link"><span aria-hidden="true">←</span> iebb / fonts</a>
-      <p>Monaco GP Sans / Latin release 1.002</p>
+      <p>Monaco GP Sans / Latin release 1.003</p>
       <a href="#downloads">Download</a>
     </header>
 
@@ -20,7 +20,7 @@
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-copy">
           <p class="kicker">Geometric variable display / 100–900</p>
-          <h1 id="heroTitle" class="live-font poster-c" contenteditable="plaintext-only" role="textbox" aria-label="Editable Monaco GP Sans title" aria-multiline="false" spellcheck="false"><span>MONACO</span><span>GP SANS</span></h1>
+          <h1 id="heroTitle" class="live-font poster-capitals" contenteditable="plaintext-only" role="textbox" aria-label="Editable Monaco GP Sans title" aria-multiline="false" spellcheck="false"><span>MONACO</span><span>GP SANS</span></h1>
         </div>
         <div class="control-deck" aria-label="Font controls">
           <label class="weight-control" for="weightControl">
@@ -70,11 +70,12 @@
           <p>Select a font, move the weight, turn on alternates, and edit the lines.</p>
         </div>
         <div class="feature-controls" role="group" aria-label="OpenType feature controls">
-          <button type="button" data-feature="ss02" aria-pressed="false">Poster S</button>
-          <button type="button" data-feature="ss03" aria-pressed="false">Poster figures</button>
-          <button type="button" data-feature="ss04" aria-pressed="false">Expanding M</button>
-          <button type="button" data-feature="ss05" aria-pressed="false">Barless A</button>
-          <button type="button" data-feature="ss06" aria-pressed="false">Poster C</button>
+          <button type="button" data-feature="ss01" aria-pressed="false">Single-storey a</button>
+          <button type="button" data-feature="ss03" aria-pressed="false">Poster capitals</button>
+          <button type="button" data-feature="ss06" aria-pressed="false">Poster zero</button>
+          <button type="button" data-feature="ss07" aria-pressed="false">Poster one</button>
+          <button type="button" data-feature="ss08" aria-pressed="false">Poster three</button>
+          <button type="button" data-feature="ss09" aria-pressed="false">Poster six + nine</button>
         </div>
         <div class="testers">
           <p class="type-tester live-font live-features" contenteditable="plaintext-only" role="textbox" aria-label="Editable large type tester" aria-multiline="false" spellcheck="false">GRAND PRIX AUTOMOBILE</p>
@@ -111,11 +112,48 @@
           <p>The default alphabet stays useful for text; display forms are available as named stylistic sets.</p>
         </div>
         <div class="alternate-grid">
-          <article><small>ss02 / Poster S</small><p class="current-weight poster-s">VITESSE</p></article>
-          <article><small>ss03 / Poster figures</small><p class="current-weight poster-figures">01369</p></article>
-          <article><small>ss04 / Expanding M</small><p class="current-weight expanding-m">MONACO</p></article>
-          <article><small>ss05 / Barless A</small><p class="current-weight barless-a">AVANT</p></article>
-          <article><small>ss06 / Poster C</small><p class="current-weight poster-c">CIRCUIT</p></article>
+          <article class="alternate-comparison">
+            <small>ss01 / Single-storey a</small>
+            <div class="alternate-pair">
+              <div><span>Default</span><p class="current-weight">a</p></div>
+              <div><span>Alternate</span><p class="current-weight single-storey-a">a</p></div>
+            </div>
+          </article>
+          <article class="alternate-comparison">
+            <small>ss03 / Poster capitals</small>
+            <div class="alternate-pair">
+              <div><span>Default</span><p class="current-weight">ACSM</p></div>
+              <div><span>Alternate</span><p class="current-weight poster-capitals">ACSM</p></div>
+            </div>
+          </article>
+          <article class="alternate-comparison">
+            <small>ss06 / Poster zero</small>
+            <div class="alternate-pair">
+              <div><span>Default</span><p class="current-weight">0</p></div>
+              <div><span>Alternate</span><p class="current-weight poster-zero">0</p></div>
+            </div>
+          </article>
+          <article class="alternate-comparison">
+            <small>ss07 / Poster one</small>
+            <div class="alternate-pair">
+              <div><span>Default</span><p class="current-weight">1</p></div>
+              <div><span>Alternate</span><p class="current-weight poster-one">1</p></div>
+            </div>
+          </article>
+          <article class="alternate-comparison">
+            <small>ss08 / Poster three</small>
+            <div class="alternate-pair">
+              <div><span>Default</span><p class="current-weight">3</p></div>
+              <div><span>Alternate</span><p class="current-weight poster-three">3</p></div>
+            </div>
+          </article>
+          <article class="alternate-comparison">
+            <small>ss09 / Poster six + nine</small>
+            <div class="alternate-pair">
+              <div><span>Default</span><p class="current-weight">69</p></div>
+              <div><span>Alternate</span><p class="current-weight poster-six-nine">69</p></div>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -156,9 +194,9 @@
 
       <section class="poster" aria-label="Monaco Grand Prix poster specimen">
         <div class="poster-rule"></div>
-        <p class="poster-place poster-c">MONACO</p>
-        <p class="poster-event poster-s">GRAND PRIX AUTOMOBILE</p>
-        <div class="poster-date poster-figures">
+        <p class="poster-place poster-capitals">MONACO</p>
+        <p class="poster-event poster-capitals">GRAND PRIX AUTOMOBILE</p>
+        <div class="poster-date poster-date-figures">
           <span aria-hidden="true"></span>
           <p>AVRIL 1936</p>
           <span aria-hidden="true"></span>
@@ -171,7 +209,7 @@
             <p class="kicker">Open font release</p>
             <h2 id="downloadsTitle">Download the family.</h2>
           </div>
-          <p>Version 1.002 / SIL Open Font License 1.1 / Latin-only catalog build.</p>
+          <p>Version 1.003 / SIL Open Font License 1.1 / Latin-only catalog build.</p>
         </div>
         <div class="download-grid">
           <article>
@@ -194,11 +232,11 @@
     </main>
 
     <footer class="site-footer">
-      <p>Monaco GP Sans / 1.002</p>
+      <p>Monaco GP Sans / 1.003</p>
       <p>Two variable fonts / wght 100–900</p>
       <a href="https://github.com/iebb/fonts/tree/master/Monaco%20GP%20Sans">Source</a>
     </footer>
 
-    <script src="specimen.js?v=1.002"></script>
+    <script src="specimen.js?v=1.003"></script>
   </body>
 </html>

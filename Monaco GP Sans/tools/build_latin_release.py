@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the Latin-only Monaco GP Sans catalog release.
 
-The inputs are the hash-locked Monaco Vitesse 2.200 Filled and Outline variable
+The inputs are hash-locked Monaco Vitesse Filled and Outline variable
 TTFs.  This script subsets only the approved Latin/Common repertoire, preserves
 OpenType layout closure, renames the public families, and emits deterministic
 TTF/WOFF2 deliverables plus a release manifest.
@@ -19,10 +19,10 @@ from fontTools.ttLib import TTFont
 
 
 SOURCE_SHA256 = {
-    "filled": "f7a914b30f3c790217fc19b04c87f0b56f3719e4b133a5ef4fce5ec101a5ca01",
-    "outline": "49a3bb9a3e3ec2760c7d125a5e108b509e63ad326c287c47594f79c5c5353ffe",
+    "filled": "0a27b416895b4d3ba50b5fb42fcbffffe100d95f520fbfa586c62b2fc1179cd6",
+    "outline": "733ed8eadeab98cf24b2dd864a23699228ed94205a817215be9c3994c1aac483",
 }
-RELEASE_VERSION = "1.002"
+RELEASE_VERSION = "1.003"
 
 # Exact repertoire audited from the frozen source.  These ranges retain all
 # encoded Latin, Latin accents, combining marks, figures, punctuation, currency,
@@ -153,7 +153,7 @@ def rewrite_existing_names(font: TTFont, kind: str) -> None:
         if record.nameID == 0:
             value = value.replace(
                 "Monaco Vitesse is a renamed modified version.",
-                "Monaco GP Sans is a renamed, Latin-only modified version derived from Monaco Vitesse 2.200.",
+                "Monaco GP Sans is a renamed, Latin-only modified version derived from Monaco Vitesse.",
             )
         if record.nameID == 5:
             value = f"Version {RELEASE_VERSION}"

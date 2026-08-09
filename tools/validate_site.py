@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -14,6 +15,15 @@ FORBIDDEN_RANGES = (
     (0x0370, 0x03FF, "Greek"),
     (0x0400, 0x052F, "Cyrillic"),
     (0x3040, 0x30FF, "Kana"),
+)
+EXPECTED_FEATURES = {"ss01", "ss03", "ss06", "ss07", "ss08", "ss09"}
+COMPARISONS = (
+    ("ss01", "a", "single-storey-a"),
+    ("ss03", "ACSM", "poster-capitals"),
+    ("ss06", "0", "poster-zero"),
+    ("ss07", "1", "poster-one"),
+    ("ss08", "3", "poster-three"),
+    ("ss09", "69", "poster-six-nine"),
 )
 
 
@@ -50,6 +60,18 @@ def validate_specimen_text() -> None:
         offenders = sorted({char for char in specimen if start <= ord(char) <= end})
         assert not offenders, f"specimen contains {label}: {offenders}"
 
+    controls = set(re.findall(r'data-feature="(ss\d\d)"', specimen))
+    assert controls == EXPECTED_FEATURES, (controls, EXPECTED_FEATURES)
+    assert 'class="live-font poster-capitals"' in specimen
+    assert 'class="poster-date poster-date-figures"' in specimen
+    for tag, text, alternate_class in COMPARISONS:
+        marker = f"{tag} /"
+        start = specimen.index(marker)
+        end = specimen.index("</article>", start)
+        card = specimen[start:end]
+        assert card.count(f">{text}</p>") == 2, (tag, text)
+        assert f'class="current-weight {alternate_class}">{text}</p>' in card
+
 
 def main() -> None:
     for path in HTML_FILES:
@@ -59,9 +81,13 @@ def main() -> None:
     assert css.count("@font-face") == 2
     assert 'font-family: "Monaco GP Sans"' in css
     assert 'font-family: "Monaco GP Sans Outline"' in css
+    css_features = set(re.findall(r'"(ss\d\d)" 1', css))
+    assert css_features == EXPECTED_FEATURES, (css_features, EXPECTED_FEATURES)
+    assert "v=1.003" in css
     print("PASS: static catalog links")
     print("PASS: specimen contains no Greek, Cyrillic, or Kana")
     print("PASS: both independent webfont families are declared")
+    print("PASS: exact stylistic-set controls and paired comparisons")
 
 
 if __name__ == "__main__":

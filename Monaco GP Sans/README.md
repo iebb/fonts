@@ -13,12 +13,16 @@ tabular figures, and the named OpenType alternates below.
 | Feature | Name | Forms |
 | --- | --- | --- |
 | `ss01` | Single-storey a | `a` |
-| `ss02` | Poster S | `S Ś Ŝ Ş Š Ș` |
-| `ss03` | Poster Figures | `0 1 3 6 9` |
-| `ss04` | Expanding M | `M` |
-| `ss05` | Barless A | `A` and accented A forms |
-| `ss06` | Poster C | `C Ć Ĉ Ċ Č Ç` |
+| `ss03` | Poster Capitals | barless `A`, poster `C` and `S`, expanding `M`, and their supported accented forms |
+| `ss06` | Poster Zero | slashed `0` |
+| `ss07` | Poster One | headless `1` |
+| `ss08` | Poster Three | seven-top `3` |
+| `ss09` | Poster Six and Nine | hooked `6 9` |
 | `tnum` | Tabular Figures | figures |
+
+The five display groups are independent. This lets a date select the poster
+`1`, `3`, `6`, and `9` without changing unrelated figures, while `ss03` keeps
+the A/C/S/M poster alphabet together as one coherent setting.
 
 This catalog build deliberately excludes Greek, Cyrillic, Japanese, and
 fullwidth forms. It contains 437 encoded Latin/Common characters in each font.
@@ -55,7 +59,7 @@ Outline; there is no public fill axis.
 
 ## Rebuild the catalog binaries
 
-The build is intentionally pinned to the frozen Monaco Vitesse 2.200 source
+The build is intentionally pinned to frozen Monaco Vitesse source
 binaries. The source hashes are embedded in the build script, so an unexpected
 input fails closed.
 
@@ -71,7 +75,7 @@ python3 tools/validate_release.py \
 ```
 
 Validation checks names, script exclusions, the `wght` axis, all nine named
-weights, feature retention, and TTF/WOFF2 parity. Filled geometry and metrics
+weights, exact feature retention, and TTF/WOFF2 parity. Filled geometry and metrics
 are compared with the frozen input at every named weight; every retained
 Outline glyph is compared at 50-unit intervals across the full axis.
 

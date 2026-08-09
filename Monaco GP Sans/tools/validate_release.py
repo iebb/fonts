@@ -25,9 +25,21 @@ FORBIDDEN_RANGES = (
     (0x31F0, 0x31FF, "Katakana extensions"),
     (0xFF00, 0xFFEF, "Halfwidth or fullwidth forms"),
 )
-EXPECTED_GSUB = {"ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "tnum"}
+EXPECTED_GSUB = {"ss01", "ss03", "ss06", "ss07", "ss08", "ss09", "tnum"}
 EXPECTED_GPOS = {"kern", "mark", "mkmk"}
-RELEASE_VERSION = "1.002"
+RELEASE_VERSION = "1.003"
+EXPECTED_STYLISTIC_SUBSTITUTIONS = {
+    "ss03": {
+        "A": "A.barless",
+        "C": "C.poster",
+        "S": "S.poster",
+        "M": "M.expanding",
+    },
+    "ss06": {"zero": "zero.poster"},
+    "ss07": {"one": "one.poster"},
+    "ss08": {"three": "three.poster"},
+    "ss09": {"six": "six.poster", "nine": "nine.poster"},
+}
 
 
 def best_name(font: TTFont, name_id: int) -> str:
@@ -44,6 +56,44 @@ def feature_tags(font: TTFont, table_tag: str) -> set[str]:
     if not table.FeatureList:
         return set()
     return {record.FeatureTag for record in table.FeatureList.FeatureRecord}
+
+
+def feature_single_substitutions(font: TTFont, tag: str) -> dict[str, str]:
+    """Collect every SingleSubst mapping exposed by one GSUB feature tag."""
+
+    table = font["GSUB"].table
+    records = table.FeatureList.FeatureRecord
+    lookup_indices = {
+        index
+        for record in records
+        if record.FeatureTag == tag
+        for index in record.Feature.LookupListIndex
+    }
+    mapping: dict[str, str] = {}
+    for index in sorted(lookup_indices):
+        lookup = table.LookupList.Lookup[index]
+        assert lookup.LookupType == 1, (tag, index, lookup.LookupType)
+        for subtable in lookup.SubTable:
+            for source, target in subtable.mapping.items():
+                prior = mapping.setdefault(source, target)
+                assert prior == target, (tag, source, prior, target)
+    return mapping
+
+
+def validate_stylistic_substitutions(font: TTFont, outline: bool) -> None:
+    for tag, expected in EXPECTED_STYLISTIC_SUBSTITUTIONS.items():
+        mapping = feature_single_substitutions(font, tag)
+        assert expected.items() <= mapping.items(), (tag, mapping, expected)
+        if outline:
+            expected_outline = {
+                f"{source}.outline": f"{target}.outline"
+                for source, target in expected.items()
+            }
+            assert expected_outline.items() <= mapping.items(), (
+                tag,
+                mapping,
+                expected_outline,
+            )
 
 
 def validate_structure(path: Path, family: str, outline: bool) -> TTFont:
@@ -79,10 +129,11 @@ def validate_structure(path: Path, family: str, outline: bool) -> TTFont:
 
     gsub = feature_tags(font, "GSUB")
     gpos = feature_tags(font, "GPOS")
-    assert EXPECTED_GSUB <= gsub, (path, gsub)
+    expected_gsub = EXPECTED_GSUB | ({"rvrn"} if outline else set())
+    assert gsub == expected_gsub, (path, gsub, expected_gsub)
     assert EXPECTED_GPOS <= gpos, (path, gpos)
+    validate_stylistic_substitutions(font, outline)
     if outline:
-        assert "rvrn" in gsub
         assert font["GSUB"].table.FeatureVariations is not None
     assert "FILL" not in {axis.axisTag for axis in axes}
     return font

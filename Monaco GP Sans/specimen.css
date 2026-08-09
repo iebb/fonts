@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Monaco GP Sans";
-  src: url("fonts/MonacoGPSans%5Bwght%5D.woff2?v=1.002") format("woff2-variations");
+  src: url("fonts/MonacoGPSans%5Bwght%5D.woff2?v=1.003") format("woff2-variations");
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Monaco GP Sans Outline";
-  src: url("fonts/MonacoGPSansOutline%5Bwght%5D.woff2?v=1.002") format("woff2-variations");
+  src: url("fonts/MonacoGPSansOutline%5Bwght%5D.woff2?v=1.003") format("woff2-variations");
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -108,24 +108,32 @@ a {
   font-feature-settings: var(--feature-settings);
 }
 
-.poster-s {
-  font-feature-settings: "ss02" 1;
+.single-storey-a {
+  font-feature-settings: "ss01" 1;
 }
 
-.poster-figures {
+.poster-capitals {
   font-feature-settings: "ss03" 1;
 }
 
-.expanding-m {
-  font-feature-settings: "ss04" 1;
-}
-
-.barless-a {
-  font-feature-settings: "ss05" 1;
-}
-
-.poster-c {
+.poster-zero {
   font-feature-settings: "ss06" 1;
+}
+
+.poster-one {
+  font-feature-settings: "ss07" 1;
+}
+
+.poster-three {
+  font-feature-settings: "ss08" 1;
+}
+
+.poster-six-nine {
+  font-feature-settings: "ss09" 1;
+}
+
+.poster-date-figures {
+  font-feature-settings: "ss07" 1, "ss08" 1, "ss09" 1;
 }
 
 .hero {
@@ -435,16 +443,40 @@ button[aria-pressed="true"] {
   border-right: 0;
 }
 
-.alternate-grid article:last-child {
-  grid-column: 1 / -1;
-  border-right: 0;
+.alternate-grid article:nth-last-child(-n + 2) {
   border-bottom: 0;
 }
 
-.alternate-grid p {
-  margin: clamp(2rem, 5vw, 4rem) 0 0;
+.alternate-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: clamp(1.5rem, 4vw, 3rem);
+  border-top: 1px solid var(--rule);
+}
+
+.alternate-pair > div {
+  min-width: 0;
+  padding-top: 0.7rem;
+  overflow: hidden;
+}
+
+.alternate-pair > div + div {
+  padding-left: 1rem;
+  border-left: 1px solid var(--rule);
+}
+
+.alternate-pair span {
+  display: block;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.58rem;
+}
+
+.alternate-pair p {
+  margin: clamp(1.2rem, 3vw, 2.4rem) 0 0;
   color: var(--red);
-  font-size: clamp(3.5rem, 9vw, 9rem);
+  font-size: clamp(2.8rem, 6.8vw, 7rem);
   line-height: 0.78;
   letter-spacing: -0.04em;
   white-space: nowrap;
@@ -688,7 +720,7 @@ input:focus-visible {
 
   .alternate-grid article,
   .alternate-grid article:nth-child(2n),
-  .alternate-grid article:last-child {
+  .alternate-grid article:nth-last-child(-n + 2) {
     grid-column: auto;
     border-right: 0;
     border-bottom: 1px solid var(--rule);
