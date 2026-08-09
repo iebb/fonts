@@ -1,5 +1,19 @@
 # FONTLOG for Monaco GP Sans
 
+## 1.002 — 2026-08-09
+
+- Reworked A and Barless A with parallel, uniform legs, cap-aligned apexes,
+  and crossbar motion distributed across the weight axis.
+- Made all accented `ss05` Barless A forms reuse the same ten-point A body and
+  pinned their exact Outline bands every 50 units, including Á, Å, and Ą.
+- Stabilized 50-unit Outline interpolation samples for `£`, `a`, `b`, `g`,
+  `p`, `c`, and `ç`.
+- Kept the Poster S shelf semantically stable across the axis, without the
+  mid-axis wedge, and redesigned the `ss03` 3 with a straight seven-style top
+  and rounded lower bowl.
+- Retained the 1.001 AV/VA kerning schedule and expanded catalog validation to
+  compare every Outline glyph at 50-unit intervals.
+
 ## 1.001 — 2026-08-09
 
 - Preserved the default S Outline's stable native contour throughout the
@@ -36,5 +50,5 @@ license notices remain embedded in the font binaries and in `OFL.txt`.
 
 Frozen source SHA-256 values:
 
-- Filled: `dd5a970d58c862f21a9370e0870068b829fbd963171ee697fc838cc6346e7f65`
-- Outline: `b37bdf5d21de2d7e110197a916a1277895c8d0d6c53fb4e5dfa024ee86e70a99`
+- Filled: `f7a914b30f3c790217fc19b04c87f0b56f3719e4b133a5ef4fce5ec101a5ca01`
+- Outline: `49a3bb9a3e3ec2760c7d125a5e108b509e63ad326c287c47594f79c5c5353ffe`

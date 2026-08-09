@@ -71,8 +71,9 @@ python3 tools/validate_release.py \
 ```
 
 Validation checks names, script exclusions, the `wght` axis, all nine named
-weights, feature retention, TTF/WOFF2 parity, and exact outline/metric parity
-with the frozen inputs for every retained encoded glyph.
+weights, feature retention, and TTF/WOFF2 parity. Filled geometry and metrics
+are compared with the frozen input at every named weight; every retained
+Outline glyph is compared at 50-unit intervals across the full axis.
 
 ## License
 

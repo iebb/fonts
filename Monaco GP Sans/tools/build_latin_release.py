@@ -19,10 +19,10 @@ from fontTools.ttLib import TTFont
 
 
 SOURCE_SHA256 = {
-    "filled": "dd5a970d58c862f21a9370e0870068b829fbd963171ee697fc838cc6346e7f65",
-    "outline": "b37bdf5d21de2d7e110197a916a1277895c8d0d6c53fb4e5dfa024ee86e70a99",
+    "filled": "f7a914b30f3c790217fc19b04c87f0b56f3719e4b133a5ef4fce5ec101a5ca01",
+    "outline": "49a3bb9a3e3ec2760c7d125a5e108b509e63ad326c287c47594f79c5c5353ffe",
 }
-RELEASE_VERSION = "1.001"
+RELEASE_VERSION = "1.002"
 
 # Exact repertoire audited from the frozen source.  These ranges retain all
 # encoded Latin, Latin accents, combining marks, figures, punctuation, currency,

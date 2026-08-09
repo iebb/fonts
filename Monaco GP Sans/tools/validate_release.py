@@ -13,6 +13,7 @@ from fontTools.varLib.instancer import instantiateVariableFont
 
 
 WEIGHTS = tuple(range(100, 901, 100))
+OUTLINE_WEIGHTS = tuple(range(100, 901, 50))
 FORBIDDEN_RANGES = (
     (0x0370, 0x03FF, "Greek"),
     (0x1F00, 0x1FFF, "Greek Extended"),
@@ -26,7 +27,7 @@ FORBIDDEN_RANGES = (
 )
 EXPECTED_GSUB = {"ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "tnum"}
 EXPECTED_GPOS = {"kern", "mark", "mkmk"}
-RELEASE_VERSION = "1.001"
+RELEASE_VERSION = "1.002"
 
 
 def best_name(font: TTFont, name_id: int) -> str:
@@ -93,45 +94,79 @@ def glyph_record(font: TTFont, glyph_name: str):
     return pen.value
 
 
-def compare_at_weights(reference: Path, release: Path) -> None:
+def compare_at_weights(
+    reference: Path,
+    release: Path,
+    *,
+    weights: tuple[int, ...] = WEIGHTS,
+    all_glyphs: bool = False,
+) -> None:
     reference_variable = TTFont(reference, recalcTimestamp=False)
     release_variable = TTFont(release, recalcTimestamp=False)
     release_cmap = release_variable.getBestCmap()
     reference_cmap = reference_variable.getBestCmap()
     assert set(release_cmap) <= set(reference_cmap)
 
-    for weight in WEIGHTS:
+    if all_glyphs:
+        reference_glyphs = set(reference_variable.getGlyphOrder())
+        comparisons = [
+            (name, name, name)
+            for name in release_variable.getGlyphOrder()
+            if name in reference_glyphs
+        ]
+        assert len(comparisons) == len(release_variable.getGlyphOrder()), (
+            "release glyphs missing from reference",
+            sorted(set(release_variable.getGlyphOrder()) - reference_glyphs),
+        )
+    else:
+        comparisons = [
+            (hex(cp), release_name, reference_cmap[cp])
+            for cp, release_name in release_cmap.items()
+        ]
+
+    for weight in weights:
         reference_static = instantiateVariableFont(reference_variable, {"wght": weight}, inplace=False)
         release_static = instantiateVariableFont(release_variable, {"wght": weight}, inplace=False)
-        for cp, release_name in release_cmap.items():
-            reference_name = reference_cmap[cp]
+        for label, release_name, reference_name in comparisons:
             assert release_static["hmtx"].metrics[release_name] == reference_static["hmtx"].metrics[reference_name], (
-                hex(cp),
+                label,
                 weight,
                 "metrics",
             )
             assert glyph_record(release_static, release_name) == glyph_record(reference_static, reference_name), (
-                hex(cp),
+                label,
                 weight,
                 "outline",
             )
 
 
-def compare_ttf_woff2(ttf: Path, woff2: Path) -> None:
+def compare_ttf_woff2(
+    ttf: Path,
+    woff2: Path,
+    *,
+    weights: tuple[int, ...] = WEIGHTS,
+    all_glyphs: bool = False,
+) -> None:
     ttf_font = TTFont(ttf, recalcTimestamp=False)
     web_font = TTFont(woff2, recalcTimestamp=False)
     assert ttf_font.getBestCmap() == web_font.getBestCmap()
-    for weight in WEIGHTS:
+    if all_glyphs:
+        assert ttf_font.getGlyphOrder() == web_font.getGlyphOrder()
+        comparisons = [(name, name) for name in ttf_font.getGlyphOrder()]
+    else:
+        comparisons = [(hex(cp), name) for cp, name in ttf_font.getBestCmap().items()]
+
+    for weight in weights:
         ttf_static = instantiateVariableFont(ttf_font, {"wght": weight}, inplace=False)
         web_static = instantiateVariableFont(web_font, {"wght": weight}, inplace=False)
-        for cp, name in ttf_font.getBestCmap().items():
+        for label, name in comparisons:
             assert ttf_static["hmtx"].metrics[name] == web_static["hmtx"].metrics[name], (
-                hex(cp),
+                label,
                 weight,
                 "web metrics",
             )
             assert glyph_record(ttf_static, name) == glyph_record(web_static, name), (
-                hex(cp),
+                label,
                 weight,
                 "web outline",
             )
@@ -158,22 +193,34 @@ def main() -> None:
     validate_structure(files["outline_ttf"], "Monaco GP Sans Outline", True)
     validate_structure(files["outline_woff2"], "Monaco GP Sans Outline", True)
     compare_ttf_woff2(files["filled_ttf"], files["filled_woff2"])
-    compare_ttf_woff2(files["outline_ttf"], files["outline_woff2"])
+    compare_ttf_woff2(
+        files["outline_ttf"],
+        files["outline_woff2"],
+        weights=OUTLINE_WEIGHTS,
+        all_glyphs=True,
+    )
 
     if bool(args.filled_source) != bool(args.outline_source):
         raise SystemExit("Provide both frozen source fonts or neither")
     if args.filled_source:
         compare_at_weights(args.filled_source, files["filled_ttf"])
-        compare_at_weights(args.outline_source, files["outline_ttf"])
+        compare_at_weights(
+            args.outline_source,
+            files["outline_ttf"],
+            weights=OUTLINE_WEIGHTS,
+            all_glyphs=True,
+        )
 
     print("PASS: Monaco GP Sans Latin release")
     print("  families: Monaco GP Sans / Monaco GP Sans Outline")
     print("  weights: 100, 200, 300, 400, 500, 600, 700, 800, 900")
     print("  encoded codepoints: 437 each")
     print("  forbidden scripts: absent")
-    print("  TTF/WOFF2 parity: exact at all nine weights")
+    print("  Filled TTF/WOFF2 parity: exact at all nine named weights")
+    print("  Outline TTF/WOFF2 parity: all glyphs exact every 50 weight units")
     if args.filled_source:
-        print("  frozen-source geometry and metrics: exact at all nine weights")
+        print("  frozen-source geometry and metrics: exact at named Filled weights")
+        print("  frozen-source Outline geometry and metrics: all glyphs exact every 50 weight units")
 
 
 if __name__ == "__main__":
