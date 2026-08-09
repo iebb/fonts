@@ -19,9 +19,10 @@ from fontTools.ttLib import TTFont
 
 
 SOURCE_SHA256 = {
-    "filled": "f6f6f4be142f69daa479f8a04c213e8da28207fb7c1e49198eaedb08caf7d5ca",
-    "outline": "6112cb676a498cadf3c2593f07bfcbc3b44b963ed2bcf8216bad56bea46e507b",
+    "filled": "dd5a970d58c862f21a9370e0870068b829fbd963171ee697fc838cc6346e7f65",
+    "outline": "b37bdf5d21de2d7e110197a916a1277895c8d0d6c53fb4e5dfa024ee86e70a99",
 }
+RELEASE_VERSION = "1.001"
 
 # Exact repertoire audited from the frozen source.  These ranges retain all
 # encoded Latin, Latin accents, combining marks, figures, punctuation, currency,
@@ -155,7 +156,7 @@ def rewrite_existing_names(font: TTFont, kind: str) -> None:
                 "Monaco GP Sans is a renamed, Latin-only modified version derived from Monaco Vitesse 2.200.",
             )
         if record.nameID == 5:
-            value = "Version 1.000"
+            value = f"Version {RELEASE_VERSION}"
         record.string = value.encode(record.getEncoding(), errors="replace")
 
     # Replace the public identity records with a minimal, internally consistent
@@ -169,9 +170,9 @@ def rewrite_existing_names(font: TTFont, kind: str) -> None:
     values = {
         1: family,
         2: "Regular",
-        3: f"1.000;IEBB;{ps_family}-Regular",
+        3: f"{RELEASE_VERSION};IEBB;{ps_family}-Regular",
         4: f"{family} Regular",
-        5: "Version 1.000",
+        5: f"Version {RELEASE_VERSION}",
         6: f"{ps_family}-Regular",
         16: family,
         17: "Regular",
@@ -181,7 +182,7 @@ def rewrite_existing_names(font: TTFont, kind: str) -> None:
         font["name"].setName(value, name_id, 3, 1, 0x0409)
         font["name"].setName(value, name_id, 1, 0, 0)
 
-    font["head"].fontRevision = 1.0
+    font["head"].fontRevision = float(RELEASE_VERSION)
     font["OS/2"].achVendID = "IEBB"
 
 
@@ -246,7 +247,7 @@ def main() -> None:
 
     manifest = {
         "family": "Monaco GP Sans",
-        "version": "1.000",
+        "version": RELEASE_VERSION,
         "scope": "Latin only",
         "fonts": [
             build_one("filled", args.filled_source.resolve(), args.output_dir),

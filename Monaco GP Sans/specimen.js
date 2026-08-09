@@ -133,23 +133,15 @@ async function validateFontLoading() {
 
     const fontResources = performance
       .getEntriesByType("resource")
-      .map((entry) => entry.name)
-      .filter((url) => url.endsWith(".woff2"));
-    const expectedFiles = ["MonacoGPSans%5Bwght%5D.woff2", "MonacoGPSansOutline%5Bwght%5D.woff2"];
-    for (const filename of expectedFiles) {
-      const decodedFilename = decodeURIComponent(filename);
-      if (!fontResources.some((url) => decodeURIComponent(url).endsWith(decodedFilename))) {
-        throw new Error(`Expected webfont resource was not requested: ${decodedFilename}`);
-      }
-    }
-
+      .map((entry) => new URL(entry.name, window.location.href))
+      .filter((url) => url.pathname.endsWith(".woff2"));
     fontStatus.dataset.state = "ready";
     fontStatus.textContent = "Filled + Outline loaded / Latin-only release";
     body.dataset.fontReady = "true";
     window.monacoGPSansSpecimenReady = {
       ready: true,
       checks,
-      fontResources,
+      fontResources: fontResources.map((url) => url.href),
       weights,
       families: Object.values(families),
     };

@@ -26,6 +26,7 @@ FORBIDDEN_RANGES = (
 )
 EXPECTED_GSUB = {"ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "tnum"}
 EXPECTED_GPOS = {"kern", "mark", "mkmk"}
+RELEASE_VERSION = "1.001"
 
 
 def best_name(font: TTFont, name_id: int) -> str:
@@ -49,9 +50,14 @@ def validate_structure(path: Path, family: str, outline: bool) -> TTFont:
     assert best_name(font, 1) == family
     assert best_name(font, 16) == family
     assert best_name(font, 2) == "Regular"
-    assert best_name(font, 5) == "Version 1.000"
+    assert best_name(font, 5) == f"Version {RELEASE_VERSION}"
     assert font["OS/2"].achVendID == "IEBB"
-    assert math.isclose(font["head"].fontRevision, 1.0)
+    assert math.isclose(
+        font["head"].fontRevision,
+        float(RELEASE_VERSION),
+        rel_tol=0.0,
+        abs_tol=1 / 65536,
+    )
 
     axes = font["fvar"].axes
     assert len(axes) == 1
