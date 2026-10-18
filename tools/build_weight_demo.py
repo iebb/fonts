@@ -136,6 +136,9 @@ def main():
     args.output.mkdir(parents=True, exist_ok=True)
     masters = args.output / "masters"
     masters.mkdir(exist_ok=True)
+    (masters / "manifest.json").write_text(json.dumps({
+        "coverage_eligible": False, "status": "experimental weight masters",
+    }, indent=2) + "\n")
     source = TTFont(args.source)
     codepoints = sorted(source.getBestCmap())
     assert codepoints == list(range(0x3D000, 0x3D040)), "Expected the complete 64-glyph example"
@@ -224,6 +227,7 @@ def main():
         if (args.source.parent / filename).exists():
             shutil.copy2(args.source.parent / filename, args.output / filename)
     manifest = {
+        "coverage_eligible": False,
         "status": "experimental outline-weight prototype; not a completed script font",
         "source": str(args.source.relative_to(ROOT)),
         "source_sha256": hashlib.sha256(args.source.read_bytes()).hexdigest(),

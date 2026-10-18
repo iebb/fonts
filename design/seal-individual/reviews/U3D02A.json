@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D02A",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised ring now has three diagonals: two parallel rising strokes crossed by one falling stroke at two distinct intersections, leaving six white fields.",
+    "The winding upper return, long outer descender, inner ring stand with crossbar and baseline, and attached left ritual central stem are retained. The missing third ring stroke is resolved."
+  ],
+  "source_png": "design/seal-individual/U3D02A.png",
+  "source_png_sha256": "4fc7d61d5b410c7a876f00aebcdca1612476ce24110df75c9e46b90a377b6d35",
+  "reference_overview": "reference/seal/individual/U3D02A.png",
+  "reference_png_sha256": "f058f979215064c08ed270ba20a663e7544ace6824f09fe6bfcbda2e3430a4ba",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "2420f1ae8e6c18f48683d3008c3a14891c6c24c84ebddb3208030bd4f70d53a0",
+      "verdict": "match",
+      "notes": [
+        "The right component preserves its winding upper return and long outer descending stroke, enclosing a small X-divided rounded box on a stem with a crossbar and baseline.",
+        "The left two-bar, three-descender component is intact; all four witnesses show the same essential enclosed X and stand inventory."
+      ],
+      "reference_png_sha256": "f058f979215064c08ed270ba20a663e7544ace6824f09fe6bfcbda2e3430a4ba"
+    },
+    {
+      "source_png_sha256": "2420f1ae8e6c18f48683d3008c3a14891c6c24c84ebddb3208030bd4f70d53a0",
+      "verdict": "mismatch",
+      "notes": [
+        "Enlarged review of the inner ring shows three diagonal strokes in the reference: two parallel rising diagonals crossed by one falling diagonal, yielding six white fields in the THX construction.",
+        "The native drawing simplifies this to a plain two-stroke X with four fields, omitting one essential interior stroke.",
+        "The earlier contact-scale match is superseded; a second native attempt was requested after comparing the detailed ring in all supplied witnesses."
+      ],
+      "reference_png_sha256": "f058f979215064c08ed270ba20a663e7544ace6824f09fe6bfcbda2e3430a4ba"
+    }
+  ]
+}

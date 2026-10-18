@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D01C",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01C: LEFT is short detached upper horizontal above longer lower crossbar, three long descending legs, center attached and curved outer pair detached. RIGHT is the forked branching form shared by all four views. Two upper horn-like uprights lean inward downwards and join into ONE long central descending trunk. Before they meet, each upper horn has one short OUTWARD side branch: the left horn has a short branch pointing left, right horn has short branch pointing right; these two little branches are separate across the open space between horns, NOT a third continuous crossbar. Below the horn junction the central trunk crosses exactly TWO full horizontal crossbars, one at middle and one just below, and then continues down well past the lower crossbar. No bottom hook or dot. So two top horns, two short outward branches, two lower continuous horizontal bars, long center trunk. Choose coherent gently curved branch tips informed by all four specimens. Constant width with perfectly rounded terminals.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D01C.png",
+  "reference_sha256": "d255bc00dc86c92b73ad8a652204946246521c67cd863e97251fe40e7db8310e",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01C.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        346.8810119628906,
+        292.9800109863281,
+        372.05999755859375
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        347.473291015625,
+        295.0000061035156,
+        372.4532836914062
+      ],
+      "source_label": "TH-00027"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        345.4402160644531,
+        316.8398742675781,
+        367.44000244140625
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        347.473291015625,
+        321.6000061035156,
+        372.4532836914062
+      ],
+      "source_label": "C-00027"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        349.6941833496094,
+        345.33978271484375,
+        371.3159484863281
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        347.473291015625,
+        348.3000061035156,
+        372.4532836914062
+      ],
+      "source_label": "K-00027"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        346.8921813964844,
+        370.2398681640625,
+        371.9279479980469
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        347.473291015625,
+        375.0000061035156,
+        372.4532836914062
+      ],
+      "source_label": "D-00027"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-23075abd-c220-42c2-8860-9a068c29c02b.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D01C.png",
+  "output_sha256": "a31fded0dcc19bda45dfa52d63264b2350a56bb62dd5ead227a8cb9f67c0886c",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four views. Pair of upper horns, separate pair of outward branches, two full lower crossbars and long trunk preserved. Coherent gently descending outward branch structure supported by QJZ/DYC; no invented third continuous upper crossbar.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    97,
+    39,
+    986,
+    1097
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D01C.png"
+}

@@ -1,0 +1,103 @@
+{
+  "code_point": "U+3D02B",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal font glyph U+3D02B. First attached image is MAIN reference showing THX, CCZ and DYC historical specimens of this ONE character; QJZ is marked unavailable. Study ALL THREE available sources equally; don't invent unavailable evidence. Choose a coherent attested whole form. Second image is an enlarged chart close-up of the ring, provided ONLY so its fine internal stroke topology can be seen. It is NOT a separate output or a different character. Draw ONE COMPLETE glyph only.\n\nFull glyph structure: tall full-width CANOPY with smoothly rounded top corners, TWO long outside sides, and no bottom closing line; a short vertical tick rises at CENTER of its roof. Within canopy upper-left is a small reversed-S/zigzag curve with THREE horizontal levels. Upper-right are exactly TWO detached short horizontal strokes. Below the zigzag at lower-left is a small closed upright rounded rectangular RING; its center stem projects downward, crossed by short horizontal then ENDS on a longer horizontal baseline. At lower-right are exactly THREE separate long gently WAVY descending strokes. Every part stays inside the canopy with clear gaps; no fourth descending stroke. Preserve full character and do not output ring alone.\n\nCRITICAL RING TOPOLOGY, attested THX whole-form variant: Inside ring exactly THREE diagonal strokes, TWO PARALLEL RISING \"/\" strokes and ONE FALLING \"\\\". Falling diagonal joins upper-left rim to lower-right rim. Upper rising stroke has its LEFT TIP FREE INSIDE RING, at about25% of ring width and50% of ring height: there MUST be a CLEAR GAP between this free tip and left rim. Its right end joins TOP rim around65% of ring width. Lower rising diagonal joins lower-left/bottom rim around30% of ring width to RIGHT rim around40% of ring height. The TWO parallel rising strokes cross the falling diagonal at TWO DISTINCT POINTS. Do not merge them into plain X. Do not meet all3 at central point. Because upper rising left tip is free, the ring has FIVE white fields, with an open channel around this free tip along left side. No fourth diagonal. Enlarged detail shows this exact 3-line arrangement. Preserve all three interior strokes and the free-left-tip gap.\n\nOriginal harmonious sans-serif Gothic redraw with real smooth continuous stroke courses, exactly equal constant width about4% EM, round caps/joins, no brush taper, pressure, serifs, texture or swells. Keep all ring fields clear, balanced composition within central70% of square canvas, generous margins. Pure BLACK strokes on fully TRANSPARENT. Output exactly ONE WHOLE glyph, no labels, chart, grid, text, reference copies, frames, shadows or background.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D02B.png",
+  "additional_reference": "/tmp/U3D02B-ring.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [
+    "QJZ"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-b8e28354-4d76-4f0a-acfc-b633b42a345c.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D02B.png",
+  "original_pixels_unchanged": true,
+  "previous_attempt_issue": "Ring contained plain two-diagonal X; attested THX ring has three diagonals (two rising parallel + one falling), upper rising stroke starts freely inside left side, five fields.",
+  "sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
+  "reference_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D02B",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      190.1501922607422,
+      415.4693298339844,
+      201.30996704101562
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          188.4209747314453,
+          441.7799987792969,
+          213.5999755859375
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          188.95328674316406,
+          443.79999389648435,
+          213.93327941894532
+        ],
+        "source_label": "TH-00041"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          186.9801788330078,
+          465.6398620605469,
+          208.97998046875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          188.95328674316406,
+          470.3999938964844,
+          213.93327941894532
+        ],
+        "source_label": "C-00041"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          188.43215942382812,
+          519.0398559570312,
+          213.4679412841797
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          188.95328674316406,
+          523.7999938964844,
+          213.93327941894532
+        ],
+        "source_label": "D-00041"
+      }
+    }
+  },
+  "additional_reference_sha256": "37d95f95823071e70ab8484d7737fe331b8e7223d94c40fb7c075ad1af9ad25e",
+  "visual_review": {
+    "method": "white inspection composite compared against all available full specimens and enlarged chart ring detail",
+    "notes": "Attempt2 restores exactly three diagonals: two rising parallel plus one falling, upper rising left endpoint free inside ring with gap to rim, two distinct crossings and five white ring fields; whole glyph canopy and three wavy descenders retained.",
+    "confidence": "draft visual comparison; not scholarly certification",
+    "style_limitation": "Some native raster stroke-width variation remains in waved verticals and dash; centerline reconstruction must enforce uniform weight."
+  }
+}

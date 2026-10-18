@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D01B",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01B: LEFT is one short detached upper horizontal above a longer lower crossbar, three long descending legs under it, center attached and outer pair detached. RIGHT: one tall vertical rounded rectangular eye/belly with TWO internal horizontal rungs, giving exactly THREE stacked white counters. A short vertical stalk grows from the center of its top edge, extends upward, and has ONE short horizontal branch pointing RIGHT near its upper end (the stalk continues slightly above the branch). Under the bottom of the eye/belly, TWO long descending legs attach, gently curving outward apart toward the bottom. All four views share this eye+upper-right-branch+two-legs identity. Keep top stalk, exactly three belly counters, two feet, and separated left radical. Do not add a top roof or lower baseline. Keep all strokes the same4%canvas width, roundcaps and joins.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D01B.png",
+  "reference_sha256": "ad341025b67b0bde5dbb75c7d612efd3c0445ff2b72558395c68942e07ff99f7",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01B.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        315.2010192871094,
+        292.9800109863281,
+        340.3800048828125
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        315.73330078125,
+        295.0000061035156,
+        340.773291015625
+      ],
+      "source_label": "TH-00026"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        313.7602233886719,
+        316.8398742675781,
+        335.760009765625
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        315.73330078125,
+        321.6000061035156,
+        340.773291015625
+      ],
+      "source_label": "C-00026"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        318.0141906738281,
+        345.33978271484375,
+        339.6359558105469
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        315.73330078125,
+        348.3000061035156,
+        340.773291015625
+      ],
+      "source_label": "K-00026"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        315.2121887207031,
+        370.2398681640625,
+        340.2479553222656
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        315.73330078125,
+        375.0000061035156,
+        340.773291015625
+      ],
+      "source_label": "D-00026"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-98b6efbb-36c6-4c2d-ac86-57c5ff3d0006.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D01B.png",
+  "output_sha256": "52243e4aabc60b55086846e5d033ba8839b4191561147d2017dd282a5c148e6e",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four views. Upper stalk and single right branch, three eye/belly counters, two diverging attached feet, separate left two-bar/three-leg component all retained. Monoline rounded interpretation.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    322,
+    179,
+    980,
+    1101
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D01B.png"
+}

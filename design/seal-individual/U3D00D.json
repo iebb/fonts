@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D00D",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D00D. Preserve the top horizontal with split curved/bent neck connections into the broad outer arch, two long outer descending side legs, and the interior curving crossed/diagonal figure. The split neck differs from U+3D00C: do not substitute an ordinary full central vertical neck. Essential distinctive structure: the outer left side and outer right side have TWO separate inward bent necks approaching or joining the top horizontal at two different points. A clear open vertical slit lies between these two necks directly under the top bar. DO NOT replace this with one central neck or a continuous arch roof below the top bar. The interior hooked crossed figure stays detached from the outer contour; preserve both lower curved diagonals. Choose the attached split-neck variant attested by CCZ/QJZ/DYC, while using all specimens as identity evidence.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D00D.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-3a6f08ff-d231-4148-9206-3b80ae59b36a.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D00D.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "cce25b379ec5ca3c18fad1205fa212c278872f52dfe176b815c862f1e7b5d91f",
+  "reference_sha256": "c84f0f58496073b326f7ea34e2dcefb6931939a10fc34a0b94ca0904a65d6393",
+  "source_evidence": {
+    "codepoint": "U+3D00D",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      507.13018798828125,
+      118.41938781738281,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          505.4009704589844,
+          144.17999267578125,
+          530.5799560546875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          505.93328247070315,
+          146.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "TH-00013"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          503.9601745605469,
+          168.03985595703125,
+          525.9599609375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          505.93328247070315,
+          172.8000030517578,
+          530.9732421875
+        ],
+        "source_label": "C-00013"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          508.2141418457031,
+          196.539794921875,
+          529.8359375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          505.93328247070315,
+          199.5000030517578,
+          530.9732421875
+        ],
+        "source_label": "K-00013"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          505.4121398925781,
+          221.43984985351562,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          505.93328247070315,
+          226.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "D-00013"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "All four show split outer necks and internal crossed curved figure. Output uses the attached two-neck variant attested by CCZ/QJZ/DYC, with central white slit beneath top bar and no added central neck. Inner figure remains detached from outer contour and preserves both lower curved ends.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

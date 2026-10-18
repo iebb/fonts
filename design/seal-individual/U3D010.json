@@ -1,0 +1,78 @@
+{
+  "codepoint": "U+3D010",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific character U+3D010: EXACTLY TWO DISCONNECTED HORIZONTAL STROKES, far apart vertically as in both available specimens. The upper stroke is longer, lower stroke centered beneath. Upper stroke centerline from (20%,22%) to (80%,22%) of the canvas; lower stroke centerline from (30%,78%) to (70%,78%). Therefore a generous VERTICAL GAP of 56% of full canvas height, comparable to the upper stroke's 60% full canvas length. It must not look like a cramped equals sign. Both strokes width 4% full canvas, parallel, completely straight with semicircular rounded ends. No other strokes.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D010.png",
+  "reference_sha256": "70c1e4803fe6bf0ed96f15b3c26bc6c7fdfec4f16e81801719ee8029d79131e9",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D010.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "xiaozhuan1",
+      "font_size": 21.0,
+      "bbox": [
+        123.18000030517578,
+        603.5880126953125,
+        144.17999267578125,
+        625.0499877929688
+      ],
+      "crop_bbox": [
+        121.20000305175782,
+        601.0332275390625,
+        146.20000305175782,
+        626.0732788085937
+      ],
+      "source_label": "TH-Y002"
+    },
+    "CCZ": {
+      "available": false,
+      "reason": "blank source column in chart"
+    },
+    "QJZ": {
+      "available": false,
+      "reason": "blank source column in chart"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        206.0399932861328,
+        600.51220703125,
+        221.43984985351562,
+        625.5479736328125
+      ],
+      "crop_bbox": [
+        201.20000305175782,
+        601.0332275390625,
+        226.20000305175782,
+        626.0732788085937
+      ],
+      "source_label": "D-00015"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-15a04271-7314-4f76-be10-cb0151dd2e63.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D010.png",
+  "output_sha256": "b707e7789ed8e116087df12ddad5b64189e9c58a9491972f40d9732582485362",
+  "attempt": 2,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared both available THX and DYC specimens; two detached horizontal strokes, longer upper, shorter centered lower, generous vertical separation, uniform rounded stroke weight. First attempt compressed the vertical gap; second retained correct separation.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    67,
+    282,
+    1184,
+    1020
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D010.png"
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D021",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D021.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL STRUCTURAL IDENTITY: Left ritual radical: detached short top horizontal, longer horizontal below, three separated long descending strokes. On right upper half: open-topped rounded bowl, its two uprights project above the crossing horizontal; X diagonal cross fills the bowl interior. Detached beneath it: broad top horizontal with two gently outward-curving side legs. BETWEEN the legs is a soil-sign staff: ONE short central vertical crosses ONE middle small horizontal and ENDS exactly ON the lower small horizontal baseline. IMPORTANT: the central vertical DOES NOT extend beneath the lower baseline. Shape this lower staff like \u571f, with no downward protrusion below its lower bar. The lower horizontal may remain detached from the side legs, as in the QJZ attested whole form. Keep generous visible space inside this lower structure.",
+  "reference": "reference/seal/individual/U3D021.png",
+  "reference_sha256": "8455f5588c2333a1752094940b73d212bbaa8ca32163e3c4958b092ceb54a9bf",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D021",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      507.13018798828125,
+      265.5594177246094,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          505.4009704589844,
+          292.9800109863281,
+          530.5799560546875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          505.93328247070315,
+          295.0000061035156,
+          530.9732421875
+        ],
+        "source_label": "TH-00032"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          503.9601745605469,
+          316.8398742675781,
+          525.9599609375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          505.93328247070315,
+          321.6000061035156,
+          530.9732421875
+        ],
+        "source_label": "C-00032"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          508.2141418457031,
+          345.33978271484375,
+          529.8359375
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          505.93328247070315,
+          348.3000061035156,
+          530.9732421875
+        ],
+        "source_label": "K-00032"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          505.4121398925781,
+          370.2398681640625,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          505.93328247070315,
+          375.0000061035156,
+          530.9732421875
+        ],
+        "source_label": "D-00032"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-e05b3a1e-c812-46a7-9377-16e733f8b8f3.png",
+  "output": "design/seal-individual/U3D021.png",
+  "output_sha256": "d57936456583ae8db42b8912fa3c1b46d31df4f83803b544bbc486142a1cf3b9",
+  "attempt": 2,
+  "review_status": "visual_reference_pass_candidate",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "previous_attempt": "design/seal-individual/attempts/U3D021-attempt1.json",
+  "visual_review_note": "Second attempt: center soil stem ends at baseline; coherent QJZ-type detached soil baseline; independently reviewed as matching."
+}

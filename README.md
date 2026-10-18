@@ -2,22 +2,32 @@
 
 A sans-serif font family and supplements targeting the **Unicode 19 development draft**. This project prioritizes authentic character shapes for codepoints missing from Noto. Hex labels, tofu boxes and other placeholders do not count toward coverage.
 
-## 64-character Small Seal example
+## Small Seal: independent drawings and real strokes
 
-The current design example covers **U+3D000–U+3D03F**. All 64 glyphs were redrawn with `image_gen.imagegen` from raster references prepared from the official Unicode chart, then converted to smooth quadratic TrueType outlines. The glyphs contain only character strokes. Original ImageGen source sheets and generation records are retained in `design/seal/`.
+The current design sample targets **U+3D000–U+3D03F**. Each character gets its own `image_gen.imagegen` drawing informed by all available **THX, CCZ, QJZ and DYC** specimens in the official Unicode chart. Missing specimens remain marked unavailable. Where historical variants differ, a coherent attested construction is chosen; incompatible components are not blended.
 
-- Preview: `fonts/seal-example/preview-64.png`
-- Installable font: `fonts/seal-example/PanoramaGothicSealExample-Regular.ttf`
-- Browser font: `fonts/seal-example/PanoramaGothicSealExample-Regular.woff`
-- Download package: `Panorama-Gothic-Seal-64-sample.zip`
+The original generated PNGs and complete prompts are preserved in `design/seal-individual/`. Separate visual reviews record branches, counters, detachments, specimen availability and the exact PNG hash. A drawing that loses a component is rejected. Any subsequent manual correction to the font geometry is explicitly recorded; it does not turn the rejected PNG into an approved drawing.
 
-This is an experimental design sample. It is excluded from the production coverage count. It does not claim completion of the 11,328-character Small Seal repertoire or the complete Unicode 19 font.
+The font source is **editable Bézier centerlines**, stored as JSON and SVG in `design/strokes-individual/`. Each stroke uses one shared width of **43 units per 1024-unit em**, with round caps and joins. Automatic tracking follows the skeleton of the new drawing; hand-reviewed overrides take precedence. The reference font outlines and brush perimeters are not used to construct the new font. TrueType stores the constant-radius expansion of these centerlines as filled outlines.
 
-### Variable-weight study
+The native generated drawing remains the main guide for trajectories, shape and proportions. Repairs preserve that drawing and change only a confirmed omission or a tracking defect. U+3D034, for example, adds the missing left descending leg beneath its upper shoulder while retaining the other stroke courses.
 
-`fonts/seal-variable/` contains a real `wght` axis from 300 to 700, with Light, Regular, Medium and Bold named instances. Regular 400 preserves the original outlines and spacing. `weight-comparison.png` shows four weights; `weight-slider.html` is a self-contained interactive specimen.
+- Stroke construction example: `fonts/seal-individual/stroke-comparison.png`
+- Interactive path replay: `fonts/seal-individual/stroke-playback.html`
+- Font preview: `fonts/seal-individual/preview-64.png`
+- Installable font: `fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf`
+- Download package: `dist/Panorama-Gothic-Seal-Stroke-64.zip`
+- Editable example: `design/strokes-individual/U3D001.svg`
 
-This weight study is a prototype made by adjusting the font outlines. Dense glyphs need optical corrections to their fine joins and counters before the heavy weights are production-ready. The original ImageGen artwork is unchanged. Rebuild with `python tools/build_weight_demo.py` and `python tools/render_weight_demo.py`.
+The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status is recorded individually. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
+
+### Weight from pen width
+
+`tools/build_stroke_variable.py` builds a real `wght` axis from 300 to 700 using **identical centerlines in every master**. Only the shared pen width changes: Light 30, Regular 43, Bold 65 units. Medium 500 interpolates between Regular and Bold. Advances stay fixed. Heavy strokes can close small gaps or counters; these forms still need optical review.
+
+The variable font and self-contained slider are written to `fonts/seal-individual-variable/`. The older `fonts/seal-variable/` outline-offset study is retained for comparison. The single-style `fonts/seal-example/` and grouped four-source `fonts/seal-redraw/` studies are superseded; the latter contains known identity errors and is marked rejected.
+
+This sample does not complete the **11,328-character Small Seal repertoire** or the full Unicode development target.
 
 The family is split into multiple font files because OpenType limits each face to 65,535 glyphs. Original script shaping is retained in Noto-derived faces. Supplements are kept in separate files with their original licenses.
 
@@ -40,11 +50,25 @@ python -m pip install -r requirements.txt
 make test
 ```
 
+To rebuild the stroke sample after individual generation and review (additional dependencies are in `requirements-tracing.txt`):
+
+```sh
+python tools/track_centerlines.py --single-images
+python tools/build_stroke_font.py --source-root design/strokes-individual --output fonts/seal-individual --family "Panorama Gothic Seal Individual" --font-stroke-width 43 --require-visual-match
+python tools/render_stroke_font.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf --output fonts/seal-individual
+python tools/render_stroke_demo.py --source design/strokes-individual/U3D001.json --output fonts/seal-individual
+python tools/audit_stroke_sample.py
+python tools/build_stroke_variable.py
+python tools/render_weight_demo.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf --output fonts/seal-individual-variable
+```
+
 Build and installation instructions, generated fonts and the verified coverage summary are added as each source is integrated.
 
 ## Coverage policy
 
 Graphic characters require a real character glyph. Controls, formatting characters, private-use values, surrogates and unassigned values are accounted for separately. A cmap entry alone does not prove usable shaping, mark positioning, variation sequences or emoji sequences. Bitmap-derived supplements retain a coarse grid design and are reported separately from smooth Noto and Plangothic outlines.
+
+The audited output currently maps **156,434 of 172,636** target characters. The remaining **16,202** are Small Seal (11,328), Egyptian Hieroglyphs Extended-A (3,995), Jurchen (870) and Jurchen Radicals (9). Experimental redraws are excluded. The development data is pinned to commit `4fd8eca90b30aa4c72543ccddb4c15d05becdf8d`; its six audited UCD files were verified on 2026-10-18 and are byte-identical to the preceding baseline. See `coverage/README.md` for the full audit and its limits.
 
 ## Licensing
 

@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D016",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D016: one short upper horizontal LINE, and below it THREE separate parallel S-curving vertical lines; to their right one FOURTH, independent longer S-curving vertical line beginning at the top bar's height. Exactly FOUR descending lines. They bow gently right near upper section, left through middle, right near bottom. Fourth begins with a rounded upper arc sweeping right and ends sweeping right, but is the SAME WIDTH as the other lines. Choose the shared flowing identity attested by THX/CCZ/DYC, considering QJZ without copying its brush. Essential style requirement: ALL FIVE STROKES ARE MATHEMATICALLY MONOLINE: each stroke is a single simple centerline expanded by exactly 4% of canvas width, equal width even around bends. The upper horizontal must be a geometrical capsule with two straight PARALLEL horizontal sides and two semicircular endcaps, not a lens, not a tapered brush dab. No lenticular pointed shapes, no pressure-modulated strokes, no filled brush shapes. The four descending strokes keep precisely equal width from rounded beginning to rounded end. Only the paths curve; their width never changes.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D016.png",
+  "reference_sha256": "b93aad72692615ea541438bbeff761ab50781bf017b28818bb457065eccff655",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D016.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        156.6809844970703,
+        292.9800109863281,
+        181.8599853515625
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        157.2732940673828,
+        295.0000061035156,
+        182.25328674316407
+      ],
+      "source_label": "TH-00021"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        155.2401885986328,
+        316.8398742675781,
+        177.239990234375
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        157.2732940673828,
+        321.6000061035156,
+        182.25328674316407
+      ],
+      "source_label": "C-00021"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        159.49417114257812,
+        345.33978271484375,
+        181.11595153808594
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        157.2732940673828,
+        348.3000061035156,
+        182.25328674316407
+      ],
+      "source_label": "K-00021"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        156.69216918945312,
+        370.2398681640625,
+        181.7279510498047
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        157.2732940673828,
+        375.0000061035156,
+        182.25328674316407
+      ],
+      "source_label": "D-00021"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-be2e8395-1f42-4763-be1d-b8938ef3368e.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D016.png",
+  "output_sha256": "31d5c47a117a5e356f039b1325e009e8e66d92a4dbb5fd4a942e387cfc8cd0c3",
+  "attempt": 2,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four specimens: short cap over three grouped sinuous strokes plus independent fourth longer right curve. First attempt copied a lenticular pressure-shaped cap; second uses constant-width capsule cap and uniform rounded curve paths. Chosen flowing variant is attested in THX/CCZ/DYC.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    363,
+    211,
+    1178,
+    1230
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D016.png"
+}

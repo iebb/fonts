@@ -1,0 +1,180 @@
+{
+  "source": "/workspace/unifont/design/strokes-individual/U3D023.svg",
+  "passed": true,
+  "stroke_count": 11,
+  "uniform_width": 43.0,
+  "strokes": [
+    {
+      "id": "ritual-top",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "ritual-bar",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "ritual-main",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "ritual-left",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": 486.808868,
+      "inner_offset_radius_positive": true
+    },
+    {
+      "id": "ritual-right",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": 473.380067,
+      "inner_offset_radius_positive": true
+    },
+    {
+      "id": "upper-frame",
+      "width": 43.0,
+      "segments": 9,
+      "closed": false,
+      "maximum_join_angle_degrees": 0.0,
+      "minimum_curve_radius": 30.522859,
+      "inner_offset_radius_positive": true
+    },
+    {
+      "id": "upper-divider",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "foot-top",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "foot-main",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "foot-left-and-base",
+      "width": 43.0,
+      "segments": 3,
+      "closed": false,
+      "maximum_join_angle_degrees": 0.0,
+      "minimum_curve_radius": 49.976481,
+      "inner_offset_radius_positive": true
+    },
+    {
+      "id": "foot-middle-return",
+      "width": 43.0,
+      "segments": 3,
+      "closed": false,
+      "maximum_join_angle_degrees": 0.0,
+      "minimum_curve_radius": 24.022879,
+      "inner_offset_radius_positive": true
+    }
+  ],
+  "junctions": [
+    {
+      "strokes": [
+        "ritual-bar",
+        "ritual-main"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "ritual-right",
+        "foot-left-and-base"
+      ],
+      "minimum_centerline_distance": 105.627195,
+      "centerlines_intersect": false,
+      "round_stroke_ink_connects": false
+    },
+    {
+      "strokes": [
+        "upper-frame",
+        "upper-divider"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "foot-top",
+        "foot-main"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "foot-main",
+        "foot-left-and-base"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "foot-main",
+        "foot-middle-return"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "foot-middle-return",
+        "foot-left-and-base"
+      ],
+      "minimum_centerline_distance": 81.68573,
+      "centerlines_intersect": false,
+      "round_stroke_ink_connects": false
+    }
+  ],
+  "errors": [],
+  "scope": "Editable geometry contract; join angles are descriptive, not a historical stroke-order claim.",
+  "source_data": {
+    "source": "/workspace/unifont/design/strokes-individual/U3D023.json",
+    "stroke_count": 11,
+    "svg_matches_editable_paths": true,
+    "errors": []
+  }
+}

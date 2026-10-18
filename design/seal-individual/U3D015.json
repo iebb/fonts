@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D015",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D015: retain the two-component structure in all four specimens. Left has a short upper horizontal over a longer horizontal and three descending legs; center attached, outer two detached. Right TOP is an open-topped rounded U lattice with TWO internal vertical uprights extending above its sides. IMPORTANT: the upper right lattice has EXACTLY NINE WHITE COUNTERS in THREE COLUMNS BY THREE ROWS, not six. It has FOUR VERTICAL grid lines total (outer left, inner left, inner right, outer right) and FOUR HORIZONTAL LEVELS total (three upper rungs plus the rounded bottom), making 3x3 holes. All 9 holes must remain visible. Approximate lattice centerlines: x=53%,63%,73%,83%; horizontal rungs y=25%,35%,45% and curved bottom y=55%; outer side tops at19%, inner upright tops at15%. So these are three distinct crossbars ABOVE its bottom, not two. Under this lattice a separate short horizontal line at y=62%. Under that a rounded rectangular bowl counter from about y69% to77%, supported by TWO short vertical feet below that bowl, reaching one long bottom baseline at85%. Do not add other components. Keep uniform4%-canvas stroke width, round ends, flowing curves.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D015.png",
+  "reference_sha256": "00c15d7e7abc681e26469ec1c1aecea31d1a06a1adadc404fd315503d839aa3c",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D015.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        125.0009994506836,
+        292.9800109863281,
+        150.17999267578125
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        125.53331146240234,
+        295.0000061035156,
+        150.57329406738282
+      ],
+      "source_label": "TH-00020"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        123.56019592285156,
+        316.8398742675781,
+        145.55999755859375
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        125.53331146240234,
+        321.6000061035156,
+        150.57329406738282
+      ],
+      "source_label": "C-00020"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        127.8141860961914,
+        345.33978271484375,
+        149.4359588623047
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        125.53331146240234,
+        348.3000061035156,
+        150.57329406738282
+      ],
+      "source_label": "K-00020"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        125.0121841430664,
+        370.2398681640625,
+        150.04795837402344
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        125.53331146240234,
+        375.0000061035156,
+        150.57329406738282
+      ],
+      "source_label": "D-00020"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-7ce8ffb9-009b-4660-8ccc-0ef28c74496b.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D015.png",
+  "output_sha256": "0aa32d769fcbda2b5c3c0b3e51433d11619953519b5f9c48ba7e254c9ce941e6",
+  "attempt": 2,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four specimens. First attempt omitted one lattice row. Second has 3x3=9 upper lattice counters, four uprights with taller inner pair, separate separator, lower closed bowl on twin feet and baseline, left two-bar/three-leg form. Original attempt records preserved.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    191,
+    195,
+    1076,
+    1128
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D015.png"
+}

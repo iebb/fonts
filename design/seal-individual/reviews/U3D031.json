@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D031",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Revised drawing restores the independent middle two-horizontal-bar component joined by a short vertical. It is now clearly detached from the lower curled component.",
+    "The upper prongs, left three-leg component, and lower curl with two inner strokes agree with the supplied specimens.",
+    "The previous missing-bar mismatch is resolved; the rejected earlier PNG hash is retained in review history."
+  ],
+  "source_png": "design/seal-individual/U3D031.png",
+  "source_png_sha256": "622ea5dea865735760171d6de7282f0d8d153d7bd1cc1eeefd636ef42d4b1179",
+  "reference_overview": "reference/seal/individual/U3D031.png",
+  "reference_png_sha256": "24b411b3b4ca8bcf9d01e0a3b23c918a58cc4a4f1853239a91cf7d4cf3b72790",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "9b4c463caa07735365b92ca4d4ed0aa98995ca57ba5b8e1aa88bc1ee94a66e42",
+      "verdict": "mismatch",
+      "notes": [
+        "All four chart variants show an independent middle component consisting of two horizontal bars joined by a short vertical, between the upper prongs and the lower curled component.",
+        "The generated drawing omits the separate lower horizontal bar of this middle component and merges its vertical into the lower arch. This changes the component separation and stroke inventory.",
+        "Redraw requested from consensus_d; this verdict applies to the current PNG hash."
+      ],
+      "reference_png_sha256": "24b411b3b4ca8bcf9d01e0a3b23c918a58cc4a4f1853239a91cf7d4cf3b72790"
+    }
+  ]
+}

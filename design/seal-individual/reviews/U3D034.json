@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D034",
+  "verdict": "mismatch",
+  "reviewer": "independent visual structural re-review by consensus_d",
+  "notes": [
+    "THX, CCZ, QJZ and DYC all show three long descending courses in the right component, in addition to the three ritual-component descenders.",
+    "The unchanged native PNG omits the left descending leg of the inner neck-and-two-leg/\u03a0-shaped component; it has only two right-side descenders and five major lower ends in total.",
+    "The missing leg branches down from the left shoulder/neck before the native top course turns right and descends as the existing inner leg. The far-right hooked stem and detached short mark are already present.",
+    "This mismatch concerns the original native PNG. Corrected editable centerline geometry has a separate matching-hash review and restores only this omitted course while retaining the native drawing shapes."
+  ],
+  "source_png": "design/seal-individual/U3D034.png",
+  "source_png_sha256": "5f86905a6a016c2b29fb706df1b23e5200a92de28fdb91247735aa2e2f579e80",
+  "reference_overview": "reference/seal/individual/U3D034.png",
+  "reference_png_sha256": "7c749b0142fead53a4b723192434cafff5920eb89bea8c1ea50595a0f8b15e8b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "history": [
+    {
+      "superseded_review": {
+        "schema_version": 1,
+        "codepoint": "U+3D034",
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The left component retains two horizontal bars and three descenders. Two additional tall stems form the right component; the rightmost carries the upper inward hooked/diagonal structure and detached short lower tick.",
+          "The drawing remains consistent with the attested right-hand hooked structure and does not replace it with a closed stacked rectangular enclosure."
+        ],
+        "source_png": "design/seal-individual/U3D034.png",
+        "source_png_sha256": "5f86905a6a016c2b29fb706df1b23e5200a92de28fdb91247735aa2e2f579e80",
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reference_png_sha256": "7c749b0142fead53a4b723192434cafff5920eb89bea8c1ea50595a0f8b15e8b",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "unavailable_specimens": [],
+        "limitations": [
+          "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+          "Does not verify historical writing order, exact metrics, or final font stroke width.",
+          "Verdict applies only to the source PNG hash recorded here."
+        ]
+      },
+      "reason": "User identified a missing stroke; enlarged independent comparison found the generated native PNG has only two right-side long descenders, whereas every specimen has three."
+    }
+  ]
+}

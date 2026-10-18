@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D027",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised drawing attaches the ritual central descender to the long second horizontal; its two flanking descenders remain independently placed.",
+    "The right component retains the tall flanking strokes, upper inward fork, central crossing branch and paired lower legs as in the four witnesses."
+  ],
+  "source_png": "design/seal-individual/U3D027.png",
+  "source_png_sha256": "34d3e2ba20b815a23b0e750cd9385f1d4ba1308ed35c50d459093a5fab61458b",
+  "reference_overview": "reference/seal/individual/U3D027.png",
+  "reference_png_sha256": "30f5531018027918d3bca266a7bb4c00ed7f7bce8b64e6d9ca87f9cf1c1c9cf2",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "91ddfbca8f6e07b906ecdb963c160338e24cc0499ca25cc64613a6e9173f53ab",
+      "verdict": "mismatch",
+      "notes": [
+        "Full-size inspection shows the central descender of the left ritual component detached from its long second horizontal bar. The chart witnesses attach this central stem to that bar.",
+        "Lateral descenders can remain detached as in THX, but the central attachment must be retained. A second native attempt was requested."
+      ],
+      "reference_png_sha256": "30f5531018027918d3bca266a7bb4c00ed7f7bce8b64e6d9ca87f9cf1c1c9cf2"
+    }
+  ]
+}

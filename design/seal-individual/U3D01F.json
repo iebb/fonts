@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D01F",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01F: LEFT is short detached upper bar over longer horizontal crossbar and three descending legs, center attached and gently curved outer pair detached. RIGHT upper form has TWO interlaced curved courses like the attested references. First course begins at upper-left as short horizontal, rounds clockwise around at right, then bends back LEFT into a lower short horizontal hook, open on its left. Second course starts separately from middle-left as a short horizontal, flows toward right and smoothly bends DOWN into one long outer-right descending upright extending almost to bottom; it meets/crosses the first hook near their right bend. This yields the shared two left-facing upper branches and long right-hand descender, not a modern rectangular roof or new closed upper box. BELOW the upper branches, inside the right form is a separate rounded-bottom U cup with short upright horn extensions on left and right and one horizontal crossline below their tips, making ONE closed white counter under the crossline. Keep the lower cup detached from upper branches and long outer-right descender. All four views attest this same upper bent courses + right descender + inner horned cup identity. Preserve both upper left-facing stroke ends, crossing/meeting bend, one long right leg and lower cup. Constant-width rounded smooth strokes.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D01F.png",
+  "reference_sha256": "c94c1d48a448e415e448ece85ce071eba16437d5f1bb992ac3ad3ac89b4772bf",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01F.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        441.98101806640625,
+        292.9800109863281,
+        467.1600036621094
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        442.57329711914065,
+        295.0000061035156,
+        467.55328979492185
+      ],
+      "source_label": "TH-00030"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        440.54022216796875,
+        316.8398742675781,
+        462.5400085449219
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        442.57329711914065,
+        321.6000061035156,
+        467.55328979492185
+      ],
+      "source_label": "C-00030"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        444.794189453125,
+        345.33978271484375,
+        466.41595458984375
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        442.57329711914065,
+        348.3000061035156,
+        467.55328979492185
+      ],
+      "source_label": "K-00030"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        441.9921875,
+        370.2398681640625,
+        467.0279541015625
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        442.57329711914065,
+        375.0000061035156,
+        467.55328979492185
+      ],
+      "source_label": "D-00030"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-74da03a9-5953-47d3-9c8c-bc3451eb4b25.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D01F.png",
+  "output_sha256": "be9e59ad9ecac4bb8f9ef8e7e47f60d4bebe77593568096281645279bfb41f3b",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four views. Upper rounded return hook crossing middle-left course that flows into long right descender retained, with separate lower horned U cup and single counter. Two left-facing upper courses, right bend and lower cup remain distinct.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    97,
+    234,
+    971,
+    1117
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D01F.png"
+}

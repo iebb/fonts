@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D024",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D024.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: Read the reference especially carefully: this is NOT a bowl-X or grid character. Left ritual radical = a short detached top horizontal, a long bar below, and three long descending strokes. Right component = a tall SINUOUS CENTRAL STROKE beginning upper-right, descending, bending left around midheight, then descending to bottom-left. On its upper-left is a separate comb-like vertical curving right at its bottom, with three right-pointing horizontal teeth. On its lower-right is an opposing reversed comb: right vertical curving left at its bottom, with three left-pointing horizontal teeth. Upper comb faces right, lower comb faces left, staggered around that long reverse-S stroke. Keep the upper and lower comb tooth counts and their real separations exactly as in the witnesses. No X, no boxed \u65e5, no extra square compartments.",
+  "reference": "reference/seal/individual/U3D024.png",
+  "reference_sha256": "046e9412def41278c8e4a6e045c382957d7b485b075717a0f521ef9f34971518",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D024",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      602.230224609375,
+      265.5594177246094,
+      613.3900146484375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          600.5009765625,
+          292.9800109863281,
+          625.6799926757812
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          601.0332275390625,
+          295.0000061035156,
+          626.0732788085937
+        ],
+        "source_label": "TH-00035"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          599.0601806640625,
+          316.8398742675781,
+          621.0599975585938
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          601.0332275390625,
+          321.6000061035156,
+          626.0732788085937
+        ],
+        "source_label": "C-00035"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          600.51220703125,
+          370.2398681640625,
+          625.5479736328125
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          601.0332275390625,
+          375.0000061035156,
+          626.0732788085937
+        ],
+        "source_label": "D-00035"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-3d8d024c-638d-4333-9f12-84616937709c.png",
+  "output": "design/seal-individual/U3D024.png",
+  "output_sha256": "4af80466ce0213c33f62c7b02cf1d9b255bcd5a702ee6056ffe9ee92512df260",
+  "attempt": 1,
+  "review_status": "rejected_identity_detail",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "Opposing combs each have four horizontal teeth rather than attested three, counting bottom return; one retry pending."
+}

@@ -1,0 +1,24 @@
+{
+  "code_point": "U+3D037",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. The reference contains FOUR historical specimens of the SAME character, labelled THX, CCZ, QJZ, DYC. These are evidence for one character: use all four to understand its identity and stroke structure. Produce one new original coherent Gothic/monoline interpretation, informed by all four rather than tracing THX or any single specimen's brush silhouette. When forms disagree, choose a coherent attested WHOLE form; never splice incompatible alternative structures. Preserve the essential branches, counters, detachments, number and arrangement of components, and distinctive ancient character identity. Do not substitute a modern Chinese character.\n\nTrace the real course of each stroke as a smooth centerline with rounded curves. Each stroke has exactly constant width throughout, approximately 4% of the full canvas width, with perfectly rounded caps and joins. No swelling, taper, serifs, brush texture, rough edges, pressure modulation, or pointed ends. Ensure the counters stay open and distinct strokes stay separated where the sources require it. Draw the glyph centered and occupying approximately the central 70% of a square canvas with generous clear margins, balanced spacing and a consistent sans-serif Gothic style.\n\nOutput exactly one glyph only, pure BLACK smooth monoline strokes on a fully TRANSPARENT background. No text, labels, chart, frame, grid, specimen copies, multiple alternatives, calligraphy, backdrop, shadows, or watermark.\n\nCharacter U+3D037. Essential structural reading aid, subordinate to the four specimens: Left ritual/altar component: top short dash, lower horizontal bar with long central stem, plus two separate flanking downstrokes. At right a single coherent crossed curved branch figure: forked two upward branches joining a rightward transverse arm at a crossing; from below crossing the stem runs down then splits into TWO long curving legs, left leg toward lower left and right leg bending down on right. Preserve this open crossed/forked figure; no enclosure/counter.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D037.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-d82fbf09-fd1e-4c60-b8aa-391fc07809a3.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D037.png",
+  "original_pixels_unchanged": true,
+  "sha256": "f9e6d8c7bb7b0a74fd8e7557f3d425f0aebce94b2fea89f69c242ed3db7f1729",
+  "reference_sha256": "17741369d1a9e390b7b20fb9cfbbd2f4453ad748b06100817815de02e1a4c000",
+  "visual_review": {
+    "method": "white-background inspection composite compared visually against THX, CCZ, QJZ, DYC",
+    "notes": "Compared all four specimens: ritual component and open crossed/forked right figure with two descending legs retained.",
+    "confidence": "draft visual comparison; not scholarly certification"
+  }
+}

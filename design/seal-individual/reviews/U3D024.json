@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D024",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised drawing now has exactly three teeth on both opposed combs, counting the bottom curved return on each.",
+    "The long S-like connecting stem and left two-bar, three-descender component remain consistent with THX/CCZ/DYC. QJZ is unavailable. The earlier excess-tooth mismatch is resolved."
+  ],
+  "source_png": "design/seal-individual/U3D024.png",
+  "source_png_sha256": "0967de5a53fe480705110d41658b19b11757023e2dc900e857a93fc71f8ffa32",
+  "reference_overview": "reference/seal/individual/U3D024.png",
+  "reference_png_sha256": "046e9412def41278c8e4a6e045c382957d7b485b075717a0f521ef9f34971518",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "QJZ"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "4af80466ce0213c33f62c7b02cf1d9b255bcd5a702ee6056ffe9ee92512df260",
+      "verdict": "mismatch",
+      "notes": [
+        "The upper E-shaped comb and lower reversed-E comb each have four horizontal teeth in the drawing, counting the bottom curved return as one.",
+        "All three available specimens, THX, CCZ and DYC, retain three horizontal teeth on each comb. QJZ is unavailable.",
+        "A second attempt with exactly two internal straight teeth plus the bottom curved return on each comb was requested."
+      ],
+      "reference_png_sha256": "046e9412def41278c8e4a6e045c382957d7b485b075717a0f521ef9f34971518"
+    }
+  ]
+}

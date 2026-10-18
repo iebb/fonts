@@ -1,0 +1,25 @@
+{
+  "code_point": "U+3D032",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. The reference contains FOUR historical specimens of the SAME character, labelled THX, CCZ, QJZ, DYC. These are evidence for one character: use all four to understand its identity and stroke structure. Produce one new original coherent Gothic/monoline interpretation, informed by all four rather than tracing THX or any single specimen's brush silhouette. When forms disagree, choose a coherent attested WHOLE form; never splice incompatible alternative structures. Preserve the essential branches, counters, detachments, number and arrangement of components, and distinctive ancient character identity. Do not substitute a modern Chinese character.\n\nTrace the real course of each stroke as a smooth centerline with rounded curves. Each stroke has exactly constant width throughout, approximately 4% of the full canvas width, with perfectly rounded caps and joins. No swelling, taper, serifs, brush texture, rough edges, pressure modulation, or pointed ends. Ensure the counters stay open and distinct strokes stay separated where the sources require it. Draw the glyph centered and occupying approximately the central 70% of a square canvas with generous clear margins, balanced spacing and a consistent sans-serif Gothic style.\n\nOutput exactly one glyph only, pure BLACK smooth monoline strokes on a fully TRANSPARENT background. No text, labels, chart, frame, grid, specimen copies, multiple alternatives, calligraphy, backdrop, shadows, or watermark.\n\nCharacter: U+3D032. Exact essential layout: left ritual/altar with detached upper dash, longer horizontal below, central long stem and two separate side descending strokes. Middle column must have TWO distinct branched units stacked. Its TOP unit is a \u7c73-like crossed star: one vertical stroke, one short horizontal crossing it, two upper diagonal/upright branches, and TWO lower diagonally outward branches from the crossing. Keep this clear; it is NOT a simple three-prong trident. The LOWER middle unit is a coherent bent/branched man-like form with upper angled branches and two descending/curving legs. The far right has a tall narrow rounded eye-like closed enclosure with THREE crossbars/internal divisions and a lower stem flowing into a curved serpentine tail. The far-right lower tail must be distinct from the middle lower branches. Carefully follow the four specimen structures, choosing a coherent whole attested form and keeping all essential crossbars, branches and counters. One glyph only, no reference labels.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D032.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "failed_identity_after_two_attempts",
+  "original_generated_file": "/workspace/generated_images/exec-0443c008-5bf7-4c5c-9d22-5514af76a576.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D032.png",
+  "original_pixels_unchanged": true,
+  "previous_attempt_issue": "Upper central branched unit reduced to trident, omitting transverse and lower branches.",
+  "sha256": "60055cff1f41035e79bf8d323916154721417afadf7514db5e059acfbf5aa82b",
+  "reference_sha256": "5d01d491d24b58b0ae82a694d52f82da9c0cf2767801a5759ffea5dd42407c84",
+  "visual_review": {
+    "method": "white-background inspection composite compared visually against THX, CCZ, QJZ, DYC",
+    "notes": "Attempt 2 restores middle \u7c73-like transverse and branches, but right stacked enclosure still lacks separate descending left leg attested in every reference. Must not be treated as a faithful final glyph.",
+    "confidence": "draft visual comparison; not scholarly certification"
+  }
+}

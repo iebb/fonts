@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D01A",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01A: LEFT has the short detached upper bar, longer lower crossbar, and three long descending legs. RIGHT has a long outer shelter stroke: top horizontal curves smoothly around its upper-left corner and descends as a long outside-left vertical almost to bottom. Inside this shelter preserve the intricate attested interlaced branching form; do not simplify into a modern character. An upper inner central stroke begins from a short top-right horizontal, turns down at its left end into a vertical stem, then turns right into a short lower hook; it also has a middle rightward cross branch. Near its upper end a tiny short curved branch folds down then right, as present in THX/CCZ/DYC. A separate crossing stroke begins with a short upper-left upright, descends then turns right across the central stem and rounds downward as the inside-right outer vertical, ending around lower-middle. Another inner-left descending upright curves right into the central middle branch, continues to lower-middle and branches to TWO long downward legs which gently spread apart toward bottom. Keep all observed bends, upper crossing branch, short inner right-facing hook, and the lower fork pair. The shared composition is shelter enclosing interlaced turned strokes over a two-leg fork. All available evidence must inform the result. Do not fuse near parallel stems, do not add enclosed boxes, keep attested open channels. Uniform-width rounded strokes, not the thick brush silhouettes.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D01A.png",
+  "reference_sha256": "461d69386597b58453c2a71d5c6a893042727d048628101ff12f506a18654f06",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01A.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        283.52099609375,
+        292.9800109863281,
+        308.6999816894531
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        284.05327758789065,
+        295.0000061035156,
+        309.03330078125
+      ],
+      "source_label": "TH-00025"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        282.0802001953125,
+        316.8398742675781,
+        304.0799865722656
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        284.05327758789065,
+        321.6000061035156,
+        309.03330078125
+      ],
+      "source_label": "C-00025"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        286.33416748046875,
+        345.33978271484375,
+        307.9559326171875
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        284.05327758789065,
+        348.3000061035156,
+        309.03330078125
+      ],
+      "source_label": "K-00025"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        283.53216552734375,
+        370.2398681640625,
+        308.56793212890625
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        284.05327758789065,
+        375.0000061035156,
+        309.03330078125
+      ],
+      "source_label": "D-00025"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-58615bf0-41a7-4740-969d-400c56622596.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D01A.png",
+  "output_sha256": "a911d567520674561d452bd60ef3a2258e538d7aec45daa2f144f4ac4656f8de",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four views, additionally enlarged inner right evidence. Outer shelter, turned central hook, upper short turned branch, crossing upright-to-right-descender, inner left descending branch and paired lower fork retained. Chosen coherent open-channel structure matches flowing THX and supports shared CCZ/DYC courses, while QJZ has a simplified upper branch. No modern-character substitution.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    264,
+    206,
+    935,
+    1099
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D01A.png"
+}

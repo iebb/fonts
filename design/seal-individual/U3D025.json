@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D025",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D025.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: Only THX and QJZ are available; consider both equally, and ignore the unavailable CCZ/DYC slots. Left ritual radical: detached short top horizontal, longer horizontal beneath, three separated descending strokes. Right component consists of THREE long vertical elements: a long central vertical full height, flanked by an opposing pair of detached combs. The left comb has a vertical and three horizontal rightward teeth, including a round bottom turn to the right; the right comb has a vertical and three horizontal leftward teeth, including a round bottom turn to the left. Keep the central pole detached from the teeth, with visible gaps either side. These opposing combs sit around the middle of the tall central pole.",
+  "reference": "reference/seal/individual/U3D025.png",
+  "reference_sha256": "0924b1c6adff3627948d400333f18d18f71097330b7afdd51591e423a0d07ba7",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D025",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      633.97021484375,
+      265.5594177246094,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          635.2680053710938,
+          292.9800109863281,
+          656.72998046875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          632.7732788085938,
+          295.0000061035156,
+          657.753271484375
+        ],
+        "source_label": "TH-Y003"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          634.9942016601562,
+          345.33978271484375,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          630.17021484375,
+          348.3000061035156,
+          657.753271484375
+        ],
+        "source_label": "K-00035"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-8b9357f1-b34a-4b6f-b58d-45dd1e10d4e4.png",
+  "output": "design/seal-individual/U3D025.png",
+  "output_sha256": "2e69d65503465a6c7c46df968ca60ed54ae23d2c04d4ceacf00eff629b3631e4",
+  "attempt": 1,
+  "review_status": "visual_reference_pass_candidate",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "Both available witnesses compared: opposing three-tooth combs, detached center pole and three-leg ritual radical retained."
+}

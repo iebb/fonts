@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D021",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Revised drawing resolves the lower central stem protrusion: the stem now ends at its lower horizontal baseline.",
+    "The detached lower baseline, upper bar and side legs form a coherent QJZ-type arrangement. The left three-leg component and X-filled upper basket retain the common attested structure.",
+    "Previous uncertainty applied to the earlier PNG hash and is retained in review history."
+  ],
+  "source_png": "design/seal-individual/U3D021.png",
+  "source_png_sha256": "d57936456583ae8db42b8912fa3c1b46d31df4f83803b544bbc486142a1cf3b9",
+  "reference_overview": "reference/seal/individual/U3D021.png",
+  "reference_png_sha256": "8455f5588c2333a1752094940b73d212bbaa8ca32163e3c4958b092ceb54a9bf",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "6b8ad1e95fc6e34c689b84fbf7532fcf8805e9cd87b5aa7bf863c1a30fd60ea3",
+      "verdict": "uncertain",
+      "notes": [
+        "Left component and upper X-filled basket agree with the references.",
+        "In the lower component the generated central vertical protrudes well below its short lower horizontal. The chart specimens appear to end this stem at the lower baseline; THX/DYC connect that baseline to side legs whereas QJZ detaches it.",
+        "A coherent attested baseline construction needs to be confirmed or redrawn before acceptance."
+      ],
+      "reference_png_sha256": "8455f5588c2333a1752094940b73d212bbaa8ca32163e3c4958b092ceb54a9bf"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "codepoint": "U+3D008",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D008. Preserve the single tall stem whose upper end curls in an S-like hook, with one short horizontal branch right at the lower-middle and one long horizontal baseline. Keep the hooked upper stroke curved and continuous, distinguish the small branch from the baseline. THX, CCZ and QJZ are available; DYC is unavailable. Compare all three available variants and use one coherent curving upper-stem construction.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D008.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-95b5ad24-ab34-491a-8633-ad1f445137e5.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D008.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "ecbbf111d14780dccd8786239704dd6215dd50c181f7e22e6a0fb49283e2e391",
+  "reference_sha256": "1095cf4f440c327474a4f83b28cabaca5e8d66a60f31ae313892d25659deb893",
+  "source_evidence": {
+    "codepoint": "U+3D008",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      348.6701965332031,
+      116.7594223022461,
+      359.8299560546875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          346.8810119628906,
+          144.17999267578125,
+          372.05999755859375
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          347.473291015625,
+          146.20000305175782,
+          372.4532836914062
+        ],
+        "source_label": "TH-00008"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          345.4402160644531,
+          168.03985595703125,
+          367.44000244140625
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          344.8701965332031,
+          172.8000030517578,
+          372.4532836914062
+        ],
+        "source_label": "C-00008"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          349.6941833496094,
+          196.539794921875,
+          371.3159484863281
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          344.8701965332031,
+          199.5000030517578,
+          372.4532836914062
+        ],
+        "source_label": "K-00008"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "Compared THX/CCZ/QJZ (DYC unavailable). Output retains common baseline, upright, lower right branch and bent upper trajectory. S-like curl is attested by THX/CCZ; QJZ has a more squared loop. Output uses coherent smooth curl, rather than mixing both constructions.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D028",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D028.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: This character is a SINGLE symmetrical THREE-DIAMOND crown form, not the usual left-right ritual compound. THREE hollow diamond counters sit across the top: taller central diamond, shorter left diamond, shorter right diamond. Each diamond has a long narrow downward stem. The left and right stems continue down into the two OUTERMOST long descenders. The central diamond stem descends only to the UPPER of two horizontal bars at midheight. In the QJZ/DYC attested whole form that upper horizontal is SHORT and DETACHED from the two outer stems. A second detached horizontal sits below the first, with a center vertical descender attached and two short detached side descenders underneath it. In total FIVE downward strokes below the bars: two outer diamond stems, three inner descenders. Preserve exactly THREE DIAMONDS, TWO horizontal bars and FIVE bottom descenders. Maintain clean separations. No circles substituted for diamonds.",
+  "reference": "reference/seal/individual/U3D028.png",
+  "reference_sha256": "728cd143c372c35582d9bf86934f99ed83425cbe6155b6674c5b0300fbecc00d",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D028",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      95.05015563964844,
+      414.3593444824219,
+      106.20993041992188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          93.32100677490234,
+          441.7799987792969,
+          118.50000762939453
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          91.25015563964844,
+          443.79999389648435,
+          118.83331146240235
+        ],
+        "source_label": "TH-00038"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          91.88020324707031,
+          465.6398620605469,
+          113.8800048828125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          91.25015563964844,
+          470.3999938964844,
+          118.83331146240235
+        ],
+        "source_label": "C-00038"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          96.13419342041016,
+          494.1398010253906,
+          117.75596618652344
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          91.25015563964844,
+          497.09999389648436,
+          118.83331146240235
+        ],
+        "source_label": "K-00038"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          93.33219146728516,
+          519.0398559570312,
+          118.36796569824219
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          91.25015563964844,
+          523.7999938964844,
+          118.83331146240235
+        ],
+        "source_label": "D-00038"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-85b5847c-fc56-44b6-b43c-7132d6707bfd.png",
+  "output": "design/seal-individual/U3D028.png",
+  "output_sha256": "9e5248b92212c5aabc78aa8c90ab82508911e13724e240fd06bce03dc8f6d19a",
+  "attempt": 1,
+  "review_status": "visual_reference_pass_candidate",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "All four references compared; three hollow diamond counters, center crown stem and detached two-bar arrangement coherent with QJZ/DYC; five descending strokes retained."
+}

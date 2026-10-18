@@ -1,0 +1,24 @@
+{
+  "code_point": "U+3D03E",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. The reference contains FOUR historical specimens of the SAME character, labelled THX, CCZ, QJZ, DYC. These are evidence for one character: use all four to understand its identity and stroke structure. Produce one new original coherent Gothic/monoline interpretation, informed by all four rather than tracing THX or any single specimen's brush silhouette. When forms disagree, choose a coherent attested WHOLE form; never splice incompatible alternative structures. Preserve the essential branches, counters, detachments, number and arrangement of components, and distinctive ancient character identity. Do not substitute a modern Chinese character.\n\nTrace the real course of each stroke as a smooth centerline with rounded curves. Each stroke has exactly constant width throughout, approximately 4% of the full canvas width, with perfectly rounded caps and joins. No swelling, taper, serifs, brush texture, rough edges, pressure modulation, or pointed ends. Ensure the counters stay open and distinct strokes stay separated where the sources require it. Draw the glyph centered and occupying approximately the central 70% of a square canvas with generous clear margins, balanced spacing and a consistent sans-serif Gothic style.\n\nOutput exactly one glyph only, pure BLACK smooth monoline strokes on a fully TRANSPARENT background. No text, labels, chart, frame, grid, specimen copies, multiple alternatives, calligraphy, backdrop, shadows, or watermark.\n\nCharacter U+3D03E. Essential structural reading aid, subordinate to the four specimens: Left ritual/altar component with top dash, lower horizontal attached to long central stem, and two separate flank descending strokes. On right a detached roof-shaped peak formed from two smoothly curved diagonals, with a SHORT DETACHED HORIZONTAL BAR just underneath inside the roof's base. Below the roof, clearly separated by a gap, a tall rounded U-shaped bowl with TWO short upper uprights and a crossbar between them creates ONE enclosed lower counter, leaving the two short upper prongs above the crossbar. Keep roof, interior bar and lower bowl as distinct structures.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D03E.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-41e7a49b-a7b8-4fff-b6d0-8f3178156b1d.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D03E.png",
+  "original_pixels_unchanged": true,
+  "sha256": "3b439c31f6ac909a0134ff01aff4bd798df48c60a55f9744567fe9c367e03f57",
+  "reference_sha256": "5881ab3409d91e061d2d9976fe13b38b1465996ba6b25ec9670b53a69ca0f9eb",
+  "visual_review": {
+    "method": "white-background inspection composite compared visually against THX, CCZ, QJZ, DYC",
+    "notes": "Compared all four specimens: left ritual component, separate roof, detached inner bar and lower pronged U with one counter retained.",
+    "confidence": "draft visual comparison; not scholarly certification"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D023",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D023.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL STRUCTURAL IDENTITY: Left ritual radical has detached short top horizontal over longer horizontal, and three separate long descending strokes. Upper right is an upright rounded rectangle divided by a horizontal into two stacked counters. Separate below it: a long top bar and middle vertical descending to a curved rightward bottom baseline. A detached left leg descends and smoothly joins the bottom baseline. On the right side there is a SMALL UPTURNING HOOK AT MID HEIGHT: begin at the central vertical's MIDDLE, run right a short way, then turn up into a short vertical return. This small right hook joins the central vertical around halfway down, far ABOVE the bottom baseline; it must NOT emerge from the bottom baseline. Match the THX/CCZ/QJZ topology of the small middle hook. There must be an OPEN SPACE separating that small hook from the bottom baseline.",
+  "reference": "reference/seal/individual/U3D023.png",
+  "reference_sha256": "629dcf9ce00eef6206e4af643f52f825c16d10bfa2de32e01fd0b357cd4b624c",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D023",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      570.5501708984375,
+      265.5594177246094,
+      581.7099609375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          568.8209838867188,
+          292.9800109863281,
+          594.0
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          569.3532958984375,
+          295.0000061035156,
+          594.3332275390625
+        ],
+        "source_label": "TH-00034"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          567.3801879882812,
+          316.8398742675781,
+          589.3800048828125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          569.3532958984375,
+          321.6000061035156,
+          594.3332275390625
+        ],
+        "source_label": "C-00034"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          571.6342163085938,
+          345.33978271484375,
+          593.2559814453125
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          569.3532958984375,
+          348.3000061035156,
+          594.3332275390625
+        ],
+        "source_label": "K-00034"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          568.8322143554688,
+          370.2398681640625,
+          593.8679809570312
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          569.3532958984375,
+          375.0000061035156,
+          594.3332275390625
+        ],
+        "source_label": "D-00034"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-6d3c3e52-a820-4044-8cb6-7ed2db5dbe6e.png",
+  "output": "design/seal-individual/U3D023.png",
+  "output_sha256": "119a7292db7a15ff44ac8b00f8912369afbec521cf141f4c72045a54bcefc564",
+  "attempt": 2,
+  "review_status": "failed_after_two_attempts",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "previous_attempt": "design/seal-individual/attempts/U3D023-attempt1.json",
+  "visual_review_note": "Second attempt corrects middle hook but fuses ritual radical right descender with the right foot; native candidate fails identity topology and needs centerline repair or exclusion."
+}

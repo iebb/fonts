@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D00A",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D00A. Preserve the single top horizontal and small triangular/curved inverted-cup connection to a central axis. Below it an outer arch terminates as two outer legs, while an inner arch and central axis create three inner downward ends. This character is distinct from U+3D009 by its top and neck. Select the coherent inverted-triangular neck with smoothly curved sides seen in three available specimens. Preserve FIVE lower downward ends: two outer arch ends, two inner arch ends, and central stem. The body uses two nested smooth arches joined to the central stem; retain a clear white triangular counter directly under the top bar.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D00A.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-44b4f25f-e351-444c-a666-133a1f956982.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D00A.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "65d02343549df89c72bef4458d15f766b56e198d54fb63dffaafd5d6ed3b8196",
+  "reference_sha256": "63dd2b9ab333e015c32e58177abf259391339596ebf6c553a91c57f4eb193bac",
+  "source_evidence": {
+    "codepoint": "U+3D00A",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      412.0301818847656,
+      117.86940002441406,
+      423.18994140625
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          410.3009948730469,
+          144.17999267578125,
+          435.47998046875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          410.83330688476565,
+          146.20000305175782,
+          435.8732971191406
+        ],
+        "source_label": "TH-00010"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          408.8601989746094,
+          168.03985595703125,
+          430.8599853515625
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          410.83330688476565,
+          172.8000030517578,
+          435.8732971191406
+        ],
+        "source_label": "C-00010"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          413.1141662597656,
+          196.539794921875,
+          434.7359313964844
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          410.83330688476565,
+          199.5000030517578,
+          435.8732971191406
+        ],
+        "source_label": "K-00010"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          410.3121643066406,
+          221.43984985351562,
+          435.3479309082031
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          410.83330688476565,
+          226.20000305175782,
+          435.8732971191406
+        ],
+        "source_label": "D-00010"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "Compared all four source specimens. Output chooses inverted triangular neck attested by THX/CCZ/DYC, retaining one top bar, two nested arches and central stem with five bottom terminations. QJZ rounded cup/H-like alternative was not mixed in.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

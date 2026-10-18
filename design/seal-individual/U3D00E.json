@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D00E",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D00E. Preserve top horizontal and the descending central stem, the broad outer enclosure, paired short upper interior marks on both sides of central stem, and lower curving crossed/diagonal figure. Distinguish the short paired interior marks from the longer lower branch. Count and spacing are essential: FOUR detached small upper interior strokes, TWO on the left and TWO on the right of the central downward stem, arranged in TWO levels. These four short strokes are the upper left/right paired marks visible in the reference; choose their coherent horizontal or slightly curving variant. Keep each short mark separated from the outer contour and central stem. The long central stem from top bar enters the outer arch and ends below these four marks, leaving a small clear gap before the lower inner crossed-curving figure. Preserve its left hook, crossing branch to right, and two curving downward legs.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D00E.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-0ed48fd7-7227-419f-a8f0-da845fe78952.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D00E.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "a6f93e3ee3f749f274e078e8d2643fd7870cbb8a127731e807b8e0261e6792bf",
+  "reference_sha256": "93fe98221bf36943166368e76c12e945db85ea0a34ab34574f87a36a0d5c7e3c",
+  "source_evidence": {
+    "codepoint": "U+3D00E",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      538.8701782226562,
+      117.86940002441406,
+      550.0299682617188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          537.0809936523438,
+          144.17999267578125,
+          562.260009765625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          537.6732421875,
+          146.20000305175782,
+          562.6532958984375
+        ],
+        "source_label": "TH-00014"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          535.6401977539062,
+          168.03985595703125,
+          557.6400146484375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          537.6732421875,
+          172.8000030517578,
+          562.6532958984375
+        ],
+        "source_label": "C-00014"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          539.8942260742188,
+          196.539794921875,
+          561.5159912109375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          537.6732421875,
+          199.5000030517578,
+          562.6532958984375
+        ],
+        "source_label": "K-00014"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          537.0922241210938,
+          221.43984985351562,
+          562.1279907226562
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          537.6732421875,
+          226.20000305175782,
+          562.6532958984375
+        ],
+        "source_label": "D-00014"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "Compared all four sources. Output retains top bar/stem, outer arch, four detached upper interior short marks in two left/right levels as attested THX/CCZ/QJZ, and separate lower crossed figure with hooked branch and two curved lower ends. Central stem remains separated from lower figure. DYC angled mark alternative was not mixed in.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

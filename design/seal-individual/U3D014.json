@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D014",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific character U+3D014: left component is the small two-bar/three-leg form: short detached upper horizontal above a longer lower horizontal, long straight center leg attached to lower bar, two shorter gently outward-curving side legs starting just below lower bar. Right component is a narrow tall upper cross and a rounded cup below. A vertical stem begins slightly above the left upper bar, crosses one horizontal near the top third of the glyph and descends to the cup's upper cross-line. Under the cross is a U-shaped rounded-bottom cup, whose left and right walls rise a little ABOVE its horizontal cross-line, making a tiny upright horn at each upper corner. One horizontal line closes the cup below the horns, making ONE closed lower counter. All specimens agree on this overall structure. Keep left and right components separated, not fused. No extra dot or branch.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D014.png",
+  "reference_sha256": "fad55e433f5df5ea69e662fdb20f561bec12910c4b1fbc0c997ef2671ab53762",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D014.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        93.32100677490234,
+        292.9800109863281,
+        118.50000762939453
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        91.25015563964844,
+        295.0000061035156,
+        118.83331146240235
+      ],
+      "source_label": "TH-00019"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        91.88020324707031,
+        316.8398742675781,
+        113.8800048828125
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        91.25015563964844,
+        321.6000061035156,
+        118.83331146240235
+      ],
+      "source_label": "C-00019"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        96.13419342041016,
+        345.33978271484375,
+        117.75596618652344
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        91.25015563964844,
+        348.3000061035156,
+        118.83331146240235
+      ],
+      "source_label": "K-00019"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        93.33219146728516,
+        370.2398681640625,
+        118.36796569824219
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        91.25015563964844,
+        375.0000061035156,
+        118.83331146240235
+      ],
+      "source_label": "D-00019"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-823dcb63-9193-486a-8bb9-6e66fb7a85be.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D014.png",
+  "output_sha256": "f6a17e3bd91119e3dd38d46ecec5434b3aa67159bd007b4ac49540d6a668b6dd",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four specimens. Left two-bar/three-leg component preserved. Right upright cross descends to horned U cup with one closed counter. Separate components and shared all-source identity retained.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    306,
+    317,
+    1121,
+    1075
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D014.png"
+}

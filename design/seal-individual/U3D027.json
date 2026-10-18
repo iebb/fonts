@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D027",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D027.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: CRITICAL ATTACHMENT: left ritual radical has detached short top horizontal. The LONG second horizontal and CENTER descending vertical MUST TOUCH and JOIN as one T-shaped stroke structure; there must be ZERO GAP between this bar and center vertical. Two separate side descenders stay detached. The right component has TWO long tall separate outer side strokes flanking a central branched structure. Central long stem has an upward right U-shaped branch hook near its upper third. Lower down two diagonal-curved long strokes cross and finish as separated outward feet. Preserve the top hook, lower crossing, both long flanking side strokes and the two feet, without adding bars or boxes.",
+  "reference": "reference/seal/individual/U3D027.png",
+  "reference_sha256": "30f5531018027918d3bca266a7bb4c00ed7f7bce8b64e6d9ca87f9cf1c1c9cf2",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D027",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      697.3302001953125,
+      265.5594177246094,
+      708.489990234375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          695.6010131835938,
+          292.9800109863281,
+          720.780029296875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          696.1332641601563,
+          295.0000061035156,
+          721.1732543945312
+        ],
+        "source_label": "TH-00037"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          694.1602172851562,
+          316.8398742675781,
+          716.1600341796875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          696.1332641601563,
+          321.6000061035156,
+          721.1732543945312
+        ],
+        "source_label": "C-00037"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          698.4142456054688,
+          345.33978271484375,
+          720.0360107421875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          696.1332641601563,
+          348.3000061035156,
+          721.1732543945312
+        ],
+        "source_label": "K-00037"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          695.6122436523438,
+          370.2398681640625,
+          720.6480102539062
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          696.1332641601563,
+          375.0000061035156,
+          721.1732543945312
+        ],
+        "source_label": "D-00037"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-899d5850-d5ba-4e73-8dda-38e9d2c4918d.png",
+  "output": "design/seal-individual/U3D027.png",
+  "output_sha256": "34d3e2ba20b815a23b0e750cd9385f1d4ba1308ed35c50d459093a5fab61458b",
+  "attempt": 2,
+  "review_status": "visual_reference_pass_candidate",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "previous_attempt": "design/seal-individual/attempts/U3D027-attempt1.json",
+  "visual_review_note": "Second attempt: middle ritual stem firmly attaches to long horizontal; flanking right strokes, upper U branch and lower crossing retained."
+}

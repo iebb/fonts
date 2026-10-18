@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D02B",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised ring now has three diagonals, including an upper rising stroke whose left endpoint stops inside the ring with a visible gap, forming the coherent THX five-field construction.",
+    "The outer roof with apex tick, upper-left winding return, two upper-right short bars, ring stand, and three inner right-hand wavy descenders remain intact.",
+    "THX, CCZ and DYC were compared; QJZ is blank. The former plain-X omission is resolved."
+  ],
+  "source_png": "design/seal-individual/U3D02B.png",
+  "source_png_sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
+  "reference_overview": "reference/seal/individual/U3D02B.png",
+  "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "QJZ"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "0caaa5f4fc3074f77e1329d77ac3059bffd51910d0c3d733dee7b17dc863c026",
+      "verdict": "mismatch",
+      "notes": [
+        "The inner ring carries three diagonal strokes in the reference: two parallel rising diagonals and one crossing falling diagonal. In THX the upper rising stroke ends slightly inside the left boundary, so exact counter connections differ from U+3D02A, but the third stroke is retained.",
+        "The native ring has only a plain two-stroke X. The remaining roof, inner upper motifs, stand, and three right-hand wavy descenders match, but the missing inner stroke requires correction.",
+        "A second native attempt was requested. QJZ is unavailable; THX, CCZ and DYC were compared."
+      ],
+      "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421"
+    }
+  ],
+  "non_stroke_artifacts": [
+    {
+      "description": "Tiny isolated black speck in the open left ring channel, absent from the supplied chart construction.",
+      "normalized_1024_bbox": [
+        334,
+        589,
+        341,
+        598
+      ],
+      "area_pixels_at_alpha128": 45,
+      "treatment": "Excluded from centerline font; native PNG bytes unchanged."
+    }
+  ]
+}

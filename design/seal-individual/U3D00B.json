@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D00B",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D00B. Preserve the two highest horizontal levels with a bent central connecting stroke, then the outer downward enclosure and an interior crossed-curving/diagonal figure, with its branch toward right and two diagonals downward. Keep the high horizontals separate, lower bent connector separate from the interior figure where the sources separate them. The two outer legs frame the inside crossed figure. The bent connector immediately below the second top horizontal leads toward the right outer side; its central space must stay open. Keep the small left hooked inner branch crossing the curving main inner diagonal, and the two downward curving inner ends. This interior is a seal-script figure, not a modern letter.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D00B.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-467808c9-6b18-4394-8cd6-50ff8a13dcb8.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D00B.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "1e0bb79f05a57aa5ee48361b44caf2f2c8451540fbca4d675d7d3eaa076afa5c",
+  "reference_sha256": "f76c4a6a05800b1aa5692edda8866a6ae31cf2cff5d501caaa621e560248e18d",
+  "source_evidence": {
+    "codepoint": "U+3D00B",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      443.77020263671875,
+      117.86940002441406,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          441.98101806640625,
+          144.17999267578125,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          442.57329711914065,
+          146.20000305175782,
+          467.55328979492185
+        ],
+        "source_label": "TH-00011"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          440.54022216796875,
+          168.03985595703125,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          442.57329711914065,
+          172.8000030517578,
+          467.55328979492185
+        ],
+        "source_label": "C-00011"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          444.794189453125,
+          196.539794921875,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          442.57329711914065,
+          199.5000030517578,
+          467.55328979492185
+        ],
+        "source_label": "K-00011"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          441.9921875,
+          221.43984985351562,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          442.57329711914065,
+          226.20000305175782,
+          467.55328979492185
+        ],
+        "source_label": "D-00011"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "Compared all four: two high bars, bent upper connector continuing to right side, separate left arch with open right gap as attested QJZ/DYC, and inner hooked branch/crossed curved figure retained. Two outer legs and two inner lower diagonals remain distinct.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

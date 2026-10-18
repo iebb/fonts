@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D012",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific character U+3D012: exactly TWO horizontal bars near the top, short upper bar separated above a longer lower bar. From the middle of the lower bar one long central vertical descends. On either side of the central vertical is one long independent descending stroke, gently bowing outward towards its bottom; their upper ends begin a short clear gap BELOW the lower bar, as attested by THX and QJZ. There are THREE total descending legs, central one attached to lower bar and outer two not attached. Left outer leg ends curving left; right outer leg ends curving right. Upper detached short horizontal bar must remain distinct from lower horizontal crossbar. No extra stroke, no bottom bar.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D012.png",
+  "reference_sha256": "9bc67f9cce820e90cc8025508cc789a6a4721f402beffcb465101a0b2fef708b",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D012.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        123.18000030517578,
+        663.9209594726562,
+        144.17999267578125,
+        689.0999755859375
+      ],
+      "crop_bbox": [
+        121.20000305175782,
+        664.453271484375,
+        146.20000305175782,
+        689.4332641601562
+      ],
+      "source_label": "TH-00017"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        152.63999938964844,
+        662.4801635742188,
+        168.03985595703125,
+        684.47998046875
+      ],
+      "crop_bbox": [
+        147.8000030517578,
+        664.453271484375,
+        172.8000030517578,
+        689.4332641601562
+      ],
+      "source_label": "C-00017"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        177.5399932861328,
+        666.7341918945312,
+        196.539794921875,
+        688.35595703125
+      ],
+      "crop_bbox": [
+        174.5000030517578,
+        664.453271484375,
+        199.5000030517578,
+        689.4332641601562
+      ],
+      "source_label": "K-00017"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        206.0399932861328,
+        663.9321899414062,
+        221.43984985351562,
+        688.9679565429688
+      ],
+      "crop_bbox": [
+        201.20000305175782,
+        661.8502075195313,
+        226.20000305175782,
+        689.4332641601562
+      ],
+      "source_label": "D-00017"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-950f508e-723f-4372-9a7c-13b52ad66e7e.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D012.png",
+  "output_sha256": "e49fda35f2b9c7c71687c005793ea2439e6799d0a5e328547df47b0958c73f1e",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four specimens: two distinct upper bars, center attached descending leg, two separately starting outer legs. Chosen coherent detached-outer-leg structure attested in THX/CCZ/QJZ, retaining shared identity of all four views.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    328,
+    283,
+    1019,
+    1198
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D012.png"
+}

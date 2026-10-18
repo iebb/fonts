@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D029",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D029.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: Complex left-right compound. LEFT component is the three-diamond crown motif: THREE hollow diamonds, center one higher, each on stem; two horizontal bars under them; five bottom descenders total (two diamond outer stems plus three inner descenders). RIGHT component: two short horizontal top bars connected by an upturned left terminal on the upper bar, below is an upright oval/rounded rectangle with TWO horizontal internal divisions (THREE stacked white counters), below it is a broad horizontal which turns from a left vertical stroke, then two small outward sloping legs, and underneath a crossed pair of longer diagonally curved strokes with a short bent hook to the right. Preserve the entire attested compound, all three diamond counters and the multiple right component counters; don't simplify to modern Chinese.",
+  "reference": "reference/seal/individual/U3D029.png",
+  "reference_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D029",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      126.73020935058594,
+      414.3593444824219,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          125.0009994506836,
+          441.7799987792969,
+          150.17999267578125
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          125.53331146240234,
+          443.79999389648435,
+          150.57329406738282
+        ],
+        "source_label": "TH-00039"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          123.56019592285156,
+          465.6398620605469,
+          145.55999755859375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          125.53331146240234,
+          470.3999938964844,
+          150.57329406738282
+        ],
+        "source_label": "C-00039"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          127.8141860961914,
+          494.1398010253906,
+          149.4359588623047
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          125.53331146240234,
+          497.09999389648436,
+          150.57329406738282
+        ],
+        "source_label": "K-00039"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          125.0121841430664,
+          519.0398559570312,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          125.53331146240234,
+          523.7999938964844,
+          150.57329406738282
+        ],
+        "source_label": "D-00039"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-47074749-8353-426f-a447-cfc2badc1f76.png",
+  "output": "design/seal-individual/U3D029.png",
+  "output_sha256": "ae92302e818830b6763b32565d4337301d6b1c0b87120d15007985d6ba0dfcce",
+  "attempt": 1,
+  "review_status": "rejected_identity_detail",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "Right top pair of horizontal bars must share a left vertical; current lower bar detached. One final native retry pending."
+}

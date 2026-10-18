@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D02F",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D02F. Study all four specimens, including the fine interior strokes. Preserve two separated left/right components. LEFT: a short detached top horizontal; below it a longer horizontal with a long central downward vertical. Two separate long side verticals flank that central stem, detached from the lower horizontal. RIGHT TOP: a rounded-square enclosed contour crossed by ONE vertical divider and ONE horizontal divider, yielding EXACTLY FOUR white counters, all open and clearly visible. RIGHT MIDDLE: choose the coherent separate open-hand construction attested by THX and CCZ, after comparing QJZ and DYC alternatives. There are TWO outward bowed open hook strokes, left and right, each beginning just below the box, curving downward/outward and then curling inward to a free endpoint. These two hooks remain separated across the middle: do not join them into a central diamond/heart. TWO additional curved inner stems begin higher inside the hooks, cross the respective hook near its bottom, and continue down to a long horizontal support bar. This makes FOUR middle writing strokes in total (two open hooks plus two crossing curved inner stems), with gaps between their top ends and the four-counter box. BELOW THE BAR: TWO long slightly outward-curving legs descend from the support bar. Preserve the clear gap separating top box from the four middle stroke starting points. Preserve exact four-counter top box and all middle branches/crossings. Keep the support bar separated from the left component, as in the coherent separate-component variant. Do not substitute a modern Han form.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D02F.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-98c55f67-6196-444c-8d68-f3d3967fa4cb.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D02F.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all four available chart specimens; enlarged reference interiors compared; coherent open-hand construction requested; no specimen assigned sole authority.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "7099b625813b6f27942a15b44fb2fc0893701f5a1a355a4ee96884d70b08d76b",
+  "reference_sha256": "81300b1b0d629f549087ad8199965d65fa7e2ca96f99b4a2677af6929d8ddb9b",
+  "source_evidence": {
+    "codepoint": "U+3D02F",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      316.9302062988281,
+      414.9093322753906,
+      328.0899658203125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          315.2010192871094,
+          441.7799987792969,
+          340.3800048828125
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          315.73330078125,
+          443.79999389648435,
+          340.773291015625
+        ],
+        "source_label": "TH-00044"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          313.7602233886719,
+          465.6398620605469,
+          335.760009765625
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          315.73330078125,
+          470.3999938964844,
+          340.773291015625
+        ],
+        "source_label": "C-00044"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          318.0141906738281,
+          494.1398010253906,
+          339.6359558105469
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          315.73330078125,
+          497.09999389648436,
+          340.773291015625
+        ],
+        "source_label": "K-00044"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          315.2121887207031,
+          519.0398559570312,
+          340.2479553222656
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          315.73330078125,
+          523.7999938964844,
+          340.773291015625
+        ],
+        "source_label": "D-00044"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "Compared enlarged THX/CCZ/QJZ/DYC specimens. Top rounded box has exactly four counters divided by one vertical and one horizontal. Middle uses coherent THX/CCZ open-hand construction: two separate outward bowed/inward curled hooks crossed by two additional curved stems continuing to the support bar; hooks do not join in the center. Top box remains detached from all four middle endpoints. Two legs attach below bar. Left component has two upper bars, attached central stem and detached flank verticals; right bar stays separate from left component as attested THX.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

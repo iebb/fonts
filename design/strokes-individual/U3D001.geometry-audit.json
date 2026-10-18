@@ -1,0 +1,86 @@
+{
+  "source": "/workspace/unifont/design/strokes-individual/U3D001.svg",
+  "passed": true,
+  "stroke_count": 4,
+  "uniform_width": 43.0,
+  "strokes": [
+    {
+      "id": "main",
+      "width": 43.0,
+      "segments": 5,
+      "closed": false,
+      "maximum_join_angle_degrees": 1e-06,
+      "minimum_curve_radius": 39.829663,
+      "inner_offset_radius_positive": true
+    },
+    {
+      "id": "branch",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": 98.794016,
+      "inner_offset_radius_positive": true
+    },
+    {
+      "id": "middle",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": null,
+      "inner_offset_radius_positive": null
+    },
+    {
+      "id": "lower-bar",
+      "width": 43.0,
+      "segments": 1,
+      "closed": false,
+      "maximum_join_angle_degrees": 0,
+      "minimum_curve_radius": 3180.680733,
+      "inner_offset_radius_positive": true
+    }
+  ],
+  "junctions": [
+    {
+      "strokes": [
+        "main",
+        "branch"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "main",
+        "middle"
+      ],
+      "minimum_centerline_distance": 0.0,
+      "centerlines_intersect": true,
+      "round_stroke_ink_connects": true
+    },
+    {
+      "strokes": [
+        "main",
+        "lower-bar"
+      ],
+      "minimum_centerline_distance": 63.247954,
+      "centerlines_intersect": false,
+      "round_stroke_ink_connects": false
+    }
+  ],
+  "errors": [],
+  "scope": "Editable geometry contract; join angles are descriptive, not a historical stroke-order claim.",
+  "source_data": {
+    "source": "/workspace/unifont/design/strokes-individual/U3D001.json",
+    "stroke_count": 4,
+    "svg_matches_editable_paths": true,
+    "errors": []
+  },
+  "topology_assertions": {
+    "main_branch_connected": true,
+    "main_middle_crosses": true,
+    "lower_bar_detached": true
+  }
+}

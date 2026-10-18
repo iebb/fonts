@@ -1,0 +1,24 @@
+{
+  "code_point": "U+3D034",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. The reference contains FOUR historical specimens of the SAME character, labelled THX, CCZ, QJZ, DYC. These are evidence for one character: use all four to understand its identity and stroke structure. Produce one new original coherent Gothic/monoline interpretation, informed by all four rather than tracing THX or any single specimen's brush silhouette. When forms disagree, choose a coherent attested WHOLE form; never splice incompatible alternative structures. Preserve the essential branches, counters, detachments, number and arrangement of components, and distinctive ancient character identity. Do not substitute a modern Chinese character.\n\nTrace the real course of each stroke as a smooth centerline with rounded curves. Each stroke has exactly constant width throughout, approximately 4% of the full canvas width, with perfectly rounded caps and joins. No swelling, taper, serifs, brush texture, rough edges, pressure modulation, or pointed ends. Ensure the counters stay open and distinct strokes stay separated where the sources require it. Draw the glyph centered and occupying approximately the central 70% of a square canvas with generous clear margins, balanced spacing and a consistent sans-serif Gothic style.\n\nOutput exactly one glyph only, pure BLACK smooth monoline strokes on a fully TRANSPARENT background. No text, labels, chart, frame, grid, specimen copies, multiple alternatives, calligraphy, backdrop, shadows, or watermark.\n\nCharacter U+3D034. Essential structural reading aid, subordinate to the four specimens: Left ritual/altar component with short top dash, lower horizontal, long central stem and two separate flanking downstrokes. At right is a tall narrow doubled vertical form: an inner long bent vertical topped with a left-bent/curved hook; outer right vertical with an upper rounded left-return bend and two left-projecting internal short branches below. There are no closed square counters in the tall right structure. Keep all long vertical strokes and inner short branches separate as attested.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D034.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-1f2cc977-c238-4fc6-8b70-59f69450e818.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D034.png",
+  "original_pixels_unchanged": true,
+  "sha256": "5f86905a6a016c2b29fb706df1b23e5200a92de28fdb91247735aa2e2f579e80",
+  "reference_sha256": "7c749b0142fead53a4b723192434cafff5920eb89bea8c1ea50595a0f8b15e8b",
+  "visual_review": {
+    "method": "white-background inspection composite compared visually against THX, CCZ, QJZ, DYC",
+    "notes": "Compared all four specimens: left ritual component, tall separate inner bent vertical, far-right upper bend, internal branches/detached short mark retained; no invented closed counters.",
+    "confidence": "draft visual comparison; not scholarly certification"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D020",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal character U+3D020. The attached reference has FOUR historical views of this SAME ONE character, ordered THX, CCZ, QJZ, DYC. Compare all four available witnesses equally to understand the structure, then make one independent, harmonious, contemporary monoline Gothic redraw; do not copy a single style or produce four glyphs. Preserve every essential branch, crossing, counter, attachment and separation. Choose one coherent attested whole structure if variants disagree, rather than mixing incompatible parts. Never substitute a modern Han character.\nStructural identity for this character: left ritual component has a short detached top horizontal, longer horizontal below and three separate long descending strokes. Right component: an upright open-topped bowl whose two uprights project above a crossing horizontal; the bowl interior has two diagonal crossing strokes forming an X. Below this is a detached horizontal with two long legs curving gently outward. Keep the X within the bowl, the two extended top uprights and the two feet. Study all four witnesses for the precise spatial relationships.\nOutput ONLY this ONE character, large and centered within the central 70% of a square transparent canvas, generous margins. Pure black strokes with alpha transparency, no background, text, labels, border or grid. Reconstruct real intentional stroke centerlines, with true smooth rounded curves and straight segments; uniform constant width about 4% of EM all along every stroke, fully round caps and round joins. Elegant geometric monoline sans-serif weight. No brush taper, calligraphic thick/thin, serifs, texture, contour blobs, doubled outlines or fake seal texture. Preserve openings and negative spaces even at intersections.",
+  "reference": "reference/seal/individual/U3D020.png",
+  "reference_sha256": "e77be9225f1f2a96891e33273bb3d4fb4aac56f35a373a2ef46066f43f3b07ac",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D020",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      475.4501953125,
+      265.5594177246094,
+      486.6099548339844
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          473.72100830078125,
+          292.9800109863281,
+          498.8999938964844
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          474.2532897949219,
+          295.0000061035156,
+          499.2332824707031
+        ],
+        "source_label": "TH-00031"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          472.28021240234375,
+          316.8398742675781,
+          494.2799987792969
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          474.2532897949219,
+          321.6000061035156,
+          499.2332824707031
+        ],
+        "source_label": "C-00031"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          476.5341796875,
+          345.33978271484375,
+          498.15594482421875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          474.2532897949219,
+          348.3000061035156,
+          499.2332824707031
+        ],
+        "source_label": "K-00031"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          473.732177734375,
+          370.2398681640625,
+          498.7679443359375
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          474.2532897949219,
+          375.0000061035156,
+          499.2332824707031
+        ],
+        "source_label": "D-00031"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-6c14beb2-a490-41e6-81eb-0e2eadecb909.png",
+  "output": "design/seal-individual/U3D020.png",
+  "output_sha256": "e34df768346e8db20e025a7f7ce5a43ca0d90d28ff65a3f8c1a2178d217f84d2",
+  "attempt": 1,
+  "review_status": "visual_reference_pass_candidate",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "Compared all four witnesses: ritual radical, projecting bowl uprights, bowl X, detached lower bar and two curved feet retained."
+}

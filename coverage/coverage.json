@@ -6,9 +6,49 @@
   "unicode_snapshot": {
     "version": "19.0.0 development draft",
     "repository": "unicode-org/unicodetools",
-    "commit": "03f128b76c2917bba02f497fccb44ba833855700",
-    "source_base": "https://raw.githubusercontent.com/unicode-org/unicodetools/03f128b76c2917bba02f497fccb44ba833855700/unicodetools/data/ucd/dev/",
-    "note": "Pinned baseline; update through audit tool to latest commit when available."
+    "commit": "4fd8eca90b30aa4c72543ccddb4c15d05becdf8d",
+    "source_base": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/dev/",
+    "note": "Development snapshot verified at the recorded commit. All six audited UCD files are byte-identical to the previous baseline; version headers and assigned Age values are retained verbatim.",
+    "verified_utc": "2026-10-18",
+    "previous_commit": "03f128b76c2917bba02f497fccb44ba833855700",
+    "files": [
+      {
+        "file": "UnicodeData.txt",
+        "bytes": 2243593,
+        "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+        "changed": false
+      },
+      {
+        "file": "Blocks.txt",
+        "bytes": 11920,
+        "sha256": "f2fcb9fe1bc18c6b0298eead6d6cdec34021080d6ce85ee74387e3e4a03fab8e",
+        "changed": false
+      },
+      {
+        "file": "DerivedAge.txt",
+        "bytes": 142568,
+        "sha256": "58b04334e3a31f9612694bbc3f6bff4a302b7d424565bca9c47e30aa74f8dbac",
+        "changed": false
+      },
+      {
+        "file": "Scripts.txt",
+        "bytes": 196089,
+        "sha256": "0071fd81b6aeae25f6e8bce8efec3066a6476a91b49bdb2f52dc76e817862a6a",
+        "changed": false
+      },
+      {
+        "file": "DerivedCoreProperties.txt",
+        "bytes": 1159889,
+        "sha256": "09c928886a178fcafd93c29e4bd59073a058e5a100b716d425cb563ab50f68c9",
+        "changed": false
+      },
+      {
+        "file": "ReadMe.txt",
+        "bytes": 741,
+        "sha256": "75a1ce9e5b14164a22d35b2a56fb5a8f927de323a08c43791c6fb050901f84f8",
+        "changed": false
+      }
+    ]
   },
   "ucd_files": [
     {
@@ -118,17 +158,17 @@
     "target_default_ignorables": 267,
     "noto_sans_font_files": 201,
     "all_noto_font_files": 276,
-    "output_font_files": 144,
+    "output_font_files": 145,
     "noto_sans_covered": 69981,
     "noto_sans_missing": 102655,
     "any_installed_noto_covered": 78872,
     "any_installed_noto_missing": 93764,
-    "output_covered": 154287,
-    "output_missing": 18349,
-    "output_plus_noto_sans_covered": 154294,
+    "output_covered": 156434,
+    "output_missing": 16202,
+    "output_plus_noto_sans_covered": 156434,
     "new_since_16_target": 22995,
     "new_since_16_missing_any_installed_noto": 22981,
-    "new_since_16_missing_any_installed_noto_now_covered": 6617
+    "new_since_16_missing_any_installed_noto_now_covered": 6779
   },
   "noto_sans": {
     "by_age": {
@@ -5655,18 +5695,18 @@
       },
       "10.0": {
         "target": 8518,
-        "covered": 8464,
-        "missing": 54
+        "covered": 8518,
+        "missing": 0
       },
       "11.0": {
         "target": 683,
-        "covered": 557,
-        "missing": 126
+        "covered": 683,
+        "missing": 0
       },
       "12.0": {
         "target": 545,
-        "covered": 382,
-        "missing": 163
+        "covered": 545,
+        "missing": 0
       },
       "12.1": {
         "target": 1,
@@ -5675,18 +5715,18 @@
       },
       "13.0": {
         "target": 5930,
-        "covered": 5872,
-        "missing": 58
+        "covered": 5930,
+        "missing": 0
       },
       "14.0": {
         "target": 836,
-        "covered": 767,
-        "missing": 69
+        "covered": 836,
+        "missing": 0
       },
       "15.0": {
         "target": 4482,
-        "covered": 4461,
-        "missing": 21
+        "covered": 4482,
+        "missing": 0
       },
       "15.1": {
         "target": 627,
@@ -5695,23 +5735,23 @@
       },
       "16.0": {
         "target": 5185,
-        "covered": 1043,
-        "missing": 4142
+        "covered": 1190,
+        "missing": 3995
       },
       "17.0": {
         "target": 4803,
-        "covered": 4796,
-        "missing": 7
+        "covered": 4803,
+        "missing": 0
       },
       "18.0": {
         "target": 13007,
-        "covered": 778,
-        "missing": 12229
+        "covered": 800,
+        "missing": 12207
       },
       "2.0": {
         "target": 11373,
-        "covered": 11266,
-        "missing": 107
+        "covered": 11373,
+        "missing": 0
       },
       "2.1": {
         "target": 2,
@@ -5720,18 +5760,18 @@
       },
       "3.0": {
         "target": 10302,
-        "covered": 10278,
-        "missing": 24
+        "covered": 10302,
+        "missing": 0
       },
       "3.1": {
         "target": 44841,
-        "covered": 44384,
-        "missing": 457
+        "covered": 44841,
+        "missing": 0
       },
       "3.2": {
         "target": 1012,
-        "covered": 1005,
-        "missing": 7
+        "covered": 1012,
+        "missing": 0
       },
       "4.0": {
         "target": 1222,
@@ -5740,8 +5780,8 @@
       },
       "4.1": {
         "target": 1273,
-        "covered": 1201,
-        "missing": 72
+        "covered": 1273,
+        "missing": 0
       },
       "5.0": {
         "target": 1369,
@@ -5750,23 +5790,23 @@
       },
       "5.1": {
         "target": 1623,
-        "covered": 1618,
-        "missing": 5
+        "covered": 1623,
+        "missing": 0
       },
       "5.2": {
         "target": 6647,
-        "covered": 6643,
-        "missing": 4
+        "covered": 6647,
+        "missing": 0
       },
       "6.0": {
         "target": 2088,
-        "covered": 1478,
-        "missing": 610
+        "covered": 2088,
+        "missing": 0
       },
       "6.1": {
         "target": 731,
-        "covered": 718,
-        "missing": 13
+        "covered": 731,
+        "missing": 0
       },
       "6.2": {
         "target": 1,
@@ -5775,18 +5815,18 @@
       },
       "7.0": {
         "target": 2829,
-        "covered": 2819,
-        "missing": 10
+        "covered": 2829,
+        "missing": 0
       },
       "8.0": {
         "target": 7716,
-        "covered": 7618,
-        "missing": 98
+        "covered": 7716,
+        "missing": 0
       },
       "9.0": {
         "target": 7499,
-        "covered": 7426,
-        "missing": 73
+        "covered": 7499,
+        "missing": 0
       }
     },
     "by_script": {
@@ -5797,8 +5837,8 @@
       },
       "Ahom": {
         "target": 65,
-        "covered": 8,
-        "missing": 57
+        "covered": 65,
+        "missing": 0
       },
       "Anatolian_Hieroglyphs": {
         "target": 583,
@@ -5807,8 +5847,8 @@
       },
       "Arabic": {
         "target": 1444,
-        "covered": 1427,
-        "missing": 17
+        "covered": 1444,
+        "missing": 0
       },
       "Armenian": {
         "target": 99,
@@ -5842,8 +5882,8 @@
       },
       "Bengali": {
         "target": 98,
-        "covered": 96,
-        "missing": 2
+        "covered": 98,
+        "missing": 0
       },
       "Beria_Erfe": {
         "target": 50,
@@ -5882,8 +5922,8 @@
       },
       "Canadian_Aboriginal": {
         "target": 726,
-        "covered": 710,
-        "missing": 16
+        "covered": 726,
+        "missing": 0
       },
       "Carian": {
         "target": 49,
@@ -5917,8 +5957,8 @@
       },
       "Common": {
         "target": 9069,
-        "covered": 7581,
-        "missing": 1488
+        "covered": 9069,
+        "missing": 0
       },
       "Coptic": {
         "target": 137,
@@ -5962,8 +6002,8 @@
       },
       "Dogra": {
         "target": 60,
-        "covered": 0,
-        "missing": 60
+        "covered": 60,
+        "missing": 0
       },
       "Duployan": {
         "target": 143,
@@ -5992,8 +6032,8 @@
       },
       "Garay": {
         "target": 69,
-        "covered": 9,
-        "missing": 60
+        "covered": 69,
+        "missing": 0
       },
       "Georgian": {
         "target": 173,
@@ -6017,8 +6057,8 @@
       },
       "Greek": {
         "target": 520,
-        "covered": 450,
-        "missing": 70
+        "covered": 520,
+        "missing": 0
       },
       "Gujarati": {
         "target": 91,
@@ -6067,13 +6107,13 @@
       },
       "Hebrew": {
         "target": 136,
-        "covered": 135,
-        "missing": 1
+        "covered": 136,
+        "missing": 0
       },
       "Hiragana": {
         "target": 382,
-        "covered": 381,
-        "missing": 1
+        "covered": 382,
+        "missing": 0
       },
       "Imperial_Aramaic": {
         "target": 31,
@@ -6082,8 +6122,8 @@
       },
       "Inherited": {
         "target": 693,
-        "covered": 671,
-        "missing": 22
+        "covered": 693,
+        "missing": 0
       },
       "Inscriptional_Pahlavi": {
         "target": 27,
@@ -6112,13 +6152,13 @@
       },
       "Kannada": {
         "target": 92,
-        "covered": 91,
-        "missing": 1
+        "covered": 92,
+        "missing": 0
       },
       "Katakana": {
         "target": 327,
-        "covered": 323,
-        "missing": 4
+        "covered": 327,
+        "missing": 0
       },
       "Kawi": {
         "target": 87,
@@ -6137,8 +6177,8 @@
       },
       "Khitan_Small_Script": {
         "target": 477,
-        "covered": 472,
-        "missing": 5
+        "covered": 477,
+        "missing": 0
       },
       "Khmer": {
         "target": 146,
@@ -6332,8 +6372,8 @@
       },
       "Nyiakeng_Puachue_Hmong": {
         "target": 71,
-        "covered": 0,
-        "missing": 71
+        "covered": 71,
+        "missing": 0
       },
       "Ogham": {
         "target": 29,
@@ -6397,8 +6437,8 @@
       },
       "Oriya": {
         "target": 93,
-        "covered": 92,
-        "missing": 1
+        "covered": 93,
+        "missing": 0
       },
       "Osage": {
         "target": 72,
@@ -6582,8 +6622,8 @@
       },
       "Tangut": {
         "target": 7061,
-        "covered": 7060,
-        "missing": 1
+        "covered": 7061,
+        "missing": 0
       },
       "Telugu": {
         "target": 101,
@@ -6602,8 +6642,8 @@
       },
       "Tibetan": {
         "target": 207,
-        "covered": 64,
-        "missing": 143
+        "covered": 207,
+        "missing": 0
       },
       "Tifinagh": {
         "target": 59,
@@ -6632,8 +6672,8 @@
       },
       "Tulu_Tigalari": {
         "target": 80,
-        "covered": 0,
-        "missing": 80
+        "covered": 80,
+        "missing": 0
       },
       "Ugaritic": {
         "target": 31,
@@ -6662,8 +6702,8 @@
       },
       "Yezidi": {
         "target": 47,
-        "covered": 0,
-        "missing": 47
+        "covered": 47,
+        "missing": 0
       },
       "Yi": {
         "target": 1220,
@@ -6689,8 +6729,8 @@
       },
       "Ahom": {
         "target": 65,
-        "covered": 8,
-        "missing": 57
+        "covered": 65,
+        "missing": 0
       },
       "Alchemical Symbols": {
         "target": 128,
@@ -6709,8 +6749,8 @@
       },
       "Ancient Greek Musical Notation": {
         "target": 70,
-        "covered": 0,
-        "missing": 70
+        "covered": 70,
+        "missing": 0
       },
       "Ancient Greek Numbers": {
         "target": 79,
@@ -6749,8 +6789,8 @@
       },
       "Arabic Presentation Forms-A": {
         "target": 656,
-        "covered": 639,
-        "missing": 17
+        "covered": 656,
+        "missing": 0
       },
       "Arabic Presentation Forms-B": {
         "target": 140,
@@ -6819,8 +6859,8 @@
       },
       "Bengali Supplement": {
         "target": 2,
-        "covered": 0,
-        "missing": 2
+        "covered": 2,
+        "missing": 0
       },
       "Beria Erfe": {
         "target": 50,
@@ -6874,8 +6914,8 @@
       },
       "Byzantine Musical Symbols": {
         "target": 246,
-        "covered": 0,
-        "missing": 246
+        "covered": 246,
+        "missing": 0
       },
       "CJK Compatibility": {
         "target": 256,
@@ -7134,8 +7174,8 @@
       },
       "Dingbats": {
         "target": 192,
-        "covered": 180,
-        "missing": 12
+        "covered": 192,
+        "missing": 0
       },
       "Dives Akuru": {
         "target": 72,
@@ -7144,8 +7184,8 @@
       },
       "Dogra": {
         "target": 60,
-        "covered": 0,
-        "missing": 60
+        "covered": 60,
+        "missing": 0
       },
       "Domino Tiles": {
         "target": 100,
@@ -7189,13 +7229,13 @@
       },
       "Emoticons": {
         "target": 80,
-        "covered": 1,
-        "missing": 79
+        "covered": 80,
+        "missing": 0
       },
       "Enclosed Alphanumeric Supplement": {
         "target": 201,
-        "covered": 175,
-        "missing": 26
+        "covered": 201,
+        "missing": 0
       },
       "Enclosed Alphanumerics": {
         "target": 160,
@@ -7239,8 +7279,8 @@
       },
       "Garay": {
         "target": 69,
-        "covered": 9,
-        "missing": 60
+        "covered": 69,
+        "missing": 0
       },
       "General Punctuation": {
         "target": 84,
@@ -7369,8 +7409,8 @@
       },
       "Hebrew": {
         "target": 90,
-        "covered": 89,
-        "missing": 1
+        "covered": 90,
+        "missing": 0
       },
       "Hiragana": {
         "target": 93,
@@ -7439,8 +7479,8 @@
       },
       "Kana Extended-A": {
         "target": 41,
-        "covered": 37,
-        "missing": 4
+        "covered": 41,
+        "missing": 0
       },
       "Kana Extended-B": {
         "target": 13,
@@ -7464,8 +7504,8 @@
       },
       "Kannada": {
         "target": 92,
-        "covered": 91,
-        "missing": 1
+        "covered": 92,
+        "missing": 0
       },
       "Katakana": {
         "target": 96,
@@ -7494,8 +7534,8 @@
       },
       "Khitan Small Script": {
         "target": 476,
-        "covered": 471,
-        "missing": 5
+        "covered": 476,
+        "missing": 0
       },
       "Khmer": {
         "target": 114,
@@ -7739,18 +7779,18 @@
       },
       "Miscellaneous Symbols and Arrows Extended": {
         "target": 29,
-        "covered": 28,
-        "missing": 1
+        "covered": 29,
+        "missing": 0
       },
       "Miscellaneous Symbols and Pictographs": {
         "target": 768,
-        "covered": 297,
-        "missing": 471
+        "covered": 768,
+        "missing": 0
       },
       "Miscellaneous Technical": {
         "target": 256,
-        "covered": 246,
-        "missing": 10
+        "covered": 256,
+        "missing": 0
       },
       "Modi": {
         "target": 79,
@@ -7784,8 +7824,8 @@
       },
       "Musical Symbols": {
         "target": 248,
-        "covered": 36,
-        "missing": 212
+        "covered": 248,
+        "missing": 0
       },
       "Musical Symbols Supplement": {
         "target": 50,
@@ -7854,8 +7894,8 @@
       },
       "Nyiakeng Puachue Hmong": {
         "target": 71,
-        "covered": 0,
-        "missing": 71
+        "covered": 71,
+        "missing": 0
       },
       "Ogham": {
         "target": 29,
@@ -7924,8 +7964,8 @@
       },
       "Oriya": {
         "target": 93,
-        "covered": 92,
-        "missing": 1
+        "covered": 93,
+        "missing": 0
       },
       "Ornamental Dingbats": {
         "target": 48,
@@ -7944,8 +7984,8 @@
       },
       "Ottoman Siyaq Numbers": {
         "target": 61,
-        "covered": 0,
-        "missing": 61
+        "covered": 61,
+        "missing": 0
       },
       "Pahawh Hmong": {
         "target": 127,
@@ -8069,8 +8109,8 @@
       },
       "Small Kana Extension": {
         "target": 10,
-        "covered": 9,
-        "missing": 1
+        "covered": 10,
+        "missing": 0
       },
       "Sogdian": {
         "target": 42,
@@ -8144,8 +8184,8 @@
       },
       "Supplemental Symbols and Pictographs": {
         "target": 256,
-        "covered": 14,
-        "missing": 242
+        "covered": 256,
+        "missing": 0
       },
       "Sutton SignWriting": {
         "target": 672,
@@ -8159,8 +8199,8 @@
       },
       "Symbols and Pictographs Extended-A": {
         "target": 128,
-        "covered": 57,
-        "missing": 71
+        "covered": 128,
+        "missing": 0
       },
       "Symbols for Legacy Computing": {
         "target": 250,
@@ -8244,8 +8284,8 @@
       },
       "Tangut Components": {
         "target": 768,
-        "covered": 767,
-        "missing": 1
+        "covered": 768,
+        "missing": 0
       },
       "Tangut Components Supplement": {
         "target": 115,
@@ -8274,8 +8314,8 @@
       },
       "Tibetan": {
         "target": 211,
-        "covered": 64,
-        "missing": 147
+        "covered": 211,
+        "missing": 0
       },
       "Tifinagh": {
         "target": 59,
@@ -8304,13 +8344,13 @@
       },
       "Transport and Map Symbols": {
         "target": 120,
-        "covered": 45,
-        "missing": 75
+        "covered": 120,
+        "missing": 0
       },
       "Tulu-Tigalari": {
         "target": 80,
-        "covered": 0,
-        "missing": 80
+        "covered": 80,
+        "missing": 0
       },
       "Ugaritic": {
         "target": 31,
@@ -8329,8 +8369,8 @@
       },
       "Unified Canadian Aboriginal Syllabics Extended-A": {
         "target": 16,
-        "covered": 0,
-        "missing": 16
+        "covered": 16,
+        "missing": 0
       },
       "Vai": {
         "target": 300,
@@ -8374,8 +8414,8 @@
       },
       "Yezidi": {
         "target": 47,
-        "covered": 0,
-        "missing": 47
+        "covered": 47,
+        "missing": 0
       },
       "Yi Radicals": {
         "target": 55,
@@ -10706,7 +10746,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10718,7 +10758,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10730,7 +10770,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10742,7 +10782,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10754,7 +10794,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10766,7 +10806,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10778,7 +10818,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10790,7 +10830,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10802,7 +10842,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10814,7 +10854,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10826,7 +10866,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10838,7 +10878,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10850,7 +10890,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10862,7 +10902,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10874,7 +10914,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10886,7 +10926,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10898,7 +10938,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10910,7 +10950,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10922,7 +10962,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10934,7 +10974,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10946,7 +10986,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10958,7 +10998,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10970,7 +11010,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10982,7 +11022,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -10994,7 +11034,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11018,7 +11058,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11030,7 +11070,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11042,7 +11082,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11054,7 +11094,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11066,7 +11106,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11078,7 +11118,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11090,7 +11130,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11102,7 +11142,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11114,7 +11154,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11126,7 +11166,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11138,7 +11178,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11150,7 +11190,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11162,7 +11202,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11246,7 +11286,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11258,7 +11298,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11270,7 +11310,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11282,7 +11322,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11294,7 +11334,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11306,7 +11346,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11318,7 +11358,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11330,7 +11370,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11342,7 +11382,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11354,7 +11394,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11366,7 +11406,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11378,7 +11418,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11390,7 +11430,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11402,7 +11442,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11414,7 +11454,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11426,7 +11466,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11438,7 +11478,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11450,7 +11490,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11462,7 +11502,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11474,7 +11514,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11486,7 +11526,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -11498,7 +11538,7 @@
       "block": "Garay",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12218,7 +12258,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12230,7 +12270,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12242,7 +12282,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12254,7 +12294,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12266,7 +12306,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12278,7 +12318,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12290,7 +12330,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12302,7 +12342,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12314,7 +12354,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12326,7 +12366,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12338,7 +12378,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12350,7 +12390,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12362,7 +12402,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12374,7 +12414,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12386,7 +12426,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12398,7 +12438,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12410,7 +12450,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12422,7 +12462,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12434,7 +12474,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12446,7 +12486,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12458,7 +12498,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12470,7 +12510,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12482,7 +12522,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12494,7 +12534,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12506,7 +12546,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12518,7 +12558,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12530,7 +12570,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12542,7 +12582,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12554,7 +12594,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12566,7 +12606,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12578,7 +12618,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12590,7 +12630,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12602,7 +12642,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12614,7 +12654,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12626,7 +12666,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12638,7 +12678,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12650,7 +12690,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12662,7 +12702,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12674,7 +12714,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12686,7 +12726,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12698,7 +12738,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12710,7 +12750,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12722,7 +12762,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12734,7 +12774,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12746,7 +12786,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12758,7 +12798,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12770,7 +12810,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12782,7 +12822,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12794,7 +12834,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12806,7 +12846,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12818,7 +12858,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12830,7 +12870,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12842,7 +12882,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12854,7 +12894,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12866,7 +12906,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12878,7 +12918,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12890,7 +12930,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12902,7 +12942,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12914,7 +12954,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12926,7 +12966,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12938,7 +12978,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12950,7 +12990,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12962,7 +13002,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12974,7 +13014,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12986,7 +13026,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -12998,7 +13038,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13010,7 +13050,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13022,7 +13062,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13034,7 +13074,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13046,7 +13086,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13058,7 +13098,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13070,7 +13110,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13082,7 +13122,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13094,7 +13134,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13106,7 +13146,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13118,7 +13158,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13130,7 +13170,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13142,7 +13182,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13154,7 +13194,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -13166,7 +13206,7 @@
       "block": "Tulu-Tigalari",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -14702,7 +14742,7 @@
       "block": "Bengali Supplement",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -14714,7 +14754,7 @@
       "block": "Bengali Supplement",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -68702,7 +68742,7 @@
       "block": "Khitan Small Script",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -68714,7 +68754,7 @@
       "block": "Khitan Small Script",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -68726,7 +68766,7 @@
       "block": "Khitan Small Script",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -68738,7 +68778,7 @@
       "block": "Khitan Small Script",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -68750,7 +68790,7 @@
       "block": "Khitan Small Script",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -82022,7 +82062,7 @@
       "block": "Kana Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -82034,7 +82074,7 @@
       "block": "Kana Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -82070,7 +82110,7 @@
       "block": "Kana Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -82082,7 +82122,7 @@
       "block": "Kana Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -82094,7 +82134,7 @@
       "block": "Small Kana Extension",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -92306,7 +92346,7 @@
       "block": "Miscellaneous Symbols and Arrows Extended",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95330,7 +95370,7 @@
       "block": "Transport and Map Symbols",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95894,7 +95934,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95906,7 +95946,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95918,7 +95958,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95930,7 +95970,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95942,7 +95982,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95954,7 +95994,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95966,7 +96006,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -95978,7 +96018,7 @@
       "block": "Symbols and Pictographs Extended-A",
       "noto_sans_covered": false,
       "any_installed_noto_covered": false,
-      "output_covered": false,
+      "output_covered": true,
       "default_ignorable": false
     },
     {
@@ -288394,61 +288434,7 @@
     "E0100-E01EF"
   ],
   "output_missing_ranges": [
-    "05EF",
-    "0B55",
-    "0CF3",
-    "0F00-0F0A",
-    "0F0C",
-    "0F0E-0F38",
-    "0F3A-0F3F",
-    "0F7E-0F7F",
-    "0F81-0F8F",
-    "0F91-0F97",
-    "0F99-0FB1",
-    "0FB4-0FBC",
-    "0FBE-0FCC",
-    "0FCE-0FDA",
-    "23B7-23BD",
-    "23EB-23EC",
-    "23F0",
-    "2705",
-    "270A",
-    "2728",
-    "274C",
-    "274E",
-    "2754-2755",
-    "2795-2797",
-    "27B0",
-    "27BF",
-    "FD40-FD4F",
-    "FDCF",
-    "10D40-10D58",
-    "10D5A-10D65",
-    "10D69",
-    "10D70-10D85",
-    "10E80-10EA9",
-    "10EAB-10EAD",
-    "10EB0-10EB1",
-    "11380-11389",
-    "1138B",
-    "1138E",
-    "11390-113B5",
-    "113B7-113C0",
-    "113C2",
-    "113C5",
-    "113C7-113CA",
-    "113CC-113D5",
-    "113D7-113D8",
-    "113E1-113E2",
-    "11700-11719",
-    "1171D-1172B",
-    "11730-1173F",
-    "11800-1183B",
-    "11AB0-11ABF",
-    "11DF0-11DF1",
     "13460-143FA",
-    "18802",
-    "18CD6-18CDA",
     "18E01-18E0B",
     "18E0D-18E4E",
     "18E50-18E52",
@@ -288487,105 +288473,6 @@
     "191C1-191C3",
     "191CB",
     "191CE-191CF",
-    "1B123-1B124",
-    "1B127-1B128",
-    "1B168",
-    "1D000-1D0F5",
-    "1D100-1D126",
-    "1D129-1D172",
-    "1D17B-1D1DD",
-    "1D200-1D245",
-    "1DB1C",
-    "1E100-1E12C",
-    "1E130-1E13D",
-    "1E140-1E149",
-    "1E14E-1E14F",
-    "1ED01-1ED3D",
-    "1F1E6-1F1FF",
-    "1F300-1F30C",
-    "1F310-1F314",
-    "1F316-1F31B",
-    "1F31D-1F320",
-    "1F32D-1F335",
-    "1F337-1F377",
-    "1F379-1F37C",
-    "1F37E-1F392",
-    "1F3A0-1F3A6",
-    "1F3A8-1F3AB",
-    "1F3AF-1F3C1",
-    "1F3C3",
-    "1F3C5",
-    "1F3C7-1F3C9",
-    "1F3CF-1F3D3",
-    "1F3E1-1F3EC",
-    "1F3EE-1F3F0",
-    "1F3F4",
-    "1F3F8-1F407",
-    "1F409-1F414",
-    "1F416-1F41E",
-    "1F420-1F425",
-    "1F427-1F43E",
-    "1F440",
-    "1F443-1F445",
-    "1F44A-1F44B",
-    "1F44F-1F452",
-    "1F454-1F469",
-    "1F46B-1F47C",
-    "1F47E-1F4A2",
-    "1F4A4-1F4AF",
-    "1F4B1-1F4B2",
-    "1F4B4-1F4B8",
-    "1F4BA",
-    "1F4BC-1F4BD",
-    "1F4C0-1F4C7",
-    "1F4CC-1F4D9",
-    "1F4DB-1F4DE",
-    "1F4E0-1F4E3",
-    "1F4E7-1F4E9",
-    "1F4EE-1F4F6",
-    "1F4F8",
-    "1F4FC",
-    "1F4FF-1F502",
-    "1F504-1F506",
-    "1F50B-1F50C",
-    "1F50E-1F511",
-    "1F514-1F53D",
-    "1F54B-1F54E",
-    "1F57A",
-    "1F595-1F596",
-    "1F5A4",
-    "1F5FB-1F60F",
-    "1F611-1F64F",
-    "1F680-1F686",
-    "1F688-1F68C",
-    "1F68E-1F690",
-    "1F692-1F693",
-    "1F695-1F697",
-    "1F699-1F6AC",
-    "1F6AE-1F6B1",
-    "1F6B3-1F6B8",
-    "1F6BB",
-    "1F6BD-1F6C5",
-    "1F6CC",
-    "1F6D0-1F6D2",
-    "1F6D8-1F6D9",
-    "1F6DC-1F6DF",
-    "1F6EB-1F6EC",
-    "1F6F4-1F6F6",
-    "1F90C-1F93A",
-    "1F93C-1F945",
-    "1F947-1F9FF",
-    "1FA75-1FA77",
-    "1FA7B-1FA7C",
-    "1FA87-1FA8F",
-    "1FAA9-1FAAF",
-    "1FAB7-1FABF",
-    "1FAC3-1FAC6",
-    "1FAC8",
-    "1FACC-1FACF",
-    "1FAD7-1FADD",
-    "1FADF-1FAEB",
-    "1FAEF-1FAFA",
     "3D000-3FC3F"
   ],
   "noto_fonts": [
@@ -297154,24 +297041,44 @@
       "excluded_from_coverage": false
     },
     {
-      "path": "fonts/seal-experimental/PanoramaGothicSealDraft-Regular.ttf",
-      "sha256": "c39438659db33a983618b7305e989e88dd21528e6b5dc2552a43be161cd3fbc0",
-      "bytes": 69820,
+      "path": "fonts/supplement/PanoramaGothicSupplementP0.ttf",
+      "sha256": "67281d655d534c98ff7a6c1ed5583308d93dfb3490f887b13f51dc058c3b4de3",
+      "bytes": 34512,
       "diagnostic": false,
-      "coverage_eligible": false,
-      "exclusion_reason": "sibling manifest explicitly sets coverage_eligible=false",
+      "coverage_eligible": true,
+      "exclusion_reason": null,
       "faces": [
         {
           "index": 0,
-          "family": "Panorama Gothic Seal Draft",
+          "family": "Panorama Gothic Supplement P0",
           "subfamily": "Regular",
-          "version": "Version 0.1; experimental Unicode 19 draft drawings",
-          "mapped_codepoint_count": 16
+          "version": "Version 19.0.0; Unicode 19.0.0-draft",
+          "mapped_codepoint_count": 189
         }
       ],
-      "mapped_codepoint_count": 16,
+      "mapped_codepoint_count": 189,
       "format": "ttf",
-      "excluded_from_coverage": true
+      "excluded_from_coverage": false
+    },
+    {
+      "path": "fonts/supplement/PanoramaGothicSupplementP1.ttf",
+      "sha256": "c2418d110b518150fecfebc314867ccc80bc1128c48750b91a9836330209d53d",
+      "bytes": 398904,
+      "diagnostic": false,
+      "coverage_eligible": true,
+      "exclusion_reason": null,
+      "faces": [
+        {
+          "index": 0,
+          "family": "Panorama Gothic Supplement P1",
+          "subfamily": "Regular",
+          "version": "Version 19.0.0; Unicode 19.0.0-draft",
+          "mapped_codepoint_count": 1958
+        }
+      ],
+      "mapped_codepoint_count": 1958,
+      "format": "ttf",
+      "excluded_from_coverage": false
     }
   ]
 }

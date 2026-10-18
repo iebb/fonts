@@ -1,0 +1,24 @@
+{
+  "code_point": "U+3D036",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. The reference contains FOUR historical specimens of the SAME character, labelled THX, CCZ, QJZ, DYC. These are evidence for one character: use all four to understand its identity and stroke structure. Produce one new original coherent Gothic/monoline interpretation, informed by all four rather than tracing THX or any single specimen's brush silhouette. When forms disagree, choose a coherent attested WHOLE form; never splice incompatible alternative structures. Preserve the essential branches, counters, detachments, number and arrangement of components, and distinctive ancient character identity. Do not substitute a modern Chinese character.\n\nTrace the real course of each stroke as a smooth centerline with rounded curves. Each stroke has exactly constant width throughout, approximately 4% of the full canvas width, with perfectly rounded caps and joins. No swelling, taper, serifs, brush texture, rough edges, pressure modulation, or pointed ends. Ensure the counters stay open and distinct strokes stay separated where the sources require it. Draw the glyph centered and occupying approximately the central 70% of a square canvas with generous clear margins, balanced spacing and a consistent sans-serif Gothic style.\n\nOutput exactly one glyph only, pure BLACK smooth monoline strokes on a fully TRANSPARENT background. No text, labels, chart, frame, grid, specimen copies, multiple alternatives, calligraphy, backdrop, shadows, or watermark.\n\nCharacter U+3D036. Essential structural reading aid, subordinate to the four specimens: Vertical complex composition: at upper left is a three-prong upward branch with central descending stem meeting a shallow roof/two outward angled arms; below the roof is a separate horizontal oval counter on TWO short stems standing on a short horizontal base. At upper right are exactly THREE separate parallel rising oblique strokes. Below all those are TWO detached long horizontal bars, the LOWER of which has a central vertical descending leg and two separated/curved side legs, matching the ritual/altar component. Keep the oval-on-two-stems and all three oblique strokes clearly visible.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D036.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-7c581df7-5504-43f1-86ef-8c98088be880.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D036.png",
+  "original_pixels_unchanged": true,
+  "sha256": "363e54e2e327a36a1d58b927b5f9e788918123a5d3f5c512415c7a6843646a3c",
+  "reference_sha256": "256ca566667a8e0c5b8a2204b409af1a7ac1dded6a29ec1b03729c0481e3a886",
+  "visual_review": {
+    "method": "white-background inspection composite compared visually against THX, CCZ, QJZ, DYC",
+    "notes": "Compared all four specimens: upper three-prong/roof, oval on two short stems, exactly three oblique strokes and lower two horizontals with three legs retained.",
+    "confidence": "draft visual comparison; not scholarly certification"
+  }
+}

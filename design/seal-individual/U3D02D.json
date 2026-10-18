@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D02D",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D02D. Preserve the distinctive compound structure shown by all four specimens: upper-left is a bent curved fan/leaf construction with TWO short internal divider strokes and a long descending lower-left continuation; upper-right is the open left-facing stacked hooked construction with three upper levels linked on its right, continuing down as the long right side. The two upper constructions remain separated by white space at the top. Under them in the center lie TWO horizontal levels: the upper is a short detached horizontal, the lower is a longer horizontal with central downward stem. TWO shorter detached curved downward strokes flank that central stem; there are THREE bottom terminations. Keep clear gaps between those short side legs and the lower horizontal. Study all available variants and choose one coherent fan construction attested in the references; do not combine incompatible open and closed fan alternatives. Keep the upper fan's small internal strokes and upper-right hook distinct from the lower short bar and baseline.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D02D.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-7d72f7c0-993c-4137-833f-259777dbdd64.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D02D.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all four available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "05eb37a59e1fd1554fcb91182904feb38becdd1bf68e5654faf20a0804315219",
+  "reference_sha256": "9105ba41246d5c4a6d66184f1e4f1181b2af13c4dad27ba58de4d9322d8136c7",
+  "source_evidence": {
+    "codepoint": "U+3D02D",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      253.57017517089844,
+      416.0193176269531,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          251.78102111816406,
+          441.7799987792969,
+          276.96002197265625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          252.3732696533203,
+          443.79999389648435,
+          277.3532775878906
+        ],
+        "source_label": "TH-00042"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          250.34022521972656,
+          465.6398620605469,
+          272.34002685546875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          249.77017517089843,
+          470.3999938964844,
+          277.3532775878906
+        ],
+        "source_label": "C-00042"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          254.59420776367188,
+          494.1398010253906,
+          276.2159729003906
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          252.3732696533203,
+          497.09999389648436,
+          277.3532775878906
+        ],
+        "source_label": "K-00042"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          251.79220581054688,
+          519.0398559570312,
+          276.8279724121094
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          249.77017517089843,
+          523.7999938964844,
+          277.3532775878906
+        ],
+        "source_label": "D-00042"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "Compared THX/CCZ/QJZ/DYC. Output uses coherent open fan form with two attached interior spurs attested by THX/CCZ, rather than QJZ/DYC closed-compartment alternative. Preserves separate upper-right three-level hooked construction, two central horizontal levels, and three lower terminations with detached outer legs.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

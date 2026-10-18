@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D01D",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01D, critical topology. LEFT component: short detached horizontal upper bar. Below it is a LONGER HORIZONTAL BAR WITH ITS CENTRAL DESCENDING VERTICAL LEG DIRECTLY ATTACHED, forming a solid T JUNCTION. THERE IS NO GAP BETWEEN THIS LOWER BAR AND ITS CENTER LEG. Make center vertical begin ON the lower horizontal centerline and extend almost to glyph bottom, exactly as in ALL FOUR reference views. Approximate: lower bar centerline from(18%,33%) to(43%,33%); central descending leg centerline from(30.5%,33%) to(30.5%,85%), so they visibly intersect. On either side of center leg, one shorter outer descending stroke begins below the bar with a small gap, curving outward at bottom. Thus central leg attached, left/right side legs detached. Never detach all three legs. RIGHT component: three staggered upright tips, central tallest from near top to baseline; left upright starts a little lower and descends then rounds RIGHT to a long bottom baseline crossing central upright; right upright starts slightly lower than central and descends only to lower-middle, turns LEFT and meets central at that level, creating an OPEN TOP channel. There is no closed box. Shared coherent horizontal-baseline structure attested by THX/CCZ/QJZ, consider DYC without hybrid. The right component in the evidence is distinct from left T-plus-side-strokes. Uniform4%canvas rounded monoline.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D01D.png",
+  "reference_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01D.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        378.6210021972656,
+        292.9800109863281,
+        403.79998779296875
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        379.1532836914063,
+        295.0000061035156,
+        404.1333068847656
+      ],
+      "source_label": "TH-00028"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        377.1802062988281,
+        316.8398742675781,
+        399.17999267578125
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        379.1532836914063,
+        321.6000061035156,
+        404.1333068847656
+      ],
+      "source_label": "C-00028"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        381.4341735839844,
+        345.33978271484375,
+        403.0559387207031
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        379.1532836914063,
+        348.3000061035156,
+        404.1333068847656
+      ],
+      "source_label": "K-00028"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        378.6321716308594,
+        370.2398681640625,
+        403.6679382324219
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        379.1532836914063,
+        375.0000061035156,
+        404.1333068847656
+      ],
+      "source_label": "D-00028"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-f29801e7-136a-45bd-a55d-3e20325f49a4.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D01D.png",
+  "output_sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
+  "attempt": 2,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four specimens. Peer audit caught detached center leg of left radical in first attempt; second/final attempt restores attached T junction with outer pair separately starting. Right three staggered uprights, middle right return and long lower right baseline retained. Final image visually rechecked.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    239,
+    214,
+    1194,
+    1210
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D01D.png"
+}

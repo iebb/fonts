@@ -1,0 +1,116 @@
+{
+  "code_point": "U+3D02A",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal font glyph U+3D02A. First attached image is the MAIN reference showing FOUR historical views of this ONE character: THX, CCZ, QJZ, DYC. Study all four equally; choose one coherent attested whole form. Second image is an enlarged close-up of the small ring component from the chart, provided ONLY so its fine internal stroke topology can be seen. Do not output this close-up alone. Output the ONE COMPLETE character, smoothly reconstructed as original uniform-width Gothic/monoline strokes, not a brush outline trace.\n\nFull glyph structure: LEFT ritual/altar component: detached short top horizontal, longer lower horizontal with center descending long stem, and TWO separate flanking long descending strokes. RIGHT outer stroke: one smooth reverse-S top meander with three horizontal levels, continuing into the long outside RIGHT vertical to bottom. Inside that outer bent stroke in lower-right half is a closed upright rounded rectangular RING, separated from the enclosure. A center vertical stem projects down from ring; a short horizontal crosses it, and below that it ENDS at a longer horizontal baseline. Preserve all other component structure and detachments.\n\nCRITICAL: Inside the ring are EXACTLY THREE separate DIAGONAL STROKES, not a plain X. TWO of the diagonals are PARALLEL RISING \"/\" strokes, and ONE diagonal is FALLING \"\\\". Falling stroke joins upper-left rim to lower-right rim. Upper rising stroke joins LEFT rim at about55% of ring height to TOP rim at about65% of ring width. Lower rising stroke joins BOTTOM rim at about30% of ring width to RIGHT rim at about40% of ring height. These two parallel rising strokes cross the falling diagonal at TWO DISTINCT CROSSING POINTS. Do NOT meet all three at one central point. Thus the interior ring has EXACTLY SIX white enclosed fields: two side triangles, upper and lower triangles, and two central oblique quadrilateral spaces. Carefully reproduce the 3-line lattice visible in enlarged detail. Two rising parallel strokes must BOTH be clearly present; don't merge them into one X arm. No fourth interior line.\n\nEvery stroke exactly the same constant width, approximately4% of canvas width, with round caps and smooth round joins, no taper/brush texture/serifs/swelling. If needed, enlarge ring to keep all six fields clearly open, maintaining balanced whole glyph. Center complete glyph in central70% of square canvas with generous margins. Pure BLACK strokes on fully TRANSPARENT background. Exactly ONE whole glyph, no chart copies, text, labels, grid, frame, watermarks, or background.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D02A.png",
+  "additional_reference": "/tmp/U3D02A-ring.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-6bc61f30-a7c3-48dc-8135-ca11011ddfb1.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D02A.png",
+  "original_pixels_unchanged": true,
+  "previous_attempt_issue": "Ring contained plain two-diagonal X; reference ring has three diagonals (two rising parallel + one falling) crossing at distinct points, six fields.",
+  "sha256": "4fc7d61d5b410c7a876f00aebcdca1612476ce24110df75c9e46b90a377b6d35",
+  "reference_sha256": "f058f979215064c08ed270ba20a663e7544ace6824f09fe6bfcbda2e3430a4ba",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D02A",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      158.47019958496094,
+      415.4693298339844,
+      169.62997436523438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          156.6809844970703,
+          441.7799987792969,
+          181.8599853515625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          157.2732940673828,
+          443.79999389648435,
+          182.25328674316407
+        ],
+        "source_label": "TH-00040"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          155.2401885986328,
+          465.6398620605469,
+          177.239990234375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          157.2732940673828,
+          470.3999938964844,
+          182.25328674316407
+        ],
+        "source_label": "C-00040"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          159.49417114257812,
+          494.1398010253906,
+          181.11595153808594
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          157.2732940673828,
+          497.09999389648436,
+          182.25328674316407
+        ],
+        "source_label": "K-00040"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          156.69216918945312,
+          519.0398559570312,
+          181.7279510498047
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          157.2732940673828,
+          523.7999938964844,
+          182.25328674316407
+        ],
+        "source_label": "D-00040"
+      }
+    }
+  },
+  "additional_reference_sha256": "41f8ffe81489d4b4910da0c80ef71d1fe46b2d5255119ea9a9de95de66bbe46c",
+  "visual_review": {
+    "method": "white inspection composite compared against all available full specimens and enlarged chart ring detail",
+    "notes": "Attempt2 restores exactly three diagonals: two rising parallel plus one falling, with two distinct crossings and six white ring fields; whole glyph other components retained.",
+    "confidence": "draft visual comparison; not scholarly certification",
+    "style_limitation": "No material brush variation seen; font centerline reconstruction still required."
+  }
+}

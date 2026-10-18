@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D019",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D019: LEFT is the short detached upper horizontal over longer lower horizontal and three long descending legs (center attached, outside pair detached). RIGHT is the intricate thread-like Small Seal structure shown in ALL four views, not a modern character. At top right a short upright turns right into two short horizontal levels, forming a small one-counter hook/knot with a little upper upright extension. A longer horizontal crossbar lies beneath the small top knot. From this bar a flowing curved descending thread bends down-left then back down-right through the middle, then runs as one long central vertical toward the bottom. Beneath the bar the curved course must retain the reference's irregular hooked/zigzag shape; it is not a straight tree trunk. Two separate short diagonal branch/dash strokes sit on its lower LEFT, slanting down-left, and two short diagonal branch/dash strokes on its lower RIGHT, slanting down-right, with substantial white gaps between the two levels. Preserve the shared top knot, one wide crossbar, central curved long thread, and TWO PAIRS of lower diagonal side marks seen in the references. Pick one coherent attested flowing course from the four views, no invented extra loop or branch. Keep equal line width and round terminals.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D019.png",
+  "reference_sha256": "2e26ae17c8f5f76b667751eb0bcd47589487b000e7e4d0b818b40d8b1ab1fc45",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D019.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        251.78102111816406,
+        292.9800109863281,
+        276.96002197265625
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        252.3732696533203,
+        295.0000061035156,
+        277.3532775878906
+      ],
+      "source_label": "TH-00024"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        250.34022521972656,
+        316.8398742675781,
+        272.34002685546875
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        252.3732696533203,
+        321.6000061035156,
+        277.3532775878906
+      ],
+      "source_label": "C-00024"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        254.59420776367188,
+        345.33978271484375,
+        276.2159729003906
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        252.3732696533203,
+        348.3000061035156,
+        277.3532775878906
+      ],
+      "source_label": "K-00024"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        251.79220581054688,
+        370.2398681640625,
+        276.8279724121094
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        252.3732696533203,
+        375.0000061035156,
+        277.3532775878906
+      ],
+      "source_label": "D-00024"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-0907b090-b9a3-4679-9eb1-1beeb81661dd.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D019.png",
+  "output_sha256": "6cbfac7a6d544c82018ee37ab0c60b944a160600128e86d825a5f08bd639faf5",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four views. Small upper hook/knot and wide crossbar retained, curved left-branching thread runs into long descending center, with two detached down-left marks and two detached down-right marks. Shared identity retained without replacing wavy central course with straight modern tree form.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    55,
+    77,
+    1214,
+    1074
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D019.png"
+}

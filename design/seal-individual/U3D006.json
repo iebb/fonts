@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D006",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D006. Exactly a straight vertical upright rising from the middle of one horizontal baseline. Two real uniform-width strokes with round caps and a clean T junction, upright long and baseline about equal width. Preserve this baseline orientation.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D006.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-93dd74b2-a51e-4995-af25-6ec54c405c53.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D006.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "dac131015493a055e89301bcf7d05148819f55728d9f0002a327d643ff400f37",
+  "reference_sha256": "fe0198d1dd2513622b5c4cf5874a4721065539a6608e9855c4db77c8c675841a",
+  "source_evidence": {
+    "codepoint": "U+3D006",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      285.25018310546875,
+      116.7594223022461,
+      296.4099426269531
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          283.52099609375,
+          144.17999267578125,
+          308.6999816894531
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          284.05327758789065,
+          146.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "TH-00007"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          282.0802001953125,
+          168.03985595703125,
+          304.0799865722656
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          284.05327758789065,
+          172.8000030517578,
+          309.03330078125
+        ],
+        "source_label": "C-00007"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          286.33416748046875,
+          196.539794921875,
+          307.9559326171875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          284.05327758789065,
+          199.5000030517578,
+          309.03330078125
+        ],
+        "source_label": "K-00007"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          283.53216552734375,
+          221.43984985351562,
+          308.56793212890625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          284.05327758789065,
+          226.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "D-00008"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "All four source specimens show one upright stem meeting the middle of a baseline. Output preserves two straight centerline strokes, rounded ends, and baseline orientation.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

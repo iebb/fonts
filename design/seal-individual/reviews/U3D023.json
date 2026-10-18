@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D023",
+  "verdict": "mismatch",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Second attempt correctly moves the upward-returning branch to the middle of the right component stem.",
+    "It introduces another structural error: the ritual component rightmost descender curves directly into the lower-right baseline, replacing the lower-right component own left descending leg. All four witnesses retain three independent ritual descenders plus a separate left leg on that lower-right component.",
+    "Two native attempts are exhausted; an explicit manual vector repair is required before this glyph can enter the final font."
+  ],
+  "source_png": "design/seal-individual/U3D023.png",
+  "source_png_sha256": "119a7292db7a15ff44ac8b00f8912369afbec521cf141f4c72045a54bcefc564",
+  "reference_overview": "reference/seal/individual/U3D023.png",
+  "reference_png_sha256": "629dcf9ce00eef6206e4af643f52f825c16d10bfa2de32e01fd0b357cd4b624c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "dce621e3fce5715b6f77e21566fcdfa01aa3edb780efeeff51090ab14067e89e",
+      "verdict": "mismatch",
+      "notes": [
+        "The left component and upper right divided enclosure match the chart structure.",
+        "In the lower right component, the generated upward-returning right branch is attached at the bottom baseline. Every available specimen places this return on the middle of the central stem, above its baseline.",
+        "The generating worker independently identified the same mismatch and is retrying."
+      ],
+      "reference_png_sha256": "629dcf9ce00eef6206e4af643f52f825c16d10bfa2de32e01fd0b357cd4b624c"
+    }
+  ]
+}

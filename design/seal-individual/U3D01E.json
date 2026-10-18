@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D01E",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01E: LEFT is short detached upper bar above longer horizontal crossbar and three descending legs (central attached, outer pair detached), with gentle outer curves. RIGHT is exactly THREE DISCONNECTED shapes stacked vertically: top is one horizontal line with roundcaps; middle is one small horizontal rounded rectangular ring with ONE white counter; bottom is a larger rounded rectangular window divided by ONE full vertical and ONE full horizontal crossing through its center, making exactly FOUR white counters in a 2-by-2 arrangement. Do not connect the three right-hand shapes to one another or to the left component. Keep small middle ring's single hole and large bottom window's four holes cleanly open, matching shared structure across all four historical views. Rounded rectangle corners, monoline black uniform4%canvas strokes, no brush.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D01E.png",
+  "reference_sha256": "0f50a87c50a264925c2b59191cfbfe2a6bc185417af1e3399a55bd629eeefab4",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01E.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        410.3009948730469,
+        292.9800109863281,
+        435.47998046875
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        410.83330688476565,
+        295.0000061035156,
+        435.8732971191406
+      ],
+      "source_label": "TH-00029"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        408.8601989746094,
+        316.8398742675781,
+        430.8599853515625
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        410.83330688476565,
+        321.6000061035156,
+        435.8732971191406
+      ],
+      "source_label": "C-00029"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        413.1141662597656,
+        345.33978271484375,
+        434.7359313964844
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        410.83330688476565,
+        348.3000061035156,
+        435.8732971191406
+      ],
+      "source_label": "K-00029"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        410.3121643066406,
+        370.2398681640625,
+        435.3479309082031
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        410.83330688476565,
+        375.0000061035156,
+        435.8732971191406
+      ],
+      "source_label": "D-00029"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-745f08af-9906-4731-90a1-ed02c57f3012.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D01E.png",
+  "output_sha256": "ebcaa2ceda7a2603f0423693cfceb3b59a09dbd2c170cbd4073d39f393a9aeed",
+  "attempt": 1,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four views. Right detached top bar, detached one-counter middle ring, detached four-counter 2x2 lower window retained; left two-bar/three-leg structure separate. Rounded monoline.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    245,
+    212,
+    999,
+    1002
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D01E.png"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D029",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised top-right motif correctly joins both short horizontal strokes to one common left vertical, resolving the earlier detached-bar mismatch.",
+    "Three raised diamond counters, two horizontal bars and five lower descenders are retained on the left; the right three-panel eye, paired lower support legs and crossing curved bottom strokes remain intact."
+  ],
+  "source_png": "design/seal-individual/U3D029.png",
+  "source_png_sha256": "fee1dfb3f069df05535d8eec654f9b615861ce0a10ca6efd1182be568193ad00",
+  "reference_overview": "reference/seal/individual/U3D029.png",
+  "reference_png_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "ae92302e818830b6763b32565d4337301d6b1c0b87120d15007985d6ba0dfcce",
+      "verdict": "match",
+      "notes": [
+        "The left component retains three raised diamond counters, two horizontal bars and five descending strokes.",
+        "The right component preserves the two-stroke bent top, three-panel eye, lower support/baseline with paired legs, and crossing curved lower strokes. No panel, diamond or lower crossing stroke was omitted."
+      ],
+      "reference_png_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab"
+    },
+    {
+      "source_png_sha256": "ae92302e818830b6763b32565d4337301d6b1c0b87120d15007985d6ba0dfcce",
+      "verdict": "mismatch",
+      "notes": [
+        "Enlarged connection review shows the top-right motif must have both short horizontal strokes joined by a common left vertical, as in all four available references.",
+        "The native drawing forms one L-like return plus a detached lower horizontal. This breaks that shared connection despite otherwise matching the component inventory.",
+        "A second native attempt with the common-left-vertical attachment was requested; the earlier contact-scale match is superseded."
+      ],
+      "reference_png_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab"
+    }
+  ]
+}

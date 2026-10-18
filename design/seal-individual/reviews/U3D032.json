@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D032",
+  "verdict": "mismatch",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Second attempt restores the central upper transverse crossbar. Its joined lower fork can be interpreted as a coherent CCZ-type variant.",
+    "The rightmost stacked enclosure still has only its serpentine right tail, omitting the separately descending left leg present in all four references.",
+    "The upper counter of that enclosure is also unsplit; the witnesses retain a small inner fork or partition, particularly clear as a Y-like division in THX.",
+    "The native PNG remains rejected. A separate manual centerline structural correction is being prepared and will need its own independent vector review."
+  ],
+  "source_png": "design/seal-individual/U3D032.png",
+  "source_png_sha256": "60055cff1f41035e79bf8d323916154721417afadf7514db5e059acfbf5aa82b",
+  "reference_overview": "reference/seal/individual/U3D032.png",
+  "reference_png_sha256": "5d01d491d24b58b0ae82a694d52f82da9c0cf2767801a5759ffea5dd42407c84",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "4b17009d2a6c5379e8d4c38f52648951f1c621112c62c15fb1c92d3a7a916859",
+      "verdict": "mismatch",
+      "notes": [
+        "All four references show two descending legs below the rightmost stacked enclosure: a left leg and a separate curved or S-shaped right leg. The drawing retains only the S-shaped leg connected to that enclosure.",
+        "The central upper six-ray component also loses its transverse horizontal crossbar, becoming a three-pronged fork plus detached lower ticks.",
+        "A coherent attested construction with the transverse bar and both enclosure legs was requested from consensus_d."
+      ],
+      "reference_png_sha256": "5d01d491d24b58b0ae82a694d52f82da9c0cf2767801a5759ffea5dd42407c84"
+    }
+  ]
+}

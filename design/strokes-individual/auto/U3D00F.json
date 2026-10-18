@@ -1,0 +1,1479 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D00F",
+  "viewBox": [
+    0,
+    0,
+    1024,
+    1024
+  ],
+  "stroke_width": 43,
+  "linecap": "round",
+  "linejoin": "round",
+  "status": "automatic_unreviewed",
+  "coverage_eligible": false,
+  "character_identity_verified": false,
+  "visual_reference_match_reviewed": true,
+  "historical_stroke_order_verified": false,
+  "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
+  "source": {
+    "file": "design/seal-individual/U3D00F.png",
+    "sha256": "cdf1947eed8c2496d2e2e963533f57bc0b1b3a68dc6129a63dd8d2c97e413c90",
+    "source_pixels_modified": false,
+    "source_layout": "one complete glyph per native PNG",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "generation_review": {
+      "codepoint": "U+3D00F",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D00F. Exactly one upper horizontal with a central downward vertical. Two smooth uniform-width strokes, round caps, clean junction. Preserve top-bar orientation; do not place bar at bottom.",
+      "referenced_image_paths": [
+        "/workspace/unifont/reference/seal/individual/U3D00F.png"
+      ],
+      "original_generated_path": "/workspace/generated_images/exec-a1b64ae2-6f30-4368-a6d1-8e647f0d6c0e.png",
+      "output_path": "/workspace/unifont/design/seal-individual/U3D00F.png",
+      "transparent_background_requested": true,
+      "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+      "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+      "status": "visually_matches_chart_structure",
+      "flags": {
+        "character_identity_unreviewed": false,
+        "stroke_topology_unreviewed": false,
+        "constant_width_unverified": true,
+        "not_font_source": true,
+        "historical_stroke_order_unverified": true,
+        "specialist_identity_unverified": true
+      },
+      "output_sha256": "cdf1947eed8c2496d2e2e963533f57bc0b1b3a68dc6129a63dd8d2c97e413c90",
+      "reference_sha256": "1b99c91d0ce6fb5087b0471c5aa9dbea779557d8c9eca0b00bc5e59df9865b6d",
+      "source_evidence": {
+        "codepoint": "U+3D00F",
+        "page": 2,
+        "label_bbox": [
+          87.30000305175781,
+          570.5501708984375,
+          117.30941009521484,
+          581.7099609375
+        ],
+        "variants": {
+          "THX": {
+            "available": true,
+            "page": 2,
+            "font": "CMEXShuowenSeal",
+            "font_size": 21.0,
+            "bbox": [
+              123.18000030517578,
+              568.8209838867188,
+              144.17999267578125,
+              594.0
+            ],
+            "crop_bbox": [
+              121.20000305175782,
+              569.3532958984375,
+              146.20000305175782,
+              594.3332275390625
+            ],
+            "source_label": "TH-00015"
+          },
+          "CCZ": {
+            "available": true,
+            "page": 2,
+            "font": "Shuowen-ccz",
+            "font_size": 21.999799728393555,
+            "bbox": [
+              152.63999938964844,
+              567.3801879882812,
+              168.03985595703125,
+              589.3800048828125
+            ],
+            "crop_bbox": [
+              147.8000030517578,
+              569.3532958984375,
+              172.8000030517578,
+              594.3332275390625
+            ],
+            "source_label": "C-00015"
+          },
+          "QJZ": {
+            "available": true,
+            "page": 2,
+            "font": "qjz",
+            "font_size": 18.999799728393555,
+            "bbox": [
+              177.5399932861328,
+              571.6342163085938,
+              196.539794921875,
+              593.2559814453125
+            ],
+            "crop_bbox": [
+              174.5000030517578,
+              569.3532958984375,
+              199.5000030517578,
+              594.3332275390625
+            ],
+            "source_label": "K-00015"
+          },
+          "DYC": {
+            "available": true,
+            "page": 2,
+            "font": "dyc",
+            "font_size": 21.999799728393555,
+            "bbox": [
+              206.0399932861328,
+              568.8322143554688,
+              221.43984985351562,
+              593.8679809570312
+            ],
+            "crop_bbox": [
+              201.20000305175782,
+              569.3532958984375,
+              226.20000305175782,
+              594.3332275390625
+            ],
+            "source_label": "D-00016"
+          }
+        }
+      },
+      "visual_review": {
+        "verdict": "match",
+        "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+        "notes": "Compared all four source specimens: all show one upper horizontal with descending central stem. Output retains exactly this top-bar orientation and two-stroke junction, with rounded ends and uniform visual weight.",
+        "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+      },
+      "manifest": "design/seal-individual/U3D00F.json",
+      "manifest_sha256": "69fdb4a2fd80c03a1de056df4f05412c49e2d973342aa97d3299c94dc9c8431c"
+    },
+    "visual_reference_review": {
+      "schema_version": 1,
+      "codepoint": "U+3D00F",
+      "verdict": "match",
+      "reviewer": "independent visual structural review by root",
+      "notes": [
+        "Exactly one horizontal top bar and a single centered descending stem, connected as a T, agree with all four specimens. No extra branches, counters or detached marks are present."
+      ],
+      "source_png": "design/seal-individual/U3D00F.png",
+      "source_png_sha256": "cdf1947eed8c2496d2e2e963533f57bc0b1b3a68dc6129a63dd8d2c97e413c90",
+      "reference_overview": "reference/seal/individual/U3D00F.png",
+      "reference_png_sha256": "1b99c91d0ce6fb5087b0471c5aa9dbea779557d8c9eca0b00bc5e59df9865b6d",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "limitations": [
+        "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+        "Does not verify historical writing order, exact metrics, or final font stroke width.",
+        "Verdict applies only to the source PNG hash recorded here."
+      ],
+      "inspection_file": "design/seal-individual/inspection/U3D00F-white.png",
+      "review_file": "design/seal-individual/reviews/U3D00F.json",
+      "review_sha256": "4079b804a3773de8fb64d15c658945ae1971d33359852fb24489cb728962a4db"
+    },
+    "alpha_threshold": 128,
+    "readonly_alpha_analysis": {
+      "size": [
+        313,
+        313
+      ],
+      "resized_alpha_size": [
+        313,
+        313
+      ],
+      "padding_offset": [
+        0,
+        0
+      ],
+      "resample": "Pillow LANCZOS; in-memory alpha only"
+    }
+  },
+  "algorithm": {
+    "skeleton": "Zhang-Suen",
+    "spur_limit_analysis_pixels": 7,
+    "junction_cluster_distance_analysis_pixels": 4,
+    "minimum_continuation_angle_degrees": 135,
+    "fit_tolerance_analysis_pixels": 1,
+    "fit_tolerance_font_units": 3.2716,
+    "analysis_pixels_to_font_units": 3.2715654952076676,
+    "outline_sources_used": false
+  },
+  "maximum_fit_error_analysis_pixels": 0.0,
+  "maximum_fit_error_font_units": 0.0,
+  "topology": {
+    "retained_mask_components": 1,
+    "removed_small_components": 0,
+    "skeleton_pixels": 295,
+    "pruned_spur_pixels": 0,
+    "graph_edges": 3,
+    "junctions": [
+      {
+        "point": [
+          510.3642,
+          310.7987
+        ],
+        "degree": 3,
+        "continuations": [
+          {
+            "edges": [
+              0,
+              2
+            ],
+            "angle_degrees": 180.0
+          }
+        ],
+        "unpaired_branches": 1,
+        "review_required": true,
+        "point_analysis_pixels": [
+          156.0,
+          95.0
+        ]
+      }
+    ],
+    "ambiguity": "Branches are geometric inferences. Original writing order and crossing pen lifts cannot be established from a flat image."
+  },
+  "strokes": [
+    {
+      "points": [
+        [
+          510.3642,
+          310.7987
+        ],
+        [
+          510.3642,
+          314.0703
+        ],
+        [
+          510.3642,
+          317.3419
+        ],
+        [
+          510.3642,
+          320.6134
+        ],
+        [
+          510.3642,
+          323.885
+        ],
+        [
+          510.3642,
+          327.1565
+        ],
+        [
+          510.3642,
+          330.4281
+        ],
+        [
+          510.3642,
+          333.6997
+        ],
+        [
+          510.3642,
+          336.9712
+        ],
+        [
+          510.3642,
+          340.2428
+        ],
+        [
+          510.3642,
+          343.5144
+        ],
+        [
+          510.3642,
+          346.7859
+        ],
+        [
+          510.3642,
+          350.0575
+        ],
+        [
+          510.3642,
+          353.3291
+        ],
+        [
+          510.3642,
+          356.6006
+        ],
+        [
+          510.3642,
+          359.8722
+        ],
+        [
+          510.3642,
+          363.1438
+        ],
+        [
+          510.3642,
+          366.4153
+        ],
+        [
+          510.3642,
+          369.6869
+        ],
+        [
+          510.3642,
+          372.9585
+        ],
+        [
+          510.3642,
+          376.23
+        ],
+        [
+          510.3642,
+          379.5016
+        ],
+        [
+          510.3642,
+          382.7732
+        ],
+        [
+          510.3642,
+          386.0447
+        ],
+        [
+          510.3642,
+          389.3163
+        ],
+        [
+          510.3642,
+          392.5879
+        ],
+        [
+          510.3642,
+          395.8594
+        ],
+        [
+          510.3642,
+          399.131
+        ],
+        [
+          510.3642,
+          402.4026
+        ],
+        [
+          510.3642,
+          405.6741
+        ],
+        [
+          510.3642,
+          408.9457
+        ],
+        [
+          510.3642,
+          412.2173
+        ],
+        [
+          510.3642,
+          415.4888
+        ],
+        [
+          510.3642,
+          418.7604
+        ],
+        [
+          510.3642,
+          422.0319
+        ],
+        [
+          510.3642,
+          425.3035
+        ],
+        [
+          510.3642,
+          428.5751
+        ],
+        [
+          510.3642,
+          431.8466
+        ],
+        [
+          510.3642,
+          435.1182
+        ],
+        [
+          510.3642,
+          438.3898
+        ],
+        [
+          510.3642,
+          441.6613
+        ],
+        [
+          510.3642,
+          444.9329
+        ],
+        [
+          510.3642,
+          448.2045
+        ],
+        [
+          510.3642,
+          451.476
+        ],
+        [
+          510.3642,
+          454.7476
+        ],
+        [
+          510.3642,
+          458.0192
+        ],
+        [
+          510.3642,
+          461.2907
+        ],
+        [
+          510.3642,
+          464.5623
+        ],
+        [
+          510.3642,
+          467.8339
+        ],
+        [
+          510.3642,
+          471.1054
+        ],
+        [
+          510.3642,
+          474.377
+        ],
+        [
+          510.3642,
+          477.6486
+        ],
+        [
+          510.3642,
+          480.9201
+        ],
+        [
+          510.3642,
+          484.1917
+        ],
+        [
+          510.3642,
+          487.4633
+        ],
+        [
+          510.3642,
+          490.7348
+        ],
+        [
+          510.3642,
+          494.0064
+        ],
+        [
+          510.3642,
+          497.278
+        ],
+        [
+          510.3642,
+          500.5495
+        ],
+        [
+          510.3642,
+          503.8211
+        ],
+        [
+          510.3642,
+          507.0927
+        ],
+        [
+          510.3642,
+          510.3642
+        ],
+        [
+          510.3642,
+          513.6358
+        ],
+        [
+          510.3642,
+          516.9073
+        ],
+        [
+          510.3642,
+          520.1789
+        ],
+        [
+          510.3642,
+          523.4505
+        ],
+        [
+          510.3642,
+          526.722
+        ],
+        [
+          510.3642,
+          529.9936
+        ],
+        [
+          510.3642,
+          533.2652
+        ],
+        [
+          510.3642,
+          536.5367
+        ],
+        [
+          510.3642,
+          539.8083
+        ],
+        [
+          510.3642,
+          543.0799
+        ],
+        [
+          510.3642,
+          546.3514
+        ],
+        [
+          510.3642,
+          549.623
+        ],
+        [
+          510.3642,
+          552.8946
+        ],
+        [
+          510.3642,
+          556.1661
+        ],
+        [
+          510.3642,
+          559.4377
+        ],
+        [
+          510.3642,
+          562.7093
+        ],
+        [
+          510.3642,
+          565.9808
+        ],
+        [
+          510.3642,
+          569.2524
+        ],
+        [
+          510.3642,
+          572.524
+        ],
+        [
+          510.3642,
+          575.7955
+        ],
+        [
+          510.3642,
+          579.0671
+        ],
+        [
+          510.3642,
+          582.3387
+        ],
+        [
+          510.3642,
+          585.6102
+        ],
+        [
+          510.3642,
+          588.8818
+        ],
+        [
+          510.3642,
+          592.1534
+        ],
+        [
+          510.3642,
+          595.4249
+        ],
+        [
+          510.3642,
+          598.6965
+        ],
+        [
+          510.3642,
+          601.9681
+        ],
+        [
+          510.3642,
+          605.2396
+        ],
+        [
+          510.3642,
+          608.5112
+        ],
+        [
+          510.3642,
+          611.7827
+        ],
+        [
+          510.3642,
+          615.0543
+        ],
+        [
+          510.3642,
+          618.3259
+        ],
+        [
+          510.3642,
+          621.5974
+        ],
+        [
+          510.3642,
+          624.869
+        ],
+        [
+          510.3642,
+          628.1406
+        ],
+        [
+          510.3642,
+          631.4121
+        ],
+        [
+          510.3642,
+          634.6837
+        ],
+        [
+          510.3642,
+          637.9553
+        ],
+        [
+          510.3642,
+          641.2268
+        ],
+        [
+          510.3642,
+          644.4984
+        ],
+        [
+          510.3642,
+          647.77
+        ],
+        [
+          510.3642,
+          651.0415
+        ],
+        [
+          510.3642,
+          654.3131
+        ],
+        [
+          510.3642,
+          657.5847
+        ],
+        [
+          510.3642,
+          660.8562
+        ],
+        [
+          510.3642,
+          664.1278
+        ],
+        [
+          510.3642,
+          667.3994
+        ],
+        [
+          510.3642,
+          670.6709
+        ],
+        [
+          510.3642,
+          673.9425
+        ],
+        [
+          510.3642,
+          677.2141
+        ],
+        [
+          510.3642,
+          680.4856
+        ],
+        [
+          510.3642,
+          683.7572
+        ],
+        [
+          510.3642,
+          687.0288
+        ],
+        [
+          510.3642,
+          690.3003
+        ],
+        [
+          510.3642,
+          693.5719
+        ],
+        [
+          510.3642,
+          696.8435
+        ],
+        [
+          510.3642,
+          700.115
+        ],
+        [
+          510.3642,
+          703.3866
+        ],
+        [
+          510.3642,
+          706.6581
+        ],
+        [
+          510.3642,
+          709.9297
+        ],
+        [
+          510.3642,
+          713.2013
+        ],
+        [
+          510.3642,
+          716.4728
+        ],
+        [
+          510.3642,
+          719.7444
+        ],
+        [
+          510.3642,
+          723.016
+        ],
+        [
+          510.3642,
+          726.2875
+        ],
+        [
+          510.3642,
+          729.5591
+        ],
+        [
+          510.3642,
+          732.8307
+        ],
+        [
+          510.3642,
+          736.1022
+        ],
+        [
+          510.3642,
+          739.3738
+        ],
+        [
+          510.3642,
+          742.6454
+        ],
+        [
+          510.3642,
+          745.9169
+        ],
+        [
+          510.3642,
+          749.1885
+        ],
+        [
+          510.3642,
+          752.4601
+        ],
+        [
+          510.3642,
+          755.7316
+        ],
+        [
+          510.3642,
+          759.0032
+        ],
+        [
+          510.3642,
+          762.2748
+        ],
+        [
+          510.3642,
+          765.5463
+        ],
+        [
+          510.3642,
+          768.8179
+        ]
+      ],
+      "graph_edges": [
+        1
+      ],
+      "is_loop": false,
+      "path": "M 510.364,310.799 L 510.364,768.818",
+      "commands": [
+        [
+          "M",
+          510.3642,
+          310.7987
+        ],
+        [
+          "L",
+          510.3642,
+          768.8179
+        ]
+      ],
+      "maximum_fit_error": 0.0,
+      "curve_segments": 1,
+      "id": "stroke-1",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.0,
+      "maximum_fit_error_font_units": 0.0
+    },
+    {
+      "points": [
+        [
+          258.4537,
+          310.7987
+        ],
+        [
+          261.7252,
+          310.7987
+        ],
+        [
+          264.9968,
+          310.7987
+        ],
+        [
+          268.2684,
+          310.7987
+        ],
+        [
+          271.5399,
+          310.7987
+        ],
+        [
+          274.8115,
+          310.7987
+        ],
+        [
+          278.0831,
+          310.7987
+        ],
+        [
+          281.3546,
+          310.7987
+        ],
+        [
+          284.6262,
+          310.7987
+        ],
+        [
+          287.8978,
+          310.7987
+        ],
+        [
+          291.1693,
+          310.7987
+        ],
+        [
+          294.4409,
+          310.7987
+        ],
+        [
+          297.7125,
+          310.7987
+        ],
+        [
+          300.984,
+          310.7987
+        ],
+        [
+          304.2556,
+          310.7987
+        ],
+        [
+          307.5272,
+          310.7987
+        ],
+        [
+          310.7987,
+          310.7987
+        ],
+        [
+          314.0703,
+          310.7987
+        ],
+        [
+          317.3419,
+          310.7987
+        ],
+        [
+          320.6134,
+          310.7987
+        ],
+        [
+          323.885,
+          310.7987
+        ],
+        [
+          327.1565,
+          310.7987
+        ],
+        [
+          330.4281,
+          310.7987
+        ],
+        [
+          333.6997,
+          310.7987
+        ],
+        [
+          336.9712,
+          310.7987
+        ],
+        [
+          340.2428,
+          310.7987
+        ],
+        [
+          343.5144,
+          310.7987
+        ],
+        [
+          346.7859,
+          310.7987
+        ],
+        [
+          350.0575,
+          310.7987
+        ],
+        [
+          353.3291,
+          310.7987
+        ],
+        [
+          356.6006,
+          310.7987
+        ],
+        [
+          359.8722,
+          310.7987
+        ],
+        [
+          363.1438,
+          310.7987
+        ],
+        [
+          366.4153,
+          310.7987
+        ],
+        [
+          369.6869,
+          310.7987
+        ],
+        [
+          372.9585,
+          310.7987
+        ],
+        [
+          376.23,
+          310.7987
+        ],
+        [
+          379.5016,
+          310.7987
+        ],
+        [
+          382.7732,
+          310.7987
+        ],
+        [
+          386.0447,
+          310.7987
+        ],
+        [
+          389.3163,
+          310.7987
+        ],
+        [
+          392.5879,
+          310.7987
+        ],
+        [
+          395.8594,
+          310.7987
+        ],
+        [
+          399.131,
+          310.7987
+        ],
+        [
+          402.4026,
+          310.7987
+        ],
+        [
+          405.6741,
+          310.7987
+        ],
+        [
+          408.9457,
+          310.7987
+        ],
+        [
+          412.2173,
+          310.7987
+        ],
+        [
+          415.4888,
+          310.7987
+        ],
+        [
+          418.7604,
+          310.7987
+        ],
+        [
+          422.0319,
+          310.7987
+        ],
+        [
+          425.3035,
+          310.7987
+        ],
+        [
+          428.5751,
+          310.7987
+        ],
+        [
+          431.8466,
+          310.7987
+        ],
+        [
+          435.1182,
+          310.7987
+        ],
+        [
+          438.3898,
+          310.7987
+        ],
+        [
+          441.6613,
+          310.7987
+        ],
+        [
+          444.9329,
+          310.7987
+        ],
+        [
+          448.2045,
+          310.7987
+        ],
+        [
+          451.476,
+          310.7987
+        ],
+        [
+          454.7476,
+          310.7987
+        ],
+        [
+          458.0192,
+          310.7987
+        ],
+        [
+          461.2907,
+          310.7987
+        ],
+        [
+          464.5623,
+          310.7987
+        ],
+        [
+          467.8339,
+          310.7987
+        ],
+        [
+          471.1054,
+          310.7987
+        ],
+        [
+          474.377,
+          310.7987
+        ],
+        [
+          477.6486,
+          310.7987
+        ],
+        [
+          480.9201,
+          310.7987
+        ],
+        [
+          484.1917,
+          310.7987
+        ],
+        [
+          487.4633,
+          310.7987
+        ],
+        [
+          490.7348,
+          310.7987
+        ],
+        [
+          494.0064,
+          310.7987
+        ],
+        [
+          497.278,
+          310.7987
+        ],
+        [
+          500.5495,
+          310.7987
+        ],
+        [
+          503.8211,
+          310.7987
+        ],
+        [
+          507.0927,
+          310.7987
+        ],
+        [
+          510.3642,
+          310.7987
+        ],
+        [
+          513.6358,
+          310.7987
+        ],
+        [
+          516.9073,
+          310.7987
+        ],
+        [
+          520.1789,
+          310.7987
+        ],
+        [
+          523.4505,
+          310.7987
+        ],
+        [
+          526.722,
+          310.7987
+        ],
+        [
+          529.9936,
+          310.7987
+        ],
+        [
+          533.2652,
+          310.7987
+        ],
+        [
+          536.5367,
+          310.7987
+        ],
+        [
+          539.8083,
+          310.7987
+        ],
+        [
+          543.0799,
+          310.7987
+        ],
+        [
+          546.3514,
+          310.7987
+        ],
+        [
+          549.623,
+          310.7987
+        ],
+        [
+          552.8946,
+          310.7987
+        ],
+        [
+          556.1661,
+          310.7987
+        ],
+        [
+          559.4377,
+          310.7987
+        ],
+        [
+          562.7093,
+          310.7987
+        ],
+        [
+          565.9808,
+          310.7987
+        ],
+        [
+          569.2524,
+          310.7987
+        ],
+        [
+          572.524,
+          310.7987
+        ],
+        [
+          575.7955,
+          310.7987
+        ],
+        [
+          579.0671,
+          310.7987
+        ],
+        [
+          582.3387,
+          310.7987
+        ],
+        [
+          585.6102,
+          310.7987
+        ],
+        [
+          588.8818,
+          310.7987
+        ],
+        [
+          592.1534,
+          310.7987
+        ],
+        [
+          595.4249,
+          310.7987
+        ],
+        [
+          598.6965,
+          310.7987
+        ],
+        [
+          601.9681,
+          310.7987
+        ],
+        [
+          605.2396,
+          310.7987
+        ],
+        [
+          608.5112,
+          310.7987
+        ],
+        [
+          611.7827,
+          310.7987
+        ],
+        [
+          615.0543,
+          310.7987
+        ],
+        [
+          618.3259,
+          310.7987
+        ],
+        [
+          621.5974,
+          310.7987
+        ],
+        [
+          624.869,
+          310.7987
+        ],
+        [
+          628.1406,
+          310.7987
+        ],
+        [
+          631.4121,
+          310.7987
+        ],
+        [
+          634.6837,
+          310.7987
+        ],
+        [
+          637.9553,
+          310.7987
+        ],
+        [
+          641.2268,
+          310.7987
+        ],
+        [
+          644.4984,
+          310.7987
+        ],
+        [
+          647.77,
+          310.7987
+        ],
+        [
+          651.0415,
+          310.7987
+        ],
+        [
+          654.3131,
+          310.7987
+        ],
+        [
+          657.5847,
+          310.7987
+        ],
+        [
+          660.8562,
+          310.7987
+        ],
+        [
+          664.1278,
+          310.7987
+        ],
+        [
+          667.3994,
+          310.7987
+        ],
+        [
+          670.6709,
+          310.7987
+        ],
+        [
+          673.9425,
+          310.7987
+        ],
+        [
+          677.2141,
+          310.7987
+        ],
+        [
+          680.4856,
+          310.7987
+        ],
+        [
+          683.7572,
+          310.7987
+        ],
+        [
+          687.0288,
+          310.7987
+        ],
+        [
+          690.3003,
+          310.7987
+        ],
+        [
+          693.5719,
+          310.7987
+        ],
+        [
+          696.8435,
+          310.7987
+        ],
+        [
+          700.115,
+          310.7987
+        ],
+        [
+          703.3866,
+          310.7987
+        ],
+        [
+          706.6581,
+          310.7987
+        ],
+        [
+          709.9297,
+          310.7987
+        ],
+        [
+          713.2013,
+          310.7987
+        ],
+        [
+          716.4728,
+          310.7987
+        ],
+        [
+          719.7444,
+          310.7987
+        ],
+        [
+          723.016,
+          310.7987
+        ],
+        [
+          726.2875,
+          310.7987
+        ],
+        [
+          729.5591,
+          310.7987
+        ],
+        [
+          732.8307,
+          310.7987
+        ],
+        [
+          736.1022,
+          310.7987
+        ],
+        [
+          739.3738,
+          310.7987
+        ],
+        [
+          742.6454,
+          310.7987
+        ],
+        [
+          745.9169,
+          310.7987
+        ],
+        [
+          749.1885,
+          310.7987
+        ],
+        [
+          752.4601,
+          310.7987
+        ],
+        [
+          755.7316,
+          310.7987
+        ],
+        [
+          759.0032,
+          310.7987
+        ],
+        [
+          762.2748,
+          310.7987
+        ]
+      ],
+      "graph_edges": [
+        0,
+        2
+      ],
+      "is_loop": false,
+      "path": "M 258.454,310.799 L 762.275,310.799",
+      "commands": [
+        [
+          "M",
+          258.4537,
+          310.7987
+        ],
+        [
+          "L",
+          762.2748,
+          310.7987
+        ]
+      ],
+      "maximum_fit_error": 0.0,
+      "curve_segments": 1,
+      "id": "stroke-2",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.0,
+      "maximum_fit_error_font_units": 0.0
+    }
+  ]
+}

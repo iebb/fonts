@@ -1,0 +1,108 @@
+{
+  "codepoint": "U+3D017",
+  "tool": "image_gen.imagegen",
+  "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D017, preserve every gap in all four specimens. LEFT: short detached upper bar over longer lower bar with three descending legs (middle attached, outer two detached). RIGHT TOP: small three-pronged fork composed of open-top U and taller center upright. The center upright extends down through that U to ONE horizontal bar directly under the fork, AND ENDS AT THAT BAR. IMPORTANT: there must be CLEAR TRANSPARENT EMPTY GAP BELOW THIS FIRST BAR. The small bowl underneath is a SEPARATE COMPONENT, not connected by any central vertical to the fork or first bar. MIDDLE RIGHT: separate horizontal rounded rectangular bowl with one counter; TWO short vertical feet under that bowl meet the second long horizontal baseline. LOWER RIGHT: separate horned U cup below second baseline, with one rung near its top and one rounded-bottom closed counter. Do not connect the top fork to the middle bowl: there is an open gap across the entire space between their first bar and small bowl. No invented continuous central spine. In all four historical views the top group and middle bowl are separate. Uniform line width4%canvas, smoothly rounded ends and corners, no brush taper or filled calligraphy.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D017.png",
+  "reference_sha256": "7b4294649d8076da6614aabdfa578b9e2637c39c2f2c7e69e46203c4be2ec41e",
+  "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D017.json",
+  "evidence": {
+    "THX": {
+      "available": true,
+      "page": 2,
+      "font": "CMEXShuowenSeal",
+      "font_size": 21.0,
+      "bbox": [
+        271.9800109863281,
+        188.4209747314453,
+        292.9800109863281,
+        213.5999755859375
+      ],
+      "crop_bbox": [
+        270.0000061035156,
+        188.95328674316406,
+        295.0000061035156,
+        213.93327941894532
+      ],
+      "source_label": "TH-00022"
+    },
+    "CCZ": {
+      "available": true,
+      "page": 2,
+      "font": "Shuowen-ccz",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        301.44000244140625,
+        186.9801788330078,
+        316.8398742675781,
+        208.97998046875
+      ],
+      "crop_bbox": [
+        296.6000061035156,
+        188.95328674316406,
+        321.6000061035156,
+        213.93327941894532
+      ],
+      "source_label": "C-00022"
+    },
+    "QJZ": {
+      "available": true,
+      "page": 2,
+      "font": "qjz",
+      "font_size": 18.999799728393555,
+      "bbox": [
+        326.3399963378906,
+        191.23416137695312,
+        345.33978271484375,
+        212.85594177246094
+      ],
+      "crop_bbox": [
+        323.3000061035156,
+        188.95328674316406,
+        348.3000061035156,
+        213.93327941894532
+      ],
+      "source_label": "K-00023"
+    },
+    "DYC": {
+      "available": true,
+      "page": 2,
+      "font": "dyc",
+      "font_size": 21.999799728393555,
+      "bbox": [
+        354.8399963378906,
+        188.43215942382812,
+        370.2398681640625,
+        213.4679412841797
+      ],
+      "crop_bbox": [
+        350.0000061035156,
+        188.95328674316406,
+        375.0000061035156,
+        213.93327941894532
+      ],
+      "source_label": "D-00022"
+    }
+  },
+  "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+  "source_generated_image": "/workspace/generated_images/exec-d3737231-ca69-4cef-8d0b-a012718ea44b.png",
+  "output": "/workspace/unifont/design/seal-individual/U3D017.png",
+  "output_sha256": "d3b14df36311bfe6e6a7de133d1d403fd148985d25aa127024d16d0e79c1dc53",
+  "attempt": 2,
+  "transparent_background": true,
+  "review_status": "passed_structural_visual_review",
+  "historical_stroke_order_verified": false,
+  "font_integration_status": "not_integrated",
+  "review_notes": "Compared all four specimens. First attempt incorrectly joined fork/bar group to middle bowl. Second restores full transparent gap below fork/bar, separate middle bowl on twin feet and baseline, lower horned cup. All shared components and counters retained.",
+  "native_output_mode": "RGBA",
+  "native_output_size": [
+    1254,
+    1254
+  ],
+  "native_alpha_bbox": [
+    69,
+    73,
+    1212,
+    1207
+  ],
+  "inspection_composite": "/tmp/seal-individual-b-review-3D017.png"
+}

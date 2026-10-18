@@ -1,0 +1,119 @@
+{
+  "codepoint": "U+3D009",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D009. Preserve two separate upper horizontal levels, a small open cup or rectangular depression hanging centrally beneath the lower high bar, an outer structure descending as two side strokes, and an inner arched construction with three downward terminations including the central upright. Follow a coherent attested source rather than modernizing. Essential: below the top cup, a horizontal crossbar joins the outer side legs as in an H structure; the outer legs have short extensions above that crossbar. The central vertical descends through this crossbar and continues between the two legs of an inner downward arch. Maintain FIVE bottom downward terminations: two outer, two inner, and one central.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D009.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-40f457fa-00f6-43f6-ada6-faaa97490a34.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D009.png",
+  "transparent_background_requested": true,
+  "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+  "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+  "status": "visually_matches_chart_structure",
+  "flags": {
+    "character_identity_unreviewed": false,
+    "stroke_topology_unreviewed": false,
+    "constant_width_unverified": true,
+    "not_font_source": true,
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true
+  },
+  "output_sha256": "cca6b23f62bf01f830b068470d69521e1b225d1f355325bf6031f2b0d33185e3",
+  "reference_sha256": "224d5da9c6e8dbd75ed3f7b0238e00d871306b84381db5e220d2dba44e6b81e6",
+  "source_evidence": {
+    "codepoint": "U+3D009",
+    "page": 2,
+    "label_bbox": [
+      87.30000305175781,
+      380.3501892089844,
+      116.7594223022461,
+      391.50994873046875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          378.6210021972656,
+          144.17999267578125,
+          403.79998779296875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          379.1532836914063,
+          146.20000305175782,
+          404.1333068847656
+        ],
+        "source_label": "TH-00009"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          377.1802062988281,
+          168.03985595703125,
+          399.17999267578125
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          379.1532836914063,
+          172.8000030517578,
+          404.1333068847656
+        ],
+        "source_label": "C-00009"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          381.4341735839844,
+          196.539794921875,
+          403.0559387207031
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          379.1532836914063,
+          199.5000030517578,
+          404.1333068847656
+        ],
+        "source_label": "K-00009"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          378.6321716308594,
+          221.43984985351562,
+          403.6679382324219
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          376.55018920898436,
+          226.20000305175782,
+          404.1333068847656
+        ],
+        "source_label": "D-00009"
+      }
+    }
+  },
+  "visual_review": {
+    "verdict": "match",
+    "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+    "notes": "All four sources share two high horizontals, small hanging cup, connecting central stem, outer H-like body and inner arch. Output retains five bottom terminations and detached outer upper tips as attested by THX/QJZ/DYC; central cup and open side gaps preserved.",
+    "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+  }
+}

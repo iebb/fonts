@@ -1,0 +1,24 @@
+{
+  "code_point": "U+3D038",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. The reference contains FOUR historical specimens of the SAME character, labelled THX, CCZ, QJZ, DYC. These are evidence for one character: use all four to understand its identity and stroke structure. Produce one new original coherent Gothic/monoline interpretation, informed by all four rather than tracing THX or any single specimen's brush silhouette. When forms disagree, choose a coherent attested WHOLE form; never splice incompatible alternative structures. Preserve the essential branches, counters, detachments, number and arrangement of components, and distinctive ancient character identity. Do not substitute a modern Chinese character.\n\nTrace the real course of each stroke as a smooth centerline with rounded curves. Each stroke has exactly constant width throughout, approximately 4% of the full canvas width, with perfectly rounded caps and joins. No swelling, taper, serifs, brush texture, rough edges, pressure modulation, or pointed ends. Ensure the counters stay open and distinct strokes stay separated where the sources require it. Draw the glyph centered and occupying approximately the central 70% of a square canvas with generous clear margins, balanced spacing and a consistent sans-serif Gothic style.\n\nOutput exactly one glyph only, pure BLACK smooth monoline strokes on a fully TRANSPARENT background. No text, labels, chart, frame, grid, specimen copies, multiple alternatives, calligraphy, backdrop, shadows, or watermark.\n\nCharacter U+3D038. Essential structural reading aid, subordinate to the four specimens: Left ritual/altar component: detached top dash, longer lower horizontal carrying central long stem, and two separate flanking descending strokes. Right component: THREE upright prongs joined in a rounded upward-open trident at top, with central stem descending through a separate-looking long transverse horizontal; below is a rounded U-shaped bowl with TWO short uprights, a horizontal across the bowl defining ONE lower counter, and a central vertical connection from the upper trident into the bowl's crossbar in the attested THX/CCZ/QJZ form. Choose a coherent full form; preserve trident, transverse, bowl and single lower counter.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D038.png",
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "status": "visual_comparison_pass_draft",
+  "original_generated_file": "/workspace/generated_images/exec-ee831ec2-3756-45bc-86ec-138dabf6255b.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D038.png",
+  "original_pixels_unchanged": true,
+  "sha256": "dd738a66566542b5c7f50788ee57c2c5c0af1508e929d3962ec75fc902f4c99a",
+  "reference_sha256": "d155ee5eb1e59cc05461b143e15f641545ebabc7c8212340b945d8f55597a276",
+  "visual_review": {
+    "method": "white-background inspection composite compared visually against THX, CCZ, QJZ, DYC",
+    "notes": "Compared all four specimens: upper trident, central transverse/stem, lower pronged bowl with single counter and left ritual component retained in coherent connected-stem variant.",
+    "confidence": "draft visual comparison; not scholarly certification"
+  }
+}

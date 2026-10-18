@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D026",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D026.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: Left ritual radical = two separate horizontal bars above three separate long descending strokes. Right component has rounded upper-left U-shaped turn with three rightward horizontal levels (top, middle, lower), crossed by a vertical spine toward the center. The top encloses one upper counter; the left return descends and curves right to meet the lower horizontal, forming a second counter beneath the midbar in the THX/CCZ coherent form. The center spine continues down into a long gently right-curving tail at the bottom. IMPORTANT: the bottom tail ends freely; NO bottom horizontal baseline. Preserve this distinction from the other S-spined glyph.",
+  "reference": "reference/seal/individual/U3D026.png",
+  "reference_sha256": "25ec4b758d8776ba7097486006e69ab0141ba4e80c16094ebd99bb87e05fbd05",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D026",
+    "page": 2,
+    "label_bbox": [
+      236.10000610351562,
+      665.6502075195312,
+      265.5594177246094,
+      676.8099975585938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          663.9209594726562,
+          292.9800109863281,
+          689.0999755859375
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          664.453271484375,
+          295.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "TH-00036"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          662.4801635742188,
+          316.8398742675781,
+          684.47998046875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          661.8502075195313,
+          321.6000061035156,
+          689.4332641601562
+        ],
+        "source_label": "C-00036"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          666.7341918945312,
+          345.33978271484375,
+          688.35595703125
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          664.453271484375,
+          348.3000061035156,
+          689.4332641601562
+        ],
+        "source_label": "K-00036"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          663.9321899414062,
+          370.2398681640625,
+          688.9679565429688
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          661.8502075195313,
+          375.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "D-00036"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-9a65436b-a2f3-4532-a92a-8fa45ff412dd.png",
+  "output": "design/seal-individual/U3D026.png",
+  "output_sha256": "ced7fe0b2a85ff38dd753e7576463ab40238328e9d1e220b67e2fe9486b799ca",
+  "attempt": 1,
+  "review_status": "rejected_identity_detail",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "Left ritual center descender detached from lower horizontal instead of attested attachment; one retry pending."
+}

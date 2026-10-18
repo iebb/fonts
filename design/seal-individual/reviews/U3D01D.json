@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D01D",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised left ritual central descender now joins the long second horizontal in a clear T junction, resolving the first-attempt gap.",
+    "The right tall central upright, shorter outer hook, left lower return and extended baseline preserve a coherent attested construction after comparison with all four specimens."
+  ],
+  "source_png": "design/seal-individual/U3D01D.png",
+  "source_png_sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
+  "reference_overview": "reference/seal/individual/U3D01D.png",
+  "reference_png_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "936b1a73f9aead423c93e0e4b2497b35f2faa0bc87bd8fd90a76e49d13fbe8bc",
+      "verdict": "mismatch",
+      "notes": [
+        "Full-size native inspection confirms that the ritual central descender starts below the long second horizontal with a visible gap, leaving all three legs detached.",
+        "All four chart witnesses attach that central stem to the horizontal; lateral legs may remain detached. The right-hand tall hooked component is otherwise consistent.",
+        "A second native attempt with the central attachment was requested from consensus_b."
+      ],
+      "reference_png_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f"
+    }
+  ]
+}

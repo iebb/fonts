@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D026",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "The revised drawing attaches the left ritual central descender directly to its long second horizontal, resolving the earlier disconnected-stem mismatch.",
+    "The right rounded upper outline, central upright through two crossbars, and long descending curved tail retain a coherent THX/CCZ/DYC-type construction."
+  ],
+  "source_png": "design/seal-individual/U3D026.png",
+  "source_png_sha256": "6eaf8bdd3fac11b838f213f2053c3b8b98be109730425b6574c8b6535a7741cd",
+  "reference_overview": "reference/seal/individual/U3D026.png",
+  "reference_png_sha256": "25ec4b758d8776ba7097486006e69ab0141ba4e80c16094ebd99bb87e05fbd05",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "ced7fe0b2a85ff38dd753e7576463ab40238328e9d1e220b67e2fe9486b799ca",
+      "verdict": "match",
+      "notes": [
+        "The right component retains its rounded upper-left outline, central vertical through the middle and lower crossbars, and long rightward-curving descending tail.",
+        "The left component retains two bars and three separate legs. The drawing corresponds to a coherent THX/CCZ/DYC-type form after comparison with the angular QJZ variant."
+      ],
+      "reference_png_sha256": "25ec4b758d8776ba7097486006e69ab0141ba4e80c16094ebd99bb87e05fbd05"
+    },
+    {
+      "source_png_sha256": "ced7fe0b2a85ff38dd753e7576463ab40238328e9d1e220b67e2fe9486b799ca",
+      "verdict": "mismatch",
+      "notes": [
+        "Full-size inspection shows the central descender of the left ritual component detached from its long second horizontal bar. The chart witnesses attach this central stem to that bar.",
+        "Lateral descenders can remain detached as in THX, but the central attachment must be retained. A second native attempt was requested."
+      ],
+      "reference_png_sha256": "25ec4b758d8776ba7097486006e69ab0141ba4e80c16094ebd99bb87e05fbd05"
+    }
+  ]
+}

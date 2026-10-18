@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D02B",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D02B.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: Ignore unavailable QJZ; compare THX, CCZ, DYC equally. ONE full-width tall outer CANOPY, with smoothly rounded top corners, TWO long outside sides, open across bottom, and a SHORT UPRIGHT TICK at center of roof. Inside roof upper-left is a small reverse-S/zigzag curved element with THREE horizontal levels; upper-right is TWO detached short horizontal strokes. Lower-left is a ROUNDED RING with two crossing diagonals X, then center vertical stem below it, a short horizontal and longer bottom baseline; stem ENDS at lower baseline. Lower-right has THREE SEPARATE long gently WAVY descending strokes. These are all INSIDE the canopy. Preserve exact ring X and three wavy descenders. Leave gaps between every independent inner element and canopy. Do not invent a fourth inner descender.",
+  "reference": "reference/seal/individual/U3D02B.png",
+  "reference_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D02B",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      190.1501922607422,
+      415.4693298339844,
+      201.30996704101562
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          188.4209747314453,
+          441.7799987792969,
+          213.5999755859375
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          188.95328674316406,
+          443.79999389648435,
+          213.93327941894532
+        ],
+        "source_label": "TH-00041"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 2,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          186.9801788330078,
+          465.6398620605469,
+          208.97998046875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          188.95328674316406,
+          470.3999938964844,
+          213.93327941894532
+        ],
+        "source_label": "C-00041"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": true,
+        "page": 2,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          188.43215942382812,
+          519.0398559570312,
+          213.4679412841797
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          188.95328674316406,
+          523.7999938964844,
+          213.93327941894532
+        ],
+        "source_label": "D-00041"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-75c950f5-4edc-4064-9f81-1b8588219a17.png",
+  "output": "design/seal-individual/U3D02B.png",
+  "output_sha256": "0caaa5f4fc3074f77e1329d77ac3059bffd51910d0c3d733dee7b17dc863c026",
+  "attempt": 1,
+  "review_status": "rejected_identity_detail",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "Enlarged reference shows three interior diagonals in ring, not native plain X. Retry reassigned to consensus_d."
+}

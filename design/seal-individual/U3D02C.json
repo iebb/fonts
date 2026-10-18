@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D02C",
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE newly designed Small Seal glyph U+3D02C.\nThe attached reference shows FOUR historical views of this SAME ONE Small Seal character ordered THX, CCZ, QJZ, DYC; some may be marked unavailable. Compare ALL AVAILABLE specimens equally to understand its identity. Create exactly ONE new independent, harmonious, contemporary monoline Gothic redraw informed by all witnesses, not a copy of one source and not a four-glyph grid. Preserve every essential branch, crossing, counter, attachment and separation. If variants disagree, choose one coherent attested whole structure, never combine incompatible components or substitute modern Chinese.\nOutput ONLY the ONE glyph in pure black on alpha transparency, large and centered within the central 70% of square canvas, generous margins, no background/text/labels/border/grid. Reconstruct the real intentional stroke courses as clean continuous centerlines, smooth rounded geometric curves and straight lines. Every stroke must have equal CONSTANT width about 4% of EM, with round end caps and joins, no brush taper, contrast, serifs, texture, blobs, doubled outlines, swelled intersections or decorative seal effects. Preserve all openings.\nCRITICAL CHARACTER IDENTITY: Only THX and QJZ witnesses are available; compare BOTH equally. This character has ONE tall outer rounded CANOPY, open across bottom, two long outside sides and a short UPRIGHT TICK centered on roof. Inside LOWER LEFT is an upright rounded rectangular RING. CRITICAL RING IDENTITY: inside the ring draw EXACTLY THREE DIAGONAL STROKES: TWO PARALLEL diagonals rise from lower-left toward upper-right, and ONE diagonal falls from upper-left to lower-right, crossing BOTH parallel rising diagonals. They create SIX WHITE COMPARTMENTS within the ring (not a plain X/four compartments). Above this ring, attached to its TOP CENTER, rises a short vertical which has a short flag branch pointing RIGHT near the top. Below the ring, attached to its BOTTOM CENTER, is a vertical crossing one short horizontal and ENDING on a second longer baseline (TWO lower bars total). Inside the canopy on the RIGHT is a ritual motif: one short detached top horizontal, a longer second horizontal with CENTER descending vertical firmly attached as T, and two separated side descenders. These three inner-right descending strokes all remain SEPARATE from the outer canopy sides. Keep every component inside the canopy. No plain X substitution, no fourth diagonal, no added bar.",
+  "reference": "reference/seal/individual/U3D02C.png",
+  "reference_sha256": "b9d4815517eefa68aa6580bd44c0be6a0f19079df7e7159c13f402b43ae4f0e8",
+  "reference_viewed_before_generation": true,
+  "four_specimen_evidence": {
+    "codepoint": "U+3D02C",
+    "page": 2,
+    "label_bbox": [
+      384.8999938964844,
+      221.83018493652344,
+      416.0193176269531,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 2,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          223.18797302246094,
+          441.7799987792969,
+          244.6499786376953
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          220.6332794189453,
+          443.79999389648435,
+          245.67326965332032
+        ],
+        "source_label": "TH-Y004"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 2,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          222.91415405273438,
+          494.1398010253906,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          218.03018493652343,
+          497.09999389648436,
+          245.67326965332032
+        ],
+        "source_label": "K-00041"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "all_available_specimens_considered_equally": true,
+  "transparent_background": true,
+  "original_output": "/workspace/generated_images/exec-fe71e63a-11e6-4f97-8236-3ab08db8878b.png",
+  "output": "design/seal-individual/U3D02C.png",
+  "output_sha256": "5d4b82f58efcfd8733d9cbb94d9813b8919caf4164542497a2ffadb022546198",
+  "attempt": 1,
+  "review_status": "visual_reference_pass_candidate",
+  "review_note": "Original ImageGen pixels preserved; inspection composite is separate.",
+  "visual_review_note": "THX and QJZ enlarged evidence compared: roof tick, ring upper flag, THREE diagonal interior strokes/two parallel rising plus falling yielding six compartments, lower staff, and right attached-middle ritual motif retained."
+}

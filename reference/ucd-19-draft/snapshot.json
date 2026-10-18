@@ -1,7 +1,47 @@
 {
   "version": "19.0.0 development draft",
   "repository": "unicode-org/unicodetools",
-  "commit": "03f128b76c2917bba02f497fccb44ba833855700",
-  "source_base": "https://raw.githubusercontent.com/unicode-org/unicodetools/03f128b76c2917bba02f497fccb44ba833855700/unicodetools/data/ucd/dev/",
-  "note": "Pinned baseline; update through audit tool to latest commit when available."
+  "commit": "4fd8eca90b30aa4c72543ccddb4c15d05becdf8d",
+  "source_base": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/dev/",
+  "note": "Development snapshot verified at the recorded commit. All six audited UCD files are byte-identical to the previous baseline; version headers and assigned Age values are retained verbatim.",
+  "verified_utc": "2026-10-18",
+  "previous_commit": "03f128b76c2917bba02f497fccb44ba833855700",
+  "files": [
+    {
+      "file": "UnicodeData.txt",
+      "bytes": 2243593,
+      "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+      "changed": false
+    },
+    {
+      "file": "Blocks.txt",
+      "bytes": 11920,
+      "sha256": "f2fcb9fe1bc18c6b0298eead6d6cdec34021080d6ce85ee74387e3e4a03fab8e",
+      "changed": false
+    },
+    {
+      "file": "DerivedAge.txt",
+      "bytes": 142568,
+      "sha256": "58b04334e3a31f9612694bbc3f6bff4a302b7d424565bca9c47e30aa74f8dbac",
+      "changed": false
+    },
+    {
+      "file": "Scripts.txt",
+      "bytes": 196089,
+      "sha256": "0071fd81b6aeae25f6e8bce8efec3066a6476a91b49bdb2f52dc76e817862a6a",
+      "changed": false
+    },
+    {
+      "file": "DerivedCoreProperties.txt",
+      "bytes": 1159889,
+      "sha256": "09c928886a178fcafd93c29e4bd59073a058e5a100b716d425cb563ab50f68c9",
+      "changed": false
+    },
+    {
+      "file": "ReadMe.txt",
+      "bytes": 741,
+      "sha256": "75a1ce9e5b14164a22d35b2a56fb5a8f927de323a08c43791c6fb050901f84f8",
+      "changed": false
+    }
+  ]
 }
