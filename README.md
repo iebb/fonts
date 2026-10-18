@@ -13,6 +13,12 @@ The current design example covers **U+3D000–U+3D03F**. All 64 glyphs were redr
 
 This is an experimental design sample. It is excluded from the production coverage count. It does not claim completion of the 11,328-character Small Seal repertoire or the complete Unicode 19 font.
 
+### Variable-weight study
+
+`fonts/seal-variable/` contains a real `wght` axis from 300 to 700, with Light, Regular, Medium and Bold named instances. Regular 400 preserves the original outlines and spacing. `weight-comparison.png` shows four weights; `weight-slider.html` is a self-contained interactive specimen.
+
+This weight study is a prototype made by adjusting the font outlines. Dense glyphs need optical corrections to their fine joins and counters before the heavy weights are production-ready. The original ImageGen artwork is unchanged. Rebuild with `python tools/build_weight_demo.py` and `python tools/render_weight_demo.py`.
+
 The family is split into multiple font files because OpenType limits each face to 65,535 glyphs. Original script shaping is retained in Noto-derived faces. Supplements are kept in separate files with their original licenses.
 
 ## Sources and reference
