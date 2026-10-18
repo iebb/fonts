@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "family": "Panorama Gothic Seal Draft",
+  "license": "OFL-1.1",
+  "status": "experimental_visually_compared",
+  "coverage_eligible": false,
+  "source_generation": {
+    "tool": "image_gen.imagegen",
+    "source_file": "design/seal/redraw-3D010-3D01F.png",
+    "retained_source": "design/seal/U3D010-imagegen-sheet.png",
+    "sha256": "7fe71818e3863218908900a89d9c17ae6d8b062a57ed6b8e2e2b90a1c02bd336",
+    "reference": "reference/seal/U3D000.pdf",
+    "source_pixels_modified": false
+  },
+  "tracing": {
+    "alpha_threshold": 128,
+    "grid": [
+      4,
+      4
+    ],
+    "minimum_contour_area_source_pixels": 8,
+    "simplification_tolerance_source_pixels": 0.5,
+    "algorithm": "oriented pixel edges; RDP; corner-anchored cubic B-splines; Cu2Qu quadratic conversion",
+    "maximum_measured_spline_fit_error_source_pixels": 0.6,
+    "distance_validation_spacing_source_pixels": 0.125,
+    "cubic_flattening_validation_tolerance_source_pixels": 0.025,
+    "quadratic_conversion_tolerance_source_pixels": 0.05,
+    "normalization": "each full source cell maps to 1024x1024 units; baseline832; no individual glyph fitting"
+  },
+  "font": {
+    "file": "PanoramaGothicSealDraft-Regular.ttf",
+    "woff": "PanoramaGothicSealDraft-Regular.woff",
+    "codepoint_count": 16,
+    "codepoints": [
+      "U+3D010",
+      "U+3D011",
+      "U+3D012",
+      "U+3D013",
+      "U+3D014",
+      "U+3D015",
+      "U+3D016",
+      "U+3D017",
+      "U+3D018",
+      "U+3D019",
+      "U+3D01A",
+      "U+3D01B",
+      "U+3D01C",
+      "U+3D01D",
+      "U+3D01E",
+      "U+3D01F"
+    ],
+    "sha256": "b289630ba723c108e1bcea952f450b9cf53791574ef14caf938df18ccbbcf0a2",
+    "woff_sha256": "0d045e09d2c54772b3b5f6935cbe9e8e434327c1036dde041279a21f6529389c"
+  },
+  "glyphs": [
+    {
+      "codepoint": "U+3D010",
+      "glyph": "u3D010",
+      "svg": "U3D010.svg",
+      "source_cell": [
+        0,
+        0,
+        313,
+        313
+      ],
+      "foreground_pixels": 4135,
+      "contours": 2,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 624,
+      "points_after_simplification": 60,
+      "smoothed_contours": 2,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.47086077326521725,
+      "preserved_corner_count": 0
+    },
+    {
+      "codepoint": "U+3D011",
+      "glyph": "u3D011",
+      "svg": "U3D011.svg",
+      "source_cell": [
+        313,
+        0,
+        627,
+        313
+      ],
+      "foreground_pixels": 7257,
+      "contours": 1,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 1112,
+      "points_after_simplification": 168,
+      "smoothed_contours": 1,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5192764987097956,
+      "preserved_corner_count": 1
+    },
+    {
+      "codepoint": "U+3D012",
+      "glyph": "u3D012",
+      "svg": "U3D012.svg",
+      "source_cell": [
+        627,
+        0,
+        940,
+        313
+      ],
+      "foreground_pixels": 10025,
+      "contours": 4,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 1594,
+      "points_after_simplification": 300,
+      "smoothed_contours": 4,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5704939170089853,
+      "preserved_corner_count": 2
+    },
+    {
+      "codepoint": "U+3D013",
+      "glyph": "u3D013",
+      "svg": "U3D013.svg",
+      "source_cell": [
+        940,
+        0,
+        1254,
+        313
+      ],
+      "foreground_pixels": 9972,
+      "contours": 4,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 1732,
+      "points_after_simplification": 592,
+      "smoothed_contours": 4,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5398322001632689,
+      "preserved_corner_count": 0
+    },
+    {
+      "codepoint": "U+3D014",
+      "glyph": "u3D014",
+      "svg": "U3D014.svg",
+      "source_cell": [
+        0,
+        313,
+        313,
+        627
+      ],
+      "foreground_pixels": 13651,
+      "contours": 6,
+      "holes": 1,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2186,
+      "points_after_simplification": 402,
+      "smoothed_contours": 6,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5944444799842987,
+      "preserved_corner_count": 8
+    },
+    {
+      "codepoint": "U+3D015",
+      "glyph": "u3D015",
+      "svg": "U3D015.svg",
+      "source_cell": [
+        313,
+        313,
+        627,
+        627
+      ],
+      "foreground_pixels": 18353,
+      "contours": 17,
+      "holes": 11,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2752,
+      "points_after_simplification": 530,
+      "smoothed_contours": 17,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5713799988780739,
+      "preserved_corner_count": 34
+    },
+    {
+      "codepoint": "U+3D016",
+      "glyph": "u3D016",
+      "svg": "U3D016.svg",
+      "source_cell": [
+        627,
+        313,
+        940,
+        627
+      ],
+      "foreground_pixels": 12379,
+      "contours": 5,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2182,
+      "points_after_simplification": 764,
+      "smoothed_contours": 5,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5918722616892124,
+      "preserved_corner_count": 0
+    },
+    {
+      "codepoint": "U+3D017",
+      "glyph": "u3D017",
+      "svg": "U3D017.svg",
+      "source_cell": [
+        940,
+        313,
+        1254,
+        627
+      ],
+      "foreground_pixels": 16281,
+      "contours": 10,
+      "holes": 3,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2674,
+      "points_after_simplification": 538,
+      "smoothed_contours": 10,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5865522678033362,
+      "preserved_corner_count": 12
+    },
+    {
+      "codepoint": "U+3D018",
+      "glyph": "u3D018",
+      "svg": "U3D018.svg",
+      "source_cell": [
+        0,
+        627,
+        313,
+        940
+      ],
+      "foreground_pixels": 17304,
+      "contours": 10,
+      "holes": 3,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2870,
+      "points_after_simplification": 678,
+      "smoothed_contours": 10,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.58959756567078,
+      "preserved_corner_count": 12
+    },
+    {
+      "codepoint": "U+3D019",
+      "glyph": "u3D019",
+      "svg": "U3D019.svg",
+      "source_cell": [
+        313,
+        627,
+        627,
+        940
+      ],
+      "foreground_pixels": 16155,
+      "contours": 10,
+      "holes": 1,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2844,
+      "points_after_simplification": 824,
+      "smoothed_contours": 10,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5950815333566836,
+      "preserved_corner_count": 11
+    },
+    {
+      "codepoint": "U+3D01A",
+      "glyph": "u3D01A",
+      "svg": "U3D01A.svg",
+      "source_cell": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "foreground_pixels": 19420,
+      "contours": 7,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 3336,
+      "points_after_simplification": 718,
+      "smoothed_contours": 7,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5832699933721959,
+      "preserved_corner_count": 9
+    },
+    {
+      "codepoint": "U+3D01B",
+      "glyph": "u3D01B",
+      "svg": "U3D01B.svg",
+      "source_cell": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "foreground_pixels": 16446,
+      "contours": 8,
+      "holes": 3,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2606,
+      "points_after_simplification": 492,
+      "smoothed_contours": 8,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5991359496415822,
+      "preserved_corner_count": 10
+    },
+    {
+      "codepoint": "U+3D01C",
+      "glyph": "u3D01C",
+      "svg": "U3D01C.svg",
+      "source_cell": [
+        0,
+        940,
+        313,
+        1254
+      ],
+      "foreground_pixels": 13669,
+      "contours": 5,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2216,
+      "points_after_simplification": 472,
+      "smoothed_contours": 5,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5994635244275045,
+      "preserved_corner_count": 8
+    },
+    {
+      "codepoint": "U+3D01D",
+      "glyph": "u3D01D",
+      "svg": "U3D01D.svg",
+      "source_cell": [
+        313,
+        940,
+        627,
+        1254
+      ],
+      "foreground_pixels": 14993,
+      "contours": 4,
+      "holes": 0,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2388,
+      "points_after_simplification": 314,
+      "smoothed_contours": 4,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5878417634399506,
+      "preserved_corner_count": 3
+    },
+    {
+      "codepoint": "U+3D01E",
+      "glyph": "u3D01E",
+      "svg": "U3D01E.svg",
+      "source_cell": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "foreground_pixels": 16810,
+      "contours": 12,
+      "holes": 5,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2634,
+      "points_after_simplification": 456,
+      "smoothed_contours": 12,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.5883618907836965,
+      "preserved_corner_count": 12
+    },
+    {
+      "codepoint": "U+3D01F",
+      "glyph": "u3D01F",
+      "svg": "U3D01F.svg",
+      "source_cell": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "foreground_pixels": 15608,
+      "contours": 7,
+      "holes": 1,
+      "removed_tiny_contours": 0,
+      "points_before_simplification": 2540,
+      "points_after_simplification": 482,
+      "smoothed_contours": 7,
+      "polygon_fallback_contours": 0,
+      "maximum_measured_fit_error_source_pixels": 0.547392081801476,
+      "preserved_corner_count": 3
+    }
+  ],
+  "notes": "Review status applies only to these drawings; no full-script certification is claimed. Generated drawings remain excluded from the verified coverage set."
+}

@@ -2,6 +2,17 @@
 
 A sans-serif font family and supplements targeting the **Unicode 19 development draft**. This project prioritizes authentic character shapes for codepoints missing from Noto. Hex labels, tofu boxes and other placeholders do not count toward coverage.
 
+## 64-character Small Seal example
+
+The current design example covers **U+3D000–U+3D03F**. All 64 glyphs were redrawn with `image_gen.imagegen` from raster references prepared from the official Unicode chart, then converted to smooth quadratic TrueType outlines. The glyphs contain only character strokes. Original ImageGen source sheets and generation records are retained in `design/seal/`.
+
+- Preview: `fonts/seal-example/preview-64.png`
+- Installable font: `fonts/seal-example/PanoramaGothicSealExample-Regular.ttf`
+- Browser font: `fonts/seal-example/PanoramaGothicSealExample-Regular.woff`
+- Download package: `Panorama-Gothic-Seal-64-sample.zip`
+
+This is an experimental design sample. It is excluded from the production coverage count. It does not claim completion of the 11,328-character Small Seal repertoire or the complete Unicode 19 font.
+
 The family is split into multiple font files because OpenType limits each face to 65,535 glyphs. Original script shaping is retained in Noto-derived faces. Supplements are kept in separate files with their original licenses.
 
 ## Sources and reference

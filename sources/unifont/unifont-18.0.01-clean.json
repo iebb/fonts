@@ -1,0 +1,357 @@
+{
+  "schema": 1,
+  "input_files": [
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/unifont-base.hex",
+      "sha256": "dd456672c3c0463deca45045c85e28a25f5d36f1e8dd4f44e917236d5cf9641d",
+      "records": 16700
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/wqy.hex",
+      "sha256": "cb8320945a447035cff83c5fd57bff235393bb7218e795f76e65f609a23ffdde",
+      "records": 27798
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/hangul-syllables.hex",
+      "sha256": "17ae511e6203a74f19390e4f0c3a4acff4c63cea79c158ab4e2fb48307449141",
+      "records": 11172
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/spaces.hex",
+      "sha256": "b8dde531fadf981caa760631daab4523ef7cc243847c74c88ad704a4d4778fb0",
+      "records": 17
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane01/plane01.hex",
+      "sha256": "d3155e63c4e66ea18060be5d8827cfe307eb26ea99bc9064d414353e01ffe7e6",
+      "records": 14912
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane01/plane01-space.hex",
+      "sha256": "db0891bf704c36c7163c91975df7a458e9bf5c977f37625955e1d1d988cd7a67",
+      "records": 1
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane02/zh-plane02.hex",
+      "sha256": "30fc42a38bdb5f29c87bb57dfcc584e267d504d615ffbddc22bc2fd7b109cc6b",
+      "records": 6326
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex",
+      "sha256": "e1c86af15f5c0719129a3374f19236f822970b268a679db9eb74c530897d1048",
+      "records": 303
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane03/zh-plane03.hex",
+      "sha256": "16cb347e43341778be326c6ab3a415f91f79cf403cf82c3e3a628b64e44e8037",
+      "records": 1109
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane03/jp-plane03.hex",
+      "sha256": "434278e5bb7125c59eaaf34ba8eab71a31bf17729d532768f1cedadf68b915e6",
+      "records": 1
+    }
+  ],
+  "unicode_data": {
+    "file": "reference/ucd-19-draft/UnicodeData.txt",
+    "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950"
+  },
+  "clean_hex": {
+    "file": "sources/unifont/unifont-18.0.01-clean.hex",
+    "sha256": "c6f48b37245c1b90a5ff6fb39f144494ce8d9f01ba172d44d0c085a05d7f212b",
+    "glyph_count": 78191
+  },
+  "excluded_record_counts": {
+    "category_Cc": 65,
+    "category_Cf": 37,
+    "blank_non_space": 2
+  },
+  "excluded_codepoints": {
+    "category_Cc": [
+      "U+0000",
+      "U+0001",
+      "U+0002",
+      "U+0003",
+      "U+0004",
+      "U+0005",
+      "U+0006",
+      "U+0007",
+      "U+0008",
+      "U+0009",
+      "U+000A",
+      "U+000B",
+      "U+000C",
+      "U+000D",
+      "U+000E",
+      "U+000F",
+      "U+0010",
+      "U+0011",
+      "U+0012",
+      "U+0013",
+      "U+0014",
+      "U+0015",
+      "U+0016",
+      "U+0017",
+      "U+0018",
+      "U+0019",
+      "U+001A",
+      "U+001B",
+      "U+001C",
+      "U+001D",
+      "U+001E",
+      "U+001F",
+      "U+007F",
+      "U+0080",
+      "U+0081",
+      "U+0082",
+      "U+0083",
+      "U+0084",
+      "U+0085",
+      "U+0086",
+      "U+0087",
+      "U+0088",
+      "U+0089",
+      "U+008A",
+      "U+008B",
+      "U+008C",
+      "U+008D",
+      "U+008E",
+      "U+008F",
+      "U+0090",
+      "U+0091",
+      "U+0092",
+      "U+0093",
+      "U+0094",
+      "U+0095",
+      "U+0096",
+      "U+0097",
+      "U+0098",
+      "U+0099",
+      "U+009A",
+      "U+009B",
+      "U+009C",
+      "U+009D",
+      "U+009E",
+      "U+009F"
+    ],
+    "category_Cf": [
+      "U+0600",
+      "U+0601",
+      "U+0602",
+      "U+0603",
+      "U+0604",
+      "U+0605",
+      "U+06DD",
+      "U+070F",
+      "U+0890",
+      "U+0891",
+      "U+08E2",
+      "U+110BD",
+      "U+110CD",
+      "U+13430",
+      "U+13431",
+      "U+13432",
+      "U+13433",
+      "U+13434",
+      "U+13435",
+      "U+13436",
+      "U+13437",
+      "U+13438",
+      "U+13439",
+      "U+1343A",
+      "U+1343B",
+      "U+1343C",
+      "U+1343D",
+      "U+1343E",
+      "U+1343F",
+      "U+1D173",
+      "U+1D174",
+      "U+1D175",
+      "U+1D176",
+      "U+1D177",
+      "U+1D178",
+      "U+1D179",
+      "U+1D17A"
+    ],
+    "blank_non_space": [
+      "U+FFA0",
+      "U+1D9FF"
+    ]
+  },
+  "duplicate_variant_policy": "Prefer the first input drawing",
+  "duplicate_variants_omitted": [
+    {
+      "codepoint": "U+2000B",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+20089",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+200A2",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+200A4",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+201A2",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+20213",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2032B",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+20371",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+20381",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+203F9",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2044A",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+20509",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+205D6",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+20628",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2074F",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+215D7",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2298F",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+241FE",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+25771",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+26951",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+26A58",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+26C29",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+27985",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+27A84",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+27BB3",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+27BBE",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+27BC7",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+27FB7",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2967F",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29A72",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29DDB",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29E15",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29E3D",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29E49",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29E8A",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29EC4",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29EDB",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29EE9",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+29FCE",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2A01A",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2A02F",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2A082",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    },
+    {
+      "codepoint": "U+2A0F9",
+      "omitted_variant_source": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex"
+    }
+  ],
+  "scope": "Audited source drawings only. Graphic characters and space separators in the pinned Unicode draft; no generated hex labels, reserved/private-use values or invisible non-space glyphs."
+}

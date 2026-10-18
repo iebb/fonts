@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "upstream": "GNU Unifont",
+  "version": "18.0.01",
+  "release_date": "2026-09-16",
+  "download": {
+    "url": "https://unifoundry.com/pub/unifont/unifont-18.0.01/unifont-18.0.01.tar.gz",
+    "sha256": "eab60847aac34c8768765cecc7821faf50de2636187b452b9b5fa50a12b00bc3",
+    "bytes": 41427259,
+    "version": "18.0.01"
+  },
+  "license": {
+    "font_drawings": "(OFL-1.1 OR GPL-2.0-or-later WITH Font-exception-2.0)",
+    "exact_statement": "licenses/unifont/COPYING.txt",
+    "OFL_text": "licenses/unifont/OFL-1.1.txt",
+    "attribution": "licenses/unifont/ATTRIBUTION.txt",
+    "non_font_utilities": "GPL-2.0-or-later; not incorporated into this converter"
+  },
+  "drawing_format": "8×16 or 16×16 dual-width bitmap source drawings; converted output retains the coarse pixel grid",
+  "selected_sources": [
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/unifont-base.hex",
+      "sha256": "dd456672c3c0463deca45045c85e28a25f5d36f1e8dd4f44e917236d5cf9641d",
+      "records": 16700
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/wqy.hex",
+      "sha256": "cb8320945a447035cff83c5fd57bff235393bb7218e795f76e65f609a23ffdde",
+      "records": 27798
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/hangul-syllables.hex",
+      "sha256": "17ae511e6203a74f19390e4f0c3a4acff4c63cea79c158ab4e2fb48307449141",
+      "records": 11172
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane00/spaces.hex",
+      "sha256": "b8dde531fadf981caa760631daab4523ef7cc243847c74c88ad704a4d4778fb0",
+      "records": 17
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane01/plane01.hex",
+      "sha256": "d3155e63c4e66ea18060be5d8827cfe307eb26ea99bc9064d414353e01ffe7e6",
+      "records": 14912
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane01/plane01-space.hex",
+      "sha256": "db0891bf704c36c7163c91975df7a458e9bf5c977f37625955e1d1d988cd7a67",
+      "records": 1
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane02/zh-plane02.hex",
+      "sha256": "30fc42a38bdb5f29c87bb57dfcc584e267d504d615ffbddc22bc2fd7b109cc6b",
+      "records": 6326
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane02/izmg16-plane02.hex",
+      "sha256": "e1c86af15f5c0719129a3374f19236f822970b268a679db9eb74c530897d1048",
+      "records": 303
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane03/zh-plane03.hex",
+      "sha256": "16cb347e43341778be326c6ab3a415f91f79cf403cf82c3e3a628b64e44e8037",
+      "records": 1109
+    },
+    {
+      "file": "sources/unifont/unifont-18.0.01/font/plane03/jp-plane03.hex",
+      "sha256": "434278e5bb7125c59eaaf34ba8eab71a31bf17729d532768f1cedadf68b915e6",
+      "records": 1
+    }
+  ],
+  "selection_manifest": "sources/unifont/unifont-18.0.01-clean.json",
+  "output": {
+    "file": "sources/unifont/unifont-18.0.01-clean.hex",
+    "sha256": "c6f48b37245c1b90a5ff6fb39f144494ce8d9f01ba172d44d0c085a05d7f212b",
+    "glyph_count": 78191
+  },
+  "excluded_source_families": [
+    {
+      "pattern": "font/plane00/{plane00-unassigned,pua}.hex",
+      "reason": "Reserved/unassigned or private-use hexadecimal label placeholders."
+    },
+    {
+      "pattern": "font/plane00/plane00-nonprinting.hex",
+      "reason": "Visible control and nonprinting illustrations; not actual graphic character drawings."
+    },
+    {
+      "pattern": "font/plane01/{plane01-noscript,plane01-unassigned,plane01-nonprinting}.hex",
+      "reason": "Generated hexadecimal labels for unassigned ranges, or nonprinting illustrations."
+    },
+    {
+      "pattern": "font/plane0E/*.hex",
+      "reason": "Tag and variation-selector control/format depictions, not standalone graphic glyph coverage."
+    },
+    {
+      "pattern": "font/plane00csur/*.hex and font/plane0Fcsur/*.hex",
+      "reason": "Private-use constructed-script registry drawings do not cover standard assigned characters."
+    },
+    {
+      "pattern": "font/precompiled/* and sample fonts",
+      "reason": "Built sets combine real drawings and placeholders; do not use as source evidence."
+    },
+    {
+      "pattern": "font/plane00/{t-source,izmg16-plane00}.hex and font/plane00/alt/*",
+      "reason": "Alternate regional/display versions not selected for this base repertoire."
+    }
+  ],
+  "variant_policy": "Prefer Chinese zh-plane02 source for the 43 duplicate regional variants; preserve 260 additional Izumi plane-2 drawings absent from zh source. Plane-3 Japanese singleton has no duplicate.",
+  "excluded_selected_records": {
+    "category_Cc": 65,
+    "category_Cf": 37,
+    "blank_non_space": 2
+  },
+  "codepoints_by_unicode_age": {
+    "1.1": 27488,
+    "2.0": 11373,
+    "2.1": 1,
+    "3.0": 10297,
+    "3.1": 6969,
+    "3.2": 995,
+    "4.0": 982,
+    "4.1": 1273,
+    "5.0": 387,
+    "5.1": 1623,
+    "5.2": 1527,
+    "6.0": 1519,
+    "6.1": 731,
+    "6.2": 1,
+    "7.0": 2773,
+    "8.0": 1354,
+    "9.0": 875,
+    "10.0": 1092,
+    "11.0": 678,
+    "12.0": 539,
+    "12.1": 1,
+    "13.0": 1608,
+    "14.0": 835,
+    "15.0": 309,
+    "15.1": 627,
+    "16.0": 1190,
+    "17.0": 806,
+    "18.0": 338
+  },
+  "unicode_19_new_drawings": 0,
+  "scope_note": "This Unicode-18 upstream source does not supply new Unicode-19 draft characters. Coverage is not inferred from generated labels or cmap entries. Complex shaping is outside this source format."
+}
