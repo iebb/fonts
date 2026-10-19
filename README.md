@@ -14,14 +14,17 @@ Each complete glyph is scaled proportionally to a maximum centerline dimension o
 
 The native generated drawing remains the main guide for trajectories, shape and proportions. Minimal vector overrides address confirmed structural or tracing defects while preserving the original PNG and other stroke courses. These overrides receive independent review in the compiled font. U+3D034, for example, adds the missing left descending leg beneath its upper shoulder.
 
-- Stroke construction example: `fonts/seal-individual/stroke-comparison.png`
-- Interactive path replay: `fonts/seal-individual/stroke-playback.html`
-- Full font preview: `fonts/seal-individual/preview-128.png`
-- New page: `fonts/seal-individual/preview-3D040-3D07F.png`
-- Retained first page: `fonts/seal-individual/preview-64.png`
-- Installable font: `fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf`
-- Download package: `dist/Panorama-Gothic-Seal-Stroke-128.zip`
-- Editable example: `design/strokes-individual/U3D001.svg`
+![New 64 Small Seal glyphs at Regular 400](fonts/seal-individual/preview-3D040-3D07F.png)
+
+- [Full 128-character preview](fonts/seal-individual/preview-128.png)
+- [Weight comparison](fonts/seal-individual-variable/weight-comparison.png)
+- [Regular TTF](fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf?raw=1)
+- [Variable TTF](fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf?raw=1)
+- [Font and editable-source package](dist/Panorama-Gothic-Seal-Stroke-128.zip?raw=1)
+- [Stroke construction example](fonts/seal-individual/stroke-comparison.png)
+- [Download path replay](fonts/seal-individual/stroke-playback.html?raw=1) and open it locally
+- [Download weight slider](fonts/seal-individual-variable/weight-slider.html?raw=1) and open it locally
+- [Editable SVG example](design/strokes-individual/U3D001.svg)
 
 The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status and targeted repairs are recorded individually. Validation combines reference review of all **128 sample glyphs at default Regular 400** with `tools/verify_glyph_invariants.py`, which checks recorded structural features in the rendered static and variable fonts. Rules cover details such as bar relationships, branches and open spaces; their recorded weight scopes vary. Some dense-form rules apply only at 300 and 400.
 
