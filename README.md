@@ -2,6 +2,13 @@
 
 A sans-serif font family and supplements targeting the **Unicode 19 development draft**. This project prioritizes authentic character shapes for codepoints missing from Noto. Hex labels, tofu boxes and other placeholders do not count toward coverage.
 
+The active Small Seal goal is the **entire 11,328-character range,
+U+3D000–U+3FC3F**. See the [workspace progress snapshot](design/quality/small-seal-progress.json)
+and [creation and review criteria](design/quality/SMALL-SEAL-GOAL.md). The
+snapshot distinguishes generated drawings, pending reviews and frozen accepted
+geometry; a new batch is published after review. The downloadable v0.6 sample
+below remains available while the remaining characters are created.
+
 ## Small Seal: independent drawings and real strokes
 
 The **version 0.6 design sample contains 128 characters, U+3D000–U+3D07F**. Each character gets its own `image_gen.imagegen` drawing informed by all available **THX, CCZ, QJZ and DYC** specimens in the official Unicode chart. The new U+3D040–U+3D07F page uses 243 of 256 possible chart specimens; missing specimens remain marked unavailable. Where historical variants differ, a coherent attested construction is chosen; incompatible components are not blended. The first 64 characters' source PNG, JSON and SVG files are preserved unchanged in this expansion.

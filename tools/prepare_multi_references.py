@@ -11,6 +11,7 @@ for visual reference and does not extract embedded font files or outlines.
 from __future__ import annotations
 
 import argparse
+from contextlib import nullcontext
 import hashlib
 import json
 from pathlib import Path
@@ -159,9 +160,12 @@ def render_batch(pdf: Path, index: dict, start: int, output: Path, size: int = 2
     return metadata
 
 
-def render_overview(pdf: Path, index: dict, codepoint: int, output: Path) -> None:
+def render_overview(pdf: Path, index: dict, codepoint: int, output: Path,
+                    document: fitz.Document | None = None) -> None:
     record = index["glyphs"][f"{codepoint:05X}"]
-    with fitz.open(pdf) as document, fitz.open() as rendered:
+    # A batch can retain the parsed PDF and embedded-font caches. Borrowed
+    # documents remain open; the one-image API still owns its document.
+    with (fitz.open(pdf) if document is None else nullcontext(document)) as document, fitz.open() as rendered:
         sheet = rendered.new_page(width=1600, height=520)
         sheet.insert_text((30, 42), f"U+{codepoint:05X} - four chart specimens", fontsize=28,
                           fontname="hebo", color=(.15, .15, .15))

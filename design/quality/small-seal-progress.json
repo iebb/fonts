@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-19T14:38:08+00:00",
+  "goal": {
+    "script": "Seal",
+    "block": "Seal",
+    "first": "U+3D000",
+    "last": "U+3FC3F",
+    "codepoint_count": 11328,
+    "derived_from": "Matching pinned Scripts.txt and Blocks.txt"
+  },
+  "semantics": {
+    "accepted": "Frozen prototype geometry at default Regular400; actual geometry/native hashes match registry.",
+    "native_artwork_mismatch_may_have_accepted_vector_correction": true,
+    "native_provenance_is_separate_from_frozen_geometry_acceptance": true,
+    "all_variable_weights_certified": false,
+    "coverage_eligible": false,
+    "production_coverage_credit": 0
+  },
+  "evidence": {
+    "ucd": {
+      "snapshot": "/workspace/unifont/reference/ucd-19-draft/snapshot.json",
+      "snapshot_sha256": "0bed29b1e79815ca62f8171d1b40b5a184630273a255ef428057ae5c284f111d",
+      "repository": "unicode-org/unicodetools",
+      "commit": "4fd8eca90b30aa4c72543ccddb4c15d05becdf8d",
+      "version": "19.0.0 development draft",
+      "last_external_verification_utc": "2026-10-18",
+      "local_file_fingerprints_verified": {
+        "UnicodeData.txt": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+        "Blocks.txt": "f2fcb9fe1bc18c6b0298eead6d6cdec34021080d6ce85ee74387e3e4a03fab8e",
+        "DerivedAge.txt": "58b04334e3a31f9612694bbc3f6bff4a302b7d424565bca9c47e30aa74f8dbac",
+        "Scripts.txt": "0071fd81b6aeae25f6e8bce8efec3066a6476a91b49bdb2f52dc76e817862a6a",
+        "DerivedCoreProperties.txt": "09c928886a178fcafd93c29e4bd59073a058e5a100b716d425cb563ab50f68c9",
+        "ReadMe.txt": "75a1ce9e5b14164a22d35b2a56fb5a8f927de323a08c43791c6fb050901f84f8"
+      },
+      "freshness": "Cached pin; no network freshness verification performed by this command."
+    },
+    "registry": {
+      "path": "/workspace/unifont/design/quality/accepted-geometry.json",
+      "sha256": "b39cba3914c70448d3ae6111626293519d5d06b0d50c83b66503e6764dab1479"
+    },
+    "chart": {
+      "index": "/workspace/unifont/reference/seal/chart-index.json",
+      "index_sha256": "5b88f36cd567cd1e268adcbda2e52931a537f05047b82b32ceb7ff31d17c89bb",
+      "url": "https://www.unicode.org/charts/PDF/U3D000.pdf",
+      "recorded_pdf_sha256": "58231968a21785f8942d4ba6484dfbabb63575f168a462576d29096c2f544831",
+      "actual_pdf_sha256": "58231968a21785f8942d4ba6484dfbabb63575f168a462576d29096c2f544831",
+      "pdf_fingerprint_verified": true
+    }
+  },
+  "counts": {
+    "reference_indexed": 11328,
+    "reference_overview_ready": 6352,
+    "native_png_present": 154,
+    "native_provenance_valid": 154,
+    "centerline_present": 151,
+    "registry_listed": 128,
+    "frozen_default_accepted": 128,
+    "stale_registry_entry": 0,
+    "native_review_match": 138,
+    "native_review_mismatch": 16,
+    "native_review_uncertain": 0,
+    "native_review_stale": 0,
+    "native_review_pending": 11174
+  },
+  "workflow_counts": {
+    "awaiting_centerlines": 3,
+    "awaiting_frozen_acceptance": 23,
+    "awaiting_native": 11174,
+    "frozen_default_accepted": 128
+  },
+  "stage_ranges": {
+    "reference_indexed": [
+      [
+        "U+3D000",
+        "U+3FC3F"
+      ]
+    ],
+    "reference_overview_ready": [
+      [
+        "U+3D000",
+        "U+3E8CF"
+      ]
+    ],
+    "native_png_present": [
+      [
+        "U+3D000",
+        "U+3D086"
+      ],
+      [
+        "U+3D090",
+        "U+3D095"
+      ],
+      [
+        "U+3D0A0",
+        "U+3D0A5"
+      ],
+      [
+        "U+3D0B0",
+        "U+3D0B6"
+      ]
+    ],
+    "native_provenance_valid": [
+      [
+        "U+3D000",
+        "U+3D086"
+      ],
+      [
+        "U+3D090",
+        "U+3D095"
+      ],
+      [
+        "U+3D0A0",
+        "U+3D0A5"
+      ],
+      [
+        "U+3D0B0",
+        "U+3D0B6"
+      ]
+    ],
+    "centerline_present": [
+      [
+        "U+3D000",
+        "U+3D085"
+      ],
+      [
+        "U+3D090",
+        "U+3D095"
+      ],
+      [
+        "U+3D0A0",
+        "U+3D0A4"
+      ],
+      [
+        "U+3D0B0",
+        "U+3D0B5"
+      ]
+    ],
+    "registry_listed": [
+      [
+        "U+3D000",
+        "U+3D07F"
+      ]
+    ],
+    "frozen_default_accepted": [
+      [
+        "U+3D000",
+        "U+3D07F"
+      ]
+    ],
+    "stale_registry_entry": [],
+    "native_review_match": [
+      [
+        "U+3D000",
+        "U+3D006"
+      ],
+      [
+        "U+3D008",
+        "U+3D00A"
+      ],
+      [
+        "U+3D00C",
+        "U+3D017"
+      ],
+      [
+        "U+3D019",
+        "U+3D01C"
+      ],
+      [
+        "U+3D01F",
+        "U+3D022"
+      ],
+      [
+        "U+3D024",
+        "U+3D028"
+      ],
+      [
+        "U+3D02A",
+        "U+3D031"
+      ],
+      [
+        "U+3D033",
+        "U+3D033"
+      ],
+      [
+        "U+3D035",
+        "U+3D035"
+      ],
+      [
+        "U+3D037",
+        "U+3D044"
+      ],
+      [
+        "U+3D046",
+        "U+3D04F"
+      ],
+      [
+        "U+3D051",
+        "U+3D05B"
+      ],
+      [
+        "U+3D05D",
+        "U+3D070"
+      ],
+      [
+        "U+3D072",
+        "U+3D076"
+      ],
+      [
+        "U+3D078",
+        "U+3D07C"
+      ],
+      [
+        "U+3D07E",
+        "U+3D086"
+      ],
+      [
+        "U+3D090",
+        "U+3D095"
+      ],
+      [
+        "U+3D0A0",
+        "U+3D0A5"
+      ],
+      [
+        "U+3D0B0",
+        "U+3D0B6"
+      ]
+    ],
+    "native_review_mismatch": [
+      [
+        "U+3D007",
+        "U+3D007"
+      ],
+      [
+        "U+3D00B",
+        "U+3D00B"
+      ],
+      [
+        "U+3D018",
+        "U+3D018"
+      ],
+      [
+        "U+3D01D",
+        "U+3D01E"
+      ],
+      [
+        "U+3D023",
+        "U+3D023"
+      ],
+      [
+        "U+3D029",
+        "U+3D029"
+      ],
+      [
+        "U+3D032",
+        "U+3D032"
+      ],
+      [
+        "U+3D034",
+        "U+3D034"
+      ],
+      [
+        "U+3D036",
+        "U+3D036"
+      ],
+      [
+        "U+3D045",
+        "U+3D045"
+      ],
+      [
+        "U+3D050",
+        "U+3D050"
+      ],
+      [
+        "U+3D05C",
+        "U+3D05C"
+      ],
+      [
+        "U+3D071",
+        "U+3D071"
+      ],
+      [
+        "U+3D077",
+        "U+3D077"
+      ],
+      [
+        "U+3D07D",
+        "U+3D07D"
+      ]
+    ],
+    "native_review_uncertain": [],
+    "native_review_stale": [],
+    "native_review_pending": [
+      [
+        "U+3D087",
+        "U+3D08F"
+      ],
+      [
+        "U+3D096",
+        "U+3D09F"
+      ],
+      [
+        "U+3D0A6",
+        "U+3D0AF"
+      ],
+      [
+        "U+3D0B7",
+        "U+3FC3F"
+      ]
+    ]
+  },
+  "unindexed_reference_ranges": [],
+  "next_unaccepted_batch": {
+    "first": "U+3D080",
+    "last": "U+3D0BF",
+    "count": 64,
+    "reason": "First contiguous unaccepted run, bounded by batch size and accepted gaps."
+  },
+  "default_prototype_goal_complete": false,
+  "issue_count": 0,
+  "issues": [],
+  "issues_truncated": false
+}

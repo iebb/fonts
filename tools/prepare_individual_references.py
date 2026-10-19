@@ -13,6 +13,8 @@ import hashlib
 import json
 from pathlib import Path
 
+import fitz
+
 from prepare_multi_references import ROOT, parse_codepoint, render_overview
 
 
@@ -41,10 +43,11 @@ def main() -> None:
     if args.limit is not None:
         codepoints = codepoints[:args.limit]
     args.output.mkdir(parents=True, exist_ok=True)
-    for codepoint in codepoints:
-        path = args.output / f"U{codepoint:05X}.png"
-        render_overview(args.pdf, index, codepoint, path)
-        print(path, flush=True)
+    with fitz.open(args.pdf) as document:
+        for codepoint in codepoints:
+            path = args.output / f"U{codepoint:05X}.png"
+            render_overview(args.pdf, index, codepoint, path, document=document)
+            print(path, flush=True)
 
 
 if __name__ == "__main__":
