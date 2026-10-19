@@ -1,0 +1,59 @@
+{
+  "extraction": "/tmp/panorama-seal128-clean-a-5384vyvl",
+  "archive_sha256_tested": "8a96262e4d9765b9df03c87b57f604f15bd880523e42583e44ee3ecbaa4fda05",
+  "inventory_files_verified": 1017,
+  "archive_members": 1018,
+  "targets": {
+    "seal-strokes": {
+      "exit_code": 0,
+      "glyph_count": 128,
+      "source_review_pass": true,
+      "invariants_pass": true,
+      "invariant_checks": 15,
+      "skipped_weight_scoped_checks": 0,
+      "size_pass": true,
+      "actual_glyph_size_checks": 128,
+      "failed_glyph_size_checks": 0,
+      "checked_weights": [
+        400.0
+      ],
+      "source_integrity_pass": true,
+      "unexpected_pixel_topology_flags": []
+    },
+    "seal-variable": {
+      "exit_code": 0,
+      "glyph_count": 128,
+      "source_review_pass": true,
+      "invariants_pass": true,
+      "invariant_checks": 69,
+      "skipped_weight_scoped_checks": 6,
+      "size_pass": true,
+      "actual_glyph_size_checks": 640,
+      "failed_glyph_size_checks": 0,
+      "checked_weights": [
+        300.0,
+        400.0,
+        500.0,
+        600.0,
+        700.0
+      ]
+    }
+  },
+  "font_sha256": {
+    "PanoramaGothicSealIndividual-Regular.ttf": "82586a3e43753cd1bfa3430819c413752028bb41bdb1a24c4fa48606ff36dd2f",
+    "PanoramaGothicSealIndividualVariable.ttf": "8ffad16921da1929e7cc4192dadcdce895045cf117b95f9879d8fe81e34bada5"
+  },
+  "logs": {
+    "seal-strokes": "/tmp/panorama-seal128-clean-a-5384vyvl/seal-strokes.log",
+    "seal-variable": "/tmp/panorama-seal128-clean-a-5384vyvl/seal-variable.log"
+  },
+  "reviewed_design_inputs_unchanged": 799,
+  "rebuilt_TTFs_byte_identical_to_workspace": 11,
+  "browser_verification": {
+    "status": "blocked_by_environment",
+    "reason": "Chromium cannot start under the current sandbox: socket/shutdown operations are denied (Operation not permitted). No browser result is claimed for this build. Font binaries, FreeType rasters, normalization and source reviews passed separately."
+  },
+  "workspace_sources_modified": false,
+  "passed": true,
+  "scope_note": "The tested input ZIP precedes final documentation and packaging-gate updates. Font builders, reviewed design inputs and all11 rebuilt TTF files are identical to this release. The archive hash identifies that exact test input; it does not identify the archive containing this report."
+}
