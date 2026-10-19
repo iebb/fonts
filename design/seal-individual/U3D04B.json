@@ -1,0 +1,151 @@
+{
+  "codepoint": "U+3D04B",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D04B. Exact critical reading: Critical correction: The central vertical dividing the large right-hand square STARTS EXACTLY AT ITS TOP BORDER. It must NOT protrude above the square: NO upward stub, NO tick, NO stalk between the two small top cups. The space between the top cups and large square is completely transparent. Keep this top border smooth and unbroken with nothing rising from it. LEFT: detached short topdash, longer secondbar/centralstem,2detachedflankverticals. RIGHT TOP:2detachedsmallUcupseachclosedbynear-topbar,eachhas1counterand2shorttips. Bothcupsstaydetachedfromeachotherandsquare. RIGHT MIDDLE:rounded-squareboxwith1horizontal+1verticaldividergiving4counters. Its verticaldividerstartsATboxroof,continuesDOWNthroughboxbottom,across1lowerhorizontalbar,thenfartherDOWNaslongstem. Lowerbarisclearlywiderthansquareby15–25percent. Exactly6counterstotal(2cups+4square);4longlowerends(3left+1right). Do not add any new branch above the square. Compare all4refs and choose coherent THX/CCZ/DYC detached-cups wholeform.\nRender allstrokeedges uniformrounded; NOUPWARDPROJECTIONfromcentralboxdivider.",
+  "structural_reading_aid": "Critical correction: The central vertical dividing the large right-hand square STARTS EXACTLY AT ITS TOP BORDER. It must NOT protrude above the square: NO upward stub, NO tick, NO stalk between the two small top cups. The space between the top cups and large square is completely transparent. Keep this top border smooth and unbroken with nothing rising from it. LEFT: detached short topdash, longer secondbar/centralstem,2detachedflankverticals. RIGHT TOP:2detachedsmallUcupseachclosedbynear-topbar,eachhas1counterand2shorttips. Bothcupsstaydetachedfromeachotherandsquare. RIGHT MIDDLE:rounded-squareboxwith1horizontal+1verticaldividergiving4counters. Its verticaldividerstartsATboxroof,continuesDOWNthroughboxbottom,across1lowerhorizontalbar,thenfartherDOWNaslongstem. Lowerbarisclearlywiderthansquareby15–25percent. Exactly6counterstotal(2cups+4square);4longlowerends(3left+1right). Do not add any new branch above the square. Compare all4refs and choose coherent THX/CCZ/DYC detached-cups wholeform.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D04B.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-65e9fd5c-9407-43f7-acac-cc9a5188a7f3.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D04B.png",
+  "status": "visual_comparison_pass_draft",
+  "previous_attempt_reason": "Unattested upward central stub above middle square; attempt1 archived immutable.",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "19415e982deb9e7a28768509873397c39491ee3b2e6664c36d39b651cae0a0fa",
+  "sha256": "19415e982deb9e7a28768509873397c39491ee3b2e6664c36d39b651cae0a0fa",
+  "reference_sha256": "6018397f9b174d3500a79a2fd0fa1e1da22472dd34bc7ff78a72f336722e8f0c",
+  "source_evidence": {
+    "codepoint": "U+3D04B",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      570.5501708984375,
+      117.86940002441406,
+      581.7099609375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          568.8209838867188,
+          144.17999267578125,
+          594.0
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          569.3532958984375,
+          146.20000305175782,
+          594.3332275390625
+        ],
+        "source_label": "TH-00072"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          567.3801879882812,
+          168.03985595703125,
+          589.3800048828125
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          569.3532958984375,
+          172.8000030517578,
+          594.3332275390625
+        ],
+        "source_label": "C-00072"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          571.6342163085938,
+          196.539794921875,
+          593.2559814453125
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          569.3532958984375,
+          199.5000030517578,
+          594.3332275390625
+        ],
+        "source_label": "K-00072"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          568.8322143554688,
+          221.43984985351562,
+          593.8679809570312
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          569.3532958984375,
+          226.20000305175782,
+          594.3332275390625
+        ],
+        "source_label": "D-00072"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D04B",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "2detachedtopcups1countereach+4middleboxcounters=6.",
+      "Centralaxisstartswithboxroof, no upwardstub;continuesthroughbox/downcrossbar.",
+      "Lowerbarlongerthanbox;left3ends+right1end."
+    ],
+    "notes": [
+      "Attempt2removesunattestedupperstubwhilepreservingall6counters,continuousaxisanddetachedcups;all4enlargedrefscompared.",
+      "Lowercrossbarislongerthanboxbutonlyabout10percent(native),slightlylessoverhangthanmostspecimens;notcertifiedasidentityerrorandnoadditionalretry.",
+      "Attempt1preservedunchangedinattempts/U3D04B-attempt1.png/.json."
+    ],
+    "source_png": "design/seal-individual/U3D04B.png",
+    "source_png_sha256": "19415e982deb9e7a28768509873397c39491ee3b2e6664c36d39b651cae0a0fa",
+    "reference_overview": "reference/seal/individual/U3D04B.png",
+    "reference_png_sha256": "6018397f9b174d3500a79a2fd0fa1e1da22472dd34bc7ff78a72f336722e8f0c",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D04B-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

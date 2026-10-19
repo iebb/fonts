@@ -1,0 +1,149 @@
+{
+  "codepoint": "U+3D048",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D048. Reading aid: TOP: TWO side-by-side identical small forked/fire-like groups, completely detached from the large arch below in the coherent THX/DYC whole variant. Each group has ONE central upright that splits at its lower end into TWO short curved/oblique branches, one left and one right. TWO additional SHORT DETACHED UPRIGHT MARKS flank that central upright, ending before the central fork junction. Thus top has SIX upright segments total (two central fork stems and four detached side marks), and FOUR lower oblique fork branches total. Do not omit any short upright or join them to forks. BELOW: a broad inverted-U outer arch with two long descending legs, open at bottom. INSIDE that arch: one detached SHORT horizontal near top, below it a LONGER horizontal joined to a long central descending stem, and TWO detached long flank strokes starting below that longer bar. Five long bottom ends overall: outer arch2+inner3. Keep the entire inner construction detached from arch, both top fork groups detached from arch and one another, no enclosed counter anywhere. Compare all4specimens; do not mix CCZ/QJZ's roof-joined top-fork alternatives into this selected detached whole variant.",
+  "structural_reading_aid": "TOP: TWO side-by-side identical small forked/fire-like groups, completely detached from the large arch below in the coherent THX/DYC whole variant. Each group has ONE central upright that splits at its lower end into TWO short curved/oblique branches, one left and one right. TWO additional SHORT DETACHED UPRIGHT MARKS flank that central upright, ending before the central fork junction. Thus top has SIX upright segments total (two central fork stems and four detached side marks), and FOUR lower oblique fork branches total. Do not omit any short upright or join them to forks. BELOW: a broad inverted-U outer arch with two long descending legs, open at bottom. INSIDE that arch: one detached SHORT horizontal near top, below it a LONGER horizontal joined to a long central descending stem, and TWO detached long flank strokes starting below that longer bar. Five long bottom ends overall: outer arch2+inner3. Keep the entire inner construction detached from arch, both top fork groups detached from arch and one another, no enclosed counter anywhere. Compare all4specimens; do not mix CCZ/QJZ's roof-joined top-fork alternatives into this selected detached whole variant.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D048.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-bbc2735d-d3f7-4e40-abe7-c679fa2f0789.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D048.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "20d4c4af3ccfaf4fd540be12ddcc2a1458d7e4bd7ec42bc15bfc9a4d016ecf4e",
+  "sha256": "20d4c4af3ccfaf4fd540be12ddcc2a1458d7e4bd7ec42bc15bfc9a4d016ecf4e",
+  "reference_sha256": "64b51438e6ef6c72ccbc9864f259eaabceb550093adbbf2ac9178cadd1f1da55",
+  "source_evidence": {
+    "codepoint": "U+3D048",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      475.4501953125,
+      116.7594223022461,
+      486.6099548339844
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          473.72100830078125,
+          144.17999267578125,
+          498.8999938964844
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          474.2532897949219,
+          146.20000305175782,
+          499.2332824707031
+        ],
+        "source_label": "TH-00069"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          472.28021240234375,
+          168.03985595703125,
+          494.2799987792969
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          474.2532897949219,
+          172.8000030517578,
+          499.2332824707031
+        ],
+        "source_label": "C-00069"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          476.5341796875,
+          196.539794921875,
+          498.15594482421875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          474.2532897949219,
+          199.5000030517578,
+          499.2332824707031
+        ],
+        "source_label": "K-00069"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          473.732177734375,
+          221.43984985351562,
+          498.7679443359375
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          474.2532897949219,
+          226.20000305175782,
+          499.2332824707031
+        ],
+        "source_label": "D-00069"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D048",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Top2forkgroups eachcentralupright→2obliquebranches +2detachedshortuprights;6uprightsegments+4forkbranches total.",
+      "Topgroupsdetachedfromoneanotherandouterarch, coherentTHX/DYC.",
+      "Belowouterarch containsdetachedshortbar,longerbar/centralstem+2detachedflanks;5longbottomends;0counters."
+    ],
+    "notes": [
+      "Compared all4enlargedrefs. Nativepreservesall4shortuprightmarks, bothcentralforks, botharchlegs and3innerdescenders.",
+      "NoaddedroofconnectionsortriangularcountersfromCCZ/QJZalternatives."
+    ],
+    "source_png": "design/seal-individual/U3D048.png",
+    "source_png_sha256": "20d4c4af3ccfaf4fd540be12ddcc2a1458d7e4bd7ec42bc15bfc9a4d016ecf4e",
+    "reference_overview": "reference/seal/individual/U3D048.png",
+    "reference_png_sha256": "64b51438e6ef6c72ccbc9864f259eaabceb550093adbbf2ac9178cadd1f1da55",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D048-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

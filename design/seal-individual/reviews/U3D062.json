@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D062",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Compared both available THX/QJZ witnesses; CCZ/DYC unavailable. Accepted continuous upper-left turn into upper crossing horizontal and long outer-right leg, with separate outer-left course ending freely at the lower crossing horizontal. No upper-right closed loop remains.",
+    "Central upper bar turns down through both crossing levels and right to a short free return; the small independent upper-right hook is retained. Lower inner ladder has exactly three stacked counters and a wider projecting baseline, separated from both outer sides.",
+    "Left ritual keeps shorter upperbar, longer crossbar, attached central stem and detached flanks. Far-right topmost terminal curls down about one pen width, treated as a rounded terminal variation because no branch, attachment or counter changes."
+  ],
+  "source_png": "design/seal-individual/U3D062.png",
+  "source_png_sha256": "dd410ef4ad1795bb1cd8fd51d15ffff0e00450bd7c21876261203121f23eec17",
+  "reference_overview": "reference/seal/individual/U3D062.png",
+  "reference_png_sha256": "be2d170ffd836bc3d00f418257abb5f13c08c0f9f8d2a1baef70b315345e1379",
+  "reviewed_specimens": [
+    "THX",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "DYC"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "8878e62c26f5356b09cfdcd112fc1a212b01526533000cbfa22b08f79e221672",
+      "verdict": "mismatch",
+      "notes": [
+        "First output incorrectly joins the two upper crossing bars into a closed rightward loop, inventing an upper counter, and detaches the long outer-right descending side. Both THX and QJZ show the upper-left turn continuing directly into that outer-right side while the lower crossbar ends freely. Ladder three counters and top-right small hook were retained. One native retry planned."
+      ],
+      "reference_png_sha256": "be2d170ffd836bc3d00f418257abb5f13c08c0f9f8d2a1baef70b315345e1379"
+    },
+    {
+      "source_png_sha256": "dd410ef4ad1795bb1cd8fd51d15ffff0e00450bd7c21876261203121f23eec17",
+      "verdict": "uncertain",
+      "notes": [
+        "Second attempt corrects the two upper crossing levels: upper-left turn is continuous into long outer-right side; lower bar has free right end; middle stem return and three-counter ladder retained. Both available THX/QJZ compared. A short downward curl at the far-right end of the topmost horizontal is more pronounced than the witnesses, so exact terminal fidelity remains uncertain; no third native attempt. First failed original and full provenance archived unchanged."
+      ],
+      "reference_png_sha256": "be2d170ffd836bc3d00f418257abb5f13c08c0f9f8d2a1baef70b315345e1379"
+    }
+  ]
+}

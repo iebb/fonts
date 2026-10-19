@@ -1,0 +1,614 @@
+{
+  "schema_version": 1,
+  "range": "U+3D050–U+3D05F",
+  "created_utc": "2026-10-19T03:11:56.607526+00:00",
+  "scope": "Native ImageGen drawings and own all-specimen structural comparison only; engine independently traces and parent reviews actual font. No native pixel edits.",
+  "counts": {
+    "mismatch": 2,
+    "match": 14
+  },
+  "all_native_provenance_reference_review_hash_checks_pass": true,
+  "native_generation_count": 19,
+  "pending_repairs": {
+    "U+3D050": "Chosen original attempt1: bridge inset U baseline gap into the common right counter baseline; root owns vector repair. Attempt2 retained but worse outer/inner descender merger.",
+    "U+3D05C": "Final attempt2: add tiny right-facing free terminal at right support bend, retaining right attachment into lower return, left hook separation, no tall L-upright. Both original attempts retained. Root owns vector decision/repair."
+  },
+  "glyphs": [
+    {
+      "codepoint": "U+3D050",
+      "primary_png": "design/seal-individual/U3D050.png",
+      "primary_sha256": "506c4f8c2c3a23cc3fb04059a1bcdf264f457dd95a85c4834acf02fcd4bca7f2",
+      "provenance": "design/seal-individual/U3D050.json",
+      "provenance_sha256": "eb06abb1858007a517fbd35c6b884cf9a761e56e76e45393fb207c6e131d101d",
+      "selected_attempt": 1,
+      "native_verdict": "mismatch",
+      "review": "design/seal-individual/reviews/U3D050.json",
+      "review_sha256": "d2a814480a843f35e03e378008d4843687b3e4aacc35ce705806b985fbfc3131",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "270cc036a53bdc0f189ce3222faa7297f8958bb8a19505582d90d0fd74d97c8b",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D050-attempt-1.png",
+          "sha256": "506c4f8c2c3a23cc3fb04059a1bcdf264f457dd95a85c4834acf02fcd4bca7f2",
+          "attempt": 1,
+          "status": "visual_mismatch_draft"
+        },
+        {
+          "png": "design/seal-individual/U3D050-attempt-2.png",
+          "sha256": "8e35c209ecdd87d422ae09c2048b8598ffbaf0061a9c0c13c2cd44d10ae1a561",
+          "attempt": 2,
+          "status": "visual_mismatch_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D051",
+      "primary_png": "design/seal-individual/U3D051.png",
+      "primary_sha256": "ab46564b10e03151c2534549c6d1eafd8ea484c5ac557dcd9c56d12505c23cb7",
+      "provenance": "design/seal-individual/U3D051.json",
+      "provenance_sha256": "66b2d2dd892b66c066a58de3423be3cf483d98efee06ebd55d456504d5f8d1c3",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D051.json",
+      "review_sha256": "a920ac72f7cecabb84f08d60f3733a3a98dd9ce5dc11d85e83748ca4b8a674ac",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "6b40f8de343d0f807c1c36bff2dade6db74e914d64d09c20f0f32b1f1cc2e793",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D051-attempt-1.png",
+          "sha256": "ab46564b10e03151c2534549c6d1eafd8ea484c5ac557dcd9c56d12505c23cb7",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D052",
+      "primary_png": "design/seal-individual/U3D052.png",
+      "primary_sha256": "fd9d6ee11ef782cfe0f5218d17e5b3b8dc7bcca455b80b9e6d76625bac990b4d",
+      "provenance": "design/seal-individual/U3D052.json",
+      "provenance_sha256": "be89b64be46a27bed3f6243fbb0edb805feba6445e7d92c86148777528916b9c",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D052.json",
+      "review_sha256": "885dbf88fe8275554365e13b97104053ca79bee3b80fa6b32fb6468efffa30d7",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "c751b2570badbc92444c32d26e84f7494b201512a15a5a0b197207058e056225",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D052-attempt-1.png",
+          "sha256": "fd9d6ee11ef782cfe0f5218d17e5b3b8dc7bcca455b80b9e6d76625bac990b4d",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D053",
+      "primary_png": "design/seal-individual/U3D053.png",
+      "primary_sha256": "6484151a82b779e1299edf9a87600bfd61ceff72f307c8935120db503497bce7",
+      "provenance": "design/seal-individual/U3D053.json",
+      "provenance_sha256": "7f7b6aef6804b6f262a119353b036af1ec75c99e358e24e577b6b51433dd6ede",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D053.json",
+      "review_sha256": "d49e4a0be29549e17ca8cc36194457d057883b819a6c78f467cc174a76962aa0",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "9905d6c28779e17c53bfcd23e9266a92cd074df96ca4a29df25a713bd3c680a5",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D053-attempt-1.png",
+          "sha256": "6484151a82b779e1299edf9a87600bfd61ceff72f307c8935120db503497bce7",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D054",
+      "primary_png": "design/seal-individual/U3D054.png",
+      "primary_sha256": "afce7da9be1c28c0efa43b2586018d16435a40eeded1ec0a5298606c171f7806",
+      "provenance": "design/seal-individual/U3D054.json",
+      "provenance_sha256": "a340ff494c625d35973167ac955b7e327d420f173ebe06c200dc9b224a81b189",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D054.json",
+      "review_sha256": "f85ccb082f4b0be2c0bf7ac3638f7d8097f167bd5589300aa48299e8d7004e08",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ"
+      ],
+      "unavailable_specimens": [
+        "QJZ",
+        "DYC"
+      ],
+      "reference_sha256": "a04210c75ec3d3e57feb4f694adf8d76415dcfc9eab3c95d7ecd7beae3bc8a14",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D054-attempt-1.png",
+          "sha256": "afce7da9be1c28c0efa43b2586018d16435a40eeded1ec0a5298606c171f7806",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D055",
+      "primary_png": "design/seal-individual/U3D055.png",
+      "primary_sha256": "adb3ab4c979c5e416bc1cc28b9f0748c18a07e2583bc3eaef8d3208380fd44fd",
+      "provenance": "design/seal-individual/U3D055.json",
+      "provenance_sha256": "345231697677c5a533ec3d547db9f0ed73be64862cf3de18c62ef7fbc00292ca",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D055.json",
+      "review_sha256": "c054d3cbcf112828af9d038bf75d4a4bba07632c8f026cff35995db42c5244ef",
+      "reviewed_specimens": [
+        "THX",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [
+        "CCZ"
+      ],
+      "reference_sha256": "4e009deb021aff1885c5501320bc6ba2e23e9404efd022a60b9cf9609b4f8326",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D055-attempt-1.png",
+          "sha256": "adb3ab4c979c5e416bc1cc28b9f0748c18a07e2583bc3eaef8d3208380fd44fd",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D056",
+      "primary_png": "design/seal-individual/U3D056.png",
+      "primary_sha256": "286d3cbaf5e53abdcc59e9012c2e542dde1073dbbda98fd6f8781a35ef8f21eb",
+      "provenance": "design/seal-individual/U3D056.json",
+      "provenance_sha256": "3d40772163b959c44046e5d825c09f6d6c05975d25d9afa5c8386610b2dcb557",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D056.json",
+      "review_sha256": "3bc85888fe873eeec6f6c7c98447f76e6334d8e0d2b1fcbcd42e1cadb5cbb645",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "2a5bf4b9b76d0740eb7e657f121f68395dc7cdf502d8893b7cc86d21962a4775",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D056-attempt-1.png",
+          "sha256": "286d3cbaf5e53abdcc59e9012c2e542dde1073dbbda98fd6f8781a35ef8f21eb",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D057",
+      "primary_png": "design/seal-individual/U3D057.png",
+      "primary_sha256": "e8342e566b67565f9503e37916dcdb792af06550207c460714240f8b8b971601",
+      "provenance": "design/seal-individual/U3D057.json",
+      "provenance_sha256": "6852a4478962913c3a906a3ee45827b121cd8a097a866097a9cec4706a4408dc",
+      "selected_attempt": 2,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D057.json",
+      "review_sha256": "cb0ef109fc49ed7653f7dda880a9f57ae9e7788539acdff6d4b2753000dc52fc",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "d9c1dfc70780c7d9184e04c40f0a3fac29cace813afa0606258847479e34bbd7",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D057-attempt-1.png",
+          "sha256": "023b7707209d3e276c75358e1b3d62b9ad1ba22b723e5268dbeeb01cc8a73633",
+          "attempt": 1,
+          "status": "visual_mismatch_draft"
+        },
+        {
+          "png": "design/seal-individual/U3D057-attempt-2.png",
+          "sha256": "e8342e566b67565f9503e37916dcdb792af06550207c460714240f8b8b971601",
+          "attempt": 2,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D058",
+      "primary_png": "design/seal-individual/U3D058.png",
+      "primary_sha256": "3b161ccb9af24abafe34b138a931ec8bed1841bb658db994fdc6cf802bff66d8",
+      "provenance": "design/seal-individual/U3D058.json",
+      "provenance_sha256": "56e224114c9b5115163ae6f8f88408da4e320e0be7dec4eabfd5a35bb85218e5",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D058.json",
+      "review_sha256": "560ef0be38f5cfcc8156811b792fb5aac8c0eb3a190b7b23e364a65f1c2d99fd",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "4d171430b1302bdf7e3b8e93b59d8fa8523bb6f40703541ca1a1df5bbe10c8f0",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D058-attempt-1.png",
+          "sha256": "3b161ccb9af24abafe34b138a931ec8bed1841bb658db994fdc6cf802bff66d8",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D059",
+      "primary_png": "design/seal-individual/U3D059.png",
+      "primary_sha256": "b2f927cc8ef4aadf62cf5f1e4b9dda0a8e2878af31a498d365fbbcb288f9d0dc",
+      "provenance": "design/seal-individual/U3D059.json",
+      "provenance_sha256": "a0c44cfe7b8b59e111087e15cdd2b55cf8860fcca2751bbe1d33fb7dac7cbe93",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D059.json",
+      "review_sha256": "701413d99540bb59915044ca75d54618b41eeb6b4bc2c0eda25a729f911955ec",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "1f0a67bbdea9a205f9037431b0db906861d451a52e237505fc901e3df539d772",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D059-attempt-1.png",
+          "sha256": "b2f927cc8ef4aadf62cf5f1e4b9dda0a8e2878af31a498d365fbbcb288f9d0dc",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D05A",
+      "primary_png": "design/seal-individual/U3D05A.png",
+      "primary_sha256": "e097705c266433fda9b184c8eaab332ee968637c2705a8074e375f02766c1717",
+      "provenance": "design/seal-individual/U3D05A.json",
+      "provenance_sha256": "9cfb4e444c6e8c0c0f4ea050a4f39ebfb0d87ce0b0ce43007a28eb27bd9a5949",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D05A.json",
+      "review_sha256": "bed89bfaf0284b42a67e92fc7f423f3a71706b35c313dd5bba63eb8230d958e6",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "94cc2bfbb6d017241dcb521f044cbabc43f38abc7e9cec11a1eee3b09d0c23e2",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D05A-attempt-1.png",
+          "sha256": "e097705c266433fda9b184c8eaab332ee968637c2705a8074e375f02766c1717",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D05B",
+      "primary_png": "design/seal-individual/U3D05B.png",
+      "primary_sha256": "571d6d87f3f94769d4eb095cc7682befbf8cb4527b6730c2f07d3c414d21eddd",
+      "provenance": "design/seal-individual/U3D05B.json",
+      "provenance_sha256": "971868e088e9f55d3435966ab244d14e14af0f24b5f3d89c462c08256a82a5c0",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D05B.json",
+      "review_sha256": "e5081573806b7c27271ad2375143437b0cb81d17e63d0139e68409e5bef918d2",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "c8f3dfe2a9163cee808ff78d5eb2b8022366ba2c6bad22d22e8b57a187407bd3",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D05B-attempt-1.png",
+          "sha256": "571d6d87f3f94769d4eb095cc7682befbf8cb4527b6730c2f07d3c414d21eddd",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D05C",
+      "primary_png": "design/seal-individual/U3D05C.png",
+      "primary_sha256": "54b6644384fed0c07d7436e8eef9ac1d11be0b0eca516a785226d34c24378d2c",
+      "provenance": "design/seal-individual/U3D05C.json",
+      "provenance_sha256": "4e3618c15f9d5c07e5b6c4037ddf14c00c4933de86eb869789201f0f042cd811",
+      "selected_attempt": 2,
+      "native_verdict": "mismatch",
+      "review": "design/seal-individual/reviews/U3D05C.json",
+      "review_sha256": "3f1feb230df9781aeae8027f87178fc107625dcd9c130e104ddd0e9ba9c0f1d6",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "bd2b60f2ac25682fc014cff2e9c2ce1d0db0a769084dd94964ebcfbc21638718",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D05C-attempt-1.png",
+          "sha256": "a7ca1b3f5244d44e3caad4ab79c4462efbdecd5fa17e6c3d125025b79cf6c2bf",
+          "attempt": 1,
+          "status": "visual_mismatch_draft"
+        },
+        {
+          "png": "design/seal-individual/U3D05C-attempt-2.png",
+          "sha256": "54b6644384fed0c07d7436e8eef9ac1d11be0b0eca516a785226d34c24378d2c",
+          "attempt": 2,
+          "status": "visual_mismatch_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D05D",
+      "primary_png": "design/seal-individual/U3D05D.png",
+      "primary_sha256": "3942931875793df9f179f36e810bc19e13fc97140e6e23c420fb477747cff423",
+      "provenance": "design/seal-individual/U3D05D.json",
+      "provenance_sha256": "2b07decd10839227723b979aa82f4b8edc07a1bc40c6ab39d91f7d6f9f69f4b3",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D05D.json",
+      "review_sha256": "705a586afb0de9bbfbbe24867ebf243b7546a9c2b092eff81dc5a0aa778bb855",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "5b846f01f38f1b32e05a24f9018cc376b9f1385ba99b73383fb0a8df9385b026",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D05D-attempt-1.png",
+          "sha256": "3942931875793df9f179f36e810bc19e13fc97140e6e23c420fb477747cff423",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D05E",
+      "primary_png": "design/seal-individual/U3D05E.png",
+      "primary_sha256": "f1b19ef57869b5daa524bfd15d413f2aedd6d0a170bc8e02be1c90685a82a1c8",
+      "provenance": "design/seal-individual/U3D05E.json",
+      "provenance_sha256": "9f411322b8c571be9c0621259f2e7e3d9377e6bfe76503bb66e036da2506dfcd",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D05E.json",
+      "review_sha256": "6b572af60b0ff0deabec9b9f288a42630c6d7be82e0cd106bf561d4604efef6b",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "fff0a2d337e9808fdc38be5d072875008fa909416e9d97e838b1a774ccaaa561",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D05E-attempt-1.png",
+          "sha256": "f1b19ef57869b5daa524bfd15d413f2aedd6d0a170bc8e02be1c90685a82a1c8",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+3D05F",
+      "primary_png": "design/seal-individual/U3D05F.png",
+      "primary_sha256": "448ecb1d15913748bbef6654f098150030baf9831d69e36407a8d35ca2b31da6",
+      "provenance": "design/seal-individual/U3D05F.json",
+      "provenance_sha256": "3c0c65a1658ac855982b3765c13e2705d67aa1fc5a5b0ddfdfe4b1062c759749",
+      "selected_attempt": 1,
+      "native_verdict": "match",
+      "review": "design/seal-individual/reviews/U3D05F.json",
+      "review_sha256": "ef6725b258b1733185dda7751845131870f18e386e99f30a5f6b001d64b05d7a",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "reference_sha256": "16dcacd4fb8c71945ca2606ffca886a4fb119e445a513aaf668bda430df427de",
+      "checks": {
+        "png_matches_provenance": true,
+        "native_bytes_preserved": true,
+        "png_matches_review": true,
+        "reference_matches_provenance": true,
+        "reference_matches_review": true,
+        "selected_attempt_archive_matches": true,
+        "native_file_matches": true
+      },
+      "attempts": [
+        {
+          "png": "design/seal-individual/U3D05F-attempt-1.png",
+          "sha256": "448ecb1d15913748bbef6654f098150030baf9831d69e36407a8d35ca2b31da6",
+          "attempt": 1,
+          "status": "visual_match_draft"
+        }
+      ]
+    }
+  ]
+}

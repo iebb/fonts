@@ -1,0 +1,190 @@
+{
+  "codepoint": "U+3D045",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D045. Reading aid: LEFT altar component: detached short top dash, longer bar with attached long central stem, and two detached long flank strokes. RIGHT complex construction: at TOP a central bent-entry stem is crossed by TWO upward-open U-shaped arms (lower arm wider). This stem continues downward to join a longer horizontal roof that bends over at the right and descends as a long OUTER RIGHT SIDE, left side open. Under this roof is a SEPARATE continuous winding reverse-S/square-spiral stroke: it begins at upper-left, moves right, turns down, returns LEFT across the middle, turns down at left, then ends toward lower-right. Nested within its upper bend is a SEPARATE small open-left horizontal return (like a right bracket with two left-facing free ends). Nested within its lower bend is a SEPARATE small open-right horizontal return (like a left bracket with two right-facing free ends). At BOTTOM is a detached U-shaped bowl closed by a horizontal crossbar near its top, creating exactly ONE enclosed counter and two very short protruding side tips. Choose this coherent open/detached whole construction clearly attested by THX after comparing all four variants; do not splice in closed or merged inner returns. Keep all THREE winding middle strokes separate from one another and from outer right side. Preserve both top U arms, opposite directions of two small returns, lower bowl counter, and long right outer descender.",
+  "structural_reading_aid": "LEFT altar component: detached short top dash, longer bar with attached long central stem, and two detached long flank strokes. RIGHT complex construction: at TOP a central bent-entry stem is crossed by TWO upward-open U-shaped arms (lower arm wider). This stem continues downward to join a longer horizontal roof that bends over at the right and descends as a long OUTER RIGHT SIDE, left side open. Under this roof is a SEPARATE continuous winding reverse-S/square-spiral stroke: it begins at upper-left, moves right, turns down, returns LEFT across the middle, turns down at left, then ends toward lower-right. Nested within its upper bend is a SEPARATE small open-left horizontal return (like a right bracket with two left-facing free ends). Nested within its lower bend is a SEPARATE small open-right horizontal return (like a left bracket with two right-facing free ends). At BOTTOM is a detached U-shaped bowl closed by a horizontal crossbar near its top, creating exactly ONE enclosed counter and two very short protruding side tips. Choose this coherent open/detached whole construction clearly attested by THX after comparing all four variants; do not splice in closed or merged inner returns. Keep all THREE winding middle strokes separate from one another and from outer right side. Preserve both top U arms, opposite directions of two small returns, lower bowl counter, and long right outer descender.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D045.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-1c4a5feb-1cdd-4363-9945-6061b67f1878.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D045.png",
+  "status": "visual_comparison_mismatch",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "a189c43a99ef426723a52f94025de3bb6b6d2146c3538eb6c178151d201d4635",
+  "sha256": "a189c43a99ef426723a52f94025de3bb6b6d2146c3538eb6c178151d201d4635",
+  "reference_sha256": "5bbc26d89425fe7991ba3156c72fe8932a35c5236fcf5d9aebfbb70bcf900057",
+  "source_evidence": {
+    "codepoint": "U+3D045",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      380.3501892089844,
+      116.7594223022461,
+      391.50994873046875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          378.6210021972656,
+          144.17999267578125,
+          403.79998779296875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          379.1532836914063,
+          146.20000305175782,
+          404.1333068847656
+        ],
+        "source_label": "TH-00066"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          377.1802062988281,
+          168.03985595703125,
+          399.17999267578125
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          379.1532836914063,
+          172.8000030517578,
+          404.1333068847656
+        ],
+        "source_label": "C-00066"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          381.4341735839844,
+          196.539794921875,
+          403.0559387207031
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          379.1532836914063,
+          199.5000030517578,
+          404.1333068847656
+        ],
+        "source_label": "K-00066"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          378.6321716308594,
+          221.43984985351562,
+          403.6679382324219
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          379.1532836914063,
+          226.20000305175782,
+          404.1333068847656
+        ],
+        "source_label": "D-00066"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D045",
+    "verdict": "mismatch",
+    "reviewer": "generator structural review by consensus_a; closest native selected by root",
+    "reading_criteria": [
+      "Right top bent-entry stem and2Uarms.",
+      "Middle must contain1large winding stroke plus2small opposite open U-turns; small returns each need2parallel legs and curved end.",
+      "Bottom detached bowl1counter; leftaltar3descenders."
+    ],
+    "notes": [
+      "Primary PNG reselected byte-for-byte from immutable nativeattempt1, the closer complete construction.",
+      "Both small middle returns are still plain dashes; missing curved turn/second parallel leg in each must be restored in explicit reviewed vector geometry. PNG is NOT approved.",
+      "Attempt2 preserved unchanged in attempts/U3D045-attempt2.png/.json. No third native generation."
+    ],
+    "source_png": "design/seal-individual/U3D045.png",
+    "source_png_sha256": "a189c43a99ef426723a52f94025de3bb6b6d2146c3538eb6c178151d201d4635",
+    "reference_overview": "reference/seal/individual/U3D045.png",
+    "reference_png_sha256": "5bbc26d89425fe7991ba3156c72fe8932a35c5236fcf5d9aebfbb70bcf900057",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "history": [
+      {
+        "superseded_primary_review": {
+          "schema_version": 1,
+          "codepoint": "U+3D045",
+          "verdict": "mismatch",
+          "reviewer": "generator structural visual review by consensus_a",
+          "reading_criteria": [
+            "Righttopbent-entrycentralstem plus2Uarms.",
+            "Separate largemiddlewindingreverseS +small⊃ +small⊂:3independentmiddlepaths.",
+            "Bottomcup1counter; altarleft3descenders."
+          ],
+          "notes": [
+            "Attempt2restoresbentreturnsbutOMITSlargerseparatewindingreverseSaroundthemandremovesthetopstemleft-facingbententry. Thusstillmismatchafter2allowednativeattempts.",
+            "Attempt1archivedunchangedatdesign/seal-individual/attempts/U3D045-attempt1.png(+JSON); itretainstopentry+largerwindingpathandonlycollapsessmallreturnstobars, likelysmallerconfirmedvectorrepairifrootchooses. No furthergenerationperformed."
+          ],
+          "source_png": "design/seal-individual/U3D045.png",
+          "source_png_sha256": "babb204f0b59049fa2315ca0030dced15c67fb5d7cc97b500e79856c28a54953",
+          "reference_overview": "reference/seal/individual/U3D045.png",
+          "reference_png_sha256": "5bbc26d89425fe7991ba3156c72fe8932a35c5236fcf5d9aebfbb70bcf900057",
+          "reviewed_specimens": [
+            "THX",
+            "CCZ",
+            "QJZ",
+            "DYC"
+          ],
+          "unavailable_specimens": [],
+          "inspection_file": "design/seal-individual/inspection/U3D045-white.png",
+          "limitations": [
+            "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+            "Applies to this original PNG hash; compiled font geometry requires independent review."
+          ]
+        },
+        "reason": "Root chose first native anchor as smaller confirmed vector repair; bothattempts remain mismatches."
+      }
+    ],
+    "limitations": [
+      "Visual comparison only; PNG remains mismatch; corrected geometry requires separate hash-bound actual-font review."
+    ]
+  },
+  "chosen_attempt": 1,
+  "chosen_attempt_reason": "Root selected closer native anchor: attempt1 preserves top bent entry and full larger middle winding stroke. Its two small returns are collapsed into bars and remain a confirmed mismatch needing explicit vector repair. Attempt2 restores small returns but omits larger winding stroke and top bent entry.",
+  "archived_attempts": [
+    "design/seal-individual/attempts/U3D045-attempt1.png",
+    "design/seal-individual/attempts/U3D045-attempt2.png"
+  ]
+}

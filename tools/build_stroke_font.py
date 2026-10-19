@@ -374,10 +374,10 @@ def build_font(sources: list[dict], target: Path, family: str = FAMILY,
     fb.setupNameTable({
         "copyright": "Panorama Gothic contributors, 2026. Generated glyph drawings.",
         "familyName": family, "styleName": style,
-        "uniqueFontIdentifier": f"{basename};0.5;{style}",
+        "uniqueFontIdentifier": f"{basename};0.6;{style}",
         "fullName": f"{family} {style}",
         "psName": f"{basename}-{style.replace(' ', '')}",
-        "version": "Version 0.5; normalized centerline stroke prototype",
+        "version": "Version 0.6; normalized centerline stroke prototype",
         "description": ("Constant-width centerline expansion. Manual and automatic geometry are "
                         "identified separately in the accompanying manifest; script review is pending."),
         "licenseDescription": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
@@ -391,7 +391,7 @@ def build_font(sources: list[dict], target: Path, family: str = FAMILY,
     fb.setupMaxp()
     # A fixed timestamp makes repeated builds bit-for-bit reproducible.
     fb.font["head"].created = fb.font["head"].modified = 3875126400
-    fb.font["head"].fontRevision = 0.5
+    fb.font["head"].fontRevision = 0.6
     fb.font.recalcTimestamp = False
     fb.save(target)
     return reports

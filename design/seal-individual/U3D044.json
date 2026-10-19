@@ -1,0 +1,149 @@
+{
+  "codepoint": "U+3D044",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D044. Reading aid: LEFT altar: detached short top dash above a longer horizontal attached to central long stem; two long detached flank strokes. RIGHT consists of exactly TWO SEPARATE tall curving strokes. The taller left stroke begins at an open upper-left endpoint, travels right along a short top entry, rounds down, bends LEFT across a short shoulder, then descends as a long slightly curved shaft. The shorter right stroke begins lower down at an open right-facing upper endpoint, curves left into a long downward shaft, then bows gently outward toward its bottom. The two right strokes must NEVER touch or enclose a counter. Choose the coherent open-left upper return construction attested by THX/CCZ/DYC, after comparing QJZ's different top-tip construction. The short right stroke starts below the taller stroke's upper return, with clear white gap between them. Exactly FIVE main descending ends across glyph: three on left plus the two separate right shafts. No closed loop, no joining bar between the two right shafts.",
+  "structural_reading_aid": "LEFT altar: detached short top dash above a longer horizontal attached to central long stem; two long detached flank strokes. RIGHT consists of exactly TWO SEPARATE tall curving strokes. The taller left stroke begins at an open upper-left endpoint, travels right along a short top entry, rounds down, bends LEFT across a short shoulder, then descends as a long slightly curved shaft. The shorter right stroke begins lower down at an open right-facing upper endpoint, curves left into a long downward shaft, then bows gently outward toward its bottom. The two right strokes must NEVER touch or enclose a counter. Choose the coherent open-left upper return construction attested by THX/CCZ/DYC, after comparing QJZ's different top-tip construction. The short right stroke starts below the taller stroke's upper return, with clear white gap between them. Exactly FIVE main descending ends across glyph: three on left plus the two separate right shafts. No closed loop, no joining bar between the two right shafts.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D044.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-94ee12fd-e6a1-4146-8f9c-86c2a2885beb.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D044.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "3852b4886059a271d503de591bd9b73ff0beca4a836c8dbd1703131170cf1cd1",
+  "sha256": "3852b4886059a271d503de591bd9b73ff0beca4a836c8dbd1703131170cf1cd1",
+  "reference_sha256": "c9ef9027b7ae3eb4106d768db3d7205c0544bcfb92207c583e711ecc12ed2c8d",
+  "source_evidence": {
+    "codepoint": "U+3D044",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      348.6701965332031,
+      116.7594223022461,
+      359.8299560546875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          346.8810119628906,
+          144.17999267578125,
+          372.05999755859375
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          347.473291015625,
+          146.20000305175782,
+          372.4532836914062
+        ],
+        "source_label": "TH-00065"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          345.4402160644531,
+          168.03985595703125,
+          367.44000244140625
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          347.473291015625,
+          172.8000030517578,
+          372.4532836914062
+        ],
+        "source_label": "C-00065"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          349.6941833496094,
+          196.539794921875,
+          371.3159484863281
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          347.473291015625,
+          199.5000030517578,
+          372.4532836914062
+        ],
+        "source_label": "K-00065"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          346.8921813964844,
+          221.43984985351562,
+          371.9279479980469
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          347.473291015625,
+          226.20000305175782,
+          372.4532836914062
+        ],
+        "source_label": "D-00065"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D044",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Left3long descenders withdetachedflanks and2upperbars lowerlonger.",
+      "Right2separate tallpaths, tallerpath upperreturn openleft, shorterpathupperentry startsbelowreturn.",
+      "Total5longends; no rightstemjoin and0counters."
+    ],
+    "notes": [
+      "Compared all4enlarged refs. Native coherent THX/CCZ/DYC upperreturn variant, not QJZ turned-up top-tip alternative.",
+      "Both rightpaths remain wholly detached withopentips; all5descenders present."
+    ],
+    "source_png": "design/seal-individual/U3D044.png",
+    "source_png_sha256": "3852b4886059a271d503de591bd9b73ff0beca4a836c8dbd1703131170cf1cd1",
+    "reference_overview": "reference/seal/individual/U3D044.png",
+    "reference_png_sha256": "c9ef9027b7ae3eb4106d768db3d7205c0544bcfb92207c583e711ecc12ed2c8d",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D044-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

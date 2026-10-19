@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D052",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D052 reading aid:\n1. Left ritual form: detached upper dash shorter than lower crossbar; center long descender attached to crossbar, flank descenders detached.\n2. Upper right has rounded tall left enclosing course and a descending inner divider, crossed by two horizontal rungs and topped by one cap; together they enclose exactly THREE stacked left-hand counters.\n3. The horizontal rungs and top cap extend to the RIGHT beyond the inner divider; do not add a closed outer right box wall.\n4. Below the upper enclosed form the curved courses cross and spread: exactly THREE separate left/down diagonal branch ends at successive levels, the lowest long diagonal slanting farthest down-left.\n5. On the right of that crossing are exactly TWO long downward legs, one inner and one outer. Keep both lower legs, not one; no extra closed lower box.\n6. The upper rounded enclosure's lower curves flow into the crossing and legs as in the coherent shared whole form; retain all3 upper counters and all5 lower ends.\nUpper counters lie to the LEFT of the right projecting rungs, not in a fully closed modern square. Lower part has three diagonal fingers spreading left and two descending right legs. Preserve rounded flowing crossings, uniform3%canvas diameter, open lower spaces.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D052.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-6cc798b4-b5b3-41f5-90fe-2021f6da76ea.png",
+  "original_generated_sha256": "fd9d6ee11ef782cfe0f5218d17e5b3b8dc7bcca455b80b9e6d76625bac990b4d",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D052.png",
+  "output_sha256": "fd9d6ee11ef782cfe0f5218d17e5b3b8dc7bcca455b80b9e6d76625bac990b4d",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D052.png",
+  "reference_sha256": "c751b2570badbc92444c32d26e84f7494b201512a15a5a0b197207058e056225",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D052.json",
+  "reference_metadata_sha256": "9bcac4d7145b9405ef6ca71fc450bff7255c5c9facfdb9f081ff7c7710c3c679",
+  "source_evidence": {
+    "codepoint": "U+3D052",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      158.47019958496094,
+      265.5594177246094,
+      169.62997436523438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          156.6809844970703,
+          292.9800109863281,
+          181.8599853515625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          157.2732940673828,
+          295.0000061035156,
+          182.25328674316407
+        ],
+        "source_label": "TH-00079"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          155.2401885986328,
+          316.8398742675781,
+          177.239990234375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          157.2732940673828,
+          321.6000061035156,
+          182.25328674316407
+        ],
+        "source_label": "C-00079"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          159.49417114257812,
+          345.33978271484375,
+          181.11595153808594
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          157.2732940673828,
+          348.3000061035156,
+          182.25328674316407
+        ],
+        "source_label": "K-00079"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          156.69216918945312,
+          370.2398681640625,
+          181.7279510498047
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          157.2732940673828,
+          375.0000061035156,
+          182.25328674316407
+        ],
+        "source_label": "D-00079"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual form: detached upper dash shorter than lower crossbar; center long descender attached to crossbar, flank descenders detached.",
+    "Upper right has rounded tall left enclosing course and a descending inner divider, crossed by two horizontal rungs and topped by one cap; together they enclose exactly THREE stacked left-hand counters.",
+    "The horizontal rungs and top cap extend to the RIGHT beyond the inner divider; do not add a closed outer right box wall.",
+    "Below the upper enclosed form the curved courses cross and spread: exactly THREE separate left/down diagonal branch ends at successive levels, the lowest long diagonal slanting farthest down-left.",
+    "On the right of that crossing are exactly TWO long downward legs, one inner and one outer. Keep both lower legs, not one; no extra closed lower box.",
+    "The upper rounded enclosure's lower curves flow into the crossing and legs as in the coherent shared whole form; retain all3 upper counters and all5 lower ends."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D052",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual form: detached upper dash shorter than lower crossbar; center long descender attached to crossbar, flank descenders detached.",
+      "Upper right has rounded tall left enclosing course and a descending inner divider, crossed by two horizontal rungs and topped by one cap; together they enclose exactly THREE stacked left-hand counters.",
+      "The horizontal rungs and top cap extend to the RIGHT beyond the inner divider; do not add a closed outer right box wall.",
+      "Below the upper enclosed form the curved courses cross and spread: exactly THREE separate left/down diagonal branch ends at successive levels, the lowest long diagonal slanting farthest down-left.",
+      "On the right of that crossing are exactly TWO long downward legs, one inner and one outer. Keep both lower legs, not one; no extra closed lower box.",
+      "The upper rounded enclosure's lower curves flow into the crossing and legs as in the coherent shared whole form; retain all3 upper counters and all5 lower ends."
+    ],
+    "notes": [
+      "All four enlarged sources retain exactly three stacked upper-left counters bounded by rounded left course and inner divider; both inner rungs and top cap project right beyond divider.",
+      "Native preserves three successive down-left diagonal branch ends, including lowest long sweep, and exactly two descending right legs with open lower space.",
+      "Ritual upper/lower short-long bar relationship retained; center leg attaches and flanks stay separate. No missing upper counter, extra closed lower box, or merged ritual branch.",
+      "Flowing shared whole structure coherently supported by all4 references; specialist identity and historical order remain unverified."
+    ],
+    "source_png": "design/seal-individual/U3D052.png",
+    "source_png_sha256": "fd9d6ee11ef782cfe0f5218d17e5b3b8dc7bcca455b80b9e6d76625bac990b4d",
+    "reference_overview": "reference/seal/individual/U3D052.png",
+    "reference_png_sha256": "c751b2570badbc92444c32d26e84f7494b201512a15a5a0b197207058e056225",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D052-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D052.json",
+  "review_file_sha256": "b31e8e5b2eb80a1d0c47429f94f350dd8e6fb874db979a8656ca8be2363302d5"
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D05D",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D05D reading aid:\n1. Left ritual: short detached upper dash, longer lower crossbar with center leg attached; flanks detached, three lower ends.\n2. Upper right has TWO separate three-pronged fork figures side by side, each with tall center upright and two upward-curving side arms. Exactlysix upward prong tips total.\n3. Left fork has a short FREE downward center stem below its U base; it remains separate from right fork and lower body.\n4. Right fork's center stem continues down and bends left through a smooth offset neck to the top center of lower body, as coherent connected CCZ/DYC construction. THX upturned-right-arm and QJZ separated-neck alternatives considered, not mixed.\n5. Lower body has center trunk, TWO shorter downward-curving shoulder arms ending left/right, then trunk splits into exactly TWO longer outward-spreading legs.\n6. Keep all four lower body arm/leg ends, no third long leg, no enclosed loop, no extra crossbar, and no merger with the free left upper fork stem.\nDraw one coherent CCZ/DYC-type connected right-fork/offset-neck/lower-person course while all4 referenceviews inform overall identity. Both lower shoulder arms curve DOWN to separate short tips; two legs spread farther downward. Upper left fork stays independent with its little lower stem.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D05D.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-e4bb5003-7ac7-447a-89a8-329165509d9d.png",
+  "original_generated_sha256": "3942931875793df9f179f36e810bc19e13fc97140e6e23c420fb477747cff423",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D05D.png",
+  "output_sha256": "3942931875793df9f179f36e810bc19e13fc97140e6e23c420fb477747cff423",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D05D.png",
+  "reference_sha256": "5b846f01f38f1b32e05a24f9018cc376b9f1385ba99b73383fb0a8df9385b026",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D05D.json",
+  "reference_metadata_sha256": "96a418bf574d59607d060d46c00b944ddd7a37853f09a0ab547d03d9d72b67a2",
+  "source_evidence": {
+    "codepoint": "U+3D05D",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      507.13018798828125,
+      267.2193908691406,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          505.4009704589844,
+          292.9800109863281,
+          530.5799560546875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          505.93328247070315,
+          295.0000061035156,
+          530.9732421875
+        ],
+        "source_label": "TH-00089"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          503.9601745605469,
+          316.8398742675781,
+          525.9599609375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          505.93328247070315,
+          321.6000061035156,
+          530.9732421875
+        ],
+        "source_label": "C-00089"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          508.2141418457031,
+          345.33978271484375,
+          529.8359375
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          505.93328247070315,
+          348.3000061035156,
+          530.9732421875
+        ],
+        "source_label": "K-00089"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          505.4121398925781,
+          370.2398681640625,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          505.93328247070315,
+          375.0000061035156,
+          530.9732421875
+        ],
+        "source_label": "D-00089"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual: short detached upper dash, longer lower crossbar with center leg attached; flanks detached, three lower ends.",
+    "Upper right has TWO separate three-pronged fork figures side by side, each with tall center upright and two upward-curving side arms. Exactlysix upward prong tips total.",
+    "Left fork has a short FREE downward center stem below its U base; it remains separate from right fork and lower body.",
+    "Right fork's center stem continues down and bends left through a smooth offset neck to the top center of lower body, as coherent connected CCZ/DYC construction. THX upturned-right-arm and QJZ separated-neck alternatives considered, not mixed.",
+    "Lower body has center trunk, TWO shorter downward-curving shoulder arms ending left/right, then trunk splits into exactly TWO longer outward-spreading legs.",
+    "Keep all four lower body arm/leg ends, no third long leg, no enclosed loop, no extra crossbar, and no merger with the free left upper fork stem."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D05D",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual: short detached upper dash, longer lower crossbar with center leg attached; flanks detached, three lower ends.",
+      "Upper right has TWO separate three-pronged fork figures side by side, each with tall center upright and two upward-curving side arms. Exactlysix upward prong tips total.",
+      "Left fork has a short FREE downward center stem below its U base; it remains separate from right fork and lower body.",
+      "Right fork's center stem continues down and bends left through a smooth offset neck to the top center of lower body, as coherent connected CCZ/DYC construction. THX upturned-right-arm and QJZ separated-neck alternatives considered, not mixed.",
+      "Lower body has center trunk, TWO shorter downward-curving shoulder arms ending left/right, then trunk splits into exactly TWO longer outward-spreading legs.",
+      "Keep all four lower body arm/leg ends, no third long leg, no enclosed loop, no extra crossbar, and no merger with the free left upper fork stem."
+    ],
+    "notes": [
+      "All4 enlarged refs plus focused right-side details compared. Two distinct upper three-prong forks retain six upward tips; left fork's little free lower stem remains independent.",
+      "Right fork's stem connects via left-offset neck to lower body, coherent CCZ/DYC-type whole variant. THX upward-right-arm and QJZ neck-gap alternatives considered without combining.",
+      "Lower body retains two shorter downward shoulder arms and two longer spreading legs; no third long leg or missing arm. Ritual short/long bars and middle attachment correct.",
+      "Smooth rounded constant-width draft; independent engine review remains pending."
+    ],
+    "source_png": "design/seal-individual/U3D05D.png",
+    "source_png_sha256": "3942931875793df9f179f36e810bc19e13fc97140e6e23c420fb477747cff423",
+    "reference_overview": "reference/seal/individual/U3D05D.png",
+    "reference_png_sha256": "5b846f01f38f1b32e05a24f9018cc376b9f1385ba99b73383fb0a8df9385b026",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D05D-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D05D.json",
+  "review_file_sha256": "705a586afb0de9bbfbbe24867ebf243b7546a9c2b092eff81dc5a0aa778bb855"
+}

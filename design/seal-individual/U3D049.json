@@ -1,0 +1,150 @@
+{
+  "codepoint": "U+3D049",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D049. Detailed reading aid: LEFT altar: short detached top dash, longer lower bar attached to long central stem, two detached long flank strokes. RIGHT has multiple separate motifs; after comparing allfour choose the coherent DETACHED THX whole construction. TOP: a wide sloping roof with short upward apex tick, DETACHED from TWO side-by-side small U-shaped cups beneath. Each cup is closed by its own near-top horizontal bar, giving ONE counter each and short tips above its bar; the cups stay separate from each other and roof. MIDDLE LEFT of right component: one winding reverse-S stroke with upper horizontal entry goingRIGHT, down at right, backLEFT at middle, down atleft, endingRIGHT atlowerlevel; inside its upper bend is ONE SEPARATE small⊃openLEFT, with2parallelhorizontallegs+roundedrightturn, neveradash. MIDDLE RIGHT: exactly TWO SEPARATE X-crosses stacked vertically. EachX has2crossingdiagonal strokes with4freeends; the2Xs doNOTtouch eachother, serpent or topcups. BOTTOM: one broad two-peaked M-like construction, two rising arches join at a central low valley; from that valley a THIRD descending curved tail sweeps to lowerRIGHT. Thus bottom motif has3lowerends(leftouter, rightouter, centralextendedtail),2upperpeaks,0counters. Keep bottom detached from middle. Exactly TWO counters in the whole glyph, both in the paired top cups. Preservealltopcupbars, bothXcrosses, nestedcurvedreturnand3bottomends; no borrowing merged contacts from other variants.\nFor this dense glyph use one consistent2.7%canvas stroke and enough spacing that every small return has2visiblelegs andevery X remainsa separatecross.",
+  "structural_reading_aid": "LEFT altar: short detached top dash, longer lower bar attached to long central stem, two detached long flank strokes. RIGHT has multiple separate motifs; after comparing allfour choose the coherent DETACHED THX whole construction. TOP: a wide sloping roof with short upward apex tick, DETACHED from TWO side-by-side small U-shaped cups beneath. Each cup is closed by its own near-top horizontal bar, giving ONE counter each and short tips above its bar; the cups stay separate from each other and roof. MIDDLE LEFT of right component: one winding reverse-S stroke with upper horizontal entry goingRIGHT, down at right, backLEFT at middle, down atleft, endingRIGHT atlowerlevel; inside its upper bend is ONE SEPARATE small⊃openLEFT, with2parallelhorizontallegs+roundedrightturn, neveradash. MIDDLE RIGHT: exactly TWO SEPARATE X-crosses stacked vertically. EachX has2crossingdiagonal strokes with4freeends; the2Xs doNOTtouch eachother, serpent or topcups. BOTTOM: one broad two-peaked M-like construction, two rising arches join at a central low valley; from that valley a THIRD descending curved tail sweeps to lowerRIGHT. Thus bottom motif has3lowerends(leftouter, rightouter, centralextendedtail),2upperpeaks,0counters. Keep bottom detached from middle. Exactly TWO counters in the whole glyph, both in the paired top cups. Preservealltopcupbars, bothXcrosses, nestedcurvedreturnand3bottomends; no borrowing merged contacts from other variants.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D049.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-20da9f11-3beb-4fcb-a773-62d74bd86192.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D049.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "51d47af5b5c6ca2480578632373eb130c52404f2fc71aac3406b7a68da3901aa",
+  "sha256": "51d47af5b5c6ca2480578632373eb130c52404f2fc71aac3406b7a68da3901aa",
+  "reference_sha256": "8e75cddca199a3472f1b5debe6dc026cea98e6aa21d429f37dbcba5c0d7ea03d",
+  "source_evidence": {
+    "codepoint": "U+3D049",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      507.13018798828125,
+      116.7594223022461,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          505.4009704589844,
+          144.17999267578125,
+          530.5799560546875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          505.93328247070315,
+          146.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "TH-00070"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          503.9601745605469,
+          168.03985595703125,
+          525.9599609375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          505.93328247070315,
+          172.8000030517578,
+          530.9732421875
+        ],
+        "source_label": "C-00070"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          508.2141418457031,
+          196.539794921875,
+          529.8359375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          505.93328247070315,
+          199.5000030517578,
+          530.9732421875
+        ],
+        "source_label": "K-00070"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          505.4121398925781,
+          221.43984985351562,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          505.93328247070315,
+          226.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "D-00070"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D049",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Roofwithapextick detachedfrom2cupseach1counter;cupsdetachedoneanother.",
+      "MiddlemainreverseS+small⊃with2legs and2SEPARATEXcrosses.",
+      "Bottom2peaksMform with3lowerendsincludingcentralextendedtail.",
+      "Leftaltar3ends;2totalcounters; no borrowedmergedcontacts."
+    ],
+    "notes": [
+      "Compared all4enlargedrefs. NativecoherentTHXdetachedwholeform, preservingpairedcups,bothXs,nestedreturnand3bottomends.",
+      "Narrowopengaps roof→cups andbetween2Xs present; keepdetachedinfontweightreview."
+    ],
+    "source_png": "design/seal-individual/U3D049.png",
+    "source_png_sha256": "51d47af5b5c6ca2480578632373eb130c52404f2fc71aac3406b7a68da3901aa",
+    "reference_overview": "reference/seal/individual/U3D049.png",
+    "reference_png_sha256": "8e75cddca199a3472f1b5debe6dc026cea98e6aa21d429f37dbcba5c0d7ea03d",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D049-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

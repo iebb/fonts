@@ -1,0 +1,130 @@
+{
+  "code_point": "U+3D072",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D072. LEFT component: ONE vertical stem joins THREE horizontal bars; bottom longest, middle shortest and top intermediate. RIGHT UPPER component: EXACTLY FIVE approximately parallel upright strokes, evenly spaced left to right. Each extends ABOVE and BELOW TWO shared horizontal crossbars, which are gently curved/arched as in THX; the two crossbars join all FIVE uprights, producing exactly FOUR enclosed white narrow vertical fields IN ONE ROW (not two rows, not five fields). Preserve all five upper tips and all five lower tips. No third crossbar in lattice. BELOW this lattice, separated by a clear gap in coherent THX/QJZ/DYC form, a wide horizontal bar spans about the lattice width or slightly more. From the UNDER SIDE of that bar descend exactly TWO separate long gently outward-curving legs. No central third leg and no stem joining lattice to lower bar. Preserve the left three-bar stem as separate from all right parts. Smooth constant-width strokes, round caps, no brush swells.",
+  "structural_reading_aid": "U+3D072. LEFT component: ONE vertical stem joins THREE horizontal bars; bottom longest, middle shortest and top intermediate. RIGHT UPPER component: EXACTLY FIVE approximately parallel upright strokes, evenly spaced left to right. Each extends ABOVE and BELOW TWO shared horizontal crossbars, which are gently curved/arched as in THX; the two crossbars join all FIVE uprights, producing exactly FOUR enclosed white narrow vertical fields IN ONE ROW (not two rows, not five fields). Preserve all five upper tips and all five lower tips. No third crossbar in lattice. BELOW this lattice, separated by a clear gap in coherent THX/QJZ/DYC form, a wide horizontal bar spans about the lattice width or slightly more. From the UNDER SIDE of that bar descend exactly TWO separate long gently outward-curving legs. No central third leg and no stem joining lattice to lower bar. Preserve the left three-bar stem as separate from all right parts. Smooth constant-width strokes, round caps, no brush swells.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D072.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-b66b3f2f-0c56-48e0-b276-554e3b25f397.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-b66b3f2f-0c56-48e0-b276-554e3b25f397.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D072.png",
+  "original_pixels_unchanged": true,
+  "sha256": "fee9ba5e5b62c29896249b4a5665d588d797d21257987fb29c951e195b1b1279",
+  "reference_sha256": "0fe7045c152a508505a18147ed96b7f1e6bf6fab4e68bf52cde4f1cdeff209c8",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D072",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      538.8701782226562,
+      414.3593444824219,
+      550.0299682617188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          537.0809936523438,
+          441.7799987792969,
+          562.260009765625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          537.6732421875,
+          443.79999389648435,
+          562.6532958984375
+        ],
+        "source_label": "TH-00104"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          535.6401977539062,
+          465.6398620605469,
+          557.6400146484375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          537.6732421875,
+          470.3999938964844,
+          562.6532958984375
+        ],
+        "source_label": "C-00108"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          539.8942260742188,
+          494.1398010253906,
+          561.5159912109375
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          537.6732421875,
+          497.09999389648436,
+          562.6532958984375
+        ],
+        "source_label": "K-00109"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          537.0922241210938,
+          519.0398559570312,
+          562.1279907226562
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          537.6732421875,
+          523.7999938964844,
+          562.6532958984375
+        ],
+        "source_label": "D-00104"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Left three-bar stem: bottom slightly longer than top; middle shortest.",
+      "Right lattice has exactly five uprights, two crossbars and four counters in one row, with five tips above and below.",
+      "Lower wide bar is detached from lattice and carries exactly two descending legs; no third middle leg."
+    ],
+    "notes": [
+      "All four specimen overviews and enlarged views compared. Native preserves five uprights/four fields and detached lower two-leg form in coherent THX/QJZ/DYC-type construction.",
+      "Lattice and lower bar remain separated; lower bar spans approximately lattice width."
+    ],
+    "caveats": [
+      "Gap between lattice lower tips and lower bar is modest; tracking and heavier weights must preserve it.",
+      "CCZ uses a touching central-stem variant; native intentionally retains detached attested form."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D072.json",
+    "review_sha256": "10d59453079184e0921b55d9e1b459ebc052cb0535aa702b1b4a47e63738f9f0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "range": {
+    "start": "U+3D040",
+    "end": "U+3D07F",
+    "count": 64
+  },
+  "review_report": "design/quality/recheck-040-07F.json",
+  "review_report_sha256": "ba1f414ea239c84e9f5c69a20d7956f5781d89ea478f9e2b947f6bb97ca3745a",
+  "font_sha256": "8ffad16921da1929e7cc4192dadcdce895045cf117b95f9879d8fe81e34bada5",
+  "default_weight": 400,
+  "regular_400_accepted": 64,
+  "semibold_600_accepted": 55,
+  "semibold_600_optical_failures": [
+    "U+3D045",
+    "U+3D047",
+    "U+3D049",
+    "U+3D05C",
+    "U+3D060",
+    "U+3D070",
+    "U+3D073",
+    "U+3D077",
+    "U+3D07D"
+  ],
+  "known_optical_failures_by_reviewed_stroke_width": {
+    "43": [
+      "U+3D045",
+      "U+3D047",
+      "U+3D049",
+      "U+3D05C",
+      "U+3D060",
+      "U+3D070",
+      "U+3D073",
+      "U+3D077",
+      "U+3D07D"
+    ],
+    "49.5": [
+      "U+3D045",
+      "U+3D049",
+      "U+3D05C"
+    ]
+  },
+  "weight_review_scope": {
+    "default": {
+      "weight": 400,
+      "stroke_width_font_units": 30
+    },
+    "semibold": {
+      "weight": 600,
+      "stroke_width_font_units": 43
+    },
+    "other_named_weights": "Only weights with explicit per-glyph actual-font proof are inspected. Passing Regular and SemiBold does not establish all named-weight optical acceptance.",
+    "all_named_weights_optically_accepted": false
+  },
+  "limitations": [
+    "This report covers the new64 page only.",
+    "Geometric size checks at all five named weights do not establish optical acceptance.",
+    "Other weights remain optically unverified except for explicitly recorded proofs."
+  ]
+}

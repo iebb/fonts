@@ -1,0 +1,149 @@
+{
+  "codepoint": "U+3D043",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D043. Reading aid: LEFT altar component: short detached top dash, longer lower bar joined to long central stem, two detached long flank strokes. RIGHT is one connected branched construction, with NO closed counters. Its UPPER part has a tall central/left stroke crossed by a short near-horizontal bar; that bar continues right to a shorter bowed vertical right arm, which protrudes above the bar and ends below it around upper-middle height. The tall central stroke continues down and left to a distinct short oblique LEFT branch ending around midheight. From that same central region a long S-curved stroke bends right, then left, and finally sweeps to the LOWER RIGHT. In the LOWER part a rising-right diagonal crosses this long S curve, continuing to a distinct LOWER-LEFT endpoint and a distinct UPPER-RIGHT short endpoint. Preserve the lower crossover and BOTH bottom ends, the additional mid-left branch, upper crossbar's short left overhang, and bowed upper-right arm. Total FIVE long bottom ends across glyph: three on left, two on right; plus the right figure's separate midheight branch ends. Do not omit the mid-left branch or merge away the diagonal's upper-right endpoint.",
+  "structural_reading_aid": "LEFT altar component: short detached top dash, longer lower bar joined to long central stem, two detached long flank strokes. RIGHT is one connected branched construction, with NO closed counters. Its UPPER part has a tall central/left stroke crossed by a short near-horizontal bar; that bar continues right to a shorter bowed vertical right arm, which protrudes above the bar and ends below it around upper-middle height. The tall central stroke continues down and left to a distinct short oblique LEFT branch ending around midheight. From that same central region a long S-curved stroke bends right, then left, and finally sweeps to the LOWER RIGHT. In the LOWER part a rising-right diagonal crosses this long S curve, continuing to a distinct LOWER-LEFT endpoint and a distinct UPPER-RIGHT short endpoint. Preserve the lower crossover and BOTH bottom ends, the additional mid-left branch, upper crossbar's short left overhang, and bowed upper-right arm. Total FIVE long bottom ends across glyph: three on left, two on right; plus the right figure's separate midheight branch ends. Do not omit the mid-left branch or merge away the diagonal's upper-right endpoint.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D043.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-f00628b7-404a-42b5-bb00-d6c730877da4.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D043.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "b662cdd994663fe23a8d8e49bed8ab7b362525bd821a8193a75619ca3c0e85ea",
+  "sha256": "b662cdd994663fe23a8d8e49bed8ab7b362525bd821a8193a75619ca3c0e85ea",
+  "reference_sha256": "55005dce5fd7597a5549b413524126d62a84de33f6d3a9514b2f2534bcf146f2",
+  "source_evidence": {
+    "codepoint": "U+3D043",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      316.9302062988281,
+      116.7594223022461,
+      328.0899658203125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          315.2010192871094,
+          144.17999267578125,
+          340.3800048828125
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          315.73330078125,
+          146.20000305175782,
+          340.773291015625
+        ],
+        "source_label": "TH-00064"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          313.7602233886719,
+          168.03985595703125,
+          335.760009765625
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          315.73330078125,
+          172.8000030517578,
+          340.773291015625
+        ],
+        "source_label": "C-00064"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          318.0141906738281,
+          196.539794921875,
+          339.6359558105469
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          315.73330078125,
+          199.5000030517578,
+          340.773291015625
+        ],
+        "source_label": "K-00064"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          315.2121887207031,
+          221.43984985351562,
+          340.2479553222656
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          315.73330078125,
+          226.20000305175782,
+          340.773291015625
+        ],
+        "source_label": "D-00064"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D043",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Leftaltar3long ends; detachedflanks andshortertopdash.",
+      "Rightupperbar intersects tallstem andshortbowedrightarm, withleftoverhang.",
+      "Midleftdescending branch separate fromlongScurve; lowerdiagonal crossesScurve withupperrighttip and2bottomends;0counters."
+    ],
+    "notes": [
+      "Compared all4enlarged refs. Output retains upperH-like branching, distinctmidleftbranch, longS andlowerdiagonal crossover.",
+      "Five mainbottomends acrossglyph andallsecondaryupper/mid branchends visible; no addedcounter ormissingbranch."
+    ],
+    "source_png": "design/seal-individual/U3D043.png",
+    "source_png_sha256": "b662cdd994663fe23a8d8e49bed8ab7b362525bd821a8193a75619ca3c0e85ea",
+    "reference_overview": "reference/seal/individual/U3D043.png",
+    "reference_png_sha256": "55005dce5fd7597a5549b413524126d62a84de33f6d3a9514b2f2534bcf146f2",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D043-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

@@ -1,16 +1,11 @@
 {
-  "path_count": 4,
-  "width": 30,
-  "viewBox": [
-    0,
-    0,
-    1024,
-    1024
-  ],
-  "browser": "Chromium / Playwright",
-  "centerlines_toggle": true,
-  "width_control": true,
-  "replay_animations": 4,
+  "status": "blocked_by_environment",
+  "passed": false,
+  "reason": "Chromium cannot start under the current sandbox: socket/shutdown operations are denied (Operation not permitted). No browser result is claimed for this build. Font binaries, FreeType rasters, normalization and source reviews passed separately.",
+  "glyph_count": 128,
+  "font_sha256": "82586a3e43753cd1bfa3430819c413752028bb41bdb1a24c4fa48606ff36dd2f",
   "html_sha256": "86ac0fe81107bb95b67787053303450713b593b24d1fc28abdbd8b3528c500bb",
-  "javascript_errors": []
+  "embedded_variable_font_loaded": false,
+  "javascript_errors": null,
+  "verified_interactions": []
 }

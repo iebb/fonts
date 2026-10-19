@@ -4,7 +4,7 @@ A sans-serif font family and supplements targeting the **Unicode 19 development 
 
 ## Small Seal: independent drawings and real strokes
 
-The current design sample targets **U+3D000–U+3D03F**. Each character gets its own `image_gen.imagegen` drawing informed by all available **THX, CCZ, QJZ and DYC** specimens in the official Unicode chart. Missing specimens remain marked unavailable. Where historical variants differ, a coherent attested construction is chosen; incompatible components are not blended.
+The **version 0.6 design sample contains 128 characters, U+3D000–U+3D07F**. Each character gets its own `image_gen.imagegen` drawing informed by all available **THX, CCZ, QJZ and DYC** specimens in the official Unicode chart. The new U+3D040–U+3D07F page uses 243 of 256 possible chart specimens; missing specimens remain marked unavailable. Where historical variants differ, a coherent attested construction is chosen; incompatible components are not blended. The first 64 characters' source PNG, JSON and SVG files are preserved unchanged in this expansion.
 
 The original generated PNGs and complete prompts are preserved in `design/seal-individual/`. Separate visual reviews record branches, counters, detachments, specimen availability and the exact PNG hash. A drawing that loses a component is rejected. Any subsequent manual correction to the font geometry is explicitly recorded; it does not turn the rejected PNG into an approved drawing.
 
@@ -12,16 +12,20 @@ The font source is **editable Bézier centerlines**, stored as JSON and SVG in `
 
 Each complete glyph is scaled proportionally to a maximum centerline dimension of **738 units**, centered at **(512, 320) in font coordinates** within its 1024-unit em. This keeps each glyph's internal proportions and applies the same transform at every weight. The shared pen width is independent of that scale: **Regular 400 uses 30 units**, giving a maximum ink dimension of **768 units**. Editable source files retain their reviewed nominal width of 43 units.
 
-The native generated drawing remains the main guide for trajectories, shape and proportions. Repairs preserve that drawing and change only a confirmed omission or a tracking defect. U+3D034, for example, adds the missing left descending leg beneath its upper shoulder while retaining the other stroke courses.
+The native generated drawing remains the main guide for trajectories, shape and proportions. Minimal vector overrides address confirmed structural or tracing defects while preserving the original PNG and other stroke courses. These overrides receive independent review in the compiled font. U+3D034, for example, adds the missing left descending leg beneath its upper shoulder.
 
 - Stroke construction example: `fonts/seal-individual/stroke-comparison.png`
 - Interactive path replay: `fonts/seal-individual/stroke-playback.html`
-- Font preview: `fonts/seal-individual/preview-64.png`
+- Full font preview: `fonts/seal-individual/preview-128.png`
+- New page: `fonts/seal-individual/preview-3D040-3D07F.png`
+- Retained first page: `fonts/seal-individual/preview-64.png`
 - Installable font: `fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf`
-- Download package: `dist/Panorama-Gothic-Seal-Stroke-64.zip`
+- Download package: `dist/Panorama-Gothic-Seal-Stroke-128.zip`
 - Editable example: `design/strokes-individual/U3D001.svg`
 
-The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status and targeted repairs are recorded individually. Validation combines visual review of all **64 sample glyphs** with `tools/verify_glyph_invariants.py`, which checks recorded structural features in the rendered static and variable fonts. These regression gates check details such as bar relationships, branches and open spaces at multiple weights. `tools/verify_source_reviews.py` rejects any change to the accepted geometry or source PNG hashes; its registry is updated only after a new visual review. `tools/verify_normalized_sizes.py` checks actual font bounds, centering, proportions and advances at all named weights. Further shape and optical review remains necessary. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
+The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status and targeted repairs are recorded individually. Validation combines reference review of all **128 sample glyphs at default Regular 400** with `tools/verify_glyph_invariants.py`, which checks recorded structural features in the rendered static and variable fonts. Rules cover details such as bar relationships, branches and open spaces; their recorded weight scopes vary. Some dense-form rules apply only at 300 and 400.
+
+`tools/verify_source_reviews.py` checks the full 128-entry `design/quality/accepted-geometry.json` registry and rejects changed geometry or source PNG hashes until renewed visual review. `tools/verify_normalized_sizes.py --registry design/quality/accepted-geometry.json` checks actual font bounds, centering, source proportions and advances at all named weights, including whether every registered glyph is present. These checks do not establish optical acceptance at every weight. Further shape review remains necessary. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
 
 ### Weight from pen width
 
@@ -35,7 +39,7 @@ The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail 
 | 600 | SemiBold | 43 units |
 | 700 | Bold | 49.5 units |
 
-The previous 300 width is now 400, and the previous 400 width is now 600. Dense forms can close small gaps or counters at heavier weights; consult the actual-font checks and visual proofs for their current limits.
+The previous 300 width is now 400, and the previous 400 width is now 600. Default Regular reference acceptance is separate from heavy-weight optical acceptance. Dense new forms including U+3D045, U+3D049, U+3D060, U+3D070, U+3D073 and U+3D077 merge some marks or counters at 600 or 700. Their centerline paths remain present, but these weights are not optically approved for every character. Consult the actual-font checks and visual proofs for current limits.
 
 The variable font and self-contained slider are written to `fonts/seal-individual-variable/`. The older `fonts/seal-variable/` outline-offset study is retained for comparison. The single-style `fonts/seal-example/` and grouped four-source `fonts/seal-redraw/` studies are superseded; the latter contains known identity errors and is marked rejected.
 
@@ -62,22 +66,21 @@ python -m pip install -r requirements.txt
 make test
 ```
 
-To rebuild the stroke sample after individual generation and review (additional dependencies are in `requirements-tracing.txt`):
+To rebuild the 128-character stroke sample after individual generation and review (additional dependencies are in `requirements-tracing.txt`):
 
 ```sh
-python tools/track_centerlines.py --single-images
-python tools/verify_source_reviews.py
-python tools/build_stroke_font.py --source-root design/strokes-individual --output fonts/seal-individual --family "Panorama Gothic Seal Individual" --font-stroke-width 30 --normalize-glyphs --require-visual-match
-python tools/render_stroke_font.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf --output fonts/seal-individual
-python tools/render_stroke_demo.py --source design/strokes-individual/U3D001.json --output fonts/seal-individual
-python tools/audit_stroke_sample.py
-python tools/verify_glyph_invariants.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf
-python tools/verify_normalized_sizes.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf --output fonts/seal-individual/size-check.json
-python tools/build_stroke_variable.py --require-visual-match
-python tools/render_weight_demo.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf --output fonts/seal-individual-variable
-python tools/verify_glyph_invariants.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf
-python tools/verify_normalized_sizes.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf --output fonts/seal-individual-variable/size-check.json
+make seal-strokes seal-variable
 ```
+
+With Playwright and Chromium installed, run `python3 tools/verify_seal_browser.py`
+to check the embedded variable font and path replay. Then run
+`python3 tools/package_seal_sample.py` to create the ZIP after checking the
+current font, review and browser report hashes. The package includes editable
+sources, installable fonts, previews and a file-by-file hash inventory.
+The current environment blocks Chromium's required socket operations, so the
+v0.6 browser reports record that limitation. Its package is created with
+`--allow-unverified-browser`; font and source checks remain mandatory. Static
+previews use the actual TTF through FreeType.
 
 Build and installation instructions, generated fonts and the verified coverage summary are added as each source is integrated.
 

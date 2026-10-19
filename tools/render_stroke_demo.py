@@ -102,7 +102,8 @@ def render(root: Path, source: Path | None = None, output: Path | None = None) -
                                if node.tag.rsplit("}", 1)[-1] == "path"]
             data["viewBox"] = [float(value) for value in exported.attrib["viewBox"].split()]
             data["stroke_width"] = record["stroke_width_font_units"]
-    old_svg = ET.parse(root / "fonts/seal-example/glyphs/U3D001.svg").getroot()
+    legacy_svg_path = root / "fonts/seal-example/glyphs/U3D001.svg"
+    old_svg = ET.parse(legacy_svg_path).getroot() if legacy_svg_path.is_file() else ET.Element("svg")
     old_paths = "".join(f'<path d="{escape(node.attrib["d"])}" fill="#171717"/>'
                         for node in old_svg.iter() if node.tag.rsplit("}", 1)[-1] == "path")
     strokes = data["strokes"]
@@ -111,6 +112,8 @@ def render(root: Path, source: Path | None = None, output: Path | None = None) -
     scale = 440 / max(view_width, view_height)
     native = root / data.get("source", {}).get("file", "missing-native.png")
     native = native if native.is_file() and "individual" in str(source) else None
+    if native is None and not legacy_svg_path.is_file():
+        raise FileNotFoundError("The stroke proof needs its native PNG or the legacy comparison SVG")
     first_art = (f'<image x="50" y="183" width="440" height="440" '
                  f'href="data:image/png;base64,{base64.b64encode(native.read_bytes()).decode()}"/>'
                  if native else f'<g transform="translate(50,183) scale(1.401273885)">{old_paths}</g>')

@@ -1,31 +1,11 @@
 {
-  "all_64_spans": true,
-  "embedded_variable_font_loaded": true,
-  "default_weight": 400,
-  "canvas_actual_font_ink": [
-    {
-      "weight": 300,
-      "pixels": 4125,
-      "advance": 256
-    },
-    {
-      "weight": 400,
-      "pixels": 5272,
-      "advance": 256
-    },
-    {
-      "weight": 600,
-      "pixels": 7601,
-      "advance": 256
-    },
-    {
-      "weight": 700,
-      "pixels": 8654,
-      "advance": 256
-    }
-  ],
-  "browser": "Chromium / Playwright",
-  "live_weight_600_verified": true,
-  "javascript_errors": [],
-  "font_sha256": "43d96e52a7a7eae24f0fd228690fc4ca477d301961c62e7837dcc89e030159f2"
+  "status": "blocked_by_environment",
+  "passed": false,
+  "reason": "Chromium cannot start under the current sandbox: socket/shutdown operations are denied (Operation not permitted). No browser result is claimed for this build. Font binaries, FreeType rasters, normalization and source reviews passed separately.",
+  "glyph_count": 128,
+  "font_sha256": "8ffad16921da1929e7cc4192dadcdce895045cf117b95f9879d8fe81e34bada5",
+  "html_sha256": "88a07760949684a47015648dc72e9d892466bc61d3e9c42613696b78764f2798",
+  "embedded_variable_font_loaded": false,
+  "javascript_errors": null,
+  "verified_interactions": []
 }

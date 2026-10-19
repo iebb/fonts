@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D055",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D055 reading aid:\n1. Available specimens THX, QJZ, DYC; CCZ unavailable. Two components, with no separate ritual two-bar radical.\n2. Left structure: rounded upper enclosure with divider and two rungs under cap creates THREE stacked counters; rungs project right.\n3. Below left enclosure exactly THREE diagonal down-left branch ends and TWO descending legs; retain all5lowerends.\n4. Right structure is one broad serpentine course starting upper-left, going right and down, returning left at middle, rounding down then right into a long bottom baseline pointing right.\n5. Inside upper bend is a separate small return hook OPEN TO LEFT. Inside lower bend a separate small return hook OPEN TO RIGHT. No closed counters in the right structure.\n6. Choose a coherent bottom-horizontal-baseline construction attested by THX/QJZ after considering DYC's more descending terminal variant. There is NO lower horned cup and NO separate long exterior right descender.\nCritical distinction: right lower region contains only the open short hook inside broad serpentine baseline, never a horned bowl. Leftupperthree counters remain the ONLY closed counters in this glyph.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D055.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-e6cd8861-4882-457b-ad81-ae44123cf663.png",
+  "original_generated_sha256": "adb3ab4c979c5e416bc1cc28b9f0748c18a07e2583bc3eaef8d3208380fd44fd",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D055.png",
+  "output_sha256": "adb3ab4c979c5e416bc1cc28b9f0748c18a07e2583bc3eaef8d3208380fd44fd",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D055.png",
+  "reference_sha256": "4e009deb021aff1885c5501320bc6ba2e23e9404efd022a60b9cf9609b4f8326",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D055.json",
+  "reference_metadata_sha256": "620c80aec1332395d6a2debfdb1dc9cc16e9a8d80977fab6fb196cc539715d22",
+  "source_evidence": {
+    "codepoint": "U+3D055",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      253.57017517089844,
+      265.5594177246094,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          254.86802673339844,
+          292.9800109863281,
+          276.33001708984375
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          252.3732696533203,
+          295.0000061035156,
+          277.3532775878906
+        ],
+        "source_label": "TH-Y005"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          254.59420776367188,
+          345.33978271484375,
+          276.2159729003906
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          249.77017517089843,
+          348.3000061035156,
+          277.3532775878906
+        ],
+        "source_label": "K-00081"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          251.79220581054688,
+          370.2398681640625,
+          276.8279724121094
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          249.77017517089843,
+          375.0000061035156,
+          277.3532775878906
+        ],
+        "source_label": "D-00081"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Available specimens THX, QJZ, DYC; CCZ unavailable. Two components, with no separate ritual two-bar radical.",
+    "Left structure: rounded upper enclosure with divider and two rungs under cap creates THREE stacked counters; rungs project right.",
+    "Below left enclosure exactly THREE diagonal down-left branch ends and TWO descending legs; retain all5lowerends.",
+    "Right structure is one broad serpentine course starting upper-left, going right and down, returning left at middle, rounding down then right into a long bottom baseline pointing right.",
+    "Inside upper bend is a separate small return hook OPEN TO LEFT. Inside lower bend a separate small return hook OPEN TO RIGHT. No closed counters in the right structure.",
+    "Choose a coherent bottom-horizontal-baseline construction attested by THX/QJZ after considering DYC's more descending terminal variant. There is NO lower horned cup and NO separate long exterior right descender."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D055",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Available specimens THX, QJZ, DYC; CCZ unavailable. Two components, with no separate ritual two-bar radical.",
+      "Left structure: rounded upper enclosure with divider and two rungs under cap creates THREE stacked counters; rungs project right.",
+      "Below left enclosure exactly THREE diagonal down-left branch ends and TWO descending legs; retain all5lowerends.",
+      "Right structure is one broad serpentine course starting upper-left, going right and down, returning left at middle, rounding down then right into a long bottom baseline pointing right.",
+      "Inside upper bend is a separate small return hook OPEN TO LEFT. Inside lower bend a separate small return hook OPEN TO RIGHT. No closed counters in the right structure.",
+      "Choose a coherent bottom-horizontal-baseline construction attested by THX/QJZ after considering DYC's more descending terminal variant. There is NO lower horned cup and NO separate long exterior right descender."
+    ],
+    "notes": [
+      "Available enlarged THX/QJZ/DYC checked; CCZ unavailable. Left three stacked counters, three diagonal down-left ends and two downward legs retained.",
+      "Right broad serpentine open course has separate upper hook open left and lower hook open right. No closed right counter, no lower horned cup and no independent long exterior descender.",
+      "Bottom horizontal baseline variant coherently follows THX/QJZ after considering DYC descending-terminal variant. Lower free baseline projects at least as far right as upper turn, consistent with chosen sources.",
+      "All4positions considered equally including unavailable state; original source pixels unchanged."
+    ],
+    "source_png": "design/seal-individual/U3D055.png",
+    "source_png_sha256": "adb3ab4c979c5e416bc1cc28b9f0748c18a07e2583bc3eaef8d3208380fd44fd",
+    "reference_overview": "reference/seal/individual/U3D055.png",
+    "reference_png_sha256": "4e009deb021aff1885c5501320bc6ba2e23e9404efd022a60b9cf9609b4f8326",
+    "reviewed_specimens": [
+      "THX",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [
+      "CCZ"
+    ],
+    "inspection_composite": "/tmp/seal-native-b-3D055-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D055.json",
+  "review_file_sha256": "76a671e38fc2a2b602035f5c6e28c152ee034363e525cbd912f10d6699a702e7"
+}

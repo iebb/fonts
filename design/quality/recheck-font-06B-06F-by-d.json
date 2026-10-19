@@ -1,0 +1,913 @@
+{
+  "schema_version": 1,
+  "scope": "Independent native and actual-font review of U+3D06B–U+3D06F only",
+  "reviewer": "consensus_d",
+  "reviewed_at_utc": "2026-10-19T03:20:55.988205+00:00",
+  "passed": true,
+  "verdict": "match",
+  "normalization_centerline_extent": 738,
+  "actual_font_stroke_widths": [
+    30,
+    43
+  ],
+  "method": [
+    "Read every available enlarged historical reference in THX/CCZ/QJZ/DYC order; unavailable slots supply no evidence.",
+    "Visually compare unchanged final native PNG on white with all available witnesses; inspect named branches, bars, length ordering, attachments and counters.",
+    "Load current effective auto/manual centerlines through build_stroke_font.load_sources with normalization_extent=738, then build independent single-codepoint actual TTFs with build_font overrides30 and43.",
+    "Rasterize saved actual TTFs at2048px; inspect comparison proofs, check component/counter counts and bind source/reference/native/font/raster evidence by exact SHA256."
+  ],
+  "limits": [
+    "Review certifies the depicted coherent reference variant and course preservation at these two font widths; historical writing order is not asserted.",
+    "U+3D06E retains the explicitly quantified upper-bar proportion caveat.",
+    "No native PNG, centerline source, old glyph, tracker, final native review or main review report was modified by this independent proof task."
+  ],
+  "glyphs": [
+    {
+      "codepoint": "U+3D06B",
+      "native_png": "design/seal-individual/U3D06B.png",
+      "native_png_sha256": "353f5be5fb90edea75e5fe20eca0361e69b360aadfb1f34070cdf6330e65bd3e",
+      "provenance_json": "design/seal-individual/U3D06B.json",
+      "provenance_json_sha256": "b2082adf84178abc54b2da0f4216becd8b9366a7966d46e230c8dfb678a2b109",
+      "reference_png": "reference/seal/individual/U3D06B.png",
+      "reference_png_sha256": "8af23ccf636b97824e07e5b6844823f5dabb5bd5f64039f4fb1613b92cc1b46d",
+      "reference_json_sha256": "d2451432a0f12788cc74060418a1841e70f4a49f192dac249d4c7c1aee2220e7",
+      "centerline_source": "design/strokes-individual/auto/U3D06B.json",
+      "centerline_source_sha256": "4704ed119e65d29b380da56e2bab5ae81491d952e5888c59c78c39f2a532e81f",
+      "canonical_geometry_sha256": "f026ee011c55cfa58e378a5e1db492a6ace44199f85874e02117a75490bc52a2",
+      "centerline_png_sha256": "353f5be5fb90edea75e5fe20eca0361e69b360aadfb1f34070cdf6330e65bd3e",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.0492090413954196,
+          0,
+          0,
+          1.0492090413954196,
+          -23.47904780725264,
+          -19.179380625459373
+        ],
+        "original_centerline_bounds_font_units": [
+          294.441,
+          -28.422000000000025,
+          726.288,
+          674.965
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ"
+      ],
+      "unavailable_specimens": [
+        "DYC"
+      ],
+      "widths": {
+        "30": {
+          "font": "design/quality/06B-06F-by-d/U3D06B-review-width30.ttf",
+          "font_sha256": "0b067db3f0cefbae7ddaa38e8c812550e7921cd7cd6f6f4b87054d7dc77bb2d4",
+          "raster": "design/quality/06B-06F-by-d/U3D06B-width30-actual.png",
+          "raster_sha256": "81ae0c534b7cc3d4dd832c1eb0731383921b9c344c6334a7e09e17f824b20071",
+          "font_size": 2048,
+          "ink_bbox": [
+            690,
+            792,
+            1658,
+            2328
+          ],
+          "topology": {
+            "components": 2,
+            "counters": 3
+          },
+          "component_bboxes": [
+            [
+              856,
+              792,
+              1492,
+              1628
+            ],
+            [
+              690,
+              1754,
+              1658,
+              2328
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 30,
+            "contours": 266,
+            "points": 4928,
+            "segment_rectangles": 128,
+            "round_disks": 138
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "The narrowed final native bowl matches the reference ordering and width relationship. Actual bowl/base component ink-width ratios are 0.6570 at width30 and 0.6694 at width43. Every divider/counter remains open, and lower bars preserve their native trajectories."
+        },
+        "43": {
+          "font": "design/quality/06B-06F-by-d/U3D06B-review-width43.ttf",
+          "font_sha256": "401d7491dee9eecb44d9024b8f76f89850b98a597fb5271bf7e9adfe273cf253",
+          "raster": "design/quality/06B-06F-by-d/U3D06B-width43-actual.png",
+          "raster_sha256": "bc8ad88bbf612825b881b679c708bcf2899e86a9ae84b2167c930bd6fecb7c9f",
+          "font_size": 2048,
+          "ink_bbox": [
+            678,
+            778,
+            1670,
+            2342
+          ],
+          "topology": {
+            "components": 2,
+            "counters": 3
+          },
+          "component_bboxes": [
+            [
+              842,
+              778,
+              1506,
+              1642
+            ],
+            [
+              678,
+              1740,
+              1670,
+              2342
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 43,
+            "contours": 266,
+            "points": 4928,
+            "segment_rectangles": 128,
+            "round_disks": 138
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "The narrowed final native bowl matches the reference ordering and width relationship. Actual bowl/base component ink-width ratios are 0.6570 at width30 and 0.6694 at width43. Every divider/counter remains open, and lower bars preserve their native trajectories."
+        }
+      },
+      "native_topology": {
+        "components": 2,
+        "counters": 3
+      },
+      "comparison_proof": "design/quality/06B-06F-by-d/U3D06B-comparison.png",
+      "comparison_proof_sha256": "b2cce5dae1485393ac7791174036aff53c1a0a29271ebd1741e9be3dedf26bb8",
+      "reference_json": "reference/seal/individual/U3D06B.json",
+      "reviewer": "consensus_d (independent of native generator and tracker)",
+      "reviewed_at_utc": "2026-10-19T03:20:55.982698+00:00",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ"
+      ],
+      "all_available_reference_specimens_reviewed": true,
+      "reading_criteria": [
+        "THX/CCZ/QJZ show a narrow upper bowl separated from a wider lower three-bar stem; DYC is unavailable.",
+        "Upper bowl retains both upright side tips, a higher central tip and the peaked partition, then two horizontal interior dividers: three closed white counters.",
+        "Lower stem joins exactly three bars; baseline is longest, upper bar next and middle bar shortest, with greater lower bar gap.",
+        "Bowl remains narrower than every lower bar; the final narrowed second native attempt is the reviewed source."
+      ],
+      "native_verdict": "match",
+      "verdict": "match",
+      "notes": "The narrowed final native bowl matches the reference ordering and width relationship. Actual bowl/base component ink-width ratios are 0.6570 at width30 and 0.6694 at width43. Every divider/counter remains open, and lower bars preserve their native trajectories.",
+      "expected_topology": {
+        "components": 2,
+        "counters": 3
+      },
+      "measured_bowl_base_ink_width_ratio": {
+        "30": 0.65702,
+        "43": 0.66935
+      },
+      "isolated_receipt": "design/quality/06B-06F-by-d/U3D06B-receipt.json",
+      "isolated_receipt_sha256": "3de9e73546c8744d0f46845871925c8a0ac669f2d5c5dd81c48a47612a9d2c0f"
+    },
+    {
+      "codepoint": "U+3D06C",
+      "native_png": "design/seal-individual/U3D06C.png",
+      "native_png_sha256": "d4285a86165f7e64713972be93a63979a63c65c5c5617e5fea0628c5d044df79",
+      "provenance_json": "design/seal-individual/U3D06C.json",
+      "provenance_json_sha256": "c93f80f93708da2990ce686052eb54803615bb9749c274623fcafa2c9da7b1bf",
+      "reference_png": "reference/seal/individual/U3D06C.png",
+      "reference_png_sha256": "bfddc192de1841fcb18c859acd7505aeed589b5127e6fb170b10139dce4620eb",
+      "reference_json_sha256": "88f1bb95080bfc0e7793d6f30c3727fc8202296dea8cb9f8d61ed472d8f15408",
+      "centerline_source": "design/strokes-individual/auto/U3D06C.json",
+      "centerline_source_sha256": "d56df455fdbfba617a72ebc3d26114846454d373c80c586709cc9c05618a7847",
+      "canonical_geometry_sha256": "7dc7ccac4587d883e1ed4441c863b60f60773486f2268926d266480c8b2931b9",
+      "centerline_png_sha256": "d4285a86165f7e64713972be93a63979a63c65c5c5617e5fea0628c5d044df79",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.1057852948536033,
+          0,
+          0,
+          1.1057852948536033,
+          -52.353006222664476,
+          -39.27793568764707
+        ],
+        "original_centerline_bounds_font_units": [
+          255.182,
+          -8.79200000000003,
+          765.546,
+          658.607
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "available_specimens": [
+        "THX",
+        "DYC"
+      ],
+      "unavailable_specimens": [
+        "CCZ",
+        "QJZ"
+      ],
+      "widths": {
+        "30": {
+          "font": "design/quality/06B-06F-by-d/U3D06C-review-width30.ttf",
+          "font_sha256": "0d539894201c89bc55eb6c113627db8a60144df9650e1f103db8d3fdfe529997",
+          "raster": "design/quality/06B-06F-by-d/U3D06C-width30-actual.png",
+          "raster_sha256": "698d752be6bb14af8a68508e21cf48b58ebb0fb7573b03c3880d9466eaa598ee",
+          "font_size": 2048,
+          "ink_bbox": [
+            580,
+            792,
+            1768,
+            2328
+          ],
+          "topology": {
+            "components": 3,
+            "counters": 0
+          },
+          "component_bboxes": [
+            [
+              826,
+              792,
+              1516,
+              1120
+            ],
+            [
+              652,
+              1024,
+              1690,
+              1540
+            ],
+            [
+              580,
+              1696,
+              1768,
+              2328
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 30,
+            "contours": 275,
+            "points": 5076,
+            "segment_rectangles": 133,
+            "round_disks": 142
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Both actual weights preserve the transverse bar's open right channel, the detached ticked roof and the separate lower three-bar component. No closed bowl counter is introduced. Small line unevenness follows the native course rather than changing character topology."
+        },
+        "43": {
+          "font": "design/quality/06B-06F-by-d/U3D06C-review-width43.ttf",
+          "font_sha256": "922e51485c5354482fe329c6ab37568d7266a13c93dac07f4be4d78d2ca6b227",
+          "raster": "design/quality/06B-06F-by-d/U3D06C-width43-actual.png",
+          "raster_sha256": "e04a1575a30df9578561417d252083cb843b6ad6ab25a9da1d60ee827116c5ea",
+          "font_size": 2048,
+          "ink_bbox": [
+            566,
+            778,
+            1782,
+            2340
+          ],
+          "topology": {
+            "components": 3,
+            "counters": 0
+          },
+          "component_bboxes": [
+            [
+              812,
+              778,
+              1528,
+              1132
+            ],
+            [
+              640,
+              1010,
+              1702,
+              1554
+            ],
+            [
+              566,
+              1684,
+              1782,
+              2340
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 43,
+            "contours": 275,
+            "points": 5076,
+            "segment_rectangles": 133,
+            "round_disks": 142
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Both actual weights preserve the transverse bar's open right channel, the detached ticked roof and the separate lower three-bar component. No closed bowl counter is introduced. Small line unevenness follows the native course rather than changing character topology."
+        }
+      },
+      "native_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "comparison_proof": "design/quality/06B-06F-by-d/U3D06C-comparison.png",
+      "comparison_proof_sha256": "df2ae4a22d3a6d42012ec70a077d5965cc9f3ec49bbc6bcb25320d38b88fc9ba",
+      "reference_json": "reference/seal/individual/U3D06C.json",
+      "reviewer": "consensus_d (independent of native generator and tracker)",
+      "reviewed_at_utc": "2026-10-19T03:20:55.984398+00:00",
+      "reviewed_specimens": [
+        "THX",
+        "DYC"
+      ],
+      "all_available_reference_specimens_reviewed": true,
+      "reading_criteria": [
+        "Only THX and DYC are available; CCZ and QJZ are explicitly unavailable.",
+        "Open-top bowl has a transverse bar joined at its left wall only; its free right end leaves a clear channel before the right wall, so there is no bowl counter.",
+        "Short-ticked roof chevron is entirely detached from bowl and transverse bar.",
+        "Separate lower three-bar stem has longest baseline, shorter upper bar and shortest middle bar, with greater lower interval."
+      ],
+      "native_verdict": "match",
+      "verdict": "match",
+      "notes": "Both actual weights preserve the transverse bar's open right channel, the detached ticked roof and the separate lower three-bar component. No closed bowl counter is introduced. Small line unevenness follows the native course rather than changing character topology.",
+      "expected_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "isolated_receipt": "design/quality/06B-06F-by-d/U3D06C-receipt.json",
+      "isolated_receipt_sha256": "f60db4bf1c03a6d5e3446990e15ddb09e7f45cdb2835ebb4960f8880b1552914"
+    },
+    {
+      "codepoint": "U+3D06D",
+      "native_png": "design/seal-individual/U3D06D.png",
+      "native_png_sha256": "6f0e35831750ce4d5523dbe1cea618866ef62e4011baed5ed4c8cdeb276320b0",
+      "provenance_json": "design/seal-individual/U3D06D.json",
+      "provenance_json_sha256": "ca756d0bfa6b406db8b6f3c959d0a74d130b91dc116f64ea47b47fd640a2cc84",
+      "reference_png": "reference/seal/individual/U3D06D.png",
+      "reference_png_sha256": "cb607facd76d7aec3be62c11c0c62dea3a3e945415a26a36292315002584ee76",
+      "reference_json_sha256": "25da9d8fe412adf337df443f05b00a6dfb73504c3fb530b2bf372e348814eaa4",
+      "centerline_source": "design/strokes-individual/auto/U3D06D.json",
+      "centerline_source_sha256": "3f8b952a345a73af9532bf6d06313de6d3c3929d88934ae4bad22883ef6d8f39",
+      "canonical_geometry_sha256": "232632f7f02eda53330416c61690518215ffa5ead7d71f06288e26966c8c50b3",
+      "centerline_png_sha256": "6f0e35831750ce4d5523dbe1cea618866ef62e4011baed5ed4c8cdeb276320b0",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.6960877369179466,
+          0,
+          0,
+          1.6960877369179466,
+          -353.6229698082593,
+          -228.29682684506997
+        ],
+        "original_centerline_bounds_font_units": [
+          304.256,
+          105.71199999999999,
+          716.473,
+          540.831
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "widths": {
+        "30": {
+          "font": "design/quality/06B-06F-by-d/U3D06D-review-width30.ttf",
+          "font_sha256": "1b09b8aacd202f026fc5bf37173ade5c42afddc6c2fc30667ba6c34cec3160e1",
+          "raster": "design/quality/06B-06F-by-d/U3D06D-width30-actual.png",
+          "raster_sha256": "f86b145d2b405095bef34ac26b0c9fa32ee426a405e7486505d6338ae2086a1b",
+          "font_size": 2048,
+          "ink_bbox": [
+            444,
+            792,
+            1904,
+            2328
+          ],
+          "topology": {
+            "components": 1,
+            "counters": 0
+          },
+          "component_bboxes": [
+            [
+              444,
+              792,
+              1904,
+              2328
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 30,
+            "contours": 12,
+            "points": 272,
+            "segment_rectangles": 4,
+            "round_disks": 8
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Actual fonts preserve all three bars, central joining stem, approximately equal intervals and base>top>middle length ordering. No lost branch or additional part appears."
+        },
+        "43": {
+          "font": "design/quality/06B-06F-by-d/U3D06D-review-width43.ttf",
+          "font_sha256": "7b8afc6fe7c3fc259a8090d8f3b66ad57ad55cd049cb77bf4c129625b34f88f9",
+          "raster": "design/quality/06B-06F-by-d/U3D06D-width43-actual.png",
+          "raster_sha256": "03c54ff7bf54ea08268a91d9d88a1fafcd82ab505ea9dbe049f0925f265d11eb",
+          "font_size": 2048,
+          "ink_bbox": [
+            432,
+            778,
+            1916,
+            2342
+          ],
+          "topology": {
+            "components": 1,
+            "counters": 0
+          },
+          "component_bboxes": [
+            [
+              432,
+              778,
+              1916,
+              2342
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 43,
+            "contours": 12,
+            "points": 272,
+            "segment_rectangles": 4,
+            "round_disks": 8
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Actual fonts preserve all three bars, central joining stem, approximately equal intervals and base>top>middle length ordering. No lost branch or additional part appears."
+        }
+      },
+      "native_topology": {
+        "components": 1,
+        "counters": 0
+      },
+      "comparison_proof": "design/quality/06B-06F-by-d/U3D06D-comparison.png",
+      "comparison_proof_sha256": "ea92a5dceff9f1cb4ea415247b565d6221168f19e5366763a64b76943ff78e53",
+      "reference_json": "reference/seal/individual/U3D06D.json",
+      "reviewer": "consensus_d (independent of native generator and tracker)",
+      "reviewed_at_utc": "2026-10-19T03:20:55.985359+00:00",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "all_available_reference_specimens_reviewed": true,
+      "reading_criteria": [
+        "All four witnesses show one central stem joining exactly three horizontal bars.",
+        "Bar intervals are approximately even; the lower bar is longest, top next and middle shortest.",
+        "Stem terminates on the outer bars without upper/lower protrusions; no detached parts or closed counters."
+      ],
+      "native_verdict": "match",
+      "verdict": "match",
+      "notes": "Actual fonts preserve all three bars, central joining stem, approximately equal intervals and base>top>middle length ordering. No lost branch or additional part appears.",
+      "expected_topology": {
+        "components": 1,
+        "counters": 0
+      },
+      "isolated_receipt": "design/quality/06B-06F-by-d/U3D06D-receipt.json",
+      "isolated_receipt_sha256": "e24b91593e6ca96e10bbff78ea3a4ea3feb3b097ca5ad8596e7b4a9cd2c651a9"
+    },
+    {
+      "codepoint": "U+3D06E",
+      "native_png": "design/seal-individual/U3D06E.png",
+      "native_png_sha256": "c291d3c9150ba8609f8c4ffe07d43d1586d373498a0563034e9e9d8912562f67",
+      "provenance_json": "design/seal-individual/U3D06E.json",
+      "provenance_json_sha256": "55c71b7903b7828b71c860b4f5241983c4d05e7c43041f7aced61475e3137a25",
+      "reference_png": "reference/seal/individual/U3D06E.png",
+      "reference_png_sha256": "7d0f36858ce34bacbc58a09a426dcec0277a929f873e19bade0e31a18dfe31c0",
+      "reference_json_sha256": "5ef3e448afec257490dcf1ffe122119542b710df86fff7c03b9a4b06a4a5ec78",
+      "centerline_source": "design/strokes-individual/auto/U3D06E.json",
+      "centerline_source_sha256": "b3c30b5170ad9e6e96a624f78433bf4fe36421992227eb8123c3226641f05ffd",
+      "canonical_geometry_sha256": "75f121422dcf0651a8c8e5f664c67482ca8e5d81e99e1aea38b8d240f59afafc",
+      "centerline_png_sha256": "c291d3c9150ba8609f8c4ffe07d43d1586d373498a0563034e9e9d8912562f67",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.3754901814603309,
+          0,
+          0,
+          1.3754901814603309,
+          -187.32094744690949,
+          -108.9067238731418
+        ],
+        "original_centerline_bounds_font_units": [
+          287.131703125,
+          43.553,
+          729.6999062499999,
+          580.0889999999999
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "widths": {
+        "30": {
+          "font": "design/quality/06B-06F-by-d/U3D06E-review-width30.ttf",
+          "font_sha256": "750ef339fecfa379146b61ac0852d282714ededb003a81c36bdb6c6e519f4fde",
+          "raster": "design/quality/06B-06F-by-d/U3D06E-width30-actual.png",
+          "raster_sha256": "af38a6cfaf5cfbee5ff39683361ab40eda97088399a3ab7e70afeed3451a3e09",
+          "font_size": 2048,
+          "ink_bbox": [
+            536,
+            792,
+            1812,
+            2328
+          ],
+          "topology": {
+            "components": 3,
+            "counters": 0
+          },
+          "component_bboxes": [
+            [
+              690,
+              792,
+              1668,
+              2078
+            ],
+            [
+              536,
+              1340,
+              922,
+              2328
+            ],
+            [
+              1446,
+              1350,
+              1812,
+              2320
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 30,
+            "contours": 206,
+            "points": 3792,
+            "segment_rectangles": 100,
+            "round_disks": 106
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Coherent detached THX/DYC form is retained. Native upper/second bar ink-span ratio 0.770 is close to DYC 0.788 (other witnesses 0.903–1.000); normalized actual uniform-stroke fonts yield 0.714/0.723 at widths30/43. This is an explicitly retained modest proportion caveat, not a lost course, reversed ordering or contact change. The short central foot and both detached outer legs remain clear."
+        },
+        "43": {
+          "font": "design/quality/06B-06F-by-d/U3D06E-review-width43.ttf",
+          "font_sha256": "efe4c818c382a114d43f9a3e707d0a71baeef418b8e87d28f1e6bc59da6f55dd",
+          "raster": "design/quality/06B-06F-by-d/U3D06E-width43-actual.png",
+          "raster_sha256": "b9f4bdbf1ef15575f814f57ad209c37e6edda8ebc2b7e78cbc5366c18ec521a6",
+          "font_size": 2048,
+          "ink_bbox": [
+            522,
+            778,
+            1826,
+            2342
+          ],
+          "topology": {
+            "components": 3,
+            "counters": 0
+          },
+          "component_bboxes": [
+            [
+              678,
+              778,
+              1682,
+              2090
+            ],
+            [
+              522,
+              1328,
+              934,
+              2342
+            ],
+            [
+              1434,
+              1338,
+              1826,
+              2332
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 43,
+            "contours": 206,
+            "points": 3792,
+            "segment_rectangles": 100,
+            "round_disks": 106
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Coherent detached THX/DYC form is retained. Native upper/second bar ink-span ratio 0.770 is close to DYC 0.788 (other witnesses 0.903–1.000); normalized actual uniform-stroke fonts yield 0.714/0.723 at widths30/43. This is an explicitly retained modest proportion caveat, not a lost course, reversed ordering or contact change. The short central foot and both detached outer legs remain clear."
+        }
+      },
+      "native_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "comparison_proof": "design/quality/06B-06F-by-d/U3D06E-comparison.png",
+      "comparison_proof_sha256": "58c555803ee5a615ffe49a781b8a3eb8b3b3dd499160cf5384dc6459decf39b0",
+      "reference_json": "reference/seal/individual/U3D06E.json",
+      "reviewer": "consensus_d (independent of native generator and tracker)",
+      "reviewed_at_utc": "2026-10-19T03:20:55.986366+00:00",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "all_available_reference_specimens_reviewed": true,
+      "reading_criteria": [
+        "All four witnesses compared; the detached THX/DYC whole construction is chosen rather than the connected CCZ/QJZ alternatives.",
+        "Central stem joins two nearby upper bars and ends on a much lower short foot; top bar is shorter than second, and foot is shorter again.",
+        "Two independently bowed outer legs begin below the second bar and end below the central foot; each stays detached from every central course.",
+        "Foot ends leave white gaps before both outside legs; exactly three components and no closed counters."
+      ],
+      "native_verdict": "match",
+      "verdict": "match",
+      "notes": "Coherent detached THX/DYC form is retained. Native upper/second bar ink-span ratio 0.770 is close to DYC 0.788 (other witnesses 0.903–1.000); normalized actual uniform-stroke fonts yield 0.714/0.723 at widths30/43. This is an explicitly retained modest proportion caveat, not a lost course, reversed ordering or contact change. The short central foot and both detached outer legs remain clear.",
+      "expected_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "proportion_caveat": {
+        "metric": "uppermost/second horizontal maximum ink span in isolated bar bands",
+        "reference_ratios": {
+          "THX": 0.968,
+          "CCZ": 0.90322580645,
+          "QJZ": 1.0,
+          "DYC": 0.78787878788
+        },
+        "native_ratio": 0.77006507592,
+        "actual_font_ratios": {
+          "30": 0.71370143149,
+          "43": 0.72310756972
+        },
+        "decision": "Accept coherent native trajectory with minor proportion caveat; no geometry edit authorized or made."
+      },
+      "isolated_receipt": "design/quality/06B-06F-by-d/U3D06E-receipt.json",
+      "isolated_receipt_sha256": "cc6e4178ad0799047e4c116d126e202614315ba8561041b3e96c4a24bdde3a52"
+    },
+    {
+      "codepoint": "U+3D06F",
+      "native_png": "design/seal-individual/U3D06F.png",
+      "native_png_sha256": "a8f29acfd0332de4ba0c4319751f4fb6dfc776a6af566e48228e16f1b3377f18",
+      "provenance_json": "design/seal-individual/U3D06F.json",
+      "provenance_json_sha256": "805addee8e75cdd3578b14e227b1ca1d14669f658abdf2aae65d7d4b9f0018f3",
+      "reference_png": "reference/seal/individual/U3D06F.png",
+      "reference_png_sha256": "517df29d1cb1f0c0ff347d8213589f45e0abfe8160b54e6d7040323d881418f1",
+      "reference_json_sha256": "4e5474ad4dc204d99a77d977a5c76563ba39ba14bc4fc566756c0a6eea520ee8",
+      "centerline_source": "design/strokes-individual/auto/U3D06F.json",
+      "centerline_source_sha256": "fa37a5793a9c7a719c2e12d6b52d870d5958b8e71f8594feab90f624a07bd9a3",
+      "canonical_geometry_sha256": "2158e689c60a17ad427df431ef32c7dae3ac5f749290b03c222fa38d756dbfa0",
+      "centerline_png_sha256": "a8f29acfd0332de4ba0c4319751f4fb6dfc776a6af566e48228e16f1b3377f18",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.0492090413954196,
+          0,
+          0,
+          1.0492090413954196,
+          -9.748573687031467,
+          11.713530389387358
+        ],
+        "original_centerline_bounds_font_units": [
+          242.096,
+          -57.865999999999985,
+          752.46,
+          645.521
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "widths": {
+        "30": {
+          "font": "design/quality/06B-06F-by-d/U3D06F-review-width30.ttf",
+          "font_sha256": "d5630afc456f9cfd419813bf15382a7782bef5aa568cfe8a5dce677ca6c475b7",
+          "raster": "design/quality/06B-06F-by-d/U3D06F-width30-actual.png",
+          "raster_sha256": "bd1ce3650f6f948502b1d73e1dc64182827ba5a496f9d39e24af01048027a434",
+          "font_size": 2048,
+          "ink_bbox": [
+            608,
+            792,
+            1740,
+            2328
+          ],
+          "topology": {
+            "components": 7,
+            "counters": 2
+          },
+          "component_bboxes": [
+            [
+              1006,
+              792,
+              1740,
+              1538
+            ],
+            [
+              608,
+              1060,
+              1026,
+              1752
+            ],
+            [
+              1034,
+              1170,
+              1232,
+              1332
+            ],
+            [
+              1514,
+              1170,
+              1706,
+              1326
+            ],
+            [
+              1076,
+              1464,
+              1670,
+              2328
+            ],
+            [
+              1020,
+              1932,
+              1224,
+              2116
+            ],
+            [
+              1528,
+              1932,
+              1732,
+              2122
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 30,
+            "contours": 657,
+            "points": 12064,
+            "segment_rectangles": 320,
+            "round_disks": 337
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Final second native raises the left motif to the reference band: its top meets cup-floor height and its baseline is near the oval-divider height. Both actual weights preserve that relation, all three upper tips, both large forks, all four separate diagonal strokes and the two-counter oval. No trace from the obsolete first attempt was used."
+        },
+        "43": {
+          "font": "design/quality/06B-06F-by-d/U3D06F-review-width43.ttf",
+          "font_sha256": "c6284d4fbed5e27e15feb959666e71736e77662a350f324dda6a7ea01fe7def6",
+          "raster": "design/quality/06B-06F-by-d/U3D06F-width43-actual.png",
+          "raster_sha256": "249b7823f96a2c90fbad7c1ad05bfee43f375de218bf3de144d6e4cbb6b1bdf4",
+          "font_size": 2048,
+          "ink_bbox": [
+            596,
+            778,
+            1752,
+            2340
+          ],
+          "topology": {
+            "components": 7,
+            "counters": 2
+          },
+          "component_bboxes": [
+            [
+              994,
+              778,
+              1752,
+              1552
+            ],
+            [
+              596,
+              1046,
+              1038,
+              1764
+            ],
+            [
+              1022,
+              1156,
+              1244,
+              1346
+            ],
+            [
+              1502,
+              1156,
+              1718,
+              1338
+            ],
+            [
+              1062,
+              1452,
+              1684,
+              2340
+            ],
+            [
+              1008,
+              1918,
+              1238,
+              2128
+            ],
+            [
+              1516,
+              1918,
+              1746,
+              2136
+            ]
+          ],
+          "font_report": {
+            "stroke_width_font_units": 43,
+            "contours": 657,
+            "points": 12064,
+            "segment_rectangles": 320,
+            "round_disks": 337
+          },
+          "verdict": "match",
+          "visually_reviewed": true,
+          "notes": "Final second native raises the left motif to the reference band: its top meets cup-floor height and its baseline is near the oval-divider height. Both actual weights preserve that relation, all three upper tips, both large forks, all four separate diagonal strokes and the two-counter oval. No trace from the obsolete first attempt was used."
+        }
+      },
+      "native_topology": {
+        "components": 7,
+        "counters": 2
+      },
+      "comparison_proof": "design/quality/06B-06F-by-d/U3D06F-comparison.png",
+      "comparison_proof_sha256": "5bf24b5fa26fb261298660a7523fb2d6aeb1df9f157f6492bc6ef1694a4507ef",
+      "reference_json": "reference/seal/individual/U3D06F.json",
+      "reviewer": "consensus_d (independent of native generator and tracker)",
+      "reviewed_at_utc": "2026-10-19T03:20:55.987882+00:00",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "all_available_reference_specimens_reviewed": true,
+      "reading_criteria": [
+        "All four witnesses place a compact left three-bar stem with its top at the right upper-cup floor and its base at or near the middle oval divider; final attempt corrects the earlier low placement.",
+        "Right upper course has two side tips plus central upright, cup floor and a center downstem leading to the large two-armed chevron.",
+        "Two small upper diagonal marks are independent of cup/stem/chevron; two more independent lower diagonal marks flank the lower stem: four detached small strokes total.",
+        "Middle oval and its one horizontal divider make two counters; oval is separated above from the large chevron, while its bottom center descends into the large lower fork.",
+        "All seven ink components and both counters survive at both weights, with no extra triangular counter or lost detached mark."
+      ],
+      "native_verdict": "match",
+      "verdict": "match",
+      "notes": "Final second native raises the left motif to the reference band: its top meets cup-floor height and its baseline is near the oval-divider height. Both actual weights preserve that relation, all three upper tips, both large forks, all four separate diagonal strokes and the two-counter oval. No trace from the obsolete first attempt was used.",
+      "expected_topology": {
+        "components": 7,
+        "counters": 2
+      },
+      "prior_attempt_rejected_for": "Left compact motif was materially too low; all current evidence/proofs use the second and final native only.",
+      "isolated_receipt": "design/quality/06B-06F-by-d/U3D06F-receipt.json",
+      "isolated_receipt_sha256": "57d713271bdc4f3701d3fb404df30c4ac2e03d7aace058d4b8b06487701fe0b6"
+    }
+  ],
+  "errors": []
+}

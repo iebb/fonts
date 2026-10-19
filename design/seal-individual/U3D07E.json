@@ -1,0 +1,131 @@
+{
+  "code_point": "U+3D07E",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D07E. LEFT separate component is a tall vertical stem carrying THREE bars: top100units, middle95, bottom110. Keep it completely DETACHED from right component. RIGHT TOP is a small roof/Y form: short upright stub above a junction, from which two diagonals slope down-left and down-right. This roof is DETACHED from body below. RIGHT BODY has one main long central vertical course whose upper end curves left/up/right around a large nearly round HOOK, ending as a free inward tip at LOWER RIGHT of that round shape. The round hook stays OPEN at lower right, not a closed oval counter. Main stem continues down to a long horizontal baseline. At its LOWER LEFT a SECOND shorter upright descends, bends smoothly right at bottom and joins this same baseline; baseline projects right beyond central stem. At lower-middle RIGHT of central stem is ONE short arm which extends right and curves UP into an upright free tip, like a small open cup arm. All three upward spaces remain OPEN; no closed counter anywhere. Use coherent THX-type horizontal lower base (CCZ/DYC swept base and QJZ roof-without-stub are alternative whole forms, do not mix). Body baseline slightly wider than round hook, roof wider than hook. Preserve detached roof, open round hook, left short upright, right upturned arm and bottom baseline.",
+  "structural_reading_aid": "U+3D07E. LEFT separate component is a tall vertical stem carrying THREE bars: top100units, middle95, bottom110. Keep it completely DETACHED from right component. RIGHT TOP is a small roof/Y form: short upright stub above a junction, from which two diagonals slope down-left and down-right. This roof is DETACHED from body below. RIGHT BODY has one main long central vertical course whose upper end curves left/up/right around a large nearly round HOOK, ending as a free inward tip at LOWER RIGHT of that round shape. The round hook stays OPEN at lower right, not a closed oval counter. Main stem continues down to a long horizontal baseline. At its LOWER LEFT a SECOND shorter upright descends, bends smoothly right at bottom and joins this same baseline; baseline projects right beyond central stem. At lower-middle RIGHT of central stem is ONE short arm which extends right and curves UP into an upright free tip, like a small open cup arm. All three upward spaces remain OPEN; no closed counter anywhere. Use coherent THX-type horizontal lower base (CCZ/DYC swept base and QJZ roof-without-stub are alternative whole forms, do not mix). Body baseline slightly wider than round hook, roof wider than hook. Preserve detached roof, open round hook, left short upright, right upturned arm and bottom baseline.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D07E.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-2aa50223-42b5-4512-974c-230402f14bad.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-2aa50223-42b5-4512-974c-230402f14bad.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D07E.png",
+  "original_pixels_unchanged": true,
+  "sha256": "944f8ca6511c2bb79d9e6e252abae57594a431c47768ee6370dc3541e156c3c1",
+  "reference_sha256": "fbb611af9b4c5cd10a89e6f8cb293020f85ab7287f42c47c2f0d64cadb9f0892",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D07E",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      285.25018310546875,
+      117.86940002441406,
+      296.4099426269531
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          283.52099609375,
+          144.17999267578125,
+          308.6999816894531
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          284.05327758789065,
+          146.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "TH-00116"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          282.0802001953125,
+          168.03985595703125,
+          304.0799865722656
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          284.05327758789065,
+          172.8000030517578,
+          309.03330078125
+        ],
+        "source_label": "C-00120"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          286.33416748046875,
+          196.539794921875,
+          307.9559326171875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          284.05327758789065,
+          199.5000030517578,
+          309.03330078125
+        ],
+        "source_label": "K-00121"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          283.53216552734375,
+          221.43984985351562,
+          308.56793212890625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          284.05327758789065,
+          226.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "D-00124"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Left three-bar stem detached; upper/base comparable, middle shorter.",
+      "Right roof has central top stub and two sloping branches, detached from body.",
+      "Round upper hook open at lower right, main centerstem to baseline; left lower upright joins baseline and right arm turns up freely.",
+      "No enclosed counters; body baseline projects right."
+    ],
+    "notes": [
+      "All four witnesses and enlarged forms compared. Native retains coherent THX-style flat lower base and roof stub, open hook and all three free upper spaces.",
+      "Left top/base nearly equal is a minor proportion difference within the broader witnesses; no contact or course omitted."
+    ],
+    "caveats": [
+      "CCZ/DYC use a swept lower baseline, QJZ no top stub; native uses the coherent THX-type course shape.",
+      "No specialist certification of stroke order."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D07E.json",
+    "review_sha256": "17b5f7f44ec1882272e14c0c1b44aee100409aede8d439540e6f5e5bbbc9f679"
+  }
+}

@@ -239,13 +239,59 @@ def check_roi_elongated_components(mask: np.ndarray, rule: dict, em_pixels: int)
     return measured, errors
 
 
+def check_ink_topology(mask: np.ndarray, rule: dict, em_pixels: int) -> tuple[dict, list[str]]:
+    del em_pixels
+    components = len(_components(mask))
+    counters = int(label(np.pad(~mask, 1, constant_values=True))[1]) - 1
+    measured = {"ink_component_count": components, "counter_count": counters}
+    errors = []
+    for key, actual in (("expected_components", components), ("expected_counters", counters)):
+        if actual != rule[key]:
+            errors.append(f"{key}: expected {rule[key]}, found {actual}")
+    return measured, errors
+
+
+def check_roi_return_curves(mask: np.ndarray, rule: dict, em_pixels: int) -> tuple[dict, list[str]]:
+    del em_pixels
+    bounds = ink_bbox(mask)
+    if bounds is None:
+        return {}, ["glyph contains no ink"]
+    left, top, right, bottom = bounds
+    measured, errors = {"regions": []}, []
+    for region in rule["regions"]:
+        x0, x1 = [left + round((right-left-1)*f) for f in region["roi_width_fractions"]]
+        y0, y1 = [top + round((bottom-top-1)*f) for f in region["roi_height_fractions"]]
+        region_mask = mask[y0:y1+1, x0:x1+1]
+        all_components = _components(region_mask)
+        height, width = region_mask.shape
+        # Other enclosing courses can clip the region's boundary; a required
+        # detached interior return must be fully contained inside its region.
+        components = [c for c in all_components if c["bbox_pixels"][0] > 0
+                      and c["bbox_pixels"][1] > 0 and c["bbox_pixels"][2] < width
+                      and c["bbox_pixels"][3] < height]
+        record = {"name": region["name"], "components": components,
+                  "boundary_fragments": [c for c in all_components if c not in components]}
+        measured["regions"].append(record)
+        if len(components) != 1:
+            errors.append(f"{region['name']}: expected one detached return curve, found {len(components)}")
+            continue
+        component = components[0]
+        aspect = component["height_pixels"] / component["ink_span_pixels"]
+        record["height_to_width_ratio"] = aspect
+        if aspect < rule["minimum_height_to_width_ratio"]:
+            errors.append(f"{region['name']}: return flattened to a bar (height/width {aspect:.6f})")
+    return measured, errors
+
+
 CHECKS = {"two_horizontal_bars": check_two_bars,
           "lower_descender_count": check_lower_descenders,
           "ink_component_count": check_component_count,
           "roi_horizontal_bar_ratio": check_roi_bar_ratio,
           "roi_ink_presence": check_roi_ink_presence,
           "roi_rightward_endpoint_margin": check_roi_right_extent,
-          "roi_elongated_components": check_roi_elongated_components}
+          "roi_elongated_components": check_roi_elongated_components,
+          "ink_topology": check_ink_topology,
+          "roi_return_curves": check_roi_return_curves}
 
 
 def _weights(font: TTFont, specification: dict) -> tuple[list[float], list]:
@@ -286,13 +332,18 @@ def verify(font_path: Path, spec_path: Path = DEFAULT_SPEC) -> dict:
               "specification": str(spec_path), "specification_sha256": hashlib.sha256(spec_path.read_bytes()).hexdigest(),
               "rasterizer": "Pillow / FreeType; actual TTF or variable-font raster",
               "raster_em_pixels": em_pixels, "ink_threshold": threshold,
-              "weights": weights, "passed": True, "checks": [], "errors": []}
+              "weights": weights, "passed": True, "checks": [], "skipped_checks": [], "errors": []}
     for weight in weights:
         face = ImageFont.truetype(str(font_path), em_pixels)
         if axes:
             face.set_variation_by_axes([weight if axis.axisTag == "wght" else axis.defaultValue
                                         for axis in axes])
         for glyph in specification["glyphs"]:
+            if "applicable_weights" in glyph and weight not in glyph["applicable_weights"]:
+                report["skipped_checks"].append({"codepoint": glyph["codepoint"], "weight": weight,
+                    "reason": "Outside the recorded optical acceptance weights",
+                    "applicable_weights": glyph["applicable_weights"]})
+                continue
             codepoint = int(glyph["codepoint"].removeprefix("U+"), 16)
             check = {"codepoint": glyph["codepoint"], "weight": weight,
                      "criterion": glyph["criterion"], "source_criteria": glyph["source_criteria"]}

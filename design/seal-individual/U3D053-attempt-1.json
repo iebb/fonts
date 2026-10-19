@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D053",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D053 reading aid:\n1. Left ritual: detached upper dash around3/4 the lower crossbar width; center leg attached to lower bar, flank strokes detached.\n2. Right structure has exactly THREE long upright courses: left and right outer walls extend down as two separate bottom legs; center upright begins highest.\n3. At top ONLY a short transverse branch between center upright and right wall forms the cap of an upper-right counter. No corresponding upper-left top branch; left upper channel remains open.\n4. Below that short right-only branch are exactly TWO FULL crossbars spanning left wall through center upright to right wall.\n5. Thus upper structure encloses exactly THREE counters: one upper-right counter, plus two side-by-side counters between the full crossbars.\n6. Below the full crossbars, the center stem suspends a narrow U cup with two upward horn tips and one horizontal rung below tips, making ONE closed lower counter. Center connects to cup rung; cup stays separated from both outer descending legs.\nImportant asymmetry: upper-left channel is open; upper-right is closed by the short center-to-right branch. Exactly3 upper counters, plus1 lower cup counter; two long OUTER bottom legs. All4 reference views attest the same inventory despite pressure variations.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D053.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-6e91681b-ae13-4a24-b901-b3e411c58c28.png",
+  "original_generated_sha256": "6484151a82b779e1299edf9a87600bfd61ceff72f307c8935120db503497bce7",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D053.png",
+  "output_sha256": "6484151a82b779e1299edf9a87600bfd61ceff72f307c8935120db503497bce7",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D053.png",
+  "reference_sha256": "9905d6c28779e17c53bfcd23e9266a92cd074df96ca4a29df25a713bd3c680a5",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D053.json",
+  "reference_metadata_sha256": "da93ff908a070f491dff6e1993ad6f3bf66166df62b2406adbd8aa475ea1ad9f",
+  "source_evidence": {
+    "codepoint": "U+3D053",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      190.1501922607422,
+      265.5594177246094,
+      201.30996704101562
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          188.4209747314453,
+          292.9800109863281,
+          213.5999755859375
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          188.95328674316406,
+          295.0000061035156,
+          213.93327941894532
+        ],
+        "source_label": "TH-00080"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          186.9801788330078,
+          316.8398742675781,
+          208.97998046875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          188.95328674316406,
+          321.6000061035156,
+          213.93327941894532
+        ],
+        "source_label": "C-00080"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          191.23416137695312,
+          345.33978271484375,
+          212.85594177246094
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          188.95328674316406,
+          348.3000061035156,
+          213.93327941894532
+        ],
+        "source_label": "K-00080"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          188.43215942382812,
+          370.2398681640625,
+          213.4679412841797
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          188.95328674316406,
+          375.0000061035156,
+          213.93327941894532
+        ],
+        "source_label": "D-00080"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual: detached upper dash around3/4 the lower crossbar width; center leg attached to lower bar, flank strokes detached.",
+    "Right structure has exactly THREE long upright courses: left and right outer walls extend down as two separate bottom legs; center upright begins highest.",
+    "At top ONLY a short transverse branch between center upright and right wall forms the cap of an upper-right counter. No corresponding upper-left top branch; left upper channel remains open.",
+    "Below that short right-only branch are exactly TWO FULL crossbars spanning left wall through center upright to right wall.",
+    "Thus upper structure encloses exactly THREE counters: one upper-right counter, plus two side-by-side counters between the full crossbars.",
+    "Below the full crossbars, the center stem suspends a narrow U cup with two upward horn tips and one horizontal rung below tips, making ONE closed lower counter. Center connects to cup rung; cup stays separated from both outer descending legs."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D053",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual: detached upper dash around3/4 the lower crossbar width; center leg attached to lower bar, flank strokes detached.",
+      "Right structure has exactly THREE long upright courses: left and right outer walls extend down as two separate bottom legs; center upright begins highest.",
+      "At top ONLY a short transverse branch between center upright and right wall forms the cap of an upper-right counter. No corresponding upper-left top branch; left upper channel remains open.",
+      "Below that short right-only branch are exactly TWO FULL crossbars spanning left wall through center upright to right wall.",
+      "Thus upper structure encloses exactly THREE counters: one upper-right counter, plus two side-by-side counters between the full crossbars.",
+      "Below the full crossbars, the center stem suspends a narrow U cup with two upward horn tips and one horizontal rung below tips, making ONE closed lower counter. Center connects to cup rung; cup stays separated from both outer descending legs."
+    ],
+    "notes": [
+      "Compared all four enlarged views: three upright tips with tallest center; short right-only upper branch, then two full transverse rungs. Native has exactly three upper counters, open upper-left channel.",
+      "Lower suspended horned U cup retains one counter and joins central stem at its rung, a coherent THX/CCZ-type attachment; QJZ/DYC more separated variants considered without hybridization.",
+      "Two long outer right-component legs retained, cup separated from both. Ritual top dash appropriately shorter than crossbar; center leg attached and outer flanks detached.",
+      "No extra upper-left cap, missing middle bar or extra lower leg; rounded monoline draft retained."
+    ],
+    "source_png": "design/seal-individual/U3D053.png",
+    "source_png_sha256": "6484151a82b779e1299edf9a87600bfd61ceff72f307c8935120db503497bce7",
+    "reference_overview": "reference/seal/individual/U3D053.png",
+    "reference_png_sha256": "9905d6c28779e17c53bfcd23e9266a92cd074df96ca4a29df25a713bd3c680a5",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D053-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D053.json",
+  "review_file_sha256": "ed2419ac76062475fd60432e465277cc1dc5b2f73b19118cdcdd5f87bd09d8dc"
+}

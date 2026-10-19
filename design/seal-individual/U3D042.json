@@ -1,0 +1,149 @@
+{
+  "codepoint": "U+3D042",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D042. Reading aid: LEFT altar component: detached short top dash, longer lower horizontal attached to central long descending stem, and TWO detached long flank strokes. RIGHT intricate component: a broad TOP HORIZONTAL CAP connects the tops of TWO parallel vertical neck stems; the narrow white channel between those stems remains enclosed and extends down to the roof of a larger rounded box. On the outside of the upper neck, one small closed loop attaches LEFT and one small closed loop attaches RIGHT. Below, the large rounded box is bisected by ONE horizontal AND ONE vertical divider to produce exactly FOUR lower enclosed counters. Choose coherent rounded upper side loops as attested in QJZ and DYC after comparing all four. Preserve total SEVEN enclosed white counters on the right: two small side counters + one long narrow neck counter + four lower box counters. The lower box is around the same width as or a little narrower than the top cap. Keep left/right components detached; do not collapse the neck to a single line or omit any lower divider.",
+  "structural_reading_aid": "LEFT altar component: detached short top dash, longer lower horizontal attached to central long descending stem, and TWO detached long flank strokes. RIGHT intricate component: a broad TOP HORIZONTAL CAP connects the tops of TWO parallel vertical neck stems; the narrow white channel between those stems remains enclosed and extends down to the roof of a larger rounded box. On the outside of the upper neck, one small closed loop attaches LEFT and one small closed loop attaches RIGHT. Below, the large rounded box is bisected by ONE horizontal AND ONE vertical divider to produce exactly FOUR lower enclosed counters. Choose coherent rounded upper side loops as attested in QJZ and DYC after comparing all four. Preserve total SEVEN enclosed white counters on the right: two small side counters + one long narrow neck counter + four lower box counters. The lower box is around the same width as or a little narrower than the top cap. Keep left/right components detached; do not collapse the neck to a single line or omit any lower divider.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D042.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-50daf628-675a-4d7e-834c-9b78686c1266.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D042.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "d022e9c797bc23dae0752f9e5ccd56460a27fd68bc0b52986df8f0f632c8ab17",
+  "sha256": "d022e9c797bc23dae0752f9e5ccd56460a27fd68bc0b52986df8f0f632c8ab17",
+  "reference_sha256": "6e13947600a956042bddc006b2803f33548dbdccefa7a304c8babc0348509086",
+  "source_evidence": {
+    "codepoint": "U+3D042",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      285.25018310546875,
+      116.7594223022461,
+      296.4099426269531
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          283.52099609375,
+          144.17999267578125,
+          308.6999816894531
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          284.05327758789065,
+          146.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "TH-00063"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          282.0802001953125,
+          168.03985595703125,
+          304.0799865722656
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          284.05327758789065,
+          172.8000030517578,
+          309.03330078125
+        ],
+        "source_label": "C-00063"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          286.33416748046875,
+          196.539794921875,
+          307.9559326171875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          284.05327758789065,
+          199.5000030517578,
+          309.03330078125
+        ],
+        "source_label": "K-00063"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          283.53216552734375,
+          221.43984985351562,
+          308.56793212890625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          284.05327758789065,
+          226.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "D-00063"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D042",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Left3descenders, central joins lower-longer bar, detached flank2.",
+      "Right upper cap joins2parallel neck stems enclosing1long slit.",
+      "Two upper side loops=2counters; lower box1vertical+1horizontal=4counters; total7."
+    ],
+    "notes": [
+      "Compared all4enlarged references. Output chooses coherent QJZ/DYC closed side-loop form, rather than partially importing THX protruding side tips.",
+      "All7right counters visible and separate; long center slit, lower cross-divider and detached left/right components preserved."
+    ],
+    "source_png": "design/seal-individual/U3D042.png",
+    "source_png_sha256": "d022e9c797bc23dae0752f9e5ccd56460a27fd68bc0b52986df8f0f632c8ab17",
+    "reference_overview": "reference/seal/individual/U3D042.png",
+    "reference_png_sha256": "6e13947600a956042bddc006b2803f33548dbdccefa7a304c8babc0348509086",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D042-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

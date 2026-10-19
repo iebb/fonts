@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D051",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D051 reading aid:\n1. Left ritual: detached upper dash distinctly shorter than lower crossbar (roughly3/4); center long leg attached to crossbar, two flank legs detached.\n2. Upper-right group: upright with short upper right hooked arm; a longer horizontal crossbar below, ending farther right than upper hook.\n3. Below that bar, curved diagonal courses cross into an open spreading left/down and right/down pair, as all4 specimens attest; preserve their curved crossing, not a modern simplified character.\n4. Lower-right group is SEPARATE below upper crossing: exactly TWO mirrored open curved hand-like forms side by side.\n5. Each lower hand has a long outer curved C-like sweep with an inward lower tip, crossed by one shorter inward-pointing diagonal course that continues down as ONE long leg. Thus exactly TWO long bottom legs in right group.\n6. Keep hand openings and central space clear; do not close them into boxed counters, add legs, or connect lower hands to the separate upper spreading branches.\nDraw flowing rounded paths and accurate separate courses, with each hand's short branch retained. The paired bottom forms resemble two open inward-facing curved hands, not a closed square or two dots.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D051.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-61943eb4-0a68-4e64-85ee-3b7911c977a9.png",
+  "original_generated_sha256": "ab46564b10e03151c2534549c6d1eafd8ea484c5ac557dcd9c56d12505c23cb7",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D051.png",
+  "output_sha256": "ab46564b10e03151c2534549c6d1eafd8ea484c5ac557dcd9c56d12505c23cb7",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D051.png",
+  "reference_sha256": "6b40f8de343d0f807c1c36bff2dade6db74e914d64d09c20f0f32b1f1cc2e793",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D051.json",
+  "reference_metadata_sha256": "18b1bae5da504fbe3c02e099f8ca270ba29ec3f13f20b280e4df00dfb1ca0e32",
+  "source_evidence": {
+    "codepoint": "U+3D051",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      126.73020935058594,
+      265.5594177246094,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          125.0009994506836,
+          292.9800109863281,
+          150.17999267578125
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          125.53331146240234,
+          295.0000061035156,
+          150.57329406738282
+        ],
+        "source_label": "TH-00078"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          123.56019592285156,
+          316.8398742675781,
+          145.55999755859375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          125.53331146240234,
+          321.6000061035156,
+          150.57329406738282
+        ],
+        "source_label": "C-00078"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          127.8141860961914,
+          345.33978271484375,
+          149.4359588623047
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          125.53331146240234,
+          348.3000061035156,
+          150.57329406738282
+        ],
+        "source_label": "K-00078"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          125.0121841430664,
+          370.2398681640625,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          125.53331146240234,
+          375.0000061035156,
+          150.57329406738282
+        ],
+        "source_label": "D-00078"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual: detached upper dash distinctly shorter than lower crossbar (roughly3/4); center long leg attached to crossbar, two flank legs detached.",
+    "Upper-right group: upright with short upper right hooked arm; a longer horizontal crossbar below, ending farther right than upper hook.",
+    "Below that bar, curved diagonal courses cross into an open spreading left/down and right/down pair, as all4 specimens attest; preserve their curved crossing, not a modern simplified character.",
+    "Lower-right group is SEPARATE below upper crossing: exactly TWO mirrored open curved hand-like forms side by side.",
+    "Each lower hand has a long outer curved C-like sweep with an inward lower tip, crossed by one shorter inward-pointing diagonal course that continues down as ONE long leg. Thus exactly TWO long bottom legs in right group.",
+    "Keep hand openings and central space clear; do not close them into boxed counters, add legs, or connect lower hands to the separate upper spreading branches."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D051",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual: detached upper dash distinctly shorter than lower crossbar (roughly3/4); center long leg attached to crossbar, two flank legs detached.",
+      "Upper-right group: upright with short upper right hooked arm; a longer horizontal crossbar below, ending farther right than upper hook.",
+      "Below that bar, curved diagonal courses cross into an open spreading left/down and right/down pair, as all4 specimens attest; preserve their curved crossing, not a modern simplified character.",
+      "Lower-right group is SEPARATE below upper crossing: exactly TWO mirrored open curved hand-like forms side by side.",
+      "Each lower hand has a long outer curved C-like sweep with an inward lower tip, crossed by one shorter inward-pointing diagonal course that continues down as ONE long leg. Thus exactly TWO long bottom legs in right group.",
+      "Keep hand openings and central space clear; do not close them into boxed counters, add legs, or connect lower hands to the separate upper spreading branches."
+    ],
+    "notes": [
+      "Compared all four enlarged specimens: ritual upper dash shorter than lower bar, center leg attached and two flank legs detached.",
+      "Upper right hooked upright, longer lower crossbar projecting beyond upper hook, curved spreading crossing branches retained.",
+      "Lower group remains separate from upper spreading branches. Exactly two mirrored open curved hand-like forms, each with its short inward branch and one long descending leg. Openings and central gap retained; no extra boxed counter.",
+      "Smooth monoline draft interpretation; chosen flowing open-hand structure coherently attested by THX and supported by CCZ/QJZ/DYC identity."
+    ],
+    "source_png": "design/seal-individual/U3D051.png",
+    "source_png_sha256": "ab46564b10e03151c2534549c6d1eafd8ea484c5ac557dcd9c56d12505c23cb7",
+    "reference_overview": "reference/seal/individual/U3D051.png",
+    "reference_png_sha256": "6b40f8de343d0f807c1c36bff2dade6db74e914d64d09c20f0f32b1f1cc2e793",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D051-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D051.json",
+  "review_file_sha256": "520cd33c5747ef966c77234738d0de50ff0e27c183a9e85de32e33463bbb3156"
+}

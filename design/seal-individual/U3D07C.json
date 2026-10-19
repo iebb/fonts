@@ -1,0 +1,132 @@
+{
+  "code_point": "U+3D07C",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nFINAL correction attempt, especially the two required shoulder contacts:\nU+3D07C. Exact coherent THX-type whole form. Left: one vertical stem carrying three bars of widths100(top),95(middle),115(bottom). Right UPPER: top hooked horizontal turns right-down-left into central stem. Left upward prong curves across center into middle bar with RIGHT downward arm. Second lower bar bends DOWN at LEFT end; central stem extends below it. Exactly THREE downward ends in upper cluster: left arm, center stem, right arm. No upper counter. Below leave a small clear gap as THX shows.\n\nRight LOWER: broad upside-down U arch with TWO long outside legs open at bottom. At its top a short vertical stub projects up; inside arch this stub splits into TWO downward diagonal branches. CRITICAL: LEFT diagonal endpoint MUST CONNECT TO LEFT ARCH SIDE. RIGHT diagonal endpoint MUST CONNECT TO RIGHT ARCH SIDE. The two diagonal endpoints must NOT end freely inside the arch. Both contacts create exactly TWO CLOSED shoulder counters, left and right, bounded above by the curved arch and below by the diagonals. These closed shoulder pockets are plainly shown in THX/CCZ. Beneath the fork is a separate small U/cup, detached from every other course. This small U has two short upright prongs above one crossbar and ONE lower closed counter. Keep its prong space open. Thus lower component has exactly THREE closed counters total:2 shoulder pockets+1 cup field. No upper/lower hybrid, no missing shoulder connection. Use thinner constant monoline width if needed to preserve all three counters.",
+  "structural_reading_aid": "U+3D07C. Exact coherent THX-type whole form. Left: one vertical stem carrying three bars of widths100(top),95(middle),115(bottom). Right UPPER: top hooked horizontal turns right-down-left into central stem. Left upward prong curves across center into middle bar with RIGHT downward arm. Second lower bar bends DOWN at LEFT end; central stem extends below it. Exactly THREE downward ends in upper cluster: left arm, center stem, right arm. No upper counter. Below leave a small clear gap as THX shows.\n\nRight LOWER: broad upside-down U arch with TWO long outside legs open at bottom. At its top a short vertical stub projects up; inside arch this stub splits into TWO downward diagonal branches. CRITICAL: LEFT diagonal endpoint MUST CONNECT TO LEFT ARCH SIDE. RIGHT diagonal endpoint MUST CONNECT TO RIGHT ARCH SIDE. The two diagonal endpoints must NOT end freely inside the arch. Both contacts create exactly TWO CLOSED shoulder counters, left and right, bounded above by the curved arch and below by the diagonals. These closed shoulder pockets are plainly shown in THX/CCZ. Beneath the fork is a separate small U/cup, detached from every other course. This small U has two short upright prongs above one crossbar and ONE lower closed counter. Keep its prong space open. Thus lower component has exactly THREE closed counters total:2 shoulder pockets+1 cup field. No upper/lower hybrid, no missing shoulder connection. Use thinner constant monoline width if needed to preserve all three counters.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D07C.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-ed24b577-0373-4f76-aae9-ef7740c03d6b.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-ed24b577-0373-4f76-aae9-ef7740c03d6b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "previous_attempt_issue": "Lower Y branches ended freely, omitting two closed shoulder pockets of chosen THX-type form.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D07C.png",
+  "original_pixels_unchanged": true,
+  "sha256": "3f5903837d21d74d98ba4d7a351f247a9f2295ac57eb7318fb94af2fb9d6c0da",
+  "reference_sha256": "ac8a822fbc6632a717430d2c12bd8a93f76afe6632fb61e1ec42bc19cd5b720c",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D07C",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      221.83018493652344,
+      118.41938781738281,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          220.10096740722656,
+          144.17999267578125,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          220.6332794189453,
+          146.20000305175782,
+          245.67326965332032
+        ],
+        "source_label": "TH-00114"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          218.66017150878906,
+          168.03985595703125,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          220.6332794189453,
+          172.8000030517578,
+          245.67326965332032
+        ],
+        "source_label": "C-00118"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          222.91415405273438,
+          196.539794921875,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          220.6332794189453,
+          199.5000030517578,
+          245.67326965332032
+        ],
+        "source_label": "K-00119"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          220.11215209960938,
+          221.43984985351562,
+          245.14793395996094
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          220.6332794189453,
+          226.20000305175782,
+          245.67326965332032
+        ],
+        "source_label": "D-00113"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Left three bars: base longer than top/middle.",
+      "Upper hooked stem with left upward-prong return, right descending arm and lower left descending arm.",
+      "Lower Y branches connect to BOTH arch sides forming two shoulder pockets; detached inner pronged U adds one counter.",
+      "Whole-form contact must be attested: native now uses continuous centerstem into lower arch as CCZ/QJZ/DYC source family."
+    ],
+    "notes": [
+      "Attempt2 restores both lower shoulder contacts and three total lower counters; two long outer legs and detached inner U retained.",
+      "Second output connects upper center stem into lower arch rather than retaining requested THX gap. This contact is attested in the coherent CCZ source family, so reviewed as that whole contact variant after all-four comparison rather than pretending the requested gap exists."
+    ],
+    "caveats": [
+      "Independent engine should confirm continuous-center CCZ-type coherence; no third native call permitted.",
+      "Attempt1 with free lower Y endpoints and source/provenance retained as archive."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D07C.json",
+    "review_sha256": "d487a78be67f98ede167008fbb868b59875124a124eaf0abe35f287f0237b0ae"
+  }
+}

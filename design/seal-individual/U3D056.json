@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D056",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D056 reading aid:\n1. Left ritual form: detached upper dash about3/4 the lower crossbar length; center long descender directly attached to crossbar; two gently curved flank descenders start separately below it.\n2. Right consists only of ONE vertical upright and TWO horizontal bars; no curve hook, enclosure, diagonal arm or extra leg.\n3. Right upright starts high and ends EXACTLY at the bottom baseline, passing through the upper/middle crossbar.\n4. Upper right crossbar is shorter than or at most equal to the lower baseline; all four witnesses show baseline at least as wide.\n5. Vertical distance above upper crossbar is about the same as, or a little larger than, gap between two right crossbars. Keep long clear top spike, no descender below baseline.\n6. Left and right components separated by clear space; right structure reaches similar bottom area as left descenders.\nThe right bottom baseline must be slightly LONGER than its middle crossbar, with smooth straight true monoline trajectories. Source shape is the historical one in all4views, do not add any decoration.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D056.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-719fe7f5-8831-419c-ac58-40cb341399f2.png",
+  "original_generated_sha256": "286d3cbaf5e53abdcc59e9012c2e542dde1073dbbda98fd6f8781a35ef8f21eb",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D056.png",
+  "output_sha256": "286d3cbaf5e53abdcc59e9012c2e542dde1073dbbda98fd6f8781a35ef8f21eb",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D056.png",
+  "reference_sha256": "2a5bf4b9b76d0740eb7e657f121f68395dc7cdf502d8893b7cc86d21962a4775",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D056.json",
+  "reference_metadata_sha256": "c1461742f42dcd30700252a264b48a0545781c3005f4c593a51d98f6d7d647b8",
+  "source_evidence": {
+    "codepoint": "U+3D056",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      285.25018310546875,
+      265.5594177246094,
+      296.4099426269531
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          283.52099609375,
+          292.9800109863281,
+          308.6999816894531
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          284.05327758789065,
+          295.0000061035156,
+          309.03330078125
+        ],
+        "source_label": "TH-00082"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          282.0802001953125,
+          316.8398742675781,
+          304.0799865722656
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          281.45018310546874,
+          321.6000061035156,
+          309.03330078125
+        ],
+        "source_label": "C-00082"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          286.33416748046875,
+          345.33978271484375,
+          307.9559326171875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          284.05327758789065,
+          348.3000061035156,
+          309.03330078125
+        ],
+        "source_label": "K-00082"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          283.53216552734375,
+          370.2398681640625,
+          308.56793212890625
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          284.05327758789065,
+          375.0000061035156,
+          309.03330078125
+        ],
+        "source_label": "D-00082"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual form: detached upper dash about3/4 the lower crossbar length; center long descender directly attached to crossbar; two gently curved flank descenders start separately below it.",
+    "Right consists only of ONE vertical upright and TWO horizontal bars; no curve hook, enclosure, diagonal arm or extra leg.",
+    "Right upright starts high and ends EXACTLY at the bottom baseline, passing through the upper/middle crossbar.",
+    "Upper right crossbar is shorter than or at most equal to the lower baseline; all four witnesses show baseline at least as wide.",
+    "Vertical distance above upper crossbar is about the same as, or a little larger than, gap between two right crossbars. Keep long clear top spike, no descender below baseline.",
+    "Left and right components separated by clear space; right structure reaches similar bottom area as left descenders."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D056",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual form: detached upper dash about3/4 the lower crossbar length; center long descender directly attached to crossbar; two gently curved flank descenders start separately below it.",
+      "Right consists only of ONE vertical upright and TWO horizontal bars; no curve hook, enclosure, diagonal arm or extra leg.",
+      "Right upright starts high and ends EXACTLY at the bottom baseline, passing through the upper/middle crossbar.",
+      "Upper right crossbar is shorter than or at most equal to the lower baseline; all four witnesses show baseline at least as wide.",
+      "Vertical distance above upper crossbar is about the same as, or a little larger than, gap between two right crossbars. Keep long clear top spike, no descender below baseline.",
+      "Left and right components separated by clear space; right structure reaches similar bottom area as left descenders."
+    ],
+    "notes": [
+      "All4 enlarged references compared: ritual short upper dash/longer crossbar, attached middle leg and detached flanks retained.",
+      "Right exactly one upright meeting middle crossbar and lower baseline. Bottom baseline is visibly longer than middle bar; stem ends at baseline without descender below.",
+      "Top spike and interbar gap both substantial, no extra branch/counter/hook. Right baseline sits above the ritual center-leg tip as in all4 sources.",
+      "Uniform rounded monoline draft with open component spacing."
+    ],
+    "source_png": "design/seal-individual/U3D056.png",
+    "source_png_sha256": "286d3cbaf5e53abdcc59e9012c2e542dde1073dbbda98fd6f8781a35ef8f21eb",
+    "reference_overview": "reference/seal/individual/U3D056.png",
+    "reference_png_sha256": "2a5bf4b9b76d0740eb7e657f121f68395dc7cdf502d8893b7cc86d21962a4775",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D056-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D056.json",
+  "review_file_sha256": "f9c9afccd8c5c342366627bc2adc762eae0792ccd2a15c8591bed121a84d9e35"
+}

@@ -20,43 +20,62 @@ ROOT = Path(__file__).resolve().parents[1]
 def render(font_path: Path, output: Path, sample_codepoint: int = 0x3D001) -> dict:
     output.mkdir(parents=True, exist_ok=True)
     font = TTFont(font_path)
-    codepoints = sorted(font.getBestCmap())
+    codepoints = sorted(font.getBestCmap() or {})
     family = font["name"].getDebugName(1)
     units = font["head"].unitsPerEm
     manifest_path = output / "manifest.json"
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     widths = sorted({glyph["stroke_width_font_units"] for glyph in manifest.get("glyphs", [])})
-    manual_count = sum(glyph["status"] == "manual_geometry_reviewed" for glyph in manifest.get("glyphs", []))
+    manual_codepoints = {int(glyph["codepoint"].removeprefix("U+"), 16)
+                         for glyph in manifest.get("glyphs", [])
+                         if glyph["status"] == "manual_geometry_reviewed"}
     label_path = ROOT / "fonts/noto/PanoramaGothic-Regular.ttf"
     label = ImageFont.truetype(str(label_path), 21)
     title = ImageFont.truetype(str(label_path), 43)
     subtitle = ImageFont.truetype(str(label_path), 25)
     columns, cell, margin, header, footer = 8, 270, 40, 170, 100
-    rows = math.ceil(len(codepoints) / columns)
-    image = Image.new("RGB", (columns * cell + 2*margin, header + rows*cell + footer), "white")
-    draw = ImageDraw.Draw(image)
-    draw.text((margin, 35), family, fill="#171717", font=title)
-    width_note = f" · {widths[0]:g}-unit strokes" if len(widths) == 1 else ""
-    draw.text((margin, 100), f"{len(codepoints)} glyphs · Rounded centerline construction{width_note}",
-              fill="#666666", font=subtitle)
     em_size = 248
     specimen = ImageFont.truetype(str(font_path), em_size)
-    for index, codepoint in enumerate(codepoints):
-        left = margin + index % columns * cell
-        top = header + index // columns * cell
-        baseline = top + 7 + 832 / units * em_size
-        draw.text((left + (cell-em_size)/2, baseline), chr(codepoint),
-                  fill="#101010", font=specimen, anchor="ls")
-        draw.text((left + cell/2, top + cell - 14), f"U+{codepoint:05X}",
-                  fill="#666666", font=label, anchor="ms")
-    note = (f"Prototype: {manual_count} manual corrections, "
-            f"{len(codepoints)-manual_count} automatic traces. "
-            "Proportionally normalized; historical writing order is not encoded.")
-    draw.text((margin, header + rows*cell + 30), note, fill="#666666", font=label)
-    preview = output / "preview-64.png"
-    image.save(preview, dpi=(200, 200))
 
-    files = [preview]
+    def render_grid(selected: list[int], name: str | None = None) -> tuple[Path, dict]:
+        rows = math.ceil(len(selected) / columns)
+        image = Image.new("RGB", (columns * cell + 2*margin, header + rows*cell + footer), "white")
+        draw = ImageDraw.Draw(image)
+        draw.text((margin, 35), family, fill="#171717", font=title)
+        width_note = f" · {widths[0]:g}-unit strokes" if len(widths) == 1 else ""
+        draw.text((margin, 100), f"{len(selected)} glyphs · Rounded centerline construction{width_note}",
+                  fill="#666666", font=subtitle)
+        for index, codepoint in enumerate(selected):
+            left = margin + index % columns * cell
+            top = header + index // columns * cell
+            baseline = top + 7 + 832 / units * em_size
+            draw.text((left + (cell-em_size)/2, baseline), chr(codepoint),
+                      fill="#101010", font=specimen, anchor="ls")
+            draw.text((left + cell/2, top + cell - 14), f"U+{codepoint:05X}",
+                      fill="#666666", font=label, anchor="ms")
+        manual_count = len(manual_codepoints.intersection(selected))
+        note = (f"Prototype: {manual_count} manual corrections, "
+                f"{len(selected)-manual_count} automatic traces. "
+                "Proportionally normalized; historical writing order is not encoded.")
+        draw.text((margin, header + rows*cell + 30), note, fill="#666666", font=label)
+        path = output / (name or f"preview-{len(selected)}.png")
+        image.save(path, dpi=(200, 200))
+        return path, {"name": path.name, "glyph_count": len(selected),
+                      "codepoints": [f"U+{cp:05X}" for cp in selected]}
+
+    if not codepoints:
+        font.close()
+        raise ValueError("Cannot render a font without cmap characters")
+    preview, full_preview = render_grid(codepoints)
+    files, previews = [preview], [full_preview]
+    if len(codepoints) > 64:
+        for offset in range(0, len(codepoints), 64):
+            page = codepoints[offset:offset+64]
+            name = ("preview-64.png" if offset == 0 else
+                    f"preview-{page[0]:05X}-{page[-1]:05X}.png")
+            page_path, page_preview = render_grid(page, name)
+            files.append(page_path)
+            previews.append(page_preview)
     if sample_codepoint in codepoints:
         sample = Image.new("RGB", (1104, 1104), "white")
         sample_font = ImageFont.truetype(str(font_path), 1024)
@@ -78,10 +97,12 @@ def render(font_path: Path, output: Path, sample_codepoint: int = 0x3D001) -> di
         "font_sha256": hashlib.sha256(font_path.read_bytes()).hexdigest(),
         "rasterizer": "Pillow / FreeType; actual TTF cmap glyphs",
         "source_images_used_for_rendering": False,
+        "previews": previews,
         "files": [{"name": path.name, "bytes": path.stat().st_size,
                    "sha256": hashlib.sha256(path.read_bytes()).hexdigest()} for path in files],
     }
     (output / "preview-manifest.json").write_text(json.dumps(report, indent=2) + "\n")
+    font.close()
     print(preview)
     return report
 

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D05E",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D05E reading aid:\n1. Exactly TWO separate, equally important ritual-form components stand side by side at similar size and height. Keep a clear gap between them; do not merge any inner strokes.\n2. EACH component has one short detached upper horizontal dash above one longer lower horizontal crossbar. Upper dash length is approximately four-fifths of lower bar in all four samples, not a dot and not equal length. Four horizontal strokes total, with rounded capsule ends and genuinely uniform width.\n3. From EACH lower crossbar's midpoint one straight, gently curved central leg descends continuously. Two additional long gently curving flanking legs start below the bar with visible gaps. Exactly THREE lower legs per component, SIX in the entire glyph.\n4. Central leg may finish slightly below flank legs. Flanks can bend gently outward near their lower ends. All six ends remain separate. No counter, arch, bridge between the two components, extra branch or extra dot.\n5. Read THX, CCZ, QJZ and DYC equally: all four support this same whole structure. Preserve their meaningful dash/bar proportion and center-attached versus flank-detached leg arrangement, while creating original smooth monoline trajectories.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D05E.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-da04a5d4-d422-41bb-a956-88b768b281d8.png",
+  "original_generated_sha256": "f1b19ef57869b5daa524bfd15d413f2aedd6d0a170bc8e02be1c90685a82a1c8",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D05E.png",
+  "output_sha256": "f1b19ef57869b5daa524bfd15d413f2aedd6d0a170bc8e02be1c90685a82a1c8",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D05E.png",
+  "reference_sha256": "fff0a2d337e9808fdc38be5d072875008fa909416e9d97e838b1a774ccaaa561",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D05E.json",
+  "reference_metadata_sha256": "e9bdee3dd06b8380b3d47944cb82f5375019343f075f73db974782717fcc2963",
+  "source_evidence": {
+    "codepoint": "U+3D05E",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      538.8701782226562,
+      266.6694030761719,
+      550.0299682617188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          537.0809936523438,
+          292.9800109863281,
+          562.260009765625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          537.6732421875,
+          295.0000061035156,
+          562.6532958984375
+        ],
+        "source_label": "TH-00090"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          535.6401977539062,
+          316.8398742675781,
+          557.6400146484375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          537.6732421875,
+          321.6000061035156,
+          562.6532958984375
+        ],
+        "source_label": "C-00090"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          539.8942260742188,
+          345.33978271484375,
+          561.5159912109375
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          537.6732421875,
+          348.3000061035156,
+          562.6532958984375
+        ],
+        "source_label": "K-00090"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          537.0922241210938,
+          370.2398681640625,
+          562.1279907226562
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          537.6732421875,
+          375.0000061035156,
+          562.6532958984375
+        ],
+        "source_label": "D-00090"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Exactly TWO separate, equally important ritual-form components stand side by side at similar size and height. Keep a clear gap between them; do not merge any inner strokes.",
+    "EACH component has one short detached upper horizontal dash above one longer lower horizontal crossbar. Upper dash length is approximately four-fifths of lower bar in all four samples, not a dot and not equal length. Four horizontal strokes total, with rounded capsule ends and genuinely uniform width.",
+    "From EACH lower crossbar's midpoint one straight, gently curved central leg descends continuously. Two additional long gently curving flanking legs start below the bar with visible gaps. Exactly THREE lower legs per component, SIX in the entire glyph.",
+    "Central leg may finish slightly below flank legs. Flanks can bend gently outward near their lower ends. All six ends remain separate. No counter, arch, bridge between the two components, extra branch or extra dot.",
+    "Read THX, CCZ, QJZ and DYC equally: all four support this same whole structure. Preserve their meaningful dash/bar proportion and center-attached versus flank-detached leg arrangement, while creating original smooth monoline trajectories."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D05E",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Exactly TWO separate, equally important ritual-form components stand side by side at similar size and height. Keep a clear gap between them; do not merge any inner strokes.",
+      "EACH component has one short detached upper horizontal dash above one longer lower horizontal crossbar. Upper dash length is approximately four-fifths of lower bar in all four samples, not a dot and not equal length. Four horizontal strokes total, with rounded capsule ends and genuinely uniform width.",
+      "From EACH lower crossbar's midpoint one straight, gently curved central leg descends continuously. Two additional long gently curving flanking legs start below the bar with visible gaps. Exactly THREE lower legs per component, SIX in the entire glyph.",
+      "Central leg may finish slightly below flank legs. Flanks can bend gently outward near their lower ends. All six ends remain separate. No counter, arch, bridge between the two components, extra branch or extra dot.",
+      "Read THX, CCZ, QJZ and DYC equally: all four support this same whole structure. Preserve their meaningful dash/bar proportion and center-attached versus flank-detached leg arrangement, while creating original smooth monoline trajectories."
+    ],
+    "notes": [
+      "Compared unchanged native against enlarged THX, CCZ, QJZ and DYC. Both ritual forms remain independent, with four horizontal bars and six descending legs; each central leg attaches to its own lower bar while all four flank legs have visible top gaps.",
+      "Both upper dashes are visibly shorter than their lower crossbars, about four-fifths in ink length. No inner leg merger, intercomponent bridge, extra counter or additional mark. Center legs end slightly below the outward-curved flank ends.",
+      "Original smooth monoline interpretation preserves the shared whole structure from all four sources; no incompatible variant choice is required."
+    ],
+    "source_png": "design/seal-individual/U3D05E.png",
+    "source_png_sha256": "f1b19ef57869b5daa524bfd15d413f2aedd6d0a170bc8e02be1c90685a82a1c8",
+    "reference_overview": "reference/seal/individual/U3D05E.png",
+    "reference_png_sha256": "fff0a2d337e9808fdc38be5d072875008fa909416e9d97e838b1a774ccaaa561",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D05E-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D05E.json",
+  "review_file_sha256": "6b572af60b0ff0deabec9b9f288a42630c6d7be82e0cd106bf561d4604efef6b"
+}

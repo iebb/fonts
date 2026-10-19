@@ -39,8 +39,8 @@ def stroke_width(weight: float) -> float:
 def set_names(font: TTFont, family: str, style: str, weight: int) -> None:
     basename = family_basename(family)
     values = {
-        1: family, 2: style, 3: f"{basename};0.5;{style}",
-        4: f"{family} {style}", 5: "Version 0.5; thinner normalized centerline prototype",
+        1: family, 2: style, 3: f"{basename};0.6;{style}",
+        4: f"{family} {style}", 5: "Version 0.6; thinner normalized centerline prototype",
         6: f"{basename}-{style}", 16: family, 17: style,
         10: ("Rounded uniform-width strokes. All weight masters use identical "
              "centerline trajectories. Character forms require specialist review."),

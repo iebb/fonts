@@ -1,0 +1,720 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent native and actual-font visual review by expand_repertoire",
+  "scope": "U+3D04C\u2013U+3D04F and U+3D05D\u2013U+3D05F",
+  "method": "Actual temporary TTFs built from current native-derived source JSON using uniform proportional centerline normalization738 and common pens30/43. Inspect FreeType2048ppem rasters against unchanged native PNG and every available labeled Unicode chart specimen. Counts supplement explicit course/mark/attachment review; counts alone are not acceptance.",
+  "limitations": [
+    "Visual structural comparison, not specialist paleographic certification or historical stroke-order verification.",
+    "Only pen30 Regular and pen43 SemiBold are directly inspected here; no uninspected weights are certified."
+  ],
+  "glyphs": [
+    {
+      "codepoint": "U+3D04C",
+      "native_png": "design/seal-individual/U3D04C.png",
+      "native_png_sha256": "0da2deeb9cf18cb012a1b83d6b88a2b163c97da3980224c9c0b1842737c85758",
+      "native_provenance": "design/seal-individual/U3D04C.json",
+      "native_provenance_sha256": "b0d1b3b14d08833d08ad4089f544121c5e54b2364a5732bb33ed301a540fc84a",
+      "reference_png": "reference/seal/individual/U3D04C.png",
+      "reference_png_sha256": "d9c2c3318367910d4127c86c00d55dbc77802a19e77b556a279a5c0d86de3f9c",
+      "centerline_file": "design/strokes-individual/auto/U3D04C.json",
+      "centerline_sha256": "94b85322607029e0bff132c8f3a49121758a5cc1a256bab46702efa7e71a0c42",
+      "canonical_geometry_sha256": "ff7dd40b15ded4c8388c75cc25550b036a6473578facf7c9686bf28032e15a0c",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.08451900553428,
+          0,
+          0,
+          1.08451900553428,
+          -48.384457805593115,
+          -18.175800824704652
+        ],
+        "original_centerline_bounds_font_units": [
+          284.626,
+          -28.422000000000025,
+          748.798873046875,
+          652.064
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 8,
+        "counters": 1
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04C-pen30-actual-font.png",
+          "raster_sha256": "7228ad31bb91f346ee1f1994e78b41b3ef56d95de8910eea8885e3e2509ce976",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 8,
+            "counters": 1
+          },
+          "verdict": "match",
+          "notes": [
+            "Both left returning courses retain independent free ends; lower remains longer.",
+            "Central peaked arms, full crossbar, small upward right hook and low bent baseline all survive as distinct courses.",
+            "Upper-right P counter remains open; right tail does not touch central hook/baseline.",
+            "Detached short bar stays shorter than lower crossbar; attached center and both detached curved flank descenders are complete.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04C-pen43-actual-font.png",
+          "raster_sha256": "cc2a8e1528ec4b098a291ceaa1f59b74bceb423872b95e57ce5b44b45196a53b",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 8,
+            "counters": 1
+          },
+          "verdict": "match",
+          "notes": [
+            "Both left returning courses retain independent free ends; lower remains longer.",
+            "Central peaked arms, full crossbar, small upward right hook and low bent baseline all survive as distinct courses.",
+            "Upper-right P counter remains open; right tail does not touch central hook/baseline.",
+            "Detached short bar stays shorter than lower crossbar; attached center and both detached curved flank descenders are complete.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        }
+      ],
+      "verdict": "match",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04C-comparison.png",
+      "comparison_proof_sha256": "0ab4437de74fb9cc7cf9f96d52a53e4fcf65e61683a3751e745189b89582148e",
+      "coherent_variant": "Coherent open native variant documented in recheck-native-040-05F.json",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Both left returning courses retain independent free ends; lower remains longer.",
+        "Central peaked arms, full crossbar, small upward right hook and low bent baseline all survive as distinct courses.",
+        "Upper-right P counter remains open; right tail does not touch central hook/baseline.",
+        "Detached short bar stays shorter than lower crossbar; attached center and both detached curved flank descenders are complete."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false
+    },
+    {
+      "codepoint": "U+3D04D",
+      "native_png": "design/seal-individual/U3D04D.png",
+      "native_png_sha256": "0c1ee2c3152b6356a0e358da30aaccd1eacc442cc6d9c8ef473fffc211c5cda2",
+      "native_provenance": "design/seal-individual/U3D04D.json",
+      "native_provenance_sha256": "0de9e6d00a83f2ecbeb4eafaad53e8442cd2b838a82bb19af987e00c12066ff7",
+      "reference_png": "reference/seal/individual/U3D04D.png",
+      "reference_png_sha256": "5115e83bd47fb803e3dbfbd7d6d7268e21aa450c047750068b8059dc528fc934",
+      "centerline_file": "design/strokes-individual/auto/U3D04D.json",
+      "centerline_sha256": "beaeaa59b7bd26b44e61f20153f8c5868aa6e228c1a976596341b599b449f391",
+      "canonical_geometry_sha256": "035ec517d3b736871a360f9c3e8830cc00082eb793e84157ca52cb6a5bf940d0",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.1381406667838736,
+          0,
+          0,
+          1.1381406667838736,
+          -80.14876736127178,
+          -23.352000074025398
+        ],
+        "original_centerline_bounds_font_units": [
+          264.997,
+          -22.534999999999968,
+          775.5576249999999,
+          625.891
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 5,
+        "counters": 2
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04D-pen30-actual-font.png",
+          "raster_sha256": "f7cde41ee8bbca5d2114ecb04c2ef8e59c03077e4e5b08dc0783d5d5e9129c06",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 5,
+            "counters": 2
+          },
+          "verdict": "match",
+          "notes": [
+            "Upper-left head counter and lower cup counter remain open; both full transverse bars survive.",
+            "Short free inward tip beneath upper-left course remains distinct from S-shaped inner descent.",
+            "Inner S descent joins cup rim crossbar; both cup tips continue above that rim.",
+            "Left altar keeps short-bar/long-crossbar order and attached-center/detached-flank pattern.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04D-pen43-actual-font.png",
+          "raster_sha256": "bec1c72d9add4fcee9cb07fd7fc9bd5ff3ba0334f11611bc55f164ade4652744",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 5,
+            "counters": 2
+          },
+          "verdict": "match",
+          "notes": [
+            "Upper-left head counter and lower cup counter remain open; both full transverse bars survive.",
+            "Short free inward tip beneath upper-left course remains distinct from S-shaped inner descent.",
+            "Inner S descent joins cup rim crossbar; both cup tips continue above that rim.",
+            "Left altar keeps short-bar/long-crossbar order and attached-center/detached-flank pattern.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        }
+      ],
+      "verdict": "match",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04D-comparison.png",
+      "comparison_proof_sha256": "5a3071cc53141217592e8f50be003567762e02c84e91e9ce87b120752eb41c11",
+      "coherent_variant": "Coherent open native variant documented in recheck-native-040-05F.json",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Upper-left head counter and lower cup counter remain open; both full transverse bars survive.",
+        "Short free inward tip beneath upper-left course remains distinct from S-shaped inner descent.",
+        "Inner S descent joins cup rim crossbar; both cup tips continue above that rim.",
+        "Left altar keeps short-bar/long-crossbar order and attached-center/detached-flank pattern."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false
+    },
+    {
+      "codepoint": "U+3D04E",
+      "native_png": "design/seal-individual/U3D04E.png",
+      "native_png_sha256": "2df70265bb0aae9ff7a115ec60e48ab732472247d4380355fbb214f405b0573c",
+      "native_provenance": "design/seal-individual/U3D04E.json",
+      "native_provenance_sha256": "032e815a11f668b031668f87f165ce94609adc58f07dc61b92d39aa66601ab09",
+      "reference_png": "reference/seal/individual/U3D04E.png",
+      "reference_png_sha256": "dd8325da65fc77f914fff2d3204d0a1bd239166633a6de21c9dcd6f2202b3293",
+      "centerline_file": "design/strokes-individual/auto/U3D04E.json",
+      "centerline_sha256": "1abb1a04dcd880f6acab5f21d037e05e19e110e17712bb2feda25c66c0289ab8",
+      "canonical_geometry_sha256": "3de40861d101e9763ab39dea9f527e1efd46ae71c1e74b0ed517cb7ee600c701",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.054112538654364,
+          0,
+          0,
+          1.054112538654364,
+          -31.641012042999137,
+          -8.694952972011777
+        ],
+        "original_centerline_bounds_font_units": [
+          284.626,
+          -38.23599999999999,
+          746.840740234375,
+          661.879
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 6,
+        "counters": 1
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04E-pen30-actual-font.png",
+          "raster_sha256": "f24c3d43e2c9a9d7771ebff3bc5ce01c120b46afe9ca05011b682d866da1347e",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 1
+          },
+          "verdict": "match",
+          "notes": [
+            "Upper bowl keeps open top prongs, full rim crossbar and exactly one interior field.",
+            "Floating interior dash stays isolated from both side walls and rim/bottom; no joined-divider alternative substituted.",
+            "Central spine continues through both upward middle U arms into downward lower pair, with three complete bottom ends.",
+            "Left short bar remains shorter than crossbar; both flanking stems remain detached.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04E-pen43-actual-font.png",
+          "raster_sha256": "087ee8908b72163b0924891cf72444cafb4abfd674f4329ddb502b3d631727d4",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 1
+          },
+          "verdict": "match",
+          "notes": [
+            "Upper bowl keeps open top prongs, full rim crossbar and exactly one interior field.",
+            "Floating interior dash stays isolated from both side walls and rim/bottom; no joined-divider alternative substituted.",
+            "Central spine continues through both upward middle U arms into downward lower pair, with three complete bottom ends.",
+            "Left short bar remains shorter than crossbar; both flanking stems remain detached.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        }
+      ],
+      "verdict": "match",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04E-comparison.png",
+      "comparison_proof_sha256": "9f840727447b79173632e5f56a79cb9521ff588aabfe9ee606966e4e517cb562",
+      "coherent_variant": "Coherent open native variant documented in recheck-native-040-05F.json",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Upper bowl keeps open top prongs, full rim crossbar and exactly one interior field.",
+        "Floating interior dash stays isolated from both side walls and rim/bottom; no joined-divider alternative substituted.",
+        "Central spine continues through both upward middle U arms into downward lower pair, with three complete bottom ends.",
+        "Left short bar remains shorter than crossbar; both flanking stems remain detached."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false
+    },
+    {
+      "codepoint": "U+3D04F",
+      "native_png": "design/seal-individual/U3D04F.png",
+      "native_png_sha256": "b0d85c2f9333e7a79cbe14ae69d57ed647e166b6f185c7c567a3e512e01ffe13",
+      "native_provenance": "design/seal-individual/U3D04F.json",
+      "native_provenance_sha256": "2e234db415ad3f37e7e07a88674c663dfea7b784bf3b959064b53d1b03d26817",
+      "reference_png": "reference/seal/individual/U3D04F.png",
+      "reference_png_sha256": "984776c1bfdecfd0ccb50c84ba8726ede20f9e8ddb7bb9ebf17c3e48466fb69a",
+      "centerline_file": "design/strokes-individual/auto/U3D04F.json",
+      "centerline_sha256": "5df43dd04df65dc9a1879afbf62c69dbca53d02b317a0b1b19ae83cf731507d4",
+      "canonical_geometry_sha256": "4913b9ebd1751b3c6f1d630536b88f8f94e804ed477576f10b4e90d9ab43945c",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.0747320354587848,
+          0,
+          0,
+          1.0747320354587848,
+          -52.32728293692924,
+          -14.938517600204761
+        ],
+        "original_centerline_bounds_font_units": [
+          278.083,
+          -31.692999999999984,
+          772.09,
+          654.989796875
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04F-pen30-actual-font.png",
+          "raster_sha256": "d99ad2ab4449e3ba3bc7d9da66056e5718a358f75f44e0e3eb411a76b8ef57de",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 0
+          },
+          "verdict": "match_with_optical_caution",
+          "notes": [
+            "Upper omega remains open at right inner tip; no closure against its descending central stem.",
+            "Short right hooked arm and lower L-baseline with short upward left tip are retained.",
+            "Detached lower hooked arc retains both interior diagonal arms with distinct free endpoints and a long downward outer tail.",
+            "Left altar courses and all component detachments stay faithful to native and coherent THX/CCZ open form.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found.",
+            "The inferred lower outer arc has minor centerline wobble/scalloping relative to the smoother native curve. Course identity, both short branches and all gaps are intact; optical curve smoothing remains a prototype refinement."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04F-pen43-actual-font.png",
+          "raster_sha256": "f14b9f95e1dac081b6156834a2ad0f76e720006022207f3f822f44a8adb79236",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 0
+          },
+          "verdict": "match_with_optical_caution",
+          "notes": [
+            "Upper omega remains open at right inner tip; no closure against its descending central stem.",
+            "Short right hooked arm and lower L-baseline with short upward left tip are retained.",
+            "Detached lower hooked arc retains both interior diagonal arms with distinct free endpoints and a long downward outer tail.",
+            "Left altar courses and all component detachments stay faithful to native and coherent THX/CCZ open form.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found.",
+            "The inferred lower outer arc has minor centerline wobble/scalloping relative to the smoother native curve. Course identity, both short branches and all gaps are intact; optical curve smoothing remains a prototype refinement."
+          ]
+        }
+      ],
+      "verdict": "match_with_optical_caution",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D04F-comparison.png",
+      "comparison_proof_sha256": "8c5dc014e6922e10bb5b03c839e6014d8548dcbb453e36a25fc736be79e1ef6d",
+      "coherent_variant": "Coherent open native variant documented in recheck-native-040-05F.json",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Upper omega remains open at right inner tip; no closure against its descending central stem.",
+        "Short right hooked arm and lower L-baseline with short upward left tip are retained.",
+        "Detached lower hooked arc retains both interior diagonal arms with distinct free endpoints and a long downward outer tail.",
+        "Left altar courses and all component detachments stay faithful to native and coherent THX/CCZ open form."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false,
+      "optical_cautions": [
+        "The inferred lower outer arc has minor centerline wobble/scalloping relative to the smoother native curve. Course identity, both short branches and all gaps are intact; optical curve smoothing remains a prototype refinement."
+      ]
+    },
+    {
+      "codepoint": "U+3D05D",
+      "native_png": "design/seal-individual/U3D05D.png",
+      "native_png_sha256": "3942931875793df9f179f36e810bc19e13fc97140e6e23c420fb477747cff423",
+      "native_provenance": "design/seal-individual/U3D05D.json",
+      "native_provenance_sha256": "2b07decd10839227723b979aa82f4b8edc07a1bc40c6ab39d91f7d6f9f69f4b3",
+      "reference_png": "reference/seal/individual/U3D05D.png",
+      "reference_png_sha256": "5b846f01f38f1b32e05a24f9018cc376b9f1385ba99b73383fb0a8df9385b026",
+      "centerline_file": "design/strokes-individual/auto/U3D05D.json",
+      "centerline_sha256": "afa734c885209205bac0d999b34fd7f12ee16dbf23412c1a4df6f56cc8592951",
+      "canonical_geometry_sha256": "956c251f22d0ac0d109e80ce062f44c878729678f3732983814d3377b63778a3",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.2259787895702097,
+          0,
+          0,
+          1.2259787895702097,
+          -124.54639644271481,
+          -46.24277370225661
+        ],
+        "original_centerline_bounds_font_units": [
+          274.812,
+          -2.2490000000000236,
+          763.617705078125,
+          599.719
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05D-pen30-actual-font.png",
+          "raster_sha256": "0b36dce2d337455b1f42d767cbaa56c32abc1afb9aaefd357f4fd866201eeab4",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 0
+          },
+          "verdict": "match_with_optical_caution",
+          "notes": [
+            "Left fork retains short detached lower central tip; right fork continues through bent neck into lower body, matching coherent DYC variant.",
+            "Both upper fork pairs and their central upper tips survive.",
+            "Lower body keeps both outward/downward shoulder arms and bifurcating long diagonal legs, four free lower ends.",
+            "No artificial gap appears at neck/body junction; left altar still has attached center and detached flanks.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found.",
+            "Small inferred centerline waviness is visible along the connected neck and some left flanks, without lost endpoints, extra marks or changed attachment. Optical curve smoothing is not certified."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05D-pen43-actual-font.png",
+          "raster_sha256": "98a7ce09d489a09158ec45f1b13c0504a57facc5afd9b0a06e72b5aeb4796f3a",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 0
+          },
+          "verdict": "match_with_optical_caution",
+          "notes": [
+            "Left fork retains short detached lower central tip; right fork continues through bent neck into lower body, matching coherent DYC variant.",
+            "Both upper fork pairs and their central upper tips survive.",
+            "Lower body keeps both outward/downward shoulder arms and bifurcating long diagonal legs, four free lower ends.",
+            "No artificial gap appears at neck/body junction; left altar still has attached center and detached flanks.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found.",
+            "Small inferred centerline waviness is visible along the connected neck and some left flanks, without lost endpoints, extra marks or changed attachment. Optical curve smoothing is not certified."
+          ]
+        }
+      ],
+      "verdict": "match_with_optical_caution",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05D-comparison.png",
+      "comparison_proof_sha256": "06bbf5482d79c9c838bac387341f75f9e04196096c444993a42d67784cfd42d7",
+      "coherent_variant": "DYC connected-neck whole form",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Left fork retains short detached lower central tip; right fork continues through bent neck into lower body, matching coherent DYC variant.",
+        "Both upper fork pairs and their central upper tips survive.",
+        "Lower body keeps both outward/downward shoulder arms and bifurcating long diagonal legs, four free lower ends.",
+        "No artificial gap appears at neck/body junction; left altar still has attached center and detached flanks."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false,
+      "optical_cautions": [
+        "Small inferred centerline waviness is visible along the connected neck and some left flanks, without lost endpoints, extra marks or changed attachment. Optical curve smoothing is not certified."
+      ]
+    },
+    {
+      "codepoint": "U+3D05E",
+      "native_png": "design/seal-individual/U3D05E.png",
+      "native_png_sha256": "f1b19ef57869b5daa524bfd15d413f2aedd6d0a170bc8e02be1c90685a82a1c8",
+      "native_provenance": "design/seal-individual/U3D05E.json",
+      "native_provenance_sha256": "9f411322b8c571be9c0621259f2e7e3d9377e6bfe76503bb66e036da2506dfcd",
+      "reference_png": "reference/seal/individual/U3D05E.png",
+      "reference_png_sha256": "fff0a2d337e9808fdc38be5d072875008fa909416e9d97e838b1a774ccaaa561",
+      "centerline_file": "design/strokes-individual/auto/U3D05E.json",
+      "centerline_sha256": "686fb6e77a35f44525ba651f077422e63ff4180d9907726e40fbb4bf8018b013",
+      "canonical_geometry_sha256": "db019df463569cb028f7cfd8769621caa20c334506ae2f4923898ee11a166e93",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.31151270017007,
+          0,
+          0,
+          1.31151270017007,
+          -157.34952346594764,
+          -106.12031263050704
+        ],
+        "original_centerline_bounds_font_units": [
+          229.01,
+          63.182000000000016,
+          791.719,
+          586.633
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 8,
+        "counters": 0
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05E-pen30-actual-font.png",
+          "raster_sha256": "243e032dd51edc153e4854d58ae487362c89f0a0525d6181861f8fd47a4327b8",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 8,
+            "counters": 0
+          },
+          "verdict": "match_with_optical_caution",
+          "notes": [
+            "Both complete altar radicals retain separate short top bar, longer crossbar, attached central descender and detached side stems.",
+            "All four upper horizontals and all six lower descending courses remain present.",
+            "The two radicals remain separate; no bridge, counter, spurious short mark or shared flank is introduced.",
+            "Internal bar order and relative stem endpoints agree with the native repeated construction.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found.",
+            "The inferred flank centerlines show minor waviness relative to the smoother native; all six descenders and their separations are structurally correct. Optical smoothing remains a prototype refinement."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05E-pen43-actual-font.png",
+          "raster_sha256": "b806f7e319b909eb469e40ecf2b63061aabe719479bbfcced49b6f790f5f8a56",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 8,
+            "counters": 0
+          },
+          "verdict": "match_with_optical_caution",
+          "notes": [
+            "Both complete altar radicals retain separate short top bar, longer crossbar, attached central descender and detached side stems.",
+            "All four upper horizontals and all six lower descending courses remain present.",
+            "The two radicals remain separate; no bridge, counter, spurious short mark or shared flank is introduced.",
+            "Internal bar order and relative stem endpoints agree with the native repeated construction.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found.",
+            "The inferred flank centerlines show minor waviness relative to the smoother native; all six descenders and their separations are structurally correct. Optical smoothing remains a prototype refinement."
+          ]
+        }
+      ],
+      "verdict": "match_with_optical_caution",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05E-comparison.png",
+      "comparison_proof_sha256": "2a89b3010a76712ec2f5e8885de067d5f258c5d35531d6eeb7eea43ac18de019",
+      "coherent_variant": "Coherent open native variant documented in recheck-native-040-05F.json",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Both complete altar radicals retain separate short top bar, longer crossbar, attached central descender and detached side stems.",
+        "All four upper horizontals and all six lower descending courses remain present.",
+        "The two radicals remain separate; no bridge, counter, spurious short mark or shared flank is introduced.",
+        "Internal bar order and relative stem endpoints agree with the native repeated construction."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false,
+      "optical_cautions": [
+        "The inferred flank centerlines show minor waviness relative to the smoother native; all six descenders and their separations are structurally correct. Optical smoothing remains a prototype refinement."
+      ]
+    },
+    {
+      "codepoint": "U+3D05F",
+      "native_png": "design/seal-individual/U3D05F.png",
+      "native_png_sha256": "448ecb1d15913748bbef6654f098150030baf9831d69e36407a8d35ca2b31da6",
+      "native_provenance": "design/seal-individual/U3D05F.json",
+      "native_provenance_sha256": "3c0c65a1658ac855982b3765c13e2705d67aa1fc5a5b0ddfdfe4b1062c759749",
+      "reference_png": "reference/seal/individual/U3D05F.png",
+      "reference_png_sha256": "16dcacd4fb8c71945ca2606ffca886a4fb119e445a513aaf668bda430df427de",
+      "centerline_file": "design/strokes-individual/auto/U3D05F.json",
+      "centerline_sha256": "ae203aa4746da5c3cd8dc1519b891efe9543ef7fea3afe92d2598d43ca779750",
+      "canonical_geometry_sha256": "0d1f97db16f6d29ad990eac4743106635cbde89c0ad203c4d2e3ec4d9b96fae6",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738,
+        "matrix_font_units": [
+          1.1748973158849938,
+          0,
+          0,
+          1.1748973158849938,
+          -87.62529372432903,
+          -46.35765593657459
+        ],
+        "original_centerline_bounds_font_units": [
+          307.527,
+          -2.2490000000000236,
+          713.201,
+          625.891
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "native_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "width_reviews": [
+        {
+          "stroke_width_font_units": 30,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen30.ttf",
+          "font_sha256": "e6479e6f92712525b234343928b585c0669b6a38f57459cd74d8586f412fc17f",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05F-pen30-actual-font.png",
+          "raster_sha256": "8fddebeee637c45ef6a7fb13ce3158ec31b6857d6e9f877c3c592a3c1c1d232d",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 0
+          },
+          "verdict": "match",
+          "notes": [
+            "Both upper figures retain six open ray ends: central vertical, upward U arms and downward inverted-U arms.",
+            "The two figures remain detached from each other and from the short intermediate bar.",
+            "Intermediate bar remains shorter than long baseline, with a clear gap between them.",
+            "Baseline center descender remains attached and both curved bottom flanks stay detached and complete.",
+            "Actual pen30 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        },
+        {
+          "stroke_width_font_units": 43,
+          "normalization_extent": 738,
+          "font": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/actual-normalized-pen43.ttf",
+          "font_sha256": "122862c660deefaa6287ddaf10441051b21561e68a552e5ba53555b406d9b729",
+          "raster": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05F-pen43-actual-font.png",
+          "raster_sha256": "08043da926496b003ee2ce1a4a6319099c3700111a5464171c27bac9a2a4fc4b",
+          "raster_em_pixels": 2048,
+          "pixel_topology": {
+            "components": 6,
+            "counters": 0
+          },
+          "verdict": "match",
+          "notes": [
+            "Both upper figures retain six open ray ends: central vertical, upward U arms and downward inverted-U arms.",
+            "The two figures remain detached from each other and from the short intermediate bar.",
+            "Intermediate bar remains shorter than long baseline, with a clear gap between them.",
+            "Baseline center descender remains attached and both curved bottom flanks stay detached and complete.",
+            "Actual pen43 compiled raster inspected against unchanged native and all available chart specimens; no missing/extra course or incorrect contact found."
+          ]
+        }
+      ],
+      "verdict": "match",
+      "comparison_proof": "design/quality/proofs/by-expand-04C-04F-05D-05F/de2a256257d5/U3D05F-comparison.png",
+      "comparison_proof_sha256": "14bf66435695427abf674b39dec2daf58a58c364a32846f582f352717de63f4c",
+      "coherent_variant": "Coherent open native variant documented in recheck-native-040-05F.json",
+      "native_peer_review": "design/quality/recheck-native-040-05F.json",
+      "course_review_criteria": [
+        "Both upper figures retain six open ray ends: central vertical, upward U arms and downward inverted-U arms.",
+        "The two figures remain detached from each other and from the short intermediate bar.",
+        "Intermediate bar remains shorter than long baseline, with a clear gap between them.",
+        "Baseline center descender remains attached and both curved bottom flanks stay detached and complete."
+      ],
+      "all_inspected_widths_accepted": true,
+      "uninspected_weights_certified": false
+    }
+  ],
+  "complete": true,
+  "glyph_count": 7,
+  "actual_width_reviews": 14,
+  "structural_matches": [
+    "U+3D04C",
+    "U+3D04D",
+    "U+3D04E",
+    "U+3D04F",
+    "U+3D05D",
+    "U+3D05E",
+    "U+3D05F"
+  ],
+  "structural_failures": [],
+  "optical_caution_codepoints": [
+    "U+3D04F",
+    "U+3D05D",
+    "U+3D05E"
+  ],
+  "recorded_hashes_current": true,
+  "hash_errors": [],
+  "all_inspected_widths_accepted": true
+}

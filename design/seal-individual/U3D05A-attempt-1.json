@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D05A",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D05A reading aid:\n1. Left ritual: detached upper dash distinctly shorter than lower crossbar, center leg attached and two flanks detached.\n2. Upper right is a rounded OPEN-BOTTOM CANOPY, like an inverted U: top cap with two short descending outer sides, ending above the separate lower body arch.\n3. Inside this canopy a separate inner upright rises from lower body center, turns RIGHT near its top and touches the canopy right side at mid-height. This coherent THX/CCZ open-canopy construction is selected after considering QJZ/DYC upper alternatives.\n4. The inner returned stroke continues DOWN from that rightward turn to join the TOP CENTER of a lower broad downward-open arch. Both canopy outer side ends remain above and detached from that lower arch.\n5. Lower broad arch has exactly TWO long outer legs; inside it is a detached small horned U cup with one horizontal rung below horn tips, making exactly ONE lower closed counter.\n6. Keep cup separate from broad arch and center stalk; no added long central leg through cup. Preserve the upper open channel and the lower one-counter cup.\nStudy THX and CCZ's coherent upper canopy opening, while comparing all4 overall glyph identities. Do not close the selected open-bottom canopy into a modern rectangular head. Its inner upright turns right to the canopy wall and descends to lower arch top. Lower horned cup is independent inside two long arch legs.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D05A.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-c29db539-693f-409b-9dba-93b9c0906b7b.png",
+  "original_generated_sha256": "e097705c266433fda9b184c8eaab332ee968637c2705a8074e375f02766c1717",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D05A.png",
+  "output_sha256": "e097705c266433fda9b184c8eaab332ee968637c2705a8074e375f02766c1717",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D05A.png",
+  "reference_sha256": "94cc2bfbb6d017241dcb521f044cbabc43f38abc7e9cec11a1eee3b09d0c23e2",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D05A.json",
+  "reference_metadata_sha256": "d698ea9c49ea19898a31692dfa712592868128974c79974ef47d4b80892fc3fe",
+  "source_evidence": {
+    "codepoint": "U+3D05A",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      412.0301818847656,
+      266.6694030761719,
+      423.18994140625
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          410.3009948730469,
+          292.9800109863281,
+          435.47998046875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          410.83330688476565,
+          295.0000061035156,
+          435.8732971191406
+        ],
+        "source_label": "TH-00086"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          408.8601989746094,
+          316.8398742675781,
+          430.8599853515625
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          410.83330688476565,
+          321.6000061035156,
+          435.8732971191406
+        ],
+        "source_label": "C-00086"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          413.1141662597656,
+          345.33978271484375,
+          434.7359313964844
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          410.83330688476565,
+          348.3000061035156,
+          435.8732971191406
+        ],
+        "source_label": "K-00086"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          410.3121643066406,
+          370.2398681640625,
+          435.3479309082031
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          410.83330688476565,
+          375.0000061035156,
+          435.8732971191406
+        ],
+        "source_label": "D-00086"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual: detached upper dash distinctly shorter than lower crossbar, center leg attached and two flanks detached.",
+    "Upper right is a rounded OPEN-BOTTOM CANOPY, like an inverted U: top cap with two short descending outer sides, ending above the separate lower body arch.",
+    "Inside this canopy a separate inner upright rises from lower body center, turns RIGHT near its top and touches the canopy right side at mid-height. This coherent THX/CCZ open-canopy construction is selected after considering QJZ/DYC upper alternatives.",
+    "The inner returned stroke continues DOWN from that rightward turn to join the TOP CENTER of a lower broad downward-open arch. Both canopy outer side ends remain above and detached from that lower arch.",
+    "Lower broad arch has exactly TWO long outer legs; inside it is a detached small horned U cup with one horizontal rung below horn tips, making exactly ONE lower closed counter.",
+    "Keep cup separate from broad arch and center stalk; no added long central leg through cup. Preserve the upper open channel and the lower one-counter cup."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D05A",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual: detached upper dash distinctly shorter than lower crossbar, center leg attached and two flanks detached.",
+      "Upper right is a rounded OPEN-BOTTOM CANOPY, like an inverted U: top cap with two short descending outer sides, ending above the separate lower body arch.",
+      "Inside this canopy a separate inner upright rises from lower body center, turns RIGHT near its top and touches the canopy right side at mid-height. This coherent THX/CCZ open-canopy construction is selected after considering QJZ/DYC upper alternatives.",
+      "The inner returned stroke continues DOWN from that rightward turn to join the TOP CENTER of a lower broad downward-open arch. Both canopy outer side ends remain above and detached from that lower arch.",
+      "Lower broad arch has exactly TWO long outer legs; inside it is a detached small horned U cup with one horizontal rung below horn tips, making exactly ONE lower closed counter.",
+      "Keep cup separate from broad arch and center stalk; no added long central leg through cup. Preserve the upper open channel and the lower one-counter cup."
+    ],
+    "notes": [
+      "All4 enlarged specimens considered. Selected coherent THX/CCZ open-canopy upper variant; QJZ/DYC upper closure variants reviewed without hybridization.",
+      "Native upper invertedU retains two hanging outer ends detached above lower arch, inner returned upright touches upper right wall and descends to lower arch top center.",
+      "Lower broad arch retains two long outside legs with separate inner horned U cup containing exactlyoneclosedcounter. Cup detached from arch and upper stem; no extra central descender.",
+      "Ritual short/long bars, middle attachment and separated flanks preserved; true rounded monoline draft."
+    ],
+    "source_png": "design/seal-individual/U3D05A.png",
+    "source_png_sha256": "e097705c266433fda9b184c8eaab332ee968637c2705a8074e375f02766c1717",
+    "reference_overview": "reference/seal/individual/U3D05A.png",
+    "reference_png_sha256": "94cc2bfbb6d017241dcb521f044cbabc43f38abc7e9cec11a1eee3b09d0c23e2",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D05A-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D05A.json",
+  "review_file_sha256": "7c99b4ae88fd1c6cbe48ef9452b88340a002ad45347642ddff4316a58123c5fc"
+}

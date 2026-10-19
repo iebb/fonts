@@ -1,0 +1,131 @@
+{
+  "code_point": "U+3D07F",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D07F. LEFT separate component is ONE vertical stem joining THREE horizontal bars. Relative bar widths TOP100, MIDDLE95, BOTTOM110; base only modestly longer, no extreme extension. RIGHT is one tall smooth rounded INVERTED-U ARCH open at bottom, with TWO long outside legs reaching same baseline. A SHORT upright stub rises from arch apex, about8% of arch height, no other upper branches. INSIDE the arch sits ONE DETACHED small U/cup with two long upright prongs extending ABOVE a single middle crossbar. This creates exactly ONE closed lower white counter; upper prong space stays OPEN. Do NOT draw a closed little oval instead; choose the coherent THX/CCZ/QJZ pronged-U variant, not DYC ring variant. Cup width about50% arch width and cup height about50% arch height, positioned somewhat above arch's vertical center. It does NOT touch arch or top stub. Arch width around150% left bar width. Left three-bar component height around60\u201365% arch height and centered slightly higher than arch center, matching THX-type proportion. Keep left bars detached from arch (CCZ touching middle-bar form not chosen). No bottom closing arch bar, no second cup counter, no extra inner center stem.",
+  "structural_reading_aid": "U+3D07F. LEFT separate component is ONE vertical stem joining THREE horizontal bars. Relative bar widths TOP100, MIDDLE95, BOTTOM110; base only modestly longer, no extreme extension. RIGHT is one tall smooth rounded INVERTED-U ARCH open at bottom, with TWO long outside legs reaching same baseline. A SHORT upright stub rises from arch apex, about8% of arch height, no other upper branches. INSIDE the arch sits ONE DETACHED small U/cup with two long upright prongs extending ABOVE a single middle crossbar. This creates exactly ONE closed lower white counter; upper prong space stays OPEN. Do NOT draw a closed little oval instead; choose the coherent THX/CCZ/QJZ pronged-U variant, not DYC ring variant. Cup width about50% arch width and cup height about50% arch height, positioned somewhat above arch's vertical center. It does NOT touch arch or top stub. Arch width around150% left bar width. Left three-bar component height around60\u201365% arch height and centered slightly higher than arch center, matching THX-type proportion. Keep left bars detached from arch (CCZ touching middle-bar form not chosen). No bottom closing arch bar, no second cup counter, no extra inner center stem.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D07F.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-e7d180ab-d80f-45b0-bf50-593da653e9f3.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e7d180ab-d80f-45b0-bf50-593da653e9f3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D07F.png",
+  "original_pixels_unchanged": true,
+  "sha256": "109fae3ed92c8f57af4c6968e10daf58a68173fa4fd9bf0bf62a40a67baaf1f4",
+  "reference_sha256": "fe3a3a10c8ed60261d2943fbd7233bf8277fb9698420506ccad2b94bee2b941a",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D07F",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      316.9302062988281,
+      117.30941009521484,
+      328.0899658203125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          315.2010192871094,
+          144.17999267578125,
+          340.3800048828125
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          315.73330078125,
+          146.20000305175782,
+          340.773291015625
+        ],
+        "source_label": "TH-00117"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          313.7602233886719,
+          168.03985595703125,
+          335.760009765625
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          315.73330078125,
+          172.8000030517578,
+          340.773291015625
+        ],
+        "source_label": "C-00121"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          318.0141906738281,
+          196.539794921875,
+          339.6359558105469
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          315.73330078125,
+          199.5000030517578,
+          340.773291015625
+        ],
+        "source_label": "K-00122"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          315.2121887207031,
+          221.43984985351562,
+          340.2479553222656
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          315.73330078125,
+          226.20000305175782,
+          340.773291015625
+        ],
+        "source_label": "D-00115"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Left three-bar stem detached from right arch; middle shortest and top/base modestly different.",
+      "Right outer inverted-U arch has one top stub and two continuous long legs, open bottom.",
+      "Detached inner pronged U with one middle crossbar and exactly one lower counter; upper space open.",
+      "Choose THX/CCZ/QJZ U variant rather than DYC closed ring."
+    ],
+    "notes": [
+      "All four witnesses and enlarged forms compared. Native retains complete simple inventory, arch/stub, detached inner U and one counter, with correct leg and cup separation.",
+      "Native left top/base nearly equal and top stub taller than THX, but within the broader source stylistic/proportion family; no missing or extra course."
+    ],
+    "caveats": [
+      "CCZ left-middle contact and DYC inner-ring alternative not chosen; preserve native detached THX/QJZ-type form.",
+      "Minor bar-cap/style differences left for independent measured review, not treated as an inventory failure."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D07F.json",
+    "review_sha256": "e93edc51a61bec8012a34107e3dc2d0720f5e241c6bf1c1e90903c13244ff36c"
+  }
+}

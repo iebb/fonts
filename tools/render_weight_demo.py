@@ -10,6 +10,21 @@ from fontTools.ttLib import TTFont
 from PIL import Image, ImageDraw, ImageFont
 
 
+def repertoire_label(codepoints: list[int]) -> str:
+    """Describe contiguous runs without implying that gaps are covered."""
+    if not codepoints:
+        return "No encoded characters"
+    runs, first, previous = [], codepoints[0], codepoints[0]
+    for cp in codepoints[1:]:
+        if cp != previous + 1:
+            runs.append((first, previous))
+            first = cp
+        previous = cp
+    runs.append((first, previous))
+    return ", ".join(f"U+{first:05X}" if first == last else f"U+{first:05X}–U+{last:05X}"
+                     for first, last in runs)
+
+
 def render(font_path: Path, output: Path, label_font: Path) -> None:
     output.mkdir(parents=True, exist_ok=True)
     metadata = TTFont(font_path)
@@ -18,8 +33,13 @@ def render(font_path: Path, output: Path, label_font: Path) -> None:
                      for instance in metadata["fvar"].instances)
     axis = next(axis for axis in metadata["fvar"].axes if axis.axisTag == "wght")
     minimum, default, maximum = map(round, (axis.minValue, axis.defaultValue, axis.maxValue))
+    codepoints = sorted(metadata.getBestCmap() or {})
     metadata.close()
-    glyphs = [0x3D003, 0x3D00E, 0x3D01E, 0x3D03F]
+    if not codepoints:
+        raise ValueError("Cannot render a font without cmap characters")
+    glyphs = [cp for cp in (0x3D003, 0x3D00E, 0x3D01E, 0x3D03F) if cp in codepoints]
+    if not glyphs:
+        glyphs = codepoints[:4]
     image = Image.new("RGB", (140 + 340 * len(weights), 1200), "#FAFAF7")
     draw = ImageDraw.Draw(image)
     heading = ImageFont.truetype(str(label_font), 38)
@@ -40,7 +60,7 @@ def render(font_path: Path, output: Path, label_font: Path) -> None:
     image.save(output / "weight-comparison.png")
 
     encoded = base64.b64encode(font_path.read_bytes()).decode("ascii")
-    characters = "".join(f"<span>{chr(cp)}</span>" for cp in range(0x3D000, 0x3D040))
+    characters = "".join(f'<span title="U+{cp:05X}">{chr(cp)}</span>' for cp in codepoints)
     html = f'''<!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Panorama Gothic — weight specimen</title>
@@ -56,7 +76,7 @@ main{{max-width:1200px;margin:auto}}h1{{font-size:clamp(24px,4vw,38px);font-weig
 <p>Move the slider to change stroke weight continuously.</p>
 <label class="control">Light <input id="weight" aria-label="Font weight" type="range" min="{minimum}" max="{maximum}" value="{default}" step="1"> Bold <output id="number">{default}</output></label>
 <div id="glyphs">{characters}</div>
-<footer>64-character design prototype · U+3D000–U+3D03F · SIL Open Font License 1.1</footer></main>
+<footer>{len(codepoints)}-character design prototype · {repertoire_label(codepoints)} · SIL Open Font License 1.1</footer></main>
 <script>const slider=document.getElementById('weight'),glyphs=document.getElementById('glyphs'),number=document.getElementById('number');slider.addEventListener('input',()=>{{glyphs.style.fontVariationSettings='"wght" '+slider.value;number.value=slider.value;}});</script></html>'''
     (output / "weight-slider.html").write_text(html, encoding="utf-8")
 

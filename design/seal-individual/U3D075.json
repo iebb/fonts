@@ -1,0 +1,129 @@
+{
+  "code_point": "U+3D075",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D075. LEFT component: one vertical stem with THREE horizontal bars. Bottom modestly longest, top85\u201395% of bottom and middle75\u201385% of bottom; no exaggerated long base. RIGHT component: a central vertical stem has an upper end bending gently toward upper right like a small hooked head. A horizontal CROSSBAR crosses the stem below that head. FOUR short separate diagonal ticks flank the central stem: upper-left and upper-right above crossbar, lower-left and lower-right below crossbar. In THX/CCZ coherent form ALL FOUR diagonal ticks are detached from the stem and crossbar with clear gaps; do not merge them into fork/trident branches. Exactly two ticks per side, no extra fifth tick. Below crossbar the central vertical CONTINUES DOWN into a rounded upright rectangular enclosure, bisecting it vertically. One interior horizontal also bisects enclosure, creating exactly FOUR white counters in2x2 arrangement. The enclosure is slightly narrower than star crossbar (about80\u201390% as wide). All four upper ticks remain ABOVE enclosure with a gap. Chosen coherent THX-type attachment: central stem connects into enclosure and continues through its center to bottom; no separate extra vertical or lower legs. Preserve the tall upper hook, four detached ticks, crossbar and four lower counters.",
+  "structural_reading_aid": "U+3D075. LEFT component: one vertical stem with THREE horizontal bars. Bottom modestly longest, top85\u201395% of bottom and middle75\u201385% of bottom; no exaggerated long base. RIGHT component: a central vertical stem has an upper end bending gently toward upper right like a small hooked head. A horizontal CROSSBAR crosses the stem below that head. FOUR short separate diagonal ticks flank the central stem: upper-left and upper-right above crossbar, lower-left and lower-right below crossbar. In THX/CCZ coherent form ALL FOUR diagonal ticks are detached from the stem and crossbar with clear gaps; do not merge them into fork/trident branches. Exactly two ticks per side, no extra fifth tick. Below crossbar the central vertical CONTINUES DOWN into a rounded upright rectangular enclosure, bisecting it vertically. One interior horizontal also bisects enclosure, creating exactly FOUR white counters in2x2 arrangement. The enclosure is slightly narrower than star crossbar (about80\u201390% as wide). All four upper ticks remain ABOVE enclosure with a gap. Chosen coherent THX-type attachment: central stem connects into enclosure and continues through its center to bottom; no separate extra vertical or lower legs. Preserve the tall upper hook, four detached ticks, crossbar and four lower counters.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D075.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-44e91ce2-3f91-4e43-964a-53b39108ec54.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-44e91ce2-3f91-4e43-964a-53b39108ec54.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D075.png",
+  "original_pixels_unchanged": true,
+  "sha256": "064a05447b5a27cd82f7fd71227a562f29aa41b0aa0ece1c87c4e4e4c01558c8",
+  "reference_sha256": "2e268bfbdeba55597aa95f0ae0e6f5b7f8cd1efc78a0cf4619c2d657ad7c0244",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D075",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      633.97021484375,
+      414.3593444824219,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          632.1809692382812,
+          441.7799987792969,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          632.7732788085938,
+          443.79999389648435,
+          657.753271484375
+        ],
+        "source_label": "TH-00107"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          630.7401733398438,
+          465.6398620605469,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          632.7732788085938,
+          470.3999938964844,
+          657.753271484375
+        ],
+        "source_label": "C-00111"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          634.9942016601562,
+          494.1398010253906,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          632.7732788085938,
+          497.09999389648436,
+          657.753271484375
+        ],
+        "source_label": "K-00112"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          632.1921997070312,
+          519.0398559570312,
+          657.2279663085938
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          632.7732788085938,
+          523.7999938964844,
+          657.753271484375
+        ],
+        "source_label": "D-00107"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Left three bars: bottom modestly longest, top and middle comparable and shorter.",
+      "Right top hooked central stem and crossbar with four DETACHED diagonal ticks, two above and two below.",
+      "Central stem joins lower rounded 2x2 enclosure with exactly four counters; enclosure narrower than star crossbar."
+    ],
+    "notes": [
+      "All four available specimens compared including enlarged forms. Native keeps four detached ticks and connected THX/CCZ-type enclosure stem; four fields clear.",
+      "Left base only modestly longer than upper bar, avoiding overlong-base distortion."
+    ],
+    "caveats": [
+      "DYC detaches the star stem from lower enclosure; native follows the connected variant shared by THX/CCZ/QJZ."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D075.json",
+    "review_sha256": "9d0362d19169347c3441172c2d0303715e72f723012ca44074f0b71b625a8628"
+  }
+}

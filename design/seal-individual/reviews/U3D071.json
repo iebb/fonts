@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D071",
+  "verdict": "mismatch",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Compared all four chart specimens: native now preserves the V/arms crown, open middle arch with one internal pronged-U counter, and right bent outer course crossing the downstem and ending at its free lower-left tip.",
+    "Native left lowest bar is disproportionately long: upper/bottom ink span ratio about0.52, compared with approximately0.71\u20130.85 in the four witnesses. Native remains rejected for this proportion after two attempts.",
+    "Only that left bottom bar needs a vector proportion correction; remaining native courses and their endpoint geometry should be retained."
+  ],
+  "source_png": "design/seal-individual/U3D071.png",
+  "source_png_sha256": "5d43f6b667b78d44e5f5391e11ff82d01ce0a13c7b7eefe00360c103f0da0785",
+  "reference_overview": "reference/seal/individual/U3D071.png",
+  "reference_png_sha256": "d113132274a60d067b1cccfe3e50a7427d3a55e19d938a1615a4a49e6c5b4276",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "5d43f6b667b78d44e5f5391e11ff82d01ce0a13c7b7eefe00360c103f0da0785",
+      "verdict": "match",
+      "notes": [
+        "Attempt2 restores the correct two-prong crown and right free crossing terminal. All available specimens compared; native now follows a coherent THX-type open middle body and crossed right course.",
+        "Central inner cup stays detached from outer arch; right component stays separate from middle arch."
+      ],
+      "reference_png_sha256": "d113132274a60d067b1cccfe3e50a7427d3a55e19d938a1615a4a49e6c5b4276"
+    }
+  ]
+}

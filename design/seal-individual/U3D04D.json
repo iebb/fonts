@@ -1,0 +1,150 @@
+{
+  "codepoint": "U+3D04D",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D04D. Reading aid: LEFT altar: detached short top dash, longer lower bar joined to long central vertical, TWO detached long flank verticals (coherent THX/CCZ/DYC whole construction; do not borrow QJZ's mid-left attachment). RIGHT is ONE connected intricate stroke construction with EXACTLY TWO counters. UPPER RIGHT BODY: a curved left C-shaped outer course whose top runsRIGHT as a horizontal cap/overhang. A central vertical descends from that cap through a longer horizontal crossbar that crosses from left curved side to a free right end. Cap, left side, central vertical and crossbar enclose ONE small UPPER-LEFT counter. The C-shaped left course continues below the crossbar, roundsRIGHT to a short FREE inner horizontal endpoint; do not close this midlevel opening or delete this return. From the central vertical below crossbar, a long S-shaped connecting stroke bendsRIGHT thenLEFT and descends to the CENTER of the lower bowl's crossbar. BOTTOM RIGHT: a U-shaped bowl closed by a horizontal crossbar near its upper part, giving exactly ONE large LOWER counter, with TWO upright side tips protruding ABOVE crossbar. The S stem joins this crossbar in the middle, not a separate extra leg. All right pieces stay connected via central stem, preserving free C-return end, free right crossbar end and both bowl tips. No additional counter, no detached right parts, no extra axis extending below bowl.",
+  "structural_reading_aid": "LEFT altar: detached short top dash, longer lower bar joined to long central vertical, TWO detached long flank verticals (coherent THX/CCZ/DYC whole construction; do not borrow QJZ's mid-left attachment). RIGHT is ONE connected intricate stroke construction with EXACTLY TWO counters. UPPER RIGHT BODY: a curved left C-shaped outer course whose top runsRIGHT as a horizontal cap/overhang. A central vertical descends from that cap through a longer horizontal crossbar that crosses from left curved side to a free right end. Cap, left side, central vertical and crossbar enclose ONE small UPPER-LEFT counter. The C-shaped left course continues below the crossbar, roundsRIGHT to a short FREE inner horizontal endpoint; do not close this midlevel opening or delete this return. From the central vertical below crossbar, a long S-shaped connecting stroke bendsRIGHT thenLEFT and descends to the CENTER of the lower bowl's crossbar. BOTTOM RIGHT: a U-shaped bowl closed by a horizontal crossbar near its upper part, giving exactly ONE large LOWER counter, with TWO upright side tips protruding ABOVE crossbar. The S stem joins this crossbar in the middle, not a separate extra leg. All right pieces stay connected via central stem, preserving free C-return end, free right crossbar end and both bowl tips. No additional counter, no detached right parts, no extra axis extending below bowl.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D04D.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-fd146c53-36a6-414c-9ae8-40f543b1d335.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D04D.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "0c1ee2c3152b6356a0e358da30aaccd1eacc442cc6d9c8ef473fffc211c5cda2",
+  "sha256": "0c1ee2c3152b6356a0e358da30aaccd1eacc442cc6d9c8ef473fffc211c5cda2",
+  "reference_sha256": "5115e83bd47fb803e3dbfbd7d6d7268e21aa450c047750068b8059dc528fc934",
+  "source_evidence": {
+    "codepoint": "U+3D04D",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      633.97021484375,
+      118.41938781738281,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          632.1809692382812,
+          144.17999267578125,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          632.7732788085938,
+          146.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "TH-00074"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          630.7401733398438,
+          168.03985595703125,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          632.7732788085938,
+          172.8000030517578,
+          657.753271484375
+        ],
+        "source_label": "C-00074"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          634.9942016601562,
+          196.539794921875,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          632.7732788085938,
+          199.5000030517578,
+          657.753271484375
+        ],
+        "source_label": "K-00074"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          632.1921997070312,
+          221.43984985351562,
+          657.2279663085938
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          632.7732788085938,
+          226.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "D-00074"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D04D",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Leftaltar3descenderswithdetachedflanks.",
+      "RightupperC/cap/centralstem/crossbarencloses1upperleftcounter;midCreturnfree.",
+      "ContinuousSstemjoinslowerbowlsmiddlecrossbar;2sideTipsabovebarand1lowercounter.",
+      "Allrightoneconnectedconstruction,2counterstotal;noextralegbelowbowl."
+    ],
+    "notes": [
+      "Compared all4enlargedrefs. Nativepreservesallreturnends,uppercrossbaroverhang,bothlowerbowltipsandconnectedSstem.",
+      "Twoenclosedfieldsvisible;leftcomponentsremainindependentmatchingTHX/CCZ/DYC."
+    ],
+    "source_png": "design/seal-individual/U3D04D.png",
+    "source_png_sha256": "0c1ee2c3152b6356a0e358da30aaccd1eacc442cc6d9c8ef473fffc211c5cda2",
+    "reference_overview": "reference/seal/individual/U3D04D.png",
+    "reference_png_sha256": "5115e83bd47fb803e3dbfbd7d6d7268e21aa450c047750068b8059dc528fc934",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D04D-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

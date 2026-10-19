@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D062",
+  "code_point": "U+3D062",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D062 as an accurate clean reconstruction from BOTH available historical witnesses.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nCRITICAL STROKE CONNECTIVITY:\n1. Only THX and QJZ available. Left ritual component: short upper bar, longer lower T-bar with central descender, two detached side descenders.\n2. Outer-right enclosing side is ONE CONTINUOUS stroke with upper-left hook: start high at upper-left of right component, descend briefly, turn RIGHT into the UPPER crossing horizontal, curve around upper-right, then CONTINUE DOWN unbroken as the long OUTER RIGHT LEG to bottom. No gap between upper bend and right leg.\n3. Outer-left side is a DIFFERENT stroke: start at bottom-left of right component, rise vertically, curve right into the LOWER crossing horizontal and END FREELY to the right of the center stem. That free lower horizontal MUST NOT curve up to join the upper horizontal or outer-right side. Thus no closed upper-right loop/counter.\n4. Center stroke begins as broad top horizontal, bends left/down through both crossing levels, then turns right into a short free bottom return above the ladder. Small upper-right hook descends from top horizontal and turns right at upper-right corner; keep it.\n5. Lower inner rounded-top ladder has exactly THREE stacked counters (two internal horizontal divisions), with wider baseline below; gaps remain between ladder and both enclosing sides.\nPay special attention: the OUTSIDE RIGHT LEG MUST BE CONTINUOUS WITH THE UPPER CROSSING BAR. The lower crossing bar has a FREE RIGHT END. Never join the two crossing bars together on their right ends. No extra closed counter in the upper construction. Keep width thin and truly uniform, about30 pixels on a1024-pixel square.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D062 as an accurate clean reconstruction from BOTH available historical witnesses.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nCRITICAL STROKE CONNECTIVITY:\n1. Only THX and QJZ available. Left ritual component: short upper bar, longer lower T-bar with central descender, two detached side descenders.\n2. Outer-right enclosing side is ONE CONTINUOUS stroke with upper-left hook: start high at upper-left of right component, descend briefly, turn RIGHT into the UPPER crossing horizontal, curve around upper-right, then CONTINUE DOWN unbroken as the long OUTER RIGHT LEG to bottom. No gap between upper bend and right leg.\n3. Outer-left side is a DIFFERENT stroke: start at bottom-left of right component, rise vertically, curve right into the LOWER crossing horizontal and END FREELY to the right of the center stem. That free lower horizontal MUST NOT curve up to join the upper horizontal or outer-right side. Thus no closed upper-right loop/counter.\n4. Center stroke begins as broad top horizontal, bends left/down through both crossing levels, then turns right into a short free bottom return above the ladder. Small upper-right hook descends from top horizontal and turns right at upper-right corner; keep it.\n5. Lower inner rounded-top ladder has exactly THREE stacked counters (two internal horizontal divisions), with wider baseline below; gaps remain between ladder and both enclosing sides.\nPay special attention: the OUTSIDE RIGHT LEG MUST BE CONTINUOUS WITH THE UPPER CROSSING BAR. The lower crossing bar has a FREE RIGHT END. Never join the two crossing bars together on their right ends. No extra closed counter in the upper construction. Keep width thin and truly uniform, about30 pixels on a1024-pixel square.",
+  "reading_criteria": [
+    "Only THX and QJZ available. Left ritual component: short upper bar, longer lower T-bar with central descender, two detached side descenders.",
+    "Outer-right enclosing side is ONE CONTINUOUS stroke with upper-left hook: start high at upper-left of right component, descend briefly, turn RIGHT into the UPPER crossing horizontal, curve around upper-right, then CONTINUE DOWN unbroken as the long OUTER RIGHT LEG to bottom. No gap between upper bend and right leg.",
+    "Outer-left side is a DIFFERENT stroke: start at bottom-left of right component, rise vertically, curve right into the LOWER crossing horizontal and END FREELY to the right of the center stem. That free lower horizontal MUST NOT curve up to join the upper horizontal or outer-right side. Thus no closed upper-right loop/counter.",
+    "Center stroke begins as broad top horizontal, bends left/down through both crossing levels, then turns right into a short free bottom return above the ladder. Small upper-right hook descends from top horizontal and turns right at upper-right corner; keep it.",
+    "Lower inner rounded-top ladder has exactly THREE stacked counters (two internal horizontal divisions), with wider baseline below; gaps remain between ladder and both enclosing sides."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D062.png",
+  "reference_sha256": "be2d170ffd836bc3d00f418257abb5f13c08c0f9f8d2a1baef70b315345e1379",
+  "reference_metadata": {
+    "codepoint": "U+3D062",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      665.6502075195312,
+      265.5594177246094,
+      676.8099975585938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          271.5,
+          667.0079956054688,
+          293.44500732421875,
+          688.469970703125
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          664.453271484375,
+          295.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "TH-Y006"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          666.7341918945312,
+          345.33978271484375,
+          688.35595703125
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          664.453271484375,
+          348.3000061035156,
+          689.4332641601562
+        ],
+        "source_label": "K-00094"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "DYC"
+  ],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-5112c004-3bc1-433b-b9f6-7c0bd6ba490a.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D062.png",
+  "original_pixels_unchanged": true,
+  "sha256": "dd410ef4ad1795bb1cd8fd51d15ffff0e00450bd7c21876261203121f23eec17",
+  "transparent_background_requested": true,
+  "status": "uncertain",
+  "visual_review": {
+    "verdict": "uncertain",
+    "notes": "Second attempt corrects the two upper crossing levels: upper-left turn is continuous into long outer-right side; lower bar has free right end; middle stem return and three-counter ladder retained. Both available THX/QJZ compared. A short downward curl at the far-right end of the topmost horizontal is more pronounced than the witnesses, so exact terminal fidelity remains uncertain; no third native attempt. First failed original and full provenance archived unchanged.",
+    "review_file": "design/seal-individual/reviews/U3D062.json",
+    "review_sha256": "6a8b054d21a190bd139f222f9d0033b9effa2a171264c80959fbbcb824a47ab1"
+  }
+}

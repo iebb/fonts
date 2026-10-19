@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D050",
+  "verdict": "mismatch",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Compared all four specimens and both archived native attempts. Chosen immutable attempt1 has the separate tall outer shelter descender and distinct inset left-U wall, but its U bottom stops short of the existing bowl baseline.",
+    "The native PNG remains mismatch; the required minimal correction is to re-level/extend only that inset U return to the existing lower-right loop corner."
+  ],
+  "source_png": "design/seal-individual/U3D050.png",
+  "source_png_sha256": "506c4f8c2c3a23cc3fb04059a1bcdf264f457dd95a85c4834acf02fcd4bca7f2",
+  "reference_overview": "reference/seal/individual/U3D050.png",
+  "reference_png_sha256": "270cc036a53bdc0f189ce3222faa7297f8958bb8a19505582d90d0fd74d97c8b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ]
+}

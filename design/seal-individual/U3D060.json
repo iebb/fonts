@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D060",
+  "code_point": "U+3D060",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D060.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nPRECISE CHARACTER READING, after comparing all four references:\n1. Left ritual component: detached short upper bar above a longer lower bar; central long descender attached to lower bar, with two detached side descenders.\n2. Upper-right ring has a short flag stem rising from its top with a right-facing flag branch; enclosed two crossing diagonals form X plus FOUR small inward marks, one inside each triangular field (short horizontal at top/bottom and short vertical at left/right in THX). Do not omit those four salt-like marks.\n3. Middle-right rounded oval/rectangle is separate from the upper ring, narrower than it, divided by one horizontal into TWO counters in coherent THX/CCZ form.\n4. Below is ONE small separate oval with one counter, nested inside an open upward U-shaped cup; cup's center vertical tail descends below its bottom. Cup arms and small oval remain separated.\nUse coherent thin monoline THX/CCZ-type component connections after weighing QJZ/DYC equally. Preserve the tiny four inward marks in the upper X ring as intentional strokes; never simplify that ring to a bare X. Keep the middle two-counter oval, lower small one-counter oval and open cup all distinct.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D060.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nPRECISE CHARACTER READING, after comparing all four references:\n1. Left ritual component: detached short upper bar above a longer lower bar; central long descender attached to lower bar, with two detached side descenders.\n2. Upper-right ring has a short flag stem rising from its top with a right-facing flag branch; enclosed two crossing diagonals form X plus FOUR small inward marks, one inside each triangular field (short horizontal at top/bottom and short vertical at left/right in THX). Do not omit those four salt-like marks.\n3. Middle-right rounded oval/rectangle is separate from the upper ring, narrower than it, divided by one horizontal into TWO counters in coherent THX/CCZ form.\n4. Below is ONE small separate oval with one counter, nested inside an open upward U-shaped cup; cup's center vertical tail descends below its bottom. Cup arms and small oval remain separated.\nUse coherent thin monoline THX/CCZ-type component connections after weighing QJZ/DYC equally. Preserve the tiny four inward marks in the upper X ring as intentional strokes; never simplify that ring to a bare X. Keep the middle two-counter oval, lower small one-counter oval and open cup all distinct.",
+  "reading_criteria": [
+    "Left ritual component: detached short upper bar above a longer lower bar; central long descender attached to lower bar, with two detached side descenders.",
+    "Upper-right ring has a short flag stem rising from its top with a right-facing flag branch; enclosed two crossing diagonals form X plus FOUR small inward marks, one inside each triangular field (short horizontal at top/bottom and short vertical at left/right in THX). Do not omit those four salt-like marks.",
+    "Middle-right rounded oval/rectangle is separate from the upper ring, narrower than it, divided by one horizontal into TWO counters in coherent THX/CCZ form.",
+    "Below is ONE small separate oval with one counter, nested inside an open upward U-shaped cup; cup's center vertical tail descends below its bottom. Cup arms and small oval remain separated."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D060.png",
+  "reference_sha256": "33684b3e99673b12073eaa97d21e5eee8f773cef3166d2ac574a8a6ab52fc4b7",
+  "reference_metadata": {
+    "codepoint": "U+3D060",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      602.230224609375,
+      265.5594177246094,
+      613.3900146484375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          600.5009765625,
+          292.9800109863281,
+          625.6799926757812
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          601.0332275390625,
+          295.0000061035156,
+          626.0732788085937
+        ],
+        "source_label": "TH-00092"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          599.0601806640625,
+          316.8398742675781,
+          621.0599975585938
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          601.0332275390625,
+          321.6000061035156,
+          626.0732788085937
+        ],
+        "source_label": "C-00092"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          603.314208984375,
+          345.33978271484375,
+          624.9359741210938
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          601.0332275390625,
+          348.3000061035156,
+          626.0732788085937
+        ],
+        "source_label": "K-00092"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          600.51220703125,
+          370.2398681640625,
+          625.5479736328125
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          601.0332275390625,
+          375.0000061035156,
+          626.0732788085937
+        ],
+        "source_label": "D-00092"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-a5b324b4-5d94-48a9-bb07-e632dcb00d8e.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D060.png",
+  "original_pixels_unchanged": true,
+  "sha256": "eecc2ac247434f3cf1492c02648e11060e0f75a2534b3787b6c1316300082a3a",
+  "transparent_background_requested": true,
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "notes": "Compared all four references and enlarged upper-ring marks: three ritual descenders with attached middle stem, upper-left bar shorter than lower, flagged upper X-ring plus four inward detached marks, separate two-counter middle oval, separate one-counter lower oval within open cup, and cup tail retained. Coherent THX/CCZ-type separations chosen after comparison with QJZ/DYC.",
+    "review_file": "design/seal-individual/reviews/U3D060.json",
+    "review_sha256": "b9e24a98c4d38cb64ca30943407168cda5105ec9c09e9020c40a341fc31f4d91"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D050",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D050 reading aid:\n1. Left ritual form: upper detached dash about3/4 the lower crossbar width; center descending leg attached to lower crossbar, two curved flank legs detached.\n2. Right outer shelter: long top horizontal rounding into independent long descending left wall; whole shelter remains separated from left ritual form.\n3. Inside shelter: detached short horizontal dash above a distinctly LONGER crossbar; preserve a clear vertical gap.\n4. CRITICAL CONNECTION: the inset LEFT WALL, CENTRAL UPRIGHT, and RIGHT WALL all meet the SAME COMMON LOWER HORIZONTAL BASELINE. There must NOT be a separate dangling U under the counter.\n5. The shared lower baseline makes ONE right closed counter, bounded by central upright, short upper roof, right wall, common lower baseline; its adjacent left U channel is open above. The left wall turns into this same baseline and TOUCHES central upright.\n6. Right inset wall continues downward beyond the small counter as a long right leg. Shelter left leg and long right leg both present and distinct.\nPrioritize exact topology shared by all four references: imagine the inset right component centerlines in a square at positions: long inner crossbar y35%; central upright x69% runs y35% TO65%; inset left wall x61% runs y45% then rounds RIGHT into the COMMON baseline y65% fromx61% throughx69% TOx79%; short counter roof from(69%,49%) to(79%,49%); right wall x79% runs y49% throughy65% continuing to85% as one leg. Thus left U bottom, center upright bottom and closed counter bottom ALL share y65%, CONNECTED continuously. Never place the left U underhang below the counter or leave it detached from the central upright. The counter has exactly ONE closed hole on the right and an open channel on the left. Smooth constant3%canvas strokes, ample margins.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D050.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-7276c9be-b12f-4467-bef1-cf94a0dbf8ad.png",
+  "original_generated_sha256": "8e35c209ecdd87d422ae09c2048b8598ffbaf0061a9c0c13c2cd44d10ae1a561",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D050.png",
+  "output_sha256": "8e35c209ecdd87d422ae09c2048b8598ffbaf0061a9c0c13c2cd44d10ae1a561",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D050.png",
+  "reference_sha256": "270cc036a53bdc0f189ce3222faa7297f8958bb8a19505582d90d0fd74d97c8b",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D050.json",
+  "reference_metadata_sha256": "501094799e9e2bad9d2e768651db9cbe9cd8e659ecc0b5a9f3639d4fb97416d9",
+  "source_evidence": {
+    "codepoint": "U+3D050",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      95.05015563964844,
+      265.5594177246094,
+      106.20993041992188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          93.32100677490234,
+          292.9800109863281,
+          118.50000762939453
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          91.25015563964844,
+          295.0000061035156,
+          118.83331146240235
+        ],
+        "source_label": "TH-00077"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          91.88020324707031,
+          316.8398742675781,
+          113.8800048828125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          91.25015563964844,
+          321.6000061035156,
+          118.83331146240235
+        ],
+        "source_label": "C-00077"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          96.13419342041016,
+          345.33978271484375,
+          117.75596618652344
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          91.25015563964844,
+          348.3000061035156,
+          118.83331146240235
+        ],
+        "source_label": "K-00077"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          93.33219146728516,
+          370.2398681640625,
+          118.36796569824219
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          91.25015563964844,
+          375.0000061035156,
+          118.83331146240235
+        ],
+        "source_label": "D-00077"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual form: upper detached dash about3/4 the lower crossbar width; center descending leg attached to lower crossbar, two curved flank legs detached.",
+    "Right outer shelter: long top horizontal rounding into independent long descending left wall; whole shelter remains separated from left ritual form.",
+    "Inside shelter: detached short horizontal dash above a distinctly LONGER crossbar; preserve a clear vertical gap.",
+    "CRITICAL CONNECTION: the inset LEFT WALL, CENTRAL UPRIGHT, and RIGHT WALL all meet the SAME COMMON LOWER HORIZONTAL BASELINE. There must NOT be a separate dangling U under the counter.",
+    "The shared lower baseline makes ONE right closed counter, bounded by central upright, short upper roof, right wall, common lower baseline; its adjacent left U channel is open above. The left wall turns into this same baseline and TOUCHES central upright.",
+    "Right inset wall continues downward beyond the small counter as a long right leg. Shelter left leg and long right leg both present and distinct."
+  ],
+  "status": "visual_mismatch_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D050",
+    "verdict": "mismatch",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 2,
+    "reading_criteria": [
+      "Left ritual form: upper detached dash about3/4 the lower crossbar width; center descending leg attached to lower crossbar, two curved flank legs detached.",
+      "Right outer shelter: long top horizontal rounding into independent long descending left wall; whole shelter remains separated from left ritual form.",
+      "Inside shelter: detached short horizontal dash above a distinctly LONGER crossbar; preserve a clear vertical gap.",
+      "CRITICAL CONNECTION: the inset LEFT WALL, CENTRAL UPRIGHT, and RIGHT WALL all meet the SAME COMMON LOWER HORIZONTAL BASELINE. There must NOT be a separate dangling U under the counter.",
+      "The shared lower baseline makes ONE right closed counter, bounded by central upright, short upper roof, right wall, common lower baseline; its adjacent left U channel is open above. The left wall turns into this same baseline and TOUCHES central upright.",
+      "Right inset wall continues downward beyond the small counter as a long right leg. Shelter left leg and long right leg both present and distinct."
+    ],
+    "notes": [
+      "All four enlarged references retain an outer shelter left descender reaching nearly to the glyph bottom AND a separate shorter inset U left wall, with one shared inset baseline crossing its central upright.",
+      "Second/final native attempt incorrectly merged the inset U left wall into the shelter, terminating the shelter at the shared inset baseline. It therefore omits the distinct inner-left course and long outer shelter descender.",
+      "First attempt preserved shelter and inner-left course but detached the inset U bottom from the counter's shared baseline. Both native attempts and full metadata retained; final PNG requires explicit vector repair before acceptance.",
+      "Left upper/lower bars retain correct short/long order; inner detached dash remains shorter than crossbar; one small closed counter and long right descending leg retained."
+    ],
+    "source_png": "design/seal-individual/U3D050.png",
+    "source_png_sha256": "8e35c209ecdd87d422ae09c2048b8598ffbaf0061a9c0c13c2cd44d10ae1a561",
+    "reference_overview": "reference/seal/individual/U3D050.png",
+    "reference_png_sha256": "270cc036a53bdc0f189ce3222faa7297f8958bb8a19505582d90d0fd74d97c8b",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D050-attempt-2.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D050.json",
+  "review_file_sha256": "7c2f2d3444ae50915ed456b7a0a4dab608a41b8c98dc129516e1aeedb35ae354"
+}

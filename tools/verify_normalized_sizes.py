@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the 64 compiled Small Seal glyphs' size, alignment and advances.
+"""Check the expected compiled Small Seal glyphs' size, alignment and advances.
 
 Regular uses a 738-unit centerline envelope and a 30-unit pen: 768 units of
 ink. Named variable instances use the same envelope and their specified pen
@@ -14,13 +14,16 @@ import io
 import json
 import math
 from pathlib import Path
+from typing import Iterable
 
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
 
 
-CODEPOINTS = range(0x3D000, 0x3D040)
+DEFAULT_CODEPOINTS = tuple(range(0x3D000, 0x3D040))
+# Kept for consumers of the original 64-character verifier.
+CODEPOINTS = DEFAULT_CODEPOINTS
 CENTERLINE_EXTENT = 738.0
 CENTER = (512.0, 320.0)
 ADVANCE = 1024
@@ -40,7 +43,22 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def manifest_expectations(font_path: Path, font_sha256: str) -> tuple[dict, dict]:
+def parse_codepoint(value: str | int) -> int:
+    codepoint = int(value.removeprefix("U+"), 16) if isinstance(value, str) else value
+    if isinstance(codepoint, bool) or not isinstance(codepoint, int) or not 0 <= codepoint <= 0x10FFFF:
+        raise ValueError(f"Invalid Unicode codepoint: {value!r}")
+    return codepoint
+
+
+def expected_repertoire(values: Iterable[str | int]) -> tuple[int, ...]:
+    codepoints = tuple(parse_codepoint(value) for value in values)
+    if not codepoints or len(set(codepoints)) != len(codepoints):
+        raise ValueError("Expected repertoire must be nonempty and contain no duplicate codepoints")
+    return tuple(sorted(codepoints))
+
+
+def manifest_expectations(font_path: Path, font_sha256: str,
+                          codepoints: Iterable[int] | None = None) -> tuple[dict, dict]:
     """Use metadata only when its file hash identifies this exact font."""
     path = font_path.parent / "manifest.json"
     report = {"checked": False, "aspect_ratio_checked": False}
@@ -54,7 +72,15 @@ def manifest_expectations(font_path: Path, font_sha256: str) -> tuple[dict, dict
         return report, {}
     report.update({"checked": True, "path": str(path.resolve()), "sha256": digest(path)})
     errors, expected = [], {}
-    for item in manifest.get("glyphs", manifest.get("sources", [])):
+    records = manifest.get("glyphs", manifest.get("sources", []))
+    declared = expected_repertoire(item["codepoint"] for item in records)
+    required = expected_repertoire(codepoints) if codepoints is not None else declared
+    report["codepoints"] = [f"U+{cp:05X}" for cp in declared]
+    if manifest.get("glyph_count") != len(declared):
+        errors.append("Manifest glyph_count differs from its declared repertoire")
+    if set(declared) != set(required):
+        errors.append("Manifest repertoire differs from the independently expected repertoire")
+    for item in records:
         cp = item.get("codepoint")
         norm = item.get("normalization") or {}
         matrix = norm.get("matrix_font_units", [])
@@ -77,7 +103,7 @@ def manifest_expectations(font_path: Path, font_sha256: str) -> tuple[dict, dict
             errors.append(f"{cp}: normalization does not preserve aspect/envelope/center/pen")
         else:
             expected[cp] = (width, height)
-    missing = [f"U+{cp:05X}" for cp in CODEPOINTS if f"U+{cp:05X}" not in expected]
+    missing = [f"U+{cp:05X}" for cp in required if f"U+{cp:05X}" not in expected]
     report.update({"pass": not errors and not missing, "errors": errors,
                    "missing_codepoints": missing, "aspect_ratio_checked": not missing,
                    "method": "Compare compiled width and height with original source bounds "
@@ -85,12 +111,13 @@ def manifest_expectations(font_path: Path, font_sha256: str) -> tuple[dict, dict
     return report, expected
 
 
-def inspect_instance(font: TTFont, weight: float, labels: list[str], expected: dict) -> dict:
+def inspect_instance(font: TTFont, weight: float, labels: list[str], expected: dict,
+                     codepoints: Iterable[int] = DEFAULT_CODEPOINTS) -> dict:
     width = pen_width(weight)
     wanted_extent = CENTERLINE_EXTENT + width
     glyph_set, cmap = font.getGlyphSet(), font.getBestCmap() or {}
     records = []
-    for cp in CODEPOINTS:
+    for cp in codepoints:
         codepoint = f"U+{cp:05X}"
         name = cmap.get(cp)
         record = {"codepoint": codepoint, "glyph": name, "pass": False}
@@ -135,24 +162,47 @@ def inspect_instance(font: TTFont, weight: float, labels: list[str], expected: d
             "pass": all(record["pass"] for record in records), "glyphs": records}
 
 
-def verify(font_path: Path) -> dict:
+def verify(font_path: Path, expected_codepoints: Iterable[str | int] | None = None,
+           registry_path: Path | None = None) -> dict:
     font_sha256 = digest(font_path)
-    manifest, expected = manifest_expectations(font_path, font_sha256)
+    required = expected_repertoire(expected_codepoints) if expected_codepoints is not None else None
+    repertoire = {"source": "explicit" if required is not None else "64-character fallback"}
+    if registry_path is not None:
+        registry = json.loads(registry_path.read_text())
+        if registry.get("schema_version") != 1:
+            raise ValueError("Expected acceptance registry schema_version 1")
+        registered = expected_repertoire(item["codepoint"] for item in registry["glyphs"])
+        if required is not None and required != registered:
+            raise ValueError("Explicit repertoire differs from the acceptance registry")
+        required = registered
+        repertoire.update({"source": "frozen acceptance registry", "path": str(registry_path.resolve()),
+                           "sha256": digest(registry_path)})
+    manifest, expected = manifest_expectations(font_path, font_sha256, required)
+    if required is None and manifest["checked"]:
+        required = expected_repertoire(manifest["codepoints"])
+        repertoire["source"] = "hash-matched font manifest"
+    required = required if required is not None else DEFAULT_CODEPOINTS
+    repertoire.update({"glyph_count": len(required), "codepoints": [f"U+{cp:05X}" for cp in required]})
     report = {"font": str(font_path.resolve()), "font_sha256": font_sha256,
               "specification": {"centerline_extent": CENTERLINE_EXTENT,
                                 "regular_ink_extent": 768, "center": list(CENTER),
                                 "advance": ADVANCE, "size_tolerance": SIZE_TOLERANCE,
                                 "center_tolerance": CENTER_TOLERANCE},
+              "repertoire": repertoire,
               "manifest_source_comparison": manifest, "errors": [], "instances": [],
               "limitations": ["Bounds validate the shared envelope, not every interior stroke's width.",
                               "Source aspect comparison requires an adjacent hash-matched manifest.",
                               "Character identity, topology and historical order require separate checks."]}
     with TTFont(font_path) as font:
+        unexpected = sorted(set(font.getBestCmap() or {}) - set(required))
+        if unexpected:
+            report["errors"].append("Font cmap contains codepoints outside the expected repertoire: "
+                                    + ", ".join(f"U+{cp:05X}" for cp in unexpected))
         if font["head"].unitsPerEm != ADVANCE:
             report["errors"].append("unitsPerEm must equal 1024")
         if "fvar" not in font:
             weight = float(font["OS/2"].usWeightClass)
-            report["instances"].append(inspect_instance(font, weight, ["static"], expected))
+            report["instances"].append(inspect_instance(font, weight, ["static"], expected, required))
         else:
             axes = {axis.axisTag: axis for axis in font["fvar"].axes}
             if "wght" not in axes:
@@ -180,7 +230,7 @@ def verify(font_path: Path) -> dict:
                 instance.close()
                 data = buffer.getvalue()
                 with TTFont(io.BytesIO(data)) as compiled:
-                    result = inspect_instance(compiled, weight, labels, expected)
+                    result = inspect_instance(compiled, weight, labels, expected, required)
                 result["compiled_instance_sha256"] = hashlib.sha256(data).hexdigest()
                 report["instances"].append(result)
     report["pass"] = (not report["errors"] and manifest.get("pass", True)
@@ -195,9 +245,11 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--font", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--registry", type=Path,
+                        help="Frozen acceptance registry supplying the expected repertoire")
     args = parser.parse_args()
     try:
-        report = verify(args.font)
+        report = verify(args.font, registry_path=args.registry)
     except Exception as error:
         report = {"font": str(args.font.resolve()), "pass": False,
                   "error": f"{type(error).__name__}: {error}"}

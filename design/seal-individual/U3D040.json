@@ -1,0 +1,150 @@
+{
+  "codepoint": "U+3D040",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D040. Reading aid: There are THREE repeated cup/branch motifs arranged one larger upper-center and two smaller lower-left/lower-right. Each motif has a central descending stem beginning with a short left-facing bent top entry, crossed by TWO separate upward-curving U-shaped arms; the lower U is wider than the upper. The central stem continues below the lower U and curves slightly right. Compare all four: some attach motifs and close small loops. Choose the coherent open whole construction with THREE motifs detached from each other and no little enclosed loops, attested by THX, without importing other specimens' joined alternatives. Beneath the three motifs is a SHORT detached central horizontal. Below it is a much LONGER horizontal, joined only to its central descending stem; two detached curved downward flank strokes sit under that long bar. Exactly THREE bottom descenders, central one straight. Preserve both U levels in each of the three motifs (six U-shaped arms total), short bar longer-gap from baseline, and motif detachments.",
+  "structural_reading_aid": "There are THREE repeated cup/branch motifs arranged one larger upper-center and two smaller lower-left/lower-right. Each motif has a central descending stem beginning with a short left-facing bent top entry, crossed by TWO separate upward-curving U-shaped arms; the lower U is wider than the upper. The central stem continues below the lower U and curves slightly right. Compare all four: some attach motifs and close small loops. Choose the coherent open whole construction with THREE motifs detached from each other and no little enclosed loops, attested by THX, without importing other specimens' joined alternatives. Beneath the three motifs is a SHORT detached central horizontal. Below it is a much LONGER horizontal, joined only to its central descending stem; two detached curved downward flank strokes sit under that long bar. Exactly THREE bottom descenders, central one straight. Preserve both U levels in each of the three motifs (six U-shaped arms total), short bar longer-gap from baseline, and motif detachments.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D040.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-deee503c-1e30-4859-8f52-3521551926c1.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D040.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "0c7fd98eb5d3ef35f546ebf4df71c8687f95f766a4eda86e0ac6cea7d0fbf1fb",
+  "sha256": "0c7fd98eb5d3ef35f546ebf4df71c8687f95f766a4eda86e0ac6cea7d0fbf1fb",
+  "reference_sha256": "c23dabe734222b11b8fddd355c46df80733b0f4ddbc3bd6c7712a66e629e0194",
+  "source_evidence": {
+    "codepoint": "U+3D040",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      221.83018493652344,
+      116.7594223022461,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          220.10096740722656,
+          144.17999267578125,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          220.6332794189453,
+          146.20000305175782,
+          245.67326965332032
+        ],
+        "source_label": "TH-00061"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          218.66017150878906,
+          168.03985595703125,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          220.6332794189453,
+          172.8000030517578,
+          245.67326965332032
+        ],
+        "source_label": "C-00061"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          222.91415405273438,
+          196.539794921875,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          220.6332794189453,
+          199.5000030517578,
+          245.67326965332032
+        ],
+        "source_label": "K-00061"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          220.11215209960938,
+          221.43984985351562,
+          245.14793395996094
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          220.6332794189453,
+          226.20000305175782,
+          245.67326965332032
+        ],
+        "source_label": "D-00061"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D040",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Exactly three detached motifs, one upper and two lower.",
+      "Two U-shaped arms per motif; lower U wider than upper; stem has bent top entry and right-turning tail.",
+      "One short detached horizontal over a much longer lower bar.",
+      "Three bottom descenders; center joins long bar and flank strokes detach."
+    ],
+    "notes": [
+      "Compared enlarged THX/CCZ/QJZ/DYC. Native chooses coherent THX open whole form: three motifs remain separate, six U arms present, no added loop closures.",
+      "Native preserves detached short bar, wider baseline and three lower ends. Joined/closed alternatives in other specimens are not mixed in."
+    ],
+    "source_png": "design/seal-individual/U3D040.png",
+    "source_png_sha256": "0c7fd98eb5d3ef35f546ebf4df71c8687f95f766a4eda86e0ac6cea7d0fbf1fb",
+    "reference_overview": "reference/seal/individual/U3D040.png",
+    "reference_png_sha256": "c23dabe734222b11b8fddd355c46df80733b0f4ddbc3bd6c7712a66e629e0194",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D040-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

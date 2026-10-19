@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D05C",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D05C reading aid, second/final drawing:\n1. Two dense vertical components. LEFT: two open-top U courses share a tall center upright; four outer free tips plus the center tip. Below is a short detached separator, then a longer horizontal crossbar and three long legs: center attached to bar, two flanks detached.\n2. RIGHT TOP: a short upright at left turns into two right-facing stacked horizontal strokes. Lower bar projects farther right than upper. Under them is a separate rounded eye enclosure with exactly THREE stacked closed counters, using two full horizontal dividers.\n3. IMPORTANT whole-variant selection: equally consider all four historical specimens, then choose the coherent THX outside-support construction. There is NO tall left upright or L-bracket beside the eye. Do not add a vertical line or corner to the left of the eye. CCZ/QJZ/DYC do show that different bracket/attachment variant; do NOT combine their bracket with THX's lower structure.\n4. Directly below the eye, with a gap from it, put a long horizontal support floor that projects past the eye on both sides. Exactly TWO short arms hang from this floor. The LEFT arm turns outward LEFT and ends FREE. Leave an open gap below this left arm to the central lower stem. The RIGHT arm descends and JOINs continuously into the upper-right corner of the lower return course. This one right-side attachment is clear in enlarged THX; never detach both arms from the lower structure.\n5. BOTTOM RIGHT: one central stem starts independently below the free left support arm and curves down RIGHT into a long tail. A broad turned return course crosses this stem twice, its two horizontal/slanted ends facing LEFT. The return's rounded right side encloses exactly ONE lower right counter against the central stem. The return's upper-right corner continues upward into the RIGHT floor arm; preserve that single connection. Do not join the LEFT floor arm to central stem, add an L-upright or add an extra closed counter.\n6. Keep all meaningful bar lengths, three eye counters, two short support arms, lower counter, two left-facing lower ends and single down-right tail. Render only smooth genuine constant-width centerline courses with round caps; no brush silhouette or width swelling.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D05C.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-8c27f7d0-9273-4854-a9ba-ed2b47e861cf.png",
+  "original_generated_sha256": "54b6644384fed0c07d7436e8eef9ac1d11be0b0eca516a785226d34c24378d2c",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D05C.png",
+  "output_sha256": "54b6644384fed0c07d7436e8eef9ac1d11be0b0eca516a785226d34c24378d2c",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D05C.png",
+  "reference_sha256": "bd2b60f2ac25682fc014cff2e9c2ce1d0db0a769084dd94964ebcfbc21638718",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D05C.json",
+  "reference_metadata_sha256": "ba940a8a0772cbf50e294f3a409dae18bb9703e06376520089133ec06fb31307",
+  "source_evidence": {
+    "codepoint": "U+3D05C",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      475.4501953125,
+      267.2193908691406,
+      486.6099548339844
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          473.72100830078125,
+          292.9800109863281,
+          498.8999938964844
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          474.2532897949219,
+          295.0000061035156,
+          499.2332824707031
+        ],
+        "source_label": "TH-00088"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          472.28021240234375,
+          316.8398742675781,
+          494.2799987792969
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          474.2532897949219,
+          321.6000061035156,
+          499.2332824707031
+        ],
+        "source_label": "C-00088"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          476.5341796875,
+          345.33978271484375,
+          498.15594482421875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          474.2532897949219,
+          348.3000061035156,
+          499.2332824707031
+        ],
+        "source_label": "K-00088"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          473.732177734375,
+          370.2398681640625,
+          498.7679443359375
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          474.2532897949219,
+          375.0000061035156,
+          499.2332824707031
+        ],
+        "source_label": "D-00088"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Two dense vertical components. LEFT: two open-top U courses share a tall center upright; four outer free tips plus the center tip. Below is a short detached separator, then a longer horizontal crossbar and three long legs: center attached to bar, two flanks detached.",
+    "RIGHT TOP: a short upright at left turns into two right-facing stacked horizontal strokes. Lower bar projects farther right than upper. Under them is a separate rounded eye enclosure with exactly THREE stacked closed counters, using two full horizontal dividers.",
+    "IMPORTANT whole-variant selection: equally consider all four historical specimens, then choose the coherent THX outside-support construction. There is NO tall left upright or L-bracket beside the eye. Do not add a vertical line or corner to the left of the eye. CCZ/QJZ/DYC do show that different bracket/attachment variant; do NOT combine their bracket with THX's lower structure.",
+    "Directly below the eye, with a gap from it, put a long horizontal support floor that projects past the eye on both sides. Exactly TWO short arms hang from this floor. The LEFT arm turns outward LEFT and ends FREE. Leave an open gap below this left arm to the central lower stem. The RIGHT arm descends and JOINs continuously into the upper-right corner of the lower return course. This one right-side attachment is clear in enlarged THX; never detach both arms from the lower structure.",
+    "BOTTOM RIGHT: one central stem starts independently below the free left support arm and curves down RIGHT into a long tail. A broad turned return course crosses this stem twice, its two horizontal/slanted ends facing LEFT. The return's rounded right side encloses exactly ONE lower right counter against the central stem. The return's upper-right corner continues upward into the RIGHT floor arm; preserve that single connection. Do not join the LEFT floor arm to central stem, add an L-upright or add an extra closed counter.",
+    "Keep all meaningful bar lengths, three eye counters, two short support arms, lower counter, two left-facing lower ends and single down-right tail. Render only smooth genuine constant-width centerline courses with round caps; no brush silhouette or width swelling."
+  ],
+  "status": "visual_mismatch_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D05C",
+    "verdict": "mismatch",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 2,
+    "reading_criteria": [
+      "Two dense vertical components. LEFT: two open-top U courses share a tall center upright; four outer free tips plus the center tip. Below is a short detached separator, then a longer horizontal crossbar and three long legs: center attached to bar, two flanks detached.",
+      "RIGHT TOP: a short upright at left turns into two right-facing stacked horizontal strokes. Lower bar projects farther right than upper. Under them is a separate rounded eye enclosure with exactly THREE stacked closed counters, using two full horizontal dividers.",
+      "IMPORTANT whole-variant selection: equally consider all four historical specimens, then choose the coherent THX outside-support construction. There is NO tall left upright or L-bracket beside the eye. Do not add a vertical line or corner to the left of the eye. CCZ/QJZ/DYC do show that different bracket/attachment variant; do NOT combine their bracket with THX's lower structure.",
+      "Directly below the eye, with a gap from it, put a long horizontal support floor that projects past the eye on both sides. Exactly TWO short arms hang from this floor. The LEFT arm turns outward LEFT and ends FREE. Leave an open gap below this left arm to the central lower stem. The RIGHT arm descends and JOINs continuously into the upper-right corner of the lower return course. This one right-side attachment is clear in enlarged THX; never detach both arms from the lower structure.",
+      "BOTTOM RIGHT: one central stem starts independently below the free left support arm and curves down RIGHT into a long tail. A broad turned return course crosses this stem twice, its two horizontal/slanted ends facing LEFT. The return's rounded right side encloses exactly ONE lower right counter against the central stem. The return's upper-right corner continues upward into the RIGHT floor arm; preserve that single connection. Do not join the LEFT floor arm to central stem, add an L-upright or add an extra closed counter.",
+      "Keep all meaningful bar lengths, three eye counters, two short support arms, lower counter, two left-facing lower ends and single down-right tail. Render only smooth genuine constant-width centerline courses with round caps; no brush silhouette or width swelling."
+    ],
+    "notes": [
+      "Second/final native fixes the confirmed attempt1 hybrid: no tall L-upright beside eye; right floor arm joins upper-right lower return; left support hook stays detached from lower central stem. This follows the THX whole attachment construction after comparing all four sources.",
+      "Three eye counters, two left-facing lower ends, one lower right counter, single down-right tail, two support arms and full left component remain present.",
+      "Confirmed residual omission on enlarged THX: right support arm turns outward right into a short FREE terminal; the downward lower-return continuation branches from its inner bend. The native smoothly turns down into the return without that short free terminal. See inspection-only /tmp/seal-05C-contact-final.png. Minimal vector repair is to add only a short right-facing round-capped branch at the support-right bend, leaving its lower continuation and left detached hook intact.",
+      "Native PNG pixels and both archived attempts remain unchanged; two generation attempts exhausted. This native source is not approved until the missing terminal is corrected and independently reviewed in vector/actual-font form."
+    ],
+    "source_png": "design/seal-individual/U3D05C.png",
+    "source_png_sha256": "54b6644384fed0c07d7436e8eef9ac1d11be0b0eca516a785226d34c24378d2c",
+    "reference_overview": "reference/seal/individual/U3D05C.png",
+    "reference_png_sha256": "bd2b60f2ac25682fc014cff2e9c2ce1d0db0a769084dd94964ebcfbc21638718",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D05C-attempt-2.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D05C.json",
+  "review_file_sha256": "3f1feb230df9781aeae8027f87178fc107625dcd9c130e104ddd0e9ba9c0f1d6"
+}

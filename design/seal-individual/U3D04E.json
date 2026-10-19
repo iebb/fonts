@@ -1,0 +1,149 @@
+{
+  "codepoint": "U+3D04E",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D04E. Reading aid: LEFT altar: detached short top dash above a longer horizontal attached to long central stem; TWO long detached flank verticals. RIGHT TOP: an upright U-shaped cup closed by ONE near-top horizontal bar, with TWO short side tips protruding above that bar. Inside the cup is ONE SMALL DETACHED HORIZONTAL DASH, with CLEAR WHITE GAPS at BOTH left and right ends: it doesNOT touch either cupside orcentralstem. Thus topcup has ONE connected white counter region with a detached ink dash inside; NOT two stacked box counters. Choose coherent THX open-inner-dash wholeform after comparing all4, rather than QJZ/DYC's connected innerbar or CCZ's detached middle-leftarm alternative. From cupBOTTOM center, a straight central stem continues uninterrupted DOWN through the rest of rightfigure to lowermostend. MIDLEVEL: a shallow upward-open U-shaped pair of curved arms crosses/joins stem, with both free tips rising above its base. LOWER: an inverted-U arch crosses/joins stem at its apex and has TWO downward outerlegs; centralstemcontinuesbetweenthemandendsalittlelower. Exactly THREE long bottomends onright plusTHREEonleft =SIX overall. KeepbothmiddleUarmsconnectedthroughcenter andbottomarchdistinctfromthem. Preservefreeinnerdash,continuousaxis,bothupwardarmsandallthreebottomcourses.\nThe little horizontal INSIDE the upper cup must stay FLOATING with visible gaps at both ends; do not turn it into a divider.",
+  "structural_reading_aid": "LEFT altar: detached short top dash above a longer horizontal attached to long central stem; TWO long detached flank verticals. RIGHT TOP: an upright U-shaped cup closed by ONE near-top horizontal bar, with TWO short side tips protruding above that bar. Inside the cup is ONE SMALL DETACHED HORIZONTAL DASH, with CLEAR WHITE GAPS at BOTH left and right ends: it doesNOT touch either cupside orcentralstem. Thus topcup has ONE connected white counter region with a detached ink dash inside; NOT two stacked box counters. Choose coherent THX open-inner-dash wholeform after comparing all4, rather than QJZ/DYC's connected innerbar or CCZ's detached middle-leftarm alternative. From cupBOTTOM center, a straight central stem continues uninterrupted DOWN through the rest of rightfigure to lowermostend. MIDLEVEL: a shallow upward-open U-shaped pair of curved arms crosses/joins stem, with both free tips rising above its base. LOWER: an inverted-U arch crosses/joins stem at its apex and has TWO downward outerlegs; centralstemcontinuesbetweenthemandendsalittlelower. Exactly THREE long bottomends onright plusTHREEonleft =SIX overall. KeepbothmiddleUarmsconnectedthroughcenter andbottomarchdistinctfromthem. Preservefreeinnerdash,continuousaxis,bothupwardarmsandallthreebottomcourses.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D04E.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-4d85b5da-705d-42cb-af8c-d1655bb4e915.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D04E.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "2df70265bb0aae9ff7a115ec60e48ab732472247d4380355fbb214f405b0573c",
+  "sha256": "2df70265bb0aae9ff7a115ec60e48ab732472247d4380355fbb214f405b0573c",
+  "reference_sha256": "dd8325da65fc77f914fff2d3204d0a1bd239166633a6de21c9dcd6f2202b3293",
+  "source_evidence": {
+    "codepoint": "U+3D04E",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      665.6502075195312,
+      117.86940002441406,
+      676.8099975585938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          663.9209594726562,
+          144.17999267578125,
+          689.0999755859375
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          664.453271484375,
+          146.20000305175782,
+          689.4332641601562
+        ],
+        "source_label": "TH-00075"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          662.4801635742188,
+          168.03985595703125,
+          684.47998046875
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          664.453271484375,
+          172.8000030517578,
+          689.4332641601562
+        ],
+        "source_label": "C-00075"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          666.7341918945312,
+          196.539794921875,
+          688.35595703125
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          664.453271484375,
+          199.5000030517578,
+          689.4332641601562
+        ],
+        "source_label": "K-00075"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          663.9321899414062,
+          221.43984985351562,
+          688.9679565429688
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          664.453271484375,
+          226.20000305175782,
+          689.4332641601562
+        ],
+        "source_label": "D-00075"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D04E",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Uppercupnear-topbar1counterwith2protrudingtips;smallinsidehorizontalDASHFLOATSwithgapsatbothends.",
+      "Continuousaxisjoinscupbottom,middleUarmsandlowerinvertedUarch.",
+      "Right3lowerends+leftaltar3=6;middleUbotharmsattached;noaddeddivider."
+    ],
+    "notes": [
+      "Compared all4enlargedrefs. NativecoherentTHXfreeinnerdashform: insideinkislanddoesnotdividecupcounter;QJZ/DYC2-fieldvariantnotmixed.",
+      "Allsixlonglowerendsvisible,centralaxisunbrokenandmiddleleftarmconnectedratherthanCCZdetachedarmalternative."
+    ],
+    "source_png": "design/seal-individual/U3D04E.png",
+    "source_png_sha256": "2df70265bb0aae9ff7a115ec60e48ab732472247d4380355fbb214f405b0573c",
+    "reference_overview": "reference/seal/individual/U3D04E.png",
+    "reference_png_sha256": "dd8325da65fc77f914fff2d3204d0a1bd239166633a6de21c9dcd6f2202b3293",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D04E-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

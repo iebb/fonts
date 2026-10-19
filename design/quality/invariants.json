@@ -296,6 +296,164 @@
         "minimum_upper_to_lower_ink_span_ratio": 0.55,
         "maximum_upper_to_lower_ink_span_ratio": 0.82
       }
+    },
+    {
+      "codepoint": "U+3D045",
+      "criterion": "roi_return_curves",
+      "applicable_weights": [
+        300,
+        400
+      ],
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D045.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Two detached small opposing return curves inside the larger winding S. The upper opens left; the lower opens right. Both have separated upper and lower arms, rather than a single horizontal bar.",
+        "regression": "The closer native attempt flattened both returns to bars. Only those two courses are corrected. This check certifies Light and Regular; denser weights retain the curves but merge some ink and remain optically unaccepted."
+      },
+      "requirements": {
+        "minimum_height_to_width_ratio": 0.5,
+        "regions": [
+          {
+            "name": "upper right-curving return",
+            "roi_width_fractions": [
+              0.44,
+              0.7
+            ],
+            "roi_height_fractions": [
+              0.45,
+              0.57
+            ]
+          },
+          {
+            "name": "lower left-curving return",
+            "roi_width_fractions": [
+              0.5,
+              0.8
+            ],
+            "roi_height_fractions": [
+              0.61,
+              0.74
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "codepoint": "U+3D050",
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "requirements": {
+        "expected_components": 7,
+        "expected_counters": 1
+      }
+    },
+    {
+      "codepoint": "U+3D071",
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0,
+          0.27
+        ],
+        "upper_roi_height_fractions": [
+          0.09693,
+          0.17693
+        ],
+        "lower_roi_height_fractions": [
+          0.696973,
+          0.776973
+        ],
+        "minimum_upper_to_lower_ink_span_ratio": 0.7,
+        "maximum_upper_to_lower_ink_span_ratio": 0.92
+      }
+    },
+    {
+      "codepoint": "U+3D077",
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0,
+          0.41
+        ],
+        "upper_roi_height_fractions": [
+          0.164166,
+          0.244166
+        ],
+        "lower_roi_height_fractions": [
+          0.701284,
+          0.781284
+        ],
+        "minimum_upper_to_lower_ink_span_ratio": 0.7,
+        "maximum_upper_to_lower_ink_span_ratio": 0.96
+      }
+    },
+    {
+      "codepoint": "U+3D049",
+      "criterion": "ink_topology",
+      "applicable_weights": [
+        300,
+        400
+      ],
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D049.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the chosen open construction, both upper cups stay separate from the pitched roof. The native and corrected Light/Regular glyph retain twelve components and two counters.",
+        "regression": "313pixel downsampling created a false cup-to-roof bridge absent in the full1254pixel native. Remove only the artificial bridge and restore the right cup endpoint from full-resolution native measurements. Heavier ink merges other courses and is not certified by this rule."
+      },
+      "requirements": {
+        "expected_components": 12,
+        "expected_counters": 2
+      }
     }
   ]
 }

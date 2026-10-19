@@ -1,0 +1,131 @@
+{
+  "code_point": "U+3D077",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D077. Compare ALL FOUR specimens; bottom has genuine alternatives. Choose ONE coherent THX/CCZ-type whole structure, NOT a hybrid with QJZ/DYC split-fork/separate-base alternative. LEFT: vertical stem with three joined horizontal bars, bottom modestly longest; top85\u201395% bottom, middle shorter. RIGHT TOP: a small U-shaped bowl with TWO uprights/prongs extending above ONE long horizontal bar across them, creating ONE counter below that bar. Center vertical stem leaves the bowl bottom. Below bowl at left/right are TWO short DETACHED outward-slanting ticks, one per side. Next a HORIZONTAL OVAL/rounded rectangle, pierced vertically by central stem to make exactly TWO side-by-side counters. Central stem continues below that oval into a large INVERTED-U ARCH, attached at its apex; arch has TWO long outside legs descending to baseline. Inside this arch, center stem crosses ONE short upper horizontal and ENDS at a slightly LONGER lower horizontal (a small \u571f-like two-bar base). Both internal bars are MUCH SHORTER than arch span, clearly detached from arch side legs. Arch stays OPEN below, no bottom enclosing stroke, and no extra lower counters. Preserve top1counter+middle2counters, two side ticks, arch two long legs and inner2bars.",
+  "structural_reading_aid": "U+3D077. Compare ALL FOUR specimens; bottom has genuine alternatives. Choose ONE coherent THX/CCZ-type whole structure, NOT a hybrid with QJZ/DYC split-fork/separate-base alternative. LEFT: vertical stem with three joined horizontal bars, bottom modestly longest; top85\u201395% bottom, middle shorter. RIGHT TOP: a small U-shaped bowl with TWO uprights/prongs extending above ONE long horizontal bar across them, creating ONE counter below that bar. Center vertical stem leaves the bowl bottom. Below bowl at left/right are TWO short DETACHED outward-slanting ticks, one per side. Next a HORIZONTAL OVAL/rounded rectangle, pierced vertically by central stem to make exactly TWO side-by-side counters. Central stem continues below that oval into a large INVERTED-U ARCH, attached at its apex; arch has TWO long outside legs descending to baseline. Inside this arch, center stem crosses ONE short upper horizontal and ENDS at a slightly LONGER lower horizontal (a small \u571f-like two-bar base). Both internal bars are MUCH SHORTER than arch span, clearly detached from arch side legs. Arch stays OPEN below, no bottom enclosing stroke, and no extra lower counters. Preserve top1counter+middle2counters, two side ticks, arch two long legs and inner2bars.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D077.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-8a095bc5-d387-4c21-9d25-f918bf811011.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8a095bc5-d387-4c21-9d25-f918bf811011.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D077.png",
+  "original_pixels_unchanged": true,
+  "sha256": "dc9c2f7cf8647876b6685bd36eadf8d413af475bbee0523f253b70a7d3160195",
+  "reference_sha256": "b06f121015f74d2b1ed846cd08f0a51a5e39ba05f124bd2d821d3d3ce94efcb3",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D077",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      697.3302001953125,
+      414.3593444824219,
+      708.489990234375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          695.6010131835938,
+          441.7799987792969,
+          720.780029296875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          696.1332641601563,
+          443.79999389648435,
+          721.1732543945312
+        ],
+        "source_label": "TH-00109"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          694.1602172851562,
+          465.6398620605469,
+          716.1600341796875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          696.1332641601563,
+          470.3999938964844,
+          721.1732543945312
+        ],
+        "source_label": "C-00113"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          698.4142456054688,
+          494.1398010253906,
+          720.0360107421875
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          696.1332641601563,
+          497.09999389648436,
+          721.1732543945312
+        ],
+        "source_label": "K-00114"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          695.6122436523438,
+          519.0398559570312,
+          720.6480102539062
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          693.5302001953125,
+          523.7999938964844,
+          721.1732543945312
+        ],
+        "source_label": "D-00108"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_uncertain",
+  "visual_review": {
+    "verdict": "uncertain",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Left base bar should be modestly longer than top in all four references.",
+      "Coherent THX/CCZ lower arch with short internal two-bar base, not QJZ/DYC separate-base hybrid.",
+      "Top pronged cup has one counter; middle horizontal oval split into two counters; two detached side ticks.",
+      "Bottom arch two legs and interior stem ending on lower internal bar; internal lower bar longer than upper and shorter than arch span."
+    ],
+    "notes": [
+      "Native structural inventory matches coherent THX/CCZ form: three upper/middle counters, two side ticks, lower arch and two internal bars.",
+      "Native left top and bottom bars appear nearly equal, whereas all witnesses make bottom modestly longer. Marked uncertain pending independent measured bar-proportion review rather than certifying this near-equality."
+    ],
+    "caveats": [
+      "Potential minimal left-bar proportion correction; no structural redraw is indicated.",
+      "QJZ/DYC bottom fork/separate-base is a different whole-form alternative and was not mixed into native."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D077.json",
+    "review_sha256": "0cb4c2f738b19497090fdd231a2af1a0e3e02d19ce67211c2f99232060e00632"
+  }
+}

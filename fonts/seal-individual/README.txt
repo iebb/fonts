@@ -1,9 +1,12 @@
-Panorama Gothic Small Seal — 64-character stroke sample
+Panorama Gothic Small Seal — 128-character stroke sample, version 0.6
 
-U+3D000–U+3D03F. One independent ImageGen drawing per character,
+U+3D000–U+3D07F. One independent ImageGen drawing per character,
 informed by all available THX, CCZ, QJZ and DYC chart specimens.
+The new U+3D040–U+3D07F page has 243 of 256 possible specimens;
+unavailable specimens are explicitly recorded. The first 64 source
+PNG, JSON and SVG files are unchanged in this expansion.
 Native drawing trajectories and proportions guide reconstruction.
-Only confirmed omissions and tracing defects receive targeted repairs.
+Only confirmed structural and tracing defects receive minimal repairs.
 
 Editable Bezier centerlines have round ends and joins. Each complete
 glyph is scaled proportionally to a maximum centerline dimension of
@@ -16,6 +19,7 @@ Original PNGs remain immutable. Targeted manual vector repairs and
 their source hashes are recorded individually; automatic paths and
 manual overrides are distinguished in the manifest. A corrected
 vector does not change a rejected native drawing's review verdict.
+Repaired geometry receives independent review in the actual font.
 Preserved provenance records omissions, tracing defects and any
 excluded non-stroke specks.
 
@@ -25,16 +29,31 @@ The companion variable font defaults to 400 and uses these pen widths:
 The previous 300 width is now 400; the previous 400 width is now 600.
 All weights reuse the same normalized centerlines and fixed advances.
 
-Validation combines visual review of all 64 sample glyphs with actual
-font regression gates in tools/verify_glyph_invariants.py. Recorded
-feature checks cover bar relationships, branches and open spaces at
-multiple weights. Dense forms still need optical review; these checks
-do not certify every detail or every possible future change.
-Frozen geometry fingerprints reject source changes until reviewed again.
-size-check.json verifies the compiled glyph bounds and fixed advances.
+Validation combines reference review of all 128 sample glyphs at default
+Regular 400 with actual-font gates in tools/verify_glyph_invariants.py.
+Recorded checks cover bar relationships, branches and open spaces;
+some dense-form rules apply only at weights 300 and 400. Default
+reference acceptance does not imply heavy-weight optical acceptance.
+Dense forms such as U+3D045, U+3D049, U+3D060, U+3D070, U+3D073 and
+U+3D077 merge marks or counters at 600 or 700, with paths retained.
+These weights remain subject to optical review.
+
+The full 128-entry accepted-geometry registry rejects changed source
+hashes until renewed visual review. size-check.json verifies actual
+compiled bounds, centering, source proportions and fixed advances,
+and checks that all registered glyphs are present. Passing these
+checks does not certify every detail or every future source change.
 
 Historical stroke order and specialist paleographic correctness
 remain unverified. This sample adds no production Unicode coverage.
 See manifest.json and audit.json for evidence and checks.
 Editable SVGs: centerlines/. Interactive example: stroke-playback.html.
+Previews: preview-128.png, preview-64.png (retained first page),
+and preview-3D040-3D07F.png (new page).
+Package: dist/Panorama-Gothic-Seal-Stroke-128.zip in the repository.
+
+Static previews are rendered from the actual TTF with FreeType. The current
+sandbox blocks Chromium's socket operations, so browser-check.json records
+the path replay as unverified rather than reporting a browser pass.
+Rebuild from the repository root: make seal-strokes seal-variable.
 Licensed under the SIL Open Font License 1.1.

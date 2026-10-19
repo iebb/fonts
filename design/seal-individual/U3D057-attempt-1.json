@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D057",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D057 reading aid:\n1. Left: TWO detached horizontal bars, upper distinctly shorter than lower, above exactly THREE long parallel sinuous descending strokes.\n2. Choose coherent flowing separated construction attested by THX/CCZ/DYC: ALL THREE sinuous strokes start BELOW the lower bar with clear gaps. Do not attach the middle stroke as in the alternate QJZ straight form.\n3. Upper right is a SIX-RAY open branched figure: one central vertical with upper and lower tip, one pair of smoothly upward-curving arms, and one pair of downward-curving arms.\n4. Upper right has NO horizontal crossbar and NO closed ring. Upward pair curves like open-top U, downward pair like inverted U, connected by central upright, all4arm ends separate.\n5. Lower right is a SEPARATE upright-and-two-bars figure: vertical top spike crosses middle bar and ends at bottom baseline; bottom baseline longer than middle bar.\n6. Clear open gap between upper six-ray figure's lowest tip and the separate lower figure's top spike. No joining spine between them.\nPreserve the six upper-right ray ends, exactly3detached left waves, and separate lower short vertical/two-bar unit. Use genuine rounded curved branches with constant3%canvas pen width.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D057.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-63564117-7e28-4d02-a3ca-2945833e9b51.png",
+  "original_generated_sha256": "023b7707209d3e276c75358e1b3d62b9ad1ba22b723e5268dbeeb01cc8a73633",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D057.png",
+  "output_sha256": "023b7707209d3e276c75358e1b3d62b9ad1ba22b723e5268dbeeb01cc8a73633",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D057.png",
+  "reference_sha256": "d9c1dfc70780c7d9184e04c40f0a3fac29cace813afa0606258847479e34bbd7",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D057.json",
+  "reference_metadata_sha256": "cf413391581aef3b16c81e263c26c12d71e6b115234311947b22b07e1534d8ad",
+  "source_evidence": {
+    "codepoint": "U+3D057",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      316.9302062988281,
+      265.5594177246094,
+      328.0899658203125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          315.2010192871094,
+          292.9800109863281,
+          340.3800048828125
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          315.73330078125,
+          295.0000061035156,
+          340.773291015625
+        ],
+        "source_label": "TH-00083"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          313.7602233886719,
+          316.8398742675781,
+          335.760009765625
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          315.73330078125,
+          321.6000061035156,
+          340.773291015625
+        ],
+        "source_label": "C-00083"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          318.0141906738281,
+          345.33978271484375,
+          339.6359558105469
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          315.73330078125,
+          348.3000061035156,
+          340.773291015625
+        ],
+        "source_label": "K-00083"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          315.2121887207031,
+          370.2398681640625,
+          340.2479553222656
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          315.73330078125,
+          375.0000061035156,
+          340.773291015625
+        ],
+        "source_label": "D-00083"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left: TWO detached horizontal bars, upper distinctly shorter than lower, above exactly THREE long parallel sinuous descending strokes.",
+    "Choose coherent flowing separated construction attested by THX/CCZ/DYC: ALL THREE sinuous strokes start BELOW the lower bar with clear gaps. Do not attach the middle stroke as in the alternate QJZ straight form.",
+    "Upper right is a SIX-RAY open branched figure: one central vertical with upper and lower tip, one pair of smoothly upward-curving arms, and one pair of downward-curving arms.",
+    "Upper right has NO horizontal crossbar and NO closed ring. Upward pair curves like open-top U, downward pair like inverted U, connected by central upright, all4arm ends separate.",
+    "Lower right is a SEPARATE upright-and-two-bars figure: vertical top spike crosses middle bar and ends at bottom baseline; bottom baseline longer than middle bar.",
+    "Clear open gap between upper six-ray figure's lowest tip and the separate lower figure's top spike. No joining spine between them."
+  ],
+  "status": "visual_mismatch_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D057",
+    "verdict": "mismatch",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left: TWO detached horizontal bars, upper distinctly shorter than lower, above exactly THREE long parallel sinuous descending strokes.",
+      "Choose coherent flowing separated construction attested by THX/CCZ/DYC: ALL THREE sinuous strokes start BELOW the lower bar with clear gaps. Do not attach the middle stroke as in the alternate QJZ straight form.",
+      "Upper right is a SIX-RAY open branched figure: one central vertical with upper and lower tip, one pair of smoothly upward-curving arms, and one pair of downward-curving arms.",
+      "Upper right has NO horizontal crossbar and NO closed ring. Upward pair curves like open-top U, downward pair like inverted U, connected by central upright, all4arm ends separate.",
+      "Lower right is a SEPARATE upright-and-two-bars figure: vertical top spike crosses middle bar and ends at bottom baseline; bottom baseline longer than middle bar.",
+      "Clear open gap between upper six-ray figure's lowest tip and the separate lower figure's top spike. No joining spine between them."
+    ],
+    "notes": [
+      "Structural reading is coherent: exactly three detached left waves, six-ray upper-right open figure, separate lower upright/two bars with longer baseline.",
+      "Style requirement fails: two upper-left horizontal strokes are lenticular brush-like filled silhouettes with tapered ends, rather than constant-width true monoline capsules. Second attempt required for genuine stroke geometry.",
+      "All4 enlarged specimens considered; original attempt remains archived."
+    ],
+    "source_png": "design/seal-individual/U3D057.png",
+    "source_png_sha256": "023b7707209d3e276c75358e1b3d62b9ad1ba22b723e5268dbeeb01cc8a73633",
+    "reference_overview": "reference/seal/individual/U3D057.png",
+    "reference_png_sha256": "d9c1dfc70780c7d9184e04c40f0a3fac29cace813afa0606258847479e34bbd7",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D057-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D057.json",
+  "review_file_sha256": "3882aea4fb47df720d6d1192ecfa204eb338a8d7d3be9a6152f4e3a32154ab31"
+}

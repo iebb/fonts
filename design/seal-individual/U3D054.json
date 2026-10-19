@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D054",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D054 reading aid:\n1. Only THX and CCZ available; both are evidence. QJZ and DYC unavailable. Glyph has TWO dense components; there is NO separate ritual two-bar/three-leg component.\n2. Left component: rounded upper left enclosure with inner divider and two cross rungs plus cap creates exactly THREE stacked counters at left; rungs project right.\n3. Below left enclosure, exactly THREE left/down diagonal branch ends and TWO downward legs, preserving crossing courses and clear open lower space.\n4. Right main stroke is a broad long serpentine trajectory: starts top-left, goes right, curves down then back left, curves downward then right, and turns into a long outside-right descender reaching glyph bottom.\n5. Inside upper right bend is a separate short return hook OPEN TO LEFT; inside middle bend a separate short return hook OPEN TO RIGHT. Neither is a closed ring.\n6. Below those bends is a separate small horned U cup with ONE horizontal rung and ONE closed counter. Cup is detached from surrounding serpentine course and long outer-right descender.\nThis glyph combines the three-counter/three-diagonal/two-leg left structure with a right serpentine form containing two separate short open return hooks and one lower horned cup. Preserve exactly3 left counters plus1 lower-right cup counter. No modern-character substitution.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D054.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-7b8cfcf2-d7b9-491e-aeb8-a99b649c2910.png",
+  "original_generated_sha256": "afce7da9be1c28c0efa43b2586018d16435a40eeded1ec0a5298606c171f7806",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D054.png",
+  "output_sha256": "afce7da9be1c28c0efa43b2586018d16435a40eeded1ec0a5298606c171f7806",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D054.png",
+  "reference_sha256": "a04210c75ec3d3e57feb4f694adf8d76415dcfc9eab3c95d7ecd7beae3bc8a14",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D054.json",
+  "reference_metadata_sha256": "77461337fb816fc82b829ad50cb07f14a827970a568b2dda1aa5026f81e19b7c",
+  "source_evidence": {
+    "codepoint": "U+3D054",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      221.83018493652344,
+      265.5594177246094,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          220.10096740722656,
+          292.9800109863281,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          220.6332794189453,
+          295.0000061035156,
+          245.67326965332032
+        ],
+        "source_label": "TH-00081"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          218.66017150878906,
+          316.8398742675781,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          220.6332794189453,
+          321.6000061035156,
+          245.67326965332032
+        ],
+        "source_label": "C-00081"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Only THX and CCZ available; both are evidence. QJZ and DYC unavailable. Glyph has TWO dense components; there is NO separate ritual two-bar/three-leg component.",
+    "Left component: rounded upper left enclosure with inner divider and two cross rungs plus cap creates exactly THREE stacked counters at left; rungs project right.",
+    "Below left enclosure, exactly THREE left/down diagonal branch ends and TWO downward legs, preserving crossing courses and clear open lower space.",
+    "Right main stroke is a broad long serpentine trajectory: starts top-left, goes right, curves down then back left, curves downward then right, and turns into a long outside-right descender reaching glyph bottom.",
+    "Inside upper right bend is a separate short return hook OPEN TO LEFT; inside middle bend a separate short return hook OPEN TO RIGHT. Neither is a closed ring.",
+    "Below those bends is a separate small horned U cup with ONE horizontal rung and ONE closed counter. Cup is detached from surrounding serpentine course and long outer-right descender."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D054",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Only THX and CCZ available; both are evidence. QJZ and DYC unavailable. Glyph has TWO dense components; there is NO separate ritual two-bar/three-leg component.",
+      "Left component: rounded upper left enclosure with inner divider and two cross rungs plus cap creates exactly THREE stacked counters at left; rungs project right.",
+      "Below left enclosure, exactly THREE left/down diagonal branch ends and TWO downward legs, preserving crossing courses and clear open lower space.",
+      "Right main stroke is a broad long serpentine trajectory: starts top-left, goes right, curves down then back left, curves downward then right, and turns into a long outside-right descender reaching glyph bottom.",
+      "Inside upper right bend is a separate short return hook OPEN TO LEFT; inside middle bend a separate short return hook OPEN TO RIGHT. Neither is a closed ring.",
+      "Below those bends is a separate small horned U cup with ONE horizontal rung and ONE closed counter. Cup is detached from surrounding serpentine course and long outer-right descender."
+    ],
+    "notes": [
+      "Both available enlarged THX/CCZ views checked equally; QJZ/DYC unavailable. Native has left three-counter cap/rungs/divider, three down-left branches and two downward legs.",
+      "Right broad serpentine trajectory preserves long outer-right descender, separate short upper return hook open left and separate short middle hook open right.",
+      "Lower horned cup remains detached from surrounding course with one closed counter. Exactly three left counters plus one cup counter; no extra ritual radical or closed hook box.",
+      "Relative open-channel spacing and bar order retained with smoothly rounded monoline draft courses."
+    ],
+    "source_png": "design/seal-individual/U3D054.png",
+    "source_png_sha256": "afce7da9be1c28c0efa43b2586018d16435a40eeded1ec0a5298606c171f7806",
+    "reference_overview": "reference/seal/individual/U3D054.png",
+    "reference_png_sha256": "a04210c75ec3d3e57feb4f694adf8d76415dcfc9eab3c95d7ecd7beae3bc8a14",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ"
+    ],
+    "unavailable_specimens": [
+      "QJZ",
+      "DYC"
+    ],
+    "inspection_composite": "/tmp/seal-native-b-3D054-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D054.json",
+  "review_file_sha256": "964c8d20d0f785c12a8d70fb849ce3b19c61a9c695bb6c96a6ce1b8cfb78bb75"
+}

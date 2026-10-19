@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D06D",
+  "code_point": "U+3D06D",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D06D.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL AND PROPORTIONAL READING:\n1. All FOUR specimens available. Entire character is THREE horizontal bars joined by ONE central vertical stem; no additional strokes, dots or counters.\n2. Vertical spaces are NEARLY EVEN: upper-to-middle and middle-to-baseline centerline gaps approximately equal, with lower at most10\u201320% larger. Do NOT push middle bar close to top bar; this character has balanced vertical spacing.\n3. Bottom bar longest, upper slightly shorter, middle shortest; lengths approximately bottom1.0,top0.92,middle0.85, consistent with THX/CCZ/DYC. All centered on the same vertical axis.\n4. Central vertical begins ON upper bar, crosses middle, and ENDS ON bottom bar, without protrusion beyond either outer bar.\n5. Use genuine thin constant-width strokes, bars with straight PARALLEL edges and semicircular caps; do not copy tapered elliptical reference ink.\nImportant distinguishing proportion: THREE bars with almost EQUAL vertical gaps. Middle horizontal sits near MID-HEIGHT of complete central stem. Bottom a little wider than upper; middle shortest. Perfectly even technical-pen width about3%canvas, no brush pressure.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D06D.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL AND PROPORTIONAL READING:\n1. All FOUR specimens available. Entire character is THREE horizontal bars joined by ONE central vertical stem; no additional strokes, dots or counters.\n2. Vertical spaces are NEARLY EVEN: upper-to-middle and middle-to-baseline centerline gaps approximately equal, with lower at most10\u201320% larger. Do NOT push middle bar close to top bar; this character has balanced vertical spacing.\n3. Bottom bar longest, upper slightly shorter, middle shortest; lengths approximately bottom1.0,top0.92,middle0.85, consistent with THX/CCZ/DYC. All centered on the same vertical axis.\n4. Central vertical begins ON upper bar, crosses middle, and ENDS ON bottom bar, without protrusion beyond either outer bar.\n5. Use genuine thin constant-width strokes, bars with straight PARALLEL edges and semicircular caps; do not copy tapered elliptical reference ink.\nImportant distinguishing proportion: THREE bars with almost EQUAL vertical gaps. Middle horizontal sits near MID-HEIGHT of complete central stem. Bottom a little wider than upper; middle shortest. Perfectly even technical-pen width about3%canvas, no brush pressure.",
+  "reading_criteria": [
+    "All FOUR specimens available. Entire character is THREE horizontal bars joined by ONE central vertical stem; no additional strokes, dots or counters.",
+    "Vertical spaces are NEARLY EVEN: upper-to-middle and middle-to-baseline centerline gaps approximately equal, with lower at most10\u201320% larger. Do NOT push middle bar close to top bar; this character has balanced vertical spacing.",
+    "Bottom bar longest, upper slightly shorter, middle shortest; lengths approximately bottom1.0,top0.92,middle0.85, consistent with THX/CCZ/DYC. All centered on the same vertical axis.",
+    "Central vertical begins ON upper bar, crosses middle, and ENDS ON bottom bar, without protrusion beyond either outer bar.",
+    "Use genuine thin constant-width strokes, bars with straight PARALLEL edges and semicircular caps; do not copy tapered elliptical reference ink."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D06D.png",
+  "reference_sha256": "cb607facd76d7aec3be62c11c0c62dea3a3e945415a26a36292315002584ee76",
+  "reference_metadata": {
+    "codepoint": "U+3D06D",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      380.3501892089844,
+      416.0193176269531,
+      391.50994873046875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          378.6210021972656,
+          441.7799987792969,
+          403.79998779296875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          379.1532836914063,
+          443.79999389648435,
+          404.1333068847656
+        ],
+        "source_label": "TH-00099"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          377.1802062988281,
+          465.6398620605469,
+          399.17999267578125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          376.55018920898436,
+          470.3999938964844,
+          404.1333068847656
+        ],
+        "source_label": "C-00103"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          381.4341735839844,
+          494.1398010253906,
+          403.0559387207031
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          376.55018920898436,
+          497.09999389648436,
+          404.1333068847656
+        ],
+        "source_label": "K-00104"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          378.6321716308594,
+          519.0398559570312,
+          403.6679382324219
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          379.1532836914063,
+          523.7999938964844,
+          404.1333068847656
+        ],
+        "source_label": "D-00099"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-3b2900df-7a9b-4f3e-bd79-be87c4e9f86d.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D06D.png",
+  "original_pixels_unchanged": true,
+  "sha256": "6f0e35831750ce4d5523dbe1cea618866ef62e4011baed5ed4c8cdeb276320b0",
+  "transparent_background_requested": true,
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "notes": "All four witnesses compared: THREE horizontals and ONE central stem, no extra protrusions or counters. Native upper/lower gaps are approximately267px each, preserving near-even spacing; this is intentionally distinct from068 close upper bars. Baseline longest, top next, middle shortest, all center-attached; central stem stops on outer bars.",
+    "review_file": "design/seal-individual/reviews/U3D06D.json",
+    "review_sha256": "73d52f19986b968f0e9e695dcbe676ab5d656de1215cd99e4b12fd1889a9bbeb"
+  }
+}

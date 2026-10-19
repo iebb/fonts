@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D066",
+  "code_point": "U+3D066",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D066.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL AND PROPORTIONAL READING:\n1. All FOUR specimens available. The WHOLE character consists of EXACTLY THREE separate horizontal strokes stacked vertically: top, middle, bottom. No ritual radical or other component.\n2. Bottom horizontal is clearly the LONGEST in every witness. Choose coherent THX/CCZ proportions: upper approximately85% of bottom length; middle approximately80% of bottom length, thus upper slightly longer than middle.\n3. All three bars centered on the SAME vertical axis. Vertical spaces approximately equal, with lower gap permitted slightly larger. Preserve broad open separation, not a connected three-bar figure.\n4. Each bar is one genuine straight constant-width centerline with rounded end caps, about3% of canvas width; no tapered pointed ends or brush variation.\nOutput ONLY THREE separate black horizontal monoline bars. Bottom unmistakably longest; top slightly longer than middle, all centered. This is the complete character, not a fragment to which components should be added. Thin true uniform stroke about30pixels per1024canvas.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D066.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL AND PROPORTIONAL READING:\n1. All FOUR specimens available. The WHOLE character consists of EXACTLY THREE separate horizontal strokes stacked vertically: top, middle, bottom. No ritual radical or other component.\n2. Bottom horizontal is clearly the LONGEST in every witness. Choose coherent THX/CCZ proportions: upper approximately85% of bottom length; middle approximately80% of bottom length, thus upper slightly longer than middle.\n3. All three bars centered on the SAME vertical axis. Vertical spaces approximately equal, with lower gap permitted slightly larger. Preserve broad open separation, not a connected three-bar figure.\n4. Each bar is one genuine straight constant-width centerline with rounded end caps, about3% of canvas width; no tapered pointed ends or brush variation.\nOutput ONLY THREE separate black horizontal monoline bars. Bottom unmistakably longest; top slightly longer than middle, all centered. This is the complete character, not a fragment to which components should be added. Thin true uniform stroke about30pixels per1024canvas.",
+  "reading_criteria": [
+    "All FOUR specimens available. The WHOLE character consists of EXACTLY THREE separate horizontal strokes stacked vertically: top, middle, bottom. No ritual radical or other component.",
+    "Bottom horizontal is clearly the LONGEST in every witness. Choose coherent THX/CCZ proportions: upper approximately85% of bottom length; middle approximately80% of bottom length, thus upper slightly longer than middle.",
+    "All three bars centered on the SAME vertical axis. Vertical spaces approximately equal, with lower gap permitted slightly larger. Preserve broad open separation, not a connected three-bar figure.",
+    "Each bar is one genuine straight constant-width centerline with rounded end caps, about3% of canvas width; no tapered pointed ends or brush variation."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D066.png",
+  "reference_sha256": "150e36a45463242e6325cce5a40dd250a90e692b9ae5093ca6e52651ef756c83",
+  "reference_metadata": {
+    "codepoint": "U+3D066",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      158.47019958496094,
+      414.3593444824219,
+      169.62997436523438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          156.6809844970703,
+          441.7799987792969,
+          181.8599853515625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          157.2732940673828,
+          443.79999389648435,
+          182.25328674316407
+        ],
+        "source_label": "TH-00093"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          155.2401885986328,
+          465.6398620605469,
+          177.239990234375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          157.2732940673828,
+          470.3999938964844,
+          182.25328674316407
+        ],
+        "source_label": "C-00097"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          159.49417114257812,
+          494.1398010253906,
+          181.11595153808594
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          157.2732940673828,
+          497.09999389648436,
+          182.25328674316407
+        ],
+        "source_label": "K-00098"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          156.69216918945312,
+          519.0398559570312,
+          181.7279510498047
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          154.67019958496093,
+          523.7999938964844,
+          182.25328674316407
+        ],
+        "source_label": "D-00093"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-5646e36d-d1c1-4303-a7eb-f54fb4c3be9e.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D066.png",
+  "original_pixels_unchanged": true,
+  "sha256": "d5b295cde353bfca5b4662bf01458cd1b8bc3358577906919e9e0fe0e0498fc9",
+  "transparent_background_requested": true,
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "notes": "Compared all four witnesses: exactly THREE separate centered horizontal strokes; bottom longest, upper slightly longer than middle in coherent THX/CCZ arrangement. Native lengths approximately510/490/590 pixels, lower gap modestly larger than upper. No extra component or counter.",
+    "review_file": "design/seal-individual/reviews/U3D066.json",
+    "review_sha256": "ce064f4032a46a3266a306547a5aebdb37ed8d6040a7d91eb5b05412b88c23ad"
+  }
+}

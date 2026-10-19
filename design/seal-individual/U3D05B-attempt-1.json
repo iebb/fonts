@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D05B",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D05B reading aid:\n1. Character is vertically stacked, not a ritual side-by-side compound.\n2. Top figure has TWO shallow open-top U courses stacked vertically, both joined at their bottoms by ONE tall central upright. Center upright starts above upper U and ends at lower U bottom.\n3. Exactly FOUR free outer arm tips in top figure (left/right for each U), plus central upper tip. Lower U tips stay a clear small gap BELOW upper U bottom; do not connect side edges into closed boxes.\n4. Choose coherent two-U construction shared by THX/CCZ/QJZ after considering DYC's broader angular alternative.\n5. Below upper figure is a SEPARATE short horizontal separator; below that a clearly LONGER horizontal crossbar.\n6. From longer lower crossbar: one attached long center leg descends, with TWO detached flank legs starting below and curving outward. Exactly THREE lower ends. No additional top bars, counters or descending arms.\nKeep both U courses OPEN around outer tips: exactly4free upward curved side tips, not closed circles. Separator is shorter than lower bar, and upper double-U width roughly matches shorter separator in chosen coherent variant. All horizontal strokes are geometrical capsules.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D05B.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-0fb55b31-f569-4248-a74f-5e7409c649d3.png",
+  "original_generated_sha256": "571d6d87f3f94769d4eb095cc7682befbf8cb4527b6730c2f07d3c414d21eddd",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D05B.png",
+  "output_sha256": "571d6d87f3f94769d4eb095cc7682befbf8cb4527b6730c2f07d3c414d21eddd",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D05B.png",
+  "reference_sha256": "c8f3dfe2a9163cee808ff78d5eb2b8022366ba2c6bad22d22e8b57a187407bd3",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D05B.json",
+  "reference_metadata_sha256": "7aef9a2911c6951ce96409ff3ed9ec0f00206bc902ec7a41ca3040fa3e6114d1",
+  "source_evidence": {
+    "codepoint": "U+3D05B",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      443.77020263671875,
+      266.6694030761719,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          441.98101806640625,
+          292.9800109863281,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          442.57329711914065,
+          295.0000061035156,
+          467.55328979492185
+        ],
+        "source_label": "TH-00087"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          440.54022216796875,
+          316.8398742675781,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          442.57329711914065,
+          321.6000061035156,
+          467.55328979492185
+        ],
+        "source_label": "C-00087"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          444.794189453125,
+          345.33978271484375,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          442.57329711914065,
+          348.3000061035156,
+          467.55328979492185
+        ],
+        "source_label": "K-00087"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          441.9921875,
+          370.2398681640625,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          442.57329711914065,
+          375.0000061035156,
+          467.55328979492185
+        ],
+        "source_label": "D-00087"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Character is vertically stacked, not a ritual side-by-side compound.",
+    "Top figure has TWO shallow open-top U courses stacked vertically, both joined at their bottoms by ONE tall central upright. Center upright starts above upper U and ends at lower U bottom.",
+    "Exactly FOUR free outer arm tips in top figure (left/right for each U), plus central upper tip. Lower U tips stay a clear small gap BELOW upper U bottom; do not connect side edges into closed boxes.",
+    "Choose coherent two-U construction shared by THX/CCZ/QJZ after considering DYC's broader angular alternative.",
+    "Below upper figure is a SEPARATE short horizontal separator; below that a clearly LONGER horizontal crossbar.",
+    "From longer lower crossbar: one attached long center leg descends, with TWO detached flank legs starting below and curving outward. Exactly THREE lower ends. No additional top bars, counters or descending arms."
+  ],
+  "status": "visual_match_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D05B",
+    "verdict": "match",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Character is vertically stacked, not a ritual side-by-side compound.",
+      "Top figure has TWO shallow open-top U courses stacked vertically, both joined at their bottoms by ONE tall central upright. Center upright starts above upper U and ends at lower U bottom.",
+      "Exactly FOUR free outer arm tips in top figure (left/right for each U), plus central upper tip. Lower U tips stay a clear small gap BELOW upper U bottom; do not connect side edges into closed boxes.",
+      "Choose coherent two-U construction shared by THX/CCZ/QJZ after considering DYC's broader angular alternative.",
+      "Below upper figure is a SEPARATE short horizontal separator; below that a clearly LONGER horizontal crossbar.",
+      "From longer lower crossbar: one attached long center leg descends, with TWO detached flank legs starting below and curving outward. Exactly THREE lower ends. No additional top bars, counters or descending arms."
+    ],
+    "notes": [
+      "All4 enlarged specimens considered. Coherent THX/CCZ/QJZ two-U upper construction selected; DYC broad angular alternative reviewed.",
+      "Both shallow U courses remain open with four free outer arm tips and one central upper tip; common center stem ends at lower U bottom. Lower U tips stay below upper U with visible gap, no closed side boxes.",
+      "Separate shorter separator and longer lower crossbar retained. Center descending leg attached to long crossbar, two curved flank legs detached, exactlythree lower ends.",
+      "Rounded constant-width draft trajectory preserved without adding a side ritual radical."
+    ],
+    "source_png": "design/seal-individual/U3D05B.png",
+    "source_png_sha256": "571d6d87f3f94769d4eb095cc7682befbf8cb4527b6730c2f07d3c414d21eddd",
+    "reference_overview": "reference/seal/individual/U3D05B.png",
+    "reference_png_sha256": "c8f3dfe2a9163cee808ff78d5eb2b8022366ba2c6bad22d22e8b57a187407bd3",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D05B-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "review_file": "design/seal-individual/reviews/U3D05B.json",
+  "review_file_sha256": "025b017db76e44ae0ad7fbde7db3ca20a55a4f51d2ce0a2119fbceac1cd0c17e"
+}

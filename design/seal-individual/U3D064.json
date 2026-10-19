@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D064",
+  "code_point": "U+3D064",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D064.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL READING AID:\n1. THX, CCZ, QJZ available; DYC unavailable. Left ritual radical: detached short top bar over longer lower bar, attached long middle descender and two detached long side descenders.\n2. Right component has a single TOP HORIZONTAL attached to a vertical center stem. That right top bar is wider than the short upper-left bar and comparable to or wider than lower-left bar.\n3. Two short downward-curving ARMS emerge together from center stem below the top bar, spreading left/right in a shallow rounded arch. Both arms end freely above the leg split; do not connect them to legs.\n4. Center stem continues below arm junction, then forks into exactly TWO long outward-curving LEGS, ending around ritual descender depth. Right component has no third center leg below fork and no counters.\n5. Arm span and bottom leg span are broader than the right top bar; preserve clear shoulder-to-leg spaces and smooth continuous stem-to-leg trajectories.\nPreserve TWO short arms and TWO long forked legs on the right, joined through the stem below its top bar. Thin equal-width pen, rounded curves, no brush swelling.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D064.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL READING AID:\n1. THX, CCZ, QJZ available; DYC unavailable. Left ritual radical: detached short top bar over longer lower bar, attached long middle descender and two detached long side descenders.\n2. Right component has a single TOP HORIZONTAL attached to a vertical center stem. That right top bar is wider than the short upper-left bar and comparable to or wider than lower-left bar.\n3. Two short downward-curving ARMS emerge together from center stem below the top bar, spreading left/right in a shallow rounded arch. Both arms end freely above the leg split; do not connect them to legs.\n4. Center stem continues below arm junction, then forks into exactly TWO long outward-curving LEGS, ending around ritual descender depth. Right component has no third center leg below fork and no counters.\n5. Arm span and bottom leg span are broader than the right top bar; preserve clear shoulder-to-leg spaces and smooth continuous stem-to-leg trajectories.\nPreserve TWO short arms and TWO long forked legs on the right, joined through the stem below its top bar. Thin equal-width pen, rounded curves, no brush swelling.",
+  "reading_criteria": [
+    "THX, CCZ, QJZ available; DYC unavailable. Left ritual radical: detached short top bar over longer lower bar, attached long middle descender and two detached long side descenders.",
+    "Right component has a single TOP HORIZONTAL attached to a vertical center stem. That right top bar is wider than the short upper-left bar and comparable to or wider than lower-left bar.",
+    "Two short downward-curving ARMS emerge together from center stem below the top bar, spreading left/right in a shallow rounded arch. Both arms end freely above the leg split; do not connect them to legs.",
+    "Center stem continues below arm junction, then forks into exactly TWO long outward-curving LEGS, ending around ritual descender depth. Right component has no third center leg below fork and no counters.",
+    "Arm span and bottom leg span are broader than the right top bar; preserve clear shoulder-to-leg spaces and smooth continuous stem-to-leg trajectories."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D064.png",
+  "reference_sha256": "ed032f8c4db21a7cf0578ae0366be9d7ad475cfeab315e5ad28c9eeff0db810f",
+  "reference_metadata": {
+    "codepoint": "U+3D064",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      95.05015563964844,
+      414.3593444824219,
+      106.20993041992188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          93.32100677490234,
+          441.7799987792969,
+          118.50000762939453
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          91.25015563964844,
+          443.79999389648435,
+          118.83331146240235
+        ],
+        "source_label": "TH-X003"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          91.88020324707031,
+          465.6398620605469,
+          113.8800048828125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          91.25015563964844,
+          470.3999938964844,
+          118.83331146240235
+        ],
+        "source_label": "C-00095"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          96.13419342041016,
+          494.1398010253906,
+          117.75596618652344
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          91.25015563964844,
+          497.09999389648436,
+          118.83331146240235
+        ],
+        "source_label": "K-00096"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-3dd71a3f-d531-4c1b-971b-ff575f45d77d.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D064.png",
+  "original_pixels_unchanged": true,
+  "sha256": "612f9ba90ed7599884b702b7befb98130e474fcb3e6d039caa4950a2597e26f3",
+  "transparent_background_requested": true,
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "notes": "Compared enlarged THX, CCZ and QJZ, DYC unavailable: ritual radical three descenders with attached center and shorter upper bar; right broad top bar, central stem, TWO free short downward-curving arms and TWO long forked outward legs preserved. Arm/leg spans broader than top bar, no extra center leg or counters.",
+    "review_file": "design/seal-individual/reviews/U3D064.json",
+    "review_sha256": "cd379693f4e6bc144dc21c803f1a9bf40792fe2fed34c94fb542988314031f9f"
+  }
+}

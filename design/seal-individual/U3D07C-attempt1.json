@@ -1,0 +1,127 @@
+{
+  "code_point": "U+3D07C",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D07C. LEFT separate stem joins three horizontal bars with relative widths TOP100, MIDDLE95, BOTTOM115: bottom clearly but only modestly longer than top. RIGHT UPPER complex has a top horizontal hooking right/down then back left into a central vertical. A LEFT upright/prong curves right across this center as a broad middle bar whose RIGHT end bends down into a short right descending arm. A SECOND lower bar meets center and has a bent-down LEFT end. The center vertical also descends a little below that lower bar. Thus retain EXACTLY THREE downward ends in upper cluster: bent left arm, center stem, bent right arm, with their upper hooked course. No enclosed upper counter. Choose coherent THX courses after comparing all4. BELOW with small CLEAR GAP is a separate broad inverted-U arch with TWO long outer legs. Its upper center has a short upright stub extending above arch; below arch top this short center stem forks into two diagonals meeting arch sides, creating TWO small upper shoulder pockets. Inside lower arch is a separate small U/cup with TWO short upper prongs and ONE crossbar creating exactly ONE lower counter, leaving upper prong space OPEN. The inner U does not touch arch or fork. Lower structure total two shoulder counters plus one cup counter; no extra vertical divider. Preserve upper three-ended structure, gap, lower two long legs, top fork and inner cup.",
+  "structural_reading_aid": "U+3D07C. LEFT separate stem joins three horizontal bars with relative widths TOP100, MIDDLE95, BOTTOM115: bottom clearly but only modestly longer than top. RIGHT UPPER complex has a top horizontal hooking right/down then back left into a central vertical. A LEFT upright/prong curves right across this center as a broad middle bar whose RIGHT end bends down into a short right descending arm. A SECOND lower bar meets center and has a bent-down LEFT end. The center vertical also descends a little below that lower bar. Thus retain EXACTLY THREE downward ends in upper cluster: bent left arm, center stem, bent right arm, with their upper hooked course. No enclosed upper counter. Choose coherent THX courses after comparing all4. BELOW with small CLEAR GAP is a separate broad inverted-U arch with TWO long outer legs. Its upper center has a short upright stub extending above arch; below arch top this short center stem forks into two diagonals meeting arch sides, creating TWO small upper shoulder pockets. Inside lower arch is a separate small U/cup with TWO short upper prongs and ONE crossbar creating exactly ONE lower counter, leaving upper prong space OPEN. The inner U does not touch arch or fork. Lower structure total two shoulder counters plus one cup counter; no extra vertical divider. Preserve upper three-ended structure, gap, lower two long legs, top fork and inner cup.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D07C.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-026e5c69-087b-4122-b5ea-45f5b063e54a.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-026e5c69-087b-4122-b5ea-45f5b063e54a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D07C.png",
+  "original_pixels_unchanged": true,
+  "sha256": "d65634e7e620c56b333b2508bea9b595afe45848493ae29d2ebfba0c67ae680c",
+  "reference_sha256": "ac8a822fbc6632a717430d2c12bd8a93f76afe6632fb61e1ec42bc19cd5b720c",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D07C",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      221.83018493652344,
+      118.41938781738281,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          220.10096740722656,
+          144.17999267578125,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          220.6332794189453,
+          146.20000305175782,
+          245.67326965332032
+        ],
+        "source_label": "TH-00114"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          218.66017150878906,
+          168.03985595703125,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          220.6332794189453,
+          172.8000030517578,
+          245.67326965332032
+        ],
+        "source_label": "C-00118"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          222.91415405273438,
+          196.539794921875,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          220.6332794189453,
+          199.5000030517578,
+          245.67326965332032
+        ],
+        "source_label": "K-00119"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          220.11215209960938,
+          221.43984985351562,
+          245.14793395996094
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          220.6332794189453,
+          226.20000305175782,
+          245.67326965332032
+        ],
+        "source_label": "D-00113"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "failed_visual_comparison",
+  "visual_review": {
+    "verdict": "mismatch",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Chosen coherent THX form retains upper three-ended complex and a small gap before lower arch.",
+      "Lower Y fork endpoints must JOIN outer arch sides to form two closed shoulder pockets; inner separate U has one counter."
+    ],
+    "notes": [
+      "Attempt1 leaves lower Y diagonal endpoints free, omitting the two shoulder-pocket counters in the requested THX gap form. QJZ/DYC have free-fork alternatives but their upper/lower stem contacts differ, so this is not certified as a coherent whole variant."
+    ],
+    "caveats": [
+      "Second and final native attempt will join fork endpoints; attempt1 original and metadata will be archived."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D07C.json",
+    "review_sha256": "7dfbebdb472a5a0799b31574c1e0cb2cff289521006caeda0bd1d7bb02d023fe"
+  }
+}

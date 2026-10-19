@@ -1,0 +1,150 @@
+{
+  "codepoint": "U+3D04F",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D04F. Detailed reading aid: LEFT altar: detached short top dash above longer bar attached to long central vertical; TWO detached long flank strokes. RIGHT has TWO separated major components. UPPER component: a continuous open round spiral/hook at top, with its FREE inner endpoint at upper-right INSIDE the opening. Follow the reference's course around the rounded top then inward/down into a CENTRAL upright, ending at a horizontal floor below. DoNOTclose thetopspiral. This central stem has ONE short RIGHT-facing middle branch that curvesUP at its free right tip. At base one L-shaped course starts with a short LEFT upright free tip, goesDOWN thenRIGHT as a floor through central stem, with long free right end. Choose coherent open THX/CCZ/DYC form after comparing allfour, rather than QJZjoinedloop/lowerform. LOWER component is a separate large curved FAN/ear construction: outerstroke starts at its lowerLEFT freeendpoint, curvesUP around a rounded top, downRIGHT then sweepsbackLEFT anddescends into a long lower tail. Inside this fan, exactly TWO short curved diagonal TEETH attach at the upper-left/left curved outerboundary, then arc downRIGHT to TWO FREE interior endpoints. Both teeth stop BEFORE the opposite outerboundary; keep gaps so there areNOclosedfanfields. Preserve two teeth, not one or three; do not replace them with horizontal crossbars. Keep upperfloor detached fromlowerfan. Entireglyph hasZEROenclosedcounters: openupperspiral, openlowerfan, and bothteethfreeatinsideends. Lowerfantailendsneartheoverallbaseline.",
+  "structural_reading_aid": "LEFT altar: detached short top dash above longer bar attached to long central vertical; TWO detached long flank strokes. RIGHT has TWO separated major components. UPPER component: a continuous open round spiral/hook at top, with its FREE inner endpoint at upper-right INSIDE the opening. Follow the reference's course around the rounded top then inward/down into a CENTRAL upright, ending at a horizontal floor below. DoNOTclose thetopspiral. This central stem has ONE short RIGHT-facing middle branch that curvesUP at its free right tip. At base one L-shaped course starts with a short LEFT upright free tip, goesDOWN thenRIGHT as a floor through central stem, with long free right end. Choose coherent open THX/CCZ/DYC form after comparing allfour, rather than QJZjoinedloop/lowerform. LOWER component is a separate large curved FAN/ear construction: outerstroke starts at its lowerLEFT freeendpoint, curvesUP around a rounded top, downRIGHT then sweepsbackLEFT anddescends into a long lower tail. Inside this fan, exactly TWO short curved diagonal TEETH attach at the upper-left/left curved outerboundary, then arc downRIGHT to TWO FREE interior endpoints. Both teeth stop BEFORE the opposite outerboundary; keep gaps so there areNOclosedfanfields. Preserve two teeth, not one or three; do not replace them with horizontal crossbars. Keep upperfloor detached fromlowerfan. Entireglyph hasZEROenclosedcounters: openupperspiral, openlowerfan, and bothteethfreeatinsideends. Lowerfantailendsneartheoverallbaseline.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D04F.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-109a1232-5e1e-4d42-892f-3e49a388dd86.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D04F.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "b0d85c2f9333e7a79cbe14ae69d57ed647e166b6f185c7c567a3e512e01ffe13",
+  "sha256": "b0d85c2f9333e7a79cbe14ae69d57ed647e166b6f185c7c567a3e512e01ffe13",
+  "reference_sha256": "984776c1bfdecfd0ccb50c84ba8726ede20f9e8ddb7bb9ebf17c3e48466fb69a",
+  "source_evidence": {
+    "codepoint": "U+3D04F",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      697.3302001953125,
+      117.30941009521484,
+      708.489990234375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          695.6010131835938,
+          144.17999267578125,
+          720.780029296875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          696.1332641601563,
+          146.20000305175782,
+          721.1732543945312
+        ],
+        "source_label": "TH-00076"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          694.1602172851562,
+          168.03985595703125,
+          716.1600341796875
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          696.1332641601563,
+          172.8000030517578,
+          721.1732543945312
+        ],
+        "source_label": "C-00076"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          698.4142456054688,
+          196.539794921875,
+          720.0360107421875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          696.1332641601563,
+          199.5000030517578,
+          721.1732543945312
+        ],
+        "source_label": "K-00076"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          695.6122436523438,
+          221.43984985351562,
+          720.6480102539062
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          696.1332641601563,
+          226.20000305175782,
+          721.1732543945312
+        ],
+        "source_label": "D-00076"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D04F",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Leftaltar3lowerends.",
+      "Rightupperopenloop→centralstem,midrightupturnedbranchandLfloor,0counters.",
+      "LowerfanDETACHEDupperfloor with2attachedcurvedteeth, bothinteriortipsfree;longtail;0fanfields.",
+      "Exactly2rightmajorcomponents;total0counters."
+    ],
+    "notes": [
+      "Compared all4enlargedrefs. NativepreservescoherentTHX/CCZ/DYCopenupperloopanddetachedlowerfanwholeconstruction;QJZjoined/horizontal-toothalternativeexcluded.",
+      "Exactly2curvedteethattachouterleftboundaryandendinsidewithclearwhitespace,lowerfantailpresent;upperrightloopendpointremainsfree."
+    ],
+    "source_png": "design/seal-individual/U3D04F.png",
+    "source_png_sha256": "b0d85c2f9333e7a79cbe14ae69d57ed647e166b6f185c7c567a3e512e01ffe13",
+    "reference_overview": "reference/seal/individual/U3D04F.png",
+    "reference_png_sha256": "984776c1bfdecfd0ccb50c84ba8726ede20f9e8ddb7bb9ebf17c3e48466fb69a",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D04F-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

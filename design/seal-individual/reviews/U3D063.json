@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D063",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "Compared all three available THX/CCZ/QJZ witnesses; DYC unavailable. Left ritual keeps its detached shorter upperbar, longer attached-center crossbar and detached flanks.",
+    "Right has exactly five descending ends: two short detached flanking marks plus three long legs. The left high stem joins a short rightward bridge into the middle leg; independent tall right stem curves outward; extra left short flank is now present.",
+    "Two short flanks remain distinctly shorter than long legs and detached; native chooses relatively short flank courses. No counter or extra enclosing bar is introduced; preserve their native endpoints in tracing."
+  ],
+  "source_png": "design/seal-individual/U3D063.png",
+  "source_png_sha256": "1a38faeca8e933885960af04904d86d5768685c5f5cc6e28a4616736be159af9",
+  "reference_overview": "reference/seal/individual/U3D063.png",
+  "reference_png_sha256": "9360b500dbd7cf298c8c224a84344a152eeca40dc4283dea08155279ccd27d70",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "bf35cdd21a60948e703b3d556e947f0b82d7b16fb16b9941fbd78b7af7b2f93f",
+      "verdict": "mismatch",
+      "notes": [
+        "First output has only FOUR right descending ends: it omits the detached short LEFT flanking stroke between the ritual radical and the connected main right-component stem. All THX/CCZ/QJZ have that extra short stroke, for FIVE right ends/EIGHT overall. Other bridge and stem separations are retained. One native retry planned."
+      ],
+      "reference_png_sha256": "9360b500dbd7cf298c8c224a84344a152eeca40dc4283dea08155279ccd27d70"
+    }
+  ]
+}

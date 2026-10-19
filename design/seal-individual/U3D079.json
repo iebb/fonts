@@ -1,0 +1,130 @@
+{
+  "code_point": "U+3D079",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D079 is a SIMPLE TWO-COMPONENT glyph. LEFT: ONE tall vertical stem joins exactly THREE horizontal bars, at top, middle and bottom. Top and bottom bars approximately EQUAL width; middle bar about85\u201395% their width. RIGHT: ONE shorter vertical stem joins exactly TWO horizontal bars, top and bottom, making an I/\u5de5-like form with NO middle horizontal. Right bottom bar slightly LONGER than its top (about110%). Right horizontal widths about110\u2013120% the left top bar width. Choose the coherent THX/CCZ/DYC proportion: right I is about65\u201370% as TALL as left three-bar stem and centered vertically against it, so its top is lower and its bottom higher. Both components detached by clear gap. No enclosed counters, curved hooks, side ticks, extra legs or extra third right bar. Compare all four references; preserve this exact inventory and simple proportion.",
+  "structural_reading_aid": "U+3D079 is a SIMPLE TWO-COMPONENT glyph. LEFT: ONE tall vertical stem joins exactly THREE horizontal bars, at top, middle and bottom. Top and bottom bars approximately EQUAL width; middle bar about85\u201395% their width. RIGHT: ONE shorter vertical stem joins exactly TWO horizontal bars, top and bottom, making an I/\u5de5-like form with NO middle horizontal. Right bottom bar slightly LONGER than its top (about110%). Right horizontal widths about110\u2013120% the left top bar width. Choose the coherent THX/CCZ/DYC proportion: right I is about65\u201370% as TALL as left three-bar stem and centered vertically against it, so its top is lower and its bottom higher. Both components detached by clear gap. No enclosed counters, curved hooks, side ticks, extra legs or extra third right bar. Compare all four references; preserve this exact inventory and simple proportion.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D079.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-6948f348-040a-4ef4-826c-b35d41120112.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-6948f348-040a-4ef4-826c-b35d41120112.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D079.png",
+  "original_pixels_unchanged": true,
+  "sha256": "5ff05bff2b421a9b15a8912be3d6ab1f62d68fd89171c2c18e88864ae3ae8706",
+  "reference_sha256": "8bd924ec68dd3173a1108fd848e91dceed9b9bc15705b7d5c5ca870cdff926f5",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D079",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      126.73020935058594,
+      116.7594223022461,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          125.0009994506836,
+          144.17999267578125,
+          150.17999267578125
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          125.53331146240234,
+          146.20000305175782,
+          150.57329406738282
+        ],
+        "source_label": "TH-00111"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          123.56019592285156,
+          168.03985595703125,
+          145.55999755859375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          125.53331146240234,
+          172.8000030517578,
+          150.57329406738282
+        ],
+        "source_label": "C-00115"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          127.8141860961914,
+          196.539794921875,
+          149.4359588623047
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          125.53331146240234,
+          199.5000030517578,
+          150.57329406738282
+        ],
+        "source_label": "K-00116"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          125.0121841430664,
+          221.43984985351562,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          125.53331146240234,
+          226.20000305175782,
+          150.57329406738282
+        ],
+        "source_label": "D-00110"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Two detached components only: left three-bar vertical, right two-bar I.",
+      "Left top/base approximately equal, middle shorter; right base slightly longer than right top.",
+      "Right component shorter and vertically centered against left in coherent THX/CCZ/DYC variant.",
+      "No counters, extra ticks, or third right bar."
+    ],
+    "notes": [
+      "All four witnesses and enlarged forms compared. Native retains exact simple inventory, detached components and correct bar-length relations.",
+      "Right I height is about60% of left, consistent with the shorter right-body source family; QJZ larger-body alternative not hybridized."
+    ],
+    "caveats": [
+      "QJZ has a taller/larger right I; native chooses the coherent shorter form shared by other witnesses."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D079.json",
+    "review_sha256": "43b5a634cb9aded807ac4fa12fe7cddf88361152c829dc4859b51b58fccc95ed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D069",
+  "code_point": "U+3D069",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D069.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL READING AID:\n1. All FOUR witnesses available. Two nearly equal horizontal bars at TOP and UPPER MIDDLE, joined by ONE central vertical that starts ON top bar, passes through middle bar and ENDS on bottom center of an open bowl.\n2. Middle horizontal is comparable to or slightly longer than top bar; keep their centered relationship and leave no vertical protrusion above top bar.\n3. Lower component is ONE broad rounded U-shaped bowl, OPEN AT TOP. Its left and right tips are FREE and begin well BELOW the middle horizontal, with visible gaps. Neither tip touches either horizontal bar or center stem.\n4. U-bowl curves around bottom to join the center vertical at its floor. Bowl width is approximately the middle bar's width, or a little narrower. Both lower chambers remain OPEN to exterior through gaps above side tips; do NOT turn them into closed counters.\n5. Only four intentional stroke courses: two bars, center stem, one continuous U-bowl. Uniform thin geometric monoline with rounded ends; do not copy pointed elliptical brush bars.\nEssential: lower bowl is OPEN, its TWO free tips have clear gaps below the middle horizontal. Center stem joins bowl floor, and there are NO closed counters anywhere. Preserve the actual rounded bowl trajectory attested across all witnesses. Use truly thin constant-width strokes around30px on1024canvas.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D069.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL READING AID:\n1. All FOUR witnesses available. Two nearly equal horizontal bars at TOP and UPPER MIDDLE, joined by ONE central vertical that starts ON top bar, passes through middle bar and ENDS on bottom center of an open bowl.\n2. Middle horizontal is comparable to or slightly longer than top bar; keep their centered relationship and leave no vertical protrusion above top bar.\n3. Lower component is ONE broad rounded U-shaped bowl, OPEN AT TOP. Its left and right tips are FREE and begin well BELOW the middle horizontal, with visible gaps. Neither tip touches either horizontal bar or center stem.\n4. U-bowl curves around bottom to join the center vertical at its floor. Bowl width is approximately the middle bar's width, or a little narrower. Both lower chambers remain OPEN to exterior through gaps above side tips; do NOT turn them into closed counters.\n5. Only four intentional stroke courses: two bars, center stem, one continuous U-bowl. Uniform thin geometric monoline with rounded ends; do not copy pointed elliptical brush bars.\nEssential: lower bowl is OPEN, its TWO free tips have clear gaps below the middle horizontal. Center stem joins bowl floor, and there are NO closed counters anywhere. Preserve the actual rounded bowl trajectory attested across all witnesses. Use truly thin constant-width strokes around30px on1024canvas.",
+  "reading_criteria": [
+    "All FOUR witnesses available. Two nearly equal horizontal bars at TOP and UPPER MIDDLE, joined by ONE central vertical that starts ON top bar, passes through middle bar and ENDS on bottom center of an open bowl.",
+    "Middle horizontal is comparable to or slightly longer than top bar; keep their centered relationship and leave no vertical protrusion above top bar.",
+    "Lower component is ONE broad rounded U-shaped bowl, OPEN AT TOP. Its left and right tips are FREE and begin well BELOW the middle horizontal, with visible gaps. Neither tip touches either horizontal bar or center stem.",
+    "U-bowl curves around bottom to join the center vertical at its floor. Bowl width is approximately the middle bar's width, or a little narrower. Both lower chambers remain OPEN to exterior through gaps above side tips; do NOT turn them into closed counters.",
+    "Only four intentional stroke courses: two bars, center stem, one continuous U-bowl. Uniform thin geometric monoline with rounded ends; do not copy pointed elliptical brush bars."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D069.png",
+  "reference_sha256": "44db12b13cf06378d6a16ad2f6265b1ae0cf3dd79728abc5c84c03852bcf54c9",
+  "reference_metadata": {
+    "codepoint": "U+3D069",
+    "page": 3,
+    "label_bbox": [
+      384.8999938964844,
+      253.57017517089844,
+      414.3593444824219,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          251.78102111816406,
+          441.7799987792969,
+          276.96002197265625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          252.3732696533203,
+          443.79999389648435,
+          277.3532775878906
+        ],
+        "source_label": "TH-00096"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          250.34022521972656,
+          465.6398620605469,
+          272.34002685546875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          252.3732696533203,
+          470.3999938964844,
+          277.3532775878906
+        ],
+        "source_label": "C-00100"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          254.59420776367188,
+          494.1398010253906,
+          276.2159729003906
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          252.3732696533203,
+          497.09999389648436,
+          277.3532775878906
+        ],
+        "source_label": "K-00101"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          251.79220581054688,
+          519.0398559570312,
+          276.8279724121094
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          252.3732696533203,
+          523.7999938964844,
+          277.3532775878906
+        ],
+        "source_label": "D-00096"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-2bd41f2e-6ce9-411a-b0b2-8dbb49008d03.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D069.png",
+  "original_pixels_unchanged": true,
+  "sha256": "09a206ae0018df40edb513b1b6aaeebf9919b35ad06c64ff8025edb6c9ec7cde",
+  "transparent_background_requested": true,
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "notes": "All four witnesses compared: two upper horizontals near-equal with lower slightly longer, central stem starts on top bar and ends on bowl floor, ONE open U-bowl with TWO free tips well below middle bar. Both chambers remain open externally, no closed counters or extra tip. Bowl width slightly narrower than middle bar; native shared pen heavier than requested approximation, final font width remains independently enforced.",
+    "review_file": "design/seal-individual/reviews/U3D069.json",
+    "review_sha256": "2f0d1535fb65cdce57e8e6eca79a375f5093723684031736d9fb57c9c7e6da5b"
+  }
+}

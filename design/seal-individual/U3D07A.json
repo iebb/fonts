@@ -1,0 +1,129 @@
+{
+  "code_point": "U+3D07A",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal font glyph from the attached reference image. It shows FOUR historical specimen slots of the SAME character labelled THX, CCZ, QJZ and DYC; any slot marked UNAVAILABLE is absent evidence. Study ALL AVAILABLE specimens equally. Reconstruct one coherent attested whole form with the original ancient identity; do not combine incompatible variant components, imitate only THX, or substitute a modern Chinese character.\n\nBuild genuine smooth stroke trajectories as original harmonious Gothic monoline drawing, with absolutely CONSTANT stroke width around 3% of the full canvas. All strokes must share that width, with round caps and round joins, smooth rounded curves and precise straight bars, no taper, swelling, brush outlines, serifs, pressure modulation, textures or blobs. Keep every required counter and gap clearly open. Essential bar length relationships, branches, descending legs, tiny detached marks and contacts are structural requirements, not decoration.\n\nUse a square 1:1 canvas. Center the ONE glyph inside the central70% with generous clear margins. Output ONLY pure BLACK constant-width strokes on a fully TRANSPARENT background, with no labels, text, codepoint, chart, grid, background, frame, shadows, watermark or multiple specimens. Exactly one complete glyph.\n\nExplicit structural/proportion reading aid:\nU+3D07A is a VERTICALLY STACKED glyph, not left/right radicals. Choose coherent THX/DYC whole form with a CLEAR GAP between upper and lower components (CCZ/QJZ connected forms are different variants). UPPER component: one central vertical stem rises a little ABOVE a wide STRAIGHT HORIZONTAL top bar. Immediately below that bar, TWO small detached roof-shaped chevrons (\u2227) lie left/right of the stem, one per side. Each chevron consists of two short diagonals meeting at an upward apex; all four chevron ends remain free. Lower in upper component, a broad INVERTED-U/umbrella arch curves from left lower tip up to meet the center stem, then down to right lower tip. The center stem continues down inside that arch to approximately the arch-tip height. Exactly THREE downward ends here (left arch leg, center stem, right arch leg), with no horizontal closing line. BELOW with clear gap is a separate \u738b-like stem joining THREE parallel horizontal bars. Top and middle lower bars about EQUAL length; bottom bar modestly LONGER (about110\u2013115% of top), not shorter. Lower base width about same or slightly wider than upper top bar. Upper component around60% of full glyph height, lower around30%, gap clear. NO enclosed counters anywhere. Preserve two detached chevrons, upper three-ended umbrella and all three lower bars.",
+  "structural_reading_aid": "U+3D07A is a VERTICALLY STACKED glyph, not left/right radicals. Choose coherent THX/DYC whole form with a CLEAR GAP between upper and lower components (CCZ/QJZ connected forms are different variants). UPPER component: one central vertical stem rises a little ABOVE a wide STRAIGHT HORIZONTAL top bar. Immediately below that bar, TWO small detached roof-shaped chevrons (\u2227) lie left/right of the stem, one per side. Each chevron consists of two short diagonals meeting at an upward apex; all four chevron ends remain free. Lower in upper component, a broad INVERTED-U/umbrella arch curves from left lower tip up to meet the center stem, then down to right lower tip. The center stem continues down inside that arch to approximately the arch-tip height. Exactly THREE downward ends here (left arch leg, center stem, right arch leg), with no horizontal closing line. BELOW with clear gap is a separate \u738b-like stem joining THREE parallel horizontal bars. Top and middle lower bars about EQUAL length; bottom bar modestly LONGER (about110\u2013115% of top), not shorter. Lower base width about same or slightly wider than upper top bar. Upper component around60% of full glyph height, lower around30%, gap clear. NO enclosed counters anywhere. Preserve two detached chevrons, upper three-ended umbrella and all three lower bars.",
+  "reference": "/workspace/unifont/reference/seal/individual/U3D07A.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-cc0fc7e5-6440-43c4-9582-6e8e90334168.png",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-cc0fc7e5-6440-43c4-9582-6e8e90334168.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D07A.png",
+  "original_pixels_unchanged": true,
+  "sha256": "684ecfc9de09c921145c21d6b60ddf8276c340c203f010393ae76c56ccdf81ca",
+  "reference_sha256": "c0eb59b7fdfb67a21afaeff61035f3edf6a36495d7b72e3f0ea177dabe9599e6",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D07A",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      158.47019958496094,
+      117.86940002441406,
+      169.62997436523438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          156.6809844970703,
+          144.17999267578125,
+          181.8599853515625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          157.2732940673828,
+          146.20000305175782,
+          182.25328674316407
+        ],
+        "source_label": "TH-00112"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          155.2401885986328,
+          168.03985595703125,
+          177.239990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          157.2732940673828,
+          172.8000030517578,
+          182.25328674316407
+        ],
+        "source_label": "C-00116"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          159.49417114257812,
+          196.539794921875,
+          181.11595153808594
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          157.2732940673828,
+          199.5000030517578,
+          182.25328674316407
+        ],
+        "source_label": "K-00117"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          156.69216918945312,
+          221.43984985351562,
+          181.7279510498047
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          157.2732940673828,
+          226.20000305175782,
+          182.25328674316407
+        ],
+        "source_label": "D-00111"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_evidence": [],
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "method": "white inspection composite compared against all available reference specimens",
+    "reading_criteria": [
+      "Vertically stacked THX/DYC-type form with clear gap between upper tree/umbrella and lower three-bar stem.",
+      "Upper wide bar, tall central stub, two detached roof chevrons and broad arch with three lower ends.",
+      "Lower top/middle bars comparable; bottom longest; no enclosed counters."
+    ],
+    "notes": [
+      "All four references and enlarged forms compared. Native preserves chosen detached whole form, both chevrons, three upper downward ends and lower three-bar base.",
+      "Lower bottom bar longer than top/middle; all gaps open."
+    ],
+    "caveats": [
+      "CCZ/QJZ join upper stem into lower bars as different whole variants; native follows THX/DYC separation."
+    ],
+    "review_file": "design/seal-individual/reviews/U3D07A.json",
+    "review_sha256": "cc3c80c03d7bb45881622b22ceba13cc522a1eef8de48bd6129a85e020ad2fd0"
+  }
+}

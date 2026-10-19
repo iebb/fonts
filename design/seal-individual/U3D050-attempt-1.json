@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D050",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph using the attached four-specimen Unicode reference. The four labelled samples THX, CCZ, QJZ, DYC all show ONE character. Study every AVAILABLE view equally, including small stroke junctions, bar lengths, counters and separate legs. An UNAVAILABLE blank is not evidence. Choose a coherent attested whole structure where sources vary; never mix incompatible alternatives, privilege THX, trace a single brush silhouette or substitute a modern Chinese character.\n\nCreate genuine, clean, smooth pen trajectories: BLACK strokes with the SAME CONSTANT WIDTH everywhere, approximately3% of the full square canvas. Shape only their centerline paths; no swelling, brush contrast, taper, pointed ends, roughness, texture, serifs, shadows or decoration. Roundcaps and smoothly rounded joins; controlled curves, generous open channels and counters. Preserve exact stroke inventory, meaningful short/long bar relationships, detachments and attachments.\n\nOnly ONE glyph centered in the central70% of a square TRANSPARENT canvas, ample margin. No labels, names, codepoints, text, numbers, reference copies, multiple variants, grid, background or border. The following explicit structural reading aid clarifies the character; it remains subordinate to all four historical specimens.\n\nU+3D050 reading aid:\n1. Left ritual form: upper detached dash about3/4 the lower crossbar width; center descending leg attached to lower crossbar, two curved flank legs detached.\n2. Right outer shelter: long top horizontal rounding into independent long descending left wall; whole shelter remains separated from left ritual form.\n3. Inside shelter: detached short horizontal dash above a distinctly LONGER crossbar; preserve a clear vertical gap.\n4. From longer inner crossbar a center upright descends into lower inset form; inset left wall begins separately below the crossbar and rounds right into its bottom.\n5. Small right-hand closed counter: center upright at left, short top-right branch/roof, right descending wall, bottom support. Exactly ONE closed lower counter; adjacent left U channel open above.\n6. Right inset wall continues downward beyond the small counter as a long right leg. Shelter left leg and long right leg both present and distinct.\nKeep the right lower form narrow and flowing, as shared by all specimens; do not turn its open upper-left channel into a second closed box. Use one coherent all-source structure, uniform3%canvas stroke weight.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D050.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-82b3eb8f-633f-4b69-91ed-d422c0a9e887.png",
+  "original_generated_sha256": "506c4f8c2c3a23cc3fb04059a1bcdf264f457dd95a85c4834acf02fcd4bca7f2",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D050.png",
+  "output_sha256": "506c4f8c2c3a23cc3fb04059a1bcdf264f457dd95a85c4834acf02fcd4bca7f2",
+  "reference_path": "/workspace/unifont/reference/seal/individual/U3D050.png",
+  "reference_sha256": "270cc036a53bdc0f189ce3222faa7297f8958bb8a19505582d90d0fd74d97c8b",
+  "reference_metadata_path": "/workspace/unifont/reference/seal/individual/U3D050.json",
+  "reference_metadata_sha256": "501094799e9e2bad9d2e768651db9cbe9cd8e659ecc0b5a9f3639d4fb97416d9",
+  "source_evidence": {
+    "codepoint": "U+3D050",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      95.05015563964844,
+      265.5594177246094,
+      106.20993041992188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          93.32100677490234,
+          292.9800109863281,
+          118.50000762939453
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          91.25015563964844,
+          295.0000061035156,
+          118.83331146240235
+        ],
+        "source_label": "TH-00077"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          91.88020324707031,
+          316.8398742675781,
+          113.8800048828125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          91.25015563964844,
+          321.6000061035156,
+          118.83331146240235
+        ],
+        "source_label": "C-00077"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          96.13419342041016,
+          345.33978271484375,
+          117.75596618652344
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          91.25015563964844,
+          348.3000061035156,
+          118.83331146240235
+        ],
+        "source_label": "K-00077"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          93.33219146728516,
+          370.2398681640625,
+          118.36796569824219
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          91.25015563964844,
+          375.0000061035156,
+          118.83331146240235
+        ],
+        "source_label": "D-00077"
+      }
+    }
+  },
+  "transparent_background_requested": true,
+  "original_pixels_unchanged": true,
+  "method": "One original glyph informed equally by all available THX/CCZ/QJZ/DYC specimens; coherent attested whole variant, with explicit reading criteria.",
+  "reading_criteria": [
+    "Left ritual form: upper detached dash about3/4 the lower crossbar width; center descending leg attached to lower crossbar, two curved flank legs detached.",
+    "Right outer shelter: long top horizontal rounding into independent long descending left wall; whole shelter remains separated from left ritual form.",
+    "Inside shelter: detached short horizontal dash above a distinctly LONGER crossbar; preserve a clear vertical gap.",
+    "From longer inner crossbar a center upright descends into lower inset form; inset left wall begins separately below the crossbar and rounds right into its bottom.",
+    "Small right-hand closed counter: center upright at left, short top-right branch/roof, right descending wall, bottom support. Exactly ONE closed lower counter; adjacent left U channel open above.",
+    "Right inset wall continues downward beyond the small counter as a long right leg. Shelter left leg and long right leg both present and distinct."
+  ],
+  "status": "visual_mismatch_draft",
+  "flags": {
+    "historical_stroke_order_unverified": true,
+    "specialist_identity_unverified": true,
+    "constant_width_unverified": true,
+    "not_font_source": true
+  },
+  "native_mode": "RGBA",
+  "native_size": [
+    1254,
+    1254
+  ],
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D050",
+    "verdict": "mismatch",
+    "reviewer": "consensus_b native drawing review; independent engine review still required",
+    "attempt": 1,
+    "reading_criteria": [
+      "Left ritual form: upper detached dash about3/4 the lower crossbar width; center descending leg attached to lower crossbar, two curved flank legs detached.",
+      "Right outer shelter: long top horizontal rounding into independent long descending left wall; whole shelter remains separated from left ritual form.",
+      "Inside shelter: detached short horizontal dash above a distinctly LONGER crossbar; preserve a clear vertical gap.",
+      "From longer inner crossbar a center upright descends into lower inset form; inset left wall begins separately below the crossbar and rounds right into its bottom.",
+      "Small right-hand closed counter: center upright at left, short top-right branch/roof, right descending wall, bottom support. Exactly ONE closed lower counter; adjacent left U channel open above.",
+      "Right inset wall continues downward beyond the small counter as a long right leg. Shelter left leg and long right leg both present and distinct."
+    ],
+    "notes": [
+      "Primary intentionally selects immutable native attempt1, the closer whole structure after all-four reference comparison. Attempt2 remains archived and rejected because it merges the separate inner wall into the outer shelter.",
+      "Chosen attempt1 preserves the full long outer shelter left descender, separate inset left wall, inner dash/crossbar order, one small closed right counter and long right descending leg.",
+      "Remaining mismatch: inset left U bottom ends separately beneath counter instead of joining central upright/counter at a shared baseline. All four specimens show the shared connected baseline; explicit minimal vector bridge required before acceptance.",
+      "Native PNG remains unaltered; mismatch verdict binds attempt1 hash. No third image generation used."
+    ],
+    "source_png": "design/seal-individual/U3D050.png",
+    "source_png_sha256": "506c4f8c2c3a23cc3fb04059a1bcdf264f457dd95a85c4834acf02fcd4bca7f2",
+    "reference_overview": "reference/seal/individual/U3D050.png",
+    "reference_png_sha256": "270cc036a53bdc0f189ce3222faa7297f8958bb8a19505582d90d0fd74d97c8b",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_composite": "/tmp/seal-native-b-3D050-attempt-1.png",
+    "limitations": [
+      "Visual comparison of all available supplied chart specimens; not specialist identity or historical-order certification.",
+      "Verdict applies only to the unchanged native PNG hash recorded here; actual-font tracing requires separate review."
+    ]
+  },
+  "chosen_attempt": 1,
+  "chosen_attempt_reason": "Attempt1 preserves the separate inset left wall AND full outer shelter descender; only one inset baseline gap needs vector bridge. Attempt2 merges those distinct courses and is rejected as less faithful.",
+  "rejected_alternative_attempt": 2,
+  "rejected_alternative_png": "/workspace/unifont/design/seal-individual/U3D050-attempt-2.png",
+  "rejected_alternative_metadata": "/workspace/unifont/design/seal-individual/U3D050-attempt-2.json",
+  "review_file": "design/seal-individual/reviews/U3D050.json",
+  "review_file_sha256": "049f52c4daf2389d5759939e57943630db40b88156773c8a293d154ca594b2c7"
+}

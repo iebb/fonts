@@ -1,8 +1,8 @@
 {
   "font": "fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf",
-  "font_sha256": "43d96e52a7a7eae24f0fd228690fc4ca477d301961c62e7837dcc89e030159f2",
+  "font_sha256": "8ffad16921da1929e7cc4192dadcdce895045cf117b95f9879d8fe81e34bada5",
   "specification": "/workspace/unifont/design/quality/invariants.json",
-  "specification_sha256": "d8ed7bf49d38fbd5da05b0b4414f8cc5a8b9ff56376cebbb4e448c34f28ab987",
+  "specification_sha256": "43c51a43a7fce566dc1012c046c42b25ab11c6fb0d275ece2fb45e6f7c1f865a",
   "rasterizer": "Pillow / FreeType; actual TTF or variable-font raster",
   "raster_em_pixels": 2048,
   "ink_threshold": 128,
@@ -585,6 +585,253 @@
       "errors": []
     },
     {
+      "codepoint": "U+3D045",
+      "weight": 300.0,
+      "criterion": "roi_return_curves",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D045.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Two detached small opposing return curves inside the larger winding S. The upper opens left; the lower opens right. Both have separated upper and lower arms, rather than a single horizontal bar.",
+        "regression": "The closer native attempt flattened both returns to bars. Only those two courses are corrected. This check certifies Light and Regular; denser weights retain the curves but merge some ink and remain optically unaccepted."
+      },
+      "passed": true,
+      "measured": {
+        "regions": [
+          {
+            "name": "upper right-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  24,
+                  7,
+                  274,
+                  169
+                ],
+                "ink_pixels": 23944,
+                "ink_span_pixels": 250,
+                "height_pixels": 162,
+                "horizontal_aspect": 1.5432098765432098,
+                "fill_ratio": 0.5912098765432099,
+                "center_y_pixels": 87.5
+              }
+            ],
+            "boundary_fragments": [],
+            "height_to_width_ratio": 0.648
+          },
+          {
+            "name": "lower left-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  28,
+                  19,
+                  312,
+                  185
+                ],
+                "ink_pixels": 27513,
+                "ink_span_pixels": 284,
+                "height_pixels": 166,
+                "horizontal_aspect": 1.7108433734939759,
+                "fill_ratio": 0.5835949431528933,
+                "center_y_pixels": 101.5
+              }
+            ],
+            "boundary_fragments": [
+              {
+                "bbox_pixels": [
+                  0,
+                  0,
+                  74,
+                  20
+                ],
+                "ink_pixels": 604,
+                "ink_span_pixels": 74,
+                "height_pixels": 20,
+                "horizontal_aspect": 3.7,
+                "fill_ratio": 0.4081081081081081,
+                "center_y_pixels": 9.5
+              },
+              {
+                "bbox_pixels": [
+                  0,
+                  198,
+                  1,
+                  199
+                ],
+                "ink_pixels": 1,
+                "ink_span_pixels": 1,
+                "height_pixels": 1,
+                "horizontal_aspect": 1.0,
+                "fill_ratio": 1.0,
+                "center_y_pixels": 198.0
+              }
+            ],
+            "height_to_width_ratio": 0.5845070422535211
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 300.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          350,
+          32,
+          1762,
+          1556
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 228,
+          "row_pixels": 239,
+          "ink_run_pixels": [
+            382,
+            610
+          ],
+          "roi_rows_pixels": [
+            180,
+            301
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 304,
+          "row_pixels": 1161,
+          "ink_run_pixels": [
+            350,
+            654
+          ],
+          "roi_rows_pixels": [
+            1093,
+            1215
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.75
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 300.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          478,
+          33,
+          1634,
+          1557
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 382,
+          "row_pixels": 344,
+          "ink_run_pixels": [
+            524,
+            906
+          ],
+          "roi_rows_pixels": [
+            283,
+            405
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 450,
+          "row_pixels": 1169,
+          "ink_run_pixels": [
+            478,
+            928
+          ],
+          "roi_rows_pixels": [
+            1101,
+            1223
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8488888888888889
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 300.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D049.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the chosen open construction, both upper cups stay separate from the pitched roof. The native and corrected Light/Regular glyph retain twelve components and two counters.",
+        "regression": "313pixel downsampling created a false cup-to-roof bridge absent in the full1254pixel native. Remove only the artificial bridge and restore the right cup endpoint from full-resolution native measurements. Heavier ink merges other courses and is not certified by this rule."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 12,
+        "counter_count": 2
+      },
+      "errors": []
+    },
+    {
       "codepoint": "U+3D007",
       "weight": 400.0,
       "criterion": "two_horizontal_bars",
@@ -1150,6 +1397,268 @@
           ]
         },
         "upper_to_lower_ink_span_ratio": 0.7201834862385321
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 400.0,
+      "criterion": "roi_return_curves",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D045.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Two detached small opposing return curves inside the larger winding S. The upper opens left; the lower opens right. Both have separated upper and lower arms, rather than a single horizontal bar.",
+        "regression": "The closer native attempt flattened both returns to bars. Only those two courses are corrected. This check certifies Light and Regular; denser weights retain the curves but merge some ink and remain optically unaccepted."
+      },
+      "passed": true,
+      "measured": {
+        "regions": [
+          {
+            "name": "upper right-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  19,
+                  1,
+                  281,
+                  175
+                ],
+                "ink_pixels": 31140,
+                "ink_span_pixels": 262,
+                "height_pixels": 174,
+                "horizontal_aspect": 1.5057471264367817,
+                "fill_ratio": 0.6830744932877073,
+                "center_y_pixels": 87.5
+              }
+            ],
+            "boundary_fragments": [
+              {
+                "bbox_pixels": [
+                  273,
+                  179,
+                  306,
+                  185
+                ],
+                "ink_pixels": 107,
+                "ink_span_pixels": 33,
+                "height_pixels": 6,
+                "horizontal_aspect": 5.5,
+                "fill_ratio": 0.5404040404040404,
+                "center_y_pixels": 181.5
+              }
+            ],
+            "height_to_width_ratio": 0.6641221374045801
+          },
+          {
+            "name": "lower left-curving return",
+            "components": [
+              {
+                "bbox_pixels": [
+                  22,
+                  12,
+                  320,
+                  192
+                ],
+                "ink_pixels": 35696,
+                "ink_span_pixels": 298,
+                "height_pixels": 180,
+                "horizontal_aspect": 1.6555555555555554,
+                "fill_ratio": 0.6654735272184936,
+                "center_y_pixels": 101.5
+              }
+            ],
+            "boundary_fragments": [
+              {
+                "bbox_pixels": [
+                  0,
+                  0,
+                  177,
+                  26
+                ],
+                "ink_pixels": 1349,
+                "ink_span_pixels": 177,
+                "height_pixels": 26,
+                "horizontal_aspect": 6.8076923076923075,
+                "fill_ratio": 0.29313342025206435,
+                "center_y_pixels": 12.5
+              },
+              {
+                "bbox_pixels": [
+                  0,
+                  191,
+                  31,
+                  201
+                ],
+                "ink_pixels": 159,
+                "ink_span_pixels": 31,
+                "height_pixels": 10,
+                "horizontal_aspect": 3.1,
+                "fill_ratio": 0.5129032258064516,
+                "center_y_pixels": 195.5
+              }
+            ],
+            "height_to_width_ratio": 0.6040268456375839
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 400.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          344,
+          32,
+          1768,
+          1568
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 240,
+          "row_pixels": 247,
+          "ink_run_pixels": [
+            376,
+            616
+          ],
+          "roi_rows_pixels": [
+            181,
+            304
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 316,
+          "row_pixels": 1169,
+          "ink_run_pixels": [
+            344,
+            660
+          ],
+          "roi_rows_pixels": [
+            1102,
+            1225
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.759493670886076
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 400.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          470,
+          33,
+          1642,
+          1569
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 396,
+          "row_pixels": 350,
+          "ink_run_pixels": [
+            518,
+            914
+          ],
+          "roi_rows_pixels": [
+            285,
+            408
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 464,
+          "row_pixels": 1176,
+          "ink_run_pixels": [
+            470,
+            934
+          ],
+          "roi_rows_pixels": [
+            1109,
+            1232
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.853448275862069
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 400.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D049.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the chosen open construction, both upper cups stay separate from the pitched roof. The native and corrected Light/Regular glyph retain twelve components and two counters.",
+        "regression": "313pixel downsampling created a false cup-to-roof bridge absent in the full1254pixel native. Remove only the artificial bridge and restore the right cup endpoint from full-resolution native measurements. Heavier ink merges other courses and is not certified by this rule."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 12,
+        "counter_count": 2
       },
       "errors": []
     },
@@ -1723,6 +2232,138 @@
       "errors": []
     },
     {
+      "codepoint": "U+3D050",
+      "weight": 500.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          338,
+          32,
+          1774,
+          1580
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 252,
+          "row_pixels": 253,
+          "ink_run_pixels": [
+            370,
+            622
+          ],
+          "roi_rows_pixels": [
+            182,
+            306
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 328,
+          "row_pixels": 1175,
+          "ink_run_pixels": [
+            338,
+            666
+          ],
+          "roi_rows_pixels": [
+            1110,
+            1234
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7682926829268293
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 500.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          464,
+          33,
+          1648,
+          1581
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 408,
+          "row_pixels": 356,
+          "ink_run_pixels": [
+            512,
+            920
+          ],
+          "roi_rows_pixels": [
+            287,
+            411
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 476,
+          "row_pixels": 1183,
+          "ink_run_pixels": [
+            464,
+            940
+          ],
+          "roi_rows_pixels": [
+            1118,
+            1242
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8571428571428571
+      },
+      "errors": []
+    },
+    {
       "codepoint": "U+3D007",
       "weight": 600.0,
       "criterion": "two_horizontal_bars",
@@ -2288,6 +2929,138 @@
           ]
         },
         "upper_to_lower_ink_span_ratio": 0.7244444444444444
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 600.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          332,
+          32,
+          1780,
+          1596
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 266,
+          "row_pixels": 261,
+          "ink_run_pixels": [
+            362,
+            628
+          ],
+          "roi_rows_pixels": [
+            184,
+            309
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 340,
+          "row_pixels": 1185,
+          "ink_run_pixels": [
+            332,
+            672
+          ],
+          "roi_rows_pixels": [
+            1121,
+            1246
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7823529411764706
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 600.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          458,
+          32,
+          1654,
+          1594
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 422,
+          "row_pixels": 365,
+          "ink_run_pixels": [
+            504,
+            926
+          ],
+          "roi_rows_pixels": [
+            288,
+            413
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 491,
+          "row_pixels": 1191,
+          "ink_run_pixels": [
+            458,
+            949
+          ],
+          "roi_rows_pixels": [
+            1127,
+            1252
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.8594704684317719
       },
       "errors": []
     },
@@ -2859,6 +3632,194 @@
         "upper_to_lower_ink_span_ratio": 0.7280701754385965
       },
       "errors": []
+    },
+    {
+      "codepoint": "U+3D050",
+      "weight": 700.0,
+      "criterion": "ink_topology",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D050.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The tall outer shelter descender stays separate from the inset bowl. The free-left inset U meets the shared lower baseline of the right loop. The chosen open construction has seven detached components and one closed counter.",
+        "regression": "Native attempt1 leaves the inset U detached below the baseline; native attempt2 folds the shelter into a false extra counter. The reviewed vector repairs only the first attempt inset U lower return."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 7,
+        "counter_count": 1
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D071",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D071.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native baseline was much too long; only that bar was shortened after all-four comparison.",
+        "reference_ratio_range": [
+          0.71,
+          0.85
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          324,
+          32,
+          1788,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 280,
+          "row_pixels": 268,
+          "ink_run_pixels": [
+            356,
+            636
+          ],
+          "roi_rows_pixels": [
+            185,
+            311
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 356,
+          "row_pixels": 1189,
+          "ink_run_pixels": [
+            324,
+            680
+          ],
+          "roi_rows_pixels": [
+            1130,
+            1256
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.7865168539325843
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D077",
+      "weight": 700.0,
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D077.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Left upper bar is distinctly shorter than the bottom baseline; measure both in the isolated left component.",
+        "regression": "The native top/base bars were effectively equal or reversed; only the baseline was extended after all-four comparison.",
+        "reference_ratio_range": [
+          0.77,
+          0.92
+        ]
+      },
+      "passed": true,
+      "measured": {
+        "ink_bbox_pixels": [
+          452,
+          32,
+          1660,
+          1608
+        ],
+        "upper_bar": {
+          "ink_span_pixels": 434,
+          "row_pixels": 371,
+          "ink_run_pixels": [
+            498,
+            932
+          ],
+          "roi_rows_pixels": [
+            291,
+            417
+          ]
+        },
+        "lower_bar": {
+          "ink_span_pixels": 496,
+          "row_pixels": 1198,
+          "ink_run_pixels": [
+            452,
+            948
+          ],
+          "roi_rows_pixels": [
+            1137,
+            1263
+          ]
+        },
+        "upper_to_lower_ink_span_ratio": 0.875
+      },
+      "errors": []
+    }
+  ],
+  "skipped_checks": [
+    {
+      "codepoint": "U+3D045",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D045",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D049",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        300,
+        400
+      ]
     }
   ],
   "errors": []

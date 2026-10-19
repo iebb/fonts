@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D061",
+  "code_point": "U+3D061",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Draw exactly ONE Small Seal glyph U+3D061.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL READING AID:\n1. THX, CCZ and QJZ available; DYC blank. Left ritual component has short top horizontal, longer lower horizontal with attached central descender and two detached side descenders.\n2. Right top is a shallow umbrella/peaked roof (attested THX/QJZ option), with TWO short curved hooks hanging below its left/right slopes, turning outward; a central vertical descends from its apex through the entire right component.\n3. Below the roof is a tall open-bottom rounded arch with two long outside sides; together with central stem these make THREE long descending legs on the right.\n4. Inside that arch are FOUR X crossings arranged TWO ROWS by TWO COLUMNS: upper-left X, upper-right X, lower-left X, lower-right X. Each occupies one half between outer side and center stem. Preserve all eight diagonal writing courses (two per X), keeping visible open white lattice spaces.\n5. No extra horizontal divider bars inside the lattice. Roof and arch connect only through the long central stem, with clear gaps around the two short hanging hooks.\nCritical: FOUR X motifs in a two-by-two lattice, not two or three. Keep all three right descending legs and all three left ritual descenders. Compare all three available witnesses; use a coherent rounded umbrella construction rather than a modern replacement.",
+  "prompt": "Draw exactly ONE Small Seal glyph U+3D061.\nThe supplied chart shows FOUR historical views of the SAME ONE Small Seal character, ordered THX, CCZ, QJZ, DYC. Compare EVERY available witness equally; any slot marked unavailable provides no evidence. Create ONE newly drawn, coherent contemporary sans-serif/Gothic glyph informed by all witnesses, selecting ONE coherent attested construction where variants differ. Never combine incompatible components or replace this with modern Chinese. Trace the real continuous writing-stroke courses using smooth rounded curves and appropriate straight segments; preserve all meaningful branches, legs, bars, counters, crossings, attachments and detachments. Each intentional stroke has the SAME CONSTANT width, approximately 3% of the full canvas, with rounded caps and joins. No brush taper, thick/thin pressure, serifs, texture, ink blobs, doubled outlines or ornamental seal effects. Output exactly ONE complete glyph, black on transparent alpha, centered within the central70% of a square canvas with generous clear margins. No reference copies, four-character layout, labels, text, frames, grid, backdrop or shadows.\nSTRUCTURAL READING AID:\n1. THX, CCZ and QJZ available; DYC blank. Left ritual component has short top horizontal, longer lower horizontal with attached central descender and two detached side descenders.\n2. Right top is a shallow umbrella/peaked roof (attested THX/QJZ option), with TWO short curved hooks hanging below its left/right slopes, turning outward; a central vertical descends from its apex through the entire right component.\n3. Below the roof is a tall open-bottom rounded arch with two long outside sides; together with central stem these make THREE long descending legs on the right.\n4. Inside that arch are FOUR X crossings arranged TWO ROWS by TWO COLUMNS: upper-left X, upper-right X, lower-left X, lower-right X. Each occupies one half between outer side and center stem. Preserve all eight diagonal writing courses (two per X), keeping visible open white lattice spaces.\n5. No extra horizontal divider bars inside the lattice. Roof and arch connect only through the long central stem, with clear gaps around the two short hanging hooks.\nCritical: FOUR X motifs in a two-by-two lattice, not two or three. Keep all three right descending legs and all three left ritual descenders. Compare all three available witnesses; use a coherent rounded umbrella construction rather than a modern replacement.",
+  "reading_criteria": [
+    "THX, CCZ and QJZ available; DYC blank. Left ritual component has short top horizontal, longer lower horizontal with attached central descender and two detached side descenders.",
+    "Right top is a shallow umbrella/peaked roof (attested THX/QJZ option), with TWO short curved hooks hanging below its left/right slopes, turning outward; a central vertical descends from its apex through the entire right component.",
+    "Below the roof is a tall open-bottom rounded arch with two long outside sides; together with central stem these make THREE long descending legs on the right.",
+    "Inside that arch are FOUR X crossings arranged TWO ROWS by TWO COLUMNS: upper-left X, upper-right X, lower-left X, lower-right X. Each occupies one half between outer side and center stem. Preserve all eight diagonal writing courses (two per X), keeping visible open white lattice spaces.",
+    "No extra horizontal divider bars inside the lattice. Roof and arch connect only through the long central stem, with clear gaps around the two short hanging hooks."
+  ],
+  "reference": "/workspace/unifont/reference/seal/individual/U3D061.png",
+  "reference_sha256": "847c1c30de8e9c8ba7b84cabe6e2bae938c3a266e9f6092c581d13147752ac5d",
+  "reference_metadata": {
+    "codepoint": "U+3D061",
+    "page": 3,
+    "label_bbox": [
+      236.10000610351562,
+      633.97021484375,
+      265.5594177246094,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          632.1809692382812,
+          292.9800109863281,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          632.7732788085938,
+          295.0000061035156,
+          657.753271484375
+        ],
+        "source_label": "TH-X001"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          630.7401733398438,
+          316.8398742675781,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          632.7732788085938,
+          321.6000061035156,
+          657.753271484375
+        ],
+        "source_label": "C-00093"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          634.9942016601562,
+          345.33978271484375,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          632.7732788085938,
+          348.3000061035156,
+          657.753271484375
+        ],
+        "source_label": "K-00093"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-4981f24b-14ff-4839-b98e-0befeaf4bd5a.png",
+  "output_file": "/workspace/unifont/design/seal-individual/U3D061.png",
+  "original_pixels_unchanged": true,
+  "sha256": "ec723b56ce1272e22a66bdaadb57a5656ef01f1bf1983b01149ccdb70665cd7e",
+  "transparent_background_requested": true,
+  "status": "visual_comparison_pass_draft",
+  "visual_review": {
+    "verdict": "match",
+    "notes": "Compared THX, CCZ and QJZ, DYC unavailable: coherent peaked umbrella with two hanging outward hooks; full central stem; tall open-bottom arch with three long right legs; FOUR X crossings in two rows and two columns with all eight diagonals and no extra horizontal dividers. Three left ritual descenders retained, center attached to longer lower bar and upper bar shorter.",
+    "review_file": "design/seal-individual/reviews/U3D061.json",
+    "review_sha256": "b6c0e16d6e5715bdee882a7c0928e18bdf9f94190658daa68b6a58a03d9d688e"
+  }
+}

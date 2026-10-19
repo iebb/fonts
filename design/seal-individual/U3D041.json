@@ -1,0 +1,149 @@
+{
+  "codepoint": "U+3D041",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "full_prompt": "Create exactly ONE new original Small Seal script glyph based on the attached four-specimen Unicode reference. THX, CCZ, QJZ and DYC are all variants of THE SAME ONE CHARACTER, not separate output characters. Compare ALL available specimens equally to understand the exact identity. Choose ONE coherent attested WHOLE construction if variants differ; never splice incompatible alternatives or default to THX alone. Do not substitute a modern Chinese character.\n\nTrace genuine writing-stroke trajectories as smooth controlled centerline curves. Draw these with exactly CONSTANT uniform thickness approximately 3% of the square canvas width, perfectly rounded caps and joins. No swelling, taper, pointed tips, brush pressure, serif, texture or outline of brush silhouettes. Keep essential branches, short marks, counters, attachments, separations and relative bar lengths explicit. Important small gaps must stay open.\n\nONE finished glyph centered in the central 70% of a square canvas with generous clear margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, charts, grids, frame, four variants, reference copies, shadows, paper, backdrop, ornament or watermark. The structural reading aid below guides attention, while all four reference specimens remain the visual authority.\n\nCHARACTER U+3D041. Reading aid: LEFT component: a detached short top horizontal; below it a longer horizontal joined to one long central vertical, with TWO long detached vertical flank strokes starting below that lower bar. Three left bottom ends, middle longest. RIGHT: an upright U-shaped cup closed by a crossbar near its top, leaving TWO short upright tips protruding above the crossbar and exactly ONE enclosed counter underneath. A central short neck descends from the cup bottom, then branches into TWO long legs: the left bends gently left downward; the right follows an S-like outward/inward curve and ends lower-right. Choose the coherent single-neck branching whole construction attested by THX/CCZ/QJZ, rather than mixing DYC's split-neck alternative. Keep left/right components detached, cup counter open, two short top tips, and FIVE long lower ends total across the glyph.",
+  "structural_reading_aid": "LEFT component: a detached short top horizontal; below it a longer horizontal joined to one long central vertical, with TWO long detached vertical flank strokes starting below that lower bar. Three left bottom ends, middle longest. RIGHT: an upright U-shaped cup closed by a crossbar near its top, leaving TWO short upright tips protruding above the crossbar and exactly ONE enclosed counter underneath. A central short neck descends from the cup bottom, then branches into TWO long legs: the left bends gently left downward; the right follows an S-like outward/inward curve and ends lower-right. Choose the coherent single-neck branching whole construction attested by THX/CCZ/QJZ, rather than mixing DYC's split-neck alternative. Keep left/right components detached, cup counter open, two short top tips, and FIVE long lower ends total across the glyph.",
+  "referenced_image_paths": [
+    "/workspace/unifont/reference/seal/individual/U3D041.png"
+  ],
+  "original_generated_path": "/workspace/generated_images/exec-54e8c023-535a-41c4-b778-66f8807226ea.png",
+  "output_path": "/workspace/unifont/design/seal-individual/U3D041.png",
+  "status": "visual_comparison_pass_draft",
+  "flags": {
+    "specialist_identity_unverified": true,
+    "historical_stroke_order_unverified": true,
+    "not_font_source": true
+  },
+  "output_sha256": "0c8ea21c2f4a34878f9711a658203891f45642ee3e6875c09154ff60e602661f",
+  "sha256": "0c8ea21c2f4a34878f9711a658203891f45642ee3e6875c09154ff60e602661f",
+  "reference_sha256": "87024b0438f91e8c7e786b80627cad6368624b1cbec9dfda23711d0dbece8f57",
+  "source_evidence": {
+    "codepoint": "U+3D041",
+    "page": 3,
+    "label_bbox": [
+      87.30000305175781,
+      253.57017517089844,
+      116.7594223022461,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 3,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          251.78102111816406,
+          144.17999267578125,
+          276.96002197265625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          252.3732696533203,
+          146.20000305175782,
+          277.3532775878906
+        ],
+        "source_label": "TH-00062"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 3,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          250.34022521972656,
+          168.03985595703125,
+          272.34002685546875
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          252.3732696533203,
+          172.8000030517578,
+          277.3532775878906
+        ],
+        "source_label": "C-00062"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 3,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          254.59420776367188,
+          196.539794921875,
+          276.2159729003906
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          252.3732696533203,
+          199.5000030517578,
+          277.3532775878906
+        ],
+        "source_label": "K-00062"
+      },
+      "DYC": {
+        "available": true,
+        "page": 3,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          251.79220581054688,
+          221.43984985351562,
+          276.8279724121094
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          252.3732696533203,
+          226.20000305175782,
+          277.3532775878906
+        ],
+        "source_label": "D-00062"
+      }
+    }
+  },
+  "reference_evidence": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "original_pixels_unchanged": true,
+  "source_pixels_modified": false,
+  "visual_review": {
+    "schema_version": 1,
+    "codepoint": "U+3D041",
+    "verdict": "match",
+    "reviewer": "generator structural visual review by consensus_a",
+    "reading_criteria": [
+      "Left short detached top bar, longer lower bar with central stem, detached flank2=3left lower ends.",
+      "Right cup has1counter and2upright tips above crossbar.",
+      "One neck branches into2lower legs, right leg S-curved; no doubled neck; total5lower ends."
+    ],
+    "notes": [
+      "Compared all4enlarged specimens. Output chooses coherent common THX/CCZ/QJZ single-neck construction; DYC split neck not mixed.",
+      "Cup counter, both tips, left detached flanks and all5long lower ends present."
+    ],
+    "source_png": "design/seal-individual/U3D041.png",
+    "source_png_sha256": "0c8ea21c2f4a34878f9711a658203891f45642ee3e6875c09154ff60e602661f",
+    "reference_overview": "reference/seal/individual/U3D041.png",
+    "reference_png_sha256": "87024b0438f91e8c7e786b80627cad6368624b1cbec9dfda23711d0dbece8f57",
+    "reviewed_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "unavailable_specimens": [],
+    "inspection_file": "design/seal-individual/inspection/U3D041-white.png",
+    "limitations": [
+      "Visual structural comparison only, not specialist paleographic certification or historical stroke-order verification.",
+      "Applies to this original PNG hash; compiled font geometry requires independent review."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D067",
+  "verdict": "match",
+  "reviewer": "independent visual structural review by stroke_font_engine",
+  "notes": [
+    "All four witnesses compared. Right tall upper stem has an upward-returning right hook and wide crossing horizontal, then an S-like descending tail; no enclosure.",
+    "Exactly three detached lower-left horizontals remain separate from that stem; native chooses a THX/DYC-like detached-bar whole form rather than CCZ attached alternatives.",
+    "Crossbar is widest and lowest detached bar is longer than the two above. Final native capsule bars have parallel sides and rounded ends; preserve all course endpoints in the font."
+  ],
+  "source_png": "design/seal-individual/U3D067.png",
+  "source_png_sha256": "f60c73034223d3a6f9ebfe7ea3d761f3f1e444fcc17447dffbcd4ee73d643084",
+  "reference_overview": "reference/seal/individual/U3D067.png",
+  "reference_png_sha256": "493c33704259e98cb158e81c3d49fcdcec03148e3817c0fd260d27ec24e41fb8",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "d9207fe021006ffc39a167e3f453444bd2be16e9f25633e7b915bf3854c5b772",
+      "verdict": "uncertain",
+      "notes": [
+        "Structural courses match coherent THX/DYC: attached upper-right hook, widest upper crossing bar, THREE detached lower-left bars with bottom longest, and long S-tail. However, the first native visibly tapers horizontal bars into elliptical/pointed brush shapes and swells the main stroke; constant-width monoline style is not met. One native style retry planned without changing component geometry."
+      ],
+      "reference_png_sha256": "493c33704259e98cb158e81c3d49fcdcec03148e3817c0fd260d27ec24e41fb8"
+    }
+  ]
+}

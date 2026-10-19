@@ -1,0 +1,744 @@
+{
+  "schema_version": 1,
+  "reviewer": "consensus_c, independent native and actual compiled-font review",
+  "created_utc": "2026-10-19T03:22:40.601246+00:00",
+  "scope": "U+3D07B through U+3D07F only; all four enlarged chart witnesses, immutable native PNG, frozen chosen vector and actual TTFs at widths30/43. No source or final review files modified.",
+  "normalization": {
+    "centerline_max_extent": 738,
+    "center_font_units": [
+      512,
+      320
+    ],
+    "pen_width_scales_with_normalization": false
+  },
+  "font_rendering": {
+    "engine": "Pillow FreeType via ImageFont.truetype",
+    "pixels_per_em": 1024,
+    "canvas": [
+      1088,
+      1088
+    ],
+    "baseline_xy": [
+      32,
+      864
+    ],
+    "threshold_for_topology": 128
+  },
+  "acceptance_scope": "Default Regular30 accepted for these five glyphs. 43 reviewed separately; this is not approval of all named/intermediate variable weights or a guarantee of future error absence.",
+  "artifacts": {
+    "reference_pdf": {
+      "path": "reference/seal/U3D000.pdf",
+      "sha256": "58231968a21785f8942d4ba6484dfbabb63575f168a462576d29096c2f544831"
+    },
+    "build_script": {
+      "path": "tools/build_stroke_font.py",
+      "sha256": "eba8144cf4c4b5cc9d1872d8e795aacd697d447cefb02e59390fe2b7dc70e0e0"
+    }
+  },
+  "glyphs": {
+    "U3D07B": {
+      "codepoint": "U+3D07B",
+      "reading_criteria": [
+        "Three-bar left upright remains separate from right arch; middle bar is shorter and top/base are near equal, the previously accepted proportion caveat.",
+        "Right upper hooked banner has two left tips, a right return and descending neck meeting the outer arch.",
+        "Arch has two small shoulder counters and two long exterior legs. The central detached-from-arch rounded box has exactly three stacked counters.",
+        "Box continues into a short right bar and the lower curved crossing-tail arrangement, with a final descending endpoint; no missing lower course."
+      ],
+      "reviewed_specimens": {
+        "THX": {
+          "page": 4,
+          "source_label": "TH-00113",
+          "crop_bbox": [
+            121.20000305175782,
+            188.95328674316406,
+            146.20000305175782,
+            213.93327941894532
+          ]
+        },
+        "CCZ": {
+          "page": 4,
+          "source_label": "C-00117",
+          "crop_bbox": [
+            147.8000030517578,
+            188.95328674316406,
+            172.8000030517578,
+            213.93327941894532
+          ]
+        },
+        "QJZ": {
+          "page": 4,
+          "source_label": "K-00118",
+          "crop_bbox": [
+            174.5000030517578,
+            188.95328674316406,
+            199.5000030517578,
+            213.93327941894532
+          ]
+        },
+        "DYC": {
+          "page": 4,
+          "source_label": "D-00112",
+          "crop_bbox": [
+            201.20000305175782,
+            188.95328674316406,
+            226.20000305175782,
+            213.93327941894532
+          ]
+        }
+      },
+      "unavailable_specimens": [],
+      "native": {
+        "path": "design/seal-individual/U3D07B.png",
+        "sha256": "63c9b8fd60a3623ebda2ffe8c900b186626fb0601ffd52370d1bf6846468f4cc",
+        "verdict": "match_with_recorded_proportion_caveat",
+        "provenance": {
+          "path": "design/seal-individual/U3D07B.json",
+          "sha256": "a8988f583b833b891410f51cdeec8c2ca623b26357501ce5663d7f7bda9f6507"
+        }
+      },
+      "reference": {
+        "path": "reference/seal/individual/U3D07B.png",
+        "sha256": "157f7e529a06911fb2e2ee419aae0922b30301a1a7d7e1eed97ea068e0cbc0d1",
+        "metadata": {
+          "path": "reference/seal/individual/U3D07B.json",
+          "sha256": "f31425aeed2a308a5f47326479899f120f3aff7a57255104ecc88f13658971e8"
+        },
+        "enlarged_inspection": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07B-refs-enlarged.png",
+          "sha256": "9187c4334aacbab432dd8479fdecc1a55d79a5ae8b00f5d6d4807b8ec33d0452"
+        }
+      },
+      "vector": {
+        "path": "design/strokes-individual/auto/U3D07B.json",
+        "sha256": "dc303f6911c1604d0d25d1fdb893d7acff6177d2493e42e356deadd12af21c72",
+        "source_snapshot": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07B-source-snapshot.json",
+          "sha256": "dc303f6911c1604d0d25d1fdb893d7acff6177d2493e42e356deadd12af21c72"
+        },
+        "canonical_geometry_sha256": "2877e019941a9e6022d2d73b51aa45426354ba323caa802b787775c150742bc3",
+        "stroke_count": 17,
+        "source_png_hash_verified": true,
+        "normalization": {
+          "preserve_aspect_ratio": true,
+          "pen_width_scaled": false,
+          "target_centerline_extent": 738,
+          "matrix_font_units": [
+            0.8881112232949889,
+            0,
+            0,
+            0.8881112232949889,
+            66.00386532960596,
+            45.97372610794281
+          ],
+          "original_centerline_bounds_font_units": [
+            261.725,
+            -106.93899999999996,
+            742.645,
+            724.038
+          ],
+          "center_font_units": [
+            512.0,
+            320.0
+          ]
+        },
+        "verdict": "match_at_default30"
+      },
+      "actual_fonts": {
+        "30": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-30.ttf",
+          "font_sha256": "1a5b40ea64ae74e27a6dabb91ca85bbe68d9eacc27d7b0e72923914ad9ba96b4",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07B-font-30.png",
+          "raster_sha256": "5cfc66a9b541c13ed2389f9fd71f044ed3ecd2fdc5227a6cfc0ffc4b8dc65359",
+          "raster_topology": {
+            "components": 3,
+            "counters": 5
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        },
+        "43": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-43.ttf",
+          "font_sha256": "35ed58c10421cbbd86b052ecbffb5a0557e5b0781c68cb8b024eb2a7c101c3d9",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07B-font-43.png",
+          "raster_sha256": "210005d87f147fcf69406a2336f17cdf1c2bfcf0a3f22e7662665a3e9641858e",
+          "raster_topology": {
+            "components": 3,
+            "counters": 5
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        }
+      },
+      "issues": []
+    },
+    "U3D07C": {
+      "codepoint": "U+3D07C",
+      "reading_criteria": [
+        "Left upright joins exactly three bars and stays separate from the right component; base is longest.",
+        "The upper right return, left upward hook, outer right downward shoulder, lower left hook and short right bar retain their ordering and open ends.",
+        "Continuous center neck joining the lower roof is evaluated as the CCZ-like whole variant; THX has an intervening gap and is not the selected variant.",
+        "Lower arch has two shoulder counters and two descending exterior legs. Its inner U has two upward free tips, one crossbar, one lower counter, and remains separated from the arch."
+      ],
+      "reviewed_specimens": {
+        "THX": {
+          "page": 4,
+          "source_label": "TH-00114",
+          "crop_bbox": [
+            121.20000305175782,
+            220.6332794189453,
+            146.20000305175782,
+            245.67326965332032
+          ]
+        },
+        "CCZ": {
+          "page": 4,
+          "source_label": "C-00118",
+          "crop_bbox": [
+            147.8000030517578,
+            220.6332794189453,
+            172.8000030517578,
+            245.67326965332032
+          ]
+        },
+        "QJZ": {
+          "page": 4,
+          "source_label": "K-00119",
+          "crop_bbox": [
+            174.5000030517578,
+            220.6332794189453,
+            199.5000030517578,
+            245.67326965332032
+          ]
+        },
+        "DYC": {
+          "page": 4,
+          "source_label": "D-00113",
+          "crop_bbox": [
+            201.20000305175782,
+            220.6332794189453,
+            226.20000305175782,
+            245.67326965332032
+          ]
+        }
+      },
+      "unavailable_specimens": [],
+      "native": {
+        "path": "design/seal-individual/U3D07C.png",
+        "sha256": "3f5903837d21d74d98ba4d7a351f247a9f2295ac57eb7318fb94af2fb9d6c0da",
+        "verdict": "match",
+        "provenance": {
+          "path": "design/seal-individual/U3D07C.json",
+          "sha256": "ca5e6d7194dd76bbc1991e3d262e2773677cf292c799533cb724332b26e43eba"
+        }
+      },
+      "reference": {
+        "path": "reference/seal/individual/U3D07C.png",
+        "sha256": "ac8a822fbc6632a717430d2c12bd8a93f76afe6632fb61e1ec42bc19cd5b720c",
+        "metadata": {
+          "path": "reference/seal/individual/U3D07C.json",
+          "sha256": "230ba9c591a628240115865c419bbdf8c626f23f690332d3c2ddb011f82950fb"
+        },
+        "enlarged_inspection": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07C-refs-enlarged.png",
+          "sha256": "1864c8269860d9688c10b62d955e4e5748855992ebe6043c5ec70f502fdb1481"
+        }
+      },
+      "vector": {
+        "path": "design/strokes-individual/auto/U3D07C.json",
+        "sha256": "1e5306adb8485eef84efc782af9ea40575835cd14b5b9f1e3bb994df798b947b",
+        "source_snapshot": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07C-source-snapshot.json",
+          "sha256": "1e5306adb8485eef84efc782af9ea40575835cd14b5b9f1e3bb994df798b947b"
+        },
+        "canonical_geometry_sha256": "cb75693c0b68f06f9d9aea3b85c99d5583686931911c5a5ce3beef0545023e47",
+        "stroke_count": 12,
+        "source_png_hash_verified": true,
+        "normalization": {
+          "preserve_aspect_ratio": true,
+          "pen_width_scaled": false,
+          "target_centerline_extent": 738,
+          "matrix_font_units": [
+            1.0690988423890446,
+            0,
+            0,
+            1.0690988423890446,
+            -18.02937986925258,
+            -18.61407270161851
+          ],
+          "original_centerline_bounds_font_units": [
+            215.923,
+            -28.422000000000025,
+            775.621203125,
+            661.879
+          ],
+          "center_font_units": [
+            512.0,
+            320.0
+          ]
+        },
+        "verdict": "match_at_default30"
+      },
+      "actual_fonts": {
+        "30": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-30.ttf",
+          "font_sha256": "1a5b40ea64ae74e27a6dabb91ca85bbe68d9eacc27d7b0e72923914ad9ba96b4",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07C-font-30.png",
+          "raster_sha256": "fa3d161b9f969f4aefbd45fc6751211611a2bda6b54e7025488c2f64e860ddac",
+          "raster_topology": {
+            "components": 3,
+            "counters": 3
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        },
+        "43": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-43.ttf",
+          "font_sha256": "35ed58c10421cbbd86b052ecbffb5a0557e5b0781c68cb8b024eb2a7c101c3d9",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07C-font-43.png",
+          "raster_sha256": "7234e1e3ac72704138ee85a02a9a66502496a589ccfafc9b5a8cc424e632d718",
+          "raster_topology": {
+            "components": 3,
+            "counters": 3
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        }
+      },
+      "issues": []
+    },
+    "U3D07D": {
+      "codepoint": "U+3D07D",
+      "reading_criteria": [
+        "Every reference keeps left middle bar separate from the right lattice shoulder; native PNG incorrectly fuses them. Corrected vector must retain a white gap.",
+        "Only existing left middle bar right endpoint is cropped; all other sixteen stroke records must remain identical to automatic native-derived source.",
+        "Upper trident has three free tips, then one lozenge containing a free upward internal tip, followed by three left lattice fields with corresponding rightward bars.",
+        "Lower arch has two shoulder counters, two descending exterior legs and a separate inner closed oval. Regular30 has three ink components and seven counters.",
+        "SemiBold43 preserves the repaired left/right gap but closes an unrelated interior opening, creating an eighth counter; that heavier result is not accepted."
+      ],
+      "reviewed_specimens": {
+        "THX": {
+          "page": 4,
+          "source_label": "TH-00115",
+          "crop_bbox": [
+            121.20000305175782,
+            252.3732696533203,
+            146.20000305175782,
+            277.3532775878906
+          ]
+        },
+        "CCZ": {
+          "page": 4,
+          "source_label": "C-00119",
+          "crop_bbox": [
+            147.8000030517578,
+            252.3732696533203,
+            172.8000030517578,
+            277.3532775878906
+          ]
+        },
+        "QJZ": {
+          "page": 4,
+          "source_label": "K-00120",
+          "crop_bbox": [
+            174.5000030517578,
+            252.3732696533203,
+            199.5000030517578,
+            277.3532775878906
+          ]
+        },
+        "DYC": {
+          "page": 4,
+          "source_label": "D-00114",
+          "crop_bbox": [
+            201.20000305175782,
+            252.3732696533203,
+            226.20000305175782,
+            277.3532775878906
+          ]
+        }
+      },
+      "unavailable_specimens": [],
+      "native": {
+        "path": "design/seal-individual/U3D07D.png",
+        "sha256": "8295a5ea7946c985230cff514a75670d6603a6720f03ec6ad6309d7c689aadbb",
+        "verdict": "mismatch",
+        "provenance": {
+          "path": "design/seal-individual/U3D07D.json",
+          "sha256": "68577d39caa88f6d610b7d3e1e72b6baef8c6cb948783270fc1522910083ac13"
+        }
+      },
+      "reference": {
+        "path": "reference/seal/individual/U3D07D.png",
+        "sha256": "510b453c55bc684eef727765abe214ba0267bef6f4e3f4d3c902090a8cfb1bc9",
+        "metadata": {
+          "path": "reference/seal/individual/U3D07D.json",
+          "sha256": "1b5acf614e5a2b26ec935fe04f24f9c5dbe6582ef60684037e821273a00d84af"
+        },
+        "enlarged_inspection": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07D-refs-enlarged.png",
+          "sha256": "17ae9d095cb31c966ae9cdf5bd1a809a003c14ab1d3b6b8ee5779820666f2a97"
+        }
+      },
+      "vector": {
+        "path": "design/strokes-individual/U3D07D.json",
+        "sha256": "2446fe70832311b54c2e66371ebee325ddd35d2c28f2ff70e41afbef10626f57",
+        "source_snapshot": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07D-source-snapshot.json",
+          "sha256": "2446fe70832311b54c2e66371ebee325ddd35d2c28f2ff70e41afbef10626f57"
+        },
+        "canonical_geometry_sha256": "bf1f75b067d980d4debeb389cc77e74d0ca260c2c5867450ad4075c55f6f6b71",
+        "stroke_count": 17,
+        "source_png_hash_verified": true,
+        "normalization": {
+          "preserve_aspect_ratio": true,
+          "pen_width_scaled": false,
+          "target_centerline_extent": 738,
+          "matrix_font_units": [
+            0.9599150904375288,
+            0,
+            0,
+            0.9599150904375288,
+            23.536834648284866,
+            19.10789549672353
+          ],
+          "original_centerline_bounds_font_units": [
+            294.441,
+            -70.952,
+            723.2806093749999,
+            697.866
+          ],
+          "center_font_units": [
+            512.0,
+            320.0
+          ]
+        },
+        "verdict": "match_at_default30",
+        "native_comparison": {
+          "changed_stroke_numbers": [
+            3
+          ],
+          "other_stroke_records_identical": 16,
+          "canonical_geometry_expected": "bf1f75b067d980d4debeb389cc77e74d0ca260c2c5867450ad4075c55f6f6b71"
+        }
+      },
+      "actual_fonts": {
+        "30": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-30.ttf",
+          "font_sha256": "1a5b40ea64ae74e27a6dabb91ca85bbe68d9eacc27d7b0e72923914ad9ba96b4",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07D-font-30.png",
+          "raster_sha256": "019c77a3a185342d8bd710236d8902d950f37e21508df6ac91945a0ee32c57e1",
+          "raster_topology": {
+            "components": 3,
+            "counters": 7
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        },
+        "43": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-43.ttf",
+          "font_sha256": "35ed58c10421cbbd86b052ecbffb5a0557e5b0781c68cb8b024eb2a7c101c3d9",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07D-font-43.png",
+          "raster_sha256": "8e32ae0e1df6d7ca35c1911e0eb8c3ba4725e4eb851f13463ab1aabcda16e77b",
+          "raster_topology": {
+            "components": 3,
+            "counters": 8
+          },
+          "visually_inspected": true,
+          "verdict": "mismatch",
+          "notes": "Extra dense interior counter at43; corrected left middle bar remains detached. Default30 acceptance does not extend to43."
+        }
+      },
+      "issues": [
+        {
+          "stage": "native",
+          "severity": "identity_contact_error",
+          "description": "Left middle bar fused with right lattice shoulder; all four witnesses require separation. Immutable PNG preserved; vector override is the accepted repair."
+        },
+        {
+          "stage": "actual_font_43",
+          "severity": "unresolved_optical_collision",
+          "description": "Eight counters rather than seven due to dense interior contact. Width43 not accepted; no further source edit authorized in this task."
+        }
+      ]
+    },
+    "U3D07E": {
+      "codepoint": "U+3D07E",
+      "reading_criteria": [
+        "Left three-bar upright remains separate; near-equal top/base is a recorded accepted proportion caveat.",
+        "The detached upper roof has one short upward center tip and two downward sloping arms; it stays separate from the curled lower body.",
+        "Open round upper curl continues down the central course; its inward-facing free end does not touch the descending stem.",
+        "Two rising lower arms attach to the central course at different levels, with the left arm continuing to the longest lower baseline. No closed counter or missing arm."
+      ],
+      "reviewed_specimens": {
+        "THX": {
+          "page": 4,
+          "source_label": "TH-00116",
+          "crop_bbox": [
+            121.20000305175782,
+            284.05327758789065,
+            146.20000305175782,
+            309.03330078125
+          ]
+        },
+        "CCZ": {
+          "page": 4,
+          "source_label": "C-00120",
+          "crop_bbox": [
+            147.8000030517578,
+            284.05327758789065,
+            172.8000030517578,
+            309.03330078125
+          ]
+        },
+        "QJZ": {
+          "page": 4,
+          "source_label": "K-00121",
+          "crop_bbox": [
+            174.5000030517578,
+            284.05327758789065,
+            199.5000030517578,
+            309.03330078125
+          ]
+        },
+        "DYC": {
+          "page": 4,
+          "source_label": "D-00124",
+          "crop_bbox": [
+            201.20000305175782,
+            284.05327758789065,
+            226.20000305175782,
+            309.03330078125
+          ]
+        }
+      },
+      "unavailable_specimens": [],
+      "native": {
+        "path": "design/seal-individual/U3D07E.png",
+        "sha256": "944f8ca6511c2bb79d9e6e252abae57594a431c47768ee6370dc3541e156c3c1",
+        "verdict": "match_with_recorded_proportion_caveat",
+        "provenance": {
+          "path": "design/seal-individual/U3D07E.json",
+          "sha256": "b0dd46fb8557829ca27ddb50f284386909ce57a31eef2533601c86164934fd3a"
+        }
+      },
+      "reference": {
+        "path": "reference/seal/individual/U3D07E.png",
+        "sha256": "fbb611af9b4c5cd10a89e6f8cb293020f85ab7287f42c47c2f0d64cadb9f0892",
+        "metadata": {
+          "path": "reference/seal/individual/U3D07E.json",
+          "sha256": "36fc27d4055926cd6e01a4e0d4a3f11e7890b9a40aba38ee6406d3287f451e39"
+        },
+        "enlarged_inspection": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07E-refs-enlarged.png",
+          "sha256": "80e5ee8af5f2ed2e108354cfbe1bca0ed69c7280c6f82bd0b068d240e908c926"
+        }
+      },
+      "vector": {
+        "path": "design/strokes-individual/auto/U3D07E.json",
+        "sha256": "356dbd6f03e470f8d68dea2636b618d33e9392014547f1b05044a08568e61362",
+        "source_snapshot": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07E-source-snapshot.json",
+          "sha256": "356dbd6f03e470f8d68dea2636b618d33e9392014547f1b05044a08568e61362"
+        },
+        "canonical_geometry_sha256": "0cd80102000880184eeee2f063ad7eb31bc08d8fd3c1dc035da7fbbdc89ec45c",
+        "stroke_count": 10,
+        "source_png_hash_verified": true,
+        "normalization": {
+          "preserve_aspect_ratio": true,
+          "pen_width_scaled": false,
+          "target_centerline_extent": 738,
+          "matrix_font_units": [
+            1.0299323882270304,
+            0,
+            0,
+            1.0299323882270304,
+            -15.32538277223955,
+            0.5705331965119171
+          ],
+          "original_centerline_bounds_font_units": [
+            261.725,
+            -48.129890624999916,
+            762.275,
+            668.422
+          ],
+          "center_font_units": [
+            512.0,
+            320.0
+          ]
+        },
+        "verdict": "match_at_default30"
+      },
+      "actual_fonts": {
+        "30": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-30.ttf",
+          "font_sha256": "1a5b40ea64ae74e27a6dabb91ca85bbe68d9eacc27d7b0e72923914ad9ba96b4",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07E-font-30.png",
+          "raster_sha256": "dd00a0f5ffcb57038b53547bda600f8285f2b57d8eea9bb594d9b31e77c13f65",
+          "raster_topology": {
+            "components": 3,
+            "counters": 0
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        },
+        "43": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-43.ttf",
+          "font_sha256": "35ed58c10421cbbd86b052ecbffb5a0557e5b0781c68cb8b024eb2a7c101c3d9",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07E-font-43.png",
+          "raster_sha256": "bc2512fea5983f1e50240caac73f261bf8afc9d0870b72953ed91ad4ad723104",
+          "raster_topology": {
+            "components": 3,
+            "counters": 0
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        }
+      },
+      "issues": []
+    },
+    "U3D07F": {
+      "codepoint": "U+3D07F",
+      "reading_criteria": [
+        "Left three-bar upright stays separate; base and top are near equal, an accepted proportion caveat.",
+        "Right open-bottom arch has one upward top center tip and two long legs, with neither bottom joined.",
+        "Inner U is wholly separate from the outer arch, has two upward free tips, exactly one crossbar and one lower counter; the upper area is open.",
+        "Chosen inner-U variant is attested by THX/CCZ/QJZ; DYC instead has a closed internal loop and is not silently combined with it."
+      ],
+      "reviewed_specimens": {
+        "THX": {
+          "page": 4,
+          "source_label": "TH-00117",
+          "crop_bbox": [
+            121.20000305175782,
+            315.73330078125,
+            146.20000305175782,
+            340.773291015625
+          ]
+        },
+        "CCZ": {
+          "page": 4,
+          "source_label": "C-00121",
+          "crop_bbox": [
+            147.8000030517578,
+            315.73330078125,
+            172.8000030517578,
+            340.773291015625
+          ]
+        },
+        "QJZ": {
+          "page": 4,
+          "source_label": "K-00122",
+          "crop_bbox": [
+            174.5000030517578,
+            315.73330078125,
+            199.5000030517578,
+            340.773291015625
+          ]
+        },
+        "DYC": {
+          "page": 4,
+          "source_label": "D-00115",
+          "crop_bbox": [
+            201.20000305175782,
+            315.73330078125,
+            226.20000305175782,
+            340.773291015625
+          ]
+        }
+      },
+      "unavailable_specimens": [],
+      "native": {
+        "path": "design/seal-individual/U3D07F.png",
+        "sha256": "109fae3ed92c8f57af4c6968e10daf58a68173fa4fd9bf0bf62a40a67baaf1f4",
+        "verdict": "match_with_recorded_proportion_caveat",
+        "provenance": {
+          "path": "design/seal-individual/U3D07F.json",
+          "sha256": "af4c4733cd84067db03bf0430349e2270c59f40b077c474ce413a6f8059f1655"
+        }
+      },
+      "reference": {
+        "path": "reference/seal/individual/U3D07F.png",
+        "sha256": "fe3a3a10c8ed60261d2943fbd7233bf8277fb9698420506ccad2b94bee2b941a",
+        "metadata": {
+          "path": "reference/seal/individual/U3D07F.json",
+          "sha256": "39827a7d29c27be14e9eb76e7a09e71956bf8922e65aec99c9efceaf13876939"
+        },
+        "enlarged_inspection": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07F-refs-enlarged.png",
+          "sha256": "d63e7b97c1180809a2d3469ad6517dca846e6e3ec0278da8f497b635812c4562"
+        }
+      },
+      "vector": {
+        "path": "design/strokes-individual/auto/U3D07F.json",
+        "sha256": "b7503063c3e29371d9522e9cc4d5d7ea48b91b8119054a6eeaf0610619429eb5",
+        "source_snapshot": {
+          "path": "design/quality/proofs/07B-07F-by-c/U3D07F-source-snapshot.json",
+          "sha256": "b7503063c3e29371d9522e9cc4d5d7ea48b91b8119054a6eeaf0610619429eb5"
+        },
+        "canonical_geometry_sha256": "21e52ea4f1a8fbdb301f29ea9d7eae8fdc0efb345016daedd1fad7627d42a0b9",
+        "stroke_count": 8,
+        "source_png_hash_verified": true,
+        "normalization": {
+          "preserve_aspect_ratio": true,
+          "pen_width_scaled": false,
+          "target_centerline_extent": 738,
+          "matrix_font_units": [
+            1.1872644172993114,
+            0,
+            0,
+            1.1872644172993114,
+            -92.69883941585147,
+            -57.98284258128666
+          ],
+          "original_centerline_bounds_font_units": [
+            251.911,
+            7.566000000000031,
+            766.731234375,
+            629.163
+          ],
+          "center_font_units": [
+            512.0,
+            320.0
+          ]
+        },
+        "verdict": "match_at_default30"
+      },
+      "actual_fonts": {
+        "30": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-30.ttf",
+          "font_sha256": "1a5b40ea64ae74e27a6dabb91ca85bbe68d9eacc27d7b0e72923914ad9ba96b4",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07F-font-30.png",
+          "raster_sha256": "4f27b871f3f6768b357d8317e15a4d8d2d38eff78ebd0a28bb8b2bf96ce697b3",
+          "raster_topology": {
+            "components": 3,
+            "counters": 1
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        },
+        "43": {
+          "font": "design/quality/proofs/07B-07F-by-c/review-43.ttf",
+          "font_sha256": "35ed58c10421cbbd86b052ecbffb5a0557e5b0781c68cb8b024eb2a7c101c3d9",
+          "raster": "design/quality/proofs/07B-07F-by-c/U3D07F-font-43.png",
+          "raster_sha256": "e29a1c1baeb69f8d7b20d2c0ebfd6c8e201c91d712d1d28569ea708856433548",
+          "raster_topology": {
+            "components": 3,
+            "counters": 1
+          },
+          "visually_inspected": true,
+          "verdict": "match",
+          "notes": "All reading criteria retained in actual TTF outline; accepted minor source proportion caveats remain unchanged."
+        }
+      },
+      "issues": []
+    }
+  }
+}
