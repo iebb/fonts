@@ -8,7 +8,9 @@ The current design sample targets **U+3D000–U+3D03F**. Each character gets its
 
 The original generated PNGs and complete prompts are preserved in `design/seal-individual/`. Separate visual reviews record branches, counters, detachments, specimen availability and the exact PNG hash. A drawing that loses a component is rejected. Any subsequent manual correction to the font geometry is explicitly recorded; it does not turn the rejected PNG into an approved drawing.
 
-The font source is **editable Bézier centerlines**, stored as JSON and SVG in `design/strokes-individual/`. Each stroke uses one shared width of **43 units per 1024-unit em**, with round caps and joins. Automatic tracking follows the skeleton of the new drawing; hand-reviewed overrides take precedence. The reference font outlines and brush perimeters are not used to construct the new font. TrueType stores the constant-radius expansion of these centerlines as filled outlines.
+The font source is **editable Bézier centerlines**, stored as JSON and SVG in `design/strokes-individual/`. Automatic tracking follows the skeleton of the new drawing; hand-reviewed overrides take precedence. The reference font outlines and brush perimeters are not used to construct the new font. TrueType stores the constant-radius expansion of these centerlines as filled outlines, with round caps and joins.
+
+Each complete glyph is scaled proportionally to a maximum centerline dimension of **738 units**, centered at **(512, 320) in font coordinates** within its 1024-unit em. This keeps each glyph's internal proportions and applies the same transform at every weight. The shared pen width is independent of that scale: **Regular 400 uses 30 units**, giving a maximum ink dimension of **768 units**. Editable source files retain their reviewed nominal width of 43 units.
 
 The native generated drawing remains the main guide for trajectories, shape and proportions. Repairs preserve that drawing and change only a confirmed omission or a tracking defect. U+3D034, for example, adds the missing left descending leg beneath its upper shoulder while retaining the other stroke courses.
 
@@ -19,11 +21,21 @@ The native generated drawing remains the main guide for trajectories, shape and 
 - Download package: `dist/Panorama-Gothic-Seal-Stroke-64.zip`
 - Editable example: `design/strokes-individual/U3D001.svg`
 
-The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status is recorded individually. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
+The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status and targeted repairs are recorded individually. Validation combines visual review of all **64 sample glyphs** with `tools/verify_glyph_invariants.py`, which checks recorded structural features in the rendered static and variable fonts. These regression gates check details such as bar relationships, branches and open spaces at multiple weights. `tools/verify_source_reviews.py` rejects any change to the accepted geometry or source PNG hashes; its registry is updated only after a new visual review. `tools/verify_normalized_sizes.py` checks actual font bounds, centering, proportions and advances at all named weights. Further shape and optical review remains necessary. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
 
 ### Weight from pen width
 
-`tools/build_stroke_variable.py` builds a real `wght` axis from 300 to 700 using **identical centerlines in every master**. Only the shared pen width changes: Light 30, Regular 43, Bold 65 units. Medium 500 interpolates between Regular and Bold. Advances stay fixed. Heavy strokes can close small gaps or counters; these forms still need optical review.
+`tools/build_stroke_variable.py` builds a real `wght` axis from 300 to 700 using **identical normalized centerlines in every master**, with **400 as the default**. Only the shared pen width changes; advances stay fixed at 1024 units.
+
+| Weight | Style | Pen width |
+| --- | --- | --- |
+| 300 | Light | 23.5 units |
+| 400 | Regular | 30 units |
+| 500 | Medium | 36.5 units |
+| 600 | SemiBold | 43 units |
+| 700 | Bold | 49.5 units |
+
+The previous 300 width is now 400, and the previous 400 width is now 600. Dense forms can close small gaps or counters at heavier weights; consult the actual-font checks and visual proofs for their current limits.
 
 The variable font and self-contained slider are written to `fonts/seal-individual-variable/`. The older `fonts/seal-variable/` outline-offset study is retained for comparison. The single-style `fonts/seal-example/` and grouped four-source `fonts/seal-redraw/` studies are superseded; the latter contains known identity errors and is marked rejected.
 
@@ -54,12 +66,17 @@ To rebuild the stroke sample after individual generation and review (additional 
 
 ```sh
 python tools/track_centerlines.py --single-images
-python tools/build_stroke_font.py --source-root design/strokes-individual --output fonts/seal-individual --family "Panorama Gothic Seal Individual" --font-stroke-width 43 --require-visual-match
+python tools/verify_source_reviews.py
+python tools/build_stroke_font.py --source-root design/strokes-individual --output fonts/seal-individual --family "Panorama Gothic Seal Individual" --font-stroke-width 30 --normalize-glyphs --require-visual-match
 python tools/render_stroke_font.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf --output fonts/seal-individual
 python tools/render_stroke_demo.py --source design/strokes-individual/U3D001.json --output fonts/seal-individual
 python tools/audit_stroke_sample.py
-python tools/build_stroke_variable.py
+python tools/verify_glyph_invariants.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf
+python tools/verify_normalized_sizes.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf --output fonts/seal-individual/size-check.json
+python tools/build_stroke_variable.py --require-visual-match
 python tools/render_weight_demo.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf --output fonts/seal-individual-variable
+python tools/verify_glyph_invariants.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf
+python tools/verify_normalized_sizes.py --font fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf --output fonts/seal-individual-variable/size-check.json
 ```
 
 Build and installation instructions, generated fonts and the verified coverage summary are added as each source is integrated.

@@ -12,7 +12,8 @@ from PIL import Image, ImageDraw, ImageFont
 from fontTools.ttLib import TTFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from build_stroke_font import build_font, flatten_path, load_sources, point_segment_distance
+from build_stroke_font import (build_font, flatten_path, load_sources, normalize_sources,
+                               point_segment_distance, write_centerline_svg)
 
 
 class StrokeFontTests(unittest.TestCase):
@@ -123,6 +124,52 @@ class StrokeFontTests(unittest.TestCase):
         self.assertEqual(reopened["name"].getDebugName(6), "PanoramaGothicSealRedraw-Regular")
         self.assertEqual(list(reopened["glyf"]["u0E100"].coordinates),
                          list(reopened["glyf"]["u0E101"].coordinates))
+
+    def test_normalization_preserves_proportions_and_shared_pen_width(self):
+        original = [
+            {"codepoint": 0xE200, "width": 43,
+             "strokes": [([(100, 100), (500, 100), (500, 300)], False)]},
+            {"codepoint": 0xE201, "width": 43,
+             "strokes": [([(200, 200), (400, 200), (400, 600)], False)]},
+        ]
+        before = json.dumps(original, sort_keys=True)
+        normalized = normalize_sources(original)
+        self.assertEqual(json.dumps(original, sort_keys=True), before)
+        for source in normalized:
+            points = source["strokes"][0][0]
+            xs, ys = [p[0] for p in points], [p[1] for p in points]
+            self.assertAlmostEqual(max(max(xs)-min(xs), max(ys)-min(ys)), 738)
+            self.assertAlmostEqual((min(xs)+max(xs))/2, 512)
+            self.assertAlmostEqual((min(ys)+max(ys))/2, 320)
+            self.assertEqual(source["width"], 43)
+            self.assertFalse(source["normalization"]["pen_width_scaled"])
+        self.assertAlmostEqual((normalized[0]["strokes"][0][0][1][0]
+                                - normalized[0]["strokes"][0][0][0][0]) /
+                               (normalized[0]["strokes"][0][0][2][1]
+                                - normalized[0]["strokes"][0][0][1][1]), 2)
+        path = Path(self.workspace.name) / "normalized.ttf"
+        report = build_font(normalized, path, font_stroke_width=30)
+        self.assertEqual({g["stroke_width_font_units"] for g in report.values()}, {30})
+
+    def test_normalized_svg_matches_font_frame_and_regular_width(self):
+        import xml.etree.ElementTree as ET
+        directory = Path(self.workspace.name) / "normalization-source"
+        directory.mkdir(exist_ok=True)
+        (directory / "U0E210.json").write_text(json.dumps({
+            "codepoint": "U+0E210", "viewBox": [10, 20, 314, 313], "stroke_width": 43,
+            "strokes": [{"id": "bar", "path": "M 100 100 L 200 100"}],
+        }))
+        sources = load_sources(directory, normalization_extent=738)
+        target = directory / "normalized.svg"
+        write_centerline_svg(sources[0], target, 30)
+        svg = ET.parse(target).getroot()
+        self.assertEqual(svg.attrib["viewBox"], "0 0 1024 1024")
+        group = list(svg)[0]
+        self.assertEqual(float(group.attrib["stroke-width"]), 30)
+        points, _ = flatten_path(list(group)[0].attrib["d"])
+        self.assertAlmostEqual(points[0][0], 143)
+        self.assertAlmostEqual(points[-1][0], 881)
+        self.assertAlmostEqual(points[0][1], 512)
 
     def test_strict_source_review_gate(self):
         directory = Path(self.workspace.name) / "review-gate"

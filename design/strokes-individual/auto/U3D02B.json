@@ -134,11 +134,10 @@
       "schema_version": 1,
       "codepoint": "U+3D02B",
       "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "reviewer": "Enlarged feature-by-feature visual recheck by consensus_c",
       "notes": [
-        "The revised ring now has three diagonals, including an upper rising stroke whose left endpoint stops inside the ring with a visible gap, forming the coherent THX five-field construction.",
-        "The outer roof with apex tick, upper-left winding return, two upper-right short bars, ring stand, and three inner right-hand wavy descenders remain intact.",
-        "THX, CCZ and DYC were compared; QJZ is blank. The former plain-X omission is resolved."
+        "Enlarged THX/CCZ/DYC recheck confirms three ring diagonals with one free inner endpoint, five fields, two right bars and three wavy inner descenders.",
+        "The native upper-right bar is shorter than the lower; the tracked vector accidentally reverses their order by a small amount. The manual vector now makes the upper bar 74% of lower length. The native speck remains excluded as previously approved."
       ],
       "source_png": "design/seal-individual/U3D02B.png",
       "source_png_sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
@@ -167,6 +166,16 @@
             "A second native attempt was requested. QJZ is unavailable; THX, CCZ and DYC were compared."
           ],
           "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421"
+        },
+        {
+          "source_png_sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
+          "verdict": "match",
+          "notes": [
+            "The revised ring now has three diagonals, including an upper rising stroke whose left endpoint stops inside the ring with a visible gap, forming the coherent THX five-field construction.",
+            "The outer roof with apex tick, upper-left winding return, two upper-right short bars, ring stand, and three inner right-hand wavy descenders remain intact.",
+            "THX, CCZ and DYC were compared; QJZ is blank. The former plain-X omission is resolved."
+          ],
+          "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421"
         }
       ],
       "non_stroke_artifacts": [
@@ -183,7 +192,7 @@
         }
       ],
       "review_file": "design/seal-individual/reviews/U3D02B.json",
-      "review_sha256": "d9c9ad8ab518cfd11430acdac4df0876ba2c8619c1b1070541c393e920375635"
+      "review_sha256": "2bfb7f139fe785dee209ba550181963d666a9b9ebf33220cb096bb601843ac8f"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -119,11 +119,11 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D007",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "verdict": "mismatch",
+      "reviewer": "root; enlarged two-witness metric comparison",
       "notes": [
-        "The two available specimens show two separated horizontal strokes, with the upper shorter than the lower. The drawing preserves this order and introduces no connector.",
-        "CCZ and QJZ are unavailable, and were not treated as alternate supplied glyphs."
+        "The native lower bar is only modestly longer; THX/DYC require a substantially longer lower bar (ink span ratios1.416/1.482).",
+        "Native vertical gap/lower width~.43 versus~.98\u20131.12 in both available specimens. Corrected editable geometry restores both relationships; source PNG remains unchanged."
       ],
       "source_png": "design/seal-individual/U3D007.png",
       "source_png_sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
@@ -143,8 +143,19 @@
         "Verdict applies only to the source PNG hash recorded here."
       ],
       "inspection_file": "design/seal-individual/inspection/U3D007-white.png",
+      "previous_reviews": [
+        {
+          "source_png_sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
+          "verdict": "match",
+          "notes": [
+            "The two available specimens show two separated horizontal strokes, with the upper shorter than the lower. The drawing preserves this order and introduces no connector.",
+            "CCZ and QJZ are unavailable, and were not treated as alternate supplied glyphs."
+          ],
+          "reference_png_sha256": "22d54f78a43528560c90ac2890c00f459683eaea4af63177776dbc44a9c07a6a"
+        }
+      ],
       "review_file": "design/seal-individual/reviews/U3D007.json",
-      "review_sha256": "e1a0dca0016fb8a67e6600f33dc44dd148a4f4dd8e537580b933416bd0150257"
+      "review_sha256": "d332218b69863fbe783d7431aa6d3b5a41204dc29d2e4018ccc958a9edeadc25"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

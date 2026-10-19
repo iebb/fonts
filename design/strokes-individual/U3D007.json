@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D007",
+  "viewBox": [
+    0,
+    0,
+    1024,
+    1024
+  ],
+  "stroke_width": 43,
+  "linecap": "round",
+  "linejoin": "round",
+  "status": "manual_geometry_reviewed",
+  "coverage_eligible": false,
+  "character_identity_verified": false,
+  "visual_reference_match_reviewed": true,
+  "historical_stroke_order_verified": false,
+  "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
+  "source": {
+    "file": "design/seal-individual/U3D007.png",
+    "sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
+    "source_pixels_modified": false,
+    "source_layout": "one complete glyph per native PNG",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "generation_review": {
+      "codepoint": "U+3D007",
+      "tool": "image_gen.imagegen",
+      "attempt": 1,
+      "full_prompt": "Draw exactly ONE new original Small Seal glyph from the supplied four-specimen Unicode chart reference. The four labeled examples are ALL THE SAME ONE CHARACTER. Compare every available THX, CCZ, QJZ and DYC specimen, using shared stroke structure and coherent attested variants. Never privilege THX or copy any specimen's brush outline. Choose one coherent attested construction if variants disagree; never merge incompatible parts. Keep this Small Seal character's identity, essential branches, counters, crossings, detachments and curves, rather than replacing it with modern Chinese.\n\nTrack the actual writing-stroke trajectories using smooth controlled curves and straight segments. Draw each as a real uniform-width monoline stroke, with round caps and joins. Black only; no taper, swelling, pressure contrast, brush texture, serif, triangle, outline-only contour, decorative effect or shadow. Every stroke has the SAME nominal width, approximately 4% of the square canvas. Preserve separate strokes and clear interior counters. Use balanced Gothic proportions with rounded curvature. Center the ONE glyph within the central 70% of a square transparent canvas, generous clear margin. Preserve its natural proportions, even if it has only one horizontal or is intrinsically very simple. Nothing besides the finished glyph: no labels, Latin text, Unicode, reference copies, four variants, border, chart, grid, watermark or ornament.\n\nONE GLYPH ONLY: U+3D007. Exactly two separate parallel horizontal strokes, upper and lower, with a large clear vertical gap. Uniform width and rounded caps; lower line can be slightly longer as attested. Only THX and DYC specimens are available for this character; compare both. The unavailable middle slots do not denote additional strokes.",
+      "referenced_image_paths": [
+        "/workspace/unifont/reference/seal/individual/U3D007.png"
+      ],
+      "original_generated_path": "/workspace/generated_images/exec-b810f3c1-7b24-4938-97cf-420310fbe129.png",
+      "output_path": "/workspace/unifont/design/seal-individual/U3D007.png",
+      "transparent_background_requested": true,
+      "method": "Original individual drawing informed by all available chart specimens; no specimen assigned primacy; coherent attested construction requested.",
+      "postprocessing": "Original PNG copied byte-for-byte; separate white-composited image for inspection only.",
+      "status": "visually_matches_chart_structure",
+      "flags": {
+        "character_identity_unreviewed": false,
+        "stroke_topology_unreviewed": false,
+        "constant_width_unverified": true,
+        "not_font_source": true,
+        "historical_stroke_order_unverified": true,
+        "specialist_identity_unverified": true
+      },
+      "output_sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
+      "reference_sha256": "22d54f78a43528560c90ac2890c00f459683eaea4af63177776dbc44a9c07a6a",
+      "source_evidence": {
+        "codepoint": "U+3D007",
+        "page": 2,
+        "label_bbox": [
+          87.30000305175781,
+          316.9302062988281,
+          116.7594223022461,
+          328.0899658203125
+        ],
+        "variants": {
+          "THX": {
+            "available": true,
+            "page": 2,
+            "font": "xiaozhuan1",
+            "font_size": 21.0,
+            "bbox": [
+              123.18000030517578,
+              318.28802490234375,
+              144.17999267578125,
+              339.75
+            ],
+            "crop_bbox": [
+              121.20000305175782,
+              315.73330078125,
+              146.20000305175782,
+              340.773291015625
+            ],
+            "source_label": "TH-Y001"
+          },
+          "CCZ": {
+            "available": false,
+            "reason": "blank source column in chart"
+          },
+          "QJZ": {
+            "available": false,
+            "reason": "blank source column in chart"
+          },
+          "DYC": {
+            "available": true,
+            "page": 2,
+            "font": "dyc",
+            "font_size": 21.999799728393555,
+            "bbox": [
+              206.0399932861328,
+              315.2121887207031,
+              221.43984985351562,
+              340.2479553222656
+            ],
+            "crop_bbox": [
+              201.20000305175782,
+              315.73330078125,
+              226.20000305175782,
+              340.773291015625
+            ],
+            "source_label": "D-00007"
+          }
+        }
+      },
+      "visual_review": {
+        "verdict": "match",
+        "method": "Human-model visual comparison of white inspection composite with every available labeled reference specimen. Original transparent PNG unchanged.",
+        "notes": "Compared both available THX/DYC specimens (CCZ/QJZ unavailable). Both show exactly two detached horizontal strokes with lower longer. Output preserves this two-component structure and open gap.",
+        "scope": "Visual structural comparison only; specialist epigraphic identity and historical writing order have not been certified."
+      },
+      "manifest": "design/seal-individual/U3D007.json",
+      "manifest_sha256": "b8112f01584d15f068bdff9c3087a7289fd378fd5a42415e4f25ae7cf098ef9e"
+    },
+    "visual_reference_review": {
+      "schema_version": 1,
+      "codepoint": "U+3D007",
+      "verdict": "mismatch",
+      "reviewer": "root; enlarged two-witness metric comparison",
+      "notes": [
+        "The native lower bar is only modestly longer; THX/DYC require a substantially longer lower bar (ink span ratios1.416/1.482).",
+        "Native vertical gap/lower width~.43 versus~.98\u20131.12 in both available specimens. Corrected editable geometry restores both relationships; source PNG remains unchanged."
+      ],
+      "source_png": "design/seal-individual/U3D007.png",
+      "source_png_sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
+      "reference_overview": "reference/seal/individual/U3D007.png",
+      "reference_png_sha256": "22d54f78a43528560c90ac2890c00f459683eaea4af63177776dbc44a9c07a6a",
+      "reviewed_specimens": [
+        "THX",
+        "DYC"
+      ],
+      "unavailable_specimens": [
+        "CCZ",
+        "QJZ"
+      ],
+      "limitations": [
+        "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+        "Does not verify historical writing order, exact metrics, or final font stroke width.",
+        "Verdict applies only to the source PNG hash recorded here."
+      ],
+      "inspection_file": "design/seal-individual/inspection/U3D007-white.png",
+      "previous_reviews": [
+        {
+          "source_png_sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
+          "verdict": "match",
+          "notes": [
+            "The two available specimens show two separated horizontal strokes, with the upper shorter than the lower. The drawing preserves this order and introduces no connector.",
+            "CCZ and QJZ are unavailable, and were not treated as alternate supplied glyphs."
+          ],
+          "reference_png_sha256": "22d54f78a43528560c90ac2890c00f459683eaea4af63177776dbc44a9c07a6a"
+        }
+      ],
+      "review_file": "/workspace/unifont/design/seal-individual/reviews/U3D007.json",
+      "review_sha256": "d332218b69863fbe783d7431aa6d3b5a41204dc29d2e4018ccc958a9edeadc25"
+    },
+    "alpha_threshold": 128,
+    "readonly_alpha_analysis": {
+      "size": [
+        313,
+        313
+      ],
+      "resized_alpha_size": [
+        313,
+        313
+      ],
+      "padding_offset": [
+        0,
+        0
+      ],
+      "resample": "Pillow LANCZOS; in-memory alpha only"
+    },
+    "automatic_centerline_file": "design/strokes-individual/auto/U3D007.json",
+    "automatic_centerline_sha256": "62e740a67d5de07ef02b73171708972dcdc09d85bc6c37e36271f3359b290c34",
+    "structural_corrections": [
+      {
+        "component": "two horizontal bars",
+        "change": "Upper centerline shortened to383.563 units while lower remains556.166; vertical centerline separation increased from255.182 to620. Both bars retain straight courses, uniform width and rounded ends.",
+        "reason": "Both available chart witnesses THX/DYC show lower/upper ink-width ratios1.416/1.482 and vertical-gap/lower-width ratios1.123/.982. Native artwork made the bars too similar and too close; user flagged the lower-bar length."
+      }
+    ],
+    "native_artwork_visual_verdict": "mismatch_bar_proportions_and_spacing",
+    "geometry_reference_review": {
+      "verdict": "match",
+      "geometry_sha256": "fde36ecb6caa39295157e3289b63eb71180ae2e8fc5d0304d61b5c718a3ab3d7",
+      "reviewer": "root; measured THX/DYC proportions and actual normalized font render",
+      "notes": [
+        "Two straight detached bars; lower clearly longer. Corrected ink-length and spacing ratios are within both available reference constructions. No missing middle witnesses invented."
+      ]
+    }
+  },
+  "algorithm": {
+    "skeleton": "Zhang-Suen",
+    "spur_limit_analysis_pixels": 7,
+    "junction_cluster_distance_analysis_pixels": 4,
+    "minimum_continuation_angle_degrees": 135,
+    "fit_tolerance_analysis_pixels": 1,
+    "fit_tolerance_font_units": 3.2716,
+    "analysis_pixels_to_font_units": 3.2715654952076676,
+    "outline_sources_used": false
+  },
+  "maximum_fit_error_analysis_pixels": 1.0,
+  "maximum_fit_error_font_units": 3.2716,
+  "topology": {
+    "retained_mask_components": 2,
+    "removed_small_components": 0,
+    "skeleton_pixels": 312,
+    "pruned_spur_pixels": 0,
+    "graph_edges": 2,
+    "junctions": [],
+    "ambiguity": "Branches are geometric inferences. Original writing order and crossing pen lifts cannot be established from a flat image."
+  },
+  "strokes": [
+    {
+      "id": "lower-bar",
+      "path": "M 235.553 830.179 L 791.719 830.179",
+      "closed": false
+    },
+    {
+      "id": "upper-bar",
+      "path": "M 318.583 210.179 L 702.146 210.179",
+      "closed": false
+    }
+  ]
+}

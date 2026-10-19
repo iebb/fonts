@@ -12,7 +12,7 @@ from fontTools.varLib.instancer import instantiateVariableFont
 from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from build_stroke_variable import build_variable, topology
+from build_stroke_variable import build_variable, topology, stroke_width
 
 
 class StrokeVariableTests(unittest.TestCase):
@@ -69,11 +69,29 @@ class StrokeVariableTests(unittest.TestCase):
             widths.append(len(ink) / 2)
             centers.append((ink[0] + ink[-1]) / 4)
         self.assertTrue(all(a < b for a, b in zip(widths, widths[1:])))
-        self.assertAlmostEqual(widths[0], 30, delta=1)
-        self.assertAlmostEqual(widths[-1], 65, delta=1)
+        self.assertAlmostEqual(widths[0], 23.5, delta=1)
+        self.assertAlmostEqual(widths[-1], 49.5, delta=1)
         # Master quantization plus interpolation rounding can shift a raster
         # center by one 1024-em unit; the underlying pen trajectory is fixed.
         self.assertLessEqual(max(centers) - min(centers), 1.0)
+
+    def test_remapped_anchor_weights_are_explicit_masters(self):
+        self.assertEqual(stroke_width(400), 30)
+        self.assertEqual(stroke_width(600), 43)
+        variable = TTFont(self.path)
+        self.assertIn(600, [i.coordinates["wght"] for i in variable["fvar"].instances])
+        # Compare compiled integer coordinates; instancer retains fractional
+        # IUP results in memory until the TrueType file is written.
+        instance = TTFont(self.output / "StrokeTestVariable-SemiBold.ttf")
+        master = TTFont(self.output / "masters/StrokeTestVariable-SemiBold.ttf")
+        for name in variable.getGlyphOrder():
+            actual, expected = instance["glyf"][name], master["glyf"][name]
+            self.assertEqual(actual.endPtsOfContours, expected.endPtsOfContours)
+            # IUP interpolation and final integer compilation may differ by
+            # one em unit, below a quarter pixel in the 248px specimen.
+            self.assertLessEqual(max(abs(a-b) for p, q in zip(actual.coordinates, expected.coordinates)
+                                     for a, b in zip(p, q)), 1)
+            self.assertEqual(instance["hmtx"][name][0], master["hmtx"][name][0])
 
 
 if __name__ == "__main__":

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import hashlib
 from html import escape
 import json
 import os
@@ -85,6 +86,22 @@ def render(root: Path, source: Path | None = None, output: Path | None = None) -
     data = json.loads(source.read_text())
     output = output or root / "fonts/seal-individual"
     output.mkdir(parents=True, exist_ok=True)
+    # Show the exact exported font trajectories and current Regular width.
+    # Authoring JSON retains its reviewed nominal width and original placement.
+    manifest_path = output / "manifest.json"
+    if manifest_path.is_file():
+        manifest = json.loads(manifest_path.read_text())
+        record = next((g for g in manifest.get("glyphs", [])
+                       if g["codepoint"] == data["codepoint"]), None)
+        svg_path = output / "centerlines" / source.with_suffix(".svg").name
+        if (record and svg_path.is_file()
+                and record["centerline_sha256"] == hashlib.sha256(source.read_bytes()).hexdigest()):
+            exported = ET.parse(svg_path).getroot()
+            data["strokes"] = [{"id": node.attrib["id"], "path": node.attrib["d"]}
+                               for node in exported.iter()
+                               if node.tag.rsplit("}", 1)[-1] == "path"]
+            data["viewBox"] = [float(value) for value in exported.attrib["viewBox"].split()]
+            data["stroke_width"] = record["stroke_width_font_units"]
     old_svg = ET.parse(root / "fonts/seal-example/glyphs/U3D001.svg").getroot()
     old_paths = "".join(f'<path d="{escape(node.attrib["d"])}" fill="#171717"/>'
                         for node in old_svg.iter() if node.tag.rsplit("}", 1)[-1] == "path")

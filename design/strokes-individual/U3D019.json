@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D019",
+  "viewBox": [
+    0,
+    0,
+    1024,
+    1024
+  ],
+  "stroke_width": 43,
+  "linecap": "round",
+  "linejoin": "round",
+  "coverage_eligible": false,
+  "character_identity_verified": false,
+  "historical_stroke_order_verified": false,
+  "source": {
+    "file": "design/seal-individual/U3D019.png",
+    "sha256": "6cbfac7a6d544c82018ee37ab0c60b944a160600128e86d825a5f08bd639faf5",
+    "source_pixels_modified": false,
+    "source_layout": "one complete glyph per native PNG",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "generation_review": {
+      "codepoint": "U+3D019",
+      "tool": "image_gen.imagegen",
+      "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D019: LEFT is the short detached upper horizontal over longer lower horizontal and three long descending legs (center attached, outside pair detached). RIGHT is the intricate thread-like Small Seal structure shown in ALL four views, not a modern character. At top right a short upright turns right into two short horizontal levels, forming a small one-counter hook/knot with a little upper upright extension. A longer horizontal crossbar lies beneath the small top knot. From this bar a flowing curved descending thread bends down-left then back down-right through the middle, then runs as one long central vertical toward the bottom. Beneath the bar the curved course must retain the reference's irregular hooked/zigzag shape; it is not a straight tree trunk. Two separate short diagonal branch/dash strokes sit on its lower LEFT, slanting down-left, and two short diagonal branch/dash strokes on its lower RIGHT, slanting down-right, with substantial white gaps between the two levels. Preserve the shared top knot, one wide crossbar, central curved long thread, and TWO PAIRS of lower diagonal side marks seen in the references. Pick one coherent attested flowing course from the four views, no invented extra loop or branch. Keep equal line width and round terminals.",
+      "reference": "/workspace/unifont/reference/seal/individual/U3D019.png",
+      "reference_sha256": "2e26ae17c8f5f76b667751eb0bcd47589487b000e7e4d0b818b40d8b1ab1fc45",
+      "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D019.json",
+      "evidence": {
+        "THX": {
+          "available": true,
+          "page": 2,
+          "font": "CMEXShuowenSeal",
+          "font_size": 21.0,
+          "bbox": [
+            271.9800109863281,
+            251.78102111816406,
+            292.9800109863281,
+            276.96002197265625
+          ],
+          "crop_bbox": [
+            270.0000061035156,
+            252.3732696533203,
+            295.0000061035156,
+            277.3532775878906
+          ],
+          "source_label": "TH-00024"
+        },
+        "CCZ": {
+          "available": true,
+          "page": 2,
+          "font": "Shuowen-ccz",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            301.44000244140625,
+            250.34022521972656,
+            316.8398742675781,
+            272.34002685546875
+          ],
+          "crop_bbox": [
+            296.6000061035156,
+            252.3732696533203,
+            321.6000061035156,
+            277.3532775878906
+          ],
+          "source_label": "C-00024"
+        },
+        "QJZ": {
+          "available": true,
+          "page": 2,
+          "font": "qjz",
+          "font_size": 18.999799728393555,
+          "bbox": [
+            326.3399963378906,
+            254.59420776367188,
+            345.33978271484375,
+            276.2159729003906
+          ],
+          "crop_bbox": [
+            323.3000061035156,
+            252.3732696533203,
+            348.3000061035156,
+            277.3532775878906
+          ],
+          "source_label": "K-00024"
+        },
+        "DYC": {
+          "available": true,
+          "page": 2,
+          "font": "dyc",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            354.8399963378906,
+            251.79220581054688,
+            370.2398681640625,
+            276.8279724121094
+          ],
+          "crop_bbox": [
+            350.0000061035156,
+            252.3732696533203,
+            375.0000061035156,
+            277.3532775878906
+          ],
+          "source_label": "D-00024"
+        }
+      },
+      "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+      "source_generated_image": "/workspace/generated_images/exec-0907b090-b9a3-4679-9eb1-1beeb81661dd.png",
+      "output": "/workspace/unifont/design/seal-individual/U3D019.png",
+      "output_sha256": "6cbfac7a6d544c82018ee37ab0c60b944a160600128e86d825a5f08bd639faf5",
+      "attempt": 1,
+      "transparent_background": true,
+      "review_status": "passed_structural_visual_review",
+      "historical_stroke_order_verified": false,
+      "font_integration_status": "not_integrated",
+      "review_notes": "Compared all four views. Small upper hook/knot and wide crossbar retained, curved left-branching thread runs into long descending center, with two detached down-left marks and two detached down-right marks. Shared identity retained without replacing wavy central course with straight modern tree form.",
+      "native_output_mode": "RGBA",
+      "native_output_size": [
+        1254,
+        1254
+      ],
+      "native_alpha_bbox": [
+        55,
+        77,
+        1214,
+        1074
+      ],
+      "inspection_composite": "/tmp/seal-individual-b-review-3D019.png",
+      "manifest": "design/seal-individual/U3D019.json",
+      "manifest_sha256": "ac32b9e6d3bcc2ca3c84bd2aadcfd6b8e61684e241734fd97a82dc86deecc146"
+    },
+    "visual_reference_review": {
+      "schema_version": 1,
+      "codepoint": "U+3D019",
+      "verdict": "match",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
+      "notes": [
+        "The native drawing retains four elongated detached diagonal marks and matches the shared chart structure; no PNG change is required.",
+        "The prior automatic vector trace shortened the upper pair into dot-like segments. Corrected vectors restore those two courses from read-only native alpha PCA and uniform-width cap compensation, preserving every other traced path."
+      ],
+      "source_png": "design/seal-individual/U3D019.png",
+      "source_png_sha256": "6cbfac7a6d544c82018ee37ab0c60b944a160600128e86d825a5f08bd639faf5",
+      "reference_overview": "reference/seal/individual/U3D019.png",
+      "reference_png_sha256": "2e26ae17c8f5f76b667751eb0bcd47589487b000e7e4d0b818b40d8b1ab1fc45",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "limitations": [
+        "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+        "Does not verify historical writing order, exact metrics, or final font stroke width.",
+        "Verdict applies only to the source PNG hash recorded here."
+      ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The right component retains its small open upper box, crossing bar, bending central shaft, first leftward branch, and two paired sets of short lower diagonal ticks.",
+          "This is a coherent THX-type arrangement after comparison with the more enclosed QJZ/DYC alternatives. The left central stem remains attached to its bar."
+        ]
+      },
+      "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification.",
+      "review_file": "design/seal-individual/reviews/U3D019.json",
+      "review_sha256": "dc4d432eb5a63296ba81ee7ae5c03998aeb5f1e71f4d96d134a098b8cb826990"
+    },
+    "alpha_threshold": 128,
+    "readonly_alpha_analysis": {
+      "size": [
+        313,
+        313
+      ],
+      "resized_alpha_size": [
+        313,
+        313
+      ],
+      "padding_offset": [
+        0,
+        0
+      ],
+      "resample": "Pillow LANCZOS; in-memory alpha only"
+    },
+    "kind": "explicit minimal manual correction of immutable native-image centerlines",
+    "automatic_trace_file": "design/strokes-individual/auto/U3D019.json",
+    "automatic_trace_sha256": "2a430eee09e59ee9dc7c15134737c04010340a4f6f754dd502597719181fdf12",
+    "generation_provenance_file": "design/seal-individual/U3D019.json",
+    "generation_provenance_sha256": "ac32b9e6d3bcc2ca3c84bd2aadcfd6b8e61684e241734fd97a82dc86deecc146",
+    "reference_file": "reference/seal/individual/U3D019.png",
+    "reference_sha256": "2e26ae17c8f5f76b667751eb0bcd47589487b000e7e4d0b818b40d8b1ab1fc45",
+    "reference_evidence_file": "reference/seal/individual/U3D019.json",
+    "reference_evidence_sha256": "1bc4c0e1d6e2d4ebb926d280a638e851a77f414052578c8aac36c38a38015f60",
+    "reference_evidence": {
+      "codepoint": "U+3D019",
+      "page": 2,
+      "label_bbox": [
+        236.10000610351562,
+        253.57017517089844,
+        265.5594177246094,
+        264.7299499511719
+      ],
+      "variants": {
+        "THX": {
+          "available": true,
+          "page": 2,
+          "font": "CMEXShuowenSeal",
+          "font_size": 21.0,
+          "bbox": [
+            271.9800109863281,
+            251.78102111816406,
+            292.9800109863281,
+            276.96002197265625
+          ],
+          "crop_bbox": [
+            270.0000061035156,
+            252.3732696533203,
+            295.0000061035156,
+            277.3532775878906
+          ],
+          "source_label": "TH-00024"
+        },
+        "CCZ": {
+          "available": true,
+          "page": 2,
+          "font": "Shuowen-ccz",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            301.44000244140625,
+            250.34022521972656,
+            316.8398742675781,
+            272.34002685546875
+          ],
+          "crop_bbox": [
+            296.6000061035156,
+            252.3732696533203,
+            321.6000061035156,
+            277.3532775878906
+          ],
+          "source_label": "C-00024"
+        },
+        "QJZ": {
+          "available": true,
+          "page": 2,
+          "font": "qjz",
+          "font_size": 18.999799728393555,
+          "bbox": [
+            326.3399963378906,
+            254.59420776367188,
+            345.33978271484375,
+            276.2159729003906
+          ],
+          "crop_bbox": [
+            323.3000061035156,
+            252.3732696533203,
+            348.3000061035156,
+            277.3532775878906
+          ],
+          "source_label": "K-00024"
+        },
+        "DYC": {
+          "available": true,
+          "page": 2,
+          "font": "dyc",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            354.8399963378906,
+            251.79220581054688,
+            370.2398681640625,
+            276.8279724121094
+          ],
+          "crop_bbox": [
+            350.0000061035156,
+            252.3732696533203,
+            375.0000061035156,
+            277.3532775878906
+          ],
+          "source_label": "D-00024"
+        }
+      }
+    },
+    "chart_url": "https://www.unicode.org/charts/PDF/U3D000.pdf",
+    "uses_existing_font_outlines": false,
+    "uses_bitmap_perimeter": false,
+    "native_artwork_visual_verdict": "match",
+    "structural_corrections": [
+      {
+        "component": "upper pair of detached diagonal marks",
+        "native_issue": "Native PNG is coherent; automatic centerline tracing shortened its upper two diagonal paths to about28.14 units each.",
+        "correction": "Replace only stroke-13 by M579.398,622.784 L526.726,678.524 (76.690 units) and stroke-16 by M707.337,623.695 L757.767,678.496 (74.473 units), recovering the native alpha major-axis courses.",
+        "evidence": [
+          "All four chart specimens retain elongated diagonal lower-side marks, rather than circular dots.",
+          "Native upper pair connected-component boxes are114x118 and113x117 pixels; lower pair boxes112x124 and112x125 pixels.",
+          "Native alpha component PCA axes with source nominal diameter43 units give corrected upper paths of76.689 and74.474 units."
+        ],
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "native_alpha_method": {
+          "image_size": [
+            1254,
+            1254
+          ],
+          "alpha_threshold": 128,
+          "connectivity": 8,
+          "upper_component_boxes": [
+            [
+              621,
+              738,
+              735,
+              856
+            ],
+            [
+              841,
+              739,
+              954,
+              856
+            ]
+          ],
+          "assumed_source_diameter": 43,
+          "native_diameter_pixels": 52.658203125,
+          "method": "Principal axis of each unchanged alpha connected component; centerline ends equal projected ink extremes minus half common diameter; map native coordinates by1024/1254."
+        }
+      }
+    ],
+    "preserved_automatic_stroke_ids": [
+      "stroke-1",
+      "stroke-2",
+      "stroke-3",
+      "stroke-4",
+      "stroke-5",
+      "stroke-6",
+      "stroke-7",
+      "stroke-8",
+      "stroke-9",
+      "stroke-10",
+      "stroke-11",
+      "stroke-12",
+      "stroke-14",
+      "stroke-15"
+    ],
+    "geometry_reference_review": {
+      "verdict": "match",
+      "geometry_sha256": "8ceddecd86e1db285542881a507748fa506615ada1293e0b13a085ac31f75609",
+      "reviewer": "consensus_b explicit repair followed by actual-font proof review",
+      "notes": [
+        "The native drawing retains four elongated detached diagonal marks and matches the shared chart structure; no PNG change is required.",
+        "The prior automatic vector trace shortened the upper pair into dot-like segments. Corrected vectors restore those two courses from read-only native alpha PCA and uniform-width cap compensation, preserving every other traced path.",
+        "Actual TTF proofs using load_sources normalization_extent738 and build_font widths30 and43 were visually checked against all four enlarged witnesses. Corrected feature retained, every other course preserved."
+      ],
+      "review_limitations": [
+        "Visual structure and relative features only, not specialist identity or historical writing order.",
+        "Acceptance will bind only this canonical vector geometry hash; native artwork verdict is separate."
+      ],
+      "proof_manifest": "design/quality/proofs/recheck-010-01F/proof-manifest.json",
+      "proof_fonts": [
+        "design/quality/proofs/recheck-010-01F/PanoramaGothicSealRepairProof-Regular.ttf",
+        "design/quality/proofs/recheck-010-01F/PanoramaGothicSealRepairProof-Semibold.ttf"
+      ]
+    }
+  },
+  "status": "manual_geometry_reviewed",
+  "visual_reference_match_reviewed": true,
+  "stroke_order": "Geometrically inferred and explicitly corrected path sequence; not historical writing order.",
+  "strokes": [
+    {
+      "id": "stroke-1",
+      "path": "M 386.045,346.786 L 382.773,844.064",
+      "closed": false
+    },
+    {
+      "id": "stroke-2",
+      "path": "M 562.709,235.553 L 736.102,235.553",
+      "closed": false
+    },
+    {
+      "id": "stroke-3",
+      "path": "M 624.869,477.649 C 592.487,479.831 581.072,500.532 556.166,523.451",
+      "closed": false
+    },
+    {
+      "id": "stroke-4",
+      "path": "M 624.869,477.649 C 627.097,454.954 635.441,434.793 637.955,412.217",
+      "closed": false
+    },
+    {
+      "id": "stroke-5",
+      "path": "M 624.869,477.649 C 639.424,498.006 657.119,499.764 668.424,512.336 C 677.931,522.909 682.918,541.132 678.607,556.455 C 673.636,574.122 656.304,587.934 646.992,604.352 C 638.916,618.591 636.872,634.79 635.651,651.615 C 631.143,713.765 637.871,784.455 634.684,847.336",
+      "closed": false
+    },
+    {
+      "id": "stroke-6",
+      "path": "M 657.585,412.217 C 662.399,354.42 665.757,296.019 664.128,235.553",
+      "closed": false
+    },
+    {
+      "id": "stroke-7",
+      "path": "M 294.441,343.514 L 487.463,343.514",
+      "closed": false
+    },
+    {
+      "id": "stroke-8",
+      "path": "M 304.256,772.09 C 303.392,758.106 303.646,742.242 304.092,726.309 C 304.483,712.341 305.022,698.32 305.593,684.337 C 306.183,669.908 306.807,655.52 307.19,641.051 C 307.562,627.029 307.707,612.931 307.747,598.783 C 307.908,541.737 306.361,483.861 310.799,428.575",
+      "closed": false
+    },
+    {
+      "id": "stroke-9",
+      "path": "M 327.156,242.096 L 438.39,242.096",
+      "closed": false
+    },
+    {
+      "id": "stroke-10",
+      "path": "M 454.748,428.575 L 458.019,768.818",
+      "closed": false
+    },
+    {
+      "id": "stroke-11",
+      "path": "M 523.451,801.534 L 579.067,736.102",
+      "closed": false
+    },
+    {
+      "id": "stroke-12",
+      "path": "M 533.265,412.217 L 745.917,412.217",
+      "closed": false
+    },
+    {
+      "id": "stroke-13",
+      "path": "M 579.398,622.784 L 526.726,678.524",
+      "closed": false
+    },
+    {
+      "id": "stroke-14",
+      "path": "M 562.709,179.936 C 561.541,205.671 563.547,229.684 562.948,255.008 C 562.635,268.22 561.613,281.789 562.184,294.968 C 562.49,302.013 563.251,308.946 566.449,313.766 C 569.356,318.146 574.275,320.782 579.601,322.723 C 600.996,330.52 628.946,327.104 654.709,326.69 C 680.016,326.284 703.212,328.775 729.559,327.156",
+      "closed": false
+    },
+    {
+      "id": "stroke-15",
+      "path": "M 709.93,745.917 C 723.784,766.149 736.947,780.623 755.732,801.534",
+      "closed": false
+    },
+    {
+      "id": "stroke-16",
+      "path": "M 707.337,623.695 L 757.767,678.496",
+      "closed": false
+    }
+  ],
+  "identity_review": {
+    "method": "Compare all enlarged reference specimens, unchanged native PNG, and actual-font proof after one minimal vector correction.",
+    "compared_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "notes": [
+      "The native drawing retains four elongated detached diagonal marks and matches the shared chart structure; no PNG change is required.",
+      "The prior automatic vector trace shortened the upper pair into dot-like segments. Corrected vectors restore those two courses from read-only native alpha PCA and uniform-width cap compensation, preserving every other traced path."
+    ],
+    "specialist_verification_pending": true
+  },
+  "geometry_review": {
+    "construction": "Open editable paths expanded with common43-unit source diameter, roundcaps and roundjoins. Font-side normalization and weight remapping do not alter reviewed input paths.",
+    "changed_stroke_ids": [
+      "stroke-13",
+      "stroke-16"
+    ],
+    "native_source_pixels_modified": false
+  }
+}

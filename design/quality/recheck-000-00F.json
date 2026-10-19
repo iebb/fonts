@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "range": [
+    "U+3D000",
+    "U+3D00F"
+  ],
+  "reviewer": "consensus_a",
+  "review_method": "Re-audit every glyph using enlarged crops of every available labeled chart specimen beside accepted centerline paths selected by the font manifest. Manual overrides used where present; native artwork retained only as provenance/reference. Follow-up actual-font proofs made for confirmed U3D00B repair and current root U3D007 repair.",
+  "source_manifest_snapshot_sha256": "08dbdeb321d736904afb8ec8b7de1443d6e677b2761d7ffe5441196da23b4e59",
+  "summary": {
+    "reviewed": 16,
+    "additional_confirmed_construction_errors": 1,
+    "additional_error_codepoints": [
+      "U+3D00B"
+    ],
+    "known_proportion_error_codepoints": [
+      "U+3D007"
+    ],
+    "repairs_verified": [
+      "U+3D007",
+      "U+3D00B"
+    ],
+    "minor_unconfirmed_proportion_observations": [
+      "U+3D006",
+      "U+3D00F"
+    ],
+    "other_confirmed_identity_errors": []
+  },
+  "limitations": [
+    "Criteria test visible structure, essential attachments, counters, branch counts and clear relative bar hierarchy; they do not establish historical writing order or specialist paleographic identity.",
+    "Exact proportions are not certified for variable multi-style specimens. Minor stylistic differences are not turned into repairs.",
+    "Original native PNGs and reference PNGs are unchanged. All geometry repairs are explicit editable-source overrides with recorded hashes.",
+    "Initial comparison sheets preserve the pre-repair U3D007/U3D00B snapshot. Current actual-font proof files and current geometry hashes record their repaired states."
+  ],
+  "regression_policy_suggestions": [
+    "Check required connections and significant-component counts in rendered actual fonts at all weight extrema, rather than trusting nonempty masks or source path counts.",
+    "Bind accepted geometry review to canonical viewBox/stroke_width/strokes hash so geometry changes invalidate the review.",
+    "Preserve codepoint-specific relative bar hierarchy and spacing invariants; U3D007 demonstrates that topology alone cannot verify proportions."
+  ],
+  "records": [
+    {
+      "codepoint": "U+3D000",
+      "reference_png": "reference/seal/individual/U3D000.png",
+      "reference_png_sha256": "12e4e53c6e5576effa8c78b6111da007b41d9b4d404b0af6d576eeb4522be4fe",
+      "source_png": "design/seal-individual/U3D000.png",
+      "source_png_sha256": "2d6ceca37abfc581fc66d20ab782b61961f68ea560bc710450b488316fcd190f",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D000.json",
+      "accepted_centerline_sha256": "b782387dc7d9debdbe3d3d2e560522d9c28bba5abf32ca9da422bf4d1ae47533",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D000.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 1,
+      "criteria": [
+        {
+          "id": "one_horizontal_only",
+          "criterion": "Exactly one unbranched horizontal, one ink component, no counter or added mark.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "natural_proportion",
+          "criterion": "Simple horizontal remains wider than tall; no attempt to fill glyph height.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "ec2fcc39e70c9150f99f8a70451671d1bf9c4505cdba5d1158b4cf48073d8beb",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D001",
+      "reference_png": "reference/seal/individual/U3D001.png",
+      "reference_png_sha256": "dadc817818eef1e843757b1ced4f955f26f989b4fc41390efe0a1b43fa1ec8a1",
+      "source_png": "design/seal-individual/U3D001.png",
+      "source_png_sha256": "00683522ca4088004577a55127adc1321be44f12adeb540e59dc262bacb3fedc",
+      "accepted_centerline_file": "design/strokes-individual/U3D001.json",
+      "accepted_centerline_sha256": "db4a8b6318d0d62eab864d5f01c503992aca18085c61b516765e46be0e42ee11",
+      "accepted_geometry_status": "manual_geometry_reviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D001.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 4,
+      "criteria": [
+        {
+          "id": "four_trajectories",
+          "criterion": "Descending curved main stem with left top entry, upturned right branch, crossing middle bar, and detached lower-left short bar.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "branch_and_detachment",
+          "criterion": "Upper branch meets stem; crossbar crosses stem; lower-left bar remains detached as in THX/QJZ/DYC.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "relative_bars",
+          "criterion": "Detached low-left bar is visibly shorter than crossing bar; no fixed ratio imposed across variable specimens.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "57ca69af574bf214f02d8db208769bb6f793ab2e2291edc9b07af3167a211fd1",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D002",
+      "reference_png": "reference/seal/individual/U3D002.png",
+      "reference_png_sha256": "e57dd6aaf281f0fe7c815470db1d30cab2efba2a04f410e0fa31495512ab977d",
+      "source_png": "design/seal-individual/U3D002.png",
+      "source_png_sha256": "4646f2b133f8e0b2654dbeaf9046ad0574207a83a0fcb3aaf388d9e1850cdc44",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D002.json",
+      "accepted_centerline_sha256": "80c392a2df6cfc2a910868c9c9ef2fae02dfd875e40bf881a7fb650bfdf28345",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D002.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 5,
+      "criteria": [
+        {
+          "id": "two_high_levels",
+          "criterion": "Detached upper short horizontal is shorter than the lower high horizontal.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "two_lower_legs",
+          "criterion": "Short bridge under lower bar branches to two lower ends; right leg retains bent/S trajectory.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "no_extra_counter",
+          "criterion": "No invented closed loop or third lower leg. Upper-bar length differs modestly among sources; exact ratio not certified.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "d7f89945edba5526d3c891b7e76cb7e6a0d951a8d8e22a381d02a06961654283",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D003",
+      "reference_png": "reference/seal/individual/U3D003.png",
+      "reference_png_sha256": "60e31593df2fe7017378052bf83bb53caf7bdbf55b2ceec3424de91d7d74b67b",
+      "source_png": "design/seal-individual/U3D003.png",
+      "source_png_sha256": "1c7271d62c2513a141d22f30533999ce7933c0f6972d7b9e7b7be77ab4952e72",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D003.json",
+      "accepted_centerline_sha256": "9776089653bee4ecfe397013015d3e2d035517313da5fa1cc7e95cddf53f9d75",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D003.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 4,
+      "criteria": [
+        {
+          "id": "top_and_middle_connection",
+          "criterion": "Top bar joins central stem; central stem crosses one downward arch.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "four_bottom_ends",
+          "criterion": "Two shorter side-arm ends lie above the two longer forked lower-leg ends.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "no_added_counter",
+          "criterion": "No added box or missing central bridge; one connected construction.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "dc1f8d76e5f1892d53993f0eaf45defd67fbb6817db66340ef18b5de1fd45d13",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D004",
+      "reference_png": "reference/seal/individual/U3D004.png",
+      "reference_png_sha256": "c4ba16b576593e2b7ec81ab655ffefca0ef4791782afd23a847b21ec3cba84c2",
+      "source_png": "design/seal-individual/U3D004.png",
+      "source_png_sha256": "47f71d7f7892ab09014aa380f299f963de69daa22836ef6cba9aed5b186857f2",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D004.json",
+      "accepted_centerline_sha256": "c6dbf095168dee26f34360247403b309368aee80793779f7b5181457ad7c7c60",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D004.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 5,
+      "criteria": [
+        {
+          "id": "cup_counter",
+          "criterion": "Top bar and small hanging cup enclose one top counter; cup connects to central upright.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "coherent_lower_variant",
+          "criterion": "Native fully connected lower arch/crossbar variant matches THX, producing two lower counters; do not mix with detached QJZ crossbar alternative.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "leg_count",
+          "criterion": "Two outer side legs continue below crossbar; central upright terminates at crossbar.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "0db722a1fc10d04d17792f7ff63c322c2d0c929e54fd42c9d994adc6733f88d5",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D005",
+      "reference_png": "reference/seal/individual/U3D005.png",
+      "reference_png_sha256": "2313f092031148a58b3ee82a4e62d98485ade1e01e2c174ee18e4bbbdb4d86ce",
+      "source_png": "design/seal-individual/U3D005.png",
+      "source_png_sha256": "0ed1ce33868f9de43f3be3c0f2363e93a1c4da1c50aadfd05424d74e898e2a03",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D005.json",
+      "accepted_centerline_sha256": "7cd0e2e181da36a3212c6df8ee6ccb2b4e201337f625037d0c502ec3c9d11f10",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D005.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 6,
+      "criteria": [
+        {
+          "id": "upper_bowl",
+          "criterion": "Central upright crosses top bar and divided lower bowl, preserving two bowl counters.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "lower_levels",
+          "criterion": "Three left-facing lower horizontal levels join the right curving construction; diagonal tail survives.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "spacing",
+          "criterion": "White spaces between lower levels remain visible; no level omitted or fused.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "69b9b850a263b71eb11b3d41c5ddff0a801391adc62cd2d4915ecc8ceab8c8b5",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D006",
+      "reference_png": "reference/seal/individual/U3D006.png",
+      "reference_png_sha256": "fe0198d1dd2513622b5c4cf5874a4721065539a6608e9855c4db77c8c675841a",
+      "source_png": "design/seal-individual/U3D006.png",
+      "source_png_sha256": "dac131015493a055e89301bcf7d05148819f55728d9f0002a327d643ff400f37",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D006.json",
+      "accepted_centerline_sha256": "bd20cf03602c36a92e9ba78596239454aafa344dcd6c960cb1e2954e369ca231",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D006.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 2,
+      "criteria": [
+        {
+          "id": "baseline_orientation",
+          "criterion": "One upright rises from the center of one baseline; no extra branches or counters.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "proportion_observation_only",
+          "criterion": "Native baseline is modestly wider relative to upright than chart examples; this is not established as an identity error. Root explicitly retains native proportions.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "aff70c1199497b345d0376e43ac82fb53944f7e15c623fdf57035ce57c4ad201",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false,
+      "proportion_observation": {
+        "severity": "minor_not_confirmed_identity_error",
+        "action": "No change; root explicitly preserves native proportions.",
+        "reference_ink_width_height_ratios": {
+          "THX": 0.6858,
+          "CCZ": 0.5755,
+          "QJZ": 0.9791,
+          "DYC": 0.75
+        },
+        "accepted_nominal_43_ink_width_height_ratio": 1.0745,
+        "limitations": "Brush weight and endcaps affect ink bounds, so this is not used to require a structural correction."
+      }
+    },
+    {
+      "codepoint": "U+3D007",
+      "reference_png": "reference/seal/individual/U3D007.png",
+      "reference_png_sha256": "22d54f78a43528560c90ac2890c00f459683eaea4af63177776dbc44a9c07a6a",
+      "source_png": "design/seal-individual/U3D007.png",
+      "source_png_sha256": "26baa2732950e9e69a54c61ae656cfc856393b623bb6894fa4e007659414e6c5",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D007.json",
+      "accepted_centerline_sha256": "62e740a67d5de07ef02b73171708972dcdc09d85bc6c37e36271f3359b290c34",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D007.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 2,
+      "criteria": [
+        {
+          "id": "two_detached_bars",
+          "criterion": "Exactly two parallel detached horizontal bars; no connector.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "lower_bar_length",
+          "criterion": "Lower bar is substantially longer. Reference ink lower/upper ratios are1.416 THX and1.482 DYC.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "vertical_spacing",
+          "criterion": "Reference vertical centroid gap/lower-bar width is1.123 THX and0.982 DYC. Native/old geometry was much more compressed; current root override restores reference-like separation.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "b518276b275d25e3032cfb69cd38626ff04fbf68f9acd7e7d150c4a5646ef16c",
+      "verdict": "root_repair_visually_matches_bar_hierarchy_and_spacing",
+      "exact_metrics_certified": false,
+      "previous_verdict": "confirmed_proportion_error_in_native_and_old_auto_geometry",
+      "native_issues": [
+        "Lower/upper ratio too small to express supplied reference hierarchy clearly.",
+        "Vertical gap compressed to roughly0.43 lower ink-bar width versus reference0.98–1.12."
+      ],
+      "reference_ink_metrics": {
+        "THX": {
+          "upper_width_px": 113,
+          "lower_width_px": 160,
+          "lower_upper_ratio": 1.415929203539823,
+          "vertical_centroid_gap_per_lower_width": 1.1228257478730483
+        },
+        "DYC": {
+          "upper_width_px": 112,
+          "lower_width_px": 166,
+          "lower_upper_ratio": 1.4821428571428572,
+          "vertical_centroid_gap_per_lower_width": 0.9818060021511292
+        }
+      },
+      "old_accepted_centerline_metrics": {
+        "upper_width": 458.01,
+        "lower_width": 556.17,
+        "vertical_gap": 255.18,
+        "lower_upper_ratio": 1.2143184646623435,
+        "gap_per_lower_width": 0.45881654889692003
+      },
+      "current_accepted_centerline_file": "design/strokes-individual/U3D007.json",
+      "current_accepted_centerline_sha256": "2ac3a5281dd6fa1bbacd3c0f1f948a2c12b7c5ee89eb0472ac0642db90b37736",
+      "current_metrics": {
+        "upper_width": 383.563,
+        "lower_width": 556.166,
+        "vertical_gap": 620,
+        "lower_upper_ratio": 1.4499990875032265,
+        "gap_per_lower_width": 1.114775085136452
+      },
+      "current_proof_file": "design/quality/U3D007-current-actual-font.png",
+      "current_proof_sha256": "6072f7e17b2b99dc9ce58b851fcaaedea55f305f6f60faa13f8a46d68ccb5c52",
+      "repair_owner": "root",
+      "review_notes": "Viewed current actual width30 normalized738 TrueType proof. Both bars detached and parallel, lower visibly longer, large vertical separation now matches reference proportions."
+    },
+    {
+      "codepoint": "U+3D008",
+      "reference_png": "reference/seal/individual/U3D008.png",
+      "reference_png_sha256": "1095cf4f440c327474a4f83b28cabaca5e8d66a60f31ae313892d25659deb893",
+      "source_png": "design/seal-individual/U3D008.png",
+      "source_png_sha256": "ecbbf111d14780dccd8786239704dd6215dd50c181f7e22e6a0fb49283e2e391",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D008.json",
+      "accepted_centerline_sha256": "f6574c1286cc58e5b28dffe800391908b1c6fa4d8373017795f0f6dd2d8e3e98",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D008.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 3,
+      "criteria": [
+        {
+          "id": "continuous_upper_curl",
+          "criterion": "Coherent smooth S curl attested THX/CCZ continues into upright; no invented closed upper loop.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "branch_and_baseline",
+          "criterion": "One short right branch and one longer baseline connect to upright; no extra short mark.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "variant_scope",
+          "criterion": "QJZ squared upper return compared but not mixed into the selected curl; DYC unavailable.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "4294e4a438725d3f9440757339c03ba11785ee73cc009fe19e4277be644d70f1",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D009",
+      "reference_png": "reference/seal/individual/U3D009.png",
+      "reference_png_sha256": "224d5da9c6e8dbd75ed3f7b0238e00d871306b84381db5e220d2dba44e6b81e6",
+      "source_png": "design/seal-individual/U3D009.png",
+      "source_png_sha256": "cca6b23f62bf01f830b068470d69521e1b225d1f355325bf6031f2b0d33185e3",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D009.json",
+      "accepted_centerline_sha256": "622b000ede0545c406a0ebfc124f9a21369f0d5041b45a621349c4a60c869468",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D009.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 8,
+      "criteria": [
+        {
+          "id": "two_high_bars_and_cup",
+          "criterion": "Separate short top bar; longer second bar supports one hanging cup counter.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "H_and_inner_arch",
+          "criterion": "Cup stem crosses outer H bar and inner arch; outer upper tips remain detached from high second bar in coherent THX/QJZ/DYC variant.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "five_lower_ends",
+          "criterion": "Two outer ends, two inner arch ends and central stem remain distinct; no missing fifth end.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "d661e23f433bd23113eb796f47efe50dc3165d9437622c09ede7b8149e6ae4b2",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D00A",
+      "reference_png": "reference/seal/individual/U3D00A.png",
+      "reference_png_sha256": "63dd2b9ab333e015c32e58177abf259391339596ebf6c553a91c57f4eb193bac",
+      "source_png": "design/seal-individual/U3D00A.png",
+      "source_png_sha256": "65d02343549df89c72bef4458d15f766b56e198d54fb63dffaafd5d6ed3b8196",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D00A.json",
+      "accepted_centerline_sha256": "94b288e749fdbc84e8c9cc7527f3460f85d98d50021178227e8bf22cb1d3a036",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D00A.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 5,
+      "criteria": [
+        {
+          "id": "single_top_and_triangle",
+          "criterion": "One top bar with inverted triangular neck/counter, coherent THX/CCZ/DYC form; no extra short top bar.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "nested_arches",
+          "criterion": "Two nested arches cross central upright.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "five_lower_ends",
+          "criterion": "Two outer, two inner, one central downward ends preserved; QJZ cup/H alternative not mixed in.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "477b967fdfc338292d64369de322f5dff3b8fe71b018b2785f7529b300e0ba87",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D00B",
+      "reference_png": "reference/seal/individual/U3D00B.png",
+      "reference_png_sha256": "f76c4a6a05800b1aa5692edda8866a6ae31cf2cff5d501caaa621e560248e18d",
+      "source_png": "design/seal-individual/U3D00B.png",
+      "source_png_sha256": "1e0bb79f05a57aa5ee48361b44caf2f2c8451540fbca4d675d7d3eaa076afa5c",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D00B.json",
+      "accepted_centerline_sha256": "7d6db092889e9afc35b487b9ec0629d689f0874a895fd64f4b3a5f77ebba34a8",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D00B.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 8,
+      "criteria": [
+        {
+          "id": "coherent_connection_pair",
+          "criterion": "THX outer roof joins right side while inner figure detaches; QJZ/DYC open roof at right while inner left hook joins roof. Native has both gaps and is unsupported.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "minimal_correction",
+          "criterion": "Corrected geometry appends only roof segment(641.227,444.933)→(709.525072,444.933), restoring THX connection without changing any other path.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "actual_font_topology",
+          "criterion": "Corrected normalized actual fonts must have3 significant ink components and0 counters at widths23.5,30,43,49.5; verified at2048ppem thresholds32,128,224.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "851eeedb92136fbea53580cad4c55775ec4e281840f1cc32d0a4df46bd7a03c5",
+      "verdict": "minimal_geometry_repair_matches_coherent_THX_construction",
+      "exact_metrics_certified": false,
+      "previous_verdict": "confirmed_unattested_combined_disconnection",
+      "native_significant_components": 4,
+      "source_specimen_significant_components": {
+        "THX": 3,
+        "CCZ": 2,
+        "QJZ": 2,
+        "DYC": 3
+      },
+      "current_accepted_centerline_file": "design/strokes-individual/U3D00B.json",
+      "current_accepted_centerline_sha256": "dd50be0b5406a175099f7c71a6955146cb0b04d64243056322c85290499aca68",
+      "current_geometry_canonical_sha256": "db1b16ae28cdd57d2fa8856168ed1d49639737d5b445e639b884f1dc28140018",
+      "structural_corrections": [
+        {
+          "component": "right endpoint of the outer left roof",
+          "change": "Appended one straight centerline segment from (641.227,444.933) to (709.525072,444.933), the exact intersection with the existing right descending contour. All eight original path trajectories remain byte-identical prefixes; only stroke-6 receives this extension.",
+          "reason": "Select the coherent THX roof/right-side connection while keeping the native detached inner figure. The native combination of two gaps is not attested by any of the four specimens.",
+          "reviewed_specimens": [
+            "THX",
+            "CCZ",
+            "QJZ",
+            "DYC"
+          ],
+          "added_centerline_segment": [
+            [
+              641.227,
+              444.933
+            ],
+            [
+              709.525072,
+              444.933
+            ]
+          ],
+          "expected_significant_ink_components": 3,
+          "native_significant_ink_components": 4
+        }
+      ],
+      "actual_font_check_file": "design/quality/U3D00B-proof/actual-font-check.json",
+      "actual_font_check_sha256": "77382b689d8c6aad538be7fd66e226cd250bece7b2764086b9e9dfeb20079689",
+      "current_proof_file": "design/quality/U3D00B-correction.png",
+      "current_proof_sha256": "64d1d662459f512ea6a14197d43ca6c52f4091e952ed5167b576b4a1008b46fc",
+      "native_review_file": "design/seal-individual/reviews/U3D00B.json",
+      "native_review_sha256": "d39de748031441a3e4ed98eb98f9d36934d0dbaa27f1ead4d26970d779cf3f84",
+      "regression_invariants": {
+        "expected_significant_ink_components": 3,
+        "expected_counters": 0,
+        "junction_source": [
+          709.525072,
+          444.933
+        ],
+        "detached_top_bar": true,
+        "detached_inner_figure": true,
+        "required_join": "outer_roof_to_right_descending_contour",
+        "verified_widths": [
+          23.5,
+          30,
+          43,
+          49.5
+        ]
+      }
+    },
+    {
+      "codepoint": "U+3D00C",
+      "reference_png": "reference/seal/individual/U3D00C.png",
+      "reference_png_sha256": "b7ee9ad970ce1662d5d76137d5832c9f5321c8dc25543fb969c58a04426d1518",
+      "source_png": "design/seal-individual/U3D00C.png",
+      "source_png_sha256": "0f858cab34fd2e9cc8adbb6073b9b279706c2ccdf3e15c2fccc1d646cad1878a",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D00C.json",
+      "accepted_centerline_sha256": "69b0f2dfb8e983040ea8f60d4392d217b05e6bbedc1db7cbf72046f2db5f3796",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D00C.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 7,
+      "criteria": [
+        {
+          "id": "neck_spur",
+          "criterion": "One top horizontal, central neck, and exactly one short right-facing spur below top bar.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "outer_and_inner_separation",
+          "criterion": "Broad outer arch retains two legs; internal crossed figure stays detached as in all specimens.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "inner_branch_count",
+          "criterion": "Inner left hook, upper oblique entry, right branch and two lower legs remain present; no lost short branch.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "b66a9bc3a25c1f9c0c171c88ac8771a13108f75559c554bda3bedb8a94fb7a1d",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D00D",
+      "reference_png": "reference/seal/individual/U3D00D.png",
+      "reference_png_sha256": "c84f0f58496073b326f7ea34e2dcefb6931939a10fc34a0b94ca0904a65d6393",
+      "source_png": "design/seal-individual/U3D00D.png",
+      "source_png_sha256": "cce25b379ec5ca3c18fad1205fa212c278872f52dfe176b815c862f1e7b5d91f",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D00D.json",
+      "accepted_centerline_sha256": "ae8f3cbf3f923f903f2669a19256f6d907d00b1fac2f72e7d1043452b8146791",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D00D.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 7,
+      "criteria": [
+        {
+          "id": "split_neck",
+          "criterion": "Two attached bent necks under top bar, central white slit retained, coherent CCZ/QJZ/DYC alternative.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "no_central_substitute",
+          "criterion": "No central neck substituted for the split; THX detached top-bar variant not partially mixed.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "inner_branches",
+          "criterion": "Detached inner crossed figure retains hooked left branch, upper entry, right branch and two lower ends.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "ad317dd12eae4696b27e16c38f4cb258eea415a5513bd9ebac1f59b063f5cb13",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D00E",
+      "reference_png": "reference/seal/individual/U3D00E.png",
+      "reference_png_sha256": "93fe98221bf36943166368e76c12e945db85ea0a34ab34574f87a36a0d5c7e3c",
+      "source_png": "design/seal-individual/U3D00E.png",
+      "source_png_sha256": "a6f93e3ee3f749f274e078e8d2643fd7870cbb8a127731e807b8e0261e6792bf",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D00E.json",
+      "accepted_centerline_sha256": "02c72bcab7c8fd646471987a11d7b650321d48c522a0f00c4b9a999ce5696024",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D00E.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 11,
+      "criteria": [
+        {
+          "id": "four_small_marks",
+          "criterion": "Exactly four short upper interior marks in two left/right rows; detached THX/QJZ variant chosen.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "stem_separation",
+          "criterion": "Central stem enters outer arch and ends before lower figure with a visible gap.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "outer_inner_endpoints",
+          "criterion": "Two outer legs plus inner figure retaining left hook, upper entry, right branch and two lower ends; no missing short mark or accidental loop.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "ddc42a6be2c27ddbd2b8c99a7d56663ffdd68e37eb78af8416e0bcaa02cc45f8",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false
+    },
+    {
+      "codepoint": "U+3D00F",
+      "reference_png": "reference/seal/individual/U3D00F.png",
+      "reference_png_sha256": "1b99c91d0ce6fb5087b0471c5aa9dbea779557d8c9eca0b00bc5e59df9865b6d",
+      "source_png": "design/seal-individual/U3D00F.png",
+      "source_png_sha256": "cdf1947eed8c2496d2e2e963533f57bc0b1b3a68dc6129a63dd8d2c97e413c90",
+      "accepted_centerline_file": "design/strokes-individual/auto/U3D00F.json",
+      "accepted_centerline_sha256": "e474e55729a20dc3add8b00e4cd20996f30868f449bcfd71ca590ec10f4dda61",
+      "accepted_geometry_status": "automatic_unreviewed",
+      "source_specimens_available": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "comparison_sheet": "design/quality/recheck-000-00F-inspection/U3D00F.png",
+      "render_stroke_width": 43,
+      "accepted_centerline_stroke_count": 2,
+      "criteria": [
+        {
+          "id": "top_bar_orientation",
+          "criterion": "One upper horizontal with descending central stem; no baseline below stem.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "two_stroke_junction",
+          "criterion": "Two paths meet at T junction; no counter or extra mark.",
+          "result": "checked_visually"
+        },
+        {
+          "id": "proportion_observation_only",
+          "criterion": "Native top bar is modestly wider relative to stem than chart examples; not established as an identity error. Root explicitly retains native proportions.",
+          "result": "checked_visually"
+        }
+      ],
+      "review_scope": "Enlarged chart raster plus accepted centerline geometry; no specialist identity or historical writing-order certification.",
+      "reference_metadata_sha256": "892f11076ad76b7313bc9f331794ba46636f3412fb79f970ceae542202050a5d",
+      "verdict": "matches_coherent_attested_structure_under_listed_criteria",
+      "exact_metrics_certified": false,
+      "proportion_observation": {
+        "severity": "minor_not_confirmed_identity_error",
+        "action": "No change; root explicitly preserves native proportions.",
+        "reference_ink_width_height_ratios": {
+          "THX": 0.693,
+          "CCZ": 0.5802,
+          "QJZ": 1.0051,
+          "DYC": 0.795
+        },
+        "accepted_nominal_43_ink_width_height_ratio": 1.0914,
+        "limitations": "Brush weight and endcaps affect ink bounds, so this is not used to require a structural correction."
+      }
+    }
+  ]
+}

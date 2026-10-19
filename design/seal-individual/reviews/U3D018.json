@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D018",
-  "verdict": "match",
-  "reviewer": "independent visual structural review by stroke_font_engine",
+  "verdict": "mismatch",
+  "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
   "notes": [
-    "The right side retains the bent upper fork with its lower horizontal, the three-panel eye-like enclosure, its enclosing lower support/baseline and two diverging legs.",
-    "The two-leg lower construction is coherent with THX/CCZ after comparison with the differently simplified QJZ/DYC alternatives. No additional divider was introduced."
+    "All four enlarged specimens THX, CCZ, QJZ and DYC show the lower free horizontal of the upper-right motif extending rightward beyond the upper U hook. The native drawing instead ends this lower bar before the hook right edge.",
+    "The native PNG remains unchanged and mismatched; acceptance applies only to corrected vector geometry. The existing coherent THX/CCZ two-foot lower variant is preserved."
   ],
   "source_png": "design/seal-individual/U3D018.png",
   "source_png_sha256": "dc10f9ce96922f1b59518ea4ed778c636bd232db1edd9a0d116f7887891a5aa2",
@@ -22,5 +22,14 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
-  ]
+  ],
+  "superseded_review": {
+    "verdict": "match",
+    "reviewer": "independent visual structural review by stroke_font_engine",
+    "notes": [
+      "The right side retains the bent upper fork with its lower horizontal, the three-panel eye-like enclosure, its enclosing lower support/baseline and two diverging legs.",
+      "The two-leg lower construction is coherent with THX/CCZ after comparison with the differently simplified QJZ/DYC alternatives. No additional divider was introduced."
+    ]
+  },
+  "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification."
 }

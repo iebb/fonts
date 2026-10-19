@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D01D",
+  "viewBox": [
+    0,
+    0,
+    1024,
+    1024
+  ],
+  "stroke_width": 43,
+  "linecap": "round",
+  "linejoin": "round",
+  "coverage_eligible": false,
+  "character_identity_verified": false,
+  "historical_stroke_order_verified": false,
+  "source": {
+    "file": "design/seal-individual/U3D01D.png",
+    "sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
+    "source_pixels_modified": false,
+    "source_layout": "one complete glyph per native PNG",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "generation_review": {
+      "codepoint": "U+3D01D",
+      "tool": "image_gen.imagegen",
+      "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D01D, critical topology. LEFT component: short detached horizontal upper bar. Below it is a LONGER HORIZONTAL BAR WITH ITS CENTRAL DESCENDING VERTICAL LEG DIRECTLY ATTACHED, forming a solid T JUNCTION. THERE IS NO GAP BETWEEN THIS LOWER BAR AND ITS CENTER LEG. Make center vertical begin ON the lower horizontal centerline and extend almost to glyph bottom, exactly as in ALL FOUR reference views. Approximate: lower bar centerline from(18%,33%) to(43%,33%); central descending leg centerline from(30.5%,33%) to(30.5%,85%), so they visibly intersect. On either side of center leg, one shorter outer descending stroke begins below the bar with a small gap, curving outward at bottom. Thus central leg attached, left/right side legs detached. Never detach all three legs. RIGHT component: three staggered upright tips, central tallest from near top to baseline; left upright starts a little lower and descends then rounds RIGHT to a long bottom baseline crossing central upright; right upright starts slightly lower than central and descends only to lower-middle, turns LEFT and meets central at that level, creating an OPEN TOP channel. There is no closed box. Shared coherent horizontal-baseline structure attested by THX/CCZ/QJZ, consider DYC without hybrid. The right component in the evidence is distinct from left T-plus-side-strokes. Uniform4%canvas rounded monoline.",
+      "reference": "/workspace/unifont/reference/seal/individual/U3D01D.png",
+      "reference_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f",
+      "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D01D.json",
+      "evidence": {
+        "THX": {
+          "available": true,
+          "page": 2,
+          "font": "CMEXShuowenSeal",
+          "font_size": 21.0,
+          "bbox": [
+            271.9800109863281,
+            378.6210021972656,
+            292.9800109863281,
+            403.79998779296875
+          ],
+          "crop_bbox": [
+            270.0000061035156,
+            379.1532836914063,
+            295.0000061035156,
+            404.1333068847656
+          ],
+          "source_label": "TH-00028"
+        },
+        "CCZ": {
+          "available": true,
+          "page": 2,
+          "font": "Shuowen-ccz",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            301.44000244140625,
+            377.1802062988281,
+            316.8398742675781,
+            399.17999267578125
+          ],
+          "crop_bbox": [
+            296.6000061035156,
+            379.1532836914063,
+            321.6000061035156,
+            404.1333068847656
+          ],
+          "source_label": "C-00028"
+        },
+        "QJZ": {
+          "available": true,
+          "page": 2,
+          "font": "qjz",
+          "font_size": 18.999799728393555,
+          "bbox": [
+            326.3399963378906,
+            381.4341735839844,
+            345.33978271484375,
+            403.0559387207031
+          ],
+          "crop_bbox": [
+            323.3000061035156,
+            379.1532836914063,
+            348.3000061035156,
+            404.1333068847656
+          ],
+          "source_label": "K-00028"
+        },
+        "DYC": {
+          "available": true,
+          "page": 2,
+          "font": "dyc",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            354.8399963378906,
+            378.6321716308594,
+            370.2398681640625,
+            403.6679382324219
+          ],
+          "crop_bbox": [
+            350.0000061035156,
+            379.1532836914063,
+            375.0000061035156,
+            404.1333068847656
+          ],
+          "source_label": "D-00028"
+        }
+      },
+      "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+      "source_generated_image": "/workspace/generated_images/exec-f29801e7-136a-45bd-a55d-3e20325f49a4.png",
+      "output": "/workspace/unifont/design/seal-individual/U3D01D.png",
+      "output_sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
+      "attempt": 2,
+      "transparent_background": true,
+      "review_status": "passed_structural_visual_review",
+      "historical_stroke_order_verified": false,
+      "font_integration_status": "not_integrated",
+      "review_notes": "Compared all four specimens. Peer audit caught detached center leg of left radical in first attempt; second/final attempt restores attached T junction with outer pair separately starting. Right three staggered uprights, middle right return and long lower right baseline retained. Final image visually rechecked.",
+      "native_output_mode": "RGBA",
+      "native_output_size": [
+        1254,
+        1254
+      ],
+      "native_alpha_bbox": [
+        239,
+        214,
+        1194,
+        1210
+      ],
+      "inspection_composite": "/tmp/seal-individual-b-review-3D01D.png",
+      "manifest": "design/seal-individual/U3D01D.json",
+      "manifest_sha256": "da32c29d154e25a4dc2aff5ec016739df43efb869a58ff756701b9745ca3f78a"
+    },
+    "visual_reference_review": {
+      "schema_version": 1,
+      "codepoint": "U+3D01D",
+      "verdict": "mismatch",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
+      "notes": [
+        "All four enlarged specimens retain a substantially longer detached upper dash relative to the left lower crossbar. The native upper/lower ink ratio is about0.55, against approximately0.75–0.90 in the witnesses.",
+        "Extend only this dash about its unchanged center; the attached center leg, separate flank legs, and entire right three-upright turned component stay unchanged. Native artwork remains unchanged and mismatched in this relative length."
+      ],
+      "source_png": "design/seal-individual/U3D01D.png",
+      "source_png_sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
+      "reference_overview": "reference/seal/individual/U3D01D.png",
+      "reference_png_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "limitations": [
+        "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+        "Does not verify historical writing order, exact metrics, or final font stroke width.",
+        "Verdict applies only to the source PNG hash recorded here."
+      ],
+      "previous_reviews": [
+        {
+          "source_png_sha256": "936b1a73f9aead423c93e0e4b2497b35f2faa0bc87bd8fd90a76e49d13fbe8bc",
+          "verdict": "mismatch",
+          "notes": [
+            "Full-size native inspection confirms that the ritual central descender starts below the long second horizontal with a visible gap, leaving all three legs detached.",
+            "All four chart witnesses attach that central stem to the horizontal; lateral legs may remain detached. The right-hand tall hooked component is otherwise consistent.",
+            "A second native attempt with the central attachment was requested from consensus_b."
+          ],
+          "reference_png_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f"
+        }
+      ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The revised left ritual central descender now joins the long second horizontal in a clear T junction, resolving the first-attempt gap.",
+          "The right tall central upright, shorter outer hook, left lower return and extended baseline preserve a coherent attested construction after comparison with all four specimens."
+        ]
+      },
+      "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification.",
+      "review_file": "design/seal-individual/reviews/U3D01D.json",
+      "review_sha256": "ade5d33f5c02b9ef4daa19e42c12776040ec18794201592f234cd50b58e5cffd"
+    },
+    "alpha_threshold": 128,
+    "readonly_alpha_analysis": {
+      "size": [
+        313,
+        313
+      ],
+      "resized_alpha_size": [
+        313,
+        313
+      ],
+      "padding_offset": [
+        0,
+        0
+      ],
+      "resample": "Pillow LANCZOS; in-memory alpha only"
+    },
+    "kind": "explicit minimal manual correction of immutable native-image centerlines",
+    "automatic_trace_file": "design/strokes-individual/auto/U3D01D.json",
+    "automatic_trace_sha256": "564b9e42c8efac62d4432582d068309567ec16a63d28928feda2f89384084d03",
+    "generation_provenance_file": "design/seal-individual/U3D01D.json",
+    "generation_provenance_sha256": "da32c29d154e25a4dc2aff5ec016739df43efb869a58ff756701b9745ca3f78a",
+    "reference_file": "reference/seal/individual/U3D01D.png",
+    "reference_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f",
+    "reference_evidence_file": "reference/seal/individual/U3D01D.json",
+    "reference_evidence_sha256": "192b3c58a2adbd938581d61ee8ed8ce97f478e10337d8a7bd2bffd5839f8f2bd",
+    "reference_evidence": {
+      "codepoint": "U+3D01D",
+      "page": 2,
+      "label_bbox": [
+        236.10000610351562,
+        380.3501892089844,
+        267.2193908691406,
+        391.50994873046875
+      ],
+      "variants": {
+        "THX": {
+          "available": true,
+          "page": 2,
+          "font": "CMEXShuowenSeal",
+          "font_size": 21.0,
+          "bbox": [
+            271.9800109863281,
+            378.6210021972656,
+            292.9800109863281,
+            403.79998779296875
+          ],
+          "crop_bbox": [
+            270.0000061035156,
+            379.1532836914063,
+            295.0000061035156,
+            404.1333068847656
+          ],
+          "source_label": "TH-00028"
+        },
+        "CCZ": {
+          "available": true,
+          "page": 2,
+          "font": "Shuowen-ccz",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            301.44000244140625,
+            377.1802062988281,
+            316.8398742675781,
+            399.17999267578125
+          ],
+          "crop_bbox": [
+            296.6000061035156,
+            379.1532836914063,
+            321.6000061035156,
+            404.1333068847656
+          ],
+          "source_label": "C-00028"
+        },
+        "QJZ": {
+          "available": true,
+          "page": 2,
+          "font": "qjz",
+          "font_size": 18.999799728393555,
+          "bbox": [
+            326.3399963378906,
+            381.4341735839844,
+            345.33978271484375,
+            403.0559387207031
+          ],
+          "crop_bbox": [
+            323.3000061035156,
+            379.1532836914063,
+            348.3000061035156,
+            404.1333068847656
+          ],
+          "source_label": "K-00028"
+        },
+        "DYC": {
+          "available": true,
+          "page": 2,
+          "font": "dyc",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            354.8399963378906,
+            378.6321716308594,
+            370.2398681640625,
+            403.6679382324219
+          ],
+          "crop_bbox": [
+            350.0000061035156,
+            379.1532836914063,
+            375.0000061035156,
+            404.1333068847656
+          ],
+          "source_label": "D-00028"
+        }
+      }
+    },
+    "chart_url": "https://www.unicode.org/charts/PDF/U3D000.pdf",
+    "uses_existing_font_outlines": false,
+    "uses_bitmap_perimeter": false,
+    "native_artwork_visual_verdict": "mismatch",
+    "structural_corrections": [
+      {
+        "component": "left component upper dash relative length",
+        "native_issue": "Upper dash too short relative to lower crossbar; raw traced lengths124.320 versus264.997 before stroke expansion.",
+        "correction": "Lengthen only stroke-6 symmetrically around x382.773 from M320.613,278.083 L444.933,278.083 to M278.773,278.083 L486.773,278.083, centerline length208.000.",
+        "evidence": [
+          "THX upper dash is approximately three quarters the lower crossbar ink length.",
+          "CCZ upper dash is approximately three quarters the lower crossbar ink length.",
+          "QJZ upper dash is approximately four fifths the lower crossbar ink length.",
+          "DYC upper dash is close to the lower crossbar length.",
+          "New normalized Regular30 ink-length ratio is approximately0.80; no shared radical template was imposed on other characters."
+        ],
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ]
+      }
+    ],
+    "preserved_automatic_stroke_ids": [
+      "stroke-1",
+      "stroke-2",
+      "stroke-3",
+      "stroke-4",
+      "stroke-5",
+      "stroke-7",
+      "stroke-8"
+    ],
+    "geometry_reference_review": {
+      "verdict": "match",
+      "geometry_sha256": "2575b6bdfc78cdac254d86b709531ad9ad8b0e2350351d3749c701e2a20f440d",
+      "reviewer": "consensus_b explicit repair followed by actual-font proof review",
+      "notes": [
+        "All four enlarged specimens retain a substantially longer detached upper dash relative to the left lower crossbar. The native upper/lower ink ratio is about0.55, against approximately0.75–0.90 in the witnesses.",
+        "Extend only this dash about its unchanged center; the attached center leg, separate flank legs, and entire right three-upright turned component stay unchanged. Native artwork remains unchanged and mismatched in this relative length.",
+        "Actual TTF proofs using load_sources normalization_extent738 and build_font widths30 and43 were visually checked against all four enlarged witnesses. Corrected feature retained, every other course preserved."
+      ],
+      "review_limitations": [
+        "Visual structure and relative features only, not specialist identity or historical writing order.",
+        "Acceptance will bind only this canonical vector geometry hash; native artwork verdict is separate."
+      ],
+      "proof_manifest": "design/quality/proofs/recheck-010-01F/proof-manifest.json",
+      "proof_fonts": [
+        "design/quality/proofs/recheck-010-01F/PanoramaGothicSealRepairProof-Regular.ttf",
+        "design/quality/proofs/recheck-010-01F/PanoramaGothicSealRepairProof-Semibold.ttf"
+      ]
+    }
+  },
+  "status": "manual_geometry_reviewed",
+  "visual_reference_match_reviewed": true,
+  "stroke_order": "Geometrically inferred and explicitly corrected path sequence; not historical writing order.",
+  "strokes": [
+    {
+      "id": "stroke-1",
+      "path": "M 366.415,389.316 L 366.415,811.348",
+      "closed": false
+    },
+    {
+      "id": "stroke-2",
+      "path": "M 677.214,651.042 C 695.126,650.59 711.509,650.738 729.286,651.184 C 738.174,651.408 747.412,651.705 756.197,650.881 C 764.794,650.075 772.957,648.194 778.646,644.048 C 791.175,634.915 791.696,614.793 791.918,595.513 C 792.112,578.741 792.079,562.607 791.986,546.356 C 791.608,479.822 790.225,411.331 794.99,346.786",
+      "closed": false
+    },
+    {
+      "id": "stroke-3",
+      "path": "M 677.214,794.99 L 677.214,219.195",
+      "closed": false
+    },
+    {
+      "id": "stroke-4",
+      "path": "M 222.466,775.361 C 287.048,710.137 272.557,585.09 281.355,480.92",
+      "closed": false
+    },
+    {
+      "id": "stroke-5",
+      "path": "M 235.553,389.316 L 500.55,389.316",
+      "closed": false
+    },
+    {
+      "id": "stroke-6",
+      "path": "M 278.773,278.083 L 486.773,278.083",
+      "closed": false
+    },
+    {
+      "id": "stroke-7",
+      "path": "M 454.748,480.92 C 450.757,493.721 451.516,506.56 452.534,519.601 C 453.47,531.592 454.625,543.754 454.902,556.132 C 455.168,568.061 454.619,580.19 454.98,592.082 C 455.354,604.421 456.709,616.505 457.775,628.226 C 458.336,634.387 458.817,640.448 459.264,646.483 C 459.712,652.517 460.126,658.524 460.649,664.639 C 461.644,676.27 463.033,688.287 465.244,699.911 C 467.615,712.379 470.932,724.393 474.933,735.022 C 476.894,740.232 479.019,745.108 481.587,749.885 C 484.259,754.855 487.41,759.716 490.735,765.546",
+      "closed": false
+    },
+    {
+      "id": "stroke-8",
+      "path": "M 592.153,353.329 C 590.996,458.911 593.39,561.789 591.873,667.568 C 591.487,694.469 590.849,721.558 595.086,746.184 C 597.385,759.541 601.118,772.173 609.52,780.199 C 617.923,788.226 630.994,791.646 644.567,793.923 C 693.165,802.078 748.194,795.588 798.262,798.262",
+      "closed": false
+    }
+  ],
+  "identity_review": {
+    "method": "Compare all enlarged reference specimens, unchanged native PNG, and actual-font proof after one minimal vector correction.",
+    "compared_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "notes": [
+      "All four enlarged specimens retain a substantially longer detached upper dash relative to the left lower crossbar. The native upper/lower ink ratio is about0.55, against approximately0.75–0.90 in the witnesses.",
+      "Extend only this dash about its unchanged center; the attached center leg, separate flank legs, and entire right three-upright turned component stay unchanged. Native artwork remains unchanged and mismatched in this relative length."
+    ],
+    "specialist_verification_pending": true
+  },
+  "geometry_review": {
+    "construction": "Open editable paths expanded with common43-unit source diameter, roundcaps and roundjoins. Font-side normalization and weight remapping do not alter reviewed input paths.",
+    "changed_stroke_ids": [
+      "stroke-6"
+    ],
+    "native_source_pixels_modified": false
+  }
+}

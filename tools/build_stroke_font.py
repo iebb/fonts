@@ -36,6 +36,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FAMILY = "Panorama Gothic Seal Strokes"
 UNITS_PER_EM = 1024
 BASELINE = 832
+NORMALIZED_CENTERLINE_EXTENT = 738.0  # 768 units of ink at Regular's 30-unit pen.
 FLATTEN_TOLERANCE = 0.10  # In source drawing units; independent of weight.
 Point = tuple[float, float]
 
@@ -210,7 +211,45 @@ def source_transform(view_box: list[float]):
     return transform, scale
 
 
-def load_sources(source_root: Path, require_visual_match: bool = False) -> list[dict]:
+def normalize_sources(sources: list[dict], extent: float = NORMALIZED_CENTERLINE_EXTENT) -> list[dict]:
+    """Fit each complete glyph proportionally; never scale its pen width.
+
+    One affine transform is applied to every stroke of a character. The same
+    transformed paths are reused at every weight. Reviewed input JSON stays
+    immutable, including the nominal width used during its original review.
+    """
+    if not math.isfinite(extent) or not 0 < extent < UNITS_PER_EM:
+        raise ValueError("Normalized extent must be positive and smaller than one em")
+    result = []
+    center = (UNITS_PER_EM / 2, BASELINE - UNITS_PER_EM / 2)
+    for source in sources:
+        points = [point for stroke, _ in source["strokes"] for point in stroke]
+        bounds = (min(p[0] for p in points), min(p[1] for p in points),
+                  max(p[0] for p in points), max(p[1] for p in points))
+        longest = max(bounds[2] - bounds[0], bounds[3] - bounds[1])
+        if longest <= 0:
+            raise ValueError(f"U+{source['codepoint']:05X}: cannot normalize an empty trajectory")
+        factor = extent / longest
+        offset = (center[0] - factor * (bounds[0] + bounds[2]) / 2,
+                  center[1] - factor * (bounds[1] + bounds[3]) / 2)
+        normalized = dict(source)
+        normalized["strokes"] = [
+            ([(factor*x + offset[0], factor*y + offset[1]) for x, y in stroke], closed)
+            for stroke, closed in source["strokes"]
+        ]
+        normalized["normalization"] = {
+            "preserve_aspect_ratio": True, "pen_width_scaled": False,
+            "target_centerline_extent": extent,
+            "matrix_font_units": [factor, 0, 0, factor, *offset],
+            "original_centerline_bounds_font_units": list(bounds),
+            "center_font_units": list(center),
+        }
+        result.append(normalized)
+    return result
+
+
+def load_sources(source_root: Path, require_visual_match: bool = False,
+                 normalization_extent: float | None = None) -> list[dict]:
     sources = {}
     # The later manual source is the explicit override, never a silent merge.
     for directory in (source_root / "auto", source_root):
@@ -250,11 +289,38 @@ def load_sources(source_root: Path, require_visual_match: bool = False) -> list[
                                                   separators=(",", ":")).encode()).hexdigest()
                 if review.get("verdict") != "match" or review.get("geometry_sha256") != digest:
                     raise ValueError(f"U+{codepoint:05X}: manual geometry review is stale or not a match")
-    return [sources[codepoint] for codepoint in sorted(sources)]
+    ordered = [sources[codepoint] for codepoint in sorted(sources)]
+    return normalize_sources(ordered, normalization_extent) if normalization_extent is not None else ordered
 
 
 def write_centerline_svg(source: dict, target: Path, font_stroke_width: float | None = None):
     data = source["data"]
+    normalization = source.get("normalization")
+    if normalization:
+        from fontTools.pens.svgPathPen import SVGPathPen
+        from fontTools.pens.transformPen import TransformPen
+        left, top, view_width, view_height = data["viewBox"]
+        scale = source["scale"]
+        x_margin = (UNITS_PER_EM - view_width * scale) / 2
+        y_margin = (UNITS_PER_EM - view_height * scale) / 2
+        factor, _, _, _, tx, ty = normalization["matrix_font_units"]
+        matrix = (factor*scale, 0, 0, factor*scale,
+                  factor*(x_margin - left*scale) + tx,
+                  BASELINE - factor*(BASELINE + top*scale - y_margin) - ty)
+        width = source["width"] if font_stroke_width is None else font_stroke_width
+        lines = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">',
+                 f'  <g fill="none" stroke="black" stroke-width="{width:.9g}" '
+                 'stroke-linecap="round" stroke-linejoin="round">']
+        for index, stroke in enumerate(data["strokes"]):
+            pen = SVGPathPen(None)
+            path = stroke["path"]
+            if stroke.get("closed") and not path.rstrip().lower().endswith("z"):
+                path += " Z"
+            parse_path(path, TransformPen(pen, matrix))
+            label = html.escape(stroke.get("id", f"stroke-{index + 1}"), quote=True)
+            lines.append(f'    <path id="{label}" d="{html.escape(pen.getCommands(), quote=True)}"/>')
+        target.write_text("\n".join([*lines, "  </g>", "</svg>", ""]))
+        return
     width = (font_stroke_width / source["scale"] if font_stroke_width is not None
              else float(data.get("stroke_width", 13)))
     view_box = " ".join(str(value) for value in data["viewBox"])
@@ -308,10 +374,10 @@ def build_font(sources: list[dict], target: Path, family: str = FAMILY,
     fb.setupNameTable({
         "copyright": "Panorama Gothic contributors, 2026. Generated glyph drawings.",
         "familyName": family, "styleName": style,
-        "uniqueFontIdentifier": f"{basename};0.3;{style}",
+        "uniqueFontIdentifier": f"{basename};0.5;{style}",
         "fullName": f"{family} {style}",
         "psName": f"{basename}-{style.replace(' ', '')}",
-        "version": "Version 0.3; centerline stroke prototype",
+        "version": "Version 0.5; normalized centerline stroke prototype",
         "description": ("Constant-width centerline expansion. Manual and automatic geometry are "
                         "identified separately in the accompanying manifest; script review is pending."),
         "licenseDescription": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
@@ -325,6 +391,7 @@ def build_font(sources: list[dict], target: Path, family: str = FAMILY,
     fb.setupMaxp()
     # A fixed timestamp makes repeated builds bit-for-bit reproducible.
     fb.font["head"].created = fb.font["head"].modified = 3875126400
+    fb.font["head"].fontRevision = 0.5
     fb.font.recalcTimestamp = False
     fb.save(target)
     return reports
@@ -336,11 +403,12 @@ def sha256(path: Path) -> str:
 
 def build_all(source_root: Path, output: Path, family: str = FAMILY,
               font_stroke_width: float | None = None,
-              require_visual_match: bool = False) -> dict:
+              require_visual_match: bool = False,
+              normalization_extent: float | None = None) -> dict:
     family_basename(family)
     if font_stroke_width is not None and (not math.isfinite(font_stroke_width) or font_stroke_width <= 0):
         raise ValueError("font_stroke_width must be finite and positive")
-    sources = load_sources(source_root, require_visual_match)
+    sources = load_sources(source_root, require_visual_match, normalization_extent)
     output.mkdir(parents=True, exist_ok=True)
     svg_dir = output / "centerlines"
     svg_dir.mkdir(exist_ok=True)
@@ -376,7 +444,9 @@ def build_all(source_root: Path, output: Path, family: str = FAMILY,
             "strokes": len(source["strokes"]),
             "closed_strokes": sum(closed for _, closed in source["strokes"]),
             "source_stroke_width_source_units": float(source["data"].get("stroke_width", 13)),
-            "actual_stroke_width_source_units": regular_reports[codepoint]["stroke_width_font_units"] / source["scale"],
+            "normalization": source.get("normalization"),
+            "actual_stroke_width_source_units": regular_reports[codepoint]["stroke_width_font_units"] / (
+                source["scale"] * (source.get("normalization", {}).get("matrix_font_units", [1])[0])),
             **regular_reports[codepoint],
         })
     manifest = {
@@ -392,6 +462,9 @@ def build_all(source_root: Path, output: Path, family: str = FAMILY,
         "quantization_error_font_units_per_coordinate": 0.5,
         "round_caps": True, "round_joins": True,
         "font_stroke_width_override": font_stroke_width,
+        "normalization": {"enabled": normalization_extent is not None,
+                          "target_centerline_extent": normalization_extent,
+                          "preserve_aspect_ratio": True, "pen_width_scaled": False},
         "fill_rule": "nonzero; all primitive contours clockwise; OVERLAP_SIMPLE set",
         "weight_axis": None,
         "glyphs": glyph_records,
@@ -411,9 +484,12 @@ def main():
                         help="Use this identical width in font units for every glyph")
     parser.add_argument("--require-visual-match", action="store_true",
                         help="Refuse sources without an accepted visual reference match review")
+    parser.add_argument("--normalize-glyphs", action="store_true",
+                        help="Fit glyphs proportionally to the shared em envelope, without scaling the pen")
     args = parser.parse_args()
     manifest = build_all(args.source_root, args.output, args.family, args.font_stroke_width,
-                         args.require_visual_match)
+                         args.require_visual_match,
+                         NORMALIZED_CENTERLINE_EXTENT if args.normalize_glyphs else None)
     reviewed = sum(glyph["status"] == "manual_geometry_reviewed" for glyph in manifest["glyphs"])
     print(f"Built {manifest['glyph_count']} centerline glyphs ({reviewed} manual geometry reviewed) in {args.output}")
 

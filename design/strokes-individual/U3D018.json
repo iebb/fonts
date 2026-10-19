@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D018",
+  "viewBox": [
+    0,
+    0,
+    1024,
+    1024
+  ],
+  "stroke_width": 43,
+  "linecap": "round",
+  "linejoin": "round",
+  "coverage_eligible": false,
+  "character_identity_verified": false,
+  "historical_stroke_order_verified": false,
+  "source": {
+    "file": "design/seal-individual/U3D018.png",
+    "sha256": "dc10f9ce96922f1b59518ea4ed778c636bd232db1edd9a0d116f7887891a5aa2",
+    "source_pixels_modified": false,
+    "source_layout": "one complete glyph per native PNG",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "generation_review": {
+      "codepoint": "U+3D018",
+      "tool": "image_gen.imagegen",
+      "prompt": "You are designing an original Small Seal Gothic monoline font glyph using historical evidence. The attached image is a reference sheet for ONE Unicode character with FOUR historical specimen views labelled THX, CCZ, QJZ, DYC. Some views may be marked UNAVAILABLE. Create exactly ONE new standalone glyph for this character. Study ALL AVAILABLE specimens equally and understand their actual stroke courses. Preserve the character's attested identity, all essential branches, counters, crossings, and disconnected stroke separations. Do not trace or mimic any individual brush silhouette; do not favor THX. If source variants differ structurally choose one coherent attested structure informed by their shared identity; never combine incompatible variants or replace an ancient glyph with a modern Chinese form. Draw genuine flowing stroke paths, smoothly rounded curves and joins, circular rounded terminals, black and constant-width throughout, about 4 percent of the full square canvas width. No brush texture, no taper, no calligraphic contrast, no serif flares, no filled decorations. The glyph should be well balanced and centered in the central 70 percent of the square transparent canvas with generous margins. Output ONLY ONE black glyph on transparency: no specimen copies, no four-panel layout, no labels, no letters or numbers, no title, no grid, no background, no border. Smooth vector-like clean monoline strokes.\nSpecific U+3D018: LEFT has short detached upper bar above longer lower bar with three descending legs (center attached, outer pair detached). RIGHT has three distinct levels. Top right: a small open-top U shape with a taller left upright and a short right upright curving at the base. The left upright continues slightly below the U base, turns smoothly right and forms a second longer horizontal baseline; the top motif stays OPEN above, not a closed box. Middle right: a separate tall rounded rectangular eye with TWO internal horizontal rungs, giving exactly THREE stacked white counters. Outside the eye at left is a separate long bracket-like stroke: it starts level with eye top, descends down its left side, then rounds right under the eye into a long horizontal support. Bottom right: TWO short descending legs attached underneath that support, curving apart to left and right as coherently attested by THX and CCZ; do not blend the no-leg QJZ or one-leg DYC variant into this. Use all four specimens to preserve the shared top and eye identity. Keep eye separate from surrounding left-under bracket; keep top motif separate from eye. All strokes uniform4%canvas with rounded caps and smooth curves.",
+      "reference": "/workspace/unifont/reference/seal/individual/U3D018.png",
+      "reference_sha256": "0eb039aa1e939b5303fa3c6a3e59f08e6b4ba059f8b8408aa9378a54abf4dbcd",
+      "reference_metadata": "/workspace/unifont/reference/seal/individual/U3D018.json",
+      "evidence": {
+        "THX": {
+          "available": true,
+          "page": 2,
+          "font": "CMEXShuowenSeal",
+          "font_size": 21.0,
+          "bbox": [
+            271.9800109863281,
+            220.10096740722656,
+            292.9800109863281,
+            245.27996826171875
+          ],
+          "crop_bbox": [
+            270.0000061035156,
+            220.6332794189453,
+            295.0000061035156,
+            245.67326965332032
+          ],
+          "source_label": "TH-00023"
+        },
+        "CCZ": {
+          "available": true,
+          "page": 2,
+          "font": "Shuowen-ccz",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            301.44000244140625,
+            218.66017150878906,
+            316.8398742675781,
+            240.65997314453125
+          ],
+          "crop_bbox": [
+            296.6000061035156,
+            220.6332794189453,
+            321.6000061035156,
+            245.67326965332032
+          ],
+          "source_label": "C-00023"
+        },
+        "QJZ": {
+          "available": true,
+          "page": 2,
+          "font": "qjz",
+          "font_size": 18.999799728393555,
+          "bbox": [
+            326.3399963378906,
+            222.91415405273438,
+            345.33978271484375,
+            244.5359344482422
+          ],
+          "crop_bbox": [
+            323.3000061035156,
+            220.6332794189453,
+            348.3000061035156,
+            245.67326965332032
+          ],
+          "source_label": "K-00022"
+        },
+        "DYC": {
+          "available": true,
+          "page": 2,
+          "font": "dyc",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            354.8399963378906,
+            220.11215209960938,
+            370.2398681640625,
+            245.14793395996094
+          ],
+          "crop_bbox": [
+            350.0000061035156,
+            220.6332794189453,
+            375.0000061035156,
+            245.67326965332032
+          ],
+          "source_label": "D-00023"
+        }
+      },
+      "evidence_policy": "All available THX, CCZ, QJZ, DYC views studied equally. UNAVAILABLE is not evidence. No incompatible hybrid.",
+      "source_generated_image": "/workspace/generated_images/exec-8c6c4849-976c-4ae9-8eca-7d7b8d90a8ab.png",
+      "output": "/workspace/unifont/design/seal-individual/U3D018.png",
+      "output_sha256": "dc10f9ce96922f1b59518ea4ed778c636bd232db1edd9a0d116f7887891a5aa2",
+      "attempt": 1,
+      "transparent_background": true,
+      "review_status": "passed_structural_visual_review",
+      "historical_stroke_order_verified": false,
+      "font_integration_status": "not_integrated",
+      "review_notes": "Compared all four views. Shared open upper U/extended left-stem baseline, separate 3-counter eye and separate left-under bracket retained. Two-foot lower structure coherently chosen from THX/CCZ rather than blending QJZ no-foot and DYC single-foot variants.",
+      "native_output_mode": "RGBA",
+      "native_output_size": [
+        1254,
+        1254
+      ],
+      "native_alpha_bbox": [
+        246,
+        69,
+        1037,
+        1093
+      ],
+      "inspection_composite": "/tmp/seal-individual-b-review-3D018.png",
+      "manifest": "design/seal-individual/U3D018.json",
+      "manifest_sha256": "4f2d6366bfe89a92fb81b60d9c92bc44e192d198574bf6620d4dc587eb50a453"
+    },
+    "visual_reference_review": {
+      "schema_version": 1,
+      "codepoint": "U+3D018",
+      "verdict": "mismatch",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
+      "notes": [
+        "All four enlarged specimens THX, CCZ, QJZ and DYC show the lower free horizontal of the upper-right motif extending rightward beyond the upper U hook. The native drawing instead ends this lower bar before the hook right edge.",
+        "The native PNG remains unchanged and mismatched; acceptance applies only to corrected vector geometry. The existing coherent THX/CCZ two-foot lower variant is preserved."
+      ],
+      "source_png": "design/seal-individual/U3D018.png",
+      "source_png_sha256": "dc10f9ce96922f1b59518ea4ed778c636bd232db1edd9a0d116f7887891a5aa2",
+      "reference_overview": "reference/seal/individual/U3D018.png",
+      "reference_png_sha256": "0eb039aa1e939b5303fa3c6a3e59f08e6b4ba059f8b8408aa9378a54abf4dbcd",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [],
+      "limitations": [
+        "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+        "Does not verify historical writing order, exact metrics, or final font stroke width.",
+        "Verdict applies only to the source PNG hash recorded here."
+      ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The right side retains the bent upper fork with its lower horizontal, the three-panel eye-like enclosure, its enclosing lower support/baseline and two diverging legs.",
+          "The two-leg lower construction is coherent with THX/CCZ after comparison with the differently simplified QJZ/DYC alternatives. No additional divider was introduced."
+        ]
+      },
+      "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification.",
+      "review_file": "design/seal-individual/reviews/U3D018.json",
+      "review_sha256": "693eb2e6772eefe1280b6dd7377092b60f8ea2a22baeab43adb6ab51acc850f1"
+    },
+    "alpha_threshold": 128,
+    "readonly_alpha_analysis": {
+      "size": [
+        313,
+        313
+      ],
+      "resized_alpha_size": [
+        313,
+        313
+      ],
+      "padding_offset": [
+        0,
+        0
+      ],
+      "resample": "Pillow LANCZOS; in-memory alpha only"
+    },
+    "kind": "explicit minimal manual correction of immutable native-image centerlines",
+    "automatic_trace_file": "design/strokes-individual/auto/U3D018.json",
+    "automatic_trace_sha256": "9b3cceee91fa712aa8d6ef9c1774d9d5d3950aedaf31bd7040aa85c3ecdd6cef",
+    "generation_provenance_file": "design/seal-individual/U3D018.json",
+    "generation_provenance_sha256": "4f2d6366bfe89a92fb81b60d9c92bc44e192d198574bf6620d4dc587eb50a453",
+    "reference_file": "reference/seal/individual/U3D018.png",
+    "reference_sha256": "0eb039aa1e939b5303fa3c6a3e59f08e6b4ba059f8b8408aa9378a54abf4dbcd",
+    "reference_evidence_file": "reference/seal/individual/U3D018.json",
+    "reference_evidence_sha256": "30eec0008a88b62cf9441bd5fe6839ff6adcc26719aa2fe1b6fe7711cb94336d",
+    "reference_evidence": {
+      "codepoint": "U+3D018",
+      "page": 2,
+      "label_bbox": [
+        236.10000610351562,
+        221.83018493652344,
+        265.5594177246094,
+        232.98995971679688
+      ],
+      "variants": {
+        "THX": {
+          "available": true,
+          "page": 2,
+          "font": "CMEXShuowenSeal",
+          "font_size": 21.0,
+          "bbox": [
+            271.9800109863281,
+            220.10096740722656,
+            292.9800109863281,
+            245.27996826171875
+          ],
+          "crop_bbox": [
+            270.0000061035156,
+            220.6332794189453,
+            295.0000061035156,
+            245.67326965332032
+          ],
+          "source_label": "TH-00023"
+        },
+        "CCZ": {
+          "available": true,
+          "page": 2,
+          "font": "Shuowen-ccz",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            301.44000244140625,
+            218.66017150878906,
+            316.8398742675781,
+            240.65997314453125
+          ],
+          "crop_bbox": [
+            296.6000061035156,
+            220.6332794189453,
+            321.6000061035156,
+            245.67326965332032
+          ],
+          "source_label": "C-00023"
+        },
+        "QJZ": {
+          "available": true,
+          "page": 2,
+          "font": "qjz",
+          "font_size": 18.999799728393555,
+          "bbox": [
+            326.3399963378906,
+            222.91415405273438,
+            345.33978271484375,
+            244.5359344482422
+          ],
+          "crop_bbox": [
+            323.3000061035156,
+            220.6332794189453,
+            348.3000061035156,
+            245.67326965332032
+          ],
+          "source_label": "K-00022"
+        },
+        "DYC": {
+          "available": true,
+          "page": 2,
+          "font": "dyc",
+          "font_size": 21.999799728393555,
+          "bbox": [
+            354.8399963378906,
+            220.11215209960938,
+            370.2398681640625,
+            245.14793395996094
+          ],
+          "crop_bbox": [
+            350.0000061035156,
+            220.6332794189453,
+            375.0000061035156,
+            245.67326965332032
+          ],
+          "source_label": "D-00023"
+        }
+      }
+    },
+    "chart_url": "https://www.unicode.org/charts/PDF/U3D000.pdf",
+    "uses_existing_font_outlines": false,
+    "uses_bitmap_perimeter": false,
+    "native_artwork_visual_verdict": "mismatch",
+    "structural_corrections": [
+      {
+        "component": "upper-right motif lower free horizontal endpoint",
+        "native_issue": "Lower free bar ends left of the upper U hook right tip, contrary to all four specimens.",
+        "correction": "Extend only stroke-12 free end from (752.460,412.217) to (817.891,412.217), beyond upper hook x779.084; preserve all prior path commands and every other stroke.",
+        "evidence": [
+          "THX lower free horizontal projects past the upper hook to the right.",
+          "CCZ lower horizontal extends right beyond the upper turned arm.",
+          "QJZ lower free horizontal extends farther right than the upper hook.",
+          "DYC lower free horizontal projects clearly farther right than its upper arm."
+        ],
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ]
+      }
+    ],
+    "preserved_automatic_stroke_ids": [
+      "stroke-1",
+      "stroke-2",
+      "stroke-3",
+      "stroke-4",
+      "stroke-5",
+      "stroke-6",
+      "stroke-7",
+      "stroke-8",
+      "stroke-9",
+      "stroke-10",
+      "stroke-11",
+      "stroke-13"
+    ],
+    "geometry_reference_review": {
+      "verdict": "match",
+      "geometry_sha256": "fe23293322204f751ca170202795b6758406504a2215efb48c1a8350e26ffc19",
+      "reviewer": "consensus_b explicit repair followed by actual-font proof review",
+      "notes": [
+        "All four enlarged specimens THX, CCZ, QJZ and DYC show the lower free horizontal of the upper-right motif extending rightward beyond the upper U hook. The native drawing instead ends this lower bar before the hook right edge.",
+        "The native PNG remains unchanged and mismatched; acceptance applies only to corrected vector geometry. The existing coherent THX/CCZ two-foot lower variant is preserved.",
+        "Actual TTF proofs using load_sources normalization_extent738 and build_font widths30 and43 were visually checked against all four enlarged witnesses. Corrected feature retained, every other course preserved."
+      ],
+      "review_limitations": [
+        "Visual structure and relative features only, not specialist identity or historical writing order.",
+        "Acceptance will bind only this canonical vector geometry hash; native artwork verdict is separate."
+      ],
+      "proof_manifest": "design/quality/proofs/recheck-010-01F/proof-manifest.json",
+      "proof_fonts": [
+        "design/quality/proofs/recheck-010-01F/PanoramaGothicSealRepairProof-Regular.ttf",
+        "design/quality/proofs/recheck-010-01F/PanoramaGothicSealRepairProof-Semibold.ttf"
+      ]
+    }
+  },
+  "status": "manual_geometry_reviewed",
+  "visual_reference_match_reviewed": true,
+  "stroke_order": "Geometrically inferred and explicitly corrected path sequence; not historical writing order.",
+  "strokes": [
+    {
+      "id": "stroke-1",
+      "path": "M 346.786,372.959 C 350.03,530.192 351.208,688.282 350.058,847.336",
+      "closed": false
+    },
+    {
+      "id": "stroke-2",
+      "path": "M 549.623,327.156 C 596.861,333.34 647.446,329.371 696.973,330.324 C 708.97,330.555 720.904,331.074 732.574,330.28 C 739.38,329.816 746.095,328.906 752.852,327.735 C 758.992,326.671 765.166,325.392 768.799,321.702 C 772.796,317.641 773.716,310.66 774.972,304.084 C 776.032,298.534 777.332,293.272 777.927,287.644 C 778.587,281.406 778.382,274.718 779.084,268.326 C 779.767,262.117 781.305,256.188 778.633,251.911",
+      "closed": false
+    },
+    {
+      "id": "stroke-3",
+      "path": "M 605.24,556.166 L 752.46,556.166",
+      "closed": false
+    },
+    {
+      "id": "stroke-4",
+      "path": "M 605.24,628.141 L 752.46,624.869",
+      "closed": false
+    },
+    {
+      "id": "stroke-5",
+      "path": "M 621.597,749.188 C 618.072,760.202 619.176,772.978 618.172,785.098 C 617.22,796.596 614.371,807.503 610.87,816.978 C 607.504,826.091 603.534,833.878 598.831,840.889 C 593.38,849.015 586.943,856.097 575.795,866.965",
+      "closed": false
+    },
+    {
+      "id": "stroke-6",
+      "path": "M 732.831,749.188 C 732.877,758.982 732.861,768.807 732.748,778.667 C 732.697,783.049 732.628,787.438 733.674,791.369 C 734.305,793.741 735.343,795.946 735.811,798.387 C 736.199,800.408 736.197,802.591 736.464,804.656 C 736.787,807.147 737.504,809.465 738.223,811.803 C 738.819,813.739 739.416,815.689 740.167,817.589 C 741.979,822.176 744.684,826.472 746.818,830.062 C 747.26,830.806 747.677,831.519 748.055,832.239 C 748.433,832.959 748.772,833.686 749.114,834.406 C 749.455,835.125 749.8,835.838 750.206,836.5 C 750.611,837.163 751.077,837.776 751.603,838.337 C 752.13,838.898 752.717,839.408 753.307,839.918 C 753.897,840.428 754.49,840.939 754.977,841.552 C 755.951,842.778 756.503,844.414 755.732,847.336",
+      "closed": false
+    },
+    {
+      "id": "stroke-7",
+      "path": "M 225.738,788.447 C 257.045,749.702 265.158,691.495 267.767,631.212 C 270.174,575.595 267.896,518.21 264.997,464.562",
+      "closed": false
+    },
+    {
+      "id": "stroke-8",
+      "path": "M 248.639,372.959 L 454.748,376.23",
+      "closed": false
+    },
+    {
+      "id": "stroke-9",
+      "path": "M 281.355,278.083 L 438.39,278.083",
+      "closed": false
+    },
+    {
+      "id": "stroke-10",
+      "path": "M 435.118,461.291 C 435.504,469.427 434.318,475.931 433.563,482.713 C 432.916,488.526 432.584,494.544 432.292,500.756 C 431.657,514.215 431.202,528.588 430.37,542.577 C 429.51,557.012 428.249,571.038 428.697,585.231 C 429.146,599.424 431.305,613.785 432.07,628.22 C 432.835,642.656 432.205,657.167 433.109,671.389 C 434.013,685.612 436.452,699.546 439.481,712.823 C 442.697,726.92 446.579,740.276 451.511,752.687 C 456.728,765.821 463.121,777.898 474.377,788.447",
+      "closed": false
+    },
+    {
+      "id": "stroke-11",
+      "path": "M 529.994,484.192 C 528.341,530.273 531.259,572.654 530.276,618.033 C 529.772,641.276 528.245,665.306 529.652,687.613 C 530.377,699.115 531.883,710.16 535.59,719.209 C 539.014,727.566 544.316,734.221 551.562,738.855 C 567.678,749.161 593.413,749.466 618.24,749.438 C 640.564,749.414 662.153,749.121 683.843,749.049 C 728.307,748.901 773.192,749.682 817.891,749.188",
+      "closed": false
+    },
+    {
+      "id": "stroke-12",
+      "path": "M 549.623,206.109 C 549.529,223.582 549.474,241.164 549.591,258.523 C 549.701,274.797 549.962,290.875 549.775,307.314 C 549.588,323.753 548.953,340.554 549.558,356.941 C 550.196,374.233 552.216,391.064 561.367,400.796 C 566.472,406.224 573.794,409.443 582.393,411.126 C 589.21,412.46 596.83,412.828 604.548,412.937 C 621.088,413.171 638.085,412.216 654.603,411.927 C 687.639,411.348 718.76,413.431 752.46,412.217 L 817.891,412.217",
+      "closed": false
+    },
+    {
+      "id": "stroke-13",
+      "path": "M 605.24,556.166 C 602.295,526.92 602.546,490.042 625.227,479.302 C 636.228,474.093 652.505,475.033 667.729,474.805 C 682.482,474.585 696.246,473.269 709.858,474.474 C 724.771,475.793 739.501,480.138 745.871,491.315 C 749.188,497.134 750.239,504.805 750.927,512.677 C 751.523,519.488 751.848,526.449 752.07,533.418 C 752.938,560.578 752.26,587.841 752.418,614.985 C 752.503,629.549 752.828,644.079 751.272,658.592 C 750.412,666.614 748.976,674.63 745.349,680.759 C 741.806,686.746 736.172,690.931 729.432,692.957 C 717.336,696.592 701.681,693.268 686.915,692.908 C 673.286,692.575 660.414,694.767 647.413,694.642 C 631.984,694.493 616.373,691.078 609.606,680.2 C 603.231,669.955 604.701,653.088 605.256,637.698 C 606.291,609.017 604.152,585.463 605.24,556.166",
+      "closed": false
+    }
+  ],
+  "identity_review": {
+    "method": "Compare all enlarged reference specimens, unchanged native PNG, and actual-font proof after one minimal vector correction.",
+    "compared_specimens": [
+      "THX",
+      "CCZ",
+      "QJZ",
+      "DYC"
+    ],
+    "notes": [
+      "All four enlarged specimens THX, CCZ, QJZ and DYC show the lower free horizontal of the upper-right motif extending rightward beyond the upper U hook. The native drawing instead ends this lower bar before the hook right edge.",
+      "The native PNG remains unchanged and mismatched; acceptance applies only to corrected vector geometry. The existing coherent THX/CCZ two-foot lower variant is preserved."
+    ],
+    "specialist_verification_pending": true
+  },
+  "geometry_review": {
+    "construction": "Open editable paths expanded with common43-unit source diameter, roundcaps and roundjoins. Font-side normalization and weight remapping do not alter reviewed input paths.",
+    "changed_stroke_ids": [
+      "stroke-12"
+    ],
+    "native_source_pixels_modified": false
+  }
+}

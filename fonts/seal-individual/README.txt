@@ -5,16 +5,33 @@ informed by all available THX, CCZ, QJZ and DYC chart specimens.
 Native drawing trajectories and proportions guide reconstruction.
 Only confirmed omissions and tracing defects receive targeted repairs.
 
-Editable Bezier centerlines use a shared width of 43 units per
-1024-unit em, with round ends and joins. Six geometry sources have
-manual review: U+3D001, U+3D023, U+3D02B, U+3D02F, U+3D032,
-and U+3D034. Other paths are automatic and need further review.
+Editable Bezier centerlines have round ends and joins. Each complete
+glyph is scaled proportionally to a maximum centerline dimension of
+738 units and centered at (512, 320) in font coordinates. The shared
+pen width does not scale with the glyph. This Regular 400 font uses
+30 pen units per 1024-unit em, with maximum ink dimension 768 units.
+Reviewed editable sources retain their nominal width 43.
 
-61 native drawings match visual chart structures. Three rejected
-native drawings (023/032/034) have approved vector repairs.
-034 restores its missing left descending leg and a tracing gap.
-02B excludes a stray non-stroke speck; 02F removes a one-pixel
-fitting pinhole with a one-em-unit adjustment to one body path.
+Original PNGs remain immutable. Targeted manual vector repairs and
+their source hashes are recorded individually; automatic paths and
+manual overrides are distinguished in the manifest. A corrected
+vector does not change a rejected native drawing's review verdict.
+Preserved provenance records omissions, tracing defects and any
+excluded non-stroke specks.
+
+The companion variable font defaults to 400 and uses these pen widths:
+300 Light 23.5; 400 Regular 30; 500 Medium 36.5;
+600 SemiBold 43; 700 Bold 49.5.
+The previous 300 width is now 400; the previous 400 width is now 600.
+All weights reuse the same normalized centerlines and fixed advances.
+
+Validation combines visual review of all 64 sample glyphs with actual
+font regression gates in tools/verify_glyph_invariants.py. Recorded
+feature checks cover bar relationships, branches and open spaces at
+multiple weights. Dense forms still need optical review; these checks
+do not certify every detail or every possible future change.
+Frozen geometry fingerprints reject source changes until reviewed again.
+size-check.json verifies the compiled glyph bounds and fixed advances.
 
 Historical stroke order and specialist paleographic correctness
 remain unverified. This sample adds no production Unicode coverage.

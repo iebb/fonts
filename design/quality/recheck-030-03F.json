@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "reviewer": "consensus_d fresh independent recheck after user reports for U+3D007 and U+3D034",
+  "created_at_utc": "2026-10-19T00:37:15.524553+00:00",
+  "range": "U+3D030\u2013U+3D03F",
+  "scope": "Read-only structural/proportion recheck of all sixteen glyphs, native PNGs and authoritative vector overrides; no art, font code, or glyph geometry edited.",
+  "criteria": [
+    "Compare ALL available specimens at enlarged scale, rather than relying on prior pass labels or one specimen.",
+    "Explicitly compare each upper/lower horizontal length order and conspicuous relative span, not merely the existence of bars.",
+    "Count major descending legs, branches, short interior marks and distinct stroke endpoints per component.",
+    "Check upper partitions, closed counter counts, open bowl prongs and missing/extra enclosure dividers.",
+    "Check contacts/detachments and continuous versus separate courses while allowing one coherent attested whole variant.",
+    "Preserve current native form and proportions unless all-source evidence confirms an error; report ambiguity without certifying it.",
+    "For known rejected native PNGs U+3D032 and U+3D034, inspect their accepted manual vector corrections separately."
+  ],
+  "method": {
+    "reference_enlargement": "Each of four source columns cropped to glyph area and uniformly enlarged without changing aspect ratio; all four placed beside native and current source vector in read-only inspection composites.",
+    "vector_inspection": "Current JSON centerlines rendered as constant-width black open courses for inspection. Small white raster specks in this lightweight inspection renderer are not treated as font counters or a statement about final compiled font rasterization.",
+    "artifact_mutations": "Only this requested quality report and temporary inspection images created; no source glyph or review acceptance flags changed."
+  },
+  "summary": {
+    "accepted_manual_repairs_rechecked": [
+      "U+3D032",
+      "U+3D034"
+    ],
+    "no_clear_additional_error_found": 13,
+    "clear_new_errors_detected": [
+      "U+3D036 relative lower-bar lengths"
+    ],
+    "corrected_after_recheck": [
+      "U+3D036 relative lower-bar lengths"
+    ],
+    "unresolved_clear_new_errors": []
+  },
+  "limitations": [
+    "This is a focused visual structural recheck, not specialist paleographic certification, historical stroke-order certification, or a guarantee that no subtle form distinction remains.",
+    "Exact calligraphic dimensions and source ratios are variable and were not transcribed as design requirements. The clear U+3D036 length-order reversal is distinguished from uncertain proportional variation.",
+    "Source hashes at report write identify current files; if root applies a new U+3D036 override after the inspection, the finding refers to the explicitly recorded auto paths and inspection composite, not a later corrected geometry."
+  ],
+  "glyphs": [
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "The detached horizontal above the three-legged altar bar remains shorter than the lower bar, as in all four specimens. Upper crown elements remain distinct.",
+      "inventory_check": "Three crown uprights/branches, upper-right fork, two lower bars and three descending legs are present.",
+      "uncertainty": "Native side-leg attachment differs from the detached THX/CCZ/QJZ appearance; DYC shows contact at the lower bar. Retain the native coherent contact variant; no new edit recommended. Exact bar ratios vary and were not certified.",
+      "codepoint": "U+3D030",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D030.png",
+        "sha256": "06d04ed08317fef83036f52c125d8e3a7c17900000a521dfd9d0692ac592b1e9"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D030.png",
+        "sha256": "7971bd0f05bce96d84d3de38e9a28a8deed397c614ad0512a5d203d13e6dc86a"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D030.json",
+        "sha256": "9f430321833b73fe229c0b53051200450b4bd64d040e88926ca2ddeea33e3d97",
+        "canonical_geometry_sha256": "45dcfdac4cec54212311108a709fcd6d7839aa664d36884038e27ddc4e8f55c0"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D030-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Left lower ritual bar is longer than its top dash. The independent right middle \u5de5 has both horizontal bars, lower at least as long as upper, with a clear gap above lower curl.",
+      "inventory_check": "Upper branching curve, separate \u5de5, lower curl with two inner ribs, three ritual descenders retained.",
+      "uncertainty": "Rib direction/attachments vary among specimens; retained coherent curved-rib native form.",
+      "codepoint": "U+3D031",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D031.png",
+        "sha256": "622ea5dea865735760171d6de7282f0d8d153d7bd1cc1eeefd636ef42d4b1179"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D031.png",
+        "sha256": "24b411b3b4ca8bcf9d01e0a3b23c918a58cc4a4f1853239a91cf7d4cf3b72790"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D031.json",
+        "sha256": "a9f21b44f75789fa44b615a807066b4270b6ec3aab0af3d25343082dad38d566",
+        "canonical_geometry_sha256": "41f2364b89c0c54e4a86ddfd6ed50351bfb36688aafb89783112d7b9edb7faba"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D031-compare.png"
+    },
+    {
+      "result": "accepted_geometry_correction_rechecked",
+      "bar_check": "Ritual lower bar is longer than top dash. Corrected right enclosure has upper Y partition and exactly two transverse dividers beneath, leaving three fields below Y.",
+      "inventory_check": "Corrected vector restores the independent left enclosure leg beside right serpentine leg. Central star crossbar and lower branches remain; lower middle component retained.",
+      "uncertainty": "Original PNG remains structurally rejected. This observation applies to the accepted manual vector, whose evidence and corrections were inspected; not the native PNG.",
+      "codepoint": "U+3D032",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D032.png",
+        "sha256": "60055cff1f41035e79bf8d323916154721417afadf7514db5e059acfbf5aa82b"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D032.png",
+        "sha256": "5d01d491d24b58b0ae82a694d52f82da9c0cf2767801a5759ffea5dd42407c84"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/U3D032.json",
+        "sha256": "167c6092fc28ee19ec2a9d67a6fa2bc746fe34ad87a19a9ae0418b3ba218f5fd",
+        "canonical_geometry_sha256": "9298b483e54fec81a9641ffc612948b2270ea811df8cd0b316fc80a936731559"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D032-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than upper dash. Right upper bent course and its lower horizontal remain distinct from the middle counter.",
+      "inventory_check": "Three ritual descenders; right upper hook, long outside inner stem, one small counter and sinuous lower terminal retained.",
+      "uncertainty": "Lower terminal direction varies across QJZ/DYC versus THX/CCZ; native follows a coherent down-turning variant.",
+      "codepoint": "U+3D033",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D033.png",
+        "sha256": "a7a04932a0e28634c3ce4377cd2d77d8349dfbd9d61dc0716ca89a2a1dfe1a73"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D033.png",
+        "sha256": "125d04419c637c09e97e2597e3ce95f5f6d8448e97b7749904ef9370a5a106e1"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D033.json",
+        "sha256": "53d34f3e7fae1f3e48fe0b8b258bdfbe3adf06a83b9bd1131b36baa0f9628f18",
+        "canonical_geometry_sha256": "a3bdf5660a5a9b90891eb4d350891e080ddbf9ef2d861347fb5208790b1867da"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D033-compare.png"
+    },
+    {
+      "result": "accepted_geometry_correction_rechecked",
+      "bar_check": "Ritual lower bar longer than upper dash; right short lower mark remains detached.",
+      "inventory_check": "Accepted added left leg of inner \u03a0-shaped part is present: three ritual descenders plus three right-component descenders, six major lower ends. Native upper shoulder and existing right branches remain.",
+      "uncertainty": "Original PNG remains missing-leg mismatch. Corrected geometry, not PNG, is the accepted subject.",
+      "codepoint": "U+3D034",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D034.png",
+        "sha256": "5f86905a6a016c2b29fb706df1b23e5200a92de28fdb91247735aa2e2f579e80"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D034.png",
+        "sha256": "7c749b0142fead53a4b723192434cafff5920eb89bea8c1ea50595a0f8b15e8b"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/U3D034.json",
+        "sha256": "f37545a9ae1a1c83de305611590fb59aed6a9dce10db5ba5b658ac2980d59c71",
+        "canonical_geometry_sha256": "c887de4fe33a275e8277bce51cbaf8a20f4f331e19ca9a347963ff0b7331a716"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D034-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than upper dash. Right baseline extends past the three-counter body, as attested; two interior dividers retained.",
+      "inventory_check": "Three ritual descenders and exactly three stacked right counters, no extra fourth field.",
+      "uncertainty": "Exact baseline overhangs and component height ratios vary; no directional bar-order reversal identified.",
+      "codepoint": "U+3D035",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D035.png",
+        "sha256": "40c0cbda92431fbe6f432b63b9d4679e638fe130b807cc2c87e4de8337fcac80"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D035.png",
+        "sha256": "05d887f760ee63ecadf2c3b75d2455260f24a791d765a09aa6ffd1ce8573106b"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D035.json",
+        "sha256": "4657b4eb11b4df418ece9fe5d48c9876cbf0d8967f44b96794a5e471b5507020",
+        "canonical_geometry_sha256": "5b42b07c1d01b8142021d01cfe21970852fd9e1b93ca7382e6b254c0b76e649b"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D035-compare.png"
+    },
+    {
+      "result": "corrected_and_actual_font_verified",
+      "bar_check": "The detached horizontal immediately above the bottom three-legged bar is equal/slightly longer in native/current inspected vector, but visibly shorter in THX, CCZ, QJZ and DYC.",
+      "inventory_check": "Upper crown/roof, oval on two short stems/base, three oblique strokes, two lower bars and three legs otherwise retained.",
+      "evidence_by_specimen": {
+        "THX": "Detached next-to-lowest bar is visibly shorter than the bottom three-legged bar and slightly right-shifted.",
+        "CCZ": "Detached next-to-lowest bar is visibly shorter than the bottom three-legged bar.",
+        "QJZ": "The course above the bottom bar, adjoining the lowest oblique-stroke end, is visibly shorter overall than the bottom bar.",
+        "DYC": "Detached next-to-lowest bar is visibly shorter and somewhat right-shifted relative to bottom bar."
+      },
+      "inspected_vector_measurements": {
+        "source": "design/strokes-individual/auto/U3D036.json",
+        "upper_bar": {
+          "id": "stroke-9",
+          "path": "M 278.083,667.399 L 732.831,667.399",
+          "centerline_length": 454.748
+        },
+        "lower_bar": {
+          "id": "stroke-10",
+          "path": "M 287.898,752.46 L 732.831,752.46",
+          "centerline_length": 444.933
+        },
+        "upper_to_lower_centerline_ratio": 1.022059501093423,
+        "reference_ratio_estimate": "Visually about 0.60\u20130.75, not an exact metric transcription."
+      },
+      "minimal_fix": "Shorten only stroke-9 to about 300\u2013325 source units, slightly right of lower-bar center. Preserve all other current native course shapes; no new branches or redesign.",
+      "codepoint": "U+3D036",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D036.png",
+        "sha256": "363e54e2e327a36a1d58b927b5f9e788918123a5d3f5c512415c7a6843646a3c"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D036.png",
+        "sha256": "256ca566667a8e0c5b8a2204b409af1a7ac1dded6a29ec1b03729c0481e3a886"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D036.json",
+        "sha256": "a1737abbcda945bda5887b078c480f2b2b95f1735a16666e71b641bae302b104",
+        "canonical_geometry_sha256": "7acf984173184aff7eab510c556dee48f7e7c3fdb48b59c36d6264898dc8d8a1"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D036-compare.png",
+      "repair": {
+        "manual_source": "design/strokes-individual/U3D036.json",
+        "manual_source_sha256": "bbb6c6191452dcfd33dfd3d88199cbea2e6763889802d7cec9c590479180606e",
+        "canonical_geometry_sha256": "6b96336435c65d7c7a45ce3bbe4998cb546aaab7064d913634e63cd8de6c1fab",
+        "changed_stroke_ids": [
+          "stroke-9"
+        ],
+        "new_path": "M 375 667.399 L 685 667.399",
+        "all_other_stroke_objects_unchanged": true,
+        "native_png_unchanged": true,
+        "proof": "fonts/seal-individual/U3D036-correction.png",
+        "proof_sha256": "a51700e6a7a1993f35db4a2227dfcca50e0d2cdadda26896fde7b323892cf619",
+        "actual_named_weight_bar_ratios": {
+          "300": 0.7116279069767442,
+          "400": 0.7201834862385321,
+          "500": 0.7223476297968398,
+          "600": 0.7244444444444444,
+          "700": 0.7280701754385965
+        },
+        "native_review_verdict": "mismatch",
+        "geometry_review_verdict": "match",
+        "isolated_strict_visual_match_gate": "pass"
+      }
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than upper dash. Right crossing arm remains separate from the ritual bar.",
+      "inventory_check": "Three ritual descenders and right upper fork/cross arm with two lower legs retained; no enclosed counter introduced.",
+      "uncertainty": "Curvature and fork angles vary by specimen; native coherent open fork retained.",
+      "codepoint": "U+3D037",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D037.png",
+        "sha256": "f9e6d8c7bb7b0a74fd8e7557f3d425f0aebce94b2fea89f69c242ed3db7f1729"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D037.png",
+        "sha256": "17741369d1a9e390b7b20fb9cfbbd2f4453ad748b06100817815de02e1a4c000"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D037.json",
+        "sha256": "7ec9a7b4f92855e8a068c3255aa02039f07dfd178f15e410fc923ca9f804dc91",
+        "canonical_geometry_sha256": "958ad351a310a83f212bc66cfdf0b4cde2095903420573ad19ba6ddae546d833"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D037-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than top dash; right middle transverse extends beyond the upper trident and lower bowl as attested.",
+      "inventory_check": "Three-prong upper trident, continuous central stem, middle transverse, lower pronged bowl and single lower counter retained.",
+      "uncertainty": "DYC disconnects the bowl from central stem; other specimens show the connected stem used by native. Retain native connected variant.",
+      "codepoint": "U+3D038",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D038.png",
+        "sha256": "dd738a66566542b5c7f50788ee57c2c5c0af1508e929d3962ec75fc902f4c99a"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D038.png",
+        "sha256": "d155ee5eb1e59cc05461b143e15f641545ebabc7c8212340b945d8f55597a276"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D038.json",
+        "sha256": "a438f4c5a3bcc8fd0d2c161445e4b45f30731f9c8604d05c46b48332c8f15163",
+        "canonical_geometry_sha256": "69c01a4416413798db3cf590e5a463136c94f12cc35697d1fef33cc26fd12fe4"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D038-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than top dash; right top horizontal belongs to the outer bent stroke rather than a second counter.",
+      "inventory_check": "Three ritual descenders, long outer top/left bend and one separate closed inner counter retained; no outer bottom closure.",
+      "uncertainty": "Inner counter aspect ratio varies markedly among specimens; native rectangle lies within attested shape family.",
+      "codepoint": "U+3D039",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D039.png",
+        "sha256": "cd7b378c8a32b7692b3c7dd80a3b56b8320df39aedea71c499d047f05b8aa3ab"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D039.png",
+        "sha256": "f12443bccd7ce150f29e4cffc6cc959c3b813c1c089934d980ca8fd3fb0ace18"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D039.json",
+        "sha256": "02aa39e85d0a74fd376d9985dee24119e7428a5f575a4259b9eedcfb334b0527",
+        "canonical_geometry_sha256": "a2a2396e9380eca81cfc0613cace3fc78bcb80678abcda38e10396f6bd85cdd5"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D039-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than upper dash.",
+      "inventory_check": "Three ritual descenders plus two right paired-leg forms: both connected upper peaks and all four descending right ends retained.",
+      "uncertainty": "Exact paired-leg slope and end heights vary; no missing branch found.",
+      "codepoint": "U+3D03A",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D03A.png",
+        "sha256": "0a1ac7d3da64a8d9ce843f936b84f909782a4346f5d35783674ff85c881b19b8"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D03A.png",
+        "sha256": "3f632984e390ee7864e541c90e129578ec033669d8f8a20caeefde04d2eea943"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D03A.json",
+        "sha256": "135cefc61101d016676fa7758fb39af8d383807ee1b4084fd0bc84f48930b5ec",
+        "canonical_geometry_sha256": "fd72a5ea14efef2bac40fbed521541a1b5b79dceb95d7f15f65307b87d460fb2"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D03A-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than top dash; right inner horizontal below canopy is shorter than its outer top horizontal and remains separate in the chosen THX/CCZ-type form.",
+      "inventory_check": "Three ritual descenders, outer top/right bend, second horizontal and single-counter pronged cup retained; no outer bottom closure.",
+      "uncertainty": "Cup prong/crossbar rendering and horizontal attachment vary between QJZ/DYC and THX/CCZ. Native coherent THX/CCZ-style separation retained.",
+      "codepoint": "U+3D03B",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D03B.png",
+        "sha256": "a210ed7c5a96761a551ad6919a0c32aef19862462f953bfa9425d33e94498570"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D03B.png",
+        "sha256": "0dbde4abc1c1f6b51cf3ec5e2ed8498d8ead4840fa66c9700e5b972a0257f630"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D03B.json",
+        "sha256": "ee630e646567bfb654dbaac1ddfc1a37d12fb69a27a9875e34723b4a8bf88a93",
+        "canonical_geometry_sha256": "adc99e1cceb10c09d1efcfc452d813289cc65eeaf457840d8aefdb99457fa0a6"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D03B-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than upper dash; detached internal right dash shorter than the surrounding bent-course extent.",
+      "inventory_check": "Three ritual descenders; right two-bulge sinuous course with one detached interior horizontal and no closed counters retained.",
+      "uncertainty": "QJZ uses a simpler one-bulge attested form. Native follows the coherent THX/CCZ/DYC two-bulge form; no merging of those variants recommended.",
+      "codepoint": "U+3D03C",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D03C.png",
+        "sha256": "4d88d0ab715415df5d6a5563e55ef3c7023daf26e4bf2af7309f0002ce73ca0b"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D03C.png",
+        "sha256": "5e1d9e86a7e785792e1f20880c6ed5afbb789771cea9fc67216ff25354a74fcb"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D03C.json",
+        "sha256": "091d75801ef74a21430e9008815348479f190c65368d7f1f0ba44ae039072440",
+        "canonical_geometry_sha256": "3773038e87dc9e490973afe52ad94206d50553e514441b07e9611c6385f62dbd"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D03C-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Both components retain detached short upper dashes above their longer lower bars. Right middle crossbar stays narrower than the top full bar.",
+      "inventory_check": "Right upper closed counter, central connecting stem, two bowed side strokes, middle crossbar and lower two side legs plus central end retained.",
+      "uncertainty": "Counter proportions and side-stroke bowing vary; no clear omission or reversed bar hierarchy found.",
+      "codepoint": "U+3D03D",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D03D.png",
+        "sha256": "d209a8b74226f2fe937dfb2cdc42cef2719cd52507c648fbdadd2b26e704a5fe"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D03D.png",
+        "sha256": "5da6e71a26102975475b98b09c1306444ac8dcc0883af1907a344cc961c6603b"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D03D.json",
+        "sha256": "fb69619111edb768573e62587e889f5669c58a9f5c69fc1c08118a3021fd03db",
+        "canonical_geometry_sha256": "ca109c44b69762996766ebefb678b8beca658fac6915c08f0791cfac9e6bee55"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D03D-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than upper dash; right detached roof interior bar remains shorter than full roof span.",
+      "inventory_check": "Three ritual descenders; detached peaked roof, detached inner bar and separate pronged U/bowl with one lower counter retained.",
+      "uncertainty": "Roof/inner-bar contact and bowl prong height vary; native follows a coherent separated THX/CCZ-type form.",
+      "codepoint": "U+3D03E",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D03E.png",
+        "sha256": "3b439c31f6ac909a0134ff01aff4bd798df48c60a55f9744567fe9c367e03f57"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D03E.png",
+        "sha256": "5881ab3409d91e061d2d9976fe13b38b1465996ba6b25ec9670b53a69ca0f9eb"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D03E.json",
+        "sha256": "ad3ecda21a663354fc59de7faec09660f8432357017d12719c22ae6301fcebad",
+        "canonical_geometry_sha256": "f9683f8e3abfa5247e9b01813358ed667d0135166c855b53b5d2a7cebbcb081d"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D03E-compare.png"
+    },
+    {
+      "result": "no_clear_additional_error_found",
+      "bar_check": "Ritual lower bar longer than top dash; upper right transverse and vertical partition remain within the rounded enclosure.",
+      "inventory_check": "Exactly four upper counters, central continuous stem, two mid upward arms and three lower ends retained.",
+      "uncertainty": "Mid-arm and lower-arch widths vary; no clear missing course, counter or reversed relative bar order found.",
+      "codepoint": "U+3D03F",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "native_png": {
+        "file": "design/seal-individual/U3D03F.png",
+        "sha256": "8204bc11b98dd666b98067c40943c15fe0afef776c11f57a4d16075d74474c79"
+      },
+      "reference_png": {
+        "file": "reference/seal/individual/U3D03F.png",
+        "sha256": "662b367ac80c69da41b03fe91dc1a0973403ce134b88dfe2fdf4e8c07451e22c"
+      },
+      "vector_source_at_report_write": {
+        "file": "design/strokes-individual/auto/U3D03F.json",
+        "sha256": "6bb1bb7ea3aa0c29beccd0b7c232e967b86cef59e974dc1d7a3705a68695ff22",
+        "canonical_geometry_sha256": "d4c33f053e2dee43862ac70e8367358186b47131953ff83d89ecb50996aa8ab4"
+      },
+      "inspection_composite": "/tmp/seal-recheck-d/U3D03F-compare.png"
+    }
+  ]
+}

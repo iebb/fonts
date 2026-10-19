@@ -20,25 +20,27 @@ from fontTools.ttLib import TTFont
 from fontTools.varLib import build
 from fontTools.varLib.instancer import instantiateVariableFont
 
-from build_stroke_font import ROOT, build_font, family_basename, load_sources
+from build_stroke_font import (
+    ROOT, NORMALIZED_CENTERLINE_EXTENT, build_font, family_basename, load_sources,
+)
 
 
-MASTERS = {300: ("Light", 30.0), 400: ("Regular", 43.0), 700: ("Bold", 65.0)}
-INSTANCES = {300: "Light", 400: "Regular", 500: "Medium", 700: "Bold"}
+MASTERS = {300: ("Light", 23.5), 400: ("Regular", 30.0),
+           600: ("SemiBold", 43.0), 700: ("Bold", 49.5)}
+INSTANCES = {300: "Light", 400: "Regular", 500: "Medium", 600: "SemiBold", 700: "Bold"}
 
 
 def stroke_width(weight: float) -> float:
     if not 300 <= weight <= 700:
         raise ValueError("Weight must be between 300 and 700")
-    return (30 + (weight - 300) * 13 / 100 if weight <= 400
-            else 43 + (weight - 400) * 22 / 300)
+    return 30 + (weight - 400) * 13 / 200
 
 
 def set_names(font: TTFont, family: str, style: str, weight: int) -> None:
     basename = family_basename(family)
     values = {
-        1: family, 2: style, 3: f"{basename};0.4;{style}",
-        4: f"{family} {style}", 5: "Version 0.4; centerline width prototype",
+        1: family, 2: style, 3: f"{basename};0.5;{style}",
+        4: f"{family} {style}", 5: "Version 0.5; thinner normalized centerline prototype",
         6: f"{basename}-{style}", 16: family, 17: style,
         10: ("Rounded uniform-width strokes. All weight masters use identical "
              "centerline trajectories. Character forms require specialist review."),
@@ -68,8 +70,10 @@ def topology(font: TTFont) -> dict:
 
 
 def build_variable(source_root: Path, output: Path,
-                   family: str = "Panorama Gothic Seal Individual Variable") -> dict:
-    sources = load_sources(source_root)
+                   family: str = "Panorama Gothic Seal Individual Variable",
+                   require_visual_match: bool = False) -> dict:
+    sources = load_sources(source_root, require_visual_match=require_visual_match,
+                           normalization_extent=NORMALIZED_CENTERLINE_EXTENT)
     output.mkdir(parents=True, exist_ok=True)
     master_dir = output / "masters"
     master_dir.mkdir(exist_ok=True)
@@ -142,10 +146,16 @@ def build_variable(source_root: Path, output: Path,
         "axis": {"tag": "wght", "minimum": 300, "default": 400, "maximum": 700},
         "construction": "Same editable centerlines; only the common pen radius changes.",
         "outline_offsets_used": False, "centerline_geometry_changes_with_weight": False,
+        "weight_remapping": {"previous_300_is_now": 400, "previous_400_is_now": 600},
+        "normalization": {"preserve_aspect_ratio": True, "pen_width_scaled": False,
+                          "target_centerline_extent": NORMALIZED_CENTERLINE_EXTENT,
+                          "regular_ink_extent": NORMALIZED_CENTERLINE_EXTENT + stroke_width(400),
+                          "same_transform_at_every_weight": True},
         "widths_font_units": {str(weight): stroke_width(weight) for weight in INSTANCES},
         "limitations": ["Dense counters and spacing need optical review.",
                         "Inferred paths do not establish historical writing order."],
         "sources": [{"codepoint": f"U+{s['codepoint']:05X}",
+                     "normalization": s.get("normalization"),
                      "centerline_file": str(s["path"].relative_to(ROOT))
                      if s["path"].is_relative_to(ROOT) else str(s["path"]),
                      "sha256": hashlib.sha256(s["path"].read_bytes()).hexdigest()}
@@ -162,8 +172,10 @@ def main() -> None:
     parser.add_argument("--source-root", type=Path, default=ROOT / "design/strokes-individual")
     parser.add_argument("--output", type=Path, default=ROOT / "fonts/seal-individual-variable")
     parser.add_argument("--family", default="Panorama Gothic Seal Individual Variable")
+    parser.add_argument("--require-visual-match", action="store_true")
     args = parser.parse_args()
-    report = build_variable(args.source_root, args.output, args.family)
+    report = build_variable(args.source_root, args.output, args.family,
+                            require_visual_match=args.require_visual_match)
     print(f"Built {report['glyph_count']} glyphs with a centerline width axis in {args.output}")
 
 

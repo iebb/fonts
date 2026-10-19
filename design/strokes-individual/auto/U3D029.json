@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -137,11 +137,11 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D029",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "verdict": "mismatch",
+      "reviewer": "Enlarged feature-by-feature visual recheck by consensus_c",
       "notes": [
-        "The revised top-right motif correctly joins both short horizontal strokes to one common left vertical, resolving the earlier detached-bar mismatch.",
-        "Three raised diamond counters, two horizontal bars and five lower descenders are retained on the left; the right three-panel eye, paired lower support legs and crossing curved bottom strokes remain intact."
+        "Enlarged all-witness recheck finds a missing short upper rising crossbar in the native bottom-right tail; the earlier match verdict is superseded.",
+        "The corrected manual vector adds only that bar; all 22 pre-existing paths, three diamonds, five left descenders, connected right top bars, three-panel oval and support legs are preserved."
       ],
       "source_png": "design/seal-individual/U3D029.png",
       "source_png_sha256": "fee1dfb3f069df05535d8eec654f9b615861ce0a10ca6efd1182be568193ad00",
@@ -178,10 +178,19 @@
             "A second native attempt with the common-left-vertical attachment was requested; the earlier contact-scale match is superseded."
           ],
           "reference_png_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab"
+        },
+        {
+          "source_png_sha256": "fee1dfb3f069df05535d8eec654f9b615861ce0a10ca6efd1182be568193ad00",
+          "verdict": "match",
+          "notes": [
+            "The revised top-right motif correctly joins both short horizontal strokes to one common left vertical, resolving the earlier detached-bar mismatch.",
+            "Three raised diamond counters, two horizontal bars and five lower descenders are retained on the left; the right three-panel eye, paired lower support legs and crossing curved bottom strokes remain intact."
+          ],
+          "reference_png_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab"
         }
       ],
       "review_file": "design/seal-individual/reviews/U3D029.json",
-      "review_sha256": "e9351e40ec42dba2e28e0d1130bd16760e693af869bcdd756a2d0718dda77a4d"
+      "review_sha256": "f055eeeedb093cce0b6715485bd365d16cd05395e8a20cf0f6cc975a7455efa2"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

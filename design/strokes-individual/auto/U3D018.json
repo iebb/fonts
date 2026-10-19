@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -138,11 +138,11 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D018",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "verdict": "mismatch",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
       "notes": [
-        "The right side retains the bent upper fork with its lower horizontal, the three-panel eye-like enclosure, its enclosing lower support/baseline and two diverging legs.",
-        "The two-leg lower construction is coherent with THX/CCZ after comparison with the differently simplified QJZ/DYC alternatives. No additional divider was introduced."
+        "All four enlarged specimens THX, CCZ, QJZ and DYC show the lower free horizontal of the upper-right motif extending rightward beyond the upper U hook. The native drawing instead ends this lower bar before the hook right edge.",
+        "The native PNG remains unchanged and mismatched; acceptance applies only to corrected vector geometry. The existing coherent THX/CCZ two-foot lower variant is preserved."
       ],
       "source_png": "design/seal-individual/U3D018.png",
       "source_png_sha256": "dc10f9ce96922f1b59518ea4ed778c636bd232db1edd9a0d116f7887891a5aa2",
@@ -160,8 +160,17 @@
         "Does not verify historical writing order, exact metrics, or final font stroke width.",
         "Verdict applies only to the source PNG hash recorded here."
       ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The right side retains the bent upper fork with its lower horizontal, the three-panel eye-like enclosure, its enclosing lower support/baseline and two diverging legs.",
+          "The two-leg lower construction is coherent with THX/CCZ after comparison with the differently simplified QJZ/DYC alternatives. No additional divider was introduced."
+        ]
+      },
+      "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification.",
       "review_file": "design/seal-individual/reviews/U3D018.json",
-      "review_sha256": "8b8b221fa58f49e3b6782d4d4d2af48c968cc6b64e06920144425301183637ec"
+      "review_sha256": "693eb2e6772eefe1280b6dd7377092b60f8ea2a22baeab43adb6ab51acc850f1"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

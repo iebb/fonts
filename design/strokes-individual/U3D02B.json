@@ -134,11 +134,10 @@
       "schema_version": 1,
       "codepoint": "U+3D02B",
       "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "reviewer": "Enlarged feature-by-feature visual recheck by consensus_c",
       "notes": [
-        "The revised ring now has three diagonals, including an upper rising stroke whose left endpoint stops inside the ring with a visible gap, forming the coherent THX five-field construction.",
-        "The outer roof with apex tick, upper-left winding return, two upper-right short bars, ring stand, and three inner right-hand wavy descenders remain intact.",
-        "THX, CCZ and DYC were compared; QJZ is blank. The former plain-X omission is resolved."
+        "Enlarged THX/CCZ/DYC recheck confirms three ring diagonals with one free inner endpoint, five fields, two right bars and three wavy inner descenders.",
+        "The native upper-right bar is shorter than the lower; the tracked vector accidentally reverses their order by a small amount. The manual vector now makes the upper bar 74% of lower length. The native speck remains excluded as previously approved."
       ],
       "source_png": "design/seal-individual/U3D02B.png",
       "source_png_sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
@@ -167,6 +166,16 @@
             "A second native attempt was requested. QJZ is unavailable; THX, CCZ and DYC were compared."
           ],
           "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421"
+        },
+        {
+          "source_png_sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
+          "verdict": "match",
+          "notes": [
+            "The revised ring now has three diagonals, including an upper rising stroke whose left endpoint stops inside the ring with a visible gap, forming the coherent THX five-field construction.",
+            "The outer roof with apex tick, upper-left winding return, two upper-right short bars, ring stand, and three inner right-hand wavy descenders remain intact.",
+            "THX, CCZ and DYC were compared; QJZ is blank. The former plain-X omission is resolved."
+          ],
+          "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421"
         }
       ],
       "non_stroke_artifacts": [
@@ -181,7 +190,9 @@
           "area_pixels_at_alpha128": 45,
           "treatment": "Excluded from centerline font; native PNG bytes unchanged."
         }
-      ]
+      ],
+      "review_file": "design/seal-individual/reviews/U3D02B.json",
+      "review_sha256": "2bfb7f139fe785dee209ba550181963d666a9b9ebf33220cb096bb601843ac8f"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {
@@ -226,23 +237,224 @@
           "components": 8,
           "counters": 5
         }
+      },
+      {
+        "component": "relative lengths of the two upper-right horizontal bars",
+        "native_issue": "Automatic/manual tracked upper bar was 124.32 units, slightly longer than the lower bar of 121.048 units; enlarged THX/CCZ/DYC consistently make upper shorter. Native artwork is unchanged.",
+        "correction": "Shortened and centered stroke-11 at y300.984 to x591.529\u2013681.109, length89.58; lower stroke-12 remains x575.795\u2013696.843 at y389.316, length121.048. Upper/lower ratio0.74004. All fourteen other stroke records are unchanged, including the three ring diagonals and free-left-tip five-field channel.",
+        "evidence": "THX TH-00041, CCZ C-00041 and DYC D-00041 each have a visibly shorter upper-right bar above a longer lower-right bar. QJZ is unavailable.",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "QJZ"
+        ],
+        "geometry_changed_from_auto": true,
+        "original_stroke": {
+          "points": [
+            [
+              575.7955,
+              300.984
+            ],
+            [
+              579.0671,
+              300.984
+            ],
+            [
+              582.3387,
+              300.984
+            ],
+            [
+              585.6102,
+              300.984
+            ],
+            [
+              588.8818,
+              300.984
+            ],
+            [
+              592.1534,
+              300.984
+            ],
+            [
+              595.4249,
+              300.984
+            ],
+            [
+              598.6965,
+              300.984
+            ],
+            [
+              601.9681,
+              300.984
+            ],
+            [
+              605.2396,
+              300.984
+            ],
+            [
+              608.5112,
+              297.7125
+            ],
+            [
+              611.7827,
+              297.7125
+            ],
+            [
+              615.0543,
+              297.7125
+            ],
+            [
+              618.3259,
+              297.7125
+            ],
+            [
+              621.5974,
+              297.7125
+            ],
+            [
+              624.869,
+              297.7125
+            ],
+            [
+              628.1406,
+              300.984
+            ],
+            [
+              631.4121,
+              300.984
+            ],
+            [
+              634.6837,
+              300.984
+            ],
+            [
+              637.9553,
+              300.984
+            ],
+            [
+              641.2268,
+              300.984
+            ],
+            [
+              644.4984,
+              300.984
+            ],
+            [
+              647.77,
+              300.984
+            ],
+            [
+              651.0415,
+              300.984
+            ],
+            [
+              654.3131,
+              297.7125
+            ],
+            [
+              657.5847,
+              297.7125
+            ],
+            [
+              660.8562,
+              297.7125
+            ],
+            [
+              664.1278,
+              297.7125
+            ],
+            [
+              667.3994,
+              297.7125
+            ],
+            [
+              670.6709,
+              297.7125
+            ],
+            [
+              673.9425,
+              297.7125
+            ],
+            [
+              677.2141,
+              300.984
+            ],
+            [
+              680.4856,
+              300.984
+            ],
+            [
+              683.7572,
+              300.984
+            ],
+            [
+              687.0288,
+              300.984
+            ],
+            [
+              690.3003,
+              300.984
+            ],
+            [
+              693.5719,
+              300.984
+            ],
+            [
+              696.8435,
+              300.984
+            ],
+            [
+              700.115,
+              300.984
+            ]
+          ],
+          "graph_edges": [
+            24
+          ],
+          "is_loop": false,
+          "path": "M 575.795,300.984 L 700.115,300.984",
+          "commands": [
+            [
+              "M",
+              575.7955,
+              300.984
+            ],
+            [
+              "L",
+              700.115,
+              300.984
+            ]
+          ],
+          "maximum_fit_error": 3.2716,
+          "curve_segments": 1,
+          "id": "stroke-11",
+          "closed": false,
+          "maximum_fit_error_analysis_pixels": 1.0,
+          "maximum_fit_error_font_units": 3.2716
+        },
+        "source_pixels_modified": false
       }
     ],
     "native_artwork_visual_verdict": "match",
     "geometry_reference_review": {
       "verdict": "match",
-      "geometry_sha256": "e45be27c7a29c090b04af7b2ebcd14cc01f9fc5829b085d78b29a582f50785e4",
-      "reviewer": "independent visual structural and actual-font topology review by stroke_font_engine",
+      "geometry_sha256": "ca095d529ac7ec17afda27bcb022200940a5b628aedf51f5ec4d3900a1f91b39",
+      "reviewer": "Enlarged four-witness feature-by-feature review by consensus_c",
       "notes": [
-        "The native ninth ink component is a tiny 45-pixel stray speck in the ring opening, rather than an attested writing stroke.",
-        "The actual font preserves all eight intended stroke components and all five ring fields, including the free-left-tip channel and three interior diagonals.",
-        "The comparison was made against THX, CCZ and DYC; QJZ is unavailable. No native pixels, glyph trajectories or stroke widths were changed.",
-        "This manual override records and approves the existing tracker exclusion of that non-stroke artifact; it does not add a spurious dot to the font."
+        "Enlarged THX/CCZ/DYC recheck confirms three ring diagonals with one free inner endpoint, five fields, two right bars and three wavy inner descenders.",
+        "The native upper-right bar is shorter than the lower; the tracked vector accidentally reverses their order by a small amount. The manual vector now makes the upper bar 74% of lower length. The native speck remains excluded as previously approved.",
+        "Nominal editable source width43 retained. Actual normalized-font proofs at final widths30 and43 will be checked separately.",
+        "Actual TTF proofs normalized to centerline extent738 were visually checked at width30 and43. Width30 retains the intended structure. At43 density closes spaces:029 has5components/13counters;02B has8components/6counters instead of its intended five-field ring. This review does not certify all-weight topology."
       ],
       "review_limitations": [
-        "Visual structural comparison and pixel topology inspection, not specialist paleographic certification or historical stroke-order verification."
-      ]
-    }
+        "Visual structural comparison, not paleographic certification or historical stroke-order verification."
+      ],
+      "actual_font_proof_limitation": "Actual TTF proofs normalized to centerline extent738 were visually checked at width30 and43. Width30 retains the intended structure. At43 density closes spaces:029 has5components/13counters;02B has8components/6counters instead of its intended five-field ring. This review does not certify all-weight topology."
+    },
+    "kind": "Manual minimal structural repair of independent ImageGen centerlines; source PNG pixels unchanged."
   },
   "algorithm": {
     "skeleton": "Zhang-Suen",
@@ -6538,159 +6750,11 @@
     {
       "points": [
         [
-          575.7955,
+          591.529,
           300.984
         ],
         [
-          579.0671,
-          300.984
-        ],
-        [
-          582.3387,
-          300.984
-        ],
-        [
-          585.6102,
-          300.984
-        ],
-        [
-          588.8818,
-          300.984
-        ],
-        [
-          592.1534,
-          300.984
-        ],
-        [
-          595.4249,
-          300.984
-        ],
-        [
-          598.6965,
-          300.984
-        ],
-        [
-          601.9681,
-          300.984
-        ],
-        [
-          605.2396,
-          300.984
-        ],
-        [
-          608.5112,
-          297.7125
-        ],
-        [
-          611.7827,
-          297.7125
-        ],
-        [
-          615.0543,
-          297.7125
-        ],
-        [
-          618.3259,
-          297.7125
-        ],
-        [
-          621.5974,
-          297.7125
-        ],
-        [
-          624.869,
-          297.7125
-        ],
-        [
-          628.1406,
-          300.984
-        ],
-        [
-          631.4121,
-          300.984
-        ],
-        [
-          634.6837,
-          300.984
-        ],
-        [
-          637.9553,
-          300.984
-        ],
-        [
-          641.2268,
-          300.984
-        ],
-        [
-          644.4984,
-          300.984
-        ],
-        [
-          647.77,
-          300.984
-        ],
-        [
-          651.0415,
-          300.984
-        ],
-        [
-          654.3131,
-          297.7125
-        ],
-        [
-          657.5847,
-          297.7125
-        ],
-        [
-          660.8562,
-          297.7125
-        ],
-        [
-          664.1278,
-          297.7125
-        ],
-        [
-          667.3994,
-          297.7125
-        ],
-        [
-          670.6709,
-          297.7125
-        ],
-        [
-          673.9425,
-          297.7125
-        ],
-        [
-          677.2141,
-          300.984
-        ],
-        [
-          680.4856,
-          300.984
-        ],
-        [
-          683.7572,
-          300.984
-        ],
-        [
-          687.0288,
-          300.984
-        ],
-        [
-          690.3003,
-          300.984
-        ],
-        [
-          693.5719,
-          300.984
-        ],
-        [
-          696.8435,
-          300.984
-        ],
-        [
-          700.115,
+          681.109,
           300.984
         ]
       ],
@@ -6698,16 +6762,16 @@
         24
       ],
       "is_loop": false,
-      "path": "M 575.795,300.984 L 700.115,300.984",
+      "path": "M 591.529,300.984 L 681.109,300.984",
       "commands": [
         [
           "M",
-          575.7955,
+          591.529,
           300.984
         ],
         [
           "L",
-          700.115,
+          681.109,
           300.984
         ]
       ],
@@ -9567,6 +9631,234 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.9732,
       "maximum_fit_error_font_units": 3.1839
+    }
+  ],
+  "structural_corrections": [
+    {
+      "component": "isolated non-stroke speck inside the left ring channel",
+      "native_issue": "The generated artwork contains one disconnected 45-pixel speck at normalized 1024 bbox [334,589,341,598]; the intended stroke structure has eight components and five ring fields.",
+      "correction": "Retained the tracker exclusion of this tiny un-attested speck. All fifteen centerline paths, their trajectories and common width43 remain unchanged. No native PNG pixels were edited.",
+      "evidence": "The THX three-diagonal/five-field construction has an open channel around the free inner diagonal tip and no independent dot; CCZ and DYC were also compared.",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [
+        "QJZ"
+      ],
+      "geometry_changed_from_auto": false,
+      "source_pixel_topology_raw": {
+        "components": 9,
+        "counters": 5
+      },
+      "source_intended_stroke_topology": {
+        "components": 8,
+        "counters": 5
+      },
+      "actual_font_pixel_topology": {
+        "components": 8,
+        "counters": 5
+      }
+    },
+    {
+      "component": "relative lengths of the two upper-right horizontal bars",
+      "native_issue": "Automatic/manual tracked upper bar was 124.32 units, slightly longer than the lower bar of 121.048 units; enlarged THX/CCZ/DYC consistently make upper shorter. Native artwork is unchanged.",
+      "correction": "Shortened and centered stroke-11 at y300.984 to x591.529\u2013681.109, length89.58; lower stroke-12 remains x575.795\u2013696.843 at y389.316, length121.048. Upper/lower ratio0.74004. All fourteen other stroke records are unchanged, including the three ring diagonals and free-left-tip five-field channel.",
+      "evidence": "THX TH-00041, CCZ C-00041 and DYC D-00041 each have a visibly shorter upper-right bar above a longer lower-right bar. QJZ is unavailable.",
+      "reviewed_specimens": [
+        "THX",
+        "CCZ",
+        "DYC"
+      ],
+      "unavailable_specimens": [
+        "QJZ"
+      ],
+      "geometry_changed_from_auto": true,
+      "original_stroke": {
+        "points": [
+          [
+            575.7955,
+            300.984
+          ],
+          [
+            579.0671,
+            300.984
+          ],
+          [
+            582.3387,
+            300.984
+          ],
+          [
+            585.6102,
+            300.984
+          ],
+          [
+            588.8818,
+            300.984
+          ],
+          [
+            592.1534,
+            300.984
+          ],
+          [
+            595.4249,
+            300.984
+          ],
+          [
+            598.6965,
+            300.984
+          ],
+          [
+            601.9681,
+            300.984
+          ],
+          [
+            605.2396,
+            300.984
+          ],
+          [
+            608.5112,
+            297.7125
+          ],
+          [
+            611.7827,
+            297.7125
+          ],
+          [
+            615.0543,
+            297.7125
+          ],
+          [
+            618.3259,
+            297.7125
+          ],
+          [
+            621.5974,
+            297.7125
+          ],
+          [
+            624.869,
+            297.7125
+          ],
+          [
+            628.1406,
+            300.984
+          ],
+          [
+            631.4121,
+            300.984
+          ],
+          [
+            634.6837,
+            300.984
+          ],
+          [
+            637.9553,
+            300.984
+          ],
+          [
+            641.2268,
+            300.984
+          ],
+          [
+            644.4984,
+            300.984
+          ],
+          [
+            647.77,
+            300.984
+          ],
+          [
+            651.0415,
+            300.984
+          ],
+          [
+            654.3131,
+            297.7125
+          ],
+          [
+            657.5847,
+            297.7125
+          ],
+          [
+            660.8562,
+            297.7125
+          ],
+          [
+            664.1278,
+            297.7125
+          ],
+          [
+            667.3994,
+            297.7125
+          ],
+          [
+            670.6709,
+            297.7125
+          ],
+          [
+            673.9425,
+            297.7125
+          ],
+          [
+            677.2141,
+            300.984
+          ],
+          [
+            680.4856,
+            300.984
+          ],
+          [
+            683.7572,
+            300.984
+          ],
+          [
+            687.0288,
+            300.984
+          ],
+          [
+            690.3003,
+            300.984
+          ],
+          [
+            693.5719,
+            300.984
+          ],
+          [
+            696.8435,
+            300.984
+          ],
+          [
+            700.115,
+            300.984
+          ]
+        ],
+        "graph_edges": [
+          24
+        ],
+        "is_loop": false,
+        "path": "M 575.795,300.984 L 700.115,300.984",
+        "commands": [
+          [
+            "M",
+            575.7955,
+            300.984
+          ],
+          [
+            "L",
+            700.115,
+            300.984
+          ]
+        ],
+        "maximum_fit_error": 3.2716,
+        "curve_segments": 1,
+        "id": "stroke-11",
+        "closed": false,
+        "maximum_fit_error_analysis_pixels": 1.0,
+        "maximum_fit_error_font_units": 3.2716
+      },
+      "source_pixels_modified": false
     }
   ]
 }

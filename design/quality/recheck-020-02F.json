@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "range": "U+3D020\u2013U+3D02F",
+  "reviewer": "consensus_c",
+  "review_status": "limited_feature_recheck_complete; two confirmed repairs; one uncertain crossing-curvature concern; dense-weight limits remain",
+  "reference_pdf": "reference/seal/U3D000.pdf",
+  "reference_pdf_sha256": "58231968a21785f8942d4ba6484dfbabb63575f168a462576d29096c2f544831",
+  "method": "Rendered every available witness directly from its indexed PDF crop at24x scale, then compared enlarged individual source views with native PNG and accepted centerline SVG. Manual overrides used for023/02B/02F. Original PNG bytes were not changed.",
+  "criteria": [
+    "Check every available witness; unavailable cells supply no evidence.",
+    "Count all descenders, legs, finger branches, diagonals and bar levels before evaluating style.",
+    "Compare upper/lower and short/long bar relationships explicitly, beyond component presence.",
+    "Distinguish attached stems, separate side strokes, free endpoints, crossings and returned hooks.",
+    "Inspect ring topology enlarged:02A/02C three diagonals and six fields;02B three diagonals with one free tip and five fields.",
+    "Inspect accepted vectors independently of their native images; native match does not certify tracking fidelity.",
+    "Preserve coherent attested whole forms where witness variants disagree; do not flatten variant differences into invented common forms.",
+    "Retain uncertainty; this is not paleographic certification or historical stroke-order verification.",
+    "For repaired geometry, visually inspect actual normalized TTF output at widths30 and43 and record topology changes rather than silently certifying them."
+  ],
+  "confirmed_errors_repaired": [
+    "U+3D029 omitted short upper rising tail crossbar",
+    "U+3D02B tracked upper-right bar longer than lower-right bar"
+  ],
+  "uncertain_items": [
+    "U+3D027 crossing curvature: no source edit made"
+  ],
+  "all_weight_fidelity_certified": false,
+  "actual_font_proofs": [
+    {
+      "codepoint": "U+3D029",
+      "normalization_extent": 738,
+      "font_stroke_width": 30,
+      "font": "/tmp/seal-recheck-c/proof/SealRepairs-width30.ttf",
+      "font_sha256": "14fb9171f41c84c074f38caba45d1a27777ab0c2ed49b34d06dbdc72d131feea",
+      "proof": "/tmp/seal-recheck-c/proof/U3D029-width30.png",
+      "proof_sha256": "011b375767d1a75308ed39bcd5b4ca5accc984f80465f51aaedadb8585012f1d",
+      "actual_font_pixel_topology": {
+        "components": 7,
+        "counters": 7
+      }
+    },
+    {
+      "codepoint": "U+3D029",
+      "normalization_extent": 738,
+      "font_stroke_width": 43,
+      "font": "/tmp/seal-recheck-c/proof/SealRepairs-width43.ttf",
+      "font_sha256": "3e316306579b02f04b48276525b83cdd184fd584b366860f6f61f4aadfefd6fd",
+      "proof": "/tmp/seal-recheck-c/proof/U3D029-width43.png",
+      "proof_sha256": "8c42221200f42cded6bb7a5c9eec096247e65ab1b5cfcf137482d0e3c34cc2af",
+      "actual_font_pixel_topology": {
+        "components": 5,
+        "counters": 13
+      }
+    },
+    {
+      "codepoint": "U+3D02B",
+      "normalization_extent": 738,
+      "font_stroke_width": 30,
+      "font": "/tmp/seal-recheck-c/proof/SealRepairs-width30.ttf",
+      "font_sha256": "14fb9171f41c84c074f38caba45d1a27777ab0c2ed49b34d06dbdc72d131feea",
+      "proof": "/tmp/seal-recheck-c/proof/U3D02B-width30.png",
+      "proof_sha256": "2d61de411f76de270d8591185ca63a7dcadbe30205a437788e68fda15a47153a",
+      "actual_font_pixel_topology": {
+        "components": 8,
+        "counters": 5
+      }
+    },
+    {
+      "codepoint": "U+3D02B",
+      "normalization_extent": 738,
+      "font_stroke_width": 43,
+      "font": "/tmp/seal-recheck-c/proof/SealRepairs-width43.ttf",
+      "font_sha256": "3e316306579b02f04b48276525b83cdd184fd584b366860f6f61f4aadfefd6fd",
+      "proof": "/tmp/seal-recheck-c/proof/U3D02B-width43.png",
+      "proof_sha256": "64d2d3b02648fc41a2e2d3c07cfef319dd6c5a9d1be05708f590b51ce567e1b4",
+      "actual_font_pixel_topology": {
+        "components": 8,
+        "counters": 6
+      }
+    }
+  ],
+  "proof_comparison": "design/quality/recheck-029-02B-width30-43.png",
+  "results": [
+    {
+      "codepoint": "U+3D020",
+      "native_png": "design/seal-individual/U3D020.png",
+      "native_png_sha256": "e34df768346e8db20e025a7f7ce5a43ca0d90d28ff65a3f8c1a2178d217f84d2",
+      "reference_png": "reference/seal/individual/U3D020.png",
+      "reference_png_sha256": "e77be9225f1f2a96891e33273bb3d4fb4aac56f35a373a2ef46066f43f3b07ac",
+      "accepted_svg": "design/strokes-individual/auto/U3D020.svg",
+      "accepted_svg_sha256": "a2c33ffbcd136daa90a618885781cd2960f8e5f0fe56b8ec4373cb9aee278eae",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D020-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Three left descenders, shorter upper left bar, projecting basket uprights, basket X/four fields, separate lower bar and two feet retained."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D020.svg",
+      "accepted_svg_after_sha256": "a2c33ffbcd136daa90a618885781cd2960f8e5f0fe56b8ec4373cb9aee278eae",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D021",
+      "native_png": "design/seal-individual/U3D021.png",
+      "native_png_sha256": "d57936456583ae8db42b8912fa3c1b46d31df4f83803b544bbc486142a1cf3b9",
+      "reference_png": "reference/seal/individual/U3D021.png",
+      "reference_png_sha256": "8455f5588c2333a1752094940b73d212bbaa8ca32163e3c4958b092ceb54a9bf",
+      "accepted_svg": "design/strokes-individual/auto/U3D021.svg",
+      "accepted_svg_sha256": "dcc7f02cf69016110c8a88992fc380f452aa651c8cfc7baf8c650bff9f990281",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D021-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Basket X, two legs and central two-bar soil motif retained; center stem stops at soil baseline. Lower soil-bar attachment/width differs legitimately across THX/QJZ/DYC; no single witness ratio imposed."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D021.svg",
+      "accepted_svg_after_sha256": "dcc7f02cf69016110c8a88992fc380f452aa651c8cfc7baf8c650bff9f990281",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D022",
+      "native_png": "design/seal-individual/U3D022.png",
+      "native_png_sha256": "3bc02b498ee01e999501b415d86e285bd1b3fb824e0083dade2689aaa67ac419",
+      "reference_png": "reference/seal/individual/U3D022.png",
+      "reference_png_sha256": "17c1fc2052308197557c8059db71a6d8c0b1891a3aeafaa5ce08eaa69e534937",
+      "accepted_svg": "design/strokes-individual/auto/U3D022.svg",
+      "accepted_svg_sha256": "eeb119408b3963b419d1725092fe36a22bff43a5e41a55ce79025d18c32d6500",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D022-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Left three descenders/T, one upper counter, lower open return, S-like center descent and broad bottom baseline retained. Baseline remains longer than the upper right bar."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D022.svg",
+      "accepted_svg_after_sha256": "eeb119408b3963b419d1725092fe36a22bff43a5e41a55ce79025d18c32d6500",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D023",
+      "native_png": "design/seal-individual/U3D023.png",
+      "native_png_sha256": "119a7292db7a15ff44ac8b00f8912369afbec521cf141f4c72045a54bcefc564",
+      "reference_png": "reference/seal/individual/U3D023.png",
+      "reference_png_sha256": "629dcf9ce00eef6206e4af643f52f825c16d10bfa2de32e01fd0b357cd4b624c",
+      "accepted_svg": "design/strokes-individual/U3D023.svg",
+      "accepted_svg_sha256": "b39aa4aab61bb157128f807eff43f17839cde4d347c8052026eeff3bec179c98",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D023-sixviews.png",
+      "status": "accepted_override_no_additional_confirmed_error",
+      "notes": [
+        "Reviewed manual override, not defective native: three ritual descenders remain separate from the right foot own left leg; middle-height hook retained; upper oval has two counters in the coherent THX/CCZ form."
+      ],
+      "accepted_svg_after": "design/strokes-individual/U3D023.svg",
+      "accepted_svg_after_sha256": "b39aa4aab61bb157128f807eff43f17839cde4d347c8052026eeff3bec179c98",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D024",
+      "native_png": "design/seal-individual/U3D024.png",
+      "native_png_sha256": "0967de5a53fe480705110d41658b19b11757023e2dc900e857a93fc71f8ffa32",
+      "reference_png": "reference/seal/individual/U3D024.png",
+      "reference_png_sha256": "046e9412def41278c8e4a6e045c382957d7b485b075717a0f521ef9f34971518",
+      "accepted_svg": "design/strokes-individual/auto/U3D024.svg",
+      "accepted_svg_sha256": "9606219950c8fb21d48d6d9dedee934fa83e76c6915f58efb51853d24ff74e5d",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D024-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Each opposed comb has exactly three horizontal levels counting the curved bottom return; sinuous intervening spine and all three left descenders retained; upper left bar shorter than lower."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D024.svg",
+      "accepted_svg_after_sha256": "9606219950c8fb21d48d6d9dedee934fa83e76c6915f58efb51853d24ff74e5d",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D025",
+      "native_png": "design/seal-individual/U3D025.png",
+      "native_png_sha256": "2e69d65503465a6c7c46df968ca60ed54ae23d2c04d4ceacf00eff629b3631e4",
+      "reference_png": "reference/seal/individual/U3D025.png",
+      "reference_png_sha256": "0924b1c6adff3627948d400333f18d18f71097330b7afdd51591e423a0d07ba7",
+      "accepted_svg": "design/strokes-individual/auto/U3D025.svg",
+      "accepted_svg_sha256": "5c1bfd6a954035e45a7953d9ae2ad70cb1025f8445334c9c64b3f5705f78882c",
+      "available_specimens": [
+        "THX",
+        "QJZ"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D025-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Both available THX/QJZ checked: central pole, opposing three-level combs and three ritual descenders retained. Detached comb teeth choose attested THX connections."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D025.svg",
+      "accepted_svg_after_sha256": "5c1bfd6a954035e45a7953d9ae2ad70cb1025f8445334c9c64b3f5705f78882c",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D026",
+      "native_png": "design/seal-individual/U3D026.png",
+      "native_png_sha256": "6eaf8bdd3fac11b838f213f2053c3b8b98be109730425b6574c8b6535a7741cd",
+      "reference_png": "reference/seal/individual/U3D026.png",
+      "reference_png_sha256": "25ec4b758d8776ba7097486006e69ab0141ba4e80c16094ebd99bb87e05fbd05",
+      "accepted_svg": "design/strokes-individual/auto/U3D026.svg",
+      "accepted_svg_sha256": "7b84c7e2c8d91861e059999245c0e196dd010a22929f47a6dc42c7fe86b7290f",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D026-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Attached ritual middle stem, two stacked right counters in THX/CCZ coherent form, three right horizontal levels and freely ending curved tail retained; no lower baseline invented."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D026.svg",
+      "accepted_svg_after_sha256": "7b84c7e2c8d91861e059999245c0e196dd010a22929f47a6dc42c7fe86b7290f",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D027",
+      "native_png": "design/seal-individual/U3D027.png",
+      "native_png_sha256": "34d3e2ba20b815a23b0e750cd9385f1d4ba1308ed35c50d459093a5fab61458b",
+      "reference_png": "reference/seal/individual/U3D027.png",
+      "reference_png_sha256": "30f5531018027918d3bca266a7bb4c00ed7f7bce8b64e6d9ca87f9cf1c1c9cf2",
+      "accepted_svg": "design/strokes-individual/auto/U3D027.svg",
+      "accepted_svg_sha256": "b896e31c8416b2ad2aea730808388c2c17efa99851c6e68bc4b3f5ea59dea8ca",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D027-sixviews.png",
+      "status": "uncertain_vector_crossing_curvature",
+      "notes": [
+        "All legs, flanking strokes, hook and branches remain present. Automatic vector expands lower crossing into two junctions linked by a short vertical segment; smoother native/reference crossing suggests tracing curvature concern, but no confirmed identity omission. Preserved unchanged as instructed."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D027.svg",
+      "accepted_svg_after_sha256": "b896e31c8416b2ad2aea730808388c2c17efa99851c6e68bc4b3f5ea59dea8ca",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D028",
+      "native_png": "design/seal-individual/U3D028.png",
+      "native_png_sha256": "9e5248b92212c5aabc78aa8c90ab82508911e13724e240fd06bce03dc8f6d19a",
+      "reference_png": "reference/seal/individual/U3D028.png",
+      "reference_png_sha256": "728cd143c372c35582d9bf86934f99ed83425cbe6155b6674c5b0300fbecc00d",
+      "accepted_svg": "design/strokes-individual/auto/U3D028.svg",
+      "accepted_svg_sha256": "2407824b3d985c7351a2cff237d7d724b15b8697846248909e219146d1f4758f",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D028-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Three hollow diamond heads, two horizontal bars and five lower descenders retained. Detached upper short bar and center stem choose coherent QJZ/DYC arrangement; upper bar shorter than lower."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D028.svg",
+      "accepted_svg_after_sha256": "2407824b3d985c7351a2cff237d7d724b15b8697846248909e219146d1f4758f",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D029",
+      "native_png": "design/seal-individual/U3D029.png",
+      "native_png_sha256": "fee1dfb3f069df05535d8eec654f9b615861ce0a10ca6efd1182be568193ad00",
+      "reference_png": "reference/seal/individual/U3D029.png",
+      "reference_png_sha256": "aa642527a450a3c02ac3a66c8a79e7fe2f71e5d04ea1f599a29ddb4b427eeeab",
+      "accepted_svg": "design/strokes-individual/auto/U3D029.svg",
+      "accepted_svg_sha256": "f596f580fd768060b088ac3bd05bdcf99324cf8fd6554e15ad9239e43b401b93",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D029-sixviews.png",
+      "status": "confirmed_error_repaired",
+      "notes": [
+        "Added previously omitted short upper rising crossbar of bottom-right tail, attested in THX and corresponding heavy/connected CCZ/QJZ/DYC forms. All22 previous stroke records unchanged. Native PNG remains mismatch. Actual normalized width43 remains too dense for topology fidelity."
+      ],
+      "accepted_svg_after": "design/strokes-individual/U3D029.svg",
+      "accepted_svg_after_sha256": "ddd1dfc98a8fff2895f0a51f4572fa09d43998dd79c06e2cc3af8ca4bbc8171e",
+      "native_pixels_unchanged": true,
+      "repair": {
+        "component": "short upper rising crossbar in bottom-right tail",
+        "native_issue": "Native drawing and automatic centerlines omit the short upper rising crossbar, leaving only two long crossing strokes.",
+        "correction": "Added one constant-width straight rising centerline M 548,784 L 718,745. Every original path, point, attachment and contour remains byte-for-byte unchanged at the stroke-record level.",
+        "evidence": "Enlarged THX TH-00039 has a separate short rising bar crossing the falling stem above the longer rising bent stroke. CCZ C-00039, QJZ K-00039 and DYC D-00039 retain the corresponding extra upper branch in connected heavier forms.",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "geometry_changed_from_auto": true,
+        "original_centerline_source": "design/strokes-individual/auto/U3D029.json",
+        "original_centerline_sha256": "d78eb33f5e30ba9e97444b17eb38dd9d5d6d3be023193a1f614abae5327be5a3",
+        "added_stroke_id": "stroke-23",
+        "isolated_endpoint": [
+          548,
+          784
+        ],
+        "other_endpoint": [
+          718,
+          745
+        ],
+        "source_pixels_modified": false
+      },
+      "geometry_sha256": "fc8cbe151a3444325fa4319ace918c7f1e1e6810f92bd5b23b3ca7c366f18a96",
+      "manual_source_sha256": "b9d38863c66574698753f266bf31b12ff150bd2311e366cb834184399cb3da90"
+    },
+    {
+      "codepoint": "U+3D02A",
+      "native_png": "design/seal-individual/U3D02A.png",
+      "native_png_sha256": "4fc7d61d5b410c7a876f00aebcdca1612476ce24110df75c9e46b90a377b6d35",
+      "reference_png": "reference/seal/individual/U3D02A.png",
+      "reference_png_sha256": "f058f979215064c08ed270ba20a663e7544ace6824f09fe6bfcbda2e3430a4ba",
+      "accepted_svg": "design/strokes-individual/auto/U3D02A.svg",
+      "accepted_svg_sha256": "d4fbf3dea1feb08b47675927121bfd1b3ea40c83e7c097786f0a33b68972b917",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D02A-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Enlarged ring checked for THREE diagonals, two parallel rising plus one falling, and SIX fields; outer upper meander/right descent and two lower staff bars retained. No plain-X reversion."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D02A.svg",
+      "accepted_svg_after_sha256": "d4fbf3dea1feb08b47675927121bfd1b3ea40c83e7c097786f0a33b68972b917",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D02B",
+      "native_png": "design/seal-individual/U3D02B.png",
+      "native_png_sha256": "773533c2822cce39f6229b2aee491519e8491d2e59ec171919b07a70b3a683c4",
+      "reference_png": "reference/seal/individual/U3D02B.png",
+      "reference_png_sha256": "dc1feb7ca8a730f1e8cce347cdbe2420c29285a854f4325693ea05fffcc1a421",
+      "accepted_svg": "design/strokes-individual/U3D02B.svg",
+      "accepted_svg_sha256": "a9257e1f173713d335080149deee46a54790f70a252f705191fcce4813718831",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D02B-sixviews.png",
+      "status": "confirmed_vector_length_error_repaired",
+      "notes": [
+        "Upper-right bar shortened/centered from124.32 to89.58, lower unchanged121.048: ratio0.74004. All14 other paths unchanged, including ring three diagonals/free-left-tip FIVE-field channel and omitted non-stroke speck. Native ordering upper-shorter is retained. Normalized width43 closes the tiny ring channel and produces SIX fields; all-weight fidelity not certified."
+      ],
+      "accepted_svg_after": "design/strokes-individual/U3D02B.svg",
+      "accepted_svg_after_sha256": "36b5edc9bdf914a391a20693c6d1f0a9c3fe5e2128e039070b572e790bf00700",
+      "native_pixels_unchanged": true,
+      "repair": {
+        "component": "relative lengths of the two upper-right horizontal bars",
+        "native_issue": "Automatic/manual tracked upper bar was 124.32 units, slightly longer than the lower bar of 121.048 units; enlarged THX/CCZ/DYC consistently make upper shorter. Native artwork is unchanged.",
+        "correction": "Shortened and centered stroke-11 at y300.984 to x591.529\u2013681.109, length89.58; lower stroke-12 remains x575.795\u2013696.843 at y389.316, length121.048. Upper/lower ratio0.74004. All fourteen other stroke records are unchanged, including the three ring diagonals and free-left-tip five-field channel.",
+        "evidence": "THX TH-00041, CCZ C-00041 and DYC D-00041 each have a visibly shorter upper-right bar above a longer lower-right bar. QJZ is unavailable.",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "QJZ"
+        ],
+        "geometry_changed_from_auto": true,
+        "original_stroke": {
+          "points": [
+            [
+              575.7955,
+              300.984
+            ],
+            [
+              579.0671,
+              300.984
+            ],
+            [
+              582.3387,
+              300.984
+            ],
+            [
+              585.6102,
+              300.984
+            ],
+            [
+              588.8818,
+              300.984
+            ],
+            [
+              592.1534,
+              300.984
+            ],
+            [
+              595.4249,
+              300.984
+            ],
+            [
+              598.6965,
+              300.984
+            ],
+            [
+              601.9681,
+              300.984
+            ],
+            [
+              605.2396,
+              300.984
+            ],
+            [
+              608.5112,
+              297.7125
+            ],
+            [
+              611.7827,
+              297.7125
+            ],
+            [
+              615.0543,
+              297.7125
+            ],
+            [
+              618.3259,
+              297.7125
+            ],
+            [
+              621.5974,
+              297.7125
+            ],
+            [
+              624.869,
+              297.7125
+            ],
+            [
+              628.1406,
+              300.984
+            ],
+            [
+              631.4121,
+              300.984
+            ],
+            [
+              634.6837,
+              300.984
+            ],
+            [
+              637.9553,
+              300.984
+            ],
+            [
+              641.2268,
+              300.984
+            ],
+            [
+              644.4984,
+              300.984
+            ],
+            [
+              647.77,
+              300.984
+            ],
+            [
+              651.0415,
+              300.984
+            ],
+            [
+              654.3131,
+              297.7125
+            ],
+            [
+              657.5847,
+              297.7125
+            ],
+            [
+              660.8562,
+              297.7125
+            ],
+            [
+              664.1278,
+              297.7125
+            ],
+            [
+              667.3994,
+              297.7125
+            ],
+            [
+              670.6709,
+              297.7125
+            ],
+            [
+              673.9425,
+              297.7125
+            ],
+            [
+              677.2141,
+              300.984
+            ],
+            [
+              680.4856,
+              300.984
+            ],
+            [
+              683.7572,
+              300.984
+            ],
+            [
+              687.0288,
+              300.984
+            ],
+            [
+              690.3003,
+              300.984
+            ],
+            [
+              693.5719,
+              300.984
+            ],
+            [
+              696.8435,
+              300.984
+            ],
+            [
+              700.115,
+              300.984
+            ]
+          ],
+          "graph_edges": [
+            24
+          ],
+          "is_loop": false,
+          "path": "M 575.795,300.984 L 700.115,300.984",
+          "commands": [
+            [
+              "M",
+              575.7955,
+              300.984
+            ],
+            [
+              "L",
+              700.115,
+              300.984
+            ]
+          ],
+          "maximum_fit_error": 3.2716,
+          "curve_segments": 1,
+          "id": "stroke-11",
+          "closed": false,
+          "maximum_fit_error_analysis_pixels": 1.0,
+          "maximum_fit_error_font_units": 3.2716
+        },
+        "source_pixels_modified": false
+      },
+      "geometry_sha256": "ca095d529ac7ec17afda27bcb022200940a5b628aedf51f5ec4d3900a1f91b39",
+      "manual_source_sha256": "bc1fd29d93e50047980a8031793d8808a2e84c4cc5e50fed2a7311bbb872849f"
+    },
+    {
+      "codepoint": "U+3D02C",
+      "native_png": "design/seal-individual/U3D02C.png",
+      "native_png_sha256": "5d4b82f58efcfd8733d9cbb94d9813b8919caf4164542497a2ffadb022546198",
+      "reference_png": "reference/seal/individual/U3D02C.png",
+      "reference_png_sha256": "b9d4815517eefa68aa6580bd44c0be6a0f19079df7e7159c13f402b43ae4f0e8",
+      "accepted_svg": "design/strokes-individual/auto/U3D02C.svg",
+      "accepted_svg_sha256": "3f5c4447d0da383e3e2d1a26ee13ddae7c448a6714350aab59ffcb2535f4a0bb",
+      "available_specimens": [
+        "THX",
+        "QJZ"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D02C-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "Both THX/QJZ checked: canopy tick, upper flag, THREE ring diagonals/SIX fields, two lower staff bars, three right descenders with attached center retained. Upper right bar shorter than lower."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D02C.svg",
+      "accepted_svg_after_sha256": "3f5c4447d0da383e3e2d1a26ee13ddae7c448a6714350aab59ffcb2535f4a0bb",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D02D",
+      "native_png": "design/seal-individual/U3D02D.png",
+      "native_png_sha256": "05eb37a59e1fd1554fcb91182904feb38becdd1bf68e5654faf20a0804315219",
+      "reference_png": "reference/seal/individual/U3D02D.png",
+      "reference_png_sha256": "9105ba41246d5c4a6d66184f1e4f1181b2af13c4dad27ba58de4d9322d8136c7",
+      "accepted_svg": "design/strokes-individual/auto/U3D02D.svg",
+      "accepted_svg_sha256": "9dc382fed7887eb1e24552eaa71f4dc1305148ca36bb1de0dcde69b613904daf",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D02D-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "All four witnesses compared: upper left arch with two inner finger strokes, three-level right return, detached shorter inner top bar, longer lower T-bar and three lower descenders retained; no leg omitted."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D02D.svg",
+      "accepted_svg_after_sha256": "9dc382fed7887eb1e24552eaa71f4dc1305148ca36bb1de0dcde69b613904daf",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D02E",
+      "native_png": "design/seal-individual/U3D02E.png",
+      "native_png_sha256": "ed6fad47dd2f517386a2fd41fba94f146dfd8da474641fc15a3db20c5c514d90",
+      "reference_png": "reference/seal/individual/U3D02E.png",
+      "reference_png_sha256": "095fd6537aaa5732c00cdc554aa3658927d55b14d730eb0ba6c22f9a8c3afca9",
+      "accepted_svg": "design/strokes-individual/auto/U3D02E.svg",
+      "accepted_svg_sha256": "4fea3c490139818079c7149ee15ec4b065d27b5278a475ef39316d9d40d3326b",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D02E-sixviews.png",
+      "status": "no_additional_confirmed_error",
+      "notes": [
+        "All four witnesses compared: three ritual descenders and one continuous open-waisted curved right trajectory retained. Top loop remains open at free terminal; no accidental closed counter substituted."
+      ],
+      "accepted_svg_after": "design/strokes-individual/auto/U3D02E.svg",
+      "accepted_svg_after_sha256": "4fea3c490139818079c7149ee15ec4b065d27b5278a475ef39316d9d40d3326b",
+      "native_pixels_unchanged": true
+    },
+    {
+      "codepoint": "U+3D02F",
+      "native_png": "design/seal-individual/U3D02F.png",
+      "native_png_sha256": "7099b625813b6f27942a15b44fb2fc0893701f5a1a355a4ee96884d70b08d76b",
+      "reference_png": "reference/seal/individual/U3D02F.png",
+      "reference_png_sha256": "81300b1b0d629f549087ad8199965d65fa7e2ca96f99b4a2677af6929d8ddb9b",
+      "accepted_svg": "design/strokes-individual/U3D02F.svg",
+      "accepted_svg_sha256": "49ccc8153841c36830fc2738c996baec249e1d050ee752cf94a6330a989dd279",
+      "available_specimens": [
+        "THX",
+        "CCZ",
+        "QJZ",
+        "DYC"
+      ],
+      "inspection": "/tmp/seal-recheck-c/U3D02F-sixviews.png",
+      "status": "accepted_override_no_additional_confirmed_error",
+      "notes": [
+        "Accepted manual vector checked: FOUR upper counters, two open outer hand hooks plus two crossing inner curved stems, support bar and TWO lower legs retained; ritual descenders separate. Whole middle construction coheres with THX/CCZ instead of mixing incompatible DYC hand form."
+      ],
+      "accepted_svg_after": "design/strokes-individual/U3D02F.svg",
+      "accepted_svg_after_sha256": "49ccc8153841c36830fc2738c996baec249e1d050ee752cf94a6330a989dd279",
+      "native_pixels_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "purpose": "Targeted regression checks of actual built glyphs against confirmed Unicode chart structure and proportions. Passing these checks does not guarantee universal visual correctness, full Unicode coverage, or historical writing order.",
+  "raster_em_pixels": 2048,
+  "ink_threshold": 128,
+  "variable_weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+  ],
+  "glyphs": [
+    {
+      "codepoint": "U+3D007",
+      "criterion": "two_horizontal_bars",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D007.png",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "unavailable_specimens": [
+          "CCZ",
+          "QJZ"
+        ],
+        "confirmed_structure": "Exactly two detached horizontal bars. The lower bar is distinctly longer than the upper, with a large vertical gap. Reversing the lengths or making the bars equal is a different construction.",
+        "proportion_evidence": "THX and DYC have a vertical center gap about 1.0\u20131.1 times the lower ink span. The gate allows a conservative gap minimum0.85 and a lower/upper ink span range1.35\u20131.60, including rounded caps at every supported weight."
+      },
+      "requirements": {
+        "minimum_lower_to_upper_ink_span_ratio": 1.35,
+        "minimum_vertical_gap_to_lower_ink_span_ratio": 0.85,
+        "minimum_horizontal_aspect": 4.0,
+        "minimum_fill_ratio": 0.55,
+        "maximum_lower_to_upper_ink_span_ratio": 1.6
+      }
+    },
+    {
+      "codepoint": "U+3D00B",
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D00B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The detached top bar, joined outer contour, and detached inner figure form exactly three ink components. The outer roof must reach its right descending contour.",
+        "regression": "The generated drawing omitted the roof connection and yielded four components; an explicit centerline bridge restores the attested outer contour."
+      },
+      "requirements": {
+        "expected_components": 3
+      }
+    },
+    {
+      "codepoint": "U+3D018",
+      "criterion": "roi_rightward_endpoint_margin",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D018.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The free right endpoint of the upper motif lower horizontal extends right beyond the upper returned hook.",
+        "regression": "The native lower bar ended left of the hook. An extension of that endpoint alone restores a normalized42.17-unit rightward margin; the gate permits a conservative20-unit margin."
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0.5,
+          1.0
+        ],
+        "upper_roi_height_fractions": [
+          0.06,
+          0.23
+        ],
+        "lower_roi_height_fractions": [
+          0.28,
+          0.35
+        ],
+        "minimum_lower_rightward_margin_em": 0.01953125
+      }
+    },
+    {
+      "codepoint": "U+3D019",
+      "criterion": "roi_elongated_components",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D019.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper left and upper right detached side marks are elongated diagonal courses, rather than dots.",
+        "regression": "Automatic tracing shortened both native diagonal centerlines from approximately75 units to28 units. The repaired courses retain one detached elongated component in each specified region."
+      },
+      "requirements": {
+        "minimum_principal_ink_span_em": 0.095,
+        "minimum_principal_aspect": 1.8,
+        "regions": [
+          {
+            "name": "upper-left diagonal",
+            "roi_width_fractions": [
+              0.45,
+              0.67
+            ],
+            "roi_height_fractions": [
+              0.62,
+              0.78
+            ]
+          },
+          {
+            "name": "upper-right diagonal",
+            "roi_width_fractions": [
+              0.83,
+              1.0
+            ],
+            "roi_height_fractions": [
+              0.62,
+              0.78
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "codepoint": "U+3D01D",
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01D.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal remains shorter than the lower ritual crossbar; the center descender remains joined to the lower crossbar.",
+        "regression": "A targeted source review fixed the upper/lower left bar proportions; this check measures their actual ink spans independently of the right construction."
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0,
+          0.52
+        ],
+        "upper_roi_height_fractions": [
+          0.07,
+          0.15
+        ],
+        "lower_roi_height_fractions": [
+          0.25,
+          0.32
+        ],
+        "minimum_upper_to_lower_ink_span_ratio": 0.77,
+        "maximum_upper_to_lower_ink_span_ratio": 0.85
+      }
+    },
+    {
+      "codepoint": "U+3D01E",
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D01E.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper detached left horizontal is shorter than the lower ritual crossbar, retaining the chart proportion.",
+        "regression": "A targeted review lengthened only the deficient upper dash while preserving its midpoint and the lower crossbar; the gate checks the resulting left bar ink proportion."
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0,
+          0.52
+        ],
+        "upper_roi_height_fractions": [
+          0,
+          0.09
+        ],
+        "lower_roi_height_fractions": [
+          0.15,
+          0.24
+        ],
+        "minimum_upper_to_lower_ink_span_ratio": 0.75,
+        "maximum_upper_to_lower_ink_span_ratio": 0.84
+      }
+    },
+    {
+      "codepoint": "U+3D029",
+      "criterion": "roi_ink_presence",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D029.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The lower-right construction retains a short upper rising crossbar, including its isolated left endpoint, above the longer lower rising stroke.",
+        "regression": "The original trace omitted this entire course. The small left-endpoint region is separated from the old lower stroke even at the heaviest supported weight."
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0.53,
+          0.55
+        ],
+        "roi_height_fractions": [
+          0.81,
+          0.825
+        ],
+        "minimum_ink_fraction": 0.15,
+        "minimum_ink_area_em_squared": 1e-05
+      }
+    },
+    {
+      "codepoint": "U+3D02B",
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D02B.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "The upper of the two right-hand horizontals is approximately 70 percent as long as the lower. The three-diagonal ring and its free-left upper branch remain unchanged.",
+        "regression": "The generated drawing made the two right horizontals nearly equal. Width regions isolate these bars from the left S shape and outer descending enclosure."
+      },
+      "requirements": {
+        "roi_width_fractions": [
+          0.5,
+          0.9
+        ],
+        "upper_roi_height_fractions": [
+          0.225,
+          0.275
+        ],
+        "lower_roi_height_fractions": [
+          0.335,
+          0.375
+        ],
+        "minimum_upper_to_lower_ink_span_ratio": 0.55,
+        "maximum_upper_to_lower_ink_span_ratio": 0.87
+      }
+    },
+    {
+      "codepoint": "U+3D034",
+      "criterion": "lower_descender_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D034.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Six major lower descenders: three in the left ritual component and three on the right. The left leg of the right inner arch must descend independently from its upper neck. The upper bars and detached short mark are excluded by sampling the lower region.",
+        "regression": "A generated candidate and its first font omitted the left leg of the right inner arch, leaving only five major lower descenders."
+      },
+      "requirements": {
+        "expected_descenders": 6,
+        "sample_height_fractions": [
+          0.72,
+          0.76,
+          0.8
+        ],
+        "minimum_run_span_em": 0.004
+      }
+    },
+    {
+      "codepoint": "U+3D036",
+      "criterion": "roi_horizontal_bar_ratio",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D036.png",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "In the lower altar component the upper horizontal is distinctly shorter than the lower horizontal, approximately 60\u201375 percent of its span.",
+        "regression": "The generated candidate made these two horizontals nearly equal. The gate measures the longest contiguous horizontal ink span in separate lower-glyph bands, excluding disconnected side strokes."
+      },
+      "requirements": {
+        "upper_roi_height_fractions": [
+          0.65,
+          0.71
+        ],
+        "lower_roi_height_fractions": [
+          0.75,
+          0.81
+        ],
+        "minimum_upper_to_lower_ink_span_ratio": 0.55,
+        "maximum_upper_to_lower_ink_span_ratio": 0.82
+      }
+    }
+  ]
+}

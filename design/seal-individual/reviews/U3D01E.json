@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D01E",
-  "verdict": "match",
-  "reviewer": "independent visual structural review by stroke_font_engine",
+  "verdict": "mismatch",
+  "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
   "notes": [
-    "The right component retains the upper independent horizontal, small closed central counter, and lower rounded square divided once horizontally and once vertically into four panels.",
-    "The left central descender attaches to the long second horizontal and its side legs remain separate; all four references share the essential component inventory."
+    "Enlarged THX/CCZ/QJZ/DYC upper/lower left-bar ink widths measured55/73,50/58,63/83,57/74 (ratios0.753,0.862,0.759,0.770); native231/364=0.635, traced ink ratio approximately0.581 at nominal43. All four positively support the targeted upper-bar extension.",
+    "Lengthen only the upper left dash to169 centerline units around its unchanged midpoint336.9715; all other native-derived courses, enclosure shapes, counters, connections and spacing stay unchanged. Native PNG is preserved and remains mismatched in this proportion."
   ],
   "source_png": "design/seal-individual/U3D01E.png",
   "source_png_sha256": "ebcaa2ceda7a2603f0423693cfceb3b59a09dbd2c170cbd4073d39f393a9aeed",
@@ -22,5 +22,13 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
-  ]
+  ],
+  "superseded_review": {
+    "verdict": "match",
+    "reviewer": "independent visual structural review by stroke_font_engine",
+    "notes": [
+      "The right component retains the upper independent horizontal, small closed central counter, and lower rounded square divided once horizontally and once vertically into four panels.",
+      "The left central descender attaches to the long second horizontal and its side legs remain separate; all four references share the essential component inventory."
+    ]
+  }
 }

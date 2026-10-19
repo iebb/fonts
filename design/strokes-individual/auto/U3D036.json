@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -54,11 +54,13 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D036",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "verdict": "mismatch",
+      "reviewer": "independent enlarged structural/proportion recheck by consensus_d",
       "notes": [
-        "The upper-left trident, its small roof-like pair of descending branches, and lower vessel with paired supports are retained, together with three rightward diagonal strokes.",
-        "The two horizontal base bars and three lower descenders agree with the attested construction; the drawing follows the roof-bearing THX/CCZ/DYC-type form rather than inventing a new component."
+        "All four available specimens THX, CCZ, QJZ and DYC show the detached horizontal immediately above the bottom three-legged altar bar distinctly shorter than the bottom bar.",
+        "The unchanged native PNG and initial automatic geometry instead make that upper bar equal/slightly longer; the earlier matching verdict overlooked this relative-length error.",
+        "Other native courses and component inventory are retained. A separate manual geometry correction shortens only this bar, with actual-font proof and a matching geometry hash.",
+        "Verdict mismatch applies to this original native PNG hash; it does not reject the corrected manual vector geometry."
       ],
       "source_png": "design/seal-individual/U3D036.png",
       "source_png_sha256": "363e54e2e327a36a1d58b927b5f9e788918123a5d3f5c512415c7a6843646a3c",
@@ -76,8 +78,39 @@
         "Does not verify historical writing order, exact metrics, or final font stroke width.",
         "Verdict applies only to the source PNG hash recorded here."
       ],
+      "history": [
+        {
+          "superseded_review": {
+            "schema_version": 1,
+            "codepoint": "U+3D036",
+            "verdict": "match",
+            "reviewer": "independent visual structural review by stroke_font_engine",
+            "notes": [
+              "The upper-left trident, its small roof-like pair of descending branches, and lower vessel with paired supports are retained, together with three rightward diagonal strokes.",
+              "The two horizontal base bars and three lower descenders agree with the attested construction; the drawing follows the roof-bearing THX/CCZ/DYC-type form rather than inventing a new component."
+            ],
+            "source_png": "design/seal-individual/U3D036.png",
+            "source_png_sha256": "363e54e2e327a36a1d58b927b5f9e788918123a5d3f5c512415c7a6843646a3c",
+            "reference_overview": "reference/seal/individual/U3D036.png",
+            "reference_png_sha256": "256ca566667a8e0c5b8a2204b409af1a7ac1dded6a29ec1b03729c0481e3a886",
+            "reviewed_specimens": [
+              "THX",
+              "CCZ",
+              "QJZ",
+              "DYC"
+            ],
+            "unavailable_specimens": [],
+            "limitations": [
+              "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+              "Does not verify historical writing order, exact metrics, or final font stroke width.",
+              "Verdict applies only to the source PNG hash recorded here."
+            ]
+          },
+          "reason": "Fresh enlarged recheck found a reversed relative bar-length relationship overlooked by the initial inventory-only review."
+        }
+      ],
       "review_file": "design/seal-individual/reviews/U3D036.json",
-      "review_sha256": "3d334c60babab4daf465818f10de2c9cff3979dcd84210d5574e28297dc2c8bf"
+      "review_sha256": "48cc6cdab48f6ad89ee4c1b73bfe51393aa02203174685ce932c3d2aae92d6c1"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

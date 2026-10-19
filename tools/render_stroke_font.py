@@ -49,8 +49,9 @@ def render(font_path: Path, output: Path, sample_codepoint: int = 0x3D001) -> di
                   fill="#101010", font=specimen, anchor="ls")
         draw.text((left + cell/2, top + cell - 14), f"U+{codepoint:05X}",
                   fill="#666666", font=label, anchor="ms")
-    note = (f"Geometry review: {manual_count} manual, {len(codepoints)-manual_count} automatic. "
-            "Character identity and historical stroke order remain unverified.")
+    note = (f"Prototype: {manual_count} manual corrections, "
+            f"{len(codepoints)-manual_count} automatic traces. "
+            "Proportionally normalized; historical writing order is not encoded.")
     draw.text((margin, header + rows*cell + 30), note, fill="#666666", font=label)
     preview = output / "preview-64.png"
     image.save(preview, dpi=(200, 200))

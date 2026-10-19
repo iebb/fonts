@@ -13,11 +13,23 @@
   "construction": "Same editable centerlines; only the common pen radius changes.",
   "outline_offsets_used": false,
   "centerline_geometry_changes_with_weight": false,
+  "weight_remapping": {
+    "previous_300_is_now": 400,
+    "previous_400_is_now": 600
+  },
+  "normalization": {
+    "preserve_aspect_ratio": true,
+    "pen_width_scaled": false,
+    "target_centerline_extent": 738.0,
+    "regular_ink_extent": 768.0,
+    "same_transform_at_every_weight": true
+  },
   "widths_font_units": {
-    "300": 30.0,
-    "400": 43.0,
-    "500": 50.333333333333336,
-    "700": 65.0
+    "300": 23.5,
+    "400": 30.0,
+    "500": 36.5,
+    "600": 43.0,
+    "700": 49.5
   },
   "limitations": [
     "Dense counters and spacing need optical review.",
@@ -26,321 +38,1793 @@
   "sources": [
     {
       "codepoint": "U+3D000",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.253222207505069,
+          0,
+          0,
+          1.253222207505069,
+          -127.59949871111701,
+          -83.08137793310038
+        ],
+        "original_centerline_bounds_font_units": [
+          215.923,
+          321.636,
+          804.805,
+          321.636
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D000.json",
       "sha256": "b782387dc7d9debdbe3d3d2e560522d9c28bba5abf32ca9da422bf4d1ae47533"
     },
     {
       "codepoint": "U+3D001",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1441860465116278,
+          0,
+          0,
+          1.1441860465116278,
+          -73.25116279069766,
+          -8.953488372092977
+        ],
+        "original_centerline_bounds_font_units": [
+          275.0,
+          -35.0,
+          748.0,
+          610.0
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/U3D001.json",
       "sha256": "db4a8b6318d0d62eab864d5f01c503992aca18085c61b516765e46be0e42ee11"
     },
     {
       "codepoint": "U+3D002",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2890289315382413,
+          0,
+          0,
+          1.2890289315382413,
+          -145.87396161558297,
+          -67.1869091950731
+        ],
+        "original_centerline_bounds_font_units": [
+          291.169,
+          14.109000000000037,
+          729.559,
+          586.633
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D002.json",
       "sha256": "80c392a2df6cfc2a910868c9c9ef2fae02dfd875e40bf881a7fb650bfdf28345"
     },
     {
       "codepoint": "U+3D003",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2964381328480181,
+          0,
+          0,
+          1.2964381328480181,
+          -147.535026666573,
+          -67.29144561635269
+        ],
+        "original_centerline_bounds_font_units": [
+          278.083,
+          14.109000000000037,
+          739.374,
+          583.361
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D003.json",
       "sha256": "9776089653bee4ecfe397013015d3e2d035517313da5fa1cc7e95cddf53f9d75"
     },
     {
       "codepoint": "U+3D004",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1935451525570653,
+          0,
+          0,
+          1.1935451525570653,
+          -99.09511810921742,
+          -7.267693740842162
+        ],
+        "original_centerline_bounds_font_units": [
+          219.195,
+          -34.96500000000003,
+          804.805,
+          583.361
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D004.json",
       "sha256": "c6dbf095168dee26f34360247403b309368aee80793779f7b5181457ad7c7c60"
     },
     {
       "codepoint": "U+3D005",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0492105330501318,
+          0,
+          0,
+          1.0492105330501318,
+          -32.06077743941455,
+          -15.747370576042158
+        ],
+        "original_centerline_bounds_font_units": [
+          248.639,
+          -31.692999999999984,
+          788.447,
+          671.693
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D005.json",
       "sha256": "7cd0e2e181da36a3212c6df8ee6ccb2b4e201337f625037d0c502ec3c9d11f10"
     },
     {
       "codepoint": "U+3D006",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.427722975312774,
+          0,
+          0,
+          1.427722975312774,
+          -216.65912243401624,
+          -134.23711397794966
+        ],
+        "original_centerline_bounds_font_units": [
+          251.911,
+          79.12187500000005,
+          768.818,
+          557.188
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D006.json",
       "sha256": "bd20cf03602c36a92e9ba78596239454aafa344dcd6c960cb1e2954e369ca231"
     },
     {
       "codepoint": "U+3D007",
-      "centerline_file": "design/strokes-individual/auto/U3D007.json",
-      "sha256": "62e740a67d5de07ef02b73171708972dcdc09d85bc6c37e36271f3359b290c34"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1903225806451614,
+          0,
+          0,
+          1.1903225806451614,
+          -99.39252903225804,
+          -51.16757741935493
+        ],
+        "original_centerline_bounds_font_units": [
+          235.553,
+          1.8210000000000264,
+          791.719,
+          621.821
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D007.json",
+      "sha256": "2ac3a5281dd6fa1bbacd3c0f1f948a2c12b7c5ee89eb0472ac0642db90b37736"
     },
     {
       "codepoint": "U+3D008",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2326790224087014,
+          0,
+          0,
+          1.2326790224087014,
+          -119.13165947325513,
+          -66.39186832716439
+        ],
+        "original_centerline_bounds_font_units": [
+          278.083,
+          14.109000000000037,
+          745.917,
+          612.8050000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D008.json",
       "sha256": "f6574c1286cc58e5b28dffe800391908b1c6fa4d8373017795f0f6dd2d8e3e98"
     },
     {
       "codepoint": "U+3D009",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0741904635757733,
+          0,
+          0,
+          1.0741904635757733,
+          -36.22814175238591,
+          -21.984109841069312
+        ],
+        "original_centerline_bounds_font_units": [
+          245.367,
+          -25.149999999999977,
+          775.361,
+          661.879
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D009.json",
       "sha256": "622b000ede0545c406a0ebfc124f9a21369f0d5041b45a621349c4a60c869468"
     },
     {
       "codepoint": "U+3D00A",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1222883733661808,
+          0,
+          0,
+          1.1222883733661808,
+          -60.776144528844156,
+          -31.78858550605628
+        ],
+        "original_centerline_bounds_font_units": [
+          248.639,
+          -15.336000000000013,
+          772.09,
+          642.249
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D00A.json",
       "sha256": "94b288e749fdbc84e8c9cc7527f3460f85d98d50021178227e8bf22cb1d3a036"
     },
     {
       "codepoint": "U+3D00B",
-      "centerline_file": "design/strokes-individual/auto/U3D00B.json",
-      "sha256": "7d6db092889e9afc35b487b9ec0629d689f0874a895fd64f4b3a5f77ebba34a8"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1279005613521358,
+          0,
+          0,
+          1.1279005613521358,
+          -65.48508741229352,
+          -13.253447509066802
+        ],
+        "original_centerline_bounds_font_units": [
+          294.441,
+          -31.692999999999984,
+          729.559,
+          622.62
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D00B.json",
+      "sha256": "dd50be0b5406a175099f7c71a6955146cb0b04d64243056322c85290499aca68"
     },
     {
       "codepoint": "U+3D00C",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0300369235863085,
+          0,
+          0,
+          1.0300369235863085,
+          -8.638858266702982,
+          10.604116620245293
+        ],
+        "original_centerline_bounds_font_units": [
+          268.268,
+          -57.865999999999985,
+          742.645,
+          658.6131699218749
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D00C.json",
       "sha256": "69b0f2dfb8e983040ea8f60d4392d217b05e6bbedc1db7cbf72046f2db5f3796"
     },
     {
       "codepoint": "U+3D00D",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.054112538654364,
+          0,
+          0,
+          1.054112538654364,
+          -25.981091677795803,
+          -1.796840519057639
+        ],
+        "original_centerline_bounds_font_units": [
+          238.824,
+          -44.77999999999997,
+          781.904,
+          655.335
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D00D.json",
       "sha256": "ae8f3cbf3f923f903f2669a19256f6d907d00b1fac2f72e7d1043452b8146791"
     },
     {
       "codepoint": "U+3D00E",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0395405737756875,
+          0,
+          0,
+          1.0395405737756875,
+          -15.14322840734792,
+          -9.252126621112836
+        ],
+        "original_centerline_bounds_font_units": [
+          255.182,
+          -38.23599999999999,
+          759.003,
+          671.693
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D00E.json",
       "sha256": "02c72bcab7c8fd646471987a11d7b650321d48c522a0f00c4b9a999ce5696024"
     },
     {
       "codepoint": "U+3D00F",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.464805952907878,
+          0,
+          0,
+          1.464805952907878,
+          -235.5849577528528,
+          -108.00384858908228
+        ],
+        "original_centerline_bounds_font_units": [
+          258.454,
+          63.182000000000016,
+          762.275,
+          521.201
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D00F.json",
       "sha256": "e474e55729a20dc3add8b00e4cd20996f30868f449bcfd71ca590ec10f4dda61"
     },
     {
       "codepoint": "U+3D010",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1057852948536033,
+          0,
+          0,
+          1.1057852948536033,
+          -52.35355911531178,
+          -33.851294353153094
+        ],
+        "original_centerline_bounds_font_units": [
+          176.665,
+          63.182000000000016,
+          844.064,
+          576.818
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D010.json",
       "sha256": "c4fec9094e3e6a8e19c244b31db9867343dc3a851559aef8c9f9a1e357bb8d74"
     },
     {
       "codepoint": "U+3D011",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.162783369361761,
+          0,
+          0,
+          1.162783369361761,
+          -81.44335291263053,
+          -23.559462661734017
+        ],
+        "original_centerline_bounds_font_units": [
+          248.639,
+          -21.87900000000002,
+          772.09,
+          612.8050000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D011.json",
       "sha256": "bf1816a3b1e4afdd9b393f596d51eb8a645e6563b061e384969acf657ce76899"
     },
     {
       "codepoint": "U+3D012",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.3507775207192434,
+          0,
+          0,
+          1.3507775207192434,
+          -175.17834656045932,
+          -90.15278794623248
+        ],
+        "original_centerline_bounds_font_units": [
+          297.712,
+          30.466000000000008,
+          719.744,
+          576.818
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D012.json",
       "sha256": "0f006fd80250f2eabe932eecadcd8cd2a7ad96fbd0f0a6df9bc1ad03fb3f0b22"
     },
     {
       "codepoint": "U+3D013",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2322446708514445,
+          0,
+          0,
+          1.2322446708514445,
+          -118.90927147593959,
+          -54.29125861663607
+        ],
+        "original_centerline_bounds_font_units": [
+          291.169,
+          4.293999999999983,
+          732.831,
+          603.201033203125
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D013.json",
       "sha256": "47eaaf76314c61ae1f00f809e45abc1df2e99fd143abbbda177e3affe031f3e2"
     },
     {
       "codepoint": "U+3D014",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.3988134725828767,
+          0,
+          0,
+          1.3988134725828767,
+          -215.63339335468834,
+          -58.36925263936007
+        ],
+        "original_centerline_bounds_font_units": [
+          274.812,
+          6.697999999999979,
+          765.546,
+          534.288
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D014.json",
       "sha256": "06d6f7a535f1bee0987eabb52037fb28076d366dd6364fcf13269568aa4a9ec9"
     },
     {
       "codepoint": "U+3D015",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0691003911342893,
+          0,
+          0,
+          1.0691003911342893,
+          -40.626010430247675,
+          9.366466753585428
+        ],
+        "original_centerline_bounds_font_units": [
+          189.751,
+          -54.59400000000005,
+          844.064,
+          635.706
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D015.json",
       "sha256": "c1e008e798d4a61e31e51d876fdb0b35b87a00f0dfee7d90de0e4d4485a52994"
     },
     {
       "codepoint": "U+3D016",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1688089551671492,
+          0,
+          0,
+          1.1688089551671492,
+          -103.84791534811075,
+          -42.547005758522175
+        ],
+        "original_centerline_bounds_font_units": [
+          320.43161328124995,
+          -5.520999999999958,
+          733.372625,
+          625.891
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D016.json",
       "sha256": "4071861259b4a9695288218ac782262487b6e755098596e67c4df466f407d46d"
     },
     {
       "codepoint": "U+3D017",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1045051988820251,
+          0,
+          0,
+          1.1045051988820251,
+          -58.92702109111042,
+          -13.140581960496718
+        ],
+        "original_centerline_bounds_font_units": [
+          248.639,
+          -32.466499999999996,
+          785.176,
+          635.706
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D017.json",
       "sha256": "0d2adbbfaa5172d00ea99355cadcc1bab6578eabea33d0d01ada0af0cae2d48f"
     },
     {
       "codepoint": "U+3D018",
-      "centerline_file": "design/strokes-individual/auto/U3D018.json",
-      "sha256": "9b3cceee91fa712aa8d6ef9c1774d9d5d3950aedaf31bd7040aa85c3ecdd6cef"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1167334487392109,
+          0,
+          0,
+          1.1167334487392109,
+          -70.72770618712696,
+          -9.953414964833428
+        ],
+        "original_centerline_bounds_font_units": [
+          225.738,
+          -34.96500000000003,
+          817.891,
+          625.891
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D018.json",
+      "sha256": "5335806cff4aefb35c2c3248a46646403420e5e6d403833ff56ad84108deed1e"
     },
     {
       "codepoint": "U+3D019",
-      "centerline_file": "design/strokes-individual/auto/U3D019.json",
-      "sha256": "2a430eee09e59ee9dc7c15134737c04010340a4f6f754dd502597719181fdf12"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.105783637998202,
+          0,
+          0,
+          1.105783637998202,
+          -69.75719508540612,
+          -32.04170212765956
+        ],
+        "original_centerline_bounds_font_units": [
+          294.441,
+          -15.336000000000013,
+          757.767,
+          652.064
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D019.json",
+      "sha256": "a59206865ce5e6a2f8bac28dbfa5b16555fffa9a8f62be1fe900d3ba5c487f0a"
     },
     {
       "codepoint": "U+3D01A",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2127964819041892,
+          0,
+          0,
+          1.2127964819041892,
+          -97.04820126505524,
+          -46.27242071219746
+        ],
+        "original_centerline_bounds_font_units": [
+          268.268,
+          -2.2490000000000236,
+          736.102,
+          606.262
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D01A.json",
       "sha256": "0f242ada393617cad382fc2795b0fcaa3f6e251856e35a876b16c9401c633d5b"
     },
     {
       "codepoint": "U+3D01B",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.054112538654364,
+          0,
+          0,
+          1.054112538654364,
+          -48.39679481228086,
+          -8.694952972011777
+        ],
+        "original_centerline_bounds_font_units": [
+          297.712,
+          -38.23599999999999,
+          765.546,
+          661.879
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D01B.json",
       "sha256": "2871852dcf3327d20fb951bc566ff024bd312827222ed9951aaa52df969d683d"
     },
     {
       "codepoint": "U+3D01C",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1450754772311518,
+          0,
+          0,
+          1.1450754772311518,
+          -63.040301071064505,
+          -35.18580944268342
+        ],
+        "original_centerline_bounds_font_units": [
+          235.553,
+          -12.063999999999965,
+          768.818,
+          632.435
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D01C.json",
       "sha256": "a47279523bb0b67af272f335a0818ac0620d7b1ccb55f94ffad7085833661cd7"
     },
     {
       "codepoint": "U+3D01D",
-      "centerline_file": "design/strokes-individual/auto/U3D01D.json",
-      "sha256": "564b9e42c8efac62d4432582d068309567ec16a63d28928feda2f89384084d03"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2462995205630976,
+          0,
+          0,
+          1.2462995205630976,
+          -124.06640851266468,
+          -74.73857769866913
+        ],
+        "original_centerline_bounds_font_units": [
+          222.466,
+          20.652000000000044,
+          798.262,
+          612.8050000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D01D.json",
+      "sha256": "1e030e3cb0721bcad9e05733c69a6ac7c8672b70d1075d6c87f66fe77d85f725"
     },
     {
       "codepoint": "U+3D01E",
-      "centerline_file": "design/strokes-individual/auto/U3D01E.json",
-      "sha256": "7b96eef068bdd6007e54618bdda84c11a79772cf4aec648916545e2264fce552"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.3425837596938799,
+          0,
+          0,
+          1.3425837596938799,
+          -160.07217274577715,
+          -96.45001479252596
+        ],
+        "original_centerline_bounds_font_units": [
+          225.738,
+          50.096000000000004,
+          775.424375,
+          570.275
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D01E.json",
+      "sha256": "f037f99f6114ffc3b9460fdfff7e7cfc1913c07ca4cea145e60c5a956ae0b175"
     },
     {
       "codepoint": "U+3D01F",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2733443773240314,
+          0,
+          0,
+          1.2733443773240314,
+          -146.37484142505866,
+          -96.1264754047624
+        ],
+        "original_centerline_bounds_font_units": [
+          268.268,
+          37.00999999999999,
+          765.819640625,
+          616.586125
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D01F.json",
       "sha256": "518b092269b01d1d9177d1e7de6bfb8da486ac9333638389f44ccfe976de9504"
     },
     {
       "codepoint": "U+3D020",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0845190055342797,
+          0,
+          0,
+          1.0845190055342797,
+          -50.36973868676205,
+          -3.9837851182830377
+        ],
+        "original_centerline_bounds_font_units": [
+          209.38,
+          -41.50800000000004,
+          827.706,
+          638.9780000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D020.json",
       "sha256": "10b21704d79179474d5b0ca6a3c14516b9e72a9d7f7782cc67a8cadd90cfd016"
     },
     {
       "codepoint": "U+3D021",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1057852948536033,
+          0,
+          0,
+          1.1057852948536033,
+          -61.397224149272006,
+          -28.424653018659058
+        ],
+        "original_centerline_bounds_font_units": [
+          238.824,
+          -18.60699999999997,
+          798.262,
+          648.792
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D021.json",
       "sha256": "61dc6562fb8dde66c1a47e501ca2019dbcfed05e9a154024587b51370a8bb605"
     },
     {
       "codepoint": "U+3D022",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0741904635757733,
+          0,
+          0,
+          1.0741904635757733,
+          -34.471303249207836,
+          -11.440930441073021
+        ],
+        "original_centerline_bounds_font_units": [
+          206.109,
+          -34.96500000000003,
+          811.348,
+          652.064
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D022.json",
       "sha256": "2cfca503e01241edd0c62c788d40da372e8cb978765f0f55c722bed04def7b72"
     },
     {
       "codepoint": "U+3D023",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1884057971014492,
+          0,
+          0,
+          1.1884057971014492,
+          -99.43478260869563,
+          -38.30434782608694
+        ],
+        "original_centerline_bounds_font_units": [
+          229.0,
+          -9.0,
+          800.0,
+          612.0
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/U3D023.json",
       "sha256": "8a75c5529485e7b8762e14db7a09cd64dcf20bab0010c773abb197bbd8965a87"
     },
     {
       "codepoint": "U+3D024",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1810456574967594,
+          0,
+          0,
+          1.1810456574967594,
+          -98.73029850208854,
+          -30.88748379662968
+        ],
+        "original_centerline_bounds_font_units": [
+          278.083,
+          -15.336000000000013,
+          756.1366250000001,
+          609.534
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D024.json",
       "sha256": "c974f5d980771ab6142848654453c0b2dae488944353a4a314d691e9c04be1bf"
     },
     {
       "codepoint": "U+3D025",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1392932676721674,
+          0,
+          0,
+          1.1392932676721674,
+          -63.97583517297801,
+          -38.98333359062627
+        ],
+        "original_centerline_bounds_font_units": [
+          212.652,
+          -8.79200000000003,
+          798.45875,
+          638.9780000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D025.json",
       "sha256": "fb43c4d115ae9e32075a3f9591f59c7873957f9cdc327bd9bb2ec2ce4dfc9a61"
     },
     {
       "codepoint": "U+3D026",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1388690344735743,
+          0,
+          0,
+          1.1388690344735743,
+          -82.27837578931087,
+          -35.26068396811081
+        ],
+        "original_centerline_bounds_font_units": [
+          215.923,
+          -12.063999999999965,
+          827.706,
+          635.947296875
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D026.json",
       "sha256": "259c7337dfb7f8f168a51028f7cc24b15ede146775bab75a2ff9d81cc3fcedd9"
     },
     {
       "codepoint": "U+3D027",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1278988375611707,
+          0,
+          0,
+          1.1278988375611707,
+          -89.58877761670988,
+          -31.702543427161856
+        ],
+        "original_centerline_bounds_font_units": [
+          251.911,
+          -15.336000000000013,
+          814.8314375,
+          638.9780000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D027.json",
       "sha256": "67dd730505963ad1305eddb4736651e23a590ee0c1f6898282aa353dd0f470ee"
     },
     {
       "codepoint": "U+3D028",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0739783104890734,
+          0,
+          0,
+          1.0739783104890734,
+          -35.09973428575552,
+          -18.475388459279543
+        ],
+        "original_centerline_bounds_font_units": [
+          260.01923828124995,
+          -28.422000000000025,
+          758.8090358886718,
+          658.7427153320313
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D028.json",
       "sha256": "28bf6b4816b50f1745161b107c87258c28a6e079fadd65ea8126c92090d62c72"
     },
     {
       "codepoint": "U+3D029",
-      "centerline_file": "design/strokes-individual/auto/U3D029.json",
-      "sha256": "d78eb33f5e30ba9e97444b17eb38dd9d5d6d3be023193a1f614abae5327be5a3"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.9513306226493368,
+          0,
+          0,
+          0.9513306226493368,
+          16.49969060318068,
+          24.72336660221032
+        ],
+        "original_centerline_bounds_font_units": [
+          223.8084840698242,
+          -77.495,
+          817.891,
+          698.2605390625
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D029.json",
+      "sha256": "b9d38863c66574698753f266bf31b12ff150bd2311e366cb834184399cb3da90"
     },
     {
       "codepoint": "U+3D02A",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.9978252429251948,
+          0,
+          0,
+          0.9978252429251948,
+          -2.150909659929539,
+          12.004041876717565
+        ],
+        "original_centerline_bounds_font_units": [
+          222.466,
+          -61.136999999999944,
+          808.077,
+          678.47146875
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D02A.json",
       "sha256": "4ddd542f3db22b55b1318789708c4377b204d989630da9abd970d2c9bd64b76f"
     },
     {
       "codepoint": "U+3D02B",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.8743413857647507,
+          0,
+          0,
+          0.8743413857647507,
+          64.33721048844762,
+          33.05956207817911
+        ],
+        "original_centerline_bounds_font_units": [
+          206.109,
+          -93.85299999999995,
+          817.891,
+          750.2109
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/U3D02B.json",
-      "sha256": "17155d9468dbdda5b53738c1257bcea175ecd3c77a4402eb47d21127ab8660e7"
+      "sha256": "bc1fd29d93e50047980a8031793d8808a2e84c4cc5e50fed2a7311bbb872849f"
     },
     {
       "codepoint": "U+3D02C",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.9893862185739164,
+          0,
+          0,
+          0.9893862185739164,
+          7.052891943741713,
+          5.0145512168244295
+        ],
+        "original_centerline_bounds_font_units": [
+          186.479,
+          -54.59400000000005,
+          834.249,
+          691.323
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D02C.json",
       "sha256": "c28a6e4f739c5b3434c505fdd8453caaa5fd63715914efce11b8831103f7400d"
     },
     {
       "codepoint": "U+3D02D",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.2537340341488565,
+          0,
+          0,
+          1.2537340341488565,
+          -123.88227324739341,
+          -95.40069660384916
+        ],
+        "original_centerline_bounds_font_units": [
+          261.725,
+          37.00999999999999,
+          752.6564492187499,
+          625.6515937500001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D02D.json",
       "sha256": "8f7edf0050f48b271d522ff535a35d3109e184dfb465fb6d407b00d4af36b8ef"
     },
     {
       "codepoint": "U+3D02E",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1384300526058713,
+          0,
+          0,
+          1.1384300526058713,
+          -80.18740633446964,
+          -50.16347551376322
+        ],
+        "original_centerline_bounds_font_units": [
+          274.812,
+          1.0220000000000482,
+          765.546,
+          649.283171875
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D02E.json",
       "sha256": "a2ff6673cefa07155f23a67fe32750b4a52abfed3b0b2c65f9d60d55bd08dc55"
     },
     {
       "codepoint": "U+3D02F",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.073597333899954,
+          0,
+          0,
+          1.073597333899954,
+          -20.11992976884096,
+          -18.48621657589547
+        ],
+        "original_centerline_bounds_font_units": [
+          215.923,
+          -28.422000000000025,
+          775.361,
+          658.9865625
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/U3D02F.json",
       "sha256": "038317510d26a45723c0cd080f51d0c689834f4dd3caceec848f40927e1e86c1"
     },
     {
       "codepoint": "U+3D030",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0741904635757733,
+          0,
+          0,
+          1.0741904635757733,
+          -74.47857351124833,
+          -25.49778684742563
+        ],
+        "original_centerline_bounds_font_units": [
+          306.769224609375,
+          -21.87900000000002,
+          785.176,
+          665.15
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D030.json",
       "sha256": "9f430321833b73fe229c0b53051200450b4bd64d040e88926ca2ddeea33e3d97"
     },
     {
       "codepoint": "U+3D031",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.9132793038287192,
+          0,
+          0,
+          0.9132793038287192,
+          37.33312077237076,
+          39.702252384364385
+        ],
+        "original_centerline_bounds_font_units": [
+          232.281,
+          -97.125,
+          807.197015625,
+          710.952
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D031.json",
       "sha256": "a9f21b44f75789fa44b615a807066b4270b6ec3aab0af3d25343082dad38d566"
     },
     {
       "codepoint": "U+3D032",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0193370165745856,
+          0,
+          0,
+          1.0193370165745856,
+          -3.7845303867403572,
+          14.198895027624303
+        ],
+        "original_centerline_bounds_font_units": [
+          147.0,
+          -62.0,
+          865.0,
+          662.0
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/U3D032.json",
       "sha256": "167c6092fc28ee19ec2a9d67a6fa2bc746fe34ad87a19a9ae0418b3ba218f5fd"
     },
     {
       "codepoint": "U+3D033",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.034241921167432,
+          0,
+          0,
+          1.034241921167432,
+          -14.147824071665354,
+          -16.221770792440623
+        ],
+        "original_centerline_bounds_font_units": [
+          222.466,
+          -31.692999999999984,
+          794.99,
+          681.8731250000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D033.json",
       "sha256": "53d34f3e7fae1f3e48fe0b8b258bdfbe3adf06a83b9bd1131b36baa0f9628f18"
     },
     {
       "codepoint": "U+3D034",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.9438498843847838,
+          0,
+          0,
+          0.9438498843847838,
+          16.229059169987693,
+          8.704150381632473
+        ],
+        "original_centerline_bounds_font_units": [
+          219.195,
+          -61.136999999999944,
+          831.33421875,
+          720.767
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/U3D034.json",
       "sha256": "f37545a9ae1a1c83de305611590fb59aed6a9dce10db5ba5b658ac2980d59c71"
     },
     {
       "codepoint": "U+3D035",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1688071040665935,
+          0,
+          0,
+          1.1688071040665935,
+          -124.66793049873854,
+          -31.075174252034685
+        ],
+        "original_centerline_bounds_font_units": [
+          242.096,
+          -15.336000000000013,
+          847.336,
+          616.077
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D035.json",
       "sha256": "4657b4eb11b4df418ece9fe5d48c9876cbf0d8967f44b96794a5e471b5507020"
     },
     {
       "codepoint": "U+3D036",
-      "centerline_file": "design/strokes-individual/auto/U3D036.json",
-      "sha256": "a1737abbcda945bda5887b078c480f2b2b95f1735a16666e71b641bae302b104"
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          0.9132793038287192,
+          0,
+          0,
+          0.9132793038287192,
+          21.99186216165043,
+          30.73841601728543
+        ],
+        "original_centerline_bounds_font_units": [
+          271.54,
+          -87.30999999999995,
+          801.534,
+          720.767
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
+      "centerline_file": "design/strokes-individual/U3D036.json",
+      "sha256": "bbb6c6191452dcfd33dfd3d88199cbea2e6763889802d7cec9c590479180606e"
     },
     {
       "codepoint": "U+3D037",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1167334487392109,
+          0,
+          0,
+          1.1167334487392109,
+          -76.20807558681463,
+          -13.607366809108157
+        ],
+        "original_centerline_bounds_font_units": [
+          219.195,
+          -31.692999999999984,
+          834.249,
+          629.163
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D037.json",
       "sha256": "7ec9a7b4f92855e8a068c3255aa02039f07dfd178f15e410fc923ca9f804dc91"
     },
     {
       "codepoint": "U+3D038",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0586045609692418,
+          0,
+          0,
+          1.0586045609692418,
+          -26.542310395040886,
+          -4.740619962778112
+        ],
+        "original_centerline_bounds_font_units": [
+          166.85,
+          -41.80917187499995,
+          850.607,
+          655.335
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D038.json",
       "sha256": "a438f4c5a3bcc8fd0d2c161445e4b45f30731f9c8604d05c46b48332c8f15163"
     },
     {
       "codepoint": "U+3D039",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0741904635757733,
+          0,
+          0,
+          1.0741904635757733,
+          -43.25656995556221,
+          -29.012538044245616
+        ],
+        "original_centerline_bounds_font_units": [
+          215.923,
+          -18.60699999999997,
+          817.891,
+          668.422
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D039.json",
       "sha256": "02aa39e85d0a74fd376d9985dee24119e7428a5f575a4259b9eedcfb334b0527"
     },
     {
       "codepoint": "U+3D03A",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0793308148947651,
+          0,
+          0,
+          1.0793308148947651,
+          -61.80410145709652,
+          -30.682137075013486
+        ],
+        "original_centerline_bounds_font_units": [
+          189.751,
+          -5.520999999999958,
+          873.508,
+          655.335
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D03A.json",
       "sha256": "135cefc61101d016676fa7758fb39af8d383807ee1b4084fd0bc84f48930b5ec"
     },
     {
       "codepoint": "U+3D03B",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1872644172993114,
+          0,
+          0,
+          1.1872644172993114,
+          -101.7058817851439,
+          -65.75111366367605
+        ],
+        "original_centerline_bounds_font_units": [
+          206.109,
+          20.652000000000044,
+          827.706,
+          629.163
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D03B.json",
       "sha256": "ee630e646567bfb654dbaac1ddfc1a37d12fb69a27a9875e34723b4a8bf88a93"
     },
     {
       "codepoint": "U+3D03C",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1112315698178663,
+          0,
+          0,
+          1.1112315698178663,
+          -66.34887094489397,
+          -31.958152645273174
+        ],
+        "original_centerline_bounds_font_units": [
+          248.639,
+          -15.336000000000013,
+          792.276119140625,
+          648.792
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D03C.json",
       "sha256": "091d75801ef74a21430e9008815348479f190c65368d7f1f0ba44ae039072440"
     },
     {
       "codepoint": "U+3D03D",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.054112538654364,
+          0,
+          0,
+          1.054112538654364,
+          -31.154148961242072,
+          -22.489069652842772
+        ],
+        "original_centerline_bounds_font_units": [
+          225.738,
+          -25.149999999999977,
+          804.805,
+          674.965
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D03D.json",
       "sha256": "fb69619111edb768573e62587e889f5669c58a9f5c69fc1c08118a3021fd03db"
     },
     {
       "codepoint": "U+3D03E",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.1335674196134813,
+          0,
+          0,
+          1.1335674196134813,
+          -88.78393099062748,
+          -27.907711023251977
+        ],
+        "original_centerline_bounds_font_units": [
+          212.652,
+          -18.60699999999997,
+          847.336,
+          632.435
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D03E.json",
       "sha256": "ad3ecda21a663354fc59de7faec09660f8432357017d12719c22ae6301fcebad"
     },
     {
       "codepoint": "U+3D03F",
+      "normalization": {
+        "preserve_aspect_ratio": true,
+        "pen_width_scaled": false,
+        "target_centerline_extent": 738.0,
+        "matrix_font_units": [
+          1.0294595616287778,
+          0,
+          0,
+          1.0294595616287778,
+          -30.3778877918719,
+          -19.74070033938682
+        ],
+        "original_centerline_bounds_font_units": [
+          235.553,
+          -28.422000000000025,
+          818.160828125,
+          688.4590000000001
+        ],
+        "center_font_units": [
+          512.0,
+          320.0
+        ]
+      },
       "centerline_file": "design/strokes-individual/auto/U3D03F.json",
       "sha256": "6bb1bb7ea3aa0c29beccd0b7c232e967b86cef59e974dc1d7a3705a68695ff22"
     }
@@ -348,38 +1832,43 @@
   "files": [
     {
       "name": "PanoramaGothicSealIndividualVariable.ttf",
-      "bytes": 3605040,
-      "sha256": "53865571f328c2bea37158a6b7e3cc2733746f91849a6924a048c634e469c320"
+      "bytes": 4889940,
+      "sha256": "43d96e52a7a7eae24f0fd228690fc4ca477d301961c62e7837dcc89e030159f2"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable.designspace",
-      "bytes": 1891,
-      "sha256": "82f2a71ab5d6c6d340502e1c78400bb96a9d8af421c027b5afa16c21b048fd83"
+      "bytes": 2366,
+      "sha256": "652fe795cbffd2820d880bd8b89efdec8141bf0be41e7db1d58cd85a259382a2"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Light.ttf",
-      "bytes": 1856892,
-      "sha256": "2a4fa6a4bc2dc755c0581b6cd6ebe83b8adf907ff6ef911f6952783fde7f7cad"
+      "bytes": 1828328,
+      "sha256": "a65b6cf5fea2f12981d251da81ebc95676dd13399bfd248ad2d0c710716db4a2"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Regular.ttf",
-      "bytes": 1857728,
-      "sha256": "028760ca5554a6b270387176768ec7f645fa2a44fd00bc9ce7298fff585a31c1"
+      "bytes": 1858480,
+      "sha256": "1df0982b73611939a0fe16828ceadea40d92e6538fa408320fade90ef4d98a4b"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Medium.ttf",
-      "bytes": 1857788,
-      "sha256": "aca0115afb93dfc0b60c5d428969a6976b959af0df7eb4d98685b8f0d0aba970"
+      "bytes": 1858560,
+      "sha256": "e70e2c0357595bb8d467baf4b94ada52833a1665739229d6a009eb02885e1883"
+    },
+    {
+      "name": "PanoramaGothicSealIndividualVariable-SemiBold.ttf",
+      "bytes": 1859152,
+      "sha256": "a73c19bc3589e911308980806c89c82d3447bb07551c1c5db6f62637e059a584"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable-Bold.ttf",
-      "bytes": 1858284,
-      "sha256": "359fa4ad3b50b8f869b49b12618744a2951929a73ccfedb190e785f825c2dddc"
+      "bytes": 1859140,
+      "sha256": "ccd3bd8e85c872b873607567f7e3390b67d198e1974b6b90661ad97d40200b4e"
     },
     {
       "name": "PanoramaGothicSealIndividualVariable.woff",
-      "bytes": 723512,
-      "sha256": "2d54a5f8379670edd328a84266902a702810cbf1a54c03182408ea7f77fb6a7c"
+      "bytes": 982088,
+      "sha256": "ea9aefd69b14d500c74e88bafa062c91496d5f3a5e771ca17f224d8c3bff2575"
     }
   ]
 }

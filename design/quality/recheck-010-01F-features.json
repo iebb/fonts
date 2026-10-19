@@ -1,0 +1,416 @@
+{
+  "proof_manifest": "design/quality/proofs/recheck-010-01F/proof-manifest.json",
+  "features": {
+    "U+3D018": {
+      "source_file": "design/strokes-individual/U3D018.json",
+      "source_sha256": "5335806cff4aefb35c2c3248a46646403420e5e6d403833ff56ad84108deed1e",
+      "canonical_geometry_sha256": "fe23293322204f751ca170202795b6758406504a2215efb48c1a8350e26ffc19",
+      "native_png": "design/seal-individual/U3D018.png",
+      "native_png_sha256": "dc10f9ce96922f1b59518ea4ed778c636bd232db1edd9a0d116f7887891a5aa2",
+      "raw_centerline_bounds_xy_down": [
+        225.738,
+        206.109,
+        817.891,
+        866.965
+      ],
+      "raw_nominal_ink_bounds_width43": [
+        204.238,
+        184.609,
+        839.391,
+        888.465
+      ],
+      "normalization_matrix_source_xy_down": [
+        1.1167334487392109,
+        0,
+        0,
+        1.1167334487392109,
+        -70.72770618712696,
+        -87.16881438618998
+      ],
+      "rois_raw_source_xy_down": {
+        "upper_hook_right_tip": [
+          700,
+          230,
+          850,
+          355
+        ],
+        "lower_free_horizontal_right_end": [
+          700,
+          385,
+          860,
+          440
+        ]
+      },
+      "rois_normalized_em_fractions": {
+        "upper_hook_right_tip": [
+          0.6943219804007038,
+          0.16570300666389504,
+          0.8579059816808616,
+          0.30202300773069324
+        ],
+        "lower_free_horizontal_right_end": [
+          0.6943219804007038,
+          0.3347398079867248,
+          0.8688115817662054,
+          0.394720608456116
+        ]
+      },
+      "normalized_proof_ink_bounds_xy_down": {
+        "Regular": [
+          166,
+          128,
+          858,
+          896
+        ],
+        "Semibold": [
+          160,
+          121,
+          864,
+          902
+        ]
+      },
+      "known_feature": {
+        "upper_hook_centerline_max_x": 780.1300058593752,
+        "lower_free_end_xy": [
+          817.891,
+          412.217
+        ],
+        "raw_rightward_margin": 37.7609941406248,
+        "normalized_rightward_margin_font_units": 42.16896521448107,
+        "acceptance": "Lower horizontal rightmost ink endpoint must exceed upper-hook rightmost ink endpoint by at least20 normalized font units; same pen width makes order and margin independent of30/43 weight except raster rounding."
+      }
+    },
+    "U+3D019": {
+      "source_file": "design/strokes-individual/U3D019.json",
+      "source_sha256": "a59206865ce5e6a2f8bac28dbfa5b16555fffa9a8f62be1fe900d3ba5c487f0a",
+      "canonical_geometry_sha256": "8ceddecd86e1db285542881a507748fa506615ada1293e0b13a085ac31f75609",
+      "native_png": "design/seal-individual/U3D019.png",
+      "native_png_sha256": "6cbfac7a6d544c82018ee37ab0c60b944a160600128e86d825a5f08bd639faf5",
+      "raw_centerline_bounds_xy_down": [
+        294.441,
+        179.936,
+        757.767,
+        847.336
+      ],
+      "raw_nominal_ink_bounds_width43": [
+        272.941,
+        158.436,
+        779.267,
+        868.836
+      ],
+      "normalization_matrix_source_xy_down": [
+        1.105783637998202,
+        0,
+        0,
+        1.105783637998202,
+        -69.75719508540612,
+        -55.970284686844536
+      ],
+      "rois_raw_source_xy_down": {
+        "upper_left_diagonal": [
+          500,
+          595,
+          607,
+          706
+        ],
+        "upper_right_diagonal": [
+          681,
+          595,
+          785,
+          706
+        ]
+      },
+      "rois_normalized_em_fractions": {
+        "upper_left_diagonal": [
+          0.47181115616571767,
+          0.5878622850801618,
+          0.5873569074018579,
+          0.7077275036522326
+        ],
+        "upper_right_diagonal": [
+          0.6672670531165718,
+          0.5878622850801618,
+          0.7795732038507641,
+          0.7077275036522326
+        ]
+      },
+      "normalized_proof_ink_bounds_xy_down": {
+        "Regular": [
+          241,
+          128,
+          783,
+          896
+        ],
+        "Semibold": [
+          234,
+          121,
+          790,
+          902
+        ]
+      },
+      "known_feature": {
+        "upper_left": {
+          "raw_centerline_endpoints_xy": [
+            [
+              579.398,
+              622.784
+            ],
+            [
+              526.726,
+              678.524
+            ]
+          ],
+          "raw_centerline_length": 76.68955068325803,
+          "normalized_centerline_length": 84.80205035098056,
+          "normalized_endpoints_xy_down": [
+            [
+              570.9316332034762,
+              632.6940725202278
+            ],
+            [
+              512.6877974228348,
+              694.3304525022475
+            ]
+          ],
+          "expected_major_ink_span": {
+            "Regular": 114.80205035098056,
+            "Semibold": 127.80205035098056
+          },
+          "expected_major_span_over_pen_width": {
+            "Regular": 3.8267350116993524,
+            "Semibold": 2.9721407058367575
+          }
+        },
+        "upper_right": {
+          "raw_centerline_endpoints_xy": [
+            [
+              707.337,
+              623.695
+            ],
+            [
+              757.767,
+              678.496
+            ]
+          ],
+          "raw_centerline_length": 74.47371684695212,
+          "normalized_centerline_length": 82.3518175502707,
+          "normalized_endpoints_xy_down": [
+            [
+              712.4044860653281,
+              633.7014414144442
+            ],
+            [
+              768.1691549295775,
+              694.2994905603834
+            ]
+          ],
+          "expected_major_ink_span": {
+            "Regular": 112.3518175502707,
+            "Semibold": 125.3518175502707
+          },
+          "expected_major_span_over_pen_width": {
+            "Regular": 3.745060585009023,
+            "Semibold": 2.915158547680714
+          }
+        }
+      },
+      "acceptance": "Each ROI retains one detached elongated diagonal capsule; major ink span should exceed2.5 times pen width at width43 and3.3 times at width30, with both upper marks present. Native PNG unchanged."
+    },
+    "U+3D01D": {
+      "source_file": "design/strokes-individual/U3D01D.json",
+      "source_sha256": "1e030e3cb0721bcad9e05733c69a6ac7c8672b70d1075d6c87f66fe77d85f725",
+      "canonical_geometry_sha256": "2575b6bdfc78cdac254d86b709531ad9ad8b0e2350351d3749c701e2a20f440d",
+      "native_png": "design/seal-individual/U3D01D.png",
+      "native_png_sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
+      "raw_centerline_bounds_xy_down": [
+        222.466,
+        219.195,
+        798.262,
+        811.348
+      ],
+      "raw_nominal_ink_bounds_width43": [
+        200.966,
+        197.695,
+        819.762,
+        832.848
+      ],
+      "normalization_matrix_source_xy_down": [
+        1.2462995205630976,
+        0,
+        0,
+        1.2462995205630976,
+        -124.06640851266468,
+        -130.182623409828
+      ],
+      "rois_raw_source_xy_down": {
+        "upper_left_dash": [
+          250,
+          248,
+          515,
+          308
+        ],
+        "lower_left_crossbar": [
+          205,
+          359,
+          527,
+          420
+        ]
+      },
+      "rois_normalized_em_fractions": {
+        "upper_left_dash": [
+          0.18311374182432588,
+          0.174706696962715,
+          0.5056424263450494,
+          0.24773205949570903
+        ],
+        "lower_left_crossbar": [
+          0.12834471992458038,
+          0.3098036176487539,
+          0.5202474988516482,
+          0.3840460695572978
+        ]
+      },
+      "normalized_proof_ink_bounds_xy_down": {
+        "Regular": [
+          138,
+          128,
+          886,
+          896
+        ],
+        "Semibold": [
+          132,
+          121,
+          892,
+          902
+        ]
+      },
+      "known_feature": {
+        "upper_centerline_endpoints_xy": [
+          [
+            278.773,
+            278.083
+          ],
+          [
+            486.773,
+            278.083
+          ]
+        ],
+        "lower_centerline_endpoints_xy": [
+          [
+            235.553,
+            389.316
+          ],
+          [
+            500.55,
+            389.316
+          ]
+        ],
+        "upper_centerline_length": 208,
+        "lower_centerline_length": 264.997,
+        "expected_ink_length_ratio": {
+          "Regular": 0.8028251183027183,
+          "Semibold": 0.8096922746338495
+        },
+        "acceptance": "Upper/lower left horizontal ink-length ratio must be between0.77 and0.84 at30/43; center leg remains attached to lower bar and other courses unchanged."
+      }
+    },
+    "U+3D01E": {
+      "source_file": "design/strokes-individual/U3D01E.json",
+      "source_sha256": "f037f99f6114ffc3b9460fdfff7e7cfc1913c07ca4cea145e60c5a956ae0b175",
+      "canonical_geometry_sha256": "10d02d389a67946d63b1eb552606dea8f012a170327747103d2de77dab5837a5",
+      "native_png": "design/seal-individual/U3D01E.png",
+      "native_png_sha256": "ebcaa2ceda7a2603f0423693cfceb3b59a09dbd2c170cbd4073d39f393a9aeed",
+      "raw_centerline_bounds_xy_down": [
+        225.738,
+        261.725,
+        775.424375,
+        781.904
+      ],
+      "raw_nominal_ink_bounds_width43": [
+        204.238,
+        240.22500000000002,
+        796.924375,
+        803.404
+      ],
+      "normalization_matrix_source_xy_down": [
+        1.3425837596938799,
+        0,
+        0,
+        1.3425837596938799,
+        -160.07217274577715,
+        -188.5796732727822
+      ],
+      "rois_raw_source_xy_down": {
+        "upper_left_dash": [
+          225,
+          232,
+          450,
+          292
+        ],
+        "lower_left_crossbar": [
+          217,
+          330,
+          497,
+          390
+        ]
+      },
+      "rois_normalized_em_fractions": {
+        "upper_left_dash": [
+          0.1386808331888143,
+          0.12001929587519328,
+          0.4336821475746766,
+          0.1986863130447566
+        ],
+        "lower_left_crossbar": [
+          0.12819189756620586,
+          0.24850875725214666,
+          0.4953046443575011,
+          0.32717577442170986
+        ]
+      },
+      "normalized_proof_ink_bounds_xy_down": {
+        "Regular": [
+          128,
+          148,
+          896,
+          876
+        ],
+        "Semibold": [
+          121,
+          141,
+          903,
+          883
+        ]
+      },
+      "known_feature": {
+        "upper_centerline_endpoints_xy": [
+          [
+            252.4715,
+            261.725
+          ],
+          [
+            421.4715,
+            261.725
+          ]
+        ],
+        "lower_centerline_endpoints_xy": [
+          [
+            245.367,
+            359.872
+          ],
+          [
+            467.834,
+            359.872
+          ]
+        ],
+        "upper_centerline_length": 169,
+        "lower_centerline_length": 222.467,
+        "expected_ink_length_ratio": {
+          "Regular": 0.781599735516285,
+          "Semibold": 0.7899092608271859
+        },
+        "acceptance": "Upper/lower left horizontal ink-length ratio0.75\u20130.84 across30/43; central descender remains joined to lower crossbar, one middle ring and four lower window counters unchanged."
+      }
+    }
+  }
+}

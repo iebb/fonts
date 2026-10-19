@@ -1,25 +1,31 @@
 {
-  "browser": "Chromium / Playwright",
   "all_64_spans": true,
   "embedded_variable_font_loaded": true,
-  "live_weight_700_verified": true,
+  "default_weight": 400,
   "canvas_actual_font_ink": [
     {
       "weight": 300,
-      "pixels": 3953,
+      "pixels": 4125,
       "advance": 256
     },
     {
       "weight": 400,
-      "pixels": 5761,
+      "pixels": 5272,
+      "advance": 256
+    },
+    {
+      "weight": 600,
+      "pixels": 7601,
       "advance": 256
     },
     {
       "weight": 700,
-      "pixels": 8775,
+      "pixels": 8654,
       "advance": 256
     }
   ],
+  "browser": "Chromium / Playwright",
+  "live_weight_600_verified": true,
   "javascript_errors": [],
-  "font_sha256": "53865571f328c2bea37158a6b7e3cc2733746f91849a6924a048c634e469c320"
+  "font_sha256": "43d96e52a7a7eae24f0fd228690fc4ca477d301961c62e7837dcc89e030159f2"
 }

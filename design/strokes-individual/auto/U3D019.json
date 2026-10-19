@@ -139,10 +139,10 @@
       "schema_version": 1,
       "codepoint": "U+3D019",
       "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
       "notes": [
-        "The right component retains its small open upper box, crossing bar, bending central shaft, first leftward branch, and two paired sets of short lower diagonal ticks.",
-        "This is a coherent THX-type arrangement after comparison with the more enclosed QJZ/DYC alternatives. The left central stem remains attached to its bar."
+        "The native drawing retains four elongated detached diagonal marks and matches the shared chart structure; no PNG change is required.",
+        "The prior automatic vector trace shortened the upper pair into dot-like segments. Corrected vectors restore those two courses from read-only native alpha PCA and uniform-width cap compensation, preserving every other traced path."
       ],
       "source_png": "design/seal-individual/U3D019.png",
       "source_png_sha256": "6cbfac7a6d544c82018ee37ab0c60b944a160600128e86d825a5f08bd639faf5",
@@ -160,8 +160,17 @@
         "Does not verify historical writing order, exact metrics, or final font stroke width.",
         "Verdict applies only to the source PNG hash recorded here."
       ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The right component retains its small open upper box, crossing bar, bending central shaft, first leftward branch, and two paired sets of short lower diagonal ticks.",
+          "This is a coherent THX-type arrangement after comparison with the more enclosed QJZ/DYC alternatives. The left central stem remains attached to its bar."
+        ]
+      },
+      "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification.",
       "review_file": "design/seal-individual/reviews/U3D019.json",
-      "review_sha256": "665f2835776a399075c2cd08bc638b62eb75d2be5569787d875ff5590b4d5051"
+      "review_sha256": "dc4d432eb5a63296ba81ee7ae5c03998aeb5f1e71f4d96d134a098b8cb826990"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

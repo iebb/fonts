@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -138,11 +138,11 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D01E",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "verdict": "mismatch",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
       "notes": [
-        "The right component retains the upper independent horizontal, small closed central counter, and lower rounded square divided once horizontally and once vertically into four panels.",
-        "The left central descender attaches to the long second horizontal and its side legs remain separate; all four references share the essential component inventory."
+        "Enlarged THX/CCZ/QJZ/DYC upper/lower left-bar ink widths measured55/73,50/58,63/83,57/74 (ratios0.753,0.862,0.759,0.770); native231/364=0.635, traced ink ratio approximately0.581 at nominal43. All four positively support the targeted upper-bar extension.",
+        "Lengthen only the upper left dash to169 centerline units around its unchanged midpoint336.9715; all other native-derived courses, enclosure shapes, counters, connections and spacing stay unchanged. Native PNG is preserved and remains mismatched in this proportion."
       ],
       "source_png": "design/seal-individual/U3D01E.png",
       "source_png_sha256": "ebcaa2ceda7a2603f0423693cfceb3b59a09dbd2c170cbd4073d39f393a9aeed",
@@ -160,8 +160,16 @@
         "Does not verify historical writing order, exact metrics, or final font stroke width.",
         "Verdict applies only to the source PNG hash recorded here."
       ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The right component retains the upper independent horizontal, small closed central counter, and lower rounded square divided once horizontally and once vertically into four panels.",
+          "The left central descender attaches to the long second horizontal and its side legs remain separate; all four references share the essential component inventory."
+        ]
+      },
       "review_file": "design/seal-individual/reviews/U3D01E.json",
-      "review_sha256": "9c35f671d81002ee1ed1576bc1a1407523b764a61f7763c5e1cb681f13fe4dfd"
+      "review_sha256": "158aaa9cf286bf8fa40541a76519e62a0dd79a0e941749ffc718f911114390a2"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

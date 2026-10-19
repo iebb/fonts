@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -149,11 +149,13 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D00B",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by root",
+      "verdict": "mismatch",
+      "reviewer": "enlarged structural re-audit by consensus_a",
       "notes": [
-        "Two top bars, bent neck into right enclosure side, and separate left shoulder agree with coherent QJZ/DYC structures after comparison of all four specimens.",
-        "The detached inner human-shaped figure retains the upper left hook, crossing branch and two lower legs; no extra or missing components observed."
+        "THX has the outer left roof joined to the right descending side while the inner figure remains detached. Its glyph has three significant ink components, including the detached top bar.",
+        "QJZ and DYC use an open right end of the outer left roof, but attach the inner left hook to that roof; CCZ also connects the inner figure to the outer structure. These coherent alternatives have at most three ink components.",
+        "The unchanged native PNG combines BOTH detached roof/right side and detached inner hook/roof, yielding four ink components. No complete supplied specimen supports that combined disconnection.",
+        "The corrected editable centerline source restores only the roof/right-side connection to select the attested THX construction. This mismatch verdict applies to the unedited native PNG; corrected geometry has a separate hash-bound review."
       ],
       "source_png": "design/seal-individual/U3D00B.png",
       "source_png_sha256": "1e0bb79f05a57aa5ee48361b44caf2f2c8451540fbca4d675d7d3eaa076afa5c",
@@ -172,8 +174,47 @@
         "Verdict applies only to the source PNG hash recorded here."
       ],
       "inspection_file": "design/seal-individual/inspection/U3D00B-white.png",
+      "history": [
+        {
+          "superseded_review": {
+            "schema_version": 1,
+            "codepoint": "U+3D00B",
+            "verdict": "match",
+            "reviewer": "independent visual structural review by root",
+            "notes": [
+              "Two top bars, bent neck into right enclosure side, and separate left shoulder agree with coherent QJZ/DYC structures after comparison of all four specimens.",
+              "The detached inner human-shaped figure retains the upper left hook, crossing branch and two lower legs; no extra or missing components observed."
+            ],
+            "source_png": "design/seal-individual/U3D00B.png",
+            "source_png_sha256": "1e0bb79f05a57aa5ee48361b44caf2f2c8451540fbca4d675d7d3eaa076afa5c",
+            "reference_overview": "reference/seal/individual/U3D00B.png",
+            "reference_png_sha256": "f76c4a6a05800b1aa5692edda8866a6ae31cf2cff5d501caaa621e560248e18d",
+            "reviewed_specimens": [
+              "THX",
+              "CCZ",
+              "QJZ",
+              "DYC"
+            ],
+            "unavailable_specimens": [],
+            "limitations": [
+              "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+              "Does not verify historical writing order, exact metrics, or final font stroke width.",
+              "Verdict applies only to the source PNG hash recorded here."
+            ],
+            "inspection_file": "design/seal-individual/inspection/U3D00B-white.png"
+          },
+          "reason": "User requested regression prevention after discovering proportion errors; enlarged all-specimen connection audit found the un-attested combined disconnection."
+        }
+      ],
+      "significant_ink_components": {
+        "THX": 3,
+        "CCZ": 2,
+        "QJZ": 2,
+        "DYC": 3,
+        "native_png": 4
+      },
       "review_file": "design/seal-individual/reviews/U3D00B.json",
-      "review_sha256": "101364dbfe8666675873ecc6fb81b763ea833fa8e36d2cba99128d286dafd705"
+      "review_sha256": "d39de748031441a3e4ed98eb98f9d36934d0dbaa27f1ead4d26970d779cf3f84"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {

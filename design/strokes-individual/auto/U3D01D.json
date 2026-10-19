@@ -13,7 +13,7 @@
   "status": "automatic_unreviewed",
   "coverage_eligible": false,
   "character_identity_verified": false,
-  "visual_reference_match_reviewed": true,
+  "visual_reference_match_reviewed": false,
   "historical_stroke_order_verified": false,
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
@@ -138,11 +138,11 @@
     "visual_reference_review": {
       "schema_version": 1,
       "codepoint": "U+3D01D",
-      "verdict": "match",
-      "reviewer": "independent visual structural review by stroke_font_engine",
+      "verdict": "mismatch",
+      "reviewer": "consensus_b enlarged all-witness proportion/topology recheck",
       "notes": [
-        "The revised left ritual central descender now joins the long second horizontal in a clear T junction, resolving the first-attempt gap.",
-        "The right tall central upright, shorter outer hook, left lower return and extended baseline preserve a coherent attested construction after comparison with all four specimens."
+        "All four enlarged specimens retain a substantially longer detached upper dash relative to the left lower crossbar. The native upper/lower ink ratio is about0.55, against approximately0.75\u20130.90 in the witnesses.",
+        "Extend only this dash about its unchanged center; the attached center leg, separate flank legs, and entire right three-upright turned component stay unchanged. Native artwork remains unchanged and mismatched in this relative length."
       ],
       "source_png": "design/seal-individual/U3D01D.png",
       "source_png_sha256": "d575d027bb47c595911c479203a009a7bd6f4b2ae39dfb2575d28793c769a871",
@@ -172,8 +172,17 @@
           "reference_png_sha256": "c796bb78c9e87d1687343efc0b0e5bdcafbce7bbd6aededccc447d42bea3316f"
         }
       ],
+      "superseded_review": {
+        "verdict": "match",
+        "reviewer": "independent visual structural review by stroke_font_engine",
+        "notes": [
+          "The revised left ritual central descender now joins the long second horizontal in a clear T junction, resolving the first-attempt gap.",
+          "The right tall central upright, shorter outer hook, left lower return and extended baseline preserve a coherent attested construction after comparison with all four specimens."
+        ]
+      },
+      "recheck_scope": "Enlarged comparison of every available specimen; explicitly checks relative bar lengths, gaps, branches, feet, and counters. Not specialist paleographic or historical-order certification.",
       "review_file": "design/seal-individual/reviews/U3D01D.json",
-      "review_sha256": "f9ad901816a479b7c0cf2e12a5ca19fce84377a00af330d0fb797708c8834ad0"
+      "review_sha256": "ade5d33f5c02b9ef4daa19e42c12776040ec18794201592f234cd50b58e5cffd"
     },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {
