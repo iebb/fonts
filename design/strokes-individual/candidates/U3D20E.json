@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -6464,6 +6464,47 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.7537,
       "maximum_fit_error_font_units": 2.4658
+    },
+    {
+      "id": "stroke-19",
+      "path": "M 516.907,454.748 L 551,481",
+      "closed": false
+    },
+    {
+      "id": "stroke-20",
+      "path": "M 640,474.377 L 677.214,444.933",
+      "closed": false
+    },
+    {
+      "id": "stroke-21",
+      "path": "M 399.131,572.524 C 399.131,597 395.859,623 395.859,647.77",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Complete THX: restore omitted other arm of each two upper interior chevrons at original native arm apex, preserving existing arm endpoints and detached gaps to central staff. Join two left inner-staff fragments by short smooth connector between exact existing endpoints399.131572.524 and395.859647.77. All eighteen original paths, both lower nested counters and bowed central rails unchanged. Native omission mismatch retained.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-19",
+          "path": "M 516.907,454.748 L 551,481",
+          "closed": false
+        },
+        {
+          "id": "stroke-20",
+          "path": "M 640,474.377 L 677.214,444.933",
+          "closed": false
+        },
+        {
+          "id": "stroke-21",
+          "path": "M 399.131,572.524 C 399.131,597 395.859,623 395.859,647.77",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

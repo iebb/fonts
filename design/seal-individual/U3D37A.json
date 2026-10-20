@@ -1,0 +1,78 @@
+{
+  "code_point": "U+3D37A",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Edit first original Small Seal glyph against THX whole in second reference. The TWO diagonal curved marks inside left tall windingarch must each BEGIN ATTACHED TO LEFT OUTER WALL and end freely pointing down-right inside. Current two diagonal marks wrongly float free of leftwall. Extend only their upperleft endpoints to join leftwall, preserving two separate inward branches and all open gaps. Keep right upper E-like staff structure, lower detached dividedoval, and left longtail exactly. Rounded equal-width black strokes transparent.\n",
+  "reference": "reference/seal/individual/U3D37A.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-0a58002d-31e7-4720-9f27-a6331b2e498c.png",
+  "output_file": "design/seal-individual/U3D37A.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "8c0565de121861e6fb107d3fbdb4b3d5136f71d4288cc12cf23d727dc0dfe812",
+  "reference_sha256": "ac4d7946053b2790b22c2f17e419cc70646961dbc20c47c65e8616daf7ac063e",
+  "reference_metadata_sha256": "e125c6c8be5a9674dcf6d3f115e8b723e17e949edd3a102541af02c8c99d7253",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D37A",
+    "page": 16,
+    "label_bbox": [
+      384.8999938964844,
+      412.0301818847656,
+      415.4693298339844,
+      423.18994140625
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 16,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          413.38800048828125,
+          441.7799987792969,
+          434.8499755859375
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          410.83330688476565,
+          443.79999389648435,
+          435.8732971191406
+        ],
+        "source_label": "TH-Y019"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": true,
+        "page": 16,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          410.3121643066406,
+          519.0398559570312,
+          435.3479309082031
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          408.2301818847656,
+          523.7999938964844,
+          435.8732971191406
+        ],
+        "source_label": "D-00834"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D37A-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D37A-attempt-1.json"
+  }
+}

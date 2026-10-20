@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -1538,191 +1538,14 @@
       "maximum_fit_error_font_units": 3.1397
     },
     {
-      "points": [
-        [
-          641.2268,
-          235.5527
-        ],
-        [
-          641.2268,
-          232.2812
-        ],
-        [
-          641.2268,
-          229.0096
-        ],
-        [
-          641.2268,
-          225.738
-        ],
-        [
-          641.2268,
-          222.4665
-        ],
-        [
-          641.2268,
-          219.1949
-        ],
-        [
-          641.2268,
-          215.9233
-        ],
-        [
-          641.2268,
-          212.6518
-        ],
-        [
-          641.2268,
-          209.3802
-        ],
-        [
-          641.2268,
-          206.1086
-        ],
-        [
-          641.2268,
-          202.8371
-        ],
-        [
-          641.2268,
-          199.5655
-        ],
-        [
-          641.2268,
-          196.2939
-        ],
-        [
-          641.2268,
-          193.0224
-        ],
-        [
-          641.2268,
-          189.7508
-        ],
-        [
-          641.2268,
-          186.4792
-        ],
-        [
-          641.2268,
-          183.2077
-        ],
-        [
-          641.2268,
-          179.9361
-        ],
-        [
-          641.2268,
-          176.6645
-        ],
-        [
-          641.2268,
-          173.393
-        ],
-        [
-          641.2268,
-          170.1214
-        ],
-        [
-          641.2268,
-          166.8498
-        ],
-        [
-          641.2268,
-          163.5783
-        ],
-        [
-          641.2268,
-          160.3067
-        ],
-        [
-          641.2268,
-          157.0351
-        ],
-        [
-          641.2268,
-          153.7636
-        ],
-        [
-          641.2268,
-          150.492
-        ],
-        [
-          641.2268,
-          147.2204
-        ],
-        [
-          641.2268,
-          143.9489
-        ],
-        [
-          641.2268,
-          140.6773
-        ],
-        [
-          641.2268,
-          137.4058
-        ],
-        [
-          641.2268,
-          134.1342
-        ],
-        [
-          641.2268,
-          130.8626
-        ],
-        [
-          641.2268,
-          127.5911
-        ],
-        [
-          641.2268,
-          124.3195
-        ],
-        [
-          641.2268,
-          121.0479
-        ],
-        [
-          641.2268,
-          117.7764
-        ],
-        [
-          641.2268,
-          114.5048
-        ],
-        [
-          641.2268,
-          111.2332
-        ],
-        [
-          641.2268,
-          107.9617
-        ]
-      ],
       "graph_edges": [
         19
       ],
       "is_loop": false,
-      "path": "M 641.227,235.553 L 641.227,107.962",
-      "commands": [
-        [
-          "M",
-          641.2268,
-          235.5527
-        ],
-        [
-          "L",
-          641.2268,
-          107.9617
-        ]
-      ],
-      "maximum_fit_error": 0.0,
+      "path": "M 641.227,258.454 L 641.227,107.962",
       "curve_segments": 1,
       "id": "stroke-7",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "closed": false
     },
     {
       "points": [
@@ -6964,6 +6787,33 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.764,
       "maximum_fit_error_font_units": 2.4995
+    },
+    {
+      "id": "stroke-16",
+      "path": "M 500.55,565.981 C 512,551 529,537 543,526",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Complete THX lower genuine central crossing retains short free up-right fifth branch; restore only omitted branch from original crossing anchor, preserving all original four other terminals and upper U. Recover right top fork short descending native stem to same depth as left fork; both fork/body gaps and every other course unchanged. Native omits branch, mismatch retained.",
+      "changes": [
+        {
+          "stroke_id": "stroke-7",
+          "previous_path": "M 641.227,235.553 L 641.227,107.962",
+          "repaired_path": "M 641.227,258.454 L 641.227,107.962"
+        }
+      ],
+      "added_strokes": [
+        {
+          "id": "stroke-16",
+          "path": "M 500.55,565.981 C 512,551 529,537 543,526",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

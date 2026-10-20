@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D20E",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D20E.json",
+  "source_png": "design/seal-individual/U3D20E.png",
+  "source_png_sha256": "71e9053e943d6b59849aa8ca383df564ef06199a37af11bb14e793ecf057ca1a",
+  "reference_png_sha256": "d964ae6b8401665bcd6d25f2d12015cb7723c52b4f5aab72bd10a5b986b08dad",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D20E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D20E-restored-chevrons-continuous-staff-v1/sources/U3D20E.json",
+  "source_json_sha256": "9a96cefcb1a3fc1ab7b0b132b03dd7899aedfe8a42737916685264a338c15aff",
+  "geometry_sha256": "f28caea2277cba16dab667625aa97ef1ed1d64467693747ec7a3b3edf11fe2eb",
+  "font_file": "design/quality/proofs/continuation/U3D20E-restored-chevrons-continuous-staff-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7a76a9768682797f7b54a2c1ea6a55a4bcaf55f0427bd941eaad99b46b4a4256",
+  "raster_file": "design/quality/proofs/continuation/U3D20E-restored-chevrons-continuous-staff-v1/U3D20E-Regular400.png",
+  "raster_sha256": "010764b583484cd495ae87955a16666d3b9e655f499d2b087968324b9d2350cb",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      272,
+      -64,
+      752,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: both forks detached, left two H-like branches share one continuous long right staff, right two separate chevrons restored beneath projecting cap and above paired branches on central staff. Independent concentric lower enclosures and two fields preserved; original18 paths remain and all new joins/gaps clear. Native missing chevron arms/split left staff remains mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f0f432a5fe23ea861d296fa68638f0867a65b98f797a1325b652fa172fcdaac7",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "60c84fd135485f3333b5a786acb4258523d33f1ce449a736f0df52668ea3272d",
+    "actual_font_enlargement_sha256": "c27299229db6a75184ef861794ef767c65351281e45ce0d2c1761410e804bbfe"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d3e2273daf208b0dd82ff72c5f16b7c9ac14a3e78bddd731cc88920add2b5a59",
+      "source_json_sha256": "5d9f66a2ff4b42d819635504fb6968f98cdb2b80cb160dd7ee86839900ab8111",
+      "source_png_sha256": "71e9053e943d6b59849aa8ca383df564ef06199a37af11bb14e793ecf057ca1a",
+      "font_sha256": "a16e65bdd1f1df1bdb19f8021e222e57f5a69ae94793ee3f805390857adc0fd0",
+      "raster_sha256": "ec30091de23d2313d7210acf1788592d0c4212591b5a5bba56b8ea7ffeae377c",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Independently inspected full native, all four enlarged whole reference specimens, full actual Regular400 compiled raster, and enlarged relevant component crops. No other weight is approved.",
+        "Native omits one arm of EACH small upper interior chevron, leaving two single slants. All enlarged whole specimens show two chevrons or equivalent branched construction, not those two isolated half-marks.",
+        "Native also splits the left long inner staff into separate upper and lower H components; all reference whole forms retain a continuous long inner staff. Both actual/native preserve two separate nested lower counters and the two bowed lower central rails; those do not resolve the missing branches/staff."
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1E3",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E3.json",
-  "source_png_sha256": "d9f7c164d9f3f1ad84e1129a8b284b73995acae1ccd840c23557cf9553e47787",
+  "native_review_report": "design/seal-individual/reviews/U3D1E3.json",
   "source_png": "design/seal-individual/U3D1E3.png",
+  "source_png_sha256": "d9f7c164d9f3f1ad84e1129a8b284b73995acae1ccd840c23557cf9553e47787",
   "reference_png_sha256": "1a377c12ae38c77692e979fc25e2a6ccfa8823aed803acdd0834ae25db5dcb7d",
   "reviewed_specimens": [
     "THX",
@@ -16,38 +16,61 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E3.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E3.json",
-  "source_json_sha256": "58a92965c817f194d59ba5f3ee941ea9af525dc8022ef359c156f6876376df25",
-  "geometry_sha256": "bb75672940c3768d1740bcbd8d8f895160c6bc80b859172b0ae5c5bd957ce3f8",
-  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E3-Regular400.png",
-  "raster_sha256": "cd60db55073eb972621f58e5e668ab7d6c8718e8e895f240884f05c210191040",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E3-whole-THX-three-courses-v3/sources/U3D1E3.json",
+  "source_json_sha256": "099d8248ba6d8b47eb5f35bf3cbfbd7f02aba729605ce088aad4fa20d955e58a",
+  "geometry_sha256": "79ca8b38fe4f2b8a7c6e780dec8f1e9a64ceb191787a4ef48426b48660fb6a9d",
+  "font_file": "design/quality/proofs/continuation/U3D1E3-whole-THX-three-courses-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "551ba6180e72210560713ba5b863c51e022d00972861d1452f568012e5f83ddb",
+  "raster_file": "design/quality/proofs/continuation/U3D1E3-whole-THX-three-courses-v3/U3D1E3-Regular400.png",
+  "raster_sha256": "877144a0d16014b58edfd4b03b8a3c3c3f3d6bca8fcfda0ad14f59a09c08e775",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      283,
+      271,
       -64,
-      741,
+      753,
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual and enlarged lower paired staves inspected. Native preserves THX both forks free, independent upper-right stacked chevrons/side marks and left winding compound. But paired lower right staves omit each outer returned wall/course connecting upper and lower crossbar levels, leaving two open hooks/free bars instead of the two small closed counters attested THX. Other whole specimens also retain paired small lower fields. Actual upper left roof turn has tracking kink."
-  ],
-  "requested_corrections": [
-    "Restore both lower-right small returned wall courses to close one narrow field per staff between original crossbar levels, preserving tips/long descending staff and paired separation.",
-    "Smooth bounded upper-left turning course through original endpoints and branch anchors."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX restored: THREE independent upper-left winding courses with both gaps and separate short upward returns, lower left bent H/staff attached only to third course. Paired lower small fields retain their returned walls and now both bars project left of left staff and right of right staff. Both top forks stay free; two independent right chevrons and four detached side marks, all original long lower terminals and proportional envelope retained. Upper turn smooth; two small fields and all required open channels clear. Native joined left courses/missing small return walls/overhangs remains recorded as mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "9dd375d101bc249e4e62765d208885dd6d6560ee6936173f715fd13fe9f5cc75",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "079bc6643af79e5b9e2f21fbce56d6cd0e35c6d5abef4ed1819bf224edf80d7f",
+    "actual_font_enlargement_sha256": "2fa22ff43d4ec9771e4de1b164543ceae08483c9fb3b538aeb9b1a6191f2d118"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "bb75672940c3768d1740bcbd8d8f895160c6bc80b859172b0ae5c5bd957ce3f8",
+      "source_json_sha256": "58a92965c817f194d59ba5f3ee941ea9af525dc8022ef359c156f6876376df25",
+      "source_png_sha256": "d9f7c164d9f3f1ad84e1129a8b284b73995acae1ccd840c23557cf9553e47787",
+      "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+      "raster_sha256": "cd60db55073eb972621f58e5e668ab7d6c8718e8e895f240884f05c210191040",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full native/all four whole specimens/full actual and enlarged lower paired staves inspected. Native preserves THX both forks free, independent upper-right stacked chevrons/side marks and left winding compound. But paired lower right staves omit each outer returned wall/course connecting upper and lower crossbar levels, leaving two open hooks/free bars instead of the two small closed counters attested THX. Other whole specimens also retain paired small lower fields. Actual upper left roof turn has tracking kink."
+      ]
+    },
+    {
+      "geometry_sha256": "725b03249b1812d6d462973fdf2c4830f876029b4dee9c3d9644284da35ae395",
+      "source_json_sha256": "b47e77a37652714124612981ba64c8621f6ed0eb4443c03e7a43eb3ace0c24a1",
+      "source_png_sha256": "d9f7c164d9f3f1ad84e1129a8b284b73995acae1ccd840c23557cf9553e47787",
+      "font_sha256": "3862e8180f91c86860ef9dca19fd15074ac8fe1917d6869879a3e6e48f285022",
+      "raster_sha256": "7dca8d8ac5598d19c618dc515de6a83f32f9e57a0b353e3390bbbd5abf0920ee",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Paired small lower fields restored, but coherent complete THX also requires THREE SEPARATE upper-left winding courses: top S, detached middle L, and detached lower L/staff/H compound. Current native and font join these as one ladder. Both bars of left small lower cap also require short LEFT overhangs beyond its long staff; both bars of right cap require short RIGHT overhangs. Other whole ladder-like variants change fork/right-chevron contacts. Restore these two left-course gaps with independent short upstubs and four cap overhangs, retaining two closed fields, both forks free, two independent right chevrons/four detached side marks, original long lower staves/terminals and compound envelope. Enlarged whole THX confirms all six missing features."
+    }
   ]
 }

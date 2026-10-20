@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1FC",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1FC.json",
+  "source_png": "design/seal-individual/U3D1FC.png",
+  "source_png_sha256": "39e614c7721abad4b6d2c72589b2a2dee22758de704b5de1f48c37bba0b8e6a1",
+  "reference_png_sha256": "7882a27672302a560380c5f368a0d5dc17b46cc39766c0e03db1c6338bd221b5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1FC.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1FC-smooth-descending-shoulder-v1/sources/U3D1FC.json",
+  "source_json_sha256": "52329237ca605324fa38cf3ea86defda9c661bc579137f33d4bce67270458251",
+  "geometry_sha256": "df0165d6b9cb63cdb7e195391168c804957775081f84369e3f3eacc979bb00c8",
+  "font_file": "design/quality/proofs/continuation/U3D1FC-smooth-descending-shoulder-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "73a22a52a7407815b53e679924a4f647c830d9de5b7490a8c0cf6ef5ca8ea070",
+  "raster_file": "design/quality/proofs/continuation/U3D1FC-smooth-descending-shoulder-v1/U3D1FC-Regular400.png",
+  "raster_sha256": "903f1d14abb2f6921d694962d551a69d9c77d47315b4ebc39f4c4c8b71cc4e4b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      241,
+      -64,
+      783,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX retained: two detached forks, independent left paired descending legs with bent upper header, independent one-field inner cup, and right long winding from projecting horizontal cap to free curved tail. Repaired shoulder is smooth through retained original contact/endpoints, with all paths and gaps intact. Native already matches.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "375ba85d53524865ccb6d596e1fe90cc1f9145b5c94b766b8f2d541fb4189a56",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "cefa541e359264bb5ffcc647393bd4e75f5b98127b6cdcc304702c0e6558eee4",
+    "actual_font_enlargement_sha256": "1330af90129d5ee58b8997340ffa604dea742f38287f3230834814fd0417a6c9"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "1954cf394f421f6044880cbdfcbf079dc6e42fd2c4eecc73cef800b0a282ef7c",
+      "source_json_sha256": "de9ff1e771b82f482fef09cbdd35f35d519aa4a5678f62a008732eb13d4dc780",
+      "source_png_sha256": "39e614c7721abad4b6d2c72589b2a2dee22758de704b5de1f48c37bba0b8e6a1",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "f9026a3891f4467ff879dd399f67f308ba82fe64ce70dc1a3f992f8de314cdc0",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native coherently matches complete THX both top forks detached, left bent header/two-leg course, independent right long header supporting winding descent, and small detached one-field U with two upper prongs. Actual right descending winding has a conspicuous angular tracing step immediately below its header before the inward bend. Smooth this bounded descending shoulder through original header contact, inner bend and lower winding rejoin, preserving header overhangs, full native envelope, final tail and every other course."
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1D9",
-  "reviewer": "independent visual reviewer /root",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "design/seal-individual/reviews/U3D1D9.json",
-  "source_png": "design/seal-individual/U3D1D9.png",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D9.json",
   "source_png_sha256": "32ed45a2cc5f0c252e66e9c6f98a443b1325d6173b10a67a7758413cb0253b53",
+  "source_png": "design/seal-individual/U3D1D9.png",
   "reference_png_sha256": "6a404ff54f63d6ac7836b0d2eb209229a2805c4a827023d5b4a644d8c9264cbd",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1D9.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/sources/U3D1D9.json",
-  "source_json_sha256": "46b2d25cf112b2cc6254b1a9489247cc735af1dbf10b40e1f97c20ebcf653884",
-  "geometry_sha256": "ba8116b43b3da6e8f033e6962b195714e81c4792ec3f57e4bedab3d9e30e5385",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/U3D1D9-Regular400.png",
-  "raster_sha256": "31bbba204121f96fea8529771455590a5c521f22592d8ffb729f4a3503c1948f",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/sources/U3D1D9.json",
+  "source_json_sha256": "851249348bd1db2e99b5a13ef324e4a1fd473a1272f3af9919cc2d012233272c",
+  "geometry_sha256": "e524f4f1f7277ea645c1f97b186deab033442d30d4fa903769db390ad78afc32",
+  "font_file": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f944ef976643dc02c5450c05aad2e5689d118051c457fd0d844a1967e8546fd4",
+  "raster_file": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/U3D1D9-Regular400.png",
+  "raster_sha256": "39386923d73b2fe46bb0df033acadc0ffa499c8f5fa28cded0223caeb62b14d6",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,31 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Current right fork joins the right roof while retaining otherwise THX two free inner vertical marks, detached lower bent return and left two-field crossed winding compound. Complete THX keeps right fork separate above a short free roof stub; joined-fork whole alternatives change lower-return or internal contacts. Restore only the right fork gap with separate roof stub, retaining left fork gap, both left fields, upper-right arch/two free marks/bifurcation, detached three-course lower return and all outer tips.",
-  "requested_corrections": [
-    "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Current right fork joins the right roof while retaining otherwise THX two free inner vertical marks, detached lower bent return and left two-field crossed winding compound. Complete THX keeps right fork separate above a short free roof stub; joined-fork whole alternatives change lower-return or internal contacts. Restore only the right fork gap with separate roof stub, retaining left fork gap, both left fields, upper-right arch/two free marks/bifurcation, detached three-course lower return and all outer tips."
+  "notes": [
+    "Independent full native/all four enlarged whole specimens/new actual and enlarged repaired gap inspection. Exact repair releases right top fork leaving distinct short roof upstub with clear Regular400 white gap, coherent whole THX. Both interior detached short uprights, central fork, lower open three-course crossed return and left crossed enclosure/downward stub/two legs retained. Two left counters remain; right lower course open. Original native retains wrong top contact and remains mismatch; compiled corrected courses/proportions/round pen accepted Regular400."
   ],
-  "review_comparison_sha256": "f45ea38d5210d294a217a1d4b9cfaab44775ddfa3099ab3cc3ae3139fe2bc04b",
+  "requested_corrections": [],
   "limitations": [
-    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
-    "Heavy weights not visually accepted.",
-    "No paleographic or historical writing-order certification."
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
   ],
-  "detail_review": {
-    "all_specimen_enlargement_sha256": "3548b71feffeeb55585db3d528202e8106b1ff696a97a846c6eb3ad99caca198",
-    "actual_font_enlargement_sha256": "da6761b3f96be166b1f983d965455551385dc17a1df5f70c21e1e9d7ff859c3b"
-  }
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "ba8116b43b3da6e8f033e6962b195714e81c4792ec3f57e4bedab3d9e30e5385",
+      "source_json_sha256": "46b2d25cf112b2cc6254b1a9489247cc735af1dbf10b40e1f97c20ebcf653884",
+      "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
+      "raster_sha256": "31bbba204121f96fea8529771455590a5c521f22592d8ffb729f4a3503c1948f",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Current right fork joins the right roof while retaining otherwise THX two free inner vertical marks, detached lower bent return and left two-field crossed winding compound. Complete THX keeps right fork separate above a short free roof stub; joined-fork whole alternatives change lower-return or internal contacts. Restore only the right fork gap with separate roof stub, retaining left fork gap, both left fields, upper-right arch/two free marks/bifurcation, detached three-course lower return and all outer tips.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Current right fork joins the right roof while retaining otherwise THX two free inner vertical marks, detached lower bent return and left two-field crossed winding compound. Complete THX keeps right fork separate above a short free roof stub; joined-fork whole alternatives change lower-return or internal contacts. Restore only the right fork gap with separate roof stub, retaining left fork gap, both left fields, upper-right arch/two free marks/bifurcation, detached three-course lower return and all outer tips."
+      ]
+    }
+  ]
 }

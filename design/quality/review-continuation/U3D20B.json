@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D20B",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D20B.json",
+  "source_png": "design/seal-individual/U3D20B.png",
+  "source_png_sha256": "e91daab0c272493be6cbfedb1554626c07321ff7ecb1fe697735215e59dc3265",
+  "reference_png_sha256": "80bff27846964f5db1a9d940ae4b68a80fcaffc43adfa5265896127793318e02",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D20B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D20B-whole-THX-four-marks-join-v1/sources/U3D20B.json",
+  "source_json_sha256": "de23539e3de8d7882eff10e1b7411884a3a4c58793d7e4a24134bd82c40be1cd",
+  "geometry_sha256": "4a42766e52cae0d9b604c32ca16301ac171d511f51bf38ad3a4baaa1f1053ed5",
+  "font_file": "design/quality/proofs/continuation/U3D20B-whole-THX-four-marks-join-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1bf1fbe5cd0e958d685bee7262a50d79d2189ae29e6ed1155b4bc0d640e392a5",
+  "raster_file": "design/quality/proofs/continuation/U3D20B-whole-THX-four-marks-join-v1/U3D20B-Regular400.png",
+  "raster_sha256": "c41570cf744aba57f9068f1c661eecd03b4adba332298c84e0342b3266473ab0",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      290,
+      -64,
+      734,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: left fork free, right fork joins projecting cap with two free downward prongs; independent long left wall/header, central paired fields and separate right bow retained. Middle descending return now meets exact original lower-left cap point while leaving its upstub; four detached lower marks present with visible gaps and outer two descending walls retained. Native missing fourth mark/wrong fork and middle join remains mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "397ee228af88ac69aca4b823c26fc947890e3c2aedaaf25268affa6cdd170a03",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "aee57f889a0cb5be1eb7baf0efc9c26c485c3e95e58ee5b0a4222d52edb4b5b2",
+    "actual_font_enlargement_sha256": "7b8fce89d834bad86be783df11c699e66cc1c011c340401b61272fc101ccf991"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "cf5a04d85d003670ffa5c450088dbb33651cca48a54cc1a6ce229aa3be997054",
+      "source_json_sha256": "b9baebe231f79a51c1df5ccc032d2b41ef6bb48a9adf4a1fd6b2576d85b5cc19",
+      "source_png_sha256": "e91daab0c272493be6cbfedb1554626c07321ff7ecb1fe697735215e59dc3265",
+      "font_sha256": "a16e65bdd1f1df1bdb19f8021e222e57f5a69ae94793ee3f805390857adc0fd0",
+      "raster_sha256": "4518e94f313df6fe7aaba955e7c4d31ee9ea7409b3ff9fc53fed67a857a5bbe5",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Independently inspected full native, all four enlarged whole reference specimens, full actual Regular400 compiled raster, and enlarged relevant component crops. No other weight is approved.",
+        "Native has only three detached lower interior descending marks, versus four in THX/CCZ (six lower terminal courses including the two outer walls). Both native top forks join the header although coherent THX leaves the left fork detached. The middle descending inward return is free instead of meeting its lower left upturned course as THX.",
+        "Whole CCZ joined-fork form also changes middle/lower connections, so it does not attest this combination. Actual font preserves native omissions and mix; enlarged actual confirms only five lower terminal courses."
+      ]
+    }
+  ]
+}

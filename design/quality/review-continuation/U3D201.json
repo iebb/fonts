@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D201",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D201.json",
+  "source_png": "design/seal-individual/U3D201.png",
+  "source_png_sha256": "5c9a4092afd266de65f7aa2e7b0a3c23e618f123ea1be35cb69d1978caf2b11f",
+  "reference_png_sha256": "8df2177cc0e1c3d55a9ef9a02511e51536ca49adf9e3e6dfa6ea20770c85ee48",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D201.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D201-smooth-return-staff-v1/sources/U3D201.json",
+  "source_json_sha256": "7bdd0df00c1aa429d3fa26859b244fa4fe34bf697d0f7777f0952c2b9d5394aa",
+  "geometry_sha256": "3ca641195303c82afbace94ddcc4c7adfaa5e604d1b3e8e70f503b9f290e45d8",
+  "font_file": "design/quality/proofs/continuation/U3D201-smooth-return-staff-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c7a55bde6a33e77627f4590734232b2e6a747a26cf7eec446e64d22fcbc62eb9",
+  "raster_file": "design/quality/proofs/continuation/U3D201-smooth-return-staff-v1/U3D201-Regular400.png",
+  "raster_sha256": "b4ad6e586be53ddc8bf09fcd2e3f05ce76ca91c991a2a4c261606e12fa8f8b51",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      261,
+      -64,
+      763,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both free top forks, left three-field compound with header/baseline overhangs and separate right winding with free inner elbow/left return. Right descending staff now smooth through original two return anchors, upper bend and lower terminal; all other paths and open channels retained. Three fields, all fork gaps and terminal positions clear.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "aa052d5c54de322caa84a9c2f4c5635abde59445f99431a6a2f0e35c2a8bcf75",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "897b59f520f4094afe4f8656f7e5387d9525663f5ef220715e51373f2c7d1bc0",
+    "actual_font_enlargement_sha256": "4795cb7923b605bf9314bd6b103d64b81d24073df5b30cf83ca262a6b8b6dd3b"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7a6a19386430f1c4466a9d815d0d64030dee890d0f61ab01e466fdd3714e55f7",
+      "source_json_sha256": "79bd6a74566d89a63f089995a504d2f618bb64747f8557465fc45ebf72436dcb",
+      "source_png_sha256": "5c9a4092afd266de65f7aa2e7b0a3c23e618f123ea1be35cb69d1978caf2b11f",
+      "font_sha256": "3e5fbe23265851626074a6c8949ed4065ebdabd255eeb53588def3c030c85b58",
+      "raster_sha256": "e9ba8039f59e56bf4efa66f7b0e647d2a1f17c4fa139540b2a4f63c56629f976",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole specimens/full actual and enlarged right shared junction inspected. Native coherent THX both forks detached; left three-field construction with center return and two outer shared uprights; independent right two bent courses join into long descending staff with free left return. Actual topology retained but right descending staff immediately below shared junction has conspicuous bulb/offset step rather than native continuous sweep."
+      ]
+    }
+  ]
+}

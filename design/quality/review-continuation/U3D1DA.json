@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1DA",
-  "reviewer": "independent visual reviewer /root",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "design/seal-individual/reviews/U3D1DA.json",
-  "source_png": "design/seal-individual/U3D1DA.png",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1DA.json",
   "source_png_sha256": "318e96a4054939cac644bfe7c37bf954164dc846133da94c94a397fa4238cd0e",
+  "source_png": "design/seal-individual/U3D1DA.png",
   "reference_png_sha256": "2a33792b97a6efe076fbfd2b3ca2e723b625f4410bba99e40f3964c43369dc8c",
   "reviewed_specimens": [
     "THX",
@@ -17,13 +17,13 @@
     "QJZ"
   ],
   "geometry_source": "design/strokes-individual/candidates/U3D1DA.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/sources/U3D1DA.json",
-  "source_json_sha256": "01f369d5a670a058bb791aa0bc3d349a138e6b86c3cefbe5cbc798576a156dc5",
-  "geometry_sha256": "8ac35d498544ec0c7b01cfebdb9fbc4d24c1daaa8484046dd577c3ee3f1adedc",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/U3D1DA-Regular400.png",
-  "raster_sha256": "13c5f001ddabdc68996024e9981a7da73aae13e19a93a1eaf82438228778f2ae",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/sources/U3D1DA.json",
+  "source_json_sha256": "0bcba4ba24adb7b0b45e6ac6ae96acb09e7c555d49cb720f5ca18b753bd27c1c",
+  "geometry_sha256": "53b3141b70b51be0796e0665176b59f65213d0489e3092764bab87cdddfc633b",
+  "font_file": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f944ef976643dc02c5450c05aad2e5689d118051c457fd0d844a1967e8546fd4",
+  "raster_file": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/U3D1DA-Regular400.png",
+  "raster_sha256": "ab8624fa37f3d5b4b1617df22f3f45d184556f3360978562aff2e44cd825255b",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -35,21 +35,31 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all three available complete/enlarged witnesses and full/enlarged actual Regular inspected; QJZ unavailable remains absent. Native matches complete THX both free top forks above horizontal header, short descending upper S course, lower vertical staff and rightward arm. Actual upper S shoulder has conspicuous tracking scallops/offset bumps on its horizontal sweep and outer turn. Smooth only this upper winding course through original header contact, extrema and lower staff rejoin, preserving header overhangs, lower arm, terminal and all gaps.",
-  "requested_corrections": [
-    "Full native, all three available complete/enlarged witnesses and full/enlarged actual Regular inspected; QJZ unavailable remains absent. Native matches complete THX both free top forks above horizontal header, short descending upper S course, lower vertical staff and rightward arm. Actual upper S shoulder has conspicuous tracking scallops/offset bumps on its horizontal sweep and outer turn. Smooth only this upper winding course through original header contact, extrema and lower staff rejoin, preserving header overhangs, lower arm, terminal and all gaps."
+  "notes": [
+    "Independent full native/all available enlarged whole specimens (QJZ unavailable)/new actual and enlarged S shoulder inspected. Native matches THX both forks free above independent header/central winding staff with right lower bar. Bounded S replacement now smooth continuous transitions through retained endpoints/right extreme; no tracking notch. Header/fork gaps, lower staff and bar exact courses retained; no counter. Constant round pen/proportions accepted Regular400."
   ],
-  "review_comparison_sha256": "596f8be9c4d3f08f390c042791e0ba7383c83a5e29e7481af92b4100ec496386",
+  "requested_corrections": [],
   "limitations": [
-    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
-    "Heavy weights not visually accepted.",
-    "No paleographic or historical writing-order certification."
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
   ],
-  "detail_review": {
-    "all_specimen_enlargement_sha256": "491e04a93073549550388d7b3859586d145853c94f3117e5d4b3d53fe3c31fae",
-    "actual_font_enlargement_sha256": "8af88c47cce4a8d124fcde750763237b996d5df779ac08ede6f0a500887f47ff"
-  }
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "8ac35d498544ec0c7b01cfebdb9fbc4d24c1daaa8484046dd577c3ee3f1adedc",
+      "source_json_sha256": "01f369d5a670a058bb791aa0bc3d349a138e6b86c3cefbe5cbc798576a156dc5",
+      "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
+      "raster_sha256": "13c5f001ddabdc68996024e9981a7da73aae13e19a93a1eaf82438228778f2ae",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all three available complete/enlarged witnesses and full/enlarged actual Regular inspected; QJZ unavailable remains absent. Native matches complete THX both free top forks above horizontal header, short descending upper S course, lower vertical staff and rightward arm. Actual upper S shoulder has conspicuous tracking scallops/offset bumps on its horizontal sweep and outer turn. Smooth only this upper winding course through original header contact, extrema and lower staff rejoin, preserving header overhangs, lower arm, terminal and all gaps.",
+      "requested_corrections": [
+        "Full native, all three available complete/enlarged witnesses and full/enlarged actual Regular inspected; QJZ unavailable remains absent. Native matches complete THX both free top forks above horizontal header, short descending upper S course, lower vertical staff and rightward arm. Actual upper S shoulder has conspicuous tracking scallops/offset bumps on its horizontal sweep and outer turn. Smooth only this upper winding course through original header contact, extrema and lower staff rejoin, preserving header overhangs, lower arm, terminal and all gaps."
+      ]
+    }
+  ]
 }

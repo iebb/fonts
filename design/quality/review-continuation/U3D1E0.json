@@ -16,32 +16,30 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E0.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/sources/U3D1E0.json",
-  "source_json_sha256": "3e2801b7d7b57deff230719edd83c875d2c370a9ae46b7be1b4a87b6da43b411",
-  "geometry_sha256": "25838d066d259c137448d2b200a41dc6d2e922321ac9174094630ed6025c7cc4",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/U3D1E0-Regular400.png",
-  "raster_sha256": "7b9ae82fc266a4e4b2769e62badb1341ab74f2d8010f1a18f20931e51a1b5624",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E0-THX-connected-leftcurl-v3/sources/U3D1E0.json",
+  "source_json_sha256": "6397e7b71695233ad0dcfd0f505358f0c1cdc3da0378526c2dfd677f45e9ae63",
+  "geometry_sha256": "6f3f086760f77b7bbc49af0c7637fbb796a295fd245af73bc28906240ee5efc7",
+  "font_file": "design/quality/proofs/continuation/U3D1E0-THX-connected-leftcurl-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a2773912961a1acfb701dc18ed041501d2ca8ff5557fe3aa196dff27ce98d8c0",
+  "raster_file": "design/quality/proofs/continuation/U3D1E0-THX-connected-leftcurl-v3/U3D1E0-Regular400.png",
+  "raster_sha256": "efcba992017ceff08093e68117c2e8ec22660ad6216095767779aa24e9e0a6f1",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      304,
+      300,
       -64,
-      720,
+      724,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font simplify the upper divided winding stack to one right cap field and replace lower open winding return/paired attached prongs with a closed oval above four detached diagonals. Complete THX needs the second upright through the upper stack, its three small closed fields, and open lower crossed/curled courses with their attached short free prongs. Restore the complete THX whole: both top forks free, broad U with central upstub, long left outer descent, divided upper stack, lower OPEN winding returns and bottom trident with detached lowest side slants; do not blend a closed oval variant with these THX lower contacts.",
-  "requested_corrections": [
-    "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font simplify the upper divided winding stack to one right cap field and replace lower open winding return/paired attached prongs with a closed oval above four detached diagonals. Complete THX needs the second upright through the upper stack, its three small closed fields, and open lower crossed/curled courses with their attached short free prongs. Restore the complete THX whole: both top forks free, broad U with central upstub, long left outer descent, divided upper stack, lower OPEN winding returns and bottom trident with detached lowest side slants; do not blend a closed oval variant with these THX lower contacts."
-  ],
-  "review_comparison_sha256": "80086b2794363edeb18064ed2ec76420d7ef734501e517d21bcc74c47c786e49",
+  "notes": "Full unchanged native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected, plus enlarged THX body and its connected-component evidence. Complete THX four upper fields restored (three central stack plus right cap), lower cap OPEN with paired right attached prongs; left lower curl now correctly JOINS left inner cap return with its short free right overhang retained. Added only smooth prefix from exact cap-return point to original curl tip; complete cap path and curl/prong remainder unchanged from v2. Long left outer tail, bottom trident, two lowest free slants, both fork gaps and all lower open channels retained. Earlier independent-curl interpretation corrected in history. Native missing stacked/open-return structure remains recorded as mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "69200417f8880a69d3b9c914b5377efda0fc05a77656f4036e7ccb8913b14451",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,6 +47,28 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "7c9edae75965f3c15857f1004e24867a779425befcd32fc3445a5c5e4c0d68e3",
-    "actual_font_enlargement_sha256": "a18a85c7f92171bec28b9bad7689481d87a5107f157beb20f8c7e24e4492f6f1"
-  }
+    "actual_font_enlargement_sha256": "b52ae648504849adc8ec25076f23382017174a8ac7617f83824e920cb1577364"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "25838d066d259c137448d2b200a41dc6d2e922321ac9174094630ed6025c7cc4",
+      "source_json_sha256": "3e2801b7d7b57deff230719edd83c875d2c370a9ae46b7be1b4a87b6da43b411",
+      "source_png_sha256": "3224cbfaa0de0599f2896c4a71c6c0a8775ca893c11c89d760e990367d58cc38",
+      "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
+      "raster_sha256": "7b9ae82fc266a4e4b2769e62badb1341ab74f2d8010f1a18f20931e51a1b5624",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font simplify the upper divided winding stack to one right cap field and replace lower open winding return/paired attached prongs with a closed oval above four detached diagonals. Complete THX needs the second upright through the upper stack, its three small closed fields, and open lower crossed/curled courses with their attached short free prongs. Restore the complete THX whole: both top forks free, broad U with central upstub, long left outer descent, divided upper stack, lower OPEN winding returns and bottom trident with detached lowest side slants; do not blend a closed oval variant with these THX lower contacts."
+    },
+    {
+      "geometry_sha256": "e3c10f8f914efb419d99f6963c76cbc68e04805f5c1cc2e38c672abe74673e17",
+      "source_json_sha256": "4c086eefe5bbd9e5b6f96b7daaaaab819fb9b864765b5378de6df230380a4194",
+      "source_png_sha256": "3224cbfaa0de0599f2896c4a71c6c0a8775ca893c11c89d760e990367d58cc38",
+      "font_sha256": "6a3604dceff6ac1e8e910020ee736842d445bd8201be2950ec1440c1dc7be524",
+      "raster_sha256": "da0ae2c02d4976ff29fd9cdb459ed40621203708ed464827b267173a30e587a6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full unchanged native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected, plus enlarged whole THX body and thresholded reference component analysis. Four upper fields (three central stack fields plus right cap), open lower cap/right paired prongs and lower trident/slants are restored. However left lower curl is incorrectly DETACHED from the left inner cap return. THX joins that curl upper tip into the cap return while retaining a short free rightward cap overhang at the junction. Reference component analysis confirms upper body and left curl belong to ONE connected component; separate fork/trident/slant components remain distinct. Restore only this missing cap-to-curl connection with smooth bounded continuation, retaining short cap overhang, attached lower curl prong, open lower cap, four upper fields, long outer left tail, right paired prongs, fork gaps and unchanged bottom trident/lowest slants. Current independent-curl interpretation is unsupported by complete THX."
+    }
+  ]
 }

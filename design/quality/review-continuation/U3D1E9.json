@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1E9",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1E9.json",
+  "source_png": "design/seal-individual/U3D1E9.png",
+  "source_png_sha256": "dca28494741e17c3486da7374bf88ff3d9b39c969d177b681c071c5a8d05fa4f",
+  "reference_png_sha256": "de9461dc227d6f1e4b2878a63154b65ec57b0e30909b6eaff14e917c9aa3183b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1E9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E9-whole-THX-gaps-marks-v1/sources/U3D1E9.json",
+  "source_json_sha256": "2c3eea562d7da635907cf513fc09ab02d89d594aa7d8b5c4fa89871b6d46bf5c",
+  "geometry_sha256": "ea120564f54ceb8e5fc442f87daedff38253a871ea9659b62c21d881d693797e",
+  "font_file": "design/quality/proofs/continuation/U3D1E9-whole-THX-gaps-marks-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "60bc91e0dd18de29cceaa167f328ade763d3713e5fe134018c0e83a5534bddb4",
+  "raster_file": "design/quality/proofs/continuation/U3D1E9-whole-THX-gaps-marks-v1/U3D1E9-Regular400.png",
+  "raster_sha256": "4c2cc32d72b657042c8c018869075edfe73ac85831ff51bd86cf7e95b3dd2128",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      256,
+      -64,
+      768,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX both top forks now detached above separate body upstubs. All four right inner diagonals detached from the central cross with exact original outer tips retained. Left diamond short right projection restored beside retained left projection; one diamond field, both lower crossbars/staff, right open enclosure and lower tail unchanged. Native joined forks/diagonals mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "df5352b04589e100d1c492af297c05fcf8bb7cdd2e937c271f13e905c267fd16",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "227794d96d93497e2d2b8f7e1e2dfcb6db4dc13173bef788f77bbca5aafc9740",
+    "actual_font_enlargement_sha256": "d43b3612ce03fc6405c79bf6658ab6bfabe5077bf7e630b1b8b65af6dc27a257"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "9d1a592adde75e797cfb05441c1866ed9ae6c9725bdb341cdd82446a076b2699",
+      "source_json_sha256": "6cec997fa913335ccf6878bb77f61280169f3de54d07004f3930999da338732b",
+      "source_png_sha256": "dca28494741e17c3486da7374bf88ff3d9b39c969d177b681c071c5a8d05fa4f",
+      "font_sha256": "9633cd2d1a74119dfcc4874a1326a3c4c8828d917dd9caa2f7d7425d82e9e808",
+      "raster_sha256": "e22ca8905a6e02e0a5917cfbfd201033affdf49184af6824012827603c59d667",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole specimens and full/enlarged actual Regular400 inspected. Both top forks join the body and all four right inner diagonals join the central cross. Complete THX keeps both top forks detached above separate body upstubs and keeps all four inner diagonals separate from the cross. Joined alternatives also change outer/body contacts and do not support this combination. Restore the coherent THX fork gaps, separate body upstubs and four detached diagonals; retain left one-field diamond, its short side projections, right open enclosure and lower tail, cross and staff. Check and restore the short rightward diamond projection lost in tracing."
+    }
+  ]
+}

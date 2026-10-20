@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -6107,6 +6107,53 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    },
+    {
+      "id": "THX-innerdash-right-contact",
+      "path": "M 543.08,798.262 L 598.677802941428,798.262",
+      "commands": [
+        [
+          "M",
+          543.08,
+          798.262
+        ],
+        [
+          "L",
+          598.677802941428,
+          798.262
+        ]
+      ],
+      "closed": false,
+      "manual": true
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore complete THX lower-cup inner dash right-wall attachment by adding only missing original-dash-tip to existing right-wall intersection at source y798.262. All thirteen original paths and dash left tip remain exact; no other contacts, cup field, upper two U courses, detached forks, small inner bent course or outer tail changed. Native detached-dash mismatch remains recorded.",
+      "added_strokes": [
+        {
+          "id": "THX-innerdash-right-contact",
+          "path": "M 543.08,798.262 L 598.677802941428,798.262",
+          "commands": [
+            [
+              "M",
+              543.08,
+              798.262
+            ],
+            [
+              "L",
+              598.677802941428,
+              798.262
+            ]
+          ],
+          "closed": false,
+          "manual": true
+        }
+      ],
+      "original_paths_unchanged": true,
+      "native_png_and_provenance_unchanged": true,
+      "author": "/root",
+      "independent_actual_font_review_required": true
     }
   ]
 }

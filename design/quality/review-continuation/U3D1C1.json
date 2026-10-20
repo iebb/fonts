@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1C1",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1C1.json",
-  "source_png_sha256": "1e3b4f53c66c3e0d91b0d375bea30c563c938d4e46adcdef09256ddd267dd737",
+  "native_review_report": "design/seal-individual/reviews/U3D1C1.json",
   "source_png": "design/seal-individual/U3D1C1.png",
+  "source_png_sha256": "1e3b4f53c66c3e0d91b0d375bea30c563c938d4e46adcdef09256ddd267dd737",
   "reference_png_sha256": "cd2a7d9b405bc4149fcf76bfb570038291a4b60d102d1e5de1477677ef249a74",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1C1.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-B2C1-retry2/sources/U3D1C1.json",
-  "source_json_sha256": "be0a77f2a08a37c9afef82388c0336f6bd9221a34579101785c0d6cfbf47c4ae",
-  "geometry_sha256": "dfa48d4978e1b3879edb3c6321eadbbc58bf7e3f4331737ec48781cdd3d7ce79",
-  "font_file": "design/quality/proofs/continuation/review-B2C1-retry2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "a25c7a23bbf0b2ad5b1ed542983b53f29b36a6c32273785d73c5b6fac67a9b84",
-  "raster_file": "design/quality/proofs/continuation/review-B2C1-retry2/U3D1C1-Regular400.png",
-  "raster_sha256": "ba5c09ed316864faed26d069596b9d4b278f76d9b8b103e96e43f231217e2217",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1C1-detachedfork-smoothupper-v2/sources/U3D1C1.json",
+  "source_json_sha256": "d46aef6fd00b30660c3604a53e16efab1a637404aa6b7a95ef1f6f0f0ce0f984",
+  "geometry_sha256": "5ec21eaa21d892769463b72a1da2d0b8c4262ee207132e98eded5b73f4b354fa",
+  "font_file": "design/quality/proofs/continuation/U3D1C1-detachedfork-smoothupper-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1a1cec5b045bf506719cb89b87a5be8e04ea586bed93c5d97d975be466be5923",
+  "raster_file": "design/quality/proofs/continuation/U3D1C1-detachedfork-smoothupper-v2/U3D1C1-Regular400.png",
+  "raster_sha256": "f19bdc6615ad477ea4119cf5ba55324a35ee87321bc8ebd4c9b1c965547f5c67",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,22 +34,21 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Fresh retry2 native/all four enlarged whole specimens/new compiled font and enlarged right compound inspected. Retry restores open upper-right wall/upstub and top rail overhang plus inner roof-linked branching into wall junctions; previous floating chevron/closed rim corrected. However right top fork now joins compound staff continuously, contrary THX detached right fork with separate small compound upstub; other joined-right variants change roof/wall and lower-return construction. Current otherwise THX courses retained. Actual still has lumpy notched upper left body bend and upper-right wall/inner-branch courses."
-  ],
-  "requested_corrections": [
-    "Detach right top fork from compound staff, retaining short compound upstub above first bar to match coherent THX.",
-    "Bounded smoothing of upper-left outer bow/shared inward branch and right upper wall/inner branch through original anchors; keep four right fields, full left branches and lower terminals."
-  ],
+  "notes": "Full native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Coherent THX left fork joins its left crossed bow while right fork is detached over separate short body upstub. Upper-right roof has its free rightward overhang, separate upward right wall stub and inner descending roof branch; four right fields, two lower feet and left small field retained. Upper bow/wall/branch tracing lumps smoothed through retained contacts. Both long lower returns, three left inward branches and other free tips unchanged. Native2 joined-right-fork mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "d6d596d58daf6dab75dbda7669518c49779fb4d4c1947892ab6486138733b773",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
   ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "3b1a7be88b3c052a806538e745ef2dfcb425838e7ba59c6be9f0b946647aae63",
+    "actual_font_enlargement_sha256": "35b7047d5cfb3da76f1b7283cab06ef4670bef3d3bb506db830516a43aa9c996"
+  },
   "previous_geometry_reviews": [
     {
       "geometry_sha256": "82907707c6ab3beda6a1ebdacbd73fd3dfe4b75dca41ecbd6611e848e99bad6c",
@@ -61,6 +60,18 @@
       "notes": "Inspected native, all four enlarged whole references, full actual and enlarged THX/right compound. Right body native/font has fully closed top rim and floating chevron across upper chamber. Coherent THX instead has top rail free right overhang, upper right wall starts as short upstub below rail, and branching inner trajectory descends from toprail to leftwall plus diagonally down-right to firstbodybar/rightwall. Current chevron/cap construction is unattested whole despite four counters. Native mismatch; left compound retains branch count.",
       "requested_corrections": [
         "Restore THX right upper body courses/contacts: free toprail right end, separate short rightwall upstub, inner descending branch attached to toprail and splitting to leftwall/firstbar-rightwall junction. Preserve lower two fields/two feet and left compound."
+      ]
+    },
+    {
+      "geometry_sha256": "dfa48d4978e1b3879edb3c6321eadbbc58bf7e3f4331737ec48781cdd3d7ce79",
+      "source_json_sha256": "be0a77f2a08a37c9afef82388c0336f6bd9221a34579101785c0d6cfbf47c4ae",
+      "source_png_sha256": "1e3b4f53c66c3e0d91b0d375bea30c563c938d4e46adcdef09256ddd267dd737",
+      "font_sha256": "a25c7a23bbf0b2ad5b1ed542983b53f29b36a6c32273785d73c5b6fac67a9b84",
+      "raster_sha256": "ba5c09ed316864faed26d069596b9d4b278f76d9b8b103e96e43f231217e2217",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Fresh retry2 native/all four enlarged whole specimens/new compiled font and enlarged right compound inspected. Retry restores open upper-right wall/upstub and top rail overhang plus inner roof-linked branching into wall junctions; previous floating chevron/closed rim corrected. However right top fork now joins compound staff continuously, contrary THX detached right fork with separate small compound upstub; other joined-right variants change roof/wall and lower-return construction. Current otherwise THX courses retained. Actual still has lumpy notched upper left body bend and upper-right wall/inner-branch courses."
       ]
     }
   ]

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F0",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1F0.json",
+  "source_png": "design/seal-individual/U3D1F0.png",
+  "source_png_sha256": "129ff907f9de810c1144c8337902bf2cbf9aa1c02650c8c089bebd051d208ee3",
+  "reference_png_sha256": "1ee0175e47fafe196a7c0bcb30a3e8e2e3d67a8418596f05ae545873b446efaf",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F0.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F0-smooth-sharedroots-v1/sources/U3D1F0.json",
+  "source_json_sha256": "3cad91ebfa06c941462d6062c33c223c84961e30bdc15a4d4f2a984328132bf2",
+  "geometry_sha256": "4852c39b533b68419a1e0d187f4aa4f218b7cbff610135856b18d1b0a0216c42",
+  "font_file": "design/quality/proofs/continuation/U3D1F0-smooth-sharedroots-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fbc55c691f40aa908134249f2fa1337236e1d15a9abc8c0c2012d2279f187eab",
+  "raster_file": "design/quality/proofs/continuation/U3D1F0-smooth-sharedroots-v1/U3D1F0-Regular400.png",
+  "raster_sha256": "eafcb367b16329ab44e1130256c488738a27751bcc08287d7b9c57cd825d2667",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      266,
+      -64,
+      758,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both top forks detached, two independent left staff/chevron courses with four free side marks and separate bifurcated right winding. First chevron shoulder and right shared root now smooth through exact original root anchors/endpoints; broad bow and upper winding remainders preserved. All free terminals, detached marks and zero counters unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "ac1a2ff0d4e76da2ab1483753cdf3e49a4f78b37c1dc0acb8217910903994bf3",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "da1bc06c7dd6d4b7abb51d95a8b2aaa09fa406fb218419141842e3baa7e196a1",
+    "actual_font_enlargement_sha256": "f95e8db195570f3e328fddb7fe75df39984ba834b85c0fd44779e9233e1e8fe6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "125ae089f06f832c9fc81e32bab945ac0d96e475d40fd2427a9800a44588fa2a",
+      "source_json_sha256": "06892bdc3c0e8fe6edacb248c07181d4573122fc5c1963bb0e5580a9e68453e2",
+      "source_png_sha256": "129ff907f9de810c1144c8337902bf2cbf9aa1c02650c8c089bebd051d208ee3",
+      "font_sha256": "9633cd2d1a74119dfcc4874a1326a3c4c8828d917dd9caa2f7d7425d82e9e808",
+      "raster_sha256": "b7e3ff0a3d6f18868ac57cbcd219b34bf13c7b0c1425b28db6662db9459303b6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged whole specimens and full/enlarged actual Regular400 inspected. Native coherently matches complete THX: both top forks detached, two separate left staff/chevron courses with four detached side marks, and independent bifurcated right winding. Actual first chevron shoulder and right winding bifurcation show tracing steps/offset bumps. Smooth only these junctions through the original shared-root anchors while preserving all original terminals, broad winding remainder, detached marks, fork gaps and zero counters."
+    }
+  ]
+}

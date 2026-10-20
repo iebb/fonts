@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D21C",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D21C.json",
+  "source_png_sha256": "cd53ed7f25d1856b0f5e978257eb6345e8c2c979d308bd72a3f71989a6c0745d",
+  "source_png": "design/seal-individual/U3D21C.png",
+  "reference_png_sha256": "1fd78bd9d42860e7c7d4cb099f850075fd7a385187f9ca523e731b0b580a3bde",
+  "reviewed_specimens": [
+    "THX",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "QJZ"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D21C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D21C.json",
+  "source_json_sha256": "b2d1adeb49e57fb741b9715e36fd505f67361273158043e24ee8096a8766ee8e",
+  "geometry_sha256": "32a2b4996df4641ca20f0c4dc5bec2cb087668d40f5eebd2e68ffaf2599cf046",
+  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D21C-Regular400.png",
+  "raster_sha256": "3d604ab3fe94235c0f2c59d82d75369a50dfcb21f917ae134fbe4e65b00f3994",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      221,
+      -64,
+      803,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+    "CCZ/QJZ unavailable; inspected full THX and DYC. Native follows coherent THX detached forks, left long winding central course with four separate side marks, right paired upper bends, two free middle slants and two long lower separated legs.",
+    "Enlarged actual confirms all four left marks and all six right free courses, upper/bottom gaps and no unintended counters or contacts. Constant-width curves and rounded tips remain consistent."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1D0",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D0.json",
-  "source_png_sha256": "6daeefaa7aa70c8b358a84364b9b41728f5f99629da74f5a64225d39910cfe76",
+  "native_review_report": "design/seal-individual/reviews/U3D1D0.json",
   "source_png": "design/seal-individual/U3D1D0.png",
+  "source_png_sha256": "6daeefaa7aa70c8b358a84364b9b41728f5f99629da74f5a64225d39910cfe76",
   "reference_png_sha256": "268e598b3e7ff34143d91edef59c2bbbf3b10bc3a6307f5ea4f5b6522ee0b9ec",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1D0.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-CAD0-retry2/sources/U3D1D0.json",
-  "source_json_sha256": "3b33585da0618cb822266aeced7eee2da4793ef27f5f08c430f0cd04fe3a94ed",
-  "geometry_sha256": "cb88f3234ff8f2a6cc0c7a4bfeaf85b2b7b0bb61e93537d08f0b1ca9adef803d",
-  "font_file": "design/quality/proofs/continuation/review-CAD0-retry2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "bcd861672fcef35108b5a4cd57e7d440ee1b401a26b9cb5b1675687eefc8e841",
-  "raster_file": "design/quality/proofs/continuation/review-CAD0-retry2/U3D1D0-Regular400.png",
-  "raster_sha256": "b36b4e62eba37b1b821d17a388a0afd8277ecb4df8537a483baedb3f748ebfb2",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1D0-detached-sidelegs-v1/sources/U3D1D0.json",
+  "source_json_sha256": "ea6bb26172843f39c432de81b2c0713f2bfa41214fb1eba7b6dc227c8850395a",
+  "geometry_sha256": "7091d2b8154f4dc0ba80ce871d0b0f983b0c71a95553c198ad968e9341fbab06",
+  "font_file": "design/quality/proofs/continuation/U3D1D0-detached-sidelegs-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "24c33292b14a12adb8ef36fcceff4fdf73eeb9835ba7c78b912b438fcfa10062",
+  "raster_file": "design/quality/proofs/continuation/U3D1D0-detached-sidelegs-v1/U3D1D0-Regular400.png",
+  "raster_sha256": "4fcbf1d43d2e669cc9d1ecc16aec98f71b6d5f6a62f2a0ab923da4f4c9d3edc7",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,22 +34,21 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Fresh retry2 native/all four enlarged whole specimens/new actual and enlarged lower legs inspected. Correct THX gap between upper double trident and detached dash restored. Right outer/inner winding compound and both free top forks fit THX. But lower left three descending courses now all join lower header; THX center staff joins header while both outer side marks are detached. QJZ all-joined lower group also joins upper-left fork unlike current; CCZ only right side joins. Current whole still mixes contacts. Actual lower header has left round terminal spur and right shoulder tracking knots."
-  ],
-  "requested_corrections": [
-    "Detach both lower-left outer side marks from lower header, preserving central staff-to-header contact and exact lower terminals, matching whole THX.",
-    "Smooth bounded lower header shoulders/junction remnants with no unintended terminal spurs."
-  ],
+  "notes": "Full unchanged native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX free top forks, left paired U/staff, detached dash and lower header retained. Both lower outer legs now detach below the header while central staff remains joined; their exact original lower cubics and terminals preserved. Right winding compound, inward stub/return overhang, long tail and all open channels retained. Native joined-side-leg mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "e00b7748b563ede0c5f560772eb308ebc064a5c27246faebf074ba392fc76904",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
   ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "62a6ef50e42d57caa5211ac3cfd3f6b1c2689937620016b1ef08ef9e37ecf360",
+    "actual_font_enlargement_sha256": "7f977d7dd58081db8a50f0f66f3ee5a1b8ab7309995c89e5cf2564189a6bab5d"
+  },
   "previous_geometry_reviews": [
     {
       "geometry_sha256": "6a37e18c442102b92eabebbb45289df3d9ce4650b080e9b716a514c16cd59e9c",
@@ -61,6 +60,18 @@
       "notes": "Full native, all four complete/enlarged whole references and full/enlarged actual Regular inspected. Native and actual attach the left middle double-U central staff directly to the short dash below. Complete THX has a clear gap above this detached dash, while its upper top fork stays free from the double-U. Other complete variants with joined upper fork or coupled right body do not support the current whole mix. Restore only the gap between lower U/staff and the separate dash, preserving both top fork gaps, two middle U levels, detached bottom three-leg header and independent right winding return with inner elbow, inward rail and long tail.",
       "requested_corrections": [
         "Full native, all four complete/enlarged whole references and full/enlarged actual Regular inspected. Native and actual attach the left middle double-U central staff directly to the short dash below. Complete THX has a clear gap above this detached dash, while its upper top fork stays free from the double-U. Other complete variants with joined upper fork or coupled right body do not support the current whole mix. Restore only the gap between lower U/staff and the separate dash, preserving both top fork gaps, two middle U levels, detached bottom three-leg header and independent right winding return with inner elbow, inward rail and long tail."
+      ]
+    },
+    {
+      "geometry_sha256": "cb88f3234ff8f2a6cc0c7a4bfeaf85b2b7b0bb61e93537d08f0b1ca9adef803d",
+      "source_json_sha256": "3b33585da0618cb822266aeced7eee2da4793ef27f5f08c430f0cd04fe3a94ed",
+      "source_png_sha256": "6daeefaa7aa70c8b358a84364b9b41728f5f99629da74f5a64225d39910cfe76",
+      "font_sha256": "bcd861672fcef35108b5a4cd57e7d440ee1b401a26b9cb5b1675687eefc8e841",
+      "raster_sha256": "b36b4e62eba37b1b821d17a388a0afd8277ecb4df8537a483baedb3f748ebfb2",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Fresh retry2 native/all four enlarged whole specimens/new actual and enlarged lower legs inspected. Correct THX gap between upper double trident and detached dash restored. Right outer/inner winding compound and both free top forks fit THX. But lower left three descending courses now all join lower header; THX center staff joins header while both outer side marks are detached. QJZ all-joined lower group also joins upper-left fork unlike current; CCZ only right side joins. Current whole still mixes contacts. Actual lower header has left round terminal spur and right shoulder tracking knots."
       ]
     }
   ]

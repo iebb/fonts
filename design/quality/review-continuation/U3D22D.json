@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D22D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D22D.json",
+  "source_png_sha256": "3db8d1aa3a555964ea2a211628f255dc5ced8998bdf3f8f78497ae9b3e5e8795",
+  "source_png": "design/seal-individual/U3D22D.png",
+  "reference_png_sha256": "f3bed64992be5b9369a51b60b46a2cd45a3428595b4c48e6eb4cad829bc6a5b3",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D22D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D22D.json",
+  "source_json_sha256": "f16c43ea392b67117d26620c337947f97a0458112ac7f9b0f7314d6ba28db844",
+  "geometry_sha256": "44b6789f1851b78cdcc7a29f71dd455dca6c8eb3b8877edb485b623c87c116b7",
+  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D22D-Regular400.png",
+  "raster_sha256": "531731eecc56c85d4550ac3f7733592a01c19bd39b382686d8d1e2e06abf8bc7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      334,
+      -64,
+      690,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+    "Native uses coherent THX detached forks/free short rightward top flag and lower separate barred oval/small oval/Ustaff. But inside the crossed top rectangle, upper/lower marks are detached dots rather than THX short down/up stubs attached respectively to roof/base. Four detached dots belong to CCZ, whose right fork joins the flag; that whole construction is absent here.",
+    "Actual additionally loses the RIGHT detached dot entirely and replaces the central true X with two Y forks joined by a short horizontal neck. Enlarged actual confirms blank right field and lower dot touching base. The three-dot result is a tracing loss, separate from native contact mismatch."
+  ],
+  "requested_corrections": [
+    "Restore one coherent THX crossed enclosure with attached roof downstub/base upstub plus two free side dots, true shared central X and four open triangular fields. Preserve detached forks/flag and lower independent components."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

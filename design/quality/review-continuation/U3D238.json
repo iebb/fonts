@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D238",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D238.json",
+  "source_png_sha256": "9385d53cca3335d7233fc68965abc7c3db89c2f47729f2b2cf1f1a1d3079aa64",
+  "source_png": "design/seal-individual/U3D238.png",
+  "reference_png_sha256": "6dda4399ec2bb5f9903ce904f313b66299bb2e979a4a69cb3f24ec36aa1837fe",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D238.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtieth-eight/sources/U3D238.json",
+  "source_json_sha256": "465d37c5a24ca9a122cd509ffa0d5b306697541dab485d4f60c64676ee034295",
+  "geometry_sha256": "248b4a2c3cf73ad59279c3131843dffb5ceb1a02bcabdbf113577afcde2010ab",
+  "font_file": "design/quality/proofs/continuation/review-thirtieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
+  "raster_file": "design/quality/proofs/continuation/review-thirtieth-eight/U3D238-Regular400.png",
+  "raster_sha256": "0960614b985eaf86169e320198b03cf09345e09d686bcb37ad77cbd9062eb825",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      282,
+      -64,
+      742,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
+    "Native matches coherent THX detached forks, TWO separate true left X marks, and right independent open spiral course branching into two long lower legs. No counters.",
+    "Actual loses two arms of UPPER X, leaving only an inverted V; LOWER X loses its upper-left arm, becoming a three-arm Y. Enlarged actual proves missing arms, not a thin whole-image display artifact. Native retains every missing arm."
+  ],
+  "requested_corrections": [
+    "Recover all four native-coordinate arms of BOTH left crosses with genuine shared intersections, preserving each X outer terminals and gap between crosses, and leaving right spiral/legs untouched."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

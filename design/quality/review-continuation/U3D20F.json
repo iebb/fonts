@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D20F",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D20F.json",
+  "source_png": "design/seal-individual/U3D20F.png",
+  "source_png_sha256": "d0162525389163aa10559173cdc0912e09b2feda004550a44144d0b8ded088d2",
+  "reference_png_sha256": "724e1bba537659c037a6f98a7ff12fcc1ffe8295ae32a3dba34ac38444590745",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D20F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D20F-smooth-descending-staff-v1/sources/U3D20F.json",
+  "source_json_sha256": "bdb154b28c9a310f78094cbb1bf12674e8080ef768aef762afe2e0135320850a",
+  "geometry_sha256": "0f858d205c647be48b09ad76570855e85ae1812bcc8b1be941fe02c4a9a9f32b",
+  "font_file": "design/quality/proofs/continuation/U3D20F-smooth-descending-staff-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a4d08aef920c8a7a9f6ed027e523fd3d57ae12d84bef72d0cf31bbe2e9be4dc5",
+  "raster_file": "design/quality/proofs/continuation/U3D20F-smooth-descending-staff-v1/U3D20F-Regular400.png",
+  "raster_sha256": "26531433eef05555f4bd1d86d980a9e7c905e1d54c5fa15f31bfed078b158a9f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      308,
+      -64,
+      716,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX retained: two detached forks, two-field left compound, projecting upper and middle rails on long descending curved staff. Repeated offset necks removed by smooth curve through exact original shared lower rail anchor/upper bend/lower endpoint; remaining six paths and both fields unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "e5f5019baec4cfed173d168c09fc7b55ccd1f4e8859493bdd499f899e77337a0",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "a870fee7c4ab9e35c3bce95fb0298769fe9fbc0102af2a197ea3d7bceed243cd",
+    "actual_font_enlargement_sha256": "4b87266f8c6a5b5e2fb5c09aee8353022c70e85bdc7cb0e570102607cda85a03"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "143595919fc50b02250199748dd02206cf00e16f74e179353cc489d29f7bb247",
+      "source_json_sha256": "5bf0ab7bee0f72b024a143d887c679829d99d610f905a6c08fe61ebede094533",
+      "source_png_sha256": "d0162525389163aa10559173cdc0912e09b2feda004550a44144d0b8ded088d2",
+      "font_sha256": "a16e65bdd1f1df1bdb19f8021e222e57f5a69ae94793ee3f805390857adc0fd0",
+      "raster_sha256": "6b2a99e695ac242c4b23d151922f42b32d130af230cff85c868ffe678eed7f57",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four enlarged whole reference specimens, full actual Regular400 compiled raster, and enlarged relevant component crops. No other weight is approved.",
+        "Native matches THX whole form: detached forks; two closed left body fields, upper and middle right-overhanging rails, lower rail meeting continuous bowed descending staff.",
+        "Enlarged actual central staff between the middle bar and lower return has repeated lateral steps, necks and bulges; tail also retains uneven tracking bends. This is absent from the smooth native trajectory and inconsistent with constant-radius smooth Gothic construction."
+      ]
+    }
+  ]
+}

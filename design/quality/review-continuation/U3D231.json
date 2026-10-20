@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D231",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D231.json",
+  "source_png_sha256": "65dba37a78b8707480f91dfb507a4b5f36d1bf0c27765791f5837448e4bd3aa0",
+  "source_png": "design/seal-individual/U3D231.png",
+  "reference_png_sha256": "5fc843b05c51456022bdd97f29d4b8606cf83a9acc4092c2ca652419cb9a4e9e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D231.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtieth-eight/sources/U3D231.json",
+  "source_json_sha256": "abc65bb38f3dba70c4ee11ce96a2ef77e6d72c29dc32104657d7fc425d116d75",
+  "geometry_sha256": "fb57eb1251f5ca2b2aee56b88952c76d2b4d5f1a2d76e622147e9ca155aac5dc",
+  "font_file": "design/quality/proofs/continuation/review-thirtieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
+  "raster_file": "design/quality/proofs/continuation/review-thirtieth-eight/U3D231-Regular400.png",
+  "raster_sha256": "170208b43bf289a33d99c8d92df0db7de6e483fed026e7fedf147b915e582d68",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      183,
+      -64,
+      841,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
+    "Native matches coherent THX: two detached upper forks and two separate lower bowed two-leg compounds, each with short upward/rightward header extension and shorter inner leg. Four free lower endpoints; no counters.",
+    "Enlarged actual paired-compound crop reveals flat offset shoulder steps where each long outer bow meets its upward header/inner-leg junction. Native has continuous smooth head arcs. Other trajectories and gaps remain recognizable."
+  ],
+  "requested_corrections": [
+    "Smooth only both lower compound head/shoulder transitions through original branch anchors, preserving all header tips and four leg terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

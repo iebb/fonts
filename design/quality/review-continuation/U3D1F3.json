@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1F3",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F3.json",
-  "source_png_sha256": "2616baa47d5f76b0ec0a7f768a3a41d039be7dcc51a8304804488b2d76cd2f62",
+  "native_review_report": "design/seal-individual/reviews/U3D1F3.json",
   "source_png": "design/seal-individual/U3D1F3.png",
+  "source_png_sha256": "2616baa47d5f76b0ec0a7f768a3a41d039be7dcc51a8304804488b2d76cd2f62",
   "reference_png_sha256": "586b71d4213e7dfc212b1d846209fb48388ac911d8b883d59dcf7166b9bdfa4b",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1F3.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F3.json",
-  "source_json_sha256": "1888b2b06ec84ea09cf27a8c2baf6e29c57a0daa64cf4a29915bfce25d0c1da6",
-  "geometry_sha256": "a5488fa987891bb3288d1e10c0b8e1c20a247df0e04e30272ee911476de5acc6",
-  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F3-Regular400.png",
-  "raster_sha256": "1dc12063619b8747fe770cdfae1a6cd41b634369915cf3b90e9bb95f62cd48aa",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F3-flush-inner-upright-v2/sources/U3D1F3.json",
+  "source_json_sha256": "710237297e8ff3338cf9f516212af8b8bc536cb33d5184336e37dc89eae8d625",
+  "geometry_sha256": "a7c2aef241d509a5000ef81de8bc791db8b2c790d53c9d34847659a811b8548d",
+  "font_file": "design/quality/proofs/continuation/U3D1F3-flush-inner-upright-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fadb9682819f60d59be3c42fccc54782252a6cb58f6f69605456356278f478ff",
+  "raster_file": "design/quality/proofs/continuation/U3D1F3-flush-inner-upright-v2/U3D1F3-Regular400.png",
+  "raster_sha256": "9c1228ee9133dca62481f598f7a7ab9dfbc4fc962ce6a3ddb22740d071222f24",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,20 +34,43 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual and enlarged right upper compound inspected. Native omits roof\u2192inner branch central upright and free left inner branch\u2192left wall contact, leaving unsupported floating inward hook atop right wall and only two lower counters. THX has those links forming one small upper-left field and triangular field plus two lower fields (four total). Native right fork also joins roof, unlike THX detached pair; connected variants still retain upper branch contacts/counters. Left fork/side marks/two legs and right two bottom terminals otherwise retained."
-  ],
-  "requested_corrections": [
-    "Restore central roof\u2192inner branch link and left branch\u2192left wall contact, retaining distinct right wall upstub and roof overhang, to recover four THX body fields.",
-    "Detach right top fork from roof, preserving coherent THX whole contact structure and both lower terminals."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX both top forks detached; right compound restored header-to-innerapex upright FLUSH at header, branch-to-leftwall contact, separate rightwall upstub and roof right overhang. Unsupported temporary above-header projection removed by exact bounded source14 start334 to353.3 clip; all other v1 paths unchanged. Four body fields, left independent staff/two legs/two detached side marks, right inward lower leg and winding tail retained. Native missing links/joined rightfork mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "6e3783a99ffd7e41f965bd81c6279ca63427e3179c66324c9519a860b18bfdf4",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "1e354fadb624cdc2a8fc11a2eb2c1b733895cc939b75755def6c23b6156d4a6e",
+    "actual_font_enlargement_sha256": "2b7c6cdddc54bb17089459c10175b727e8020250a94a12ae9b3bf711c0babb67"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a5488fa987891bb3288d1e10c0b8e1c20a247df0e04e30272ee911476de5acc6",
+      "source_json_sha256": "1888b2b06ec84ea09cf27a8c2baf6e29c57a0daa64cf4a29915bfce25d0c1da6",
+      "source_png_sha256": "2616baa47d5f76b0ec0a7f768a3a41d039be7dcc51a8304804488b2d76cd2f62",
+      "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+      "raster_sha256": "1dc12063619b8747fe770cdfae1a6cd41b634369915cf3b90e9bb95f62cd48aa",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full native/all four whole specimens/full actual and enlarged right upper compound inspected. Native omits roof\u2192inner branch central upright and free left inner branch\u2192left wall contact, leaving unsupported floating inward hook atop right wall and only two lower counters. THX has those links forming one small upper-left field and triangular field plus two lower fields (four total). Native right fork also joins roof, unlike THX detached pair; connected variants still retain upper branch contacts/counters. Left fork/side marks/two legs and right two bottom terminals otherwise retained."
+      ]
+    },
+    {
+      "geometry_sha256": "804c062253295c20f23ac3efde622b4fdda02526af70369ab00d1289b8334ea8",
+      "source_json_sha256": "af73df44dfa97e59061b4734ee03adce2336b616d47d21bb72efca5b29fa9ce9",
+      "source_png_sha256": "2616baa47d5f76b0ec0a7f768a3a41d039be7dcc51a8304804488b2d76cd2f62",
+      "font_sha256": "78aa98b0c829d2581945b84634288c034141ab619009eabb27e79af627045de8",
+      "raster_sha256": "9cab60a92e22846dd0cf39c711bc4a96cdeca150f799f35e0a9abc5f59553e77",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX missing roof-to-innerapex upright and left branch-to-wall contact restored, four fields and detached right fork now clear. However new stroke14 starts source y334 above header y353.3, producing an unsupported central upstub ABOVE the roof. Complete THX upright begins flush at the header and descends to inner apex only. Clip only stroke14 upper endpoint to its header contact near source(644.498,353.3), keeping four fields, right wall separate upstub, roof right overhang, fork gap, left compound and all other exact paths unchanged. Enlarged whole THX confirms no above-header central projection."
+    }
   ]
 }

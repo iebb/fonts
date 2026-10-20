@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1E5",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E5.json",
-  "source_png_sha256": "c36fa290cf09ebc793969facc851f24b4e403fb963578c48ec50edd4028003b5",
+  "native_review_report": "design/seal-individual/reviews/U3D1E5.json",
   "source_png": "design/seal-individual/U3D1E5.png",
+  "source_png_sha256": "c36fa290cf09ebc793969facc851f24b4e403fb963578c48ec50edd4028003b5",
   "reference_png_sha256": "fa9d85adac7a69c3af48f62e3aa1ccb732b43992aa298180b7f5750764bfd27f",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E5.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E5.json",
-  "source_json_sha256": "d7e5cb4e45d0d5e3d683897b5ca4cbe899e9a98b0ce621f6362a7a585b6b8f59",
-  "geometry_sha256": "781b4878b2c2770fb54e06d202118b8d14f88c4d0145b36d274604870a01a365",
-  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E5-Regular400.png",
-  "raster_sha256": "62388d1be5048328419946460c201bffb3bdbc33d40cb3406caab18529d95a1d",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E5-straight-dividers-smoothshoulders-v1/sources/U3D1E5.json",
+  "source_json_sha256": "694eb896f6695e36b283990078e9e49fe133305a12cba7281c701e368710bf77",
+  "geometry_sha256": "7199ef4cd0489205edc94f426306303c623ca921da782348c55c4d1866dc747d",
+  "font_file": "design/quality/proofs/continuation/U3D1E5-straight-dividers-smoothshoulders-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9818045ba790a413b3c0c39911460a5474a87cde5ecc21794c9d4ac39f8b79dd",
+  "raster_file": "design/quality/proofs/continuation/U3D1E5-straight-dividers-smoothshoulders-v1/U3D1E5-Regular400.png",
+  "raster_sha256": "0aaabc100cd73212284521edb9fe7e7780631f002238ca6faa5f962ae6d17cbe",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual/enlarged paired returns inspected. Native matches THX both forks detached and independent stacked one-field slanted returns with full left tips, straight interior diagonal dividers. Actual retains topology but dividers are bowed into offset S courses and upper shoulders have distinct steps at divider roots, contradicting clean smooth native curves/straight divider construction."
-  ],
-  "requested_corrections": [
-    "Straighten each interior divider between exact original wall junction endpoints; smooth only adjacent outer shoulder transitions through original anchors and extrema, retaining two counters and all free terminals."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both forks free above two separate winding lobes, each with one field and two open left tips. Both internal dividers now straight between original contacts; upper shoulders smoothed through original extrema and endpoints. Lower long tail, both lobe gaps and two fields retained with consistent pen.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "3eaa25fa5e2e79a73d0b8fac611e557c6eb7d453b93e560a0752cf1a743941d8",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "453e19f56c0b3b38a1c1a95dc35773d4f79a9337ed2fcf6b1f0f6d336a034ebc",
+    "actual_font_enlargement_sha256": "fbc89e1b2304a70a83902932e0e819f5b046a2084aae06188edbeaa8b38d6fa5"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "781b4878b2c2770fb54e06d202118b8d14f88c4d0145b36d274604870a01a365",
+      "source_json_sha256": "d7e5cb4e45d0d5e3d683897b5ca4cbe899e9a98b0ce621f6362a7a585b6b8f59",
+      "source_png_sha256": "c36fa290cf09ebc793969facc851f24b4e403fb963578c48ec50edd4028003b5",
+      "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+      "raster_sha256": "62388d1be5048328419946460c201bffb3bdbc33d40cb3406caab18529d95a1d",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole specimens/full actual/enlarged paired returns inspected. Native matches THX both forks detached and independent stacked one-field slanted returns with full left tips, straight interior diagonal dividers. Actual retains topology but dividers are bowed into offset S courses and upper shoulders have distinct steps at divider roots, contradicting clean smooth native curves/straight divider construction."
+      ]
+    }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D213",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D213.json",
+  "source_png": "design/seal-individual/U3D213.png",
+  "source_png_sha256": "fd6b89febf50cbd1ffa8a8e41ef58d480f828d4b44a9e046412e52b2426bf24e",
+  "reference_png_sha256": "74ed2c8f084ee5c558476c336f38dd1cbf2f537afdae82f012bc0322a082e630",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D213.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D213-single-neck-four-fields-v1/sources/U3D213.json",
+  "source_json_sha256": "3fee4f9a156fb001112a853d34f273a9b5b88789262aa1c3a8f9b0ff3f2b8885",
+  "geometry_sha256": "f013c0c422031c455f4f2f2b14dab5f03ac99b3174b86ce49db4837157163761",
+  "font_file": "design/quality/proofs/continuation/U3D213-single-neck-four-fields-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a86c3f40080c33b50999406776fb22d6b9a1d3567e8da0fee3a72cc1a7f286bb",
+  "raster_file": "design/quality/proofs/continuation/U3D213-single-neck-four-fields-v1/U3D213-Regular400.png",
+  "raster_sha256": "ccd58ba7748975b31440e6bc03833f6b32341d0624b81e7f49921d6937eb981a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      283,
+      -64,
+      741,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: two detached forks and long open arch retained; upper two-field oval now connects by SINGLE short central neck to lower oval header. Descending leg pair begins at that header, preserving exact lower remainders/terminals and two lower fields, four total. Unsupported extra neck field removed while all original outer courses/endpoints retained. Native five-field mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "04a74dc4424e431282b780f46135f8581fafac298066102fd29f513783c5d4ce",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "1fd32d9bc591b9208fb3019dc46c85719d6da15730ebaa719a479d4b8a6f5b65",
+    "actual_font_enlargement_sha256": "8b22add5a6d6a68561460527bd5a3e6912f6895e4875aef05aa47b78b3dd114a"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "4fc574e411f27e875f36ac042228435629b754e8bdc54d25d93639d0a0997cbd",
+      "source_json_sha256": "9e5fd8721c3bb8c61f8b364c2d6a0de28dd71b15781381406b23d08d1cae3906",
+      "source_png_sha256": "fd6b89febf50cbd1ffa8a8e41ef58d480f828d4b44a9e046412e52b2426bf24e",
+      "font_sha256": "1ee1839cdd49847162f5d85837de313b78314aad901f7f0c5c22e5f2c37acf55",
+      "raster_sha256": "f04170547e414edce4bd64f1abd2bc452df61b47e1ab0757a710469d454f2d13",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, and full/enlarged actual Regular400 inspected. Native and actual create an unsupported extra narrow neck field using two parallel stems between the upper oval and lower oval. Complete THX instead has one short central neck from the upper two-field oval to the lower oval header; the two descending legs start at that lower header and create the two lower fields. Restore this single neck and preserve four total fields, both free top forks, long outer roof, lower oval and all four bottom terminal positions. No complete alternate witness supports the current five-field compound."
+    }
+  ]
+}

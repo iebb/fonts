@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D209",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D209.json",
+  "source_png": "design/seal-individual/U3D209.png",
+  "source_png_sha256": "3b532dd3d3e574269c67d3fee630f3b801589f3de5944e9a4aae63666b5f04c6",
+  "reference_png_sha256": "6d13bcd2417713fb0aaace365ea370672fd438b7583a5891260408ab8d8bec6c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D209.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D209-smooth-winding-rails-v1/sources/U3D209.json",
+  "source_json_sha256": "ba7c235a3e57310d87916deb04558c66b61aa8950f0f7829a0d24fa1b9e9cabb",
+  "geometry_sha256": "98e18c2c131055eae57db405630b33cf72b84c84052446eeeca8035b7f2deae4",
+  "font_file": "design/quality/proofs/continuation/U3D209-smooth-winding-rails-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bb42711d139f5d01a4afacf4f82ef8ac4ec2dda1fff5f520b8094d169023a6c2",
+  "raster_file": "design/quality/proofs/continuation/U3D209-smooth-winding-rails-v1/U3D209-Regular400.png",
+  "raster_sha256": "c4669af56c6c05ad9d968cd2380847a376155bdfe87709345f8390b00a28148c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      267,
+      -64,
+      757,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX retained with both forks detached, long three-bend winding and separate lower horizontal dash. Repaired horizontal rails and descending return are now smooth through retained original bend anchors/endpoints; no closed fields and all free tips/gaps unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "c09dfb9904011082949a6ce9135eebe4b6e43a2568a969220ecdb1a6c489ca56",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "43a6c354498faa401e716bdada0eb5ad3a2ade59e2a231f92ccd9baa5e0dc08d",
+    "actual_font_enlargement_sha256": "492a9c06f8dcefa4da240b461180016f2e7b2625f0a56b8759dee0ab4c46fd86"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d57fe4b4df5cb2cfc4cdb38b258ea275c22dcab689015bb56d0eb911e50681db",
+      "source_json_sha256": "78da107c8fdac2988c1949e0ffe9bc1b3b6fc41ee86ee0ffaeb2cbeb2faa3669",
+      "source_png_sha256": "3b532dd3d3e574269c67d3fee630f3b801589f3de5944e9a4aae63666b5f04c6",
+      "font_sha256": "a16e65bdd1f1df1bdb19f8021e222e57f5a69ae94793ee3f805390857adc0fd0",
+      "raster_sha256": "c9337fead1729df2488ccc58d4bc29c4a0f1bf6309db83c331887cef990595a5",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four enlarged whole reference specimens, full actual Regular400 compiled raster, and enlarged relevant component crops. No other weight is approved.",
+        "Native follows coherent THX: both trident forks detached, continuous winding course with upper upstub and descending lower terminal, one free horizontal inner mark, no closed counters. Enlarged fork crop confirms both central uprights exist; whole-image rendering can hide them.",
+        "Actual font retains identity but upper winding rail has a dip/raised patch before its right return; the lower return into the descending terminal has a flat stepped shoulder. These centerline tracking waves are absent from the smooth native drawing."
+      ]
+    }
+  ]
+}

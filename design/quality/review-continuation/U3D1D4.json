@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1D4",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D4.json",
-  "source_png_sha256": "5a6d6d16da6537bd72a4e94739429e948af6994d1b2e50779b6834fff1cc6dec",
+  "native_review_report": "design/seal-individual/reviews/U3D1D4.json",
   "source_png": "design/seal-individual/U3D1D4.png",
+  "source_png_sha256": "5a6d6d16da6537bd72a4e94739429e948af6994d1b2e50779b6834fff1cc6dec",
   "reference_png_sha256": "14e4b4ce305c5309ba8f877a991bbd5db5ae3600dd2b499e2d003bffa785ed54",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1D4.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentythird-eight/sources/U3D1D4.json",
-  "source_json_sha256": "a11f649d83d271ab58262c2074698f0ef99ae1f502a23a5fbb5b243b9f169dcd",
-  "geometry_sha256": "9fa06f2ffa9cb0064b64b5f999630c75ad73ca9ed3be5c09f9280de13da3ff69",
-  "font_file": "design/quality/proofs/continuation/review-twentythird-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
-  "raster_file": "design/quality/proofs/continuation/review-twentythird-eight/U3D1D4-Regular400.png",
-  "raster_sha256": "595c53cfdb0c1e9e941506802a1520f5fc97e03f93394d70ef65301ac5e2a37b",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1D4-restored-third-return-v1/sources/U3D1D4.json",
+  "source_json_sha256": "e720dae35e9b73b6bdef5f06401fdae80ccbc94394f6c79a1cae38655d7c9d95",
+  "geometry_sha256": "e6ed8d493eb3e1eddcf8b06407e7a59cc38645e37cc6b1959acfd8bc3b7cf291",
+  "font_file": "design/quality/proofs/continuation/U3D1D4-restored-third-return-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8ff175e9767f0dbbb8e558ce6c69091fdfe2d9f9c9756d685632ff0d3c1202ec",
+  "raster_file": "design/quality/proofs/continuation/U3D1D4-restored-third-return-v1/U3D1D4-Regular400.png",
+  "raster_sha256": "0c81085c29bde8a8d50181e5f5286b7180935b0cd905c62b3ea3a52ad7dbbc90",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four enlarged whole specimens/actual font and enlarged right compound inspected. THX has upper outer turning course, inner bent course, and an additional leftward return from their lower shared junction, followed by a detached lower dash. Native/font omit that third leftward return, leaving only a Y-shaped junction. Left three-bar staff/inner trident and both detached top forks otherwise match THX."
-  ],
-  "requested_corrections": [
-    "Restore missing leftward return from existing right upper outer/inner shared junction, above unchanged detached dash. Preserve both original upper courses, long descending staff, left compound and both detached forks."
-  ],
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Complete THX detached top forks, left lower fork/staff with three crossbars and right independent winding return retained. Missing third leftward course now extends from the existing right shared return junction above the unchanged detached lower dash. All twelve original paths, inner elbow, long outer tail, zero counters and all gaps preserved; native omitted-course mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "3407ddc494d104578f132856153b848eac7bfc9f8cee960dac7ee2bffee3e0e7",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "f759c571772a09c2f4244597eefdafe885ed0eda43e218d893db15f62d13c78b",
+    "actual_font_enlargement_sha256": "02c76a3922f868971b8f99b00a38ee6130cfda2a67f8119b70cb2dbeb7372368"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "9fa06f2ffa9cb0064b64b5f999630c75ad73ca9ed3be5c09f9280de13da3ff69",
+      "source_json_sha256": "a11f649d83d271ab58262c2074698f0ef99ae1f502a23a5fbb5b243b9f169dcd",
+      "source_png_sha256": "5a6d6d16da6537bd72a4e94739429e948af6994d1b2e50779b6834fff1cc6dec",
+      "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
+      "raster_sha256": "595c53cfdb0c1e9e941506802a1520f5fc97e03f93394d70ef65301ac5e2a37b",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full native/all four enlarged whole specimens/actual font and enlarged right compound inspected. THX has upper outer turning course, inner bent course, and an additional leftward return from their lower shared junction, followed by a detached lower dash. Native/font omit that third leftward return, leaving only a Y-shaped junction. Left three-bar staff/inner trident and both detached top forks otherwise match THX."
+      ]
+    }
   ]
 }

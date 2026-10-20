@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1E8",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E8.json",
-  "source_png_sha256": "98b1b601be82fc9ddb74736d470176a0c6a666f8a6ad511fcb04314f3edd0abf",
+  "native_review_report": "design/seal-individual/reviews/U3D1E8.json",
   "source_png": "design/seal-individual/U3D1E8.png",
+  "source_png_sha256": "98b1b601be82fc9ddb74736d470176a0c6a666f8a6ad511fcb04314f3edd0abf",
   "reference_png_sha256": "3ffb94ca69daebf0755bb1944cf26f8ad93dcb0e27e19a7e841026f59478d38c",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E8.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E8.json",
-  "source_json_sha256": "8c310c62b4eeea0d8191b84953df97231df85871ab253bb51df29233cfc99ed4",
-  "geometry_sha256": "b9e9176b008f5b8604240f7ae72c8dd4c450fe9845dd34a580f6e02241cd6705",
-  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E8-Regular400.png",
-  "raster_sha256": "279a762d50bc73467cebe98244202cfe0208746dc10fcb3c12c9fb47b6054be2",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E8-smooth-thirdrail-roots-v1/sources/U3D1E8.json",
+  "source_json_sha256": "ff6ed2bfcf10997b3743c3a8511a2f9951d91c5c10e744f15879b0b6d612ab91",
+  "geometry_sha256": "812e6c0520d110052d89cb46bb0c31a4d7c7d45111a2cfcb910d905139c02125",
+  "font_file": "design/quality/proofs/continuation/U3D1E8-smooth-thirdrail-roots-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4b3c901c59a99943f0b1dcf99bc08abcc466e8bffc30f3b70b0db31367ff8962",
+  "raster_file": "design/quality/proofs/continuation/U3D1E8-smooth-thirdrail-roots-v1/U3D1E8-Regular400.png",
+  "raster_sha256": "90f5db88a430d864cca1dfeca28e5fb9eba1a3c01e3d34bb8dba64b65ea2450f",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual/enlarged third rail inspected. Native coherent THX both forks detached, three rising curved rails with free upturned right tips, lower rail branches into bowed left descent and winding right descent. No counter. Actual retains topology but third rail has conspicuous step/notch at left descending staff root and small flat offset at right descent root, unlike continuous native bow."
-  ],
-  "requested_corrections": [
-    "Smooth only third rail through exact two descending branch anchors and original free terminals/envelope; retain both branch courses and all upper rails/fork gaps."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both top forks free above three independent rising rails; third rail carries two descending branches. Both branch roots smoothed through original contact anchors with exact long branch remainders and terminals retained. All rail gaps, right upturned rail tips, long left descent and right winding tail stay intact; zero enclosed fields and consistent monoline strokes.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "01ea32fd17f492b0b2019752025a442a9d2821a2633217e84b2cec69c0b442a1",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "6d16f6105ac617c3ecd6c6cf43e27a1800bbd1446e092e8080c8ee055da423b0",
+    "actual_font_enlargement_sha256": "916ac17d2f25cfe4a65b47b555260e865b17b78eda98a54820beb07706cf6b6c"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b9e9176b008f5b8604240f7ae72c8dd4c450fe9845dd34a580f6e02241cd6705",
+      "source_json_sha256": "8c310c62b4eeea0d8191b84953df97231df85871ab253bb51df29233cfc99ed4",
+      "source_png_sha256": "98b1b601be82fc9ddb74736d470176a0c6a666f8a6ad511fcb04314f3edd0abf",
+      "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+      "raster_sha256": "279a762d50bc73467cebe98244202cfe0208746dc10fcb3c12c9fb47b6054be2",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole specimens/full actual/enlarged third rail inspected. Native coherent THX both forks detached, three rising curved rails with free upturned right tips, lower rail branches into bowed left descent and winding right descent. No counter. Actual retains topology but third rail has conspicuous step/notch at left descending staff root and small flat offset at right descent root, unlike continuous native bow."
+      ]
+    }
   ]
 }

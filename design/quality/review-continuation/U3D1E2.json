@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1E2",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E2.json",
-  "source_png_sha256": "6ef8a343de43536fd22aba178f630576d08adb99226ba12dd53f1b01d49899f5",
+  "native_review_report": "design/seal-individual/reviews/U3D1E2.json",
   "source_png": "design/seal-individual/U3D1E2.png",
+  "source_png_sha256": "6ef8a343de43536fd22aba178f630576d08adb99226ba12dd53f1b01d49899f5",
   "reference_png_sha256": "eaacf9ff64f7a3894831c145817b544d9c6f99e222ded07befa4b02f748bd0d2",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E2.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E2.json",
-  "source_json_sha256": "4c88150ac6d85a8631e2d9045161a27717d013a43c94f8752b1367352720d72b",
-  "geometry_sha256": "81fe27d4932a31812921894c04972585e0e539ec242d008c129f8f9170668d22",
-  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E2-Regular400.png",
-  "raster_sha256": "374b63deca2cbd93f1b62d752ca74551cdb77fdd9d100c8e0c18b6f289be2ae2",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E2-continuous-left-winding-v1/sources/U3D1E2.json",
+  "source_json_sha256": "49d2eaacc1c8c65c1aad796cbf99cb74e4622fc48fdeb7dadb315c3b3f9d4b7f",
+  "geometry_sha256": "6a494f4070fbf288f9a3e769e85612641736dc4b9131aa8ee4c6d91f660a3f33",
+  "font_file": "design/quality/proofs/continuation/U3D1E2-continuous-left-winding-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a1f62b80c24d350f0d04b97285f4820f898dfe2539da4717add4a61bb5fe32e",
+  "raster_file": "design/quality/proofs/continuation/U3D1E2-continuous-left-winding-v1/U3D1E2-Regular400.png",
+  "raster_sha256": "8317e0198594890008091f74e4e6589705b8191bf1bf17f05204b8e21f2ff811",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Inspected native/all four whole specimens/full actual and enlarged body. Native breaks central left long winding course into two detached halves, yielding six separate side strokes instead of one continuous central course plus four short side marks attested all references. It also adds unsupported downward central terminal beneath upper-right crossbar; THX/QJZ upper right compound has only two outward bent feet and no middle hanging staff. Both top forks detached otherwise THX. Actual additionally has notched/lumpy lower right return rail."
-  ],
-  "requested_corrections": [
-    "Restore continuous middle left winding course through gap, retaining four outer detached marks.",
-    "Remove unsupported hanging center staff below upper-right crossbar, retain both outward bent feet and their gap from lower compound.",
-    "Smooth lower right return rail through exact native anchors without lumpy pen deviations."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX long continuous left winding restored between the four unchanged detached side marks. Right upper trident/crossbar now ends correctly at the crossbar without unsupported hanging central staff; paired outer returns remain. Lower crossed winding flows through retained true crossings, one right field, both fork gaps and all original free terminals. Native split-winding/extra-staff mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "605b9c16e39d6a0660fbbd6e4f56abaa1ec26405665dfd80a56c20e6f641d721",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "e2794cc27065b391a7f901ba6df1c6d4f22918eb3bcfcc795becaf80f6052128",
+    "actual_font_enlargement_sha256": "9e58de5c0cb79821c80ad6b3f48b0f822551d46058050b35a76c73bb825d90cd"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "81fe27d4932a31812921894c04972585e0e539ec242d008c129f8f9170668d22",
+      "source_json_sha256": "4c88150ac6d85a8631e2d9045161a27717d013a43c94f8752b1367352720d72b",
+      "source_png_sha256": "6ef8a343de43536fd22aba178f630576d08adb99226ba12dd53f1b01d49899f5",
+      "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+      "raster_sha256": "374b63deca2cbd93f1b62d752ca74551cdb77fdd9d100c8e0c18b6f289be2ae2",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected native/all four whole specimens/full actual and enlarged body. Native breaks central left long winding course into two detached halves, yielding six separate side strokes instead of one continuous central course plus four short side marks attested all references. It also adds unsupported downward central terminal beneath upper-right crossbar; THX/QJZ upper right compound has only two outward bent feet and no middle hanging staff. Both top forks detached otherwise THX. Actual additionally has notched/lumpy lower right return rail."
+      ]
+    }
   ]
 }

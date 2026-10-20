@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D219",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D219.json",
+  "source_png_sha256": "2f172cab983bae06ba8379bdd67f7f82bfc8b5628dee853bd017d258e7df04c1",
+  "source_png": "design/seal-individual/U3D219.png",
+  "reference_png_sha256": "bd0d28394eb8b4e0475594d65d474f1378383a384ee3e8f9d4cf8c0e90b99750",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D219.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D219.json",
+  "source_json_sha256": "e568207d4952a08fb7678c64491c9228bc34a303de4e197908c71c856c2489b7",
+  "geometry_sha256": "4f0380e630ea1418f315802b7d121e37524a23acb12bed8c1605a9c9c55eba55",
+  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D219-Regular400.png",
+  "raster_sha256": "fa35cd65f7c77e5911a1b0edd8ff52257141e28c16cda7f164c3c316094f82ce",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      284,
+      -64,
+      740,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+    "Native matches coherent THX: detached upper forks; barred rounded upper enclosure with two fields/upstub; central staff with two outward diagonal branches; lower open-bottom bowed enclosure, central staff and horizontal crossbar making two closed upper fields and three descending terminals.",
+    "Actual preserves four counters and all branches, but lower bowed enclosure has abrupt flat steps at central crown/left shoulder and repeated lateral bulges on its lower-left descending wall. Enlarged actual crop confirms these tracking defects absent from smooth native."
+  ],
+  "requested_corrections": [
+    "Smooth only lower bowed enclosure/crown and left descending wall, retaining original center/bar contacts, three terminal positions and two lower closed fields."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

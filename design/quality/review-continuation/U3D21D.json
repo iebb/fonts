@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D21D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D21D.json",
+  "source_png_sha256": "09efd9d1fe8cf65ddb7a65c3a95a1e66bfd10c37796f0899ccaf01c8b1d7b345",
+  "source_png": "design/seal-individual/U3D21D.png",
+  "reference_png_sha256": "3d36eae52e30ef81d73d11055d6e5cb58b008124336118ecaef16cf42c327f84",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D21D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D21D.json",
+  "source_json_sha256": "4a4003db8c5b6e3e44dcb7583ee9a656e9b759ce2cf9af81169f778edf1f3df6",
+  "geometry_sha256": "e32f3d2bf8d55c0e50d62390da915544757d69bd4455e73dea4c2ad9be967783",
+  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D21D-Regular400.png",
+  "raster_sha256": "0f52612bfa2bac65f6b7c5543da19be57a66a119b31206bb3bdef22c76dd328c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      312,
+      -64,
+      712,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+    "Native matches coherent THX: detached forks and independent short horizontal header; longer bar capping small cup; central staff through larger open U and lower paired two-field return, branching into short inner left tip/long outer left leg and right winding tail. Three closed fields total.",
+    "Actual keeps all three fields and courses, but enlarged lower-loop crop reveals an abrupt inward angular kink where the upper-right wall leaves the top rail. Native shows a smooth rounded bend at that same junction."
+  ],
+  "requested_corrections": [
+    "Smooth only lower paired-loop upper-right wall transition from its top rail, preserving exact shared contacts, counter proportions, outer extrema and all other trajectories."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

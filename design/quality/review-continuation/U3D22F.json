@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D22F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D22F.json",
+  "source_png_sha256": "ae3174a1923eb679fc870d11e5fcb592509d32e906446a0dd1ce28e6c490c1db",
+  "source_png": "design/seal-individual/U3D22F.png",
+  "reference_png_sha256": "b3e8bab88a3e9e4d3ca9af5a3effc4a9f9d9ff26fcd392d04f8b7cfd5a97f8c2",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D22F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D22F.json",
+  "source_json_sha256": "c3e46b96f484abe97537173290d23418f81121cf23f11aa7ecf5faffa126c8e2",
+  "geometry_sha256": "49cf1d66a6f50e218b20d29fcbd8a124170691bbe1ff4c568306d543da86639c",
+  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D22F-Regular400.png",
+  "raster_sha256": "8346febbe77f61e6fe7899d9ae1ae5f338b81928d18845686fe5b31e14f0d5a3",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      234,
+      -64,
+      790,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+    "Whole DYC attests both upper forks detached from barred cup; its lower construction matches independent long header with left returned outer course, short inner left return joining it into one field and separate right short return. THX has nearly contacting right fork, so whole DYC supplies the clear detached-fork evidence.",
+    "Actual enlarged lower-course crop confirms that lower field and both free rightward returns, upper cup enclosing field with free interior dash, separate component gaps and all endpoint relationships. Total two closed fields, smooth constant-width returns."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

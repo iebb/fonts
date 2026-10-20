@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D2A5",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The slots THX CCZ QJZ DYC show the SAME codepoint; examine every available specimen equally, UNAVAILABLE means absent evidence. Choose ONE coherent attested historical whole construction, never blend incompatible variants or replace with modern Chinese. Second image is prior glyph for stroke STYLE ONLY, not character identity. Preserve every bar, branch, loop, counter, detached mark and opening. Genuine smooth centerline trajectories with absolutely CONSTANT black stroke width, round caps and joins, straight precise bars and smooth rounded curves. No brush pressure/taper/swelling/serifs/blobs/texture. All strokes share width around3%fullcanvas. Square1:1 canvas with ONE centered complete glyph in central70%, generous clear margins. Pureblackstrokes TRANSPARENTbackground. Output ONLY oneglyph, no labels/text/frame/grid/shadow/watermark/multiple specimens. Keep whitegaps open and detachedcomponents separate. U+3D2A5 coherentTHX,DYCunavailable. TOPpairedthreeprongforksDETACHED. UPPERLEFTverticalstemwithcurvedrightwardtopcap, THREErightwardhorizontalbarlevelsandbottomrightwardcap; middleupper2barlevels joinedbyroundedrightwall createONEclosedrightcounter; verticalcenterstemcrossesallbarlevelscreates2additionalleftcountercells? FollowTHXwhole: upperleftsmallcell,middlelongcell,lowerleftsmallcell,THREEcounterstotal. UPPERRIGHTSEPARATEhorizontalcapbendsdownrightthenleftintolongsinuousleftlowerstem;shortverticaldividerjoinscapandshortreturnwithFREEleftendpoint(noextraenclosedcounter). LowerstemcontinuesandjoinsBOTTOMofOPENupwardUcup. CupbottomTWOcenterverticalstemsdescendtoLOWESTbaseline,ONEcenterclosedfield;2shortDETACHEDverticalmarksoutsideleft/right. Total4counters(3upperleft+1lower);noclosureonupperrightcourse. CRITICALUPPERRIGHTCOURSE: fromtopcapSHORTinnerverticalstemdescendsandBENDSLEFTintoshortHORIZONTALfreeend (Lhook)atmidheight. NOTjustdanglingstraightverticalstub. THXshortleftwardLendpointmustvisible. LongOUTERrightcurvereturnsleft/downjoinslowerUbottom. Preserveleft3countercellstaff,lowerbase1field/2detachedouterverticalmarks,forkgaps.",
+  "reference": "reference/seal/individual/U3D2A5.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-c21a6afa-be14-4c58-8dce-debe1c498551.png",
+  "output_file": "design/seal-individual/U3D2A5.png",
+  "sha256": "2b6d43e4d6aa810c86d4413b9a77d44a1673c8aa7a15c5d45f511cd90b2061a9",
+  "reference_sha256": "0211ef8b7399565026657852dfd40e62456d0f5f42c84883d523d5eb5b2b35fc",
+  "reference_metadata_sha256": "530a90657189ae7e8795f59517209e1d8bfa9180ba84fd1326bc30dbd506adad",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D2A5",
+    "page": 13,
+    "label_bbox": [
+      87.30000305175781,
+      633.97021484375,
+      117.86940002441406,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 13,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          632.1809692382812,
+          144.17999267578125,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          632.7732788085938,
+          146.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "TH-00644"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 13,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          630.7401733398438,
+          168.03985595703125,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          632.7732788085938,
+          172.8000030517578,
+          657.753271484375
+        ],
+        "source_label": "C-00662"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 13,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          634.9942016601562,
+          196.539794921875,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          632.7732788085938,
+          199.5000030517578,
+          657.753271484375
+        ],
+        "source_label": "K-00643"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

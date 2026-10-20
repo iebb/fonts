@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1B2",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1B2.json",
-  "source_png_sha256": "44548485021b9abb4fd9b03ff661536cfcebc4dfb68d0eb54e4d7fd940aae9b2",
+  "native_review_report": "design/seal-individual/reviews/U3D1B2.json",
   "source_png": "design/seal-individual/U3D1B2.png",
+  "source_png_sha256": "44548485021b9abb4fd9b03ff661536cfcebc4dfb68d0eb54e4d7fd940aae9b2",
   "reference_png_sha256": "e0df9f0d46e1063d3649a1e713f983312ee065d37df9d07c5f1f0817812a7bce",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1B2.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-B2C1-retry2/sources/U3D1B2.json",
-  "source_json_sha256": "b600b97c46e06196dbe830c9a9129e1d0df22f4dec4be4d0e81803f99886d8df",
-  "geometry_sha256": "9d6981e9a8bf4d85662ecbdcad59dcf73cb690f53a01999b384ea5911be580c6",
-  "font_file": "design/quality/proofs/continuation/review-B2C1-retry2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "a25c7a23bbf0b2ad5b1ed542983b53f29b36a6c32273785d73c5b6fac67a9b84",
-  "raster_file": "design/quality/proofs/continuation/review-B2C1-retry2/U3D1B2-Regular400.png",
-  "raster_sha256": "f180689132d7119a910d5c1e027d8f8f3cd51e6842e9809b778135754968336d",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B2-smooth-header-junctions-v1/sources/U3D1B2.json",
+  "source_json_sha256": "971c95d3bf671e16cb981b7a6de510b4480792d5fb06e40274715b3b34433966",
+  "geometry_sha256": "35c66666239c128057841248c9deccb15228164549d734e09cda548195552dac",
+  "font_file": "design/quality/proofs/continuation/U3D1B2-smooth-header-junctions-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6fa7e811c0b5b0a9efc3e47ce818384fbee36f3bb8871528e6b48d014313b835",
+  "raster_file": "design/quality/proofs/continuation/U3D1B2-smooth-header-junctions-v1/U3D1B2-Regular400.png",
+  "raster_sha256": "770c8a82ba9d2c65dbe2d52cd13e9876427ee8b9fbd5d9415908ef90e6580355",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,21 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Fresh retry2 native/all four whole specimens/new actual and enlarged upper/lower details inspected. Native now coherent THX: both forks detached, top backward tip/diagonal winding, two header side counters, inner three-field oval and right-only small staff arm; open-left lower three-course return crossed by down-right diagonal restored. Five counters total; previous closed-bottom false oval corrected. Actual keeps topology/full bottom courses, but upper roof has conspicuous tracked lumpy offset at central winding\u2192roof/left header branch junction, absent smooth native."
-  ],
-  "requested_corrections": [
-    "Smooth only upper roof around central winding/left branch shared junction, through exact outer shoulder anchors and existing branch contacts; retain backward tip/top diagonal and all lower courses."
-  ],
+  "notes": "Full native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Complete THX both free forks, backward upper return tip, two-field roof and three-field inner oval retained. Roof/central winding/left branch now meet smoothly through exact retained anchors without prior offset lumps. Right-only short arm and three-course open-left crossed lower return with diagonal tail remain intact; five fields and all free tips preserved. Native2 matches THX and earlier mismatch history remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "932f15cd20c1ecc6be723fa3edc253eaffec22c19a9fc919ac534deb12426523",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
   ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "8ea776554edf6b29fa7aff7490623d000e4965781c97d195ef6a16ce2eae9bbe",
+    "actual_font_enlargement_sha256": "576f78118e00b4d209701d4145515ed2af9d79ea82dce527c42bef7311240b92"
+  },
   "previous_geometry_reviews": [
     {
       "geometry_sha256": "10db2d4711d99da10dd275a6cc9ec12b86a571b6581dc81692695bd04e1627bf",
@@ -61,6 +61,18 @@
       "requested_corrections": [
         "Restore coherent THX open-left winding bottom return with distinct top/middle/lower courses and diagonal crossing to long lower-right terminal; remove false closed loop.",
         "Restore only right-directed short branch under oval and short backward upper bend tip as attested THX whole."
+      ]
+    },
+    {
+      "geometry_sha256": "9d6981e9a8bf4d85662ecbdcad59dcf73cb690f53a01999b384ea5911be580c6",
+      "source_json_sha256": "b600b97c46e06196dbe830c9a9129e1d0df22f4dec4be4d0e81803f99886d8df",
+      "source_png_sha256": "44548485021b9abb4fd9b03ff661536cfcebc4dfb68d0eb54e4d7fd940aae9b2",
+      "font_sha256": "a25c7a23bbf0b2ad5b1ed542983b53f29b36a6c32273785d73c5b6fac67a9b84",
+      "raster_sha256": "f180689132d7119a910d5c1e027d8f8f3cd51e6842e9809b778135754968336d",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Fresh retry2 native/all four whole specimens/new actual and enlarged upper/lower details inspected. Native now coherent THX: both forks detached, top backward tip/diagonal winding, two header side counters, inner three-field oval and right-only small staff arm; open-left lower three-course return crossed by down-right diagonal restored. Five counters total; previous closed-bottom false oval corrected. Actual keeps topology/full bottom courses, but upper roof has conspicuous tracked lumpy offset at central winding\u2192roof/left header branch junction, absent smooth native."
       ]
     }
   ]

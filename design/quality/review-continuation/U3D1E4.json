@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1E4",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E4.json",
-  "source_png_sha256": "ad4513ad7ecb1bbae83da6a4e6c04ccdd70eaf2c1d99952b9123b5ec148e76e6",
+  "native_review_report": "design/seal-individual/reviews/U3D1E4.json",
   "source_png": "design/seal-individual/U3D1E4.png",
+  "source_png_sha256": "ad4513ad7ecb1bbae83da6a4e6c04ccdd70eaf2c1d99952b9123b5ec148e76e6",
   "reference_png_sha256": "4a38c87a6c1553fd9ce22f48f8636d3c8fb13b1d2dc30e50ebbca80ea0d4a3ed",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E4.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E4.json",
-  "source_json_sha256": "5fa91fc0f99f214e8eaec82ae0462ade30e645a3c07e0bed8732c98deb13ed97",
-  "geometry_sha256": "4bd37395dae9dbfb069b4d982e38676527d5d6e7dd55463c7c4d61421cfbe484",
-  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E4-Regular400.png",
-  "raster_sha256": "7bed7c37f4ae1de8778ed5a8bff326e932cca4512a951182a85210a9e2801e1c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E4-smooth-winding-cross-v1/sources/U3D1E4.json",
+  "source_json_sha256": "b2cb5348b0ea73cb38ef7f1ba6a32694f92fbcd255836b9f69ac13da854f65aa",
+  "geometry_sha256": "751d09e9eb650dd4f0ca247d6f4ca5838d254ea6f06e3f624536ff2bef728744",
+  "font_file": "design/quality/proofs/continuation/U3D1E4-smooth-winding-cross-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "313468cd1a73c478ec174b25bd146e3542114cd44605a549b2d9b6f01ff81df8",
+  "raster_file": "design/quality/proofs/continuation/U3D1E4-smooth-winding-cross-v1/U3D1E4-Regular400.png",
+  "raster_sha256": "77a98be2fa973993f924ca226b6cede73cb736e73f61e1cceeee082d95649ec9",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,20 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual and enlarged lower crossing inspected. Native matches THX both top forks detached, peaked header with central free lower stub, separate lower winding crossed by down-right diagonal with three open left terminals. Actual retains genuine single crossing, but diagonal bends abruptly before/after crossing creating offset S-shaped neck rather than smooth native trajectory. Lower outer rail also has flat stepped transition on left-middle course."
-  ],
-  "requested_corrections": [
-    "Bounded smooth descending diagonal through exact shared crossing and original endpoints, removing abrupt neck bends while retaining native broad trajectory.",
-    "Smooth bounded lower outer rail flat-step transition retaining terminals/envelope and crossing anchor."
-  ],
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Complete THX two free forks above independent peaked course/central stub and separate three-course winding return with diagonal tail retained. Both diagonal halves now flow smoothly through the exact original genuine crossing at source(644.087087406,732.372859193); stepped outer rail and offset neck bends removed. All four original free tips, fork/header geometry, component gap and zero enclosed fields preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "a98df1da4a02a6212648225b88ba005de5e6abaf1861ed5de34737ad7f646091",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "defea910b43b5bacf5ee20c15b6c098a81e532917464c9ed372c9097bec61a84",
+    "actual_font_enlargement_sha256": "95b7546e0125a0dac3ef3cc781933e8346be5d99a2e8df0e6c78a3f784702806"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "4bd37395dae9dbfb069b4d982e38676527d5d6e7dd55463c7c4d61421cfbe484",
+      "source_json_sha256": "5fa91fc0f99f214e8eaec82ae0462ade30e645a3c07e0bed8732c98deb13ed97",
+      "source_png_sha256": "ad4513ad7ecb1bbae83da6a4e6c04ccdd70eaf2c1d99952b9123b5ec148e76e6",
+      "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+      "raster_sha256": "7bed7c37f4ae1de8778ed5a8bff326e932cca4512a951182a85210a9e2801e1c",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole specimens/full actual and enlarged lower crossing inspected. Native matches THX both top forks detached, peaked header with central free lower stub, separate lower winding crossed by down-right diagonal with three open left terminals. Actual retains genuine single crossing, but diagonal bends abruptly before/after crossing creating offset S-shaped neck rather than smooth native trajectory. Lower outer rail also has flat stepped transition on left-middle course."
+      ]
+    }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1EA",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1EA.json",
+  "source_png": "design/seal-individual/U3D1EA.png",
+  "source_png_sha256": "36db79dcd97ca7f6d65c5f41d81408fa1312e27936dbd253eef384c3e46adcaa",
+  "reference_png_sha256": "92b37ed2dd42504a1171738987c22e3de290ab031f96ffd40f55a4628682f62c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1EA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1EA-whole-THX-forkgaps-v1/sources/U3D1EA.json",
+  "source_json_sha256": "b8cb1cf274ade1667fbc2a27355bc70644230b676eff94128d99c0baee3ee53e",
+  "geometry_sha256": "9d9be244a6d1269120eef34add679ffda15fb6ed6d77ebe9e5e15a3e1a00282e",
+  "font_file": "design/quality/proofs/continuation/U3D1EA-whole-THX-forkgaps-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d1c430df86a3e6f74dea38e9562846c0040d9e298fef383945b261620619f96e",
+  "raster_file": "design/quality/proofs/continuation/U3D1EA-whole-THX-forkgaps-v1/U3D1EA-Regular400.png",
+  "raster_sha256": "d37dcc18bbc18236f1ee931230a7c0bd9dc0358d5b54e7151d5d460f6e64ab9e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      289,
+      -64,
+      735,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX both top forks now detached above separate body upstubs. Exact original staff remainders retained outside bounded gaps; left diamond/two short side projections/two lower bars and long staff remain intact beside independent right oval/tail. Both fields, lower tips and oval gap preserved. Native left-fork join mismatch and original right-fork tracing loss remain recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "7c4ed281ddb2890206e593e544ba5785cc5097adf06f403fee55fca12f88908f",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "5afa08c97f7e6ec43d3c0ac75ae79ce7f04e2277fd4c8c01da1cf3d0de5ad289",
+    "actual_font_enlargement_sha256": "81611aadb716b20f4bf343be440f980a0f756c1cc8513cf8bc8195166263b988"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b8844dddac6e8cac84e4ce31141b4eafb73ba3a0324dc2134efa4cdaeae71118",
+      "source_json_sha256": "9200a15696f93d1151db7164ec4800fb7c770b910ff833260a8299541ae02441",
+      "source_png_sha256": "36db79dcd97ca7f6d65c5f41d81408fa1312e27936dbd253eef384c3e46adcaa",
+      "font_sha256": "9633cd2d1a74119dfcc4874a1326a3c4c8828d917dd9caa2f7d7425d82e9e808",
+      "raster_sha256": "83de97bf8fc5da2e0438c09bf8047866842ca14ec4b16eb05c5c194ada1d7db3",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole specimens and full/enlarged actual Regular400 inspected. Native left top fork joins the left body while its right fork is genuinely detached above the right oval. Actual tracing additionally closes that right fork gap. Complete THX keeps both forks detached above separate body upstubs; the left-joined whole alternatives change right oval/body contacts as well. Restore both THX fork gaps, retaining separate left diamond and right oval, their two total enclosed fields, left side projections, two lower crossbars, long left staff and right tail. Native alpha component analysis confirms the left join and right gap; they are not display artifacts."
+    }
+  ]
+}

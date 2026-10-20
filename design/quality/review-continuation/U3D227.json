@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D227",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D227.json",
+  "source_png": "design/seal-individual/U3D227.png",
+  "source_png_sha256": "1a43458724c172ea0ed3615b92472eb4e93162cd750a33994989144677f5aeef",
+  "reference_png_sha256": "4ebe5fae0f92d76aaf9e56ddef5f7591117238232c46e99453b2acd57fa7ba94",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D227.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-221-228-v1/sources/U3D227.json",
+  "source_json_sha256": "b88fed39df188f3e8d5add819a19c07e464a0fb114177fe63ac8fd9f5be6e5f6",
+  "geometry_sha256": "5ac2d51688b0cadae454e74bcd78bcd2be4f7e7e948a765618cf6ccea9063022",
+  "font_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
+  "raster_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/U3D227-Regular400.png",
+  "raster_sha256": "b97ecf325acda83d9536a3b141237a452762d3acb04a9e518cf3933d3e799bb6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      267,
+      -64,
+      757,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native differs from coherent complete THX: THX left top fork joins roof while right fork has a short gap; current both join. THX lower-right compound is one continuous winding with ONE attached descending branch from its middle bend, yielding two long lower right endpoints. Native instead adds TWO independent detached curved marks beside the winding, yielding an extra lower course and losing the shared branch join. Restore complete THX right fork gap and lower right winding plus single attached branch, preserving its free upper tip, middle bend and two lower endpoints. Preserve left fork roof join, two genuine upper Xs with all eight tips, separate middle open curl, lower left open winding and its two attached inward branches; smooth X roots to true shared crossings if needed, without shifting outer tips.",
+  "requested_corrections": [
+    "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native differs from coherent complete THX: THX left top fork joins roof while right fork has a short gap; current both join. THX lower-right compound is one continuous winding with ONE attached descending branch from its middle bend, yielding two long lower right endpoints. Native instead adds TWO independent detached curved marks beside the winding, yielding an extra lower course and losing the shared branch join. Restore complete THX right fork gap and lower right winding plus single attached branch, preserving its free upper tip, middle bend and two lower endpoints. Preserve left fork roof join, two genuine upper Xs with all eight tips, separate middle open curl, lower left open winding and its two attached inward branches; smooth X roots to true shared crossings if needed, without shifting outer tips."
+  ],
+  "review_comparison_sha256": "59f3cb9a78a0ff1875c38a4a4fb7cf0cde76ae78a7d68dd6321470ce37e625cc",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "d3f2438597d67e22e6637fb4e659b7ebb1c51b68c4dbe30f13d91823198c13df",
+    "actual_font_enlargement_sha256": "5f879bb1c8e17a121e154b8e6a117e355fb9c8ef7e646ac22ec650641790dee2"
+  }
+}

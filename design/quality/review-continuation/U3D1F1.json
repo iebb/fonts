@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1F1",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F1.json",
-  "source_png_sha256": "1e000bddbcbd8eec264f882c6788122ea85fe98482a2d353e86167e4d89f6c85",
+  "native_review_report": "design/seal-individual/reviews/U3D1F1.json",
   "source_png": "design/seal-individual/U3D1F1.png",
+  "source_png_sha256": "1e000bddbcbd8eec264f882c6788122ea85fe98482a2d353e86167e4d89f6c85",
   "reference_png_sha256": "e1acba54c0c069a3b2e5fac53a5ee9bf3a2002f5dc14a7ec68af74f3122a74e5",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1F1.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F1.json",
-  "source_json_sha256": "0b2316327a7bfd72b28a7c9aed5817dac2a7e290acb4f73a84fbb519e061632e",
-  "geometry_sha256": "330c7bc2d908beb3293b77d37d1446f349a0bd7eff2554371749ae1f4c72bbb1",
-  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F1-Regular400.png",
-  "raster_sha256": "2cd85bbb1060c3e78b5890461d6a437b631373d64ea2042e8d36f4f0558e218c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F1-full-upperleft-mark-v1/sources/U3D1F1.json",
+  "source_json_sha256": "954bb89a2f44d94dd561da6cbd0d11fd74601927afc55bfdc512a900e524ae27",
+  "geometry_sha256": "7b75d1f4525a053465ecd4c1add630ed656292578d2c7556b6c5a2b9e742218f",
+  "font_file": "design/quality/proofs/continuation/U3D1F1-full-upperleft-mark-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8c8f19269d065da36525f1b6af0b3215a6eec2786c86e3c4a0b5c38417512f78",
+  "raster_file": "design/quality/proofs/continuation/U3D1F1-full-upperleft-mark-v1/U3D1F1-Regular400.png",
+  "raster_sha256": "026842c3381ff61b18d9d63b3033b306c86dadb6aba25ce9dcfa307dc12df5f0",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four enlarged whole specimens/full actual and enlarged upper side marks inspected. Native matches THX detached forks and two independent tiered central forks each flanked by detached curved marks. Actual truncates upper-left side mark to approximately half native trajectory/length, visibly much shorter than native symmetric counterpart; other branches/terminals and gaps preserved."
-  ],
-  "requested_corrections": [
-    "Recover full native upper-left detached curved side mark trajectory/endpoints; preserve separation from central upper fork and original upper fork gap."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX two free top forks, two separate chevron/staff courses and four detached side marks. Upper-left side mark restored to its full original native length using omitted contiguous native-derived tracing remainder. All other paths, gaps, original terminals and zero enclosed fields preserved with consistent pen and proportional envelope.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "c508d4add7e65a86b64bb0f87b5dab00c783d6e190980910a28e3d40e67adcfc",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "1b41eec3c25cb87c2f28102a93966a62813ffa01e03bc29072c86bd74680bf2f",
+    "actual_font_enlargement_sha256": "9dd683cced0c21995886c714f277be3331a93e5003b4b43eea67a45fbeb598c5"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "330c7bc2d908beb3293b77d37d1446f349a0bd7eff2554371749ae1f4c72bbb1",
+      "source_json_sha256": "0b2316327a7bfd72b28a7c9aed5817dac2a7e290acb4f73a84fbb519e061632e",
+      "source_png_sha256": "1e000bddbcbd8eec264f882c6788122ea85fe98482a2d353e86167e4d89f6c85",
+      "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+      "raster_sha256": "2cd85bbb1060c3e78b5890461d6a437b631373d64ea2042e8d36f4f0558e218c",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four enlarged whole specimens/full actual and enlarged upper side marks inspected. Native matches THX detached forks and two independent tiered central forks each flanked by detached curved marks. Actual truncates upper-left side mark to approximately half native trajectory/length, visibly much shorter than native symmetric counterpart; other branches/terminals and gaps preserved."
+      ]
+    }
   ]
 }

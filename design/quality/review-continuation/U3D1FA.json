@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1FA",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1FA.json",
+  "source_png": "design/seal-individual/U3D1FA.png",
+  "source_png_sha256": "a6ac8aecf63ca0c82e9c8a309012507c6e7511927bf5204ab5bed8fe7c05beb8",
+  "reference_png_sha256": "1de80d6b05e8fe320590239a2655b182b8fffad1bf41d8e5116aa0189afa4046",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1FA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1FA-THX-two-gaps-smoothreturns-v1/sources/U3D1FA.json",
+  "source_json_sha256": "d0fafbe47b25e3040697bd1fc47bba2385996eed6440b31635d5688be84d3cfa",
+  "geometry_sha256": "6fdf271a65ba0b76435929c194b41656fbd7ef74593dc85807949976b5ec6f11",
+  "font_file": "design/quality/proofs/continuation/U3D1FA-THX-two-gaps-smoothreturns-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f5cfa1ccf346804c44384fbb3bf88b15cfc63faa7b929a5440b0d9ddbb6d2bb9",
+  "raster_file": "design/quality/proofs/continuation/U3D1FA-THX-two-gaps-smoothreturns-v1/U3D1FA-Regular400.png",
+  "raster_sha256": "4037804ade801dcb1ac3fabf3fb998c252b2388f389a005733cf3885c50986e0",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      264,
+      -64,
+      760,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: left top fork detached and right fork joined to long staff; upper winding S and middle L remain mutually joined, while their lowest return has a clear gap above independent lower L/H compound. Left returns now smooth through retained anchors; right four-field oval, two crossbar overhangs and long descending staff retained. Native joined left fork/missing lower gap remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "68cc1b7f33883e1d2b60079ee5b9b956947f148d70e41d81c2f4ffa151601cf9",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "220fb0e851fc96ef272ab853ccf40824cf61583cf3fe2ad63c5c52b509f45416",
+    "actual_font_enlargement_sha256": "ebfe9c4edaac6342b4db4c66c4380e71f5b5d7a1c288d084a759d7b7d1f118a1"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "93c50314ee204a16f18fadbc0df6d68edf811eb57d817205ffe0333708082879",
+      "source_json_sha256": "97ea5a7300d34f589f42d72a923a68a09a0c11d48268ceb23755140a8eb0e63b",
+      "source_png_sha256": "a6ac8aecf63ca0c82e9c8a309012507c6e7511927bf5204ab5bed8fe7c05beb8",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "365bd753475da40c0ad280253490375c9f53d8639560a502dbf371011d84e965",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native joins left top fork to upper winding and joins that winding continuously into the lower bent H. Coherent complete THX keeps left fork detached; upper left S and its following return stay connected to EACH OTHER, but a gap separates their lowest return from the independent lower L/staff/H upstub. Whole reference component analysis confirms this distinction. Restore only left fork gap and this lower winding/H gap, preserving right fork joined through staff/crossbar/four-field oval/baseline, left bent header free tip, lower H and all original outer terminals. Smooth stepped left return tracing while retaining course contacts."
+    }
+  ]
+}

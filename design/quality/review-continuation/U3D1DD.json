@@ -6,7 +6,7 @@
   "native_verdict": "mismatch",
   "native_review_report": "design/seal-individual/reviews/U3D1DD.json",
   "source_png": "design/seal-individual/U3D1DD.png",
-  "source_png_sha256": "1940b319cef5d47578d31219021c97b6abb62f9c826bab685e490aa7c62e0a65",
+  "source_png_sha256": "7941624872fa14be9efea19996740968b38bf3eca0c45922bbfa83b317e0f86b",
   "reference_png_sha256": "3ed58932e1f0d80b3b9728c6eb8a7d036b57d1b4c324de8da62322b8f7b2913b",
   "reviewed_specimens": [
     "THX",
@@ -16,32 +16,30 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1DD.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/sources/U3D1DD.json",
-  "source_json_sha256": "bbcffe67fa84b614079df0bf823dbb6654b81a082df0bd5f358d06cc47a8f052",
-  "geometry_sha256": "950794a1906b87441b2a2d99f0ef4cec656dd2bd3b8ecd68f6e6f798e57a86ba",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/U3D1DD-Regular400.png",
-  "raster_sha256": "1fe028d19f6930bc86c1c9349e6da2fdf02d25b8946e06479511b93ff47d2c3f",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1DD-restored-thirdreturn-smoothlegs-v1/sources/U3D1DD.json",
+  "source_json_sha256": "81a5458a1c69f939d61f8e9e24c5705f81eb0ef7c5d3478bee7b9a29ad4d6983",
+  "geometry_sha256": "d3569212b243558d5cabdac4432cef029e4f6c838e63a1ff91e8218da2bf64aa",
+  "font_file": "design/quality/proofs/continuation/U3D1DD-restored-thirdreturn-smoothlegs-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a3d653f2bfb8b6cfff0674a2346cb84f4204c657d81f48b1651ba04a11908748",
+  "raster_file": "design/quality/proofs/continuation/U3D1DD-restored-thirdreturn-smoothlegs-v1/U3D1DD-Regular400.png",
+  "raster_sha256": "5f305d82502817ca89c44c00ea6063197aede39acea94e40d5aac3e2b1c19cad",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      264,
+      260,
       -64,
-      760,
+      764,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font omit right top-fork short descending stem below its U base. Right body also loses both the short leftward overhang where the upper bent course leaves its staff and the lower inward return rail beyond the inner-elbow/main-tail junction. Complete THX shows all three free extensions. Restore these three bounded features while retaining free fork gaps, detached roof/dash, two one-field cups with four lower legs, upper rightward arm, winding right compound and long lower tail.",
-  "requested_corrections": [
-    "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font omit right top-fork short descending stem below its U base. Right body also loses both the short leftward overhang where the upper bent course leaves its staff and the lower inward return rail beyond the inner-elbow/main-tail junction. Complete THX shows all three free extensions. Restore these three bounded features while retaining free fork gaps, detached roof/dash, two one-field cups with four lower legs, upper rightward arm, winding right compound and long lower tail."
-  ],
-  "review_comparison_sha256": "e8810773a444d96ffa0f3120c1d04cbecf450c29ffb5652025496dc1d3977ce6",
+  "notes": "Full unchanged native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both free forks with their short descending stems, detached roof/dash and paired one-field cups with four lower legs retained. Missing right third leftward return restored at exact original shared junction; upper short arm/header left overhang and long tail unchanged. Paired cup/leg shoulders and roots smoothed through retained anchors with all original lower terminals exact. Both fields, all gaps and three right inward courses clear. Native missing-return mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "19304e93d0d7f6f73ed9a70b2ee519d91b3f51e05daecaaebd8127abbdf68244",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,6 +47,32 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "20ca38a861412758a69eef4199b2d82988745a27fbfafbf250733d078bd59f9c",
-    "actual_font_enlargement_sha256": "9cf6cf08097172378ea04ae2d4b40d478696db4ed2d1e80a28ac30da007dd24c"
-  }
+    "actual_font_enlargement_sha256": "f9a149ba0d6d9c2f630885262934f22a0a51b4baa2b6cbfe929836a0623a325f"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "950794a1906b87441b2a2d99f0ef4cec656dd2bd3b8ecd68f6e6f798e57a86ba",
+      "source_json_sha256": "bbcffe67fa84b614079df0bf823dbb6654b81a082df0bd5f358d06cc47a8f052",
+      "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
+      "raster_sha256": "1fe028d19f6930bc86c1c9349e6da2fdf02d25b8946e06479511b93ff47d2c3f",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font omit right top-fork short descending stem below its U base. Right body also loses both the short leftward overhang where the upper bent course leaves its staff and the lower inward return rail beyond the inner-elbow/main-tail junction. Complete THX shows all three free extensions. Restore these three bounded features while retaining free fork gaps, detached roof/dash, two one-field cups with four lower legs, upper rightward arm, winding right compound and long lower tail.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Native/font omit right top-fork short descending stem below its U base. Right body also loses both the short leftward overhang where the upper bent course leaves its staff and the lower inward return rail beyond the inner-elbow/main-tail junction. Complete THX shows all three free extensions. Restore these three bounded features while retaining free fork gaps, detached roof/dash, two one-field cups with four lower legs, upper rightward arm, winding right compound and long lower tail."
+      ]
+    },
+    {
+      "geometry_sha256": "e3a730ffb7756d9dfcad710a214b246e1b29f850bfd98471b5f97bd488ec2791",
+      "source_json_sha256": "8902e98fab3961734a95f8c150b2d2093b9aff05b2b22c28efb5dfa396a23f0e",
+      "source_png_sha256": "7941624872fa14be9efea19996740968b38bf3eca0c45922bbfa83b317e0f86b",
+      "font_sha256": "1d98884cdb1cd0f588df2dbde599a32f1cbee0f9bcaa61af2229ec549fc6552f",
+      "raster_sha256": "28b244d26aebf9172ed92c212c84a5cb12bdb57d2b68c3b8ca3c374034f36e0b",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Fresh retry2 native/all four enlarged whole specimens/new actual/enlarged right return inspected. Fork separation/short right upstub and lower-right header left overhang corrected. Coherent THX paired independent cups/two legs each, separate roof/dash retained. But lower-left returning course from right outer/inner shared junction still absent; native/font have only Y junction and descending staff where THX has clear leftward third terminal. Actual lower paired leg roots also have tracking shoulders/offset necks."
+      ]
+    }
+  ]
 }

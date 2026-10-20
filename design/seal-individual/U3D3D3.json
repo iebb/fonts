@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D3D3",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper, brush or serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels, text, grid or multiple glyphs. Whole THX: left detached U pocket with divider/prongs. Right top winding cap and short upright hook, central rails inside upper rounded course. Outer main arch descends in two long free side legs. Within lower field short horizontal header supports two outward lower curled legs, below that detached horizontal rail joins short winding tail curling right then downleft. Preserve full THX all gaps/contacts and upper structure without simplification.",
+  "reference": "reference/seal/individual/U3D3D3.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-9f9fb3fa-3a67-4dcc-a011-c25657cc3e09.png",
+  "output_file": "design/seal-individual/U3D3D3.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "46be8fba9d9140bbf84405a224c954b1fe161be9594dc9be26cc0cf9b42b7eb9",
+  "reference_sha256": "ac32b1609e04902022d3b143ed4183c8cafee4f146c58e20a03434f49580671a",
+  "reference_metadata_sha256": "2d9cd76ea81ff97b96c5cd23d9354e2ccd40704cbe97f5d63ec2e55f6afc8d81",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3D3",
+    "page": 18,
+    "label_bbox": [
+      236.10000610351562,
+      126.73020935058594,
+      267.2193908691406,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 18,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          125.0009994506836,
+          292.9800109863281,
+          150.17999267578125
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          125.53331146240234,
+          295.0000061035156,
+          150.57329406738282
+        ],
+        "source_label": "TH-00929"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 18,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          123.56019592285156,
+          316.8398742675781,
+          145.55999755859375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          125.53331146240234,
+          321.6000061035156,
+          150.57329406738282
+        ],
+        "source_label": "C-00962"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 18,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          127.8141860961914,
+          345.33978271484375,
+          149.4359588623047
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          125.53331146240234,
+          348.3000061035156,
+          150.57329406738282
+        ],
+        "source_label": "K-00935"
+      },
+      "DYC": {
+        "available": true,
+        "page": 18,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          125.0121841430664,
+          370.2398681640625,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          125.53331146240234,
+          375.0000061035156,
+          150.57329406738282
+        ],
+        "source_label": "D-00924"
+      }
+    }
+  }
+}

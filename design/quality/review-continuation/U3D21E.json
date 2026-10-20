@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D21E",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D21E.json",
+  "source_png_sha256": "8e38c0da6e953508eec4d374b7cb18e30626700661f4a9b82ad815390ce19591",
+  "source_png": "design/seal-individual/U3D21E.png",
+  "reference_png_sha256": "20851165e8fcfedfec47e8c4196bc91f51e26b7afa80c95eb767f34b2cae8696",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D21E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D21E.json",
+  "source_json_sha256": "2e169cfd061bf2446bd853c05c98c4be456a1fcd374bbcadcf5e53db6376ac5b",
+  "geometry_sha256": "6d2e531ce60a5f185ce4e4b914acabe163fb038048af2e899ae80db45eb0a023",
+  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D21E-Regular400.png",
+  "raster_sha256": "4ccd5f51ac97ec301b675e2dca8ae7f46cf51740aac86b598adf5642d01b0680",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      338,
+      -64,
+      686,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+    "Native follows coherent THX: both forks join upper capsule, two oblique internal dividers make three fields, four detached side marks flank free downstaff; independent lower forked central staff carries alternating right/left returns making two additional fields, lower right free curl and crossing left-to-right diagonal.",
+    "Actual enlarged lower winding/crossing crop confirms two lower fields, all four side-mark gaps, both joined fork stems, five total counters and retained terminal trajectories. No short bridge substitutes for crossing and no unwanted field is closed."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

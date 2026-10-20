@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -7620,6 +7620,37 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 1.0,
       "maximum_fit_error_font_units": 3.2716
+    },
+    {
+      "id": "stroke-17",
+      "path": "M 644.498,274.812 L 644.498,333.62",
+      "closed": false
+    },
+    {
+      "id": "stroke-18",
+      "path": "M 556.166,307.527 L 556.166,346.49",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Complete THX: add only rightfork-to-outerroof join from existingforkend644.498274.812 to roof333.62, preserving original leftforkgap. Restore native short rightinnerwall upprojection556.166307.527\u2192346.49 above itsroof333.355, lostintracing. All original sixteen paths/leftonefield/righttwofields/outertails/centralreturn/loweropenU+fourinwardteeth unchanged. Native rightforkdetached mismatch retained.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-17",
+          "path": "M 644.498,274.812 L 644.498,333.62",
+          "closed": false
+        },
+        {
+          "id": "stroke-18",
+          "path": "M 556.166,307.527 L 556.166,346.49",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D20C",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D20C.json",
+  "source_png_sha256": "cc1110aac8e1a2c5c1c53057597e79a8b3f455a4b3ce0c9797596943a6d60fc1",
+  "source_png": "design/seal-individual/U3D20C.png",
+  "reference_png_sha256": "614393d7e6a7109ff8de55849d693b2cc967de407789cec209d801aa05d1f182",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D20C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyseventh-eight/sources/U3D20C.json",
+  "source_json_sha256": "2c0e5b25700437a6a006aa1a853d078a23ab5a2ea1bf8e6134a2255f1bd0ff66",
+  "geometry_sha256": "afb18a60b4222691ec6d5765d2d5f1d2143be5405a7f3fcf9c78e19ba157b3bc",
+  "font_file": "design/quality/proofs/continuation/review-twentyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a16e65bdd1f1df1bdb19f8021e222e57f5a69ae94793ee3f805390857adc0fd0",
+  "raster_file": "design/quality/proofs/continuation/review-twentyseventh-eight/U3D20C-Regular400.png",
+  "raster_sha256": "cc14a0c1fa022c9596d897229a81c4df6ef750a0778caa805e888a481776f368",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      263,
+      -64,
+      761,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four enlarged whole reference specimens, full actual Regular400 compiled raster, and enlarged relevant component crops. No other weight is approved.",
+    "Coherent THX form has detached forks, a horizontal upper bar joining both bowed side stems and central upright, then central staff branching into long left bowed terminal and independent right winding terminal. No closed counters.",
+    "Enlarged actual confirms central branch contact, three upper short upward tips, four side endpoints and two lower terminals, clear fork/header gaps and smooth constant-width broad bends."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

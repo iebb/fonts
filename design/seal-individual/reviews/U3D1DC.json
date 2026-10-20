@@ -1,8 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1DC",
-  "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root",
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": [
+    "Independent full native/all four enlarged whole specimens/new actual/enlarged lower-right overhang inspected. Native inspection shows short left header overhang already present on lower-right two-leg course; earlier report conflated tracing loss with native mismatch, corrected here to native match. Exact vector addition restores that native/THX overhang; clear short horizontal tip now precedes left oblique leg. Both forks free, roof/dash separate, two independent one-field cups and detached paired lower leg courses remain coherent THX. All original tips/gaps/counters retained with consistent round pen at Regular400."
+  ],
   "source_png": "design/seal-individual/U3D1DC.png",
   "source_png_sha256": "793085c3290884d8812673f6441c7b187a5f724d5cecc3abece79f9de3bfd29a",
   "reference_overview": "reference/seal/individual/U3D1DC.png",
@@ -14,10 +17,19 @@
     "DYC"
   ],
   "unavailable_specimens": [],
-  "notes": [
-    "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Otherwise coherent THX both free top forks, detached roof/dash, two separate one-field cups and two detached lower two-leg courses retained. Right lower two-leg course loses the short leftward free header overhang shown in THX; actual turns directly down at its left leg without that projecting tip. Restore only this short horizontal left overhang through the same right-course upper-left leg contact, preserving two cup fields, original lower leg tips/envelopes and every other gap/course."
-  ],
   "limitations": [
-    "Exact PNG fingerprint only; no paleographic or writing-order certification."
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "793085c3290884d8812673f6441c7b187a5f724d5cecc3abece79f9de3bfd29a",
+      "verdict": "mismatch",
+      "notes": [
+        "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Otherwise coherent THX both free top forks, detached roof/dash, two separate one-field cups and two detached lower two-leg courses retained. Right lower two-leg course loses the short leftward free header overhang shown in THX; actual turns directly down at its left leg without that projecting tip. Restore only this short horizontal left overhang through the same right-course upper-left leg contact, preserving two cup fields, original lower leg tips/envelopes and every other gap/course."
+      ],
+      "reference_png_sha256": "1387b9ef170e23fdd3ccc577e40b377ac45c03fe8c3a6cdb10cea3a7559a2145"
+    }
   ]
 }

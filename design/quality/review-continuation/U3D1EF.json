@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1EF",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1EF.json",
+  "source_png": "design/seal-individual/U3D1EF.png",
+  "source_png_sha256": "ec385b56c741591d9407098a88cdae776449ace428d68f89c5407cb647906e4d",
+  "reference_png_sha256": "1f7e0282c50dfd0cbe6a75270832304330ddaa2d7860f8c5f6c6b22385eeb43b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1EF.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1EF-whole-THX-returned-cap-v1/sources/U3D1EF.json",
+  "source_json_sha256": "ea5f151d2f720c7d4fe1c1b9c30286975d91813c872857390b1be40d2a0bfef4",
+  "geometry_sha256": "7f73985e8f3e2067144164c1cf72247292e6e86cc3713ca960178afdf741b516",
+  "font_file": "design/quality/proofs/continuation/U3D1EF-whole-THX-returned-cap-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "779aae9e4fe8a059e1cd836c5436729096c4d289713ccffde09e11931e48c3d6",
+  "raster_file": "design/quality/proofs/continuation/U3D1EF-whole-THX-returned-cap-v1/U3D1EF-Regular400.png",
+  "raster_sha256": "749f1f337cc06cdd2ca3ce2bc4e895a205cf10fbb66d2e10ad3f4c4b8d7976fa",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      305,
+      -64,
+      719,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX right roof prong turns right, small inner oval staff stops at oval, and independent lower returned cap with free left tip crosses diagonal attached to exact outer left wall. All original outer enclosure/right winding paths, both detached top forks, upper roof other prongs, two oval fields and open lower gaps retained. Restored junctions smooth through recorded contacts; native missing/incorrect lower courses remains mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "fa04a6bc028d0cd8f5a45180580dfffefd10cfb2fdfc977eed95951ded02a07e",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "c54890ce8193ad5af64acaa4f5c3b8b21ced15593253cb38cbd58c3911ac93b3",
+    "actual_font_enlargement_sha256": "13a0a248831ca8fbf005ad7fa30e98851ac83e4b573f2b1fdc5e871420de309a"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "fd4a46d3cc5df1f6a985a238c21b188603d3b06edea3982cbebb56920d5f3fba",
+      "source_json_sha256": "beba5edccc75d4bd8340c29dc14cc58ad425ad41284ab371ac1a0e3317811e44",
+      "source_png_sha256": "ec385b56c741591d9407098a88cdae776449ace428d68f89c5407cb647906e4d",
+      "font_sha256": "9633cd2d1a74119dfcc4874a1326a3c4c8828d917dd9caa2f7d7425d82e9e808",
+      "raster_sha256": "066815bab331393e9f9273553a8dc8c472a24f2374e8b871c908e49228c8bdb6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole specimens and full/enlarged actual Regular400 inspected. Native differs from complete THX in the upper roof right prong and lower inner winding: roof right prong should turn right; the small lower oval staff should stop at that oval; below it a separate returned cap with left free tip crosses a diagonal attached to the outer left wall. Current native instead continues the oval staff downward into a simplified detached diagonal form, omitting that cap and left-wall contact. Restore these bounded THX courses while retaining both free top forks, two closed ovals, open lower outer enclosure and long independent right winding. Smooth actual lower inner junctions when restoring those courses."
+    }
+  ]
+}

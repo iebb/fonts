@@ -1,0 +1,74 @@
+{
+  "code_point": "U+3D40D",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D40D. TWOavailableTHXandDYC, CCZQJZunavailable. ChooseTHXwhole. LEFTupperseparatenarrowUcupwith2prongsandONEcrossbarclosingONElowercounter. RIGHTbodybackwardopenLEFTbowlTOPcapfromLEFTcurlsRIGHTdownandreturnsLEFTnearmiddle. ONEstraightLEFTinnerstemstartsattopcapnearcenteranddescendslongtobaseline. ONEmiddlehorizontalcoursefromLEFTcrossesleftinnerstemthenbendsRIGHTandDOWNaslongrightbaselineleg,crossingbowlreturnnearRIGHT. BowlreturnextendsLEFTpastbothstemcrossingpositionsendingFREEatLEFT. TWOlongparallelrightbodylowerlegs, noextra bars/dashes, no leftouterwall.",
+  "reference": "reference/seal/individual/U3D40D.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-11273601-e0f8-4813-a1bd-3f1c1a7f54f4.png",
+  "output_file": "design/seal-individual/U3D40D.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "df1351a11a6e6c0e8967fddee2784c7aa2e530c62a10cf099935a8fb0fa484fd",
+  "reference_sha256": "47097cc61bd461c36f1adcb227f371c3f3c4426a8ecca91203a5d1ac56ff8026",
+  "reference_metadata_sha256": "155ccc7d43a4e4d630fd23b5131f790d5c5d308fd69dbd15d7df9fbff45a8d95",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D40D",
+    "page": 19,
+    "label_bbox": [
+      236.10000610351562,
+      126.73020935058594,
+      267.2193908691406,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 19,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          128.08799743652344,
+          292.9800109863281,
+          149.5500030517578
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          125.53331146240234,
+          295.0000061035156,
+          150.57329406738282
+        ],
+        "source_label": "TH-Y021"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": true,
+        "page": 19,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          125.0121841430664,
+          370.2398681640625,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          122.93020935058594,
+          375.0000061035156,
+          150.57329406738282
+        ],
+        "source_label": "D-00981"
+      }
+    }
+  }
+}

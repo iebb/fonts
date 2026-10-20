@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D216",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D216.json",
+  "source_png": "design/seal-individual/U3D216.png",
+  "source_png_sha256": "7d6963c1edc4a9bd79ed89dbd56c80f45e72e58b78382981c673088bd48c3089",
+  "reference_png_sha256": "5e08d58e941826157b2954f314ed53214f93262584093f11ef2dd80bb967232d",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D216.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D216-THX-five-free-uprights-v2/sources/U3D216.json",
+  "source_json_sha256": "0e409fbb0f8f9a629314dae5685d459a811e3465294b28cc57049807cf3f1387",
+  "geometry_sha256": "f75cacefdd61517674f4060e19dc36ae2383fd732b484c0cb652b9e388ebf9cc",
+  "font_file": "design/quality/proofs/continuation/U3D216-THX-five-free-uprights-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "932eff6846e21feede46050a8c5f5cef80fe89883ab6fa2ad551c42087ea2cab",
+  "raster_file": "design/quality/proofs/continuation/U3D216-THX-five-free-uprights-v2/U3D216-Regular400.png",
+  "raster_sha256": "6c4a4f287285f166bf74f28d0f884fc9a0dd3156f216f27cb6730a098a59ba26",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      254,
+      -64,
+      770,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: both top forks detached with separate body upstubs; right upper U has five uprights, including two restored hanging inner prongs ending visibly free above its curved base. Right central staff/outer arch/two-field cup/two feet retained; left cap overhang, three oblique branches/shared staff/right descending branch retained. All native fork joins/missing inner prongs remain recorded as mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "3ea12af03db373c49137545c1dac80cb9198adef789a3c6a8290399b421c7284",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "b99dbe2238163527650933b780a3c8c9fc0a0596b7993ee6efd03024d085f907",
+    "actual_font_enlargement_sha256": "efb70100d05ca4f5de1a12269a8483ea256949c5c46f47e01a15ce25243c824b"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0dd5e646216dd83a81b8ebdeddc6c49ca1a4da414cf167052bccaa90459d6fea",
+      "source_json_sha256": "95c00652924a93cb77b3a729c3f4d0f45b4515d33a515ee653f7b502bf230845",
+      "source_png_sha256": "7d6963c1edc4a9bd79ed89dbd56c80f45e72e58b78382981c673088bd48c3089",
+      "font_sha256": "1ee1839cdd49847162f5d85837de313b78314aad901f7f0c5c22e5f2c37acf55",
+      "raster_sha256": "6400f4028f538e44c4271286ac952683b3231e7b21fa51569ec2d3bc8c4fab36",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, and full/enlarged actual Regular400 inspected. Current native/actual join both top forks to the body, whereas coherent complete THX has both forks detached. Current upper right U compound has only three uprights; THX has five, including two missing inner vertical prongs between the outer U legs and central staff. QJZ joined forks also retain five prongs and do not support the current mixture. Restore coherent whole THX fork gaps with body upstubs plus the two missing inner uprights. Preserve right lower two-field cup inside its outer arch, central staff and two feet, and all left header overhang/three oblique courses/shared staves/right branch contacts. Retain all lower field counts and open gaps."
+    }
+  ]
+}

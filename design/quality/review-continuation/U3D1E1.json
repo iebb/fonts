@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1E1",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E1.json",
-  "source_png_sha256": "77614191f7da3080d3d294a8d3d57714150442cd2d31e7ef05f8ca3ee674a8b6",
+  "native_review_report": "design/seal-individual/reviews/U3D1E1.json",
   "source_png": "design/seal-individual/U3D1E1.png",
+  "source_png_sha256": "77614191f7da3080d3d294a8d3d57714150442cd2d31e7ef05f8ca3ee674a8b6",
   "reference_png_sha256": "67161b3d1bd231efedbeafddfdcfd81009550b9453d89e10a5731b81e428410f",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1E1.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E1.json",
-  "source_json_sha256": "0e38b66090b78d9d13b983f357dafaaf8a4bb2751d395efcb4f4f1495f7748ac",
-  "geometry_sha256": "2cad86d99f9ff20a16f4dd573a16cdf41fbcdcd7ebcb84d21755feffa43f37f7",
-  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E1-Regular400.png",
-  "raster_sha256": "56f5ab8ec59302e9aad2e3d88f82133af1a95a1404adda8148d7dabe84a9b919",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1E1-restored-terminal-smoothroots-v1/sources/U3D1E1.json",
+  "source_json_sha256": "3bbb0be098e3c28354e39640c952faef2f6746be0910f513494c3a6060a7fb3b",
+  "geometry_sha256": "4002a9c7924951d4936382a81163a4b9c879d88d735e6a119ca65d7baa51a26f",
+  "font_file": "design/quality/proofs/continuation/U3D1E1-restored-terminal-smoothroots-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8a1f61f50b08b763dcedd4dfc36615006c740f231fe02f6faed86dd42959ddcf",
+  "raster_file": "design/quality/proofs/continuation/U3D1E1-restored-terminal-smoothroots-v1/U3D1E1-Regular400.png",
+  "raster_sha256": "8be60df197457e99ce75efc21952210ca40a50f0dcbcfbd847e5b69ec591f756",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,20 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four enlarged whole specimens/full actual and enlarged left staff component inspected. Native coherent THX both forks free, left three-field oval/side mark/two lower legs, separate right inner dash and upper winding with broad lower branch courses. Actual loses downward terminal of left staff side mark: native has two rightward terminals meeting crossbar, actual retains only up-right terminal. Right lower branch shared roots also show offset tracking knots."
-  ],
-  "requested_corrections": [
-    "Recover missing downward terminal of left staff side mark from exact native course; retain upward terminal/crossbar.",
-    "Smooth bounded right lower shared branch roots through original anchors retaining all three bottom terminals and broad bows."
-  ],
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Coherent THX free top forks, three-field left oval with side mark and two lower legs, separate right staff/winding course/inner dash and lower two-foot fork/outer tail retained. Missing down-right terminal of left side mark restored from original native, leaving both rightward arms legible. Right lower branch roots smoothed through retained contacts with all three original lower terminals intact. All fields and separations preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "ea31aa4793fa64322d5724f465baeda429d312bc3ffd9ca5c8e6a6e25f092318",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "726031cd13af6f7b9413472d2bfe97fb40846d9c459eee1767456f880c6d0394",
+    "actual_font_enlargement_sha256": "ce066175e4b556c6e021d4e0e95bdf352cf2af4a2fc08684f87e128255e6cf58"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "2cad86d99f9ff20a16f4dd573a16cdf41fbcdcd7ebcb84d21755feffa43f37f7",
+      "source_json_sha256": "0e38b66090b78d9d13b983f357dafaaf8a4bb2751d395efcb4f4f1495f7748ac",
+      "source_png_sha256": "77614191f7da3080d3d294a8d3d57714150442cd2d31e7ef05f8ca3ee674a8b6",
+      "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+      "raster_sha256": "56f5ab8ec59302e9aad2e3d88f82133af1a95a1404adda8148d7dabe84a9b919",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four enlarged whole specimens/full actual and enlarged left staff component inspected. Native coherent THX both forks free, left three-field oval/side mark/two lower legs, separate right inner dash and upper winding with broad lower branch courses. Actual loses downward terminal of left staff side mark: native has two rightward terminals meeting crossbar, actual retains only up-right terminal. Right lower branch shared roots also show offset tracking knots."
+      ]
+    }
   ]
 }

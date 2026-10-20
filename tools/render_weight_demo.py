@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Render a real font-weight comparison and a self-contained slider specimen."""
+"""Render a real font-weight comparison and a slider specimen."""
 from __future__ import annotations
 
 import argparse
 import base64
+import os
 from pathlib import Path
+from urllib.parse import quote
 
 from fontTools.ttLib import TTFont
 from PIL import Image, ImageDraw, ImageFont
@@ -25,7 +27,7 @@ def repertoire_label(codepoints: list[int]) -> str:
                      for first, last in runs)
 
 
-def render(font_path: Path, output: Path, label_font: Path) -> None:
+def render(font_path: Path, output: Path, label_font: Path, *, embed_font: bool = False) -> None:
     output.mkdir(parents=True, exist_ok=True)
     metadata = TTFont(font_path)
     weights = sorted((round(instance.coordinates["wght"]),
@@ -59,13 +61,18 @@ def render(font_path: Path, output: Path, label_font: Path) -> None:
             draw.text((center - 115, baseline), chr(cp), font=font, fill="#121212", anchor="ls")
     image.save(output / "weight-comparison.png")
 
-    encoded = base64.b64encode(font_path.read_bytes()).decode("ascii")
+    if embed_font:
+        encoded = base64.b64encode(font_path.read_bytes()).decode("ascii")
+        font_url = f"data:font/ttf;base64,{encoded}"
+    else:
+        relative_font = Path(os.path.relpath(font_path.resolve(), output.resolve()))
+        font_url = quote(relative_font.as_posix(), safe="/")
     characters = "".join(f'<span title="U+{cp:05X}">{chr(cp)}</span>' for cp in codepoints)
     html = f'''<!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Panorama Gothic — weight specimen</title>
 <style>
-@font-face{{font-family:Seal;src:url(data:font/ttf;base64,{encoded}) format("truetype");font-weight:{minimum} {maximum}}}
+@font-face{{font-family:Seal;src:url("{font_url}") format("truetype");font-weight:{minimum} {maximum}}}
 *{{box-sizing:border-box}}body{{margin:0;padding:clamp(24px,5vw,72px);background:#fafaf7;color:#171717;font-family:system-ui,sans-serif}}
 main{{max-width:1200px;margin:auto}}h1{{font-size:clamp(24px,4vw,38px);font-weight:500;margin:0 0 10px}}p{{color:#66665e;margin:0 0 28px}}
 .control{{display:flex;align-items:center;gap:20px;margin:30px 0 44px}}input{{flex:1;accent-color:#171717}}output{{font-variant-numeric:tabular-nums;min-width:3ch}}
@@ -86,8 +93,9 @@ def main() -> None:
     parser.add_argument("--font", type=Path, default=Path("fonts/seal-variable/PanoramaGothicSealVariable.ttf"))
     parser.add_argument("--output", type=Path, default=Path("fonts/seal-variable"))
     parser.add_argument("--label-font", type=Path, default=Path("fonts/noto/PanoramaGothic-Regular.ttf"))
+    parser.add_argument("--embed-font", action="store_true", help="Embed the font for a standalone HTML specimen")
     args = parser.parse_args()
-    render(args.font, args.output, args.label_font)
+    render(args.font, args.output, args.label_font, embed_font=args.embed_font)
     print(args.output / "weight-comparison.png")
     print(args.output / "weight-slider.html")
 

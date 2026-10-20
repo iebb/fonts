@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1FD",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1FD.json",
+  "source_png": "design/seal-individual/U3D1FD.png",
+  "source_png_sha256": "15c5d5c05e13ebaf84e7becd294608acf3e0e1a7167896a82bf917e7a92c403d",
+  "reference_png_sha256": "8bbf6d53d9f14c0a3e8a02476852174d49c6e8eac54402decb2338fc678eb0e4",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1FD.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1FD-restored-central-branch-forkstem-v1/sources/U3D1FD.json",
+  "source_json_sha256": "a6db7b3102a8bb69dc0038fe97a52a5c7bafed912f00efb41aa0570a5e33aea1",
+  "geometry_sha256": "1d2deb86149f7c37b77feab7e5fc652757b93e5e25b89c204e0698d91d559dc4",
+  "font_file": "design/quality/proofs/continuation/U3D1FD-restored-central-branch-forkstem-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4e53fd484ca51cabd3833a2672eb0ce600b3dbe9e935873d15f73cbde7aaee55",
+  "raster_file": "design/quality/proofs/continuation/U3D1FD-restored-central-branch-forkstem-v1/U3D1FD-Regular400.png",
+  "raster_sha256": "2fec26d7b72d59c5d577d5bb395e9146359e59ddf1c62502ad9789050f870cde",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      257,
+      -64,
+      767,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: both detached top forks and short downward stems, outer long open arch and central short roof upstub, two independent side bows, upper central crossed five-terminal branching compound, and separate lower one-field cup with central chevron. Missing short upper-right branch and right fork stem now present, all other courses preserved. Native missing central fifth terminal remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "9e83349f98053540b1d26e8d1bd51de5ad12d2bfe5bf6c96b15485a230f0a479",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "501328f9dc9093cc44cd8b30e826266011ec19fe144585fd7e72a6057ffa2768",
+    "actual_font_enlargement_sha256": "55684ab084d14c7b6ecba2fe25c5a9a4422cf54dc5f7a262c18db3933dd1a56a"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7700789e15420deb4a9d43caacd153ba24e8355b2d4db8e8a2408beb760ebca3",
+      "source_json_sha256": "7342d4c0d89777a9f1d560a843539bceedfef53e0d5b3ad593da7269aab7a035",
+      "source_png_sha256": "15c5d5c05e13ebaf84e7becd294608acf3e0e1a7167896a82bf917e7a92c403d",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "937eb4187b06be3ebb847f4ebc7a266292015f2d5818647a1a141c43b2e85f71",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native central upper compound loses the short free UP-RIGHT branch at its lower genuine X crossing; current shape is an upper Y connected to a lower chevron, while THX retains that fifth short branch crossing the central diagonal. Restore only this short branch at the original crossing, retaining upper U fork and all four other central terminals. Actual also loses the short descending stem of the RIGHT top fork that native and THX retain; restore that native tracing remainder. Preserve both top fork gaps, outer roof/upstub/two descenders, two free inner side curves and detached lower one-field cup/chevron."
+    }
+  ]
+}

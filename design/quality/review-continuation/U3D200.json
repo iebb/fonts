@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D200",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D200.json",
+  "source_png_sha256": "f5296a89bf26cfb34fc6e75d98ebf437d54bb6480ffb76c853f38757caa80d1c",
+  "source_png": "design/seal-individual/U3D200.png",
+  "reference_png_sha256": "0fec53ea1e2ebd189a2898a3d9bb365f9eeb7183b13c1ddde2b599a5824de254",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D200.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-200-rightdash-contact-v1/sources/U3D200.json",
+  "source_json_sha256": "07e88aa246f4beac8152444f5c57196a6443e44fe45bcb24d052ce9b1552aa65",
+  "geometry_sha256": "341546fe3e74e989e3456b4fd16b84fe2eee3aabb987ca8a88dfab98ffba64e3",
+  "font_file": "design/quality/proofs/continuation/root-200-rightdash-contact-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1cf4a3857c8d845402a25a2365fa4fff637942397c8ab895a2c872bc06bacb9a",
+  "raster_file": "design/quality/proofs/continuation/root-200-rightdash-contact-v1/U3D200-Regular400.png",
+  "raster_sha256": "09f535f661a99b2c1344f7b1072da733dbd542a2e983ebe63ee32443ea38c94b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      305,
+      -64,
+      719,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four enlarged whole reference specimens, full compiled Regular400 raster and enlarged lower-cup contact crop. Coherent THX whole construction preserves two detached upper forks, two rising cup courses, shared central staff, separate free inner bent branches, broad outer return and lower barred cup with two upper prongs.",
+    "Bounded added right dash connector meets the lower-cup right wall without overshoot; enlarged actual raster confirms continuous contact, free rounded left dash terminal, open surrounding counter and retained cup proportions. Other trajectories, branches and gaps remain coherent.",
+    "Native remains mismatch: its detached lower dash combines THX upper construction with an unsupported lower contact. CCZ detached dash belongs to a whole specimen with different left fork/upper cup contacts. This geometry acceptance does not recertify the native or other weights."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "56363a9174dcffdfde9dba4c10710688cb0a91e94e8a0422c45dc95aaf8fe32a",
+      "source_json_sha256": "85cde7778c86520f15574cf5d6e54d5e429d43d4646630a7dddb685b5831f5a0",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "1614ae3084fffefb3d160715685bf66d91446ce8f28a19464e586143ac4aef01",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native retains coherent THX two free top forks, paired broad open U courses with hooked staff, long right outer roof/descent and detached small bent two-prong course, but lower cup inner dash is detached at BOTH ends. Complete THX requires its RIGHT end joined to cup wall and left end free. CCZ detached dash comes with a joined left top fork and different upper U contacts, so does not justify mixing. Extend only the current inner dash right end to existing cup wall, preserving exact original dash left tip, cup one field/upper prongs, all upper gaps and long outer tail.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native retains coherent THX two free top forks, paired broad open U courses with hooked staff, long right outer roof/descent and detached small bent two-prong course, but lower cup inner dash is detached at BOTH ends. Complete THX requires its RIGHT end joined to cup wall and left end free. CCZ detached dash comes with a joined left top fork and different upper U contacts, so does not justify mixing. Extend only the current inner dash right end to existing cup wall, preserving exact original dash left tip, cup one field/upper prongs, all upper gaps and long outer tail."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1FE",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1FE.json",
+  "source_png": "design/seal-individual/U3D1FE.png",
+  "source_png_sha256": "771d9d50222000e86f76f6b7e4b67268b0939605405bfc0e30cae8d85340e911",
+  "reference_png_sha256": "9dfbd5aef4c04f8d5f8bfdd28ba3e4964175e935a89c47782adcd9bc4628dce1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1FE.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1FE-whole-THX-open-return-v1/sources/U3D1FE.json",
+  "source_json_sha256": "6217930279d9144d410457fad99888a27664e41855172158a226993e8dde2b3b",
+  "geometry_sha256": "7e9027f8e0158b42a7d5c1ee029cd854cd1b3e160616dcccb57154dffb70b852",
+  "font_file": "design/quality/proofs/continuation/U3D1FE-whole-THX-open-return-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "976d2a9a103ad9eb83956f2c6346ea268810ca1a4503b264e3298350dfaaf5f1",
+  "raster_file": "design/quality/proofs/continuation/U3D1FE-whole-THX-open-return-v1/U3D1FE-Regular400.png",
+  "raster_sha256": "2826e88408f357e687dc20e92d7ce7c7b5da66fd628117a841edda7914b4e895",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      226,
+      -64,
+      798,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: both forks detached, left continuous long winding staff and four independent short side marks, right four-field oval and downward staff crossing lower overhanging cap. Lower central staff returns right as open hooked curl ending at a free inner upstub, alongside separate left crooked leg; outer right descending tail preserved. No unsupported closed lower loop remains. Native mirrored closed lower loop remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f17846f8117630f5eeedb6f3a4b53d2c0dc9bb9536aee5d9747ee9318cb1c6f4",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "374e26c83ba7ec9781cfe8940cacc33b619401224bf367effc7172c541e127c3",
+    "actual_font_enlargement_sha256": "f95d2ddcaa80fb05feb9ab981c80c1aa47db6a663cdc2493bae90014e43d6b23"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "1b08fb7076b6bb2865d9dbef5c8ec896b0aa1740f9a172dfc3e51deeba6585d1",
+      "source_json_sha256": "149fd13f89f9a4274096a6b8c4b8c827dc57f46966694b48a2dae786ef8b3805",
+      "source_png_sha256": "771d9d50222000e86f76f6b7e4b67268b0939605405bfc0e30cae8d85340e911",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "2f036949b2b1cd56019adc015025414fd29118ab09c7bbec980bebc76dd5cc2a",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native splits the long middle-left winding into two marks; THX requires one continuous winding plus four detached side marks. Native lower right compound also curls left into a false closed field: coherent THX oval staff descends into an OPEN rightward curled return ending at a free inner upstub, beside a SEPARATE left bent leg with short upper tip and free lower-left terminal. Restore these complete THX courses and the short lower crossbar left overhang, keeping far-right tail unchanged. Actual additionally loses the short upward oval staff projection present in native; restore it. Both forks free, four oval fields, lower open channels and all side marks must remain clear."
+    }
+  ]
+}

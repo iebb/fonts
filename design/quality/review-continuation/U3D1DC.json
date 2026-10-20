@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1DC",
-  "reviewer": "independent visual reviewer /root",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "mismatch",
-  "native_review_report": "design/seal-individual/reviews/U3D1DC.json",
-  "source_png": "design/seal-individual/U3D1DC.png",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1DC.json",
   "source_png_sha256": "793085c3290884d8812673f6441c7b187a5f724d5cecc3abece79f9de3bfd29a",
+  "source_png": "design/seal-individual/U3D1DC.png",
   "reference_png_sha256": "1387b9ef170e23fdd3ccc577e40b377ac45c03fe8c3a6cdb10cea3a7559a2145",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1DC.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/sources/U3D1DC.json",
-  "source_json_sha256": "2f32cb7522807233870fe13e30c67406632db90564f9a21b007d18ba63f56fee",
-  "geometry_sha256": "b144fc74d87c5df37b7a108fafaae0dd8669f2efb54c3e3f71f94bd8034b723b",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-1D9-1E0-v1/U3D1DC-Regular400.png",
-  "raster_sha256": "49ce815a7efa6d1402aaf848d8a1fc129aab73a83c4bf6508631f811e68a325f",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/sources/U3D1DC.json",
+  "source_json_sha256": "f72c21dd499fb64764a151331b846b9a8ffea8bcdc15bbb182f26bcdbbd505d8",
+  "geometry_sha256": "38b06ff2df38c8aa7c3822eaa090e1cd04233468b8d761433555194c937e920d",
+  "font_file": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f944ef976643dc02c5450c05aad2e5689d118051c457fd0d844a1967e8546fd4",
+  "raster_file": "design/quality/proofs/continuation/root-1D9DADC-bounded-v2/U3D1DC-Regular400.png",
+  "raster_sha256": "9167fb2b9e72b064bec1c0707cc097bd560ac25d4556fc787f6e4a1fb5e3385a",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,31 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Otherwise coherent THX both free top forks, detached roof/dash, two separate one-field cups and two detached lower two-leg courses retained. Right lower two-leg course loses the short leftward free header overhang shown in THX; actual turns directly down at its left leg without that projecting tip. Restore only this short horizontal left overhang through the same right-course upper-left leg contact, preserving two cup fields, original lower leg tips/envelopes and every other gap/course.",
-  "requested_corrections": [
-    "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Otherwise coherent THX both free top forks, detached roof/dash, two separate one-field cups and two detached lower two-leg courses retained. Right lower two-leg course loses the short leftward free header overhang shown in THX; actual turns directly down at its left leg without that projecting tip. Restore only this short horizontal left overhang through the same right-course upper-left leg contact, preserving two cup fields, original lower leg tips/envelopes and every other gap/course."
+  "notes": [
+    "Independent full native/all four enlarged whole specimens/new actual/enlarged lower-right overhang inspected. Native inspection shows short left header overhang already present on lower-right two-leg course; earlier report conflated tracing loss with native mismatch, corrected here to native match. Exact vector addition restores that native/THX overhang; clear short horizontal tip now precedes left oblique leg. Both forks free, roof/dash separate, two independent one-field cups and detached paired lower leg courses remain coherent THX. All original tips/gaps/counters retained with consistent round pen at Regular400."
   ],
-  "review_comparison_sha256": "c6520fe75512e3941797d8db31dd95ca8e98690a685b847087d7fb2e5054406f",
+  "requested_corrections": [],
   "limitations": [
-    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
-    "Heavy weights not visually accepted.",
-    "No paleographic or historical writing-order certification."
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
   ],
-  "detail_review": {
-    "all_specimen_enlargement_sha256": "1e867cb2adffaaf968329820700da13bac4bbe8e8eaf89a2dc732598fcbce592",
-    "actual_font_enlargement_sha256": "ddca9678492a47484660b97dd7ec94b1fb7080988e4ba8c712b0058d7b27c450"
-  }
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b144fc74d87c5df37b7a108fafaae0dd8669f2efb54c3e3f71f94bd8034b723b",
+      "source_json_sha256": "2f32cb7522807233870fe13e30c67406632db90564f9a21b007d18ba63f56fee",
+      "font_sha256": "15dc932f655427857b8bd738c9e3023f0d5012567eb4ae93c445691be25bc05b",
+      "raster_sha256": "49ce815a7efa6d1402aaf848d8a1fc129aab73a83c4bf6508631f811e68a325f",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Otherwise coherent THX both free top forks, detached roof/dash, two separate one-field cups and two detached lower two-leg courses retained. Right lower two-leg course loses the short leftward free header overhang shown in THX; actual turns directly down at its left leg without that projecting tip. Restore only this short horizontal left overhang through the same right-course upper-left leg contact, preserving two cup fields, original lower leg tips/envelopes and every other gap/course.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular inspected. Otherwise coherent THX both free top forks, detached roof/dash, two separate one-field cups and two detached lower two-leg courses retained. Right lower two-leg course loses the short leftward free header overhang shown in THX; actual turns directly down at its left leg without that projecting tip. Restore only this short horizontal left overhang through the same right-course upper-left leg contact, preserving two cup fields, original lower leg tips/envelopes and every other gap/course."
+      ]
+    }
+  ]
 }

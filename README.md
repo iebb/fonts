@@ -18,7 +18,7 @@ its recorded fingerprint. The original 128 glyphs' outlines and spacing are
 preserved exactly in the expanded development font.
 
 The [current development font](fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf?raw=1)
-and [preview](fonts/seal-individual/preview-438.png) contain 438 independently reviewed glyphs.
+and [preview](fonts/seal-individual/preview-504.png) contain 504 independently reviewed glyphs.
 The [progress audit](design/quality/small-seal-progress.json) reports accepted
 geometry separately from drawings and pending candidates; its timestamp and
 fingerprints identify the evidence it assessed.
@@ -55,7 +55,7 @@ The native generated drawing remains the main guide for trajectories, shape and 
 - [Font and editable-source package](dist/Panorama-Gothic-Seal-Stroke-128.zip?raw=1)
 - [Stroke construction example](fonts/seal-individual/stroke-comparison.png)
 - [Download path replay](fonts/seal-individual/stroke-playback.html?raw=1) and open it locally
-- [Download weight slider](fonts/seal-individual-variable/weight-slider.html?raw=1) and open it locally
+- [Download weight slider](fonts/seal-individual-variable/weight-slider.html?raw=1), keep the variable TTF beside it, and open it locally
 - [Editable SVG example](design/strokes-individual/U3D001.svg)
 
 The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status and targeted repairs are recorded individually. Validation combines reference review of all **128 sample glyphs at default Regular 400** with `tools/verify_glyph_invariants.py`, which checks recorded structural features in the rendered static and variable fonts. Rules cover details such as bar relationships, branches and open spaces; their recorded weight scopes vary. Some dense-form rules apply only at 300 and 400.
@@ -76,7 +76,7 @@ The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail 
 
 The previous 300 width is now 400, and the previous 400 width is now 600. Default Regular reference acceptance is separate from heavy-weight optical acceptance. Dense new forms including U+3D045, U+3D049, U+3D060, U+3D070, U+3D073 and U+3D077 merge some marks or counters at 600 or 700. Their centerline paths remain present, but these weights are not optically approved for every character. Consult the actual-font checks and visual proofs for current limits.
 
-The variable font and self-contained slider are written to `fonts/seal-individual-variable/`. The older `fonts/seal-variable/` outline-offset study is retained for comparison. The single-style `fonts/seal-example/` and grouped four-source `fonts/seal-redraw/` studies are superseded; the latter contains known identity errors and is marked rejected.
+The variable font and slider are written to `fonts/seal-individual-variable/`. The slider loads the adjacent TTF; `tools/render_weight_demo.py --embed-font` creates a standalone HTML copy when needed. The older `fonts/seal-variable/` outline-offset study is retained for comparison. The single-style `fonts/seal-example/` and grouped four-source `fonts/seal-redraw/` studies are superseded; the latter contains known identity errors and is marked rejected.
 
 This sample does not complete the **11,328-character Small Seal repertoire** or the full Unicode development target.
 

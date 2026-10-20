@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D203",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D203.json",
+  "source_png": "design/seal-individual/U3D203.png",
+  "source_png_sha256": "de2497e88049c622567056b4ac1b9c07ceba40342f33015180fdccb1fe32154f",
+  "reference_png_sha256": "f06239561b684787fe96501e4d1d5ece2e4c6f4273366c217c96e5d766531165",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D203.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D203-shared-crossing-v1/sources/U3D203.json",
+  "source_json_sha256": "fd423c183ff3f0a4f3b50ca9629a89327a58925fa2fb6162615c92be4f95a5fc",
+  "geometry_sha256": "f57f6f8d05c1f347b2863b77b0e2ffc8672ae6f9d87b77cf6368495bc7bf77c2",
+  "font_file": "design/quality/proofs/continuation/U3D203-shared-crossing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "20c6c5e2cad4d92059128e6f315b34dda782ba4392400a8f6fb083159089f16d",
+  "raster_file": "design/quality/proofs/continuation/U3D203-shared-crossing-v1/U3D203-Regular400.png",
+  "raster_sha256": "88922d524482a2e7e0b095857b63cda140f7f4dedf79a214a36b575e4b83b84b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      235,
+      -64,
+      789,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both top forks detached above paired staffs crossed by long rail, left two independent diagonal branches and right short upper return/genuine lower X. Right split tracking Y roots now unify at exact source(588.882,695.208), retaining all four outer endpoints and exact staff/branch remainders. Upper-left diagonal smooth through original staff anchor; all zero-field channels, header tips and lower terminals preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "2145a027a784493b7f9fe35e0c85a6fff965e0d46340b7374d13bd6a42b9e7fd",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "16bb401bd801d0fb0a5bf2fda8f39120dbaa5fcb755cb78639fd9bd5693b401b",
+    "actual_font_enlargement_sha256": "8f312779ef6c84252260d2fe47f573eaac402b69d2276b7563df72c1f7555336"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "2e77fc3ed7ed4d84aae0ef8c5081fa1f31108640f9aae3dc9e34d7d2d040c99a",
+      "source_json_sha256": "6517a3312193257f9c4303b4c51b69d5f8469c6742440a97298a7b11d8fa682d",
+      "source_png_sha256": "de2497e88049c622567056b4ac1b9c07ceba40342f33015180fdccb1fe32154f",
+      "font_sha256": "3e5fbe23265851626074a6c8949ed4065ebdabd255eeb53588def3c030c85b58",
+      "raster_sha256": "8aec2f5a78a0599fb2c9d880708523d6d213d6aea8c1119cf807bfd61ec7474d",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole specimens/full actual/enlarged right branch root inspected. Native coherent THX both forks free, left diagonal/staff courses and right bent-top staff, full middle crossbar and genuine lower shared right crossing. Actual splits right crossing into two Y junctions linked by short vertical neck; upper-left diagonal also has tracked offset shoulder at staff root."
+      ]
+    }
+  ]
+}

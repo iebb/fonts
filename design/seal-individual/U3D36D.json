@@ -1,0 +1,78 @@
+{
+  "code_point": "U+3D36D",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Correct ONE missing historical stroke in first original Small Seal font glyph, compare THX whole form in second reference. Between small hanging U beneath top cap and middle four-counter oval, there MUST be AN ADDITIONAL LARGER UPWARD U-CUP crossing the same central staff. Its two free upright tips begin outside the small hanging U's sides, and its rounded bottom joins central staff above the middle oval. Current image omits this larger U. Add only that cup and maintain clear gap from neighboring left forkstaff. Preserve top detached dash, cap/small hanging U, centralstaff, middle fourcounter oval, lower outer arch and two inner rails unchanged. Uniform rounded constant-width black strokes transparent background.\n",
+  "reference": "reference/seal/individual/U3D36D.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-26de8601-0f50-4e3d-96c2-55d00328877e.png",
+  "output_file": "design/seal-individual/U3D36D.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "442b8a4fbc3eb1a1aebc29265d1d8c191a85a2961ef182f758f38cce88958890",
+  "reference_sha256": "fc323a7a27d74687d566ecfba285d9e3e9bbde957ee40728661579e96d7c43a7",
+  "reference_metadata_sha256": "53691765392b1344c8bcb7bae0d07cb030382abaf52ee9ed869fac381f68a9d4",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D36D",
+    "page": 16,
+    "label_bbox": [
+      236.10000610351562,
+      633.97021484375,
+      267.2193908691406,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 16,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          632.1809692382812,
+          292.9800109863281,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          632.7732788085938,
+          295.0000061035156,
+          657.753271484375
+        ],
+        "source_label": "TH-X033"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 16,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          630.7401733398438,
+          316.8398742675781,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          632.7732788085938,
+          321.6000061035156,
+          657.753271484375
+        ],
+        "source_label": "C-00860"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D36D-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D36D-attempt-1.json"
+  }
+}

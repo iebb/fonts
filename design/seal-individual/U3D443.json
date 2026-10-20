@@ -1,0 +1,78 @@
+{
+  "code_point": "U+3D443",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Edit first original Small Seal font glyph using coherent THX whole second reference. Top-right bentneck figure currently has only ONE descending curvedleg. Restore missing SECOND INNER DESCENDING LEG: starts ATTACHED at shoulder where neck turns right (upper-middle junction), descends bowed down-left and endsfreely near same height as outer rightleg bottom. Outerleg and innerleg form an open narrow arch with TWO free lower tips. Preserve leftsmallcup, upper middle staff/three crossbars, gap belowstaff and bottom arch/splitfeet. Uniform rounded constant-width black transparent typography.\n",
+  "reference": "reference/seal/individual/U3D443.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-f379a104-60c5-465d-b621-0c10c89c1dc3.png",
+  "output_file": "design/seal-individual/U3D443.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "9c67c848da96f756efc4ede353826bc5c8de2a9d99e8cde229cc51d71a23ab56",
+  "reference_sha256": "63be9ef35e095bfbe4ca7ccacb8cd8a6a94da0ad1aa29cf32ca99c0150412e67",
+  "reference_metadata_sha256": "e20e2c82b04fce2cc3f91c399652b7ef664405501438e60caf967702917f7840",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D443",
+    "page": 20,
+    "label_bbox": [
+      87.30000305175781,
+      602.230224609375,
+      116.7594223022461,
+      613.3900146484375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 20,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          600.5009765625,
+          144.17999267578125,
+          625.6799926757812
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          601.0332275390625,
+          146.20000305175782,
+          626.0732788085937
+        ],
+        "source_label": "TH-X039"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 20,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          599.0601806640625,
+          168.03985595703125,
+          621.0599975585938
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          601.0332275390625,
+          172.8000030517578,
+          626.0732788085937
+        ],
+        "source_label": "C-01073"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D443-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D443-attempt-1.json"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1F6",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F6.json",
-  "source_png_sha256": "c4df864e1974122cc57007a33672ae3e33fe81da33013aa9c63a67a311d08735",
+  "native_review_report": "design/seal-individual/reviews/U3D1F6.json",
   "source_png": "design/seal-individual/U3D1F6.png",
+  "source_png_sha256": "c4df864e1974122cc57007a33672ae3e33fe81da33013aa9c63a67a311d08735",
   "reference_png_sha256": "5f4096a2544c1cc39ad69a6249cbea95ad415ce24851732061789cb3dadac801",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1F6.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F6.json",
-  "source_json_sha256": "9b6beceef38de7b8460ead57807d762d11c837e2013ddacfe3a888ba96dae1ec",
-  "geometry_sha256": "784d9314704efbf81357a4ec57992df38a2e720bead67f358fb8c9fb1b2ec152",
-  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F6-Regular400.png",
-  "raster_sha256": "2a02ccb53f70259e765332be6e753c79fd007f30b6658b2223f2179500eada58",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F6-smooth-sharedroot-v2/sources/U3D1F6.json",
+  "source_json_sha256": "a8d432320b8074a90f37f73fe77f8a87d0dbf7ac3cf24da0ebca6c33ffbf63c1",
+  "geometry_sha256": "4f2a07f79701c5ea149ebb78401e606a1c91c4dff76c845be79f35e54ed2008c",
+  "font_file": "design/quality/proofs/continuation/U3D1F6-smooth-sharedroot-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6fcbdf0b8c2ffc9c6545a11a16ef16fd836718eb7ded0ea60cf77732af2fbf56",
+  "raster_file": "design/quality/proofs/continuation/U3D1F6-smooth-sharedroot-v2/U3D1F6-Regular400.png",
+  "raster_sha256": "ca660f4b11469ee253c959e8157ed8256e910be01b25623692307a86a61048e3",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual and enlarged shared root inspected. Native coherent THX both top forks detached, separate upper winding curving into shared two-leg fork, no counter. Actual retains all tips/proportions but shared outer-bow root has a conspicuous flat offset shoulder/notch rather than native continuous curve."
-  ],
-  "requested_corrections": [
-    "Smooth only upper winding\u2192outer bowed descent transition at existing two-leg root, preserving exact shared anchor, original three terminals and broad bow envelope."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Coherent complete THX both top forks free above independent upper-hook/bifurcated winding course. Shared branch root now flows smoothly through its exact original anchor into inner left descent and broad right bow. Exact three body free tips, broad bow remainder, upper gaps and zero counters retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "6043236241f0fa746e5f0d5f6de1342db2c1ddf6863fd20d02a107aab9ecd66c",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "e602673d64c99fd05fb3ee7dc120b18c1b7a8f374332c2b53edaf3b9988ed18a",
+    "actual_font_enlargement_sha256": "1aa73fede017bec9b4da20696af9c2a9823edf61d1e342b7aa1dd0e34b873957"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "784d9314704efbf81357a4ec57992df38a2e720bead67f358fb8c9fb1b2ec152",
+      "source_json_sha256": "9b6beceef38de7b8460ead57807d762d11c837e2013ddacfe3a888ba96dae1ec",
+      "source_png_sha256": "c4df864e1974122cc57007a33672ae3e33fe81da33013aa9c63a67a311d08735",
+      "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+      "raster_sha256": "2a02ccb53f70259e765332be6e753c79fd007f30b6658b2223f2179500eada58",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole specimens/full actual and enlarged shared root inspected. Native coherent THX both top forks detached, separate upper winding curving into shared two-leg fork, no counter. Actual retains all tips/proportions but shared outer-bow root has a conspicuous flat offset shoulder/notch rather than native continuous curve."
+      ]
+    }
   ]
 }

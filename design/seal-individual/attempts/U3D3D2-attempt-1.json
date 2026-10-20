@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D3D2",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper, brush or serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels, text, grid or multiple glyphs. Whole THX: detached left U mouth with divider/prongs. Right upper narrow vertical rounded box with internal X spanning corners, central short upward stem. On each side separate outward bracket with TWO short inward horizontal teeth each. Below detached wide rail. Under rail detached central stem divides into two lower legs; TWO separate short curved side marks flank it. No contact between lower rays and rail.",
+  "reference": "reference/seal/individual/U3D3D2.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-63dcec98-6f94-42a3-9871-221af46834fe.png",
+  "output_file": "design/seal-individual/U3D3D2.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "4121cc713e9e6b99783c1f6a5582b689a95353ddce8e92738da0d1e149ec8fda",
+  "reference_sha256": "2fb7078aa96f9583d6c8c6e7afdc099c4fd4873cfaafcd83451f93338a6ca850",
+  "reference_metadata_sha256": "d565c30b3857f7a37a1d0e4fef5985f5974c34878e28d5a755f5c374124353b1",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3D2",
+    "page": 18,
+    "label_bbox": [
+      236.10000610351562,
+      95.05015563964844,
+      267.2193908691406,
+      106.20993041992188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 18,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          93.32100677490234,
+          292.9800109863281,
+          118.50000762939453
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          91.25015563964844,
+          295.0000061035156,
+          118.83331146240235
+        ],
+        "source_label": "TH-00928"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 18,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          91.88020324707031,
+          316.8398742675781,
+          113.8800048828125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          91.25015563964844,
+          321.6000061035156,
+          118.83331146240235
+        ],
+        "source_label": "C-00961"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 18,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          96.13419342041016,
+          345.33978271484375,
+          117.75596618652344
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          91.25015563964844,
+          348.3000061035156,
+          118.83331146240235
+        ],
+        "source_label": "K-00934"
+      },
+      "DYC": {
+        "available": true,
+        "page": 18,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          93.33219146728516,
+          370.2398681640625,
+          118.36796569824219
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          91.25015563964844,
+          375.0000061035156,
+          118.83331146240235
+        ],
+        "source_label": "D-00923"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Lower fork stem incorrectly joins rail."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D210",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D210.json",
+  "source_png": "design/seal-individual/U3D210.png",
+  "source_png_sha256": "2bf77b43c9049e595c424a68152a9dbf9c9426a8788c33a05ed45121d37ea886",
+  "reference_png_sha256": "fc5c67966eee85c0b4f7e0a50559551814f8e3a648d7666093d155956d57f45f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D210.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D210-smooth-right-winding-v1/sources/U3D210.json",
+  "source_json_sha256": "19e83c30359bec155ff095ed9b5d32f1971872dce520482040cadb4f1a053d60",
+  "geometry_sha256": "0437e671fcf65a5807b7f5b9024cf164a62908253412f2c93100f0c1b63af867",
+  "font_file": "design/quality/proofs/continuation/U3D210-smooth-right-winding-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "0d43a75e34f653afc180dcd101c55811dc8838f1d646a0295b6eebe51b49de9a",
+  "raster_file": "design/quality/proofs/continuation/U3D210-smooth-right-winding-v1/U3D210-Regular400.png",
+  "raster_sha256": "35a32438e3d10ed37cb922951c21001fdcbc14fc55530fd36bd9855c0e808494",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      288,
+      -64,
+      736,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX retained: both forks detached, outer long open arch with bent roof upstub; left independent one-field loop/staff, right independent inner free stub and descending S return. Shoulder/return now smooth through original upper/free inner stub and lower endpoint, with all other eight paths, four lower terminals and gaps unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f1f55b2ecb6abe7122e46130bffd025a826a4b957082779943a0c3bea25d6718",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "72a92577c8b05c281f511cb2cfb1a3ba2597837ad920a22959ac880c161cee8f",
+    "actual_font_enlargement_sha256": "f9a1afb3aa5a5f3d84e4ed97a34c69060d8a2301c844ff729eff17ce8d9f7e64"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b4a7c925b3d75109377fd772da0d23c4f71b56900fab0481681dfaf40d6cdbe0",
+      "source_json_sha256": "347f6bda32a150ab0a810e9aa88831ad54b0334f5f93fc8d26a33acb2b2b62b7",
+      "source_png_sha256": "2bf77b43c9049e595c424a68152a9dbf9c9426a8788c33a05ed45121d37ea886",
+      "font_sha256": "a16e65bdd1f1df1bdb19f8021e222e57f5a69ae94793ee3f805390857adc0fd0",
+      "raster_sha256": "e7912f8e123bb105b3259745a5cdcf1ff003aa2fb2f60aee845ee6b8e62d8b11",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four enlarged whole reference specimens, full actual Regular400 compiled raster, and enlarged relevant component crops. No other weight is approved.",
+        "Native matches coherent THX: detached forks, independent wide inverted-U outer enclosure with short bent upstub, left arched component with one crossbar/counter and free inner downward terminal, right independent winding course plus upper free inner downward stem.",
+        "Actual preserves branches, one counter and four principal lower terminals, but enlarged right-course crop shows an abrupt inward offset notch on upper descending shoulder and a flat angular segment at middle return. Native has continuous smooth arcs."
+      ]
+    }
+  ]
+}

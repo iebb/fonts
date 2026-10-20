@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1D1",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D1.json",
-  "source_png_sha256": "1865725f214d8de883960c9d013862daa3c42a0150984f71e5c1624a1d491ca1",
+  "native_review_report": "design/seal-individual/reviews/U3D1D1.json",
   "source_png": "design/seal-individual/U3D1D1.png",
+  "source_png_sha256": "1865725f214d8de883960c9d013862daa3c42a0150984f71e5c1624a1d491ca1",
   "reference_png_sha256": "96986f219aeba617944aae8aa3a1068706b460155c488acee6f992b2cf4f32cf",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1D1.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentythird-eight/sources/U3D1D1.json",
-  "source_json_sha256": "dae9b2f38065fa3d09b9503028f95da6e39881b254fdaec09555a103f7ded506",
-  "geometry_sha256": "12e5ee326e64812b67800b0d2cfcd0252a147c8673beab8258aadf1b1571282a",
-  "font_file": "design/quality/proofs/continuation/review-twentythird-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
-  "raster_file": "design/quality/proofs/continuation/review-twentythird-eight/U3D1D1-Regular400.png",
-  "raster_sha256": "3d2ba2846122d355dc064bbc1f92b561644c481ae6d67d9ff1df441cf8e5402a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1D1-detached-rightfork-v1/sources/U3D1D1.json",
+  "source_json_sha256": "6d75f901e25a7b522e7a6e161f65d0e50e10442c5f2bfd80680e8821b78ff8c1",
+  "geometry_sha256": "8fcf19b1e1b0f2aef609140a7104711689b1473951fb32841dca4af5ab32b17d",
+  "font_file": "design/quality/proofs/continuation/U3D1D1-detached-rightfork-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "49cd8468094e1824232528d609c360703d386817a47284cd2b840754781afebc",
+  "raster_file": "design/quality/proofs/continuation/U3D1D1-detached-rightfork-v1/U3D1D1-Regular400.png",
+  "raster_sha256": "fad62771e3597818bb3ea6f6dee3b64a811de3b74dfceaf873a196994962f901",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/actual font and enlarged right compound inspected. Current left fork detached and two independent open left curves, plus right lower crossbar joining both arch walls, match THX body. But native right fork joins staff continuously, while THX both forks detached with separate short staff upstub above first bar. Joined-right CCZ/QJZ variants change left upper contact and/or lower crossbar wall contacts. Actual otherwise retains four counters, three right feet and full left trajectories."
-  ],
-  "requested_corrections": [
-    "Detach right fork from separate compound staff while retaining a short staff upstub above top bar, coherent with whole THX and unchanged left courses/lower wall contacts."
-  ],
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Complete THX both top forks free above two separate left winding courses and right divided bent return/arch compound. Right fork clipping retains independent short body upstub, exact original cubic remainders, two upper fields and two lower fields with three descending feet. All four fields, left course gap and all free body tips retained; native mixed-contact mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "fb7135bc8c6b01e7ee475ed6466e478957b0e728a81c11c78c6d19d969685bab",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "e608a039bc353f66dee3979aeec195c297e9b772da37d313b7a0f4c6ebe1f0d9",
+    "actual_font_enlargement_sha256": "496d9156f7f2851e436b8a5ef7a44a7811a36872709c7a5346776a220cebb3eb"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "12e5ee326e64812b67800b0d2cfcd0252a147c8673beab8258aadf1b1571282a",
+      "source_json_sha256": "dae9b2f38065fa3d09b9503028f95da6e39881b254fdaec09555a103f7ded506",
+      "source_png_sha256": "1865725f214d8de883960c9d013862daa3c42a0150984f71e5c1624a1d491ca1",
+      "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
+      "raster_sha256": "3d2ba2846122d355dc064bbc1f92b561644c481ae6d67d9ff1df441cf8e5402a",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full native/all four whole specimens/actual font and enlarged right compound inspected. Current left fork detached and two independent open left curves, plus right lower crossbar joining both arch walls, match THX body. But native right fork joins staff continuously, while THX both forks detached with separate short staff upstub above first bar. Joined-right CCZ/QJZ variants change left upper contact and/or lower crossbar wall contacts. Actual otherwise retains four counters, three right feet and full left trajectories."
+      ]
+    }
   ]
 }

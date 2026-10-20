@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F8",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1F8.json",
+  "source_png": "design/seal-individual/U3D1F8.png",
+  "source_png_sha256": "73f20a0217dd766d8e3380a76fdb950c19b2ea590f26880f4dacd459d8ce1571",
+  "reference_png_sha256": "19934328c5543f3e61a8f76292cdb47423625a800fe0a2135713b701a604e912",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F8.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F8-whole-THX-open-rails-v1/sources/U3D1F8.json",
+  "source_json_sha256": "058e2cd005f441a4fdf77881b7b98140b0146423a0fc8f46c5b68c6a993b0411",
+  "geometry_sha256": "a3dcaac0090fa66c09e6436f348ce591cfecb3075c76866ee939a0bb1e2eaba5",
+  "font_file": "design/quality/proofs/continuation/U3D1F8-whole-THX-open-rails-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d5216daeff8e9ee123c1e22830ad0a599a26a39eb03016b61ed545a49071232f",
+  "raster_file": "design/quality/proofs/continuation/U3D1F8-whole-THX-open-rails-v1/U3D1F8-Regular400.png",
+  "raster_sha256": "4396ab96eba0016b9f0deb091008bc5b2187c96511fb3a6808057b38f091e043",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      258,
+      -64,
+      766,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX free top forks above bent header/return and short external staff meeting divided oval. Unsupported upper internal central divider removed so V upper field is undivided; first rail right tip is free and second rail left tip is free. External and lower central staff portions retained; V diagonals meet original roof anchors, shoulders/rail contacts smooth. Both required open rail gaps and outer oval envelope remain clear. Native mixed divider/rail contacts mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "518bdad09cfe207759d30056dc9774eeabba1916999fed9b5e026ec468bbaa45",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "17bc7bcba3daac5280eabad99466e400a48e4825918f95be5e068c1d41164a72",
+    "actual_font_enlargement_sha256": "2380a9d824f79236fcec2379473761686351a33010868df4bb5bf7c3f4e4474e"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "2528052e2d07ad72150302e33d057b5f31c6755ef176cbe543bdff3901cf6f64",
+      "source_json_sha256": "531093070a226ef3b54b1a269428a3c3135a36819be2b104dba42024834b0d91",
+      "source_png_sha256": "73f20a0217dd766d8e3380a76fdb950c19b2ea590f26880f4dacd459d8ce1571",
+      "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+      "raster_sha256": "8c7c1eed2258fd80a2efe74b060b8ada0597a8e63572c245954dab1edbca33a4",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full native/all four whole specimens/full actual/enlarged enclosure inspected. Native matches THX free top forks/open right header hook but adds unsupported internal central upright from body roof to diagonal-V junction, bisecting THX single triangular field. Both horizontal inner bars join both outer walls; THX first bar right tip free and second bar left tip free. QJZ/DYC joined-wall families also have closed header loop/right fork contact absent current. Actual upper shoulders pronounced lumps and first horizontal rail scalloped."
+      ]
+    }
+  ]
+}

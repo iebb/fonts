@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1F2",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F2.json",
-  "source_png_sha256": "bfe86d10272c2a92d28c8ce6814bac8182da7bf98be516eee1f25398853587b0",
+  "native_review_report": "design/seal-individual/reviews/U3D1F2.json",
   "source_png": "design/seal-individual/U3D1F2.png",
+  "source_png_sha256": "bfe86d10272c2a92d28c8ce6814bac8182da7bf98be516eee1f25398853587b0",
   "reference_png_sha256": "72f2f871f66876e72d023136328c4aac407be28a94a51135f93829f43c66990f",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1F2.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F2.json",
-  "source_json_sha256": "0a3ba7fe1d19eade364952b511d6db89f9d7b273a282ec7f16836b788eb13681",
-  "geometry_sha256": "9b10de9bca86316af9aa4b5f90e016c9a7251e90fbbb57b291e2980a4e0f4410",
-  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
-  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F2-Regular400.png",
-  "raster_sha256": "a232ab3b2878342e8b07d85d2cb63149cb2f3e06cb18137ab92c5121833f08e6",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F2F5-hooks-and-corner-v2/sources/U3D1F2.json",
+  "source_json_sha256": "60db6653518f81a6eec4cd7267588eb8427d13c3376a5f4599ed4a3421ef051f",
+  "geometry_sha256": "2d27afba6d7d39a9a9b8bee0918562ba26702a402d735f66423488f37df7cdcb",
+  "font_file": "design/quality/proofs/continuation/U3D1F2F5-hooks-and-corner-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1c2dd322e38d02ba2372c916801a3c6d916751371ff102ddad00c938250b4d49",
+  "raster_file": "design/quality/proofs/continuation/U3D1F2F5-hooks-and-corner-v2/U3D1F2-Regular400.png",
+  "raster_sha256": "de22d565a6d59e6486337b33dac14a0b66017c83eaed42ec281e45a021f1632e",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,20 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four whole specimens/full actual and enlarged inner forks inspected. Native omits short leftward bent tips atop BOTH inner trident central uprights, attested all specimens. Native also leaves middle body rail separated from outer left wall although THX joins that rail to wall; current outer/top/body otherwise closest THX, with all six bottom legs and four body fields. Counts alone do not recover missing hooks/contact."
-  ],
-  "requested_corrections": [
-    "Restore short leftward bent upper tips on both inner trident central uprights, keeping them detached from outer roof.",
-    "For coherent THX extend only middle body rail left endpoint to existing outer wall; retain other left rail tips and all lower terminals."
-  ],
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX roof joins both top forks with central short upstub, long left outer staff and free right overhang. Both inner tridents now retain their missing short left-bent upper tips; exact middle crossbar reaches outer left wall. Three body rails, returned right cap/tail, paired three-leg lower compounds and all fields remain clear. Native missing-hook/wall-contact mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "30aa253b96b69eadaf058d6aea98aec51e5275e8491fdd488d1ca8f4661a8ddf",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "358f1d1f77f69dc11aa890fea8dd9ea44a10a08b0ec18ac238c1482a4cf5dfd8",
+    "actual_font_enlargement_sha256": "5c079aa7fd30d45827eec98d1b8bbab49aca868ae2bdc640ca234a01fbb00cab"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "9b10de9bca86316af9aa4b5f90e016c9a7251e90fbbb57b291e2980a4e0f4410",
+      "source_json_sha256": "0a3ba7fe1d19eade364952b511d6db89f9d7b273a282ec7f16836b788eb13681",
+      "source_png_sha256": "bfe86d10272c2a92d28c8ce6814bac8182da7bf98be516eee1f25398853587b0",
+      "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+      "raster_sha256": "a232ab3b2878342e8b07d85d2cb63149cb2f3e06cb18137ab92c5121833f08e6",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full native/all four whole specimens/full actual and enlarged inner forks inspected. Native omits short leftward bent tips atop BOTH inner trident central uprights, attested all specimens. Native also leaves middle body rail separated from outer left wall although THX joins that rail to wall; current outer/top/body otherwise closest THX, with all six bottom legs and four body fields. Counts alone do not recover missing hooks/contact."
+      ]
+    }
   ]
 }

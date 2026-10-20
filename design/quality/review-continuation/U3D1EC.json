@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1EC",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1EC.json",
+  "source_png": "design/seal-individual/U3D1EC.png",
+  "source_png_sha256": "dcd72c4c21cb9f689932b7c731800b8c86d1b012afbdffb279bac81beb9877d3",
+  "reference_png_sha256": "ec0d5cc86b5b644c4d90f88432abe15458e563ff8ac26806537817069b205fe1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1EC.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1EC-whole-THX-winding-gap-v1/sources/U3D1EC.json",
+  "source_json_sha256": "bb7496ba8c8890bb5c61ef52379c79ab4a2473cae93b1c03d3200a1afae8c1a2",
+  "geometry_sha256": "5d2e52453c0dfaeaf8def8bf61344adfede59d01b1255b2ec7025af022d4c983",
+  "font_file": "design/quality/proofs/continuation/U3D1EC-whole-THX-winding-gap-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "14687f315f5d49e095504dc5f7cac41e68e70b377cddc73065fca688527c36d9",
+  "raster_file": "design/quality/proofs/continuation/U3D1EC-whole-THX-winding-gap-v1/U3D1EC-Regular400.png",
+  "raster_sha256": "626c91f41e4b6319c2bb8717421b1447c98ae89f035144f28eec3dbc94973695",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      226,
+      -64,
+      798,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular400 independently inspected. Complete THX left winding now has its free bent top return above three leftward rails, and lowest return detaches from independent lower bent H/upstub. Exact other course trajectories retained: both free top forks, central trident/two-field oval/three legs, two detached upper-right courses and third course with paired winding descenders. Both fields, all lower terminals and required left gap clear; native simplified-ladder/missing-return mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "001690756058992fcdd22805a6df2cb84e1b4392ee31087abe67547a1e4d036a",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "6d86ed65ac2374ea7f3959875544aab96c749248596d18bd724064dc1a5474f6",
+    "actual_font_enlargement_sha256": "33b7593a9aeafbeab97822e2ba661acb45e4e581118c4126f4d0d00f1fa8974e"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b54b6a3dd13aa9fb72c6156d86470ae684cdf110979cf826e14b381eb66bc2d2",
+      "source_json_sha256": "8508adbaf3bae071f8e47a27151f0f82cf34447bbc88f7df3c6ff9db89f37106",
+      "source_png_sha256": "dcd72c4c21cb9f689932b7c731800b8c86d1b012afbdffb279bac81beb9877d3",
+      "font_sha256": "9633cd2d1a74119dfcc4874a1326a3c4c8828d917dd9caa2f7d7425d82e9e808",
+      "raster_sha256": "1a41669e2ddce27afed3a22817ae746dab4280cc43215c841aab98072361fec2",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole specimens and full/enlarged actual Regular400 inspected. Left upper winding has been simplified into three ladder-like left rails on a continuous staff into the lower bent H. Complete THX requires the extra free bent top return of that winding and a gap separating its lowest return from the independent lower bent H. QJZ ladder-like left form changes right-side contacts and cannot be mixed with the current THX right body. Restore coherent THX left winding and lower separation, preserving both detached top forks, central trident/two-field oval/three lower legs, two detached upper-right courses and third right course with its paired winding descenders."
+    }
+  ]
+}

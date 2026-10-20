@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D21B",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D21B.json",
+  "source_png_sha256": "8693fea8d5402537ae2aae13c48846852d1ba7cf9e0dda87df43a47d7d6d4c6c",
+  "source_png": "design/seal-individual/U3D21B.png",
+  "reference_png_sha256": "2fcd18b5a585a794a4bf59b34016e7450b7f30218654a21719ed9ad33bc36463",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D21B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D21B.json",
+  "source_json_sha256": "ab01bde321b001fab4062317678ae3a1f819c60fe3f4bc02182880feaa9ca0e8",
+  "geometry_sha256": "d0cea9047916167420765fda1dc20e52df08cf6eadcb2d60395176f4b18aea6f",
+  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D21B-Regular400.png",
+  "raster_sha256": "9a7099bd62a65d5ff2cb7afae799e053c752591ef46ea849ec64a382658f2cb0",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      206,
+      -64,
+      818,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+    "DYC unavailable; inspected THX/CCZ/QJZ whole forms. Native follows THX with detached upper forks, two independent opposing open horizontal C returns, and two separate lower inward-turning arches with long outward terminals.",
+    "Actual enlarged paired-return/arch crop preserves all six separate components, all open tips and no counters or unintended contacts. Native endpoint proportions and long lower turns remain recognizable and consistent."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

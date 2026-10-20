@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D3CF",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper, brush or serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels, text, grid or multiple glyphs. Whole THX: left small U mouth pocket with divider/prongs. Right complex upper arch with TWO inner detached downward curves; top right tall central staff and crossing short horizontal rail with short outer right upright. Winding main course descends left into long free left leg and curves upper right then down as long right leg. Inside lower field central vertical stem splits into two diagonals at bottom; TWO detached short vertical strokes flank central stem. Follow THX full construction.",
+  "reference": "reference/seal/individual/U3D3CF.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-b57126cd-aa98-4a6a-9eb6-2766754523be.png",
+  "output_file": "design/seal-individual/U3D3CF.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "51f02e4183fd38d48df6b7782e5a3de0ca3d27ef068eda8ed68f1c127d8bf6c1",
+  "reference_sha256": "d2fe5a00ac21a42300b3425c82080bb6ed3be0375211e2f3eb1d946fd3c3bf86",
+  "reference_metadata_sha256": "604f00b7a5e122dec4f67c170b79b71ec4f4e352fd872ba19935bf61975a7bc9",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3CF",
+    "page": 18,
+    "label_bbox": [
+      87.30000305175781,
+      633.97021484375,
+      118.96937561035156,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 18,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          632.1809692382812,
+          144.17999267578125,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          632.7732788085938,
+          146.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "TH-00925"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 18,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          630.7401733398438,
+          168.03985595703125,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          632.7732788085938,
+          172.8000030517578,
+          657.753271484375
+        ],
+        "source_label": "C-00958"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 18,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          634.9942016601562,
+          196.539794921875,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          632.7732788085938,
+          199.5000030517578,
+          657.753271484375
+        ],
+        "source_label": "K-00931"
+      },
+      "DYC": {
+        "available": true,
+        "page": 18,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          632.1921997070312,
+          221.43984985351562,
+          657.2279663085938
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          632.7732788085938,
+          226.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "D-00920"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Left mouth incorrectly joins right upper arch."
+  ]
+}

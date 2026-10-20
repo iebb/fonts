@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1D6",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D6.json",
-  "source_png_sha256": "743bf5330717efb5e8a5f52b4d3ea3ddf64e325113c091d35dd7bc13b278d2cb",
+  "native_review_report": "design/seal-individual/reviews/U3D1D6.json",
   "source_png": "design/seal-individual/U3D1D6.png",
+  "source_png_sha256": "743bf5330717efb5e8a5f52b4d3ea3ddf64e325113c091d35dd7bc13b278d2cb",
   "reference_png_sha256": "6a0e400310c894610fba077e86fa7cefabc649f43d0fa286126765fb2d3c2d52",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1D6.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentythird-eight/sources/U3D1D6.json",
-  "source_json_sha256": "3485e02973759ce7f74817e8ff940bc6c83aa5cd7058aee33baeacad4b532fd1",
-  "geometry_sha256": "684b496821d1a056403b4bf010d43beb9fee7b0d76391aba144c27ce2172b0d2",
-  "font_file": "design/quality/proofs/continuation/review-twentythird-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
-  "raster_file": "design/quality/proofs/continuation/review-twentythird-eight/U3D1D6-Regular400.png",
-  "raster_sha256": "09ead3a5181cf9d9fc38cdc87eca33dd54a0f0e86a211c2dcdab119202950a17",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1D6-smooth-rightbow-v1/sources/U3D1D6.json",
+  "source_json_sha256": "eed8232d05f985149d80396f9cc855f618817cc6e46570bbdad94981c475fb52",
+  "geometry_sha256": "648a4fdf2a721e52d432d4816490dfae2e72e6582ed89836841b939135387606",
+  "font_file": "design/quality/proofs/continuation/U3D1D6-smooth-rightbow-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7ed6a7889494f1026020880a87deb4ff746197adca7f0b0427d48df0c2440cfc",
+  "raster_file": "design/quality/proofs/continuation/U3D1D6-smooth-rightbow-v1/U3D1D6-Regular400.png",
+  "raster_sha256": "9aff7628b3f48f8eb7ff4f6db4405711765a3d7066fd10122baac4fd51b7f440",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,33 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Full native/all four enlarged whole specimens/full actual and enlarged right compound inspected. Native follows CCZ left upper fork joined through inner trident/staff, right fork free, opposed middle side marks, lower three legs, separate winding right course splitting into two descending terminals. No counter. Actual keeps all courses but has a visible step/flat kink midway down right outer bowed descent compared with smooth native course."
-  ],
-  "requested_corrections": [
-    "Smooth only right outer bowed descent through original shared branch anchor and original lower terminal, preserving native envelope and upper winding/inner descending branch."
-  ],
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Coherent complete CCZ left top fork joins the lower fork/staff while right top fork remains free above independent curved branch compound. Left crossbar/side curves/three lower legs retained. Right outer bowed descent now has smooth flow through original inner-branch contact and lower terminal, preserving upper twelve segments, original wide envelope and exact lower free tip. No counters or unintended contacts introduced.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "613476b1a9c0551462ed52afbf17f1fe6f3c15446be2f347f26c708dbf2550c7",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "cd6fb309c357cf4a50d9bd705cf013064ef73eb90e7ed5f08d1ac36405a0dbc1",
+    "actual_font_enlargement_sha256": "6c8b105185386007aa34368b781f324dd9dd6315f5e519702e0094f4090fb00d"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "684b496821d1a056403b4bf010d43beb9fee7b0d76391aba144c27ce2172b0d2",
+      "source_json_sha256": "3485e02973759ce7f74817e8ff940bc6c83aa5cd7058aee33baeacad4b532fd1",
+      "source_png_sha256": "743bf5330717efb5e8a5f52b4d3ea3ddf64e325113c091d35dd7bc13b278d2cb",
+      "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
+      "raster_sha256": "09ead3a5181cf9d9fc38cdc87eca33dd54a0f0e86a211c2dcdab119202950a17",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four enlarged whole specimens/full actual and enlarged right compound inspected. Native follows CCZ left upper fork joined through inner trident/staff, right fork free, opposed middle side marks, lower three legs, separate winding right course splitting into two descending terminals. No counter. Actual keeps all courses but has a visible step/flat kink midway down right outer bowed descent compared with smooth native course."
+      ]
+    }
   ]
 }

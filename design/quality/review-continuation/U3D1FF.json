@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1FF",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1FF.json",
+  "source_png": "design/seal-individual/U3D1FF.png",
+  "source_png_sha256": "18ce1933aa124e943e48fb81a5d2ea5d33a7acab33e8ff154436401a46be9970",
+  "reference_png_sha256": "f24aeee0394c9097280225bf45d835625bc49c0cb2c4d42662629abd229a1533",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1FF.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1FF-whole-THX-gaps-attachedmarks-v1/sources/U3D1FF.json",
+  "source_json_sha256": "c6053006ec7201bd0e4cad20683a2fe87961789beed641adab129b4389d1066f",
+  "geometry_sha256": "323b53135ab24e1f029b9ee5a83ecfd0e81f0b12ad5524a75b339cb857d616b1",
+  "font_file": "design/quality/proofs/continuation/U3D1FF-whole-THX-gaps-attachedmarks-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8225ec1ae21d5ebb866d38129763b6e396da2b4133b7bd86d4b22d52a2254f90",
+  "raster_file": "design/quality/proofs/continuation/U3D1FF-whole-THX-gaps-attachedmarks-v1/U3D1FF-Regular400.png",
+  "raster_sha256": "3695a2cb1636ccc04c01ae05823f434a43565e9c6adae0afe73993f3eecafc0d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      283,
+      -64,
+      741,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: both forks detached with descending stems, separate short left dash, one-field inner cup without divider, outer open U and central staff, lower left open winding with two full diagonals attached to its wall. Right free top upstub and complete three projecting returns with smooth anchored roots and long tail preserved. All required gaps and one total field clear. Native joined forks/divided cup/floating marks remain recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "ee8a1adb45576de122bd9de5b10a0d576bf6cbbcfd0c314f64d1897f08fc44ec",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "d212c3a94fd8a38c123d21265a4d9e150b1c051a9ffbf92f2d5d8c08a8de958d",
+    "actual_font_enlargement_sha256": "a24acdcde5baf9cc2e505f0f6d053368dd7b4361cf5096745efbaec88bb6c12e"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "9c65666c5aa424ae0e69e3388e40e8dc7276cdd9f71cb3c44a48934a93cc61d8",
+      "source_json_sha256": "51bb0c48b5943564d858c40cf5d9d65fd9d6d88e680b2be216d0dd5ede3006fc",
+      "source_png_sha256": "18ce1933aa124e943e48fb81a5d2ea5d33a7acab33e8ff154436401a46be9970",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "436ad377655b9bd7bb22b222f8bcea453dcefb7cf93a15232c2e71fb259d0057",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Complete THX requires left detached top fork above a FREE short dash, separate long header/one-field inner U, wider open outer U, and long lower winding carrying TWO inward diagonal branches ATTACHED to its left wall. Native joins dash to header with a central divider through inner cup, creating two fields, and floats both lower diagonals. Right native top fork is joined to winding, while THX keeps it free over separate body upstub. Restore coherent THX contacts/gaps, one upper field and both attached lower diagonals. Actual also loses left top-fork short stem and reduces the two native diagonals to dots; restore these original native lengths when correcting attachments. Smooth right lower winding root through original branch contacts, preserving all three rightward arms and both long lower tails."
+    }
+  ]
+}

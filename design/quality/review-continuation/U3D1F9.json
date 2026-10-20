@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F9",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1F9.json",
+  "source_png": "design/seal-individual/U3D1F9.png",
+  "source_png_sha256": "5d165f0d9de38039a40f18a488069d73db37a8084a2a189b35e54228f40d23f6",
+  "reference_png_sha256": "c293af8db59cfac3b60c87283d5200d22e1b5ac31fa3f2617f4baaa5a3abdecb",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1F9-THX-rightforkjoin-upstub-v1/sources/U3D1F9.json",
+  "source_json_sha256": "6451c3dc176447c54fd62a53ebb8bf2fa0eda55df91f93bc99f5d4763f7fcac3",
+  "geometry_sha256": "64d73ec73060684ce4aabdc4711ad8fcebd13125200bd6fb2e3088aabecaef64",
+  "font_file": "design/quality/proofs/continuation/U3D1F9-THX-rightforkjoin-upstub-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "13b02159826c70a42eaa7e6bd8d6bb559aacebf2f9ef66de90afc094ccf62c54",
+  "raster_file": "design/quality/proofs/continuation/U3D1F9-THX-rightforkjoin-upstub-v1/U3D1F9-Regular400.png",
+  "raster_sha256": "14e8091c8f30446a532e135991d9994b12b21495746238d37b7dbba20a9c97c6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      291,
+      -64,
+      733,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX restored: left top fork stays detached; right fork now joins its outer roof; right inner roof wall retains the short upward free stub. All original lower six inward marks, left one-field compound, right two-field compound, lower winding and long outer descenders retained. Native incorrect fork gap remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "4793992a5909852348bae3f72d1afd55b29bb40fd8678c69860d3ec128d7c1bb",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "f057093193013067c8626fabe47ffe569ec888e5de21d0eb415c391e9bd7e2fa",
+    "actual_font_enlargement_sha256": "49ccc7e910bf8f60f982fc7dc25e805054f1c7fbc62a01e687184f47cc335ee9"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "1975de28b25fb2c5166d4b56e4670949829eac46187ab3c18872493af48650f3",
+      "source_json_sha256": "226b3be999e72f4ec840bf28bfe5f53357ec53e018b9378886d26062c75b1a2b",
+      "source_png_sha256": "5d165f0d9de38039a40f18a488069d73db37a8084a2a189b35e54228f40d23f6",
+      "font_sha256": "f0824588ce4a8c5317bf67fe64a3d9ab11eec1853a7f35171ad5fc6d2fab0302",
+      "raster_sha256": "24e2f2a21fa3425dc154403951016ea85126038b22285d45a79eef048c70a0fa",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged actual Regular400 inspected. Native leaves both top forks detached, while coherent complete THX has left fork free and right fork joined to the right outer roof. Restore this right fork join without changing the left fork gap. The right inner upright also needs its original short upward projection above the roof restored from native, lost in tracing. Preserve left one-field upper enclosure with inward free bar, right two-field cap, both long outer staff terminals, central bent upper return and lower open U with four free inward teeth."
+    }
+  ]
+}

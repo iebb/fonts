@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D22A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D22A.json",
+  "source_png_sha256": "fccc7dd0fd7a77e857891a29745e7edf2992396c841cd5433659a83fef36f3e8",
+  "source_png": "design/seal-individual/U3D22A.png",
+  "reference_png_sha256": "7c933251b57b8024edde6ec9e77ac3cd0799384774ea26502c86e4bbb3422c19",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D22A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D22A.json",
+  "source_json_sha256": "c4188e61326619161367865e347a64cc6bf7b4b7e037b8f7dac65eab1796887b",
+  "geometry_sha256": "f79b58208f5c47c681a7a82fe55046772cd9f9ea9cb61d5d17727b1f8a6bd899",
+  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D22A-Regular400.png",
+  "raster_sha256": "dd59ba7f3e1392c4d637969c1fc64799a978372dab6157c9e3192ad617c87ae7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      310,
+      -64,
+      714,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+    "Native matches coherent THX detached forks, central upstub, two stacked almond fields at two true X intersections, two free lower legs and separate side combs each with two short inward bars plus curved lower return.",
+    "Actual enlarged central crop confirms two fields and side gaps, but LOWER crossing is two offset Y roots connected by a short horizontal neck, instead of one shared native X point. Upper crossing is genuine and should remain unchanged."
+  ],
+  "requested_corrections": [
+    "Unify only lower crossing trajectories at one shared point, preserving all four adjacent course endpoints, two almond counters, lower legs and untouched upper X."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}
