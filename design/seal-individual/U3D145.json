@@ -1,0 +1,112 @@
+{
+  "code_point": "U+3D145",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Correct exactly TWO structural errors in attached original monoline glyph U+3D145, using the attached historical four-source chart as reference. Preserve the original drawing's overall proportions, constant round stroke width and every unaffected trajectory. Error1: Upper-left angled mark currently is a C-like bent zigzag with only TWO terminal tips. It MUST be an E/comb-like diagonal mark with THREE terminal tips: retain curved outer bent stroke and ADD one middle interior diagonal short bar from its left/back spine extending up-right, between existing top and bottom arms. Inspect THX/CCZ/QJZ/DYC upper-left mark to retain three diagonal arms. Error2: The lower-left horizontal bar's right end currently touches the right loop shoulder. SHORTEN ONLY its right endpoint enough to restore a clear VISIBLE WHITE GAP of about one full stroke width between left horizontal bar and right loop's upper-left endpoint. Right lower hook/loop stays separate from left bar. Keep paired detached upper forks, detached inverted-V roof, lower left descending legs and right lower descending leg unchanged. Exactly one complete ancient glyph, no substitution modern character. All strokes uniform width with smooth round curves/caps/joins, black on transparent square canvas. No labels, chart, text, border, shadows or extra imagery.",
+  "reference": "reference/seal/individual/U3D145.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-892cf210-215f-421e-af11-e815c31f4872.png",
+  "output_file": "design/seal-individual/U3D145.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "14bbc97e860f9e877f84f8a29b5d06288595b46acf91119171b49dae453e0584",
+  "reference_sha256": "9707a1a6f056698cb4031aec3c7865fbaa93f48303521ea47338ea471e6346af",
+  "reference_metadata_sha256": "705c1448d319c707cbc3b3ef5ffa8c2da04569a64be605f3691bf3819ed35e60",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D145",
+    "page": 7,
+    "label_bbox": [
+      236.10000610351562,
+      253.57017517089844,
+      265.5594177246094,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 7,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          251.78102111816406,
+          292.9800109863281,
+          276.96002197265625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          252.3732696533203,
+          295.0000061035156,
+          277.3532775878906
+        ],
+        "source_label": "TH-00297"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 7,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          250.34022521972656,
+          316.8398742675781,
+          272.34002685546875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          252.3732696533203,
+          321.6000061035156,
+          277.3532775878906
+        ],
+        "source_label": "C-00315"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 7,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          254.59420776367188,
+          345.33978271484375,
+          276.2159729003906
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          252.3732696533203,
+          348.3000061035156,
+          277.3532775878906
+        ],
+        "source_label": "K-00298"
+      },
+      "DYC": {
+        "available": true,
+        "page": 7,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          251.79220581054688,
+          370.2398681640625,
+          276.8279724121094
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          252.3732696533203,
+          375.0000061035156,
+          277.3532775878906
+        ],
+        "source_label": "D-00295"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D145-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D145-attempt-1.json",
+    "defects": [
+      "Missing upper-left comb middle branch",
+      "Left lower horizontal bar joined right lower loop"
+    ]
+  }
+}

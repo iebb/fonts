@@ -62,3 +62,9 @@ make seal-progress
 
 The references remain private and excluded from Git. Do not promote the
 U+3D080 candidate or any later glyph merely because it compiles successfully.
+
+`make seal-strokes` compiles frozen sources without retracing them. Track new
+native drawings explicitly into a separate candidate directory, review the
+native and an immutable actual-font proof, then deliberately freeze only the
+reviewed hashes. A parallel worker's sparse batch cannot be interpreted as a
+contiguous prefix merely from its glyph count.

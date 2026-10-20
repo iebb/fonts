@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0C9",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0C9.json",
+  "source_png_sha256": "f65a882caff57560932989fd29af6afefa58d12336721f8d4452e3e39438ad62",
+  "source_png": "design/seal-individual/U3D0C9.png",
+  "reference_png_sha256": "2235d0df4d4fc917e24d185de038ceef40565f6d639d04c7c3375eb276296b14",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0C9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D0C9.json",
+  "source_json_sha256": "4b59a47d6d1a47b866d3ef1592e56f61044dc4ed89ec510889c3974a4b02d4e0",
+  "geometry_sha256": "576d9c7309ad9fb6bfcc0011ab93b561f28950324ab3a307f310a1da667b30cd",
+  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D0C9-Regular400.png",
+  "raster_sha256": "ff3cd73498fd1eb7bac748368ce33774142fb2386e67477fa1018c787213005d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      189,
+      -64,
+      835,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected fullnative, fullactualfont and enlargedwhole forms of all4available specimens.",
+    "Preserves detachedstaff, separate peakedroof, detachedshortbar beneathpeak and separate lowerlongstem with short rightwardupperhook. Native chooses coherent THX-type detachedroofbar variant rather than QJZ closedtriangle variant.",
+    "No missing apexstub (thisroof intentionallyhasnone), no roof/bar join, and no accidental contact to lowerstem or staff. Actual Regular400 keeps reference proportions and courses."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "020a84e2e483f98b8beceb18b7a964e38d53e5434f9f2836a6a40dd88def0976",
+    "native_inspection_sha256": "2f165bf693d925d6b448e5a8bc7bc38c8151ed8c3f8ccac1f6add3591f0b1466",
+    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
+  }
+}

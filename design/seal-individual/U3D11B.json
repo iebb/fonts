@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D11B",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D11B. THX CCZ QJZ available; DYC unavailable. ONE tall vertical centerstem through U-shaped cup at midheight. Cup has two outside upright prongs extending above one horizontalcrossbar; central stem divides lowercup into TWO counters. ABOVE cup on centerstem exactly TWO short horizontal ticks extend LEFT. BELOW cup on centerstem exactly TWO short horizontal ticks extend RIGHT. Centerstem continues beyond ticks both above and below. Do not turn upperleft ticks into fullcrossbars, do not omit cup prong tops, exactly two ticks on each designated side.",
+  "reference": "reference/seal/individual/U3D11B.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-ac2a83d0-e755-4b54-b238-19483e6133bc.png",
+  "output_file": "design/seal-individual/U3D11B.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "a7e8b496d48da447c733b2c288a371d7483ee7f66b94f3c94947af8ae4f131ee",
+  "reference_sha256": "056b252d73e4dd92e71c5869bf02ff77e79db61ecdfe1a357e63ce38c0b82308",
+  "reference_metadata_sha256": "45f9184875ebae447437ec6d3b11cdf198f1fb79d6ee4ce54061e21be4bec268",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D11B",
+    "page": 6,
+    "label_bbox": [
+      384.8999938964844,
+      190.1501922607422,
+      415.4693298339844,
+      201.30996704101562
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 6,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          188.4209747314453,
+          441.7799987792969,
+          213.5999755859375
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          188.95328674316406,
+          443.79999389648435,
+          213.93327941894532
+        ],
+        "source_label": "TH-00256"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 6,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          186.9801788330078,
+          465.6398620605469,
+          208.97998046875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          188.95328674316406,
+          470.3999938964844,
+          213.93327941894532
+        ],
+        "source_label": "C-00274"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 6,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          191.23416137695312,
+          494.1398010253906,
+          212.85594177246094
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          188.95328674316406,
+          497.09999389648436,
+          213.93327941894532
+        ],
+        "source_label": "K-00260"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

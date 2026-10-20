@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D14B",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Use THX's clearer spacing when that same construction is attested in the other sources, while considering every available source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No pressure modulation, swelling, taper, brush perimeter, texture, serifs or blobs. Every stroke has identical width, approximately 3% of full square canvas; keep dense counters and gaps open. Exactly one complete glyph centered inside central70% of a square 1:1 canvas, generous empty margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, codepoint, frame, chart, grid, watermark, color, shadows or additional specimens. Preserve structural details rather than decorative resemblance. Codepoint U3D14B. Structural reading aid: Two detached three-pronged forks across top. Below two closed rounded rectangular loops vertically stacked, connected only by one short centered vertical stem. Upper loop slightly smaller than lower. Both counters fully open. Top forks remain detached from loops.",
+  "reference": "reference/seal/individual/U3D14B.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-704b859f-f341-45ba-ba69-92cbafae470d.png",
+  "output_file": "design/seal-individual/U3D14B.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "e62fb9d8a37c08bb13b79701e8bc80537960776e98aa4900d6872f2d41ecc054",
+  "reference_sha256": "a6561e073941148411e6a1b8d673ae9f4afb6c8642b0b6bf2f6912eb851da012",
+  "reference_metadata_sha256": "8c8b280d65bdeb538b93f6fca31cd3aa2de8d80c612cc498b1aeb91879ebfb1e",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D14B",
+    "page": 7,
+    "label_bbox": [
+      236.10000610351562,
+      443.77020263671875,
+      266.6694030761719,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 7,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          441.98101806640625,
+          292.9800109863281,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          442.57329711914065,
+          295.0000061035156,
+          467.55328979492185
+        ],
+        "source_label": "TH-00303"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 7,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          440.54022216796875,
+          316.8398742675781,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          442.57329711914065,
+          321.6000061035156,
+          467.55328979492185
+        ],
+        "source_label": "C-00321"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 7,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          444.794189453125,
+          345.33978271484375,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          442.57329711914065,
+          348.3000061035156,
+          467.55328979492185
+        ],
+        "source_label": "K-00304"
+      },
+      "DYC": {
+        "available": true,
+        "page": 7,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          441.9921875,
+          370.2398681640625,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          442.57329711914065,
+          375.0000061035156,
+          467.55328979492185
+        ],
+        "source_label": "D-00301"
+      }
+    }
+  }
+}

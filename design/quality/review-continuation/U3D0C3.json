@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0C3",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0C3.json",
+  "source_png_sha256": "4b980f7fece5735dc355a6f0fdda65afa1afe0040314f8d7048be57e9a64cbfd",
+  "source_png": "design/seal-individual/U3D0C3.png",
+  "reference_png_sha256": "9d54a7a7f890785c4f83555bffe5f2174d1e43896c1a8e9ee1377634f1c3b188",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0C3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-second-eight/sources/U3D0C3.json",
+  "source_json_sha256": "aba18a228c405f973cab3574e77f873f40daac02bdfb01fdcbaf914bd507ff37",
+  "geometry_sha256": "4c00a9da202de31f03acf1f3676b740485a06896bfd07ad6efe461c58ce6f927",
+  "font_file": "design/quality/proofs/continuation/wave1-second-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2b20c16242b9e7f48cfdcd3b0a7f061aac7e008032efa3ff28ea03b3863c3977",
+  "raster_file": "design/quality/proofs/continuation/wave1-second-eight/U3D0C3-Regular400.png",
+  "raster_sha256": "57b71c4dc645a2523036d8f640b63607abf9b6035a180db9a31fec390e935778",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      263,
+      -64,
+      761,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with native and actual font. Coherent THX/CCZ-type construction preserves detached left staff, right roof with short upright apex stub, and long central vertical stroke detached beneath the roof.",
+    "No extra counter, unintended roof-to-central-stroke join, or missing terminal. Actual constant-width rounded expansion preserves native courses and component spacing."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

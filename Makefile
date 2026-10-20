@@ -1,5 +1,4 @@
 PYTHON ?= python3
-SEAL_COUNT ?= $(shell $(PYTHON) -c 'import json; print(len(json.load(open("design/quality/accepted-geometry.json"))["glyphs"]))')
 
 .PHONY: test noto supplement audit seal-strokes seal-variable seal-progress
 
@@ -16,7 +15,7 @@ audit:
 	$(PYTHON) tools/audit_coverage.py --help
 
 seal-strokes:
-	$(PYTHON) tools/track_centerlines.py --single-images --count $(SEAL_COUNT)
+	# Compile frozen sources as reviewed; trace new drawings explicitly before review.
 	$(PYTHON) tools/verify_source_reviews.py --output fonts/seal-individual/source-review-check.json
 	$(PYTHON) tools/build_stroke_font.py --source-root design/strokes-individual --output fonts/seal-individual --family "Panorama Gothic Seal Individual" --font-stroke-width 30 --normalize-glyphs --require-visual-match
 	$(PYTHON) tools/render_stroke_font.py --font fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf --output fonts/seal-individual

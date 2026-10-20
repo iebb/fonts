@@ -1,8 +1,8 @@
 {
   "font": "fonts/seal-individual-variable/PanoramaGothicSealIndividualVariable.ttf",
-  "font_sha256": "8ffad16921da1929e7cc4192dadcdce895045cf117b95f9879d8fe81e34bada5",
-  "specification": "/workspace/unifont/design/quality/invariants.json",
-  "specification_sha256": "43c51a43a7fce566dc1012c046c42b25ab11c6fb0d275ece2fb45e6f7c1f865a",
+  "font_sha256": "6d5ace94ad65afa9a2b5f3c94a0c7450a0413fcbad27f65c8d84816511a92346",
+  "specification": "/workspace/fonts/design/quality/invariants.json",
+  "specification_sha256": "be220022dfbd4a31aed4b8134f10eb4d87f2087b3c3bf4fd3721db21c8a63c0f",
   "rasterizer": "Pillow / FreeType; actual TTF or variable-font raster",
   "raster_em_pixels": 2048,
   "ink_threshold": 128,
@@ -1659,6 +1659,200 @@
       "measured": {
         "ink_component_count": 12,
         "counter_count": 2
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D087.png",
+        "review_report": "design/quality/review-continuation/U3D087.json",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "confirmed_structure": "Separate three-bar staff and detached dot; losing the dot must fail.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 2,
+        "components": [
+          {
+            "bbox_pixels": [
+              316,
+              32,
+              1788,
+              1568
+            ],
+            "ink_pixels": 298256,
+            "ink_span_pixels": 1472,
+            "height_pixels": 1536,
+            "horizontal_aspect": 0.9583333333333334,
+            "fill_ratio": 0.1319137794384058,
+            "center_y_pixels": 799.5
+          },
+          {
+            "bbox_pixels": [
+              1728,
+              786,
+              1796,
+              846
+            ],
+            "ink_pixels": 3334,
+            "ink_span_pixels": 68,
+            "height_pixels": 60,
+            "horizontal_aspect": 1.1333333333333333,
+            "fill_ratio": 0.817156862745098,
+            "center_y_pixels": 815.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D103.png",
+        "review_report": "design/quality/review-continuation/U3D103.json",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ"
+        ],
+        "confirmed_structure": "Left three-bar staff and two separate full-height right structures; an uninterrupted white gap separates the central pair. A middle bridge is an error.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 3,
+        "components": [
+          {
+            "bbox_pixels": [
+              482,
+              311,
+              826,
+              1145
+            ],
+            "ink_pixels": 96030,
+            "ink_span_pixels": 344,
+            "height_pixels": 834,
+            "horizontal_aspect": 0.41247002398081534,
+            "fill_ratio": 0.33472059561653006,
+            "center_y_pixels": 727.5
+          },
+          {
+            "bbox_pixels": [
+              906,
+              33,
+              1192,
+              1569
+            ],
+            "ink_pixels": 164837,
+            "ink_span_pixels": 286,
+            "height_pixels": 1536,
+            "horizontal_aspect": 0.18619791666666666,
+            "fill_ratio": 0.3752299133158508,
+            "center_y_pixels": 800.5
+          },
+          {
+            "bbox_pixels": [
+              1344,
+              41,
+              1630,
+              1569
+            ],
+            "ink_pixels": 167617,
+            "ink_span_pixels": 286,
+            "height_pixels": 1528,
+            "horizontal_aspect": 0.18717277486910994,
+            "fill_ratio": 0.383555907443342,
+            "center_y_pixels": 804.5
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 400.0,
+      "criterion": "ink_component_count",
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D143.png",
+        "review_report": "design/quality/review-continuation/U3D143.json",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Both upper tridents remain detached from the body enclosure; the inner lower construction is separately detached. Tracking must preserve the right trident/body gap.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "passed": true,
+      "measured": {
+        "ink_component_count": 4,
+        "components": [
+          {
+            "bbox_pixels": [
+              1096,
+              38,
+              1522,
+              350
+            ],
+            "ink_pixels": 48947,
+            "ink_span_pixels": 426,
+            "height_pixels": 312,
+            "horizontal_aspect": 1.3653846153846154,
+            "fill_ratio": 0.368266221259179,
+            "center_y_pixels": 193.5
+          },
+          {
+            "bbox_pixels": [
+              590,
+              32,
+              1010,
+              378
+            ],
+            "ink_pixels": 51049,
+            "ink_span_pixels": 420,
+            "height_pixels": 346,
+            "horizontal_aspect": 1.2138728323699421,
+            "fill_ratio": 0.35128681530415634,
+            "center_y_pixels": 204.5
+          },
+          {
+            "bbox_pixels": [
+              592,
+              370,
+              1522,
+              1568
+            ],
+            "ink_pixels": 303367,
+            "ink_span_pixels": 930,
+            "height_pixels": 1198,
+            "horizontal_aspect": 0.7762938230383973,
+            "fill_ratio": 0.2722880427953399,
+            "center_y_pixels": 968.5
+          },
+          {
+            "bbox_pixels": [
+              770,
+              994,
+              1350,
+              1568
+            ],
+            "ink_pixels": 146311,
+            "ink_span_pixels": 580,
+            "height_pixels": 574,
+            "horizontal_aspect": 1.0104529616724738,
+            "fill_ratio": 0.4394779526613,
+            "center_y_pixels": 1280.5
+          }
+        ]
       },
       "errors": []
     },
@@ -3768,6 +3962,30 @@
   ],
   "skipped_checks": [
     {
+      "codepoint": "U+3D087",
+      "weight": 300.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 300.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 300.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
       "codepoint": "U+3D045",
       "weight": 500.0,
       "reason": "Outside the recorded optical acceptance weights",
@@ -3782,6 +4000,30 @@
       "reason": "Outside the recorded optical acceptance weights",
       "applicable_weights": [
         300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 500.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
         400
       ]
     },
@@ -3804,6 +4046,30 @@
       ]
     },
     {
+      "codepoint": "U+3D087",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 600.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
       "codepoint": "U+3D045",
       "weight": 700.0,
       "reason": "Outside the recorded optical acceptance weights",
@@ -3818,6 +4084,30 @@
       "reason": "Outside the recorded optical acceptance weights",
       "applicable_weights": [
         300,
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D087",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D103",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
+        400
+      ]
+    },
+    {
+      "codepoint": "U+3D143",
+      "weight": 700.0,
+      "reason": "Outside the recorded optical acceptance weights",
+      "applicable_weights": [
         400
       ]
     }

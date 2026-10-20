@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D106",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D106.json",
+  "source_png_sha256": "f9e5aced9dc5af374389ad1bc48a8ba3d9832a815680376af192f3c8413cfaf8",
+  "source_png": "design/seal-individual/U3D106.png",
+  "reference_png_sha256": "66128276a4d0e97d64cc7625bdd1a003d1dd75655932d78ddb4a6f6b969c7dd6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D106.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-third-eight/sources/U3D106.json",
+  "source_json_sha256": "7fc5a0c73f6da5c38fc2e52a12170304da8731e6a79f70a740da4f24404accb0",
+  "geometry_sha256": "03d945a17319fbf56b5815fd6bab1ae7680ccac639328eaaf5bc380449cb30ac",
+  "font_file": "design/quality/proofs/continuation/wave1-third-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1b27af738fe8eba120cf80510c0bc2d884d5d56cade949d0199a222912f2adaf",
+  "raster_file": "design/quality/proofs/continuation/wave1-third-eight/U3D106-Regular400.png",
+  "raster_sha256": "66835de51a39b20c09ffdefd22f0380f5c8ccf725eca973eadcce3de51d3d65f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      159,
+      -64,
+      865,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared both available THX andCCZ specimens (QJZ/DYCunavailable) with native and actualfont.",
+    "Preserves detached leftstaff plus two independent right feather-like structures, each with top left-extending bar, three diagonal branches meeting long rightside course, and lower sinuous descending tail.",
+    "All six diagonal branches and both tails are present; inter-feather gap remains open and each feather keeps coherent attested contacts."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_reaudit": {
+    "reviewer": "independent visual reviewer /root/seal_review",
+    "review_date_utc": "2026-10-20",
+    "verdict": "accepted_reconfirmed",
+    "method": "Re-examined original full native on white, enlarged tightly cropped whole specimens for all available references, and actualfont proof previously inspected at fullsize; individually checked branch counts, free terminals, counters, detachments, and critical contacts.",
+    "all_specimen_enlargement_sha256": "f93fb8faab8c287fde43e2a784db9711a20fc75d18892f2d534a3bfe14c8a582",
+    "native_inspection_sha256": "ef0e1eae31522857627bc78b039a119d9a206f7d809d71c13f27ffe10b2cdfac",
+    "notes": [
+      "No missing branch or required gap detected at enlarged component scale."
+    ]
+  }
+}

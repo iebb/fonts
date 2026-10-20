@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D104",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D104.json",
+  "source_png_sha256": "38a7e2a9d1eba35e55fa9614dbb0d8966fd5416187c828c5672b1acb822a3e5c",
+  "source_png": "design/seal-individual/U3D104.png",
+  "reference_png_sha256": "a6748c980e39be618cc899c45321e7b1b6bc8a2f3e939403dc6ef0491e721341",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D104.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-second-eight/sources/U3D104.json",
+  "source_json_sha256": "e51632ad286c55183a87d954ce67707a45da6efdfa7b653412dcc5628e0a0f7f",
+  "geometry_sha256": "86156c094a20144fb87231a279dfd5f03284abeb7bc7ffcbd9746920498c3415",
+  "font_file": "design/quality/proofs/continuation/wave1-second-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2b20c16242b9e7f48cfdcd3b0a7f061aac7e008032efa3ff28ea03b3863c3977",
+  "raster_file": "design/quality/proofs/continuation/wave1-second-eight/U3D104-Regular400.png",
+  "raster_sha256": "53cdaa51042597b9440e4fbf0151012f24a8b95c3a80acd739fd3766e69a0cba",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      174,
+      -64,
+      850,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared both available THX and CCZ specimens; QJZ/DYC unavailable. Preserves detached left staff, long top right horizontal joined to descending right course and long inward/outward lower tail, plus detached inner pronged cup.",
+    "Cup has one bottom counter and open top prongs above crossbar. Tail, cup, and staff remain separate; no unintended extra counter or join. Actual Regular400 structure and proportions are acceptable."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

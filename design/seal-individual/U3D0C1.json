@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D0C1",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0C1 construction: LEFT detached upright stem crossed by three short horizontal bars, top and middle nearly equal and bottom slightly longer, occupying middle half of overall height. RIGHT has a tall pointed rounded inverted-V roof; one small DETACHED horizontal bar below roof apex, with visible gaps from both roof slopes (THX/CCZ construction, not QJZ roof-joined crossbar). Below roof a separate winding stem: short horizontal top ledge extending to right, bending smoothly down into a closed right bowl returning to center; a short vertical segment from the ledge to the bowl baseline creates exactly ONE small counter on right. Below that bowl's left end the stem curls left and down into a rounded lower elbow, then sweeps right into one descending rightmost tail reaching baseline. Do not close the lower elbow or create another counter. Keep left three-bar component detached from right roof and winding stem. The stem tail descends below left component's baseline. Preserve THX overall proportions with thin equal-width clean curves.",
+  "reference": "reference/seal/individual/U3D0C1.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-e0601ba3-7197-4dcd-b9c1-9b208d0ac113.png",
+  "output_file": "design/seal-individual/U3D0C1.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "a73f8a154c1c447737c3b7d09093cd4aa720df8984252efe428d140aac862a4d",
+  "reference_sha256": "63fd795854ac8c766ee0ecba931e033299e25a5d671dcfc80a9038efbd4f856c",
+  "reference_metadata_sha256": "c59693084b8d0be0e11d541c76930f2f5e03405011fd4dbb22782da61efccc20",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0C1",
+    "page": 5,
+    "label_bbox": [
+      87.30000305175781,
+      507.13018798828125,
+      118.41938781738281,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 5,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          505.4009704589844,
+          144.17999267578125,
+          530.5799560546875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          505.93328247070315,
+          146.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "TH-00180"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 5,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          503.9601745605469,
+          168.03985595703125,
+          525.9599609375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          505.93328247070315,
+          172.8000030517578,
+          530.9732421875
+        ],
+        "source_label": "C-00184"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 5,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          508.2141418457031,
+          196.539794921875,
+          529.8359375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          505.93328247070315,
+          199.5000030517578,
+          530.9732421875
+        ],
+        "source_label": "K-00182"
+      },
+      "DYC": {
+        "available": true,
+        "page": 5,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          505.4121398925781,
+          221.43984985351562,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          505.93328247070315,
+          226.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "D-00179"
+      }
+    }
+  }
+}

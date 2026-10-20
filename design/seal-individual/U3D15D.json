@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D15D",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Use THX's clearer spacing when that same construction is attested in the other sources, while considering every available source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No pressure modulation, swelling, taper, brush perimeter, texture, serifs or blobs. Every stroke has identical width, approximately 3% of full square canvas; keep dense counters and gaps open. Exactly one complete glyph centered inside central70% of a square 1:1 canvas, generous empty margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, codepoint, frame, chart, grid, watermark, color, shadows or additional specimens. Preserve structural details rather than decorative resemblance. Codepoint U3D15D. Structural reading aid: Choose coherent THX construction. Paired forks detached above upper two sidewalls. Body outer left and right sides each start at top as slanted horizontal shoulders with two internal slanted bars forming little top rectangular gaps; each inner top endpoint descends into short upright. Outer sidewalls continue down as long legs, open at base. Between sidewalls centered U-shaped bowl with small center upright and a long center stem. Under bowl one small horizontal oval crossed by TWO detached short slanted interior strokes plus central stem, making FOUR white narrow counters. Bottom arch with two descending outside legs joined by central stem whose tip reaches longest. Preserve top gap between sidewalls.",
+  "reference": "reference/seal/individual/U3D15D.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-759fb888-e1c8-4e41-b7c1-45729b44dbd4.png",
+  "output_file": "design/seal-individual/U3D15D.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "4e271a87e49e61d23d76ab6b0190ca78ed144383ff6c2be30d390e3ad4fa293a",
+  "reference_sha256": "5f485c2f35d5545db893a4b6f67aeb3f8db30acae8e92f5900d4ccd266f44794",
+  "reference_metadata_sha256": "4d1a579572502e1187df789a6842a876afff9fda84cc22c7cf9aa886ee808110",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D15D",
+    "page": 7,
+    "label_bbox": [
+      384.8999938964844,
+      380.3501892089844,
+      416.0193176269531,
+      391.50994873046875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 7,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          378.6210021972656,
+          441.7799987792969,
+          403.79998779296875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          379.1532836914063,
+          443.79999389648435,
+          404.1333068847656
+        ],
+        "source_label": "TH-00321"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 7,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          377.1802062988281,
+          465.6398620605469,
+          399.17999267578125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          379.1532836914063,
+          470.3999938964844,
+          404.1333068847656
+        ],
+        "source_label": "C-00339"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 7,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          381.4341735839844,
+          494.1398010253906,
+          403.0559387207031
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          379.1532836914063,
+          497.09999389648436,
+          404.1333068847656
+        ],
+        "source_label": "K-00322"
+      },
+      "DYC": {
+        "available": true,
+        "page": 7,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          378.6321716308594,
+          519.0398559570312,
+          403.6679382324219
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          379.1532836914063,
+          523.7999938964844,
+          404.1333068847656
+        ],
+        "source_label": "D-00319"
+      }
+    }
+  }
+}

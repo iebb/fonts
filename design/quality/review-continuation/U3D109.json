@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D109",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D109.json",
+  "source_png_sha256": "2b0631b09043a29c58cd730d2be5fc0da20d8f8cbb38ebadc858ebb1bd678609",
+  "source_png": "design/seal-individual/U3D109.png",
+  "reference_png_sha256": "1b61210412f07b6a519ad54d95c2774ebd8c272dee37cc09a1958477186b2abc",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D109.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-090-109-145/sources/U3D109.json",
+  "source_json_sha256": "269e83624ab7a66775a68ea4714049dfa4006a769f6f18b3ef5720df0b646c92",
+  "geometry_sha256": "bc2193d9d8883130e2bae7801c5f90da5a6f7ce0e8ac47eeb4c35162eec3d090",
+  "font_file": "design/quality/proofs/continuation/review-retries-090-109-145/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "64e3555d48dca2f4419cd7b70f93a06ad0a4341ba57a1f2f7b2c959f573b6ece",
+  "raster_file": "design/quality/proofs/continuation/review-retries-090-109-145/U3D109-Regular400.png",
+  "raster_sha256": "8d3315fc390e5bc752e3cb23ef39d59b510adfc1270f4a0dded6f8cc2dbd29c4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      220,
+      -64,
+      804,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Retry restores detached three lower descenders below upper flag crossbar, including central descender. Full native, enlarged THX and CCZ whole specimens, actual font, and enlarged central-gap crop inspected. QJZ/DYC unavailable. Right bowl and long outer descent retain THX course identity; required central gap survives Regular400. Shared width, rounded ends, proportions and advance retained.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "35e942b60e2988c00ed04ac96950d81bc1e2e070cbfa277e46f5dd6746a6a820",
+      "source_json_sha256": "342632eb964536a7938be1e5ddf2920e17d89269c86f174d00e9fec3bb29ec11",
+      "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+      "raster_sha256": "1f325f35d025f17e03472e924b408135d66fdcbbf179f210a83e959d1c3ac929",
+      "regular400_verdict": "accepted",
+      "native_verdict": "match",
+      "notes": [
+        "Compared both available THX andCCZ specimens (QJZ/DYCunavailable) with native and actualfont.",
+        "Preserves left three-bar staff; middle longstem with rightflag and lowercrossbar plus two detached outer descendingmarks; and separate right winding course with its inner hookedstem and lowerlongterminal.",
+        "Checked actual staff continuity using sourcepaths and connected-component bounds to avoid scaled-image ambiguity: three staffbars are connected by its verticalstem. Right/center contacts and gaps follow coherent THX-type wholeform."
+      ],
+      "requested_corrections": []
+    },
+    {
+      "geometry_sha256": "35e942b60e2988c00ed04ac96950d81bc1e2e070cbfa277e46f5dd6746a6a820",
+      "source_json_sha256": "342632eb964536a7938be1e5ddf2920e17d89269c86f174d00e9fec3bb29ec11",
+      "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+      "raster_sha256": "1f325f35d025f17e03472e924b408135d66fdcbbf179f210a83e959d1c3ac929",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Higher-resolution re-audit supersedes initial contact-sheet acceptance. Enlarged THX andCCZ (onlyavailable specimens) show upperflagstem ending at or shortly below middlecrossbar, with visible gap before separate lowercenter descending stroke.",
+        "Native and actualfont wrongly make upperstem and center lowerleg one continuous stroke. Outer two lowerdescendingmarks are correctly detached, but centerleg also must be separated fromuppersection.",
+        "Other flag, staff and right windingcourse branches remain present. Hold exactnative/geometry until centralvertical is split beneath crossbar; earlier acceptance retained in history."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "upperstem/lowercenterleg gap",
+          "action": "Split continuous centralvertical below middlecrossbar into upperflagstem and separate lowercenter descending stroke, leaving visible whitegap consistent with both THX andCCZ. Preservebar, flag, lowercenter endpoint, outertwo lowerstrokes, and rightcourse."
+        }
+      ]
+    }
+  ]
+}

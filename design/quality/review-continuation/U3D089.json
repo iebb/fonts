@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D089",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D089.json",
+  "source_png_sha256": "0e206cec424917b082d09a84d057d76e7557fd55b03aea41883f0b56ae2ad96a",
+  "source_png": "design/seal-individual/U3D089.png",
+  "reference_png_sha256": "5bd2621c2e6a78fb26b90202d8f7e687e797cdf234e983b1d9af9704d197d708",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D089.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D089.json",
+  "source_json_sha256": "1d30e609113d3474b5c702ac96d9c7e2ef7139579b56399ab569ecb081db9799",
+  "geometry_sha256": "d26e24716678861ec7c6e5e8ca1b5ad4654925b4fbd1d3276d81d332c373b8ea",
+  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D089-Regular400.png",
+  "raster_sha256": "2e66b56c4c9315a349623d6a7d5069eb0a4714fc4a16ffc3a912d0d06056a53a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      224,
+      -64,
+      800,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected fullnative, fullactualfont and enlargedwhole forms of all4available specimens, checking interiorlegs, counters and covercourse individually.",
+    "Preserves detachedstaff; tall outercover with apexupright/rightflag; internal topbar with pairedcurved downlegs; two additional separated curvedmarks below; and lower invertedtriangle with onecounter.",
+    "Required branchcounts, trianglecounter and flag remain; normalized Regular400 preserves fullconstruction and all interior gaps."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "9ce2b868ad598f3818065c763c523e664906b68b1360234f0fade07eb6b05785",
+    "native_inspection_sha256": "fec8bc8358272fa581c7ac800f5e72b20017d2868a9c7df7670ee1a9491642b8",
+    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D083",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D083.json",
+  "source_png_sha256": "8ceea96f2b2798e72826560f1068a2c9ae44aca00111fba754ceeb9d231c3050",
+  "source_png": "design/seal-individual/U3D083.png",
+  "reference_png_sha256": "ff257a33a3a2e23fcd8fa89949b670e63411ec1ea59557076652b4cb44520f13",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D083.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D083-attempt2/sources/U3D083.json",
+  "source_json_sha256": "0e929ee1307f29cbe1b6cbc32777b1cf6860faf9386dcd323b412eebc1a02f0e",
+  "geometry_sha256": "673f417f1f7824e92452a4dd4e20eb8b21680f4e9634120535f45a15cf9bf34d",
+  "font_file": "design/quality/proofs/continuation/U3D083-attempt2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4debbceec474e300a122063270931776789d79e82bcfbb1517434683b85d5979",
+  "raster_file": "design/quality/proofs/continuation/U3D083-attempt2/U3D083-Regular400.png",
+  "raster_sha256": "67bea95dd61cf1b3ec15b81e6597d8ec2c4b0cb8acee3c29342fadb6fcc202f6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      222,
+      -64,
+      802,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with full-resolution second-attempt native and actual Regular400 proof. Retry restores gap between neighboring upper fork prongs and gap between left upper lower-right leg and lower oval.",
+    "Two upper three-prong forks, their middle bars and bent descending legs, detached left three-bar staff, lower oval with two internal bars forming3 counters, and two downward feet are complete.",
+    "Actual Regular400 proof preserves both restored gaps and all branches/counters. Exact second-attempt native and geometry now accepted at default400."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "815d11d923d2fd6f8d273c1d2978c1e3e051a92ea87f11853ddd36511d3419f1",
+      "source_json_sha256": "ea015cde1c51f8ea100c7df748ecb2fb48c7c5ec6ef00a7accc00f1e7410758f",
+      "font_sha256": "bc52c8fdc19fc6f591097306432b4278302402b465d0347f87f452fe26ae99d4",
+      "raster_sha256": "a385430c5c445aee66b1340310cf66429a6920af29121fd009c95a0af942ea31",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Independently compared original native drawing on white against every available THX, CCZ, QJZ and DYC chart specimen; unavailable columns remain excluded.",
+        "Full-resolution native inspection overrides the earlier small-sheet assessment: neighboring upper fork prongs are fused, whereas all four references show separate upper fork components.",
+        "Left upper component lower-right descending leg is also fused into the lower three-counter oval, closing the reference gap. Both joins recur in the actual Regular400 font. The two lower feet and three oval counters themselves remain present.",
+        "Reviewed actual Regular400 TTF raster with 30-unit pen and shared proportional normalization. Required branches, bars, counters and gaps were checked separately from source PNG identity.",
+        "Native and actual font contain the two stated wrong joins; do not freeze this exact geometry."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "two adjacent top forks",
+          "action": "Separate the fused neighboring prongs while retaining two complete three-prong fork constructions."
+        },
+        {
+          "feature": "left upper descending leg and lower oval",
+          "action": "Restore a visible gap between the leg terminal and top of lower oval, preserving the complete lower oval and all three counters."
+        }
+      ]
+    }
+  ]
+}

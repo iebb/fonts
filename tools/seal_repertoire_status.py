@@ -16,6 +16,8 @@ from pathlib import Path
 import re
 import tempfile
 
+from verify_source_reviews import review_report_agrees
+
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SEAL_COUNT = 11328
@@ -216,7 +218,8 @@ def status(root: Path = ROOT, batch_size: int = 64, full_worklist: bool = False)
         if geometry_review:
             source_review_current &= (geometry_review.get("verdict") == "match"
                                       and geometry_review.get("geometry_sha256") == geometry)
-        frozen = bool(entry and native_sha and geometry
+        review_agrees = not entry or review_report_agrees(entry, root)
+        frozen = bool(entry and native_sha and geometry and review_agrees
                       and source_review_current
                       and entry["geometry_sha256"] == geometry
                       and entry["source_png_sha256"] == native_sha

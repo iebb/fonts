@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-20T02:08:38+00:00",
+  "generated_utc": "2026-10-20T03:16:54+00:00",
   "goal": {
     "script": "Seal",
     "block": "Seal",
@@ -38,7 +38,7 @@
     },
     "registry": {
       "path": "/workspace/fonts/design/quality/accepted-geometry.json",
-      "sha256": "b39cba3914c70448d3ae6111626293519d5d06b0d50c83b66503e6764dab1479"
+      "sha256": "db2a24ccd9cef226bb233687e62426c087263534d990dc1d2875ec5dee47b427"
     },
     "chart": {
       "index": "/workspace/fonts/reference/seal/chart-index.json",
@@ -51,23 +51,25 @@
   },
   "counts": {
     "reference_indexed": 11328,
-    "reference_overview_ready": 192,
-    "native_png_present": 129,
-    "native_provenance_valid": 129,
-    "centerline_present": 129,
-    "registry_listed": 128,
-    "frozen_default_accepted": 128,
+    "reference_overview_ready": 385,
+    "native_png_present": 224,
+    "native_provenance_valid": 224,
+    "centerline_present": 224,
+    "registry_listed": 151,
+    "frozen_default_accepted": 151,
     "stale_registry_entry": 0,
-    "native_review_match": 112,
-    "native_review_mismatch": 16,
+    "native_review_match": 139,
+    "native_review_mismatch": 19,
     "native_review_uncertain": 0,
-    "native_review_stale": 0,
-    "native_review_pending": 11200
+    "native_review_stale": 2,
+    "native_review_pending": 11168
   },
   "workflow_counts": {
-    "awaiting_frozen_acceptance": 1,
-    "awaiting_native": 11199,
-    "frozen_default_accepted": 128
+    "awaiting_frozen_acceptance": 70,
+    "awaiting_geometry_review_with_native_mismatch": 1,
+    "awaiting_geometry_review_with_native_stale": 2,
+    "awaiting_native": 11104,
+    "frozen_default_accepted": 151
   },
   "stage_ranges": {
     "reference_indexed": [
@@ -79,37 +81,105 @@
     "reference_overview_ready": [
       [
         "U+3D000",
-        "U+3D0BF"
+        "U+3D180"
       ]
     ],
     "native_png_present": [
       [
         "U+3D000",
-        "U+3D080"
+        "U+3D096"
+      ],
+      [
+        "U+3D0C1",
+        "U+3D0D8"
+      ],
+      [
+        "U+3D101",
+        "U+3D118"
+      ],
+      [
+        "U+3D141",
+        "U+3D159"
       ]
     ],
     "native_provenance_valid": [
       [
         "U+3D000",
-        "U+3D080"
+        "U+3D096"
+      ],
+      [
+        "U+3D0C1",
+        "U+3D0D8"
+      ],
+      [
+        "U+3D101",
+        "U+3D118"
+      ],
+      [
+        "U+3D141",
+        "U+3D159"
       ]
     ],
     "centerline_present": [
       [
         "U+3D000",
-        "U+3D080"
+        "U+3D096"
+      ],
+      [
+        "U+3D0C1",
+        "U+3D0D8"
+      ],
+      [
+        "U+3D101",
+        "U+3D118"
+      ],
+      [
+        "U+3D141",
+        "U+3D159"
       ]
     ],
     "registry_listed": [
       [
         "U+3D000",
-        "U+3D07F"
+        "U+3D085"
+      ],
+      [
+        "U+3D087",
+        "U+3D087"
+      ],
+      [
+        "U+3D0C1",
+        "U+3D0C6"
+      ],
+      [
+        "U+3D101",
+        "U+3D106"
+      ],
+      [
+        "U+3D141",
+        "U+3D144"
       ]
     ],
     "frozen_default_accepted": [
       [
         "U+3D000",
-        "U+3D07F"
+        "U+3D085"
+      ],
+      [
+        "U+3D087",
+        "U+3D087"
+      ],
+      [
+        "U+3D0C1",
+        "U+3D0C6"
+      ],
+      [
+        "U+3D101",
+        "U+3D106"
+      ],
+      [
+        "U+3D141",
+        "U+3D144"
       ]
     ],
     "stale_registry_entry": [],
@@ -176,7 +246,35 @@
       ],
       [
         "U+3D07E",
-        "U+3D07F"
+        "U+3D081"
+      ],
+      [
+        "U+3D083",
+        "U+3D088"
+      ],
+      [
+        "U+3D0C1",
+        "U+3D0C8"
+      ],
+      [
+        "U+3D101",
+        "U+3D102"
+      ],
+      [
+        "U+3D104",
+        "U+3D106"
+      ],
+      [
+        "U+3D108",
+        "U+3D108"
+      ],
+      [
+        "U+3D10A",
+        "U+3D10A"
+      ],
+      [
+        "U+3D141",
+        "U+3D144"
       ]
     ],
     "native_review_mismatch": [
@@ -239,22 +337,55 @@
       [
         "U+3D07D",
         "U+3D07D"
+      ],
+      [
+        "U+3D082",
+        "U+3D082"
+      ],
+      [
+        "U+3D103",
+        "U+3D103"
+      ],
+      [
+        "U+3D107",
+        "U+3D107"
       ]
     ],
     "native_review_uncertain": [],
-    "native_review_stale": [],
+    "native_review_stale": [
+      [
+        "U+3D109",
+        "U+3D109"
+      ],
+      [
+        "U+3D145",
+        "U+3D145"
+      ]
+    ],
     "native_review_pending": [
       [
-        "U+3D080",
+        "U+3D089",
+        "U+3D0C0"
+      ],
+      [
+        "U+3D0C9",
+        "U+3D100"
+      ],
+      [
+        "U+3D10B",
+        "U+3D140"
+      ],
+      [
+        "U+3D146",
         "U+3FC3F"
       ]
     ]
   },
   "unindexed_reference_ranges": [],
   "next_unaccepted_batch": {
-    "first": "U+3D080",
-    "last": "U+3D0BF",
-    "count": 64,
+    "first": "U+3D086",
+    "last": "U+3D086",
+    "count": 1,
     "reason": "First contiguous unaccepted run, bounded by batch size and accepted gaps."
   },
   "default_prototype_goal_complete": false,

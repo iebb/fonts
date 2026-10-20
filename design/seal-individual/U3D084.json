@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D084",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The four slots THX CCZ QJZ DYC all depict the SAME codepoint; examine every available specimen equally. A slot UNAVAILABLE is absent evidence. Choose ONE coherent historical whole construction where variants differ, preserving every branch, bar, loop, counter, detached mark and opening. Do not blend incompatible variant components or substitute a modern Chinese character. Second image is prior finished glyph used ONLY for stroke style, never copy its different character identity. Reconstruct smooth genuine centerline trajectories with absolutely CONSTANT width black strokes, round caps and round joins, precise straight bars and smooth rounded curves; no brush taper, pressure, swelling, blobs, serifs, texture or extra components. All strokes share one width about3% full canvas. Square1:1 canvas with ONE complete centered glyph inside central70%, generous clear margins. Transparent background, pure black strokes. Output only the ONE glyph: no text, labels, frame, chart, grid, multiple specimens, watermark or shadow. Keep all white counters open and all detached components separate. Preserve the natural tall proportions and bar lengths of the chosen attested construction. Current codepoint U+3D084. Choose coherent THX whole construction. Left detached I-shaped three-bar component. Right TOP has TWO upward three-prong forks next to each other with short middle stems descending under fork. Beneath forks is a separate H-like horizontal bar spanning two short outward-curving downward side strokes, with a central vertical stem passing its middle. Below center is an open broad arch shoulder with two outward descending arms; TWO long inner stems/legs descend from its shoulder to bottom and gently splay. No closed counters in this glyph. Do not substitute preceding3D083 oval.",
+  "reference": "reference/seal/individual/U3D084.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-377083f9-31ca-4454-bda1-987d42697b9e.png",
+  "output_file": "design/seal-individual/U3D084.png",
+  "sha256": "165b96d0e5813d08263d861eb149040adcb13e69670280a0eee2c0fd1157d8a0",
+  "reference_sha256": "c34b18d039d78968cdf2dd153552b9f99f5e087b9d9da8cdc1499a5d4584cf6b",
+  "reference_metadata_sha256": "ccad86fdc03c828e4cc7eb5156951ca000f81019fa3dee227af6afb7eee6e9e5",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D084",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      475.4501953125,
+      116.7594223022461,
+      486.6099548339844
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          473.72100830078125,
+          144.17999267578125,
+          498.8999938964844
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          474.2532897949219,
+          146.20000305175782,
+          499.2332824707031
+        ],
+        "source_label": "TH-00122"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          472.28021240234375,
+          168.03985595703125,
+          494.2799987792969
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          474.2532897949219,
+          172.8000030517578,
+          499.2332824707031
+        ],
+        "source_label": "C-00126"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          476.5341796875,
+          196.539794921875,
+          498.15594482421875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          474.2532897949219,
+          199.5000030517578,
+          499.2332824707031
+        ],
+        "source_label": "K-00127"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          473.732177734375,
+          221.43984985351562,
+          498.7679443359375
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          474.2532897949219,
+          226.20000305175782,
+          499.2332824707031
+        ],
+        "source_label": "D-00120"
+      }
+    }
+  }
+}

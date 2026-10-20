@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0CA",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0CA.json",
+  "source_png_sha256": "b153c2e1172c742eca15b8151554e6c09a6b5cdd6c21747a4fd8c6a17cd4a1b3",
+  "source_png": "design/seal-individual/U3D0CA.png",
+  "reference_png_sha256": "161b59d1e4dd5a492b1cec92212bf582d0e4c24685ade863f9a5408be58a43df",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0CA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D0CA.json",
+  "source_json_sha256": "74c1396f7132590d4885027e4614ebab6e496ddfe79f3fb9334d10f71b67f178",
+  "geometry_sha256": "0a0f9a12bc3a4020e4b9f220f903782d8ded9b25014922972ee6b2c7012878fe",
+  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D0CA-Regular400.png",
+  "raster_sha256": "bbc9cdb46e40db624524939b3b9de248355b5847be5065a14fa20de65f0715af",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      241,
+      -64,
+      783,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected fullnative, fullactualfont and enlargedwhole forms of all4available specimens, counting all lowerterminals.",
+    "Leftstack preserves upperprongedcup withcounter, lowerprongedcup divided bycenterstem, furtherbar and detachedlowerstaff. Rightcomponent however has only TWO descendinglegs.",
+    "All4refs have THREE rightcomponent lowerlegs: leftouterupright, central S-derived descender and rightouterupright, connected at middlecrossbar. Native/actual lack the leftouterdescendingstroke; crossbar leftend is free instead."
+  ],
+  "requested_corrections": [
+    {
+      "feature": "rightcomponent leftouterleg",
+      "action": "Restore missing leftouterupright descendingstroke meeting crossbar; retain S-derived centraldescender and existingrightleg, making3distinct lowerterminals."
+    }
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "41fe8088957afd266cf56b3c86ba57b35ccb3d1b7275bf0ad4b6fd6566eff5f5",
+    "native_inspection_sha256": "eed9bf54dd20e3f34161714e1e082f48d0da99e8f75f9a06a2ce74b61157b843",
+    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
+  }
+}

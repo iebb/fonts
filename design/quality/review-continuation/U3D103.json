@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D103",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D103.json",
+  "source_png_sha256": "b223cbfba16a7469fec3c4e9ec9c34bfedd69416376e8ee7121807d0bd3c3dbe",
+  "source_png": "design/seal-individual/U3D103.png",
+  "reference_png_sha256": "816d5052b3b8bd56663017ff1a1d75f32f78e9a3f03864b1d2bfddf2fd06f665",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D103.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D103-restored-central-gap/sources/U3D103.json",
+  "source_json_sha256": "ba23764516f7542168ec70126159ca28c0d0dd802745572f4048703cbc092252",
+  "geometry_sha256": "d163224c199bb125d10851d302fb6da73cf852ea9411041719a8306949f0bc8c",
+  "font_file": "design/quality/proofs/continuation/U3D103-restored-central-gap/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2ce7b3d243359cd7f0cda3768fbd4fb11b0d74d87677b4e7d882d086539c4fbf",
+  "raster_file": "design/quality/proofs/continuation/U3D103-restored-central-gap/U3D103-Regular400.png",
+  "raster_sha256": "c29aa69e27d67f5254f5942f611d62390cdd51a33d551e1701408630889c0b7f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      225,
+      -64,
+      799,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared both available enlarged THX andCCZ specimens, second-attempt native and corrected actual Regular400 proof.",
+    "Corrected geometry now preserves two full-height parallel central stems with uninterrupted central whitegap, outward-only middlebars, and four distinct upper plus four lower terminals. Detached leftstaff remains separate.",
+    "Actual raster has three large components (staff,leftcentralstructure,rightcentralstructure), matching attested construction. Only bridging portion of middlebar was removed by recorded vector split; all other trajectories remain intact.",
+    "Exact corrected geometry is accepted at default400. Original second-attempt PNG still wrongly bridges middlebar across centralgap and remains native mismatch."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e1bb25721e69d9be8d1e27d28b29131e7c647148887b1d093a36689bc582e1d5",
+      "source_json_sha256": "c05c60dbd0a1faff76c7e774631d28828a16462c3c617dd2ff0aa773f6eb635f",
+      "font_sha256": "2b20c16242b9e7f48cfdcd3b0a7f061aac7e008032efa3ff28ea03b3863c3977",
+      "raster_sha256": "d284438f80765a0965a35215e40f7b3a6469838c5850e69065326371155964ef",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Compared both available THX and CCZ specimens; QJZ/DYC unavailable. Both references require TWO parallel central full-height stems separated by a visible gap.",
+        "Reviewed first-attempt native and actual proof wrongly merge the central pair into one stem, reducing four top terminals to three and four lower terminals to three. This historical proof is rejected; canonical native has since changed for retry and requires a separate review."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "parallel central stems",
+          "action": "Restore two parallel continuous central stems and four top/bottom terminals; preserve the central white gap, opposite short outer branches, and detached left staff."
+        }
+      ]
+    },
+    {
+      "geometry_sha256": "6dcf993c78eb470c9e3ce6482991f3d33ab25713ba7cf49a78b31d4f790a781b",
+      "source_json_sha256": "75480812a0612a2ecf7c8c01cfe960df9aa821ed5d41547f127284e652f0376f",
+      "font_sha256": "3082375f2cf7b812fa965a230db76f8ad52f462af58dcef9da02d6eefb99b7c8",
+      "raster_sha256": "aa1c9f615dca19582cf0a1328ffecee9466c1fcbfd583e43b436ea7db834df0a",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Compared enlarged THX andCCZ specimens (only available references) to second-attempt native and actual Regular400 proof.",
+        "Retry restores required two full-height centralstems and four top/bottom terminals. However middle horizontalbar now wrongly bridges across the centralgap.",
+        "Both THX andCCZ show uninterrupted central whitegap through the fullheight; middlebars project outward from respective stems only. Native/actualattempt2 have2 large inkcomponents(staff plus joinedcenter), whereas attested construction has3(staff plus separateleft/right structures).",
+        "Hold exactgeometry until middlebar is split into outward segments without bridging center. Max2native attempts reached; a bounded recorded vector repair can resolvegeometry while PNG remains mismatch."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "uninterrupted centralgap",
+          "action": "Remove only the middlebar segment between two centralstems. Keep outwardbar portions, both continuousstems, all four top/bottomterminals and detachedstaff."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D085",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D085.json",
+  "source_png_sha256": "4bb7126f668b6f9c45ee51f821c26d00a282154560663e7d9185e1be5941753f",
+  "source_png": "design/seal-individual/U3D085.png",
+  "reference_png_sha256": "a05d10b1dea0bc46f6fcacedae170ebf098fa51edb1f4f207fddd2a8f92a0cec",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D085.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-third-eight/sources/U3D085.json",
+  "source_json_sha256": "ae8ac0ced3d678ddeb14f6ebadde17d20a5c2090dc76fb0c667faa6e41c678ab",
+  "geometry_sha256": "f2e204015e612d20ee42c2d93942ee58e926d8e8541e41298a8365659e092640",
+  "font_file": "design/quality/proofs/continuation/wave1-third-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1b27af738fe8eba120cf80510c0bc2d884d5d56cade949d0199a222912f2adaf",
+  "raster_file": "design/quality/proofs/continuation/wave1-third-eight/U3D085-Regular400.png",
+  "raster_sha256": "7b279ef0b40a383d47b02666519ec497128bac96492f7defa2904256837ad270",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      250,
+      -64,
+      774,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with native and actual Regular400 proof.",
+    "Preserves detached leftstaff, right apexstub and roof, continuous middle stem, pair of upper pronged cups with shared crossbar, pair of lower tridents, branching centralstem and two lower arches with six lower terminals total.",
+    "Required spaces between lower stems remain open. No missing cupbar, descending branch, apexstub or lowerleg detected in actual glyph."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_reaudit": {
+    "reviewer": "independent visual reviewer /root/seal_review",
+    "review_date_utc": "2026-10-20",
+    "verdict": "accepted_reconfirmed",
+    "method": "Re-examined original full native on white, enlarged tightly cropped whole specimens for all available references, and actualfont proof previously inspected at fullsize; individually checked branch counts, free terminals, counters, detachments, and critical contacts.",
+    "all_specimen_enlargement_sha256": "b48fca59e0439f403e79d76ef669557cdcfbcab2115d807c7f2eb86b85181e0c",
+    "native_inspection_sha256": "59d8d1bb2749122737357588c9f90ba4df7b0f082bb4b18d20f635b6c516c410",
+    "notes": [
+      "No missing branch or required gap detected at enlarged component scale.",
+      "Detached staff-to-roof relation is attested in DYC/QJZ-type wholeforms; THX/CCZ contact variants were also inspected. Lower cup/trident/arch branchconstruction remains coherent."
+    ]
+  }
+}

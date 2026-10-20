@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D088",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The four slots THX CCZ QJZ DYC all depict the SAME codepoint; examine every available specimen equally. A slot UNAVAILABLE is absent evidence. Choose ONE coherent historical whole construction where variants differ, preserving every branch, bar, loop, counter, detached mark and opening. Do not blend incompatible variant components or substitute a modern Chinese character. Second image is prior finished glyph used ONLY for stroke style, never copy its different character identity. Reconstruct smooth genuine centerline trajectories with absolutely CONSTANT width black strokes, round caps and round joins, precise straight bars and smooth rounded curves; no brush taper, pressure, swelling, blobs, serifs, texture or extra components. All strokes share one width about3% full canvas. Square1:1 canvas with ONE complete centered glyph inside central70%, generous clear margins. Transparent background, pure black strokes. Output only the ONE glyph: no text, labels, frame, chart, grid, multiple specimens, watermark or shadow. Keep all white counters open and all detached components separate. Preserve the natural tall proportions and bar lengths of the chosen attested construction. U+3D088: choose coherent detached-left THX construction. Left detached I-shaped three-bar component. Right TOP: one short upright stem with tiny flag extending right near its top; stem meets middle apex of shallow inverted-U roof with short downturned outside ends. INSIDE that roof a short horizontal bar with TWO curved descending outward arms attached near its center, forming open cup/legs, no counters. Beneath top component a separate tall pair of outside downward legs forms a broad inverted-U frame BUT HAS A CLEAR GAP AT ITS TOP CENTER: left and right half-arches do not touch at apex. Inside this lower open-bottom frame is ONE separate vertical oval with exactly TWO horizontal interior crossbars making THREE stacked counters. Oval stays detached from outer frame and top component. Preserve the top center gap and all3 counters; do not join left I component to right roof.",
+  "reference": "reference/seal/individual/U3D088.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-78dfb794-8a07-4500-91d6-1ea109b7d4dd.png",
+  "output_file": "design/seal-individual/U3D088.png",
+  "sha256": "8208008851b8e6c105a214eb3bae69676f2f0e902da2dfa19838d6c1bbeb6118",
+  "reference_sha256": "e00aeb45cb1009452126febaebe1a7b8810c91750e4dac3f247b47b9b1dafc1d",
+  "reference_metadata_sha256": "3a03d567b95574745392a28aee2eee7bc3969ae7ef6ed156cf9d9e75fffdf769",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D088",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      602.230224609375,
+      116.7594223022461,
+      613.3900146484375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          600.5009765625,
+          144.17999267578125,
+          625.6799926757812
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          601.0332275390625,
+          146.20000305175782,
+          626.0732788085937
+        ],
+        "source_label": "TH-00125"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          599.0601806640625,
+          168.03985595703125,
+          621.0599975585938
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          598.430224609375,
+          172.8000030517578,
+          626.0732788085937
+        ],
+        "source_label": "C-00129"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          603.314208984375,
+          196.539794921875,
+          624.9359741210938
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          598.430224609375,
+          199.5000030517578,
+          626.0732788085937
+        ],
+        "source_label": "K-00130"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          600.51220703125,
+          221.43984985351562,
+          625.5479736328125
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          601.0332275390625,
+          226.20000305175782,
+          626.0732788085937
+        ],
+        "source_label": "D-00123"
+      }
+    }
+  }
+}

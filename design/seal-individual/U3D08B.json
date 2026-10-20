@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D08B",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The four slots THX CCZ QJZ DYC all depict the SAME codepoint; examine every available specimen equally. A slot UNAVAILABLE is absent evidence. Choose ONE coherent historical whole construction where variants differ, preserving every branch, bar, loop, counter, detached mark and opening. Do not blend incompatible variant components or substitute a modern Chinese character. Second image is prior finished glyph used ONLY for stroke style, never copy its different character identity. Reconstruct smooth genuine centerline trajectories with absolutely CONSTANT width black strokes, round caps and round joins, precise straight bars and smooth rounded curves; no brush taper, pressure, swelling, blobs, serifs, texture or extra components. All strokes share one width about3% full canvas. Square1:1 canvas with ONE complete centered glyph inside central70%, generous clear margins. Transparent background, pure black strokes. Output only the ONE glyph: no text, labels, frame, chart, grid, multiple specimens, watermark or shadow. Keep all white counters open and all detached components separate. Preserve the natural tall proportions and bar lengths of the chosen attested construction. U+3D08B: CCZ unavailable; study THX QJZ DYC, choose coherent THX construction. LEFT tall arch with tiny upright/rightflag at top; inside upper part short horizontal bar with two down/outward curved legs attached and two additional lower detached curved down/outward marks. Beneath these is one vertical rounded oval with TWO horizontal crossbars making THREE stacked counters; oval stays detached from outer arch ends. RIGHT TOP is two/three nested curved rake strokes connected at their right shoulder into short descending stem; RIGHT BOTTOM is a separate THREE-horizontal-bar I-shaped vertical, clearly detached from curved rake above. Preserve all3 lower oval counters and all3 bars of lower-right I. No extra left I radical.",
+  "reference": "reference/seal/individual/U3D08B.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-69373598-5e8f-4096-8d22-19272f92fc7b.png",
+  "output_file": "design/seal-individual/U3D08B.png",
+  "sha256": "388c03523993f9ef6708fe354eab0f85ee94c7a73c7dc5f84e3371efc84f7461",
+  "reference_sha256": "e3321e6282b0608993a257c8532e881f8acb79cfc2fe759c1f050c3e23ae51be",
+  "reference_metadata_sha256": "8ef167705f4c55144d4747631ac5d4c8b7ab1ad0b90c829da6834d8370dfc6cf",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D08B",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      697.3302001953125,
+      117.86940002441406,
+      708.489990234375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          698.6880493164062,
+          144.17999267578125,
+          720.1500244140625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          696.1332641601563,
+          146.20000305175782,
+          721.1732543945312
+        ],
+        "source_label": "TH-Y009"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          698.4142456054688,
+          196.539794921875,
+          720.0360107421875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          693.5302001953125,
+          199.5000030517578,
+          721.1732543945312
+        ],
+        "source_label": "K-00131"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          695.6122436523438,
+          221.43984985351562,
+          720.6480102539062
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          693.5302001953125,
+          226.20000305175782,
+          721.1732543945312
+        ],
+        "source_label": "D-00125"
+      }
+    }
+  }
+}

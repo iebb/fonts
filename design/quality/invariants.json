@@ -454,6 +454,68 @@
         "expected_components": 12,
         "expected_counters": 2
       }
+    },
+    {
+      "codepoint": "U+3D087",
+      "criterion": "ink_component_count",
+      "applicable_weights": [
+        400
+      ],
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D087.png",
+        "review_report": "design/quality/review-continuation/U3D087.json",
+        "reviewed_specimens": [
+          "THX",
+          "DYC"
+        ],
+        "confirmed_structure": "Separate three-bar staff and detached dot; losing the dot must fail.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "requirements": {
+        "expected_components": 2
+      }
+    },
+    {
+      "codepoint": "U+3D103",
+      "criterion": "ink_component_count",
+      "applicable_weights": [
+        400
+      ],
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D103.png",
+        "review_report": "design/quality/review-continuation/U3D103.json",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ"
+        ],
+        "confirmed_structure": "Left three-bar staff and two separate full-height right structures; an uninterrupted white gap separates the central pair. A middle bridge is an error.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "requirements": {
+        "expected_components": 3
+      }
+    },
+    {
+      "codepoint": "U+3D143",
+      "criterion": "ink_component_count",
+      "applicable_weights": [
+        400
+      ],
+      "source_criteria": {
+        "reference_overview": "reference/seal/individual/U3D143.png",
+        "review_report": "design/quality/review-continuation/U3D143.json",
+        "reviewed_specimens": [
+          "THX",
+          "CCZ",
+          "QJZ",
+          "DYC"
+        ],
+        "confirmed_structure": "Both upper tridents remain detached from the body enclosure; the inner lower construction is separately detached. Tracking must preserve the right trident/body gap.",
+        "regression": "Recorded structural error checked only at independently reviewed Regular400."
+      },
+      "requirements": {
+        "expected_components": 4
+      }
     }
   ]
 }

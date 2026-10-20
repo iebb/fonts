@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D0CE",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0CE: LEFT detached threebarupright. RIGHT a tall enclosed outline: curved upperleftcorner, verticalleftwall, roundedlowerleftcorner; long horizontal topcap and bottomcap extendingright. ONE inner vertical runs continuouslyfromtopcap tobottomcap nearleftside. Right boundary is a windingvertical descendingfromtopcap, bendsoutwardRIGHT into roundbulge inuppermiddle, then returnsleft and descends tobottomcap. ExactlyTWO tall enclosedwhitecounters, left narrowrectangular, right largerirregularwith outwardbulge. No extra crossbars insideoutline. Keep THX tallthinproportions.",
+  "reference": "reference/seal/individual/U3D0CE.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-43dc9667-6c6f-4a4d-b13d-31d5fd959093.png",
+  "output_file": "design/seal-individual/U3D0CE.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "20da3e5f34be772d2e346e432f9fd5c91f7cb1f78b018560a93faec0a330177d",
+  "reference_sha256": "cafb7a11358ef01fc4f999a717333ef9a9d2fb6d41d4b5d1b3822465a45e1b48",
+  "reference_metadata_sha256": "0066b1b44ffe820c2b5323924725b5c01e9fec73fd78c31535f9e659808fcad4",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0CE",
+    "page": 5,
+    "label_bbox": [
+      236.10000610351562,
+      285.25018310546875,
+      268.3293762207031,
+      296.4099426269531
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 5,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          283.52099609375,
+          292.9800109863281,
+          308.6999816894531
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          284.05327758789065,
+          295.0000061035156,
+          309.03330078125
+        ],
+        "source_label": "TH-00193"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 5,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          282.0802001953125,
+          316.8398742675781,
+          304.0799865722656
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          284.05327758789065,
+          321.6000061035156,
+          309.03330078125
+        ],
+        "source_label": "C-00197"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 5,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          286.33416748046875,
+          345.33978271484375,
+          307.9559326171875
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          284.05327758789065,
+          348.3000061035156,
+          309.03330078125
+        ],
+        "source_label": "K-00195"
+      },
+      "DYC": {
+        "available": true,
+        "page": 5,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          283.53216552734375,
+          370.2398681640625,
+          308.56793212890625
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          284.05327758789065,
+          375.0000061035156,
+          309.03330078125
+        ],
+        "source_label": "D-00192"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D148",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D148.json",
+  "source_png_sha256": "d5dce9d6cbef03eb34905b2db3279f43f9b217fae4010b35ee992e178ac46a46",
+  "source_png": "design/seal-individual/U3D148.png",
+  "reference_png_sha256": "1ff3abc2a7e0ad3af630aac1a1d258bc6ceda2b72f2a1d641b2e32c02eea12bf",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D148.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-sixth-eight/sources/U3D148.json",
+  "source_json_sha256": "6ddf2cf638438bb95116629deae5e1493cb54191a2312c83cdd5cb5ec4efcedc",
+  "geometry_sha256": "98e3515533da9f0186e32f929679b43fbeefab528188b91444c6a06bda60c414",
+  "font_file": "design/quality/proofs/continuation/review-sixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "db7835af62541bbbaa723a39fd6a06df9589c0be4b91db46d4dd2f1c084ded02",
+  "raster_file": "design/quality/proofs/continuation/review-sixth-eight/U3D148-Regular400.png",
+  "raster_sha256": "84ffa2113b9f304ebf48d1c99d37851198defeda72b134dc100ed0ed74deb1a9",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      253,
+      -64,
+      771,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged central marks inspected. Actual font loses lower-right arm of upper X, producing three-terminal Y despite native four-terminal X. Native additionally simplifies nested small curl to S, omitting short inner horizontal course attested in THX and visible alternatives. Left enclosure counters, paired small squares, bottom forks preserved.",
+  "requested_corrections": [
+    "Restore lower-right arm of upper X in vector geometry; preserve lower X.",
+    "Restore short inner horizontal course in small nested curl from coherent whole reference variant; do not replace nested curl with simple S."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

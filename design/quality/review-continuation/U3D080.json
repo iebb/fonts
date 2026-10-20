@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D080",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D080.json",
+  "source_png_sha256": "66a35a5c1d02b266ef4cf88d696ed17ea2ef08a4588286b8f9ac197783737a37",
+  "reference_png_sha256": "f6e305582ab98f0bd051d31c892d1066cfc7294b0135272cc51fb230bd8b4e94",
+  "geometry_source": "design/strokes-individual/candidates/U3D080.json",
+  "source_json_sha256": "92506f1499f26a7fd982fbf8cd96e665de5192ae3a633f4c40d2fd225ec5073f",
+  "geometry_sha256": "7a308344d53f236431c6db965fef8f22f2a8633a71fad10d3ff3fcb372ad25e4",
+  "font_file": "design/quality/proofs/continuation/U3D080/SealReview080-Regular.ttf",
+  "font_sha256": "80531fb582d0b170a0c1214ee0ab8ed2a1e94b3f2a0dd18b523c466cb15a0bfc",
+  "raster_file": "design/quality/proofs/continuation/U3D080/U3D080.png",
+  "raster_sha256": "4ed3b6825483ce7fe0d9888e4e310fffeddc5842831163e34326c17321105f97",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      187,
+      -64,
+      837,
+      704
+    ]
+  },
+  "structural_verdict": "match",
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "notes": [
+    "Compared the original native drawing on white with every available THX, CCZ, QJZ and DYC specimen. All four show the same essential whole construction.",
+    "Preserves detached left staff with three horizontal bars; middle bar slightly shorter and bottom modestly wider.",
+    "Preserves central top trident, continuous middle stem, closed rounded middle loop divided into two open white counters, and lower arch with two outer descending legs plus longer central stem.",
+    "Preserves separate right sinuous descending fork, its shorter inner descending branch, and the long outer leg. No missing required branch, extra counter, or unintended inter-component contact found.",
+    "Rounded monoline redraw is a coherent attested whole form. This is visual identity review, not historical writing-order or specialist paleographic certification.",
+    "Actual compiled Regular400 raster preserves required three components, two middle counters, separate side components, and all branches. Advance is 1024 and actual ink fits the established shared envelope.",
+    "Reviewed the revised actual Regular400 font raster. Right fork paths2\u20134 now follow smooth low-order cubic courses; required junction/endpoints and component detachments remain intact. The former local shoulder protrusion is removed.",
+    "Left top/middle bars6\u20137 are now horizontal at their previous mean y positions. Their x extents, relative lengths, and separate staff relation are retained.",
+    "Compared archived automatic source to revised source: only strokes2,3,4,6,7 changed. Strokes1,5,8,9,10,11 are byte-for-byte equal as JSON objects.",
+    "Proof manifest centerline SHA matches exact revised source; preview font SHA matches exact proof TTF. Pen width30, normalization extent738, proportional scaling, Regular400 only. This review recommends freezing this exact geometry at Regular400; registry edit remains the coordinator responsibility."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Accepts only exact geometry/native fingerprints at default Regular400.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No historical stroke order or paleographic certification."
+  ],
+  "registry_modified": false,
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "ad1b0af82b6b53b4a3f4ee718f4ea5fbd547168afc6cdf5b9fe94a96c988eff2",
+      "source_json_sha256": "296b867f043814e693c6d4a8aa737f065a8d2a5d50e6ad2ad9fefc6d7b74ae78",
+      "font_sha256": "85897b8083b87852a285294ea1678e109f78af323b6de964bf4b6e44921fefec",
+      "raster_sha256": "fc44d49f5508421a01878894d5c3acaed65b5632cf85375fc4f5f6ba76d32d3e",
+      "regular400_verdict": "needs_smoothing",
+      "requested_corrections": [
+        {
+          "stroke_ids": [
+            "stroke-2",
+            "stroke-3",
+            "stroke-4"
+          ],
+          "action": "Simplify right fork to smooth low-order cubic trajectories; retain its endpoints, branch junction, spacing, and original proportions. Remove local fitting kinks and shoulder protrusion without joining the center component."
+        },
+        {
+          "stroke_ids": [
+            "stroke-6",
+            "stroke-7"
+          ],
+          "action": "Make top and middle left bars horizontal, preserving their endpoints x extents and overall placement."
+        }
+      ]
+    }
+  ]
+}

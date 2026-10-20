@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D089",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The four slots THX CCZ QJZ DYC all depict the SAME codepoint; examine every available specimen equally. A slot UNAVAILABLE is absent evidence. Choose ONE coherent historical whole construction where variants differ, preserving every branch, bar, loop, counter, detached mark and opening. Do not blend incompatible variant components or substitute a modern Chinese character. Second image is prior finished glyph used ONLY for stroke style, never copy its different character identity. Reconstruct smooth genuine centerline trajectories with absolutely CONSTANT width black strokes, round caps and round joins, precise straight bars and smooth rounded curves; no brush taper, pressure, swelling, blobs, serifs, texture or extra components. All strokes share one width about3% full canvas. Square1:1 canvas with ONE complete centered glyph inside central70%, generous clear margins. Transparent background, pure black strokes. Output only the ONE glyph: no text, labels, frame, chart, grid, multiple specimens, watermark or shadow. Keep all white counters open and all detached components separate. Preserve the natural tall proportions and bar lengths of the chosen attested construction. U+3D089: choose coherent detached-left THX construction. Left three-bar I. Right one tall inverted-U outer frame with smoothly flaring lower legs, entirely open bottom; atop frame's apex a short upright stub with tiny flag right. Inside upper part a short horizontal bar has TWO short curved downward/outward legs attached underneath it. Below that are TWO additional separate curved diagonal marks, left and right, not touching each other or the upper legs. Below these, one small CLOSED DOWNWARD-POINTING TRIANGLE, with horizontal top bar and two equal diagonals meeting at bottom tip, detached from outside arch. Exactly ONE triangle counter, no oval substitute. All inner pieces and outside frame remain separated as THX. The triangle sits entirely inside long outer arch.",
+  "reference": "reference/seal/individual/U3D089.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-0c8c2971-77a6-41aa-ad74-8d1f0c38c210.png",
+  "output_file": "design/seal-individual/U3D089.png",
+  "sha256": "0e206cec424917b082d09a84d057d76e7557fd55b03aea41883f0b56ae2ad96a",
+  "reference_sha256": "5bd2621c2e6a78fb26b90202d8f7e687e797cdf234e983b1d9af9704d197d708",
+  "reference_metadata_sha256": "66883ae956d0ab1931f21dfab3b9071496559e06119c0f9da0a1be6fc655feb6",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D089",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      633.97021484375,
+      116.7594223022461,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          632.1809692382812,
+          144.17999267578125,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          632.7732788085938,
+          146.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "TH-00126"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          630.7401733398438,
+          168.03985595703125,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          632.7732788085938,
+          172.8000030517578,
+          657.753271484375
+        ],
+        "source_label": "C-00130"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          634.9942016601562,
+          196.539794921875,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          632.7732788085938,
+          199.5000030517578,
+          657.753271484375
+        ],
+        "source_label": "K-00132"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          632.1921997070312,
+          221.43984985351562,
+          657.2279663085938
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          632.7732788085938,
+          226.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "D-00126"
+      }
+    }
+  }
+}

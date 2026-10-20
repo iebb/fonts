@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0C5",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0C5.json",
+  "source_png_sha256": "422e0adb87967a605900d906630fba55114c309e2850ac49e5f8fcf12bb41274",
+  "source_png": "design/seal-individual/U3D0C5.png",
+  "reference_png_sha256": "26c99f104231d35e5c868ee0ea1605b61bb96e299f6cb269057d33fbf4e3e8c9",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0C5.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-third-eight/sources/U3D0C5.json",
+  "source_json_sha256": "558e5447c99c875fb226c2104fd90701d10f8e6d5f4b89d025fdd49eeacf5ff7",
+  "geometry_sha256": "79801c97c89ac9032ffc71491cee737c9313cc5d3591aa199be5bf32e35ee95a",
+  "font_file": "design/quality/proofs/continuation/wave1-third-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1b27af738fe8eba120cf80510c0bc2d884d5d56cade949d0199a222912f2adaf",
+  "raster_file": "design/quality/proofs/continuation/wave1-third-eight/U3D0C5-Regular400.png",
+  "raster_sha256": "4936c1290606e804121037f1befc32e2d263b9a73da4a142c54edf0bcb4e787e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      247,
+      -64,
+      777,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with native and actual Regular400 proof.",
+    "Preserves detached leftstaff; upper central upright joined to vertically elongated enclosure; two separate curved outer shoulder marks; two interior horizontalbars forming3counters; and two descending feet.",
+    "All shoulders, enclosure/body gaps, feet and counters remain present at Regular400. Coherent THX-style construction and shared proportions preserved."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_reaudit": {
+    "reviewer": "independent visual reviewer /root/seal_review",
+    "review_date_utc": "2026-10-20",
+    "verdict": "accepted_reconfirmed",
+    "method": "Re-examined original full native on white, enlarged tightly cropped whole specimens for all available references, and actualfont proof previously inspected at fullsize; individually checked branch counts, free terminals, counters, detachments, and critical contacts.",
+    "all_specimen_enlargement_sha256": "3cc37901debe5de60a6bfcd593c2860dd9ee53e084b59736fd69f691637d1da1",
+    "native_inspection_sha256": "b4c64a0c09859c6f0c73e1f7f179740bfb16fe65e5e082a332087b0016bd9941",
+    "notes": [
+      "No missing branch or required gap detected at enlarged component scale."
+    ]
+  }
+}

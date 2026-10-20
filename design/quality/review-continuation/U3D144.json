@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D144",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D144.json",
+  "source_png_sha256": "43280b3a2a65bdc5ad66a7644761b2e5299d73f68e4d7e4fe3f829511ee1297a",
+  "source_png": "design/seal-individual/U3D144.png",
+  "reference_png_sha256": "9810cee23c4f49a408a4f9385f1fae4365b297366b116a79bb90182710d8f27b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D144.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-second-eight/sources/U3D144.json",
+  "source_json_sha256": "505a47f2c465b07b98d083f570babc07157d24d2c123b1c3e9f70c69f84dc09a",
+  "geometry_sha256": "e019f1d8247bff7e42efea980737c3c39689c15d296ed62941aa3332bdf731c1",
+  "font_file": "design/quality/proofs/continuation/wave1-second-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2b20c16242b9e7f48cfdcd3b0a7f061aac7e008032efa3ff28ea03b3863c3977",
+  "raster_file": "design/quality/proofs/continuation/wave1-second-eight/U3D144-Regular400.png",
+  "raster_sha256": "39e8c0d205cf4640a35450a64fafb0b5110bd40cbf9a6060774623c656967e6a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      242,
+      -64,
+      782,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with native and actual font. Preserves two detached top tridents, separate hooked left marks, middle comb-like bent component with its diagonal branch, and right descending component with side bar and crossing branches.",
+    "Lower long curves, hooked branches, bar counts and component detachments follow coherent THX-type construction. No missing branch or unwanted merge detected in actual Regular400 proof."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

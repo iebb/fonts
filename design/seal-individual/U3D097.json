@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D097",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The four slots THX CCZ QJZ DYC all depict the SAME codepoint; examine every available specimen equally. A slot UNAVAILABLE is absent evidence. Choose ONE coherent historical whole construction where variants differ, preserving every branch, bar, loop, counter, detached mark and opening. Do not blend incompatible variant components or substitute a modern Chinese character. Second image is prior finished glyph used ONLY for stroke style, never copy its different character identity. Reconstruct smooth genuine centerline trajectories with absolutely CONSTANT width black strokes, round caps and round joins, precise straight bars and smooth rounded curves; no brush taper, pressure, swelling, blobs, serifs, texture or extra components. All strokes share one width about3% full canvas. Square1:1 canvas with ONE complete centered glyph inside central70%, generous clear margins. Transparent background, pure black strokes. Output only the ONE glyph: no text, labels, frame, chart, grid, multiple specimens, watermark or shadow. Keep all white counters open and all detached components separate. Preserve the natural tall proportions and bar lengths of the chosen attested construction. U+3D097: LEFT detached THREE-bar I. RIGHT TOP short detached horizontalbar. Belowtopbar one upward U-shaped cup crossed at rim by horizontalbar (ONE closedlowercounter), cup's centerstem continuesdown through a larger upward U-fork. Beneath fork is one rounded bowl/oval BODY with ONE horizontal middlebar dividing body into TWO closed stacked counters. Body has short upper upright tips on its left/right sides. Centralstem continues down from bodybottom, intersects ONE long horizontal crossbar and extends below it as long straight tail. Preserve3 total counters (smalltopcup1+body2), outerfork, lowercrossbar and centeredbottomtail. Choose coherent THX construction; no extrabottom legs. IMPORTANT: truly uniform stroke width. Horizontal bars are constant-thickness straight lines with semicircular endcaps, NEVER pointed/elliptical brush dashes. No calligraphic taper.",
+  "reference": "reference/seal/individual/U3D097.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-55d494af-d68f-43d6-89e8-8e6fbc7d3248.png",
+  "output_file": "design/seal-individual/U3D097.png",
+  "sha256": "2219748c00bbcb5d6926552553c4d90aa7a26c428378843cbacca3e923669fc2",
+  "reference_sha256": "f96a0cf56d5752fce558eb12e9dd17c1f120647c70faef4022166307fefb1eb0",
+  "reference_metadata_sha256": "58d22e4abff8b9abe79b26ce7bee9438aa951a1ff116fc0bc4d624719b7a8ad7",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D097",
+    "page": 4,
+    "label_bbox": [
+      236.10000610351562,
+      443.77020263671875,
+      265.5594177246094,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          441.98101806640625,
+          292.9800109863281,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          442.57329711914065,
+          295.0000061035156,
+          467.55328979492185
+        ],
+        "source_label": "TH-00139"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          440.54022216796875,
+          316.8398742675781,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          442.57329711914065,
+          321.6000061035156,
+          467.55328979492185
+        ],
+        "source_label": "C-00143"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          444.794189453125,
+          345.33978271484375,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          442.57329711914065,
+          348.3000061035156,
+          467.55328979492185
+        ],
+        "source_label": "K-00143"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          441.9921875,
+          370.2398681640625,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          442.57329711914065,
+          375.0000061035156,
+          467.55328979492185
+        ],
+        "source_label": "D-00138"
+      }
+    }
+  }
+}

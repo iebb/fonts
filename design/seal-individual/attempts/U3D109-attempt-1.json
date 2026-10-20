@@ -1,0 +1,74 @@
+{
+  "code_point": "U+3D109",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D109. Only THX and CCZ available; choose coherent THX form. LEFT detached vertical with three horizontal bars. CENTER one long central upright rising above horizontal upper shoulder and descending to baseline, with one tiny rightward tick near top. Main horizontal shoulder across central stem just above midheight. Two detached long flanking strokes start below that shoulder and descend alongside stem; left leans outward slightly, right similarly, central stem reaches farthest down. RIGHT a curved open-left backwards bowl: starts at upper left with short horizontal roof to right, bends down along right, then curls toward left at middle. A separate inner short horizontal begins at left under roof, turns downward into a long descending right leg crossing near bowl's lower right shoulder and ending at bottom right. Preserve open bowl and detached flanking central strokes, no closed box.",
+  "reference": "reference/seal/individual/U3D109.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-18362987-9641-4c04-966e-8f2a2caf9223.png",
+  "output_file": "design/seal-individual/U3D109.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "6f0b25a440076a2e48d3cef60e456942af2752943f7006e20471ddb62268e856",
+  "reference_sha256": "1b61210412f07b6a519ad54d95c2774ebd8c272dee37cc09a1958477186b2abc",
+  "reference_metadata_sha256": "45e98ef56c40ac7ae8809b03d9834b32c402d5046078ef8a603026a095b8503d",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D109",
+    "page": 6,
+    "label_bbox": [
+      236.10000610351562,
+      253.57017517089844,
+      265.5594177246094,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 6,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          251.78102111816406,
+          292.9800109863281,
+          276.96002197265625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          252.3732696533203,
+          295.0000061035156,
+          277.3532775878906
+        ],
+        "source_label": "TH-X016"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 6,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          250.34022521972656,
+          316.8398742675781,
+          272.34002685546875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          252.3732696533203,
+          321.6000061035156,
+          277.3532775878906
+        ],
+        "source_label": "C-00256"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

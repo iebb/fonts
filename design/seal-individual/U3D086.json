@@ -1,0 +1,91 @@
+{
+  "code_point": "U+3D086",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Make exactly TWO small connection repairs to FIRST attached original glyph U+3D086, using SECOND attached four-specimen source for structural reference. Preserve EVERYTHING else: left three-bar staff, tall outer right descending stroke with three upper curves, inner reversed-J-shaped hook and its smooth long descending tail, all proportions, positions and transparent background. Currently there are TWO small diagonal black slashes floating INSIDE the inner hook. That is wrong: both marks must be BRANCHES ATTACHED to the inner hook LEFT WALL. Extend ONLY the UPPER-LEFT TIP of EACH diagonal slash left/upwards by a short identical-width connector until it touches/joins the corresponding inner-hook LEFT WALL point. Leave each slash's lower-right endpoint and trajectory unchanged. Upper slash joins left-wall upper shoulder; lower slash joins left-wall middle. See THX/CCZ/QJZ examples in second image: both diagonal branches originate on the hook's left wall and point down-right into the hook interior. Do not attach either mark to right wall or outer long stem. Keep right-end gaps open and preserve the large open-bottom hook shape. Result has three detached main components: left staff, outer-right course, inner hook WITH its TWO attached branches. Use smooth black constant-width rounded monoline strokes on transparent canvas, one glyph only with no text or frame.",
+  "reference": "reference/seal/individual/U3D086.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "previous_attempt": "design/seal-individual/attempts/U3D086-attempt-1.json",
+  "preliminary_notes": "Second native attempt attaches both diagonal marks upper-left tips to inner-hook left wall. Independent review pending.",
+  "original_generated_file": "/workspace/generated_images/exec-81409419-596e-4809-b9fe-e4492ecbbdd0.png",
+  "output_file": "design/seal-individual/U3D086.png",
+  "sha256": "ba7c34f506d35284dbe17f7cc0f78ac7daa79b6677d0852abddbe5557e160817",
+  "reference_sha256": "0278a97acc4e78ccde95645c0c2ff6b28b97b6b85462714b441eafdd216ea9ee",
+  "reference_metadata_sha256": "b0603698344e4540a3dd61ca56ca534e49ec6213c264741ce37b286c72ba7deb",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D086",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      538.8701782226562,
+      116.7594223022461,
+      550.0299682617188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          537.0809936523438,
+          144.17999267578125,
+          562.260009765625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          537.6732421875,
+          146.20000305175782,
+          562.6532958984375
+        ],
+        "source_label": "TH-00124"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          535.6401977539062,
+          168.03985595703125,
+          557.6400146484375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          537.6732421875,
+          172.8000030517578,
+          562.6532958984375
+        ],
+        "source_label": "C-00128"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          539.8942260742188,
+          196.539794921875,
+          561.5159912109375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          537.6732421875,
+          199.5000030517578,
+          562.6532958984375
+        ],
+        "source_label": "K-00129"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

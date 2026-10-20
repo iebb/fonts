@@ -21,6 +21,30 @@ def geometry_sha256(data: dict) -> str:
                                      separators=(",", ":")).encode()).hexdigest()
 
 
+def review_report_agrees(entry: dict, root: Path = ROOT) -> bool:
+    """A retracted individual review cannot leave its geometry accepted.
+
+    Historical range reports retain their original format. New individual
+    reviews explicitly bind the verdict, weight and source fingerprints.
+    """
+    required = entry.get("review_format") == "individual-regular400-v1"
+    path = Path(root) / entry["review_report"]
+    if not path.exists():
+        return not required
+    try:
+        review = json.loads(path.read_text())
+        if not required and "regular400_verdict" not in review:
+            return True
+        return (review.get("accepted") is True
+                and review.get("regular400_verdict") == "accepted"
+                and review.get("reviewed_weight") == 400
+                and codepoint_number(review["codepoint"]) == codepoint_number(entry["codepoint"])
+                and review.get("geometry_sha256") == entry["geometry_sha256"]
+                and review.get("source_png_sha256") == entry["source_png_sha256"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return False
+
+
 def verify(source_root: Path, registry_path: Path) -> dict:
     source_root, registry_path = Path(source_root), Path(registry_path)
     report = {
@@ -105,6 +129,8 @@ def verify(source_root: Path, registry_path: Path) -> dict:
         })
         if entry is None:
             continue
+        if not review_report_agrees(entry):
+            errors.append(f"{label}: individual review is missing, retracted or stale")
         if digest != entry.get("geometry_sha256"):
             errors.append(f"{label}: geometry_sha256 mismatch; "
                           f"current {digest}, accepted {entry.get('geometry_sha256')}")

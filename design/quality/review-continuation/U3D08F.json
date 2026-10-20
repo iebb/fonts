@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D08F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D08F.json",
+  "source_png_sha256": "4025ffd27799b933070ad463b67173685c50c0cfbcb6a19357f1027619c57009",
+  "source_png": "design/seal-individual/U3D08F.png",
+  "reference_png_sha256": "b6fe0f1df46e0332ac5151a3be40e965c9c52f5c2dd6c6ca4f65a3846d06a2a7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D08F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-sixth-eight/sources/U3D08F.json",
+  "source_json_sha256": "ce97aaebd5b0cc47e6928bbbc2000ee6978c0954c6d49f366b2338dc9b5932a1",
+  "geometry_sha256": "f1b52bc03651ce9be78f0fe6f0c0ad3d8b7fa1f330332de07fa99b36847c13bd",
+  "font_file": "design/quality/proofs/continuation/review-sixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "db7835af62541bbbaa723a39fd6a06df9589c0be4b91db46d4dd2f1c084ded02",
+  "raster_file": "design/quality/proofs/continuation/review-sixth-eight/U3D08F-Regular400.png",
+  "raster_sha256": "b6c126d10248d13b7eac001df177004837a5c7f0a679480339772e6b79aa447d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      212,
+      -64,
+      812,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_contact_confirmation",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens and actual font inspected. Current upper-right stem joins top bar of bottom I as QJZ/DYC; left outer lower course remains detached as THX/CCZ. Cannot confidently identify coherent whole attested variant matching combined contacts. Branches and three upper counters otherwise present.",
+  "requested_corrections": [
+    "Confirm coherent whole variant supporting combined left-detached and right-joined relationship; otherwise choose THX whole variant and restore right stem to bottom I gap."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

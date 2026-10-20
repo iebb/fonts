@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D10A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D10A.json",
+  "source_png_sha256": "1efbab5b8d9811f993ffbefe0183baf8a7b54d75cbde4b7513d828b63aea347e",
+  "source_png": "design/seal-individual/U3D10A.png",
+  "reference_png_sha256": "d19855a087967ec154f57dd82a0d1852e4bee272ddeca88899552048f96bf817",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D10A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fourth-eight/sources/U3D10A.json",
+  "source_json_sha256": "9098f2ee2db264612b243a039c68f2e8788231e4b40f6b88099cb9b99d3c412b",
+  "geometry_sha256": "eaee7f14edd2a2f600bcda9f1b6554960bc4443e5c4c4a5fb22160e4d1688fa4",
+  "font_file": "design/quality/proofs/continuation/review-fourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+  "raster_file": "design/quality/proofs/continuation/review-fourth-eight/U3D10A-Regular400.png",
+  "raster_sha256": "16537f029c077008c4c213fc48e4a93121eac77f0ac3407a469e230c887e5b6b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      241,
+      -64,
+      783,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared both available THX andCCZ specimens (QJZ/DYCunavailable) with native and actualfont.",
+    "Preserves detachedstaff; tall outer open-bottom cover with apexstub; two detached shortbars above/below interiorcoil; and one continuous open inwardspiral with its required freeend.",
+    "Spiral orientation, turns, terminal and surrounding whitegaps remain intact at Regular400; no accidental spiralclosure or coverjoin detected."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_reaudit": {
+    "reviewer": "independent visual reviewer /root/seal_review",
+    "review_date_utc": "2026-10-20",
+    "verdict": "accepted_reconfirmed",
+    "method": "Re-examined original full native on white, enlarged tightly cropped whole specimens for all available references, and actualfont proof previously inspected at fullsize; individually checked branch counts, free terminals, counters, detachments, and critical contacts.",
+    "all_specimen_enlargement_sha256": "4439cf86304aef35df53e55cdbc9c5aa34987f07aed9d436c005e20e5256a7cf",
+    "native_inspection_sha256": "fb5e2d219e4e747867ef978b03afc1ff9336e1bfae2da2d0db0d6b14c190d6ec",
+    "notes": [
+      "No missing branch or required gap detected at enlarged component scale."
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D145",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D145.json",
+  "source_png_sha256": "14bbc97e860f9e877f84f8a29b5d06288595b46acf91119171b49dae453e0584",
+  "source_png": "design/seal-individual/U3D145.png",
+  "reference_png_sha256": "9707a1a6f056698cb4031aec3c7865fbaa93f48303521ea47338ea471e6346af",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D145.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-090-109-145/sources/U3D145.json",
+  "source_json_sha256": "e827a6cd57dcd15dbd9e2c6133edc224a63dfe6f0436c12041178100b64cf1d4",
+  "geometry_sha256": "11d8f453a7ef4f27be314caf4d9d997b6b04067b1047b3a7297296502398e48c",
+  "font_file": "design/quality/proofs/continuation/review-retries-090-109-145/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "64e3555d48dca2f4419cd7b70f93a06ad0a4341ba57a1f2f7b2c959f573b6ece",
+  "raster_file": "design/quality/proofs/continuation/review-retries-090-109-145/U3D145-Regular400.png",
+  "raster_sha256": "025796d1defcdfa3f599d0771acce3ee9994c0a27dd3a134204c7105e600726b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      287,
+      -64,
+      737,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Retry restores three-terminal upper-left comb and separates lower-left bar from right bowl shoulder. Full native, all four enlarged whole specimens, actual font and enlarged comb/bar-gap/bowl crop inspected. Coherent THX variant retains detached top tridents, detached right chevron, forked left lower descent and right bowl. All gaps and branches survive Regular400 with shared pen and rounded courses.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "5a599a705203252f84f7641e957eef93f1d10a932536f412b51fc717e2e6dff6",
+      "source_json_sha256": "4fe586a04fdea34b5fa70499fb1d02cc9e83ddc98a6b0313d8c88e5b11aabc31",
+      "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+      "raster_sha256": "bd21fac19a9bee0799ccc157a33614c8a05bae839fdb09573f9aa01c459afa8d",
+      "regular400_verdict": "accepted",
+      "native_verdict": "match",
+      "notes": [
+        "Compared all four available specimens with native and actual Regular400 proof.",
+        "Preserves two detachedtoptridents, separate upperleft angledreturn, separate upperright peakedmark, lowerleft longbar with twodescending forklegs, and lower right bending branchedcourse.",
+        "All lowerbranch terminals and gaps around upperdetachedcomponents remain visible; actualglyph retains coherent THX-type branchrelationships rather than blending incompatible forms."
+      ],
+      "requested_corrections": []
+    },
+    {
+      "geometry_sha256": "5a599a705203252f84f7641e957eef93f1d10a932536f412b51fc717e2e6dff6",
+      "source_json_sha256": "4fe586a04fdea34b5fa70499fb1d02cc9e83ddc98a6b0313d8c88e5b11aabc31",
+      "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+      "raster_sha256": "bd21fac19a9bee0799ccc157a33614c8a05bae839fdb09573f9aa01c459afa8d",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Full-resolution re-review supersedes earlier contact-sheet acceptance. Enlarged all4specimens show upperleft E/comb-like mark has curvedoutercourse plus one interior diagonal branch, producing3free terminals. Native/actual have only C-like outercourse with2terminals; middlebranch is absent.",
+        "All4specimens also keep lowerleft longbar separate from rightlower loopshoulder. Native/actual wrongly extend/connect this bar into rightcourse.",
+        "Two toptridents, rightupperpeak and lowerlegs remain present, but exactnative andgeometry require hold for the two confirmed structural defects. Prior mistaken acceptance retained in reviewhistory for audit."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "upperleft comb middlebranch",
+          "action": "Add missing interior diagonal branch attached to leftcurvedcourse, matching3-terminal E/comb construction present in all4refs."
+        },
+        {
+          "feature": "lowerleftbar/rightloopshoulder gap",
+          "action": "Separate lowerleftbar rightend from rightloopshoulder; retain both complete courses and all lowerlegs."
+        }
+      ]
+    }
+  ]
+}

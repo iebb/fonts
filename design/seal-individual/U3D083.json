@@ -1,0 +1,106 @@
+{
+  "code_point": "U+3D083",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Correct ONLY TWO accidental contacts in the FIRST attached original monoline glyph U+3D083, using SECOND attached four-specimen reference. Keep everything else exactly unchanged: all bars, oval with TWO inner crossbars (THREE stacked counters), two bottom legs, detached three-bar I-shaped left component, stroke thickness, positions and transparency. Required correction1: at top there are TWO adjacent three-prong upward forks. Their neighboring outer prongs are wrongly FUSED. Create a CLEAR WHITE GAP between the forks' nearest prongs (at least half stroke width), leaving each fork its own complete separate outer upright. Do not remove either prong. Required correction2: below the upper-left fork's short horizontal crossbar is a sinuous descending stroke/leg. Its lower-right endpoint wrongly TOUCHES the lower oval roof. Cut ONLY this tiny connection so that sinuous leg ENDS WITH A ROUND CAP ABOVE the oval, with a CLEAR WHITE GAP of at least half stroke width between endpoint and oval roof. Keep both sinuous upper legs and preserve all trajectories as closely as possible. The complete upper fork-and-leg structures must be DETACHED from the lower oval. The lower oval remains fully CLOSED with THREE counters, and both feet remain. Exactly one black constant-width smooth rounded glyph on transparent background, no labels or other content.",
+  "reference": "reference/seal/individual/U3D083.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "previous_attempt": "design/seal-individual/attempts/U3D083-attempt-1.json",
+  "preliminary_notes": "Second native attempt restores separation of top forks and detaches upper-left lower leg from lower oval. Independent review pending.",
+  "original_generated_file": "/workspace/generated_images/exec-1a2f2fd1-a35c-4423-b27d-1be16ee59b95.png",
+  "output_file": "design/seal-individual/U3D083.png",
+  "sha256": "8ceea96f2b2798e72826560f1068a2c9ae44aca00111fba754ceeb9d231c3050",
+  "reference_sha256": "ff257a33a3a2e23fcd8fa89949b670e63411ec1ea59557076652b4cb44520f13",
+  "reference_metadata_sha256": "5b33180c69158857a9c2552cfcd336fcef44107654249e12d5ce9f6738c107f6",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D083",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      443.77020263671875,
+      116.7594223022461,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          441.98101806640625,
+          144.17999267578125,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          442.57329711914065,
+          146.20000305175782,
+          467.55328979492185
+        ],
+        "source_label": "TH-00121"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          440.54022216796875,
+          168.03985595703125,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          442.57329711914065,
+          172.8000030517578,
+          467.55328979492185
+        ],
+        "source_label": "C-00125"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          444.794189453125,
+          196.539794921875,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          442.57329711914065,
+          199.5000030517578,
+          467.55328979492185
+        ],
+        "source_label": "K-00126"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          441.9921875,
+          221.43984985351562,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          442.57329711914065,
+          226.20000305175782,
+          467.55328979492185
+        ],
+        "source_label": "D-00119"
+      }
+    }
+  }
+}

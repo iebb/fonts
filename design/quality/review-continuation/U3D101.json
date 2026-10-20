@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D101",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D101.json",
+  "source_png_sha256": "9835c1f0c4ed2405997fe2896647b895b79d0bccb3f7aeb9c682298a122de21f",
+  "reference_png_sha256": "eba3916488a72aa938f0a781fd7d9d5a9213740e5e54ca529a78511548c91ad0",
+  "geometry_source": "design/strokes-individual/candidates/U3D101.json",
+  "source_json_sha256": "0cc8fb00c19223bdba63b1d16b8b8a6edcc19cf94f437041ae872b193aee6227",
+  "geometry_sha256": "34f91933e05d5c187419674c2a18738895521c40bfae68c8d8775ba7bbed751e",
+  "font_file": "design/quality/proofs/continuation/wave1-first-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bc52c8fdc19fc6f591097306432b4278302402b465d0347f87f452fe26ae99d4",
+  "raster_file": "design/quality/proofs/continuation/wave1-first-eight/U3D101-Regular400.png",
+  "raster_sha256": "372ed26e4349001448a064b6fde42cc5fdfd1906eb159a9f82874cae7bc1041d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      294,
+      -64,
+      730,
+      704
+    ]
+  },
+  "structural_verdict": "match",
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently compared original native drawing on white against every available THX, CCZ, QJZ and DYC chart specimen; unavailable columns remain excluded.",
+    "Only THX and CCZ specimens are available; QJZ and DYC are explicitly unavailable and were not substituted.",
+    "Preserves left three-bar staff; upper right domed cover with apex stub and paired inward returns forming two corner counters; detached central hooked bowl attached to long stem; and bottom fork plus two detached outer downward marks. Open bowl mouth and inter-component gaps remain visible.",
+    "Reviewed actual Regular400 TTF raster with 30-unit pen and shared proportional normalization. Required branches, bars, counters and gaps were checked separately from source PNG identity.",
+    "Exact reviewed geometry is acceptable at default Regular400. Review applies to this hash and does not approve unexamined heavy weights."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Default Regular400 review only; no all-weight acceptance.",
+    "Native/geometry hashes are separate; a vector repair does not make a mismatching PNG match.",
+    "No specialist paleographic or historical writing-order certification."
+  ]
+}

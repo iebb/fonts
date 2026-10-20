@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D102",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D102.json",
+  "source_png_sha256": "a9b5428373f99f65f1a9bf493ff0fec9f2b0808dc39b08c0d383f3396d399141",
+  "reference_png_sha256": "e09df6ca489e5f357e0b38ee3d6e62d53ca928922741ab8bba0d876f0b056be3",
+  "geometry_source": "design/strokes-individual/candidates/U3D102.json",
+  "source_json_sha256": "75614c3a72d44e45e93d455048da0b10250066fb1e2fb5e4f071f1b5a5082458",
+  "geometry_sha256": "765e811b5c1637a90e8d4b703df987d763653b6692adc57a237bc8a5cb0e0a21",
+  "font_file": "design/quality/proofs/continuation/wave1-first-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bc52c8fdc19fc6f591097306432b4278302402b465d0347f87f452fe26ae99d4",
+  "raster_file": "design/quality/proofs/continuation/wave1-first-eight/U3D102-Regular400.png",
+  "raster_sha256": "0441eba7adad737975dd4e76cdef96c6c969408537e83176adb447456df68102",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      230,
+      -64,
+      794,
+      704
+    ]
+  },
+  "structural_verdict": "match",
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently compared original native drawing on white against every available THX, CCZ, QJZ and DYC chart specimen; unavailable columns remain excluded.",
+    "Only THX and CCZ specimens are available; QJZ and DYC are explicitly unavailable and were not substituted.",
+    "Preserves left three-bar staff; tall right open-bottom cover joined to upright apex stem; two detached outside apex shoulder marks; inner detached pronged cup with one lower counter; and lower detached oval divided into four counters by vertical and horizontal bars. All required interior spaces remain open.",
+    "Reviewed actual Regular400 TTF raster with 30-unit pen and shared proportional normalization. Required branches, bars, counters and gaps were checked separately from source PNG identity.",
+    "Exact reviewed geometry is acceptable at default Regular400. Review applies to this hash and does not approve unexamined heavy weights."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Default Regular400 review only; no all-weight acceptance.",
+    "Native/geometry hashes are separate; a vector repair does not make a mismatching PNG match.",
+    "No specialist paleographic or historical writing-order certification."
+  ]
+}

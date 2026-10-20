@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D143",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D143.json",
+  "source_png_sha256": "b8cbde9caaab69f842c5cb32a4316f597c67d3c1bd6d2aa8758d7622eb7e8b3d",
+  "source_png": "design/seal-individual/U3D143.png",
+  "reference_png_sha256": "84addccfb4acbb532ec6891e3dd40d6211ea863be40be1ddf3e33c00d73b34f7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D143.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D143-restored-fork-gap/sources/U3D143.json",
+  "source_json_sha256": "5696f3ae9dca0390862a5f51200c90648a451e20121e2333e4860edc2efc70a6",
+  "geometry_sha256": "e34fa555d050e90774a8125f3d60de76f1ba4d4c8eb5eff61d0bfe05569bbd11",
+  "font_file": "design/quality/proofs/continuation/U3D143-restored-fork-gap/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bdbdc51c457aed99c7da357fb1313bf3a23a4af352e375b9d448a68f45c75817",
+  "raster_file": "design/quality/proofs/continuation/U3D143-restored-fork-gap/U3D143-Regular400.png",
+  "raster_sha256": "c5befac793888bbb951253eca4423ac0d9240b6dd5dc4a759ee135b8cb43ef07",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      279,
+      -64,
+      745,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available historical specimens, original native and revised actual Regular400 proof.",
+    "Bounded shortening of right top trident lower stub restores the gap above body top bar. Exact raster now contains four large ink components, matching native: two separate tridents, lower body enclosure, and lower inner component.",
+    "All topfork branches, bodybars, lower diagonal strokes, interior contacts and enclosure detachments remain unchanged in construction. Revised actual geometry is accepted at defaultRegular400."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3402e324ec0811f98f08ae4269152234768abd8c71e87f959f6f332df5ba909d",
+      "source_json_sha256": "2515157404d8278ed75ce7a17c1707c477c2df6b2dc5e0e96656fcaecf0c9383",
+      "font_sha256": "2b20c16242b9e7f48cfdcd3b0a7f061aac7e008032efa3ff28ea03b3863c3977",
+      "raster_sha256": "2a00e50f7acc27ed5c67b95301fe05480840b600ef7a3495bd2874fccaa8b863",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": [
+        "Compared all four available specimens and full-resolution native. Two top tridents should remain detached from lower body. Native has a narrow visible right-stub-to-body gap and four ink components total.",
+        "Actual Regular400 proof fuses right trident lower stub to body top bar: connected-component check yields3 large components instead of native4, consistent with visible joined stub. Lower enclosure and interior strokes otherwise preserve construction."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "right upper fork/body gap",
+          "action": "Shorten or adjust right trident lower stub just enough to retain visible default400 gap above body top bar; preserve all body and fork branches."
+        }
+      ]
+    }
+  ]
+}

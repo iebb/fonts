@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D090",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D090.json",
+  "source_png_sha256": "32e46171e5251a187a7be8f5e198a40519ffa5710425f13e90f070c8b4678f45",
+  "source_png": "design/seal-individual/U3D090.png",
+  "reference_png_sha256": "f8eafcb34d0f2231821fba934df7460cf483a7dec0ba9b12c80c87886c55948b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D090.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-090-109-145/sources/U3D090.json",
+  "source_json_sha256": "8d434b45028e2eab745ec488ac70d950adf984617ac51b101e5995cb6412bd23",
+  "geometry_sha256": "6334af10793f8bd0522fa5c8d87103c2f64b979050fb197d7042d46345ca4cb4",
+  "font_file": "design/quality/proofs/continuation/review-retries-090-109-145/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "64e3555d48dca2f4419cd7b70f93a06ad0a4341ba57a1f2f7b2c959f573b6ece",
+  "raster_file": "design/quality/proofs/continuation/review-retries-090-109-145/U3D090-Regular400.png",
+  "raster_sha256": "15141c5af401d6e616eb1dd9ef6a61bd6450a0c0715783303fea7856cc763116",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      234,
+      -64,
+      790,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_trajectory_smoothing",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Retry native restores three upper fingers. All four whole reference specimens inspected; attached bowl shoulder follows coherent CCZ topology. Actual Regular400 preserves branches and counter but first body crossbar has several conspicuous wavy humps and comb rail has angular microsegments; enlarged proof confirms centerline roughness.",
+  "requested_corrections": [
+    "Smooth comb rail and first body crossbar to single intentional trajectories, preserving terminals, three fingers, bowl shoulder contact, and all other paths."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "code_point": "U+3D108",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D108. Only THX and CCZ available. LEFT detached three-bar vertical. CENTER-left a tall inverted-U arch open bottom with two long legs, one crossbar joining legs high above middle: one upper counter, open lower space. Short central stub rises above arch roof, with tiny rightward bar near its top. RIGHT upper separate head is an open-left backwards bowl: top horizontal begins at left, curves down on right, curls left along lower rim; one horizontal middle stroke curves diagonally down-right across bowl near lower-right shoulder and ends outside it. RIGHT lower is a rice/star component: straight long central vertical through ONE horizontal crossbar; above crossbar two small detached diagonal marks, below crossbar two long outward descending diagonal strokes, detached from central stem and bar. Keep right head detached from lower rice/star and all center arch components. Preserve lower three long legs and two small upper diagonal marks.",
+  "reference": "reference/seal/individual/U3D108.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-0f7cce9b-8867-43e2-9a6b-cecb05e3667e.png",
+  "output_file": "design/seal-individual/U3D108.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "6c08b2e706ecc511479295a32ac944ecfaff631ebbbe593b4f0def5d6f5db223",
+  "reference_sha256": "f6b42a022200416063f5e6bc3a68407b71715144dfa1574ababd102385361903",
+  "reference_metadata_sha256": "40edfb90e7ddf5bb84936d4a62e43637db0e56dd042c078081315ca73d9bc0b3",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D108",
+    "page": 6,
+    "label_bbox": [
+      236.10000610351562,
+      221.83018493652344,
+      265.5594177246094,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 6,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          220.10096740722656,
+          292.9800109863281,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          220.6332794189453,
+          295.0000061035156,
+          245.67326965332032
+        ],
+        "source_label": "TH-X015"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 6,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          218.66017150878906,
+          316.8398742675781,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          220.6332794189453,
+          321.6000061035156,
+          245.67326965332032
+        ],
+        "source_label": "C-00255"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

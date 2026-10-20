@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D08A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D08A.json",
+  "source_png_sha256": "9cd74df50b9eb7bcc2ef9f32d91b9ac4ad1515a43c6e3e50f1b91b1e06ae945f",
+  "source_png": "design/seal-individual/U3D08A.png",
+  "reference_png_sha256": "a22965b98f5974693f8ae899808005fb3a4ab301843530c49a481bc2e543fcd6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D08A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D08A.json",
+  "source_json_sha256": "4a3e6d17b94db1c4accbca6a9c811edbcfb3b642c4e23062d1795a90d53cd7a0",
+  "geometry_sha256": "5878d2fb69df4abd32aa5cb4e21c949cee6b11d7dfb37e2c3b38307fc4461bbe",
+  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D08A-Regular400.png",
+  "raster_sha256": "421eff43c88d6893382cb5c4c56f3b22ec42258331d3d0f65ba3bfac7eceba5b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      244,
+      -64,
+      780,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_contact_confirmation",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected fullnative, actualfont and enlarged allavailable whole specimens. All mainbars, pairedinteriormarks, loweroval/counters and outercomponents are present.",
+    "Contact construction is not confidently matched to one coherentwholevariant: THX attaches upper interior pairedlegs into cover sidewalls/neighboring lowercourse, whereas native/actualdetach theselegs from cover. Other sourcefamilies vary both coverconstruction and legcontacts.",
+    "This is a contact/variantuncertainty rather than an omittedbar claim. Hold acceptance until explicit coherentattestedwholeform is selected and required contacts independently confirmed."
+  ],
+  "requested_corrections": [
+    {
+      "feature": "interiorlegs/cover contacts",
+      "action": "Compare enlarged wholevariants and select one coherent construction; preserve its specific leg-to-wall/neighboringcourse contacts. Do not certify merely from barcounts or blend incompatible cover/interior choices."
+    }
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "9c766183b71eafa6b30f58f10c06e62407806030cbb194927f74f84f76c1fbe6",
+    "native_inspection_sha256": "76728850f59dc91fe2ce8434a7c5f414d46601887553a3ce6c60e16970bcf44e",
+    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
+  }
+}

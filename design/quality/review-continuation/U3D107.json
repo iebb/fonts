@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D107",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D107.json",
+  "source_png_sha256": "e9ddc704d6121b349ac2e1522d1bff882d7aa8162618b6f76e575c1abf9d0066",
+  "source_png": "design/seal-individual/U3D107.png",
+  "reference_png_sha256": "1070304407de6c5ef33abfe0cad12c101c5b62a73703db35f942f0de748e1dd7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D107.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D107-restored-one-counter/sources/U3D107.json",
+  "source_json_sha256": "fbd51e64485573f5f3709bb24b61012abd86bfbb7d0344980bfaf92145a9c9b8",
+  "geometry_sha256": "90149509926077011071c7bbe95fe051900b24a12f4a0a6204d869c5b60aea5d",
+  "font_file": "design/quality/proofs/continuation/U3D107-restored-one-counter/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8511d11ac40438bdcabc26aaf0b57c56d2145607650b5f9eec779a531d0c72af",
+  "raster_file": "design/quality/proofs/continuation/U3D107-restored-one-counter/U3D107-Regular400.png",
+  "raster_sha256": "a9910a5d44b246e959eb0b4d86209f3d62555f385b26286128233c10a0ce96ed",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      261,
+      -64,
+      763,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared both available enlarged THX andCCZ specimens (QJZ/DYC unavailable) with corrected actual Regular400 proof.",
+    "Recorded clipping of internal centervertical now leaves only a short upwardstub from middle diamond bottomapex, with clear gap beneath topapex. Diamond therefore has ONE surrounding whitecounter instead of two divided counters.",
+    "Upper crowntriangle, outside diamond perimeter, lower centralstem, left lower course and all three lowerbodybars remain intact. Exact correctedgeometry accepted at default400. Native PNG still divides diamond into two and remains mismatch."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "4be278f44de681227aad9372f09db3363044810dcb2d11033b9c8e5e737f6be5",
+      "source_json_sha256": "7f3e7bab7b1aa6699580f4376f42a2bd86627e8fc5d042bfae7b6e5babee462a",
+      "font_sha256": "1b27af738fe8eba120cf80510c0bc2d884d5d56cade949d0199a222912f2adaf",
+      "raster_sha256": "0fc4190f0d0cfe9d710d02eb625979c73578463e36b7c913ab9be87859bfd7df",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Compared enlarged THX andCCZ specimens (onlyavailable references) with native and actual Regular400 proof.",
+        "Middle diamond is wrongly bisected by a continuous centervertical, making TWO white counters. Both references have ONE diamondcounter with only a short upright stub from bottomapex, not reaching topapex.",
+        "Upper crowntriangle and lower bodybar construction otherwise remain present, but incorrect diamondcontact requires hold."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "middle diamond counter",
+          "action": "Remove upperpart of centralvertical within diamond, leaving short upwardstub attached only to bottomapex and clear whitegap beneath topapex. Preserve outside diamond and all lowerbody trajectories."
+        }
+      ]
+    }
+  ]
+}

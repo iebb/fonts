@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0C2",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0C2.json",
+  "source_png_sha256": "3a39750dc7e496a7d18bd8fbdb9a4416beeb2cab6e166546559c32b3198c7f38",
+  "reference_png_sha256": "6b2f4676041239efa47e02e5d0c40ece243d52f45d3fd0e142aeb38f813564cf",
+  "geometry_source": "design/strokes-individual/candidates/U3D0C2.json",
+  "source_json_sha256": "aeb685952ba634a6995d4e2278d6a73ee2213b524b39dcde681b7e1976d1e5fb",
+  "geometry_sha256": "9f3c7e05ede7317f83e43ab3a693104e8e92afde9f2bc56f677a89f0776b38f5",
+  "font_file": "design/quality/proofs/continuation/wave1-first-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bc52c8fdc19fc6f591097306432b4278302402b465d0347f87f452fe26ae99d4",
+  "raster_file": "design/quality/proofs/continuation/wave1-first-eight/U3D0C2-Regular400.png",
+  "raster_sha256": "62c4c4f38ee66f7c2fbfad1bc6f8fbd50030d8aafade9b33606f7e7797f97ced",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      248,
+      -64,
+      776,
+      704
+    ]
+  },
+  "structural_verdict": "match",
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Independently compared original native drawing on white against every available THX, CCZ, QJZ and DYC chart specimen; unavailable columns remain excluded.",
+    "Left three-bar staff, upper roof and detached short roof bar preserve coherent THX-type arrangement. Lower right upper lobe has exactly one internal crossbar creating two counters, descending left leg remains attached, and lower rounded square loop remains detached.",
+    "Reviewed actual Regular400 TTF raster with 30-unit pen and shared proportional normalization. Required branches, bars, counters and gaps were checked separately from source PNG identity.",
+    "Exact reviewed geometry is acceptable at default Regular400. Review applies to this hash and does not approve unexamined heavy weights."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Default Regular400 review only; no all-weight acceptance.",
+    "Native/geometry hashes are separate; a vector repair does not make a mismatching PNG match.",
+    "No specialist paleographic or historical writing-order certification."
+  ]
+}

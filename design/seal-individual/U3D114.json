@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D114",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D114. All four available, choose coherent THX construction and proportions. LEFT TOP small earth-like component: vertical stem crossing TWO horizontal bars, upper wider than lower, stem extends well above upperbar and ends at lowerbar. RIGHT TOP one reentrant rounded head: broad rounded oval-like top course curves inward to an open notch at right, long central descending stem joins a low horizontal base extending right. Small upward/right hook at midright joins central stem. Lowerleft of head a separate curved U-like return rises on left then turns right into base; preserve its inner white space. BOTTOM large separate curved component like open spiral tail: broad rounded upper/right arc bends down-left then down into long curved tail ending low near center; left outer arc ends midway down. TWO sloping inner diagonal marks descend toward right from left/top arc, both with open ends. Keep top left, top right and bottom components detached. No extra earth bar or closed lower loop.",
+  "reference": "reference/seal/individual/U3D114.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-ccf9abcd-9f45-4b4f-9bc0-06aff7baa40d.png",
+  "output_file": "design/seal-individual/U3D114.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "9c352a7cf0a2349529b27b7e548475eea799bfe9ef71e2774937940ffc8a5403",
+  "reference_sha256": "91e76c7c0e4771feb65f14d0a2b32bfdffbc2dbcc6addabcbbca0774dbc0c40b",
+  "reference_metadata_sha256": "99f80b2e8158b642b0ec117fa600201c5571ca7cab502e31f1ec381298455780",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D114",
+    "page": 6,
+    "label_bbox": [
+      236.10000610351562,
+      602.230224609375,
+      265.5594177246094,
+      613.3900146484375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 6,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          600.5009765625,
+          292.9800109863281,
+          625.6799926757812
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          601.0332275390625,
+          295.0000061035156,
+          626.0732788085937
+        ],
+        "source_label": "TH-00249"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 6,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          599.0601806640625,
+          316.8398742675781,
+          621.0599975585938
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          601.0332275390625,
+          321.6000061035156,
+          626.0732788085937
+        ],
+        "source_label": "C-00267"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 6,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          603.314208984375,
+          345.33978271484375,
+          624.9359741210938
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          601.0332275390625,
+          348.3000061035156,
+          626.0732788085937
+        ],
+        "source_label": "K-00254"
+      },
+      "DYC": {
+        "available": true,
+        "page": 6,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          600.51220703125,
+          370.2398681640625,
+          625.5479736328125
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          601.0332275390625,
+          375.0000061035156,
+          626.0732788085937
+        ],
+        "source_label": "D-00248"
+      }
+    }
+  }
+}

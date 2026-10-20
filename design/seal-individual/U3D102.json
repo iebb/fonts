@@ -1,0 +1,74 @@
+{
+  "code_point": "U+3D102",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D102. Only THX and CCZ available. LEFT detached three-horizontal-bar component joined by one vertical. RIGHT one tall inverted-U arch open at bottom, long two legs reaching common baseline. Small central upright stub rises above arch roof. Above and beside roof two separate short L-like curved marks, mirror opposed: each vertical short prong turns outward into horizontal foot; detached from arch and center stub. INSIDE arch upper center one small U-shaped cup with short upright prongs continuing above one horizontal crossbar: exactly one enclosed lower counter and open space between upper prongs. INSIDE lower center one tall rounded-rectangle loop divided by one vertical and one horizontal into FOUR white counters. Both internal components detached from arch and each other, no enclosure bottom bar.",
+  "reference": "reference/seal/individual/U3D102.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-67b3bb29-fba9-4898-a36f-915c12721f4c.png",
+  "output_file": "design/seal-individual/U3D102.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "a9b5428373f99f65f1a9bf493ff0fec9f2b0808dc39b08c0d383f3396d399141",
+  "reference_sha256": "e09df6ca489e5f357e0b38ee3d6e62d53ca928922741ab8bba0d876f0b056be3",
+  "reference_metadata_sha256": "1e6420cf85b67f411c4fc6e922b325ef31e6310488e3f7ec4dd3fb3b34da2745",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D102",
+    "page": 6,
+    "label_bbox": [
+      87.30000305175781,
+      665.6502075195312,
+      116.7594223022461,
+      676.8099975585938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 6,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          663.9209594726562,
+          144.17999267578125,
+          689.0999755859375
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          664.453271484375,
+          146.20000305175782,
+          689.4332641601562
+        ],
+        "source_label": "TH-X009"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 6,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          662.4801635742188,
+          168.03985595703125,
+          684.47998046875
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          664.453271484375,
+          172.8000030517578,
+          689.4332641601562
+        ],
+        "source_label": "C-00249"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

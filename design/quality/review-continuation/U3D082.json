@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D082",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D082.json",
+  "source_png_sha256": "2282f55ecc39cc1b1ab8cf4da68eb967c8e214704519f32d90be332dc2e7f3b3",
+  "source_png": "design/seal-individual/U3D082.png",
+  "reference_png_sha256": "89ff7c7fb7cb700b83123a6ec116e3b8f259d6f1cbd858001cc83710cb089662",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D082.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D082-restored-outer-stem/sources/U3D082.json",
+  "source_json_sha256": "cfa5d52cdc58a1d6213408d3b0b404cf4daff808039d43bcf2dbc6b28592ceb4",
+  "geometry_sha256": "647d7e5d010f5e548fff2f58ba5c51c22ea40c9e30be4ba193afa7cd1791206e",
+  "font_file": "design/quality/proofs/continuation/U3D082-restored-outer-stem/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9e1d3fef26dc1dec55b42b51129ada40739bd176009477aa2c577b7325e520f3",
+  "raster_file": "design/quality/proofs/continuation/U3D082-restored-outer-stem/U3D082-Regular400.png",
+  "raster_sha256": "fb695a37bfe11a54c95aca593f08fd38812f94d5b737e38308c22b891b62d652",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      188,
+      -64,
+      836,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Original canonical attempt2 PNG restores short right connector but still lacks middle component outer-left descending stroke present in all four references. Native remains mismatch.",
+    "Reviewed actual corrected Regular400 proof adds precisely this outer-left course, starting beside the central stem, descending parallel, bending smoothly into the shared lower foot. Central stem, short right spur/connector, top loop, detached left staff, right fork and lower pronged cup remain intact.",
+    "Added course and its open gap now agree with coherent THX/CCZ/QJZ/DYC construction. The repair preserves all original existing trajectories and accepts only corrected geometry; it does not approve the missing-stroke PNG."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

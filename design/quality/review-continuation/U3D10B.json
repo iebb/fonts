@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D10B",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D10B.json",
+  "source_png_sha256": "7a17989e06805f88273e2a88dde812fec986b58aada761501de9345c5fc737f2",
+  "source_png": "design/seal-individual/U3D10B.png",
+  "reference_png_sha256": "d26e10c3f59e8690197b75a409cfb96712d7f7a5689cd639ca58ce11a6230c32",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D10B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D10B.json",
+  "source_json_sha256": "409f5878fbf4a3f62af9c04aaa4169d132bec96eec02357939893af158fd12a0",
+  "geometry_sha256": "b8084b1c84502c14f56714a98eac71c35d95aab0139e89abee320998bb5521b7",
+  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D10B-Regular400.png",
+  "raster_sha256": "ab0e5d7909c0db1c4b6e351b601468151100bc533e349490e275b98e37820895",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      263,
+      -64,
+      761,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected fullnative, fullactualfont and enlargedTHX/CCZ wholeforms (QJZ/DYCunavailable).",
+    "Preserves detachedleftstaff; detached upperrightprongedcup withcrossbar andonecounter; two independent lower branchingarched courses crossing andending in longouterlegs plus shortinnerterminals.",
+    "Lowerarches remain separated across center and open at top; all branchterminals and cupcounter survive actual Regular400. Coherent THX-type construction selected."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "5b43df6ab02b7f68c6916a3d7aa4669b74a30335f02b3ed757ccbc6eef68f21c",
+    "native_inspection_sha256": "96395dec42e1a0106354000d0238548f53e38809fc692c49637007fc1e9dadab",
+    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
+  }
+}

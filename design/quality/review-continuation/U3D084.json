@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D084",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D084.json",
+  "source_png_sha256": "165b96d0e5813d08263d861eb149040adcb13e69670280a0eee2c0fd1157d8a0",
+  "source_png": "design/seal-individual/U3D084.png",
+  "reference_png_sha256": "c34b18d039d78968cdf2dd153552b9f99f5e087b9d9da8cdc1499a5d4584cf6b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D084.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/wave1-second-eight/sources/U3D084.json",
+  "source_json_sha256": "2e345c3f2f38b5d4b413db6c566a86f5d695bbb7c45cc121c899dc9ae0c2941b",
+  "geometry_sha256": "33bd31596b602701c18fbea06df4ced4c9ccfd914bf9e1245274e550660af262",
+  "font_file": "design/quality/proofs/continuation/wave1-second-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2b20c16242b9e7f48cfdcd3b0a7f061aac7e008032efa3ff28ea03b3863c3977",
+  "raster_file": "design/quality/proofs/continuation/wave1-second-eight/U3D084-Regular400.png",
+  "raster_sha256": "dc064bdd95e30f93ccd85cdf60ce642bdeecba5252ff90eea6667726a076b9f8",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      241,
+      -64,
+      783,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with native and actual Regular400 font. Left staff, two detached top forks, middle H-like cross structure and lower four legs remain present.",
+    "Central upright runs continuously from above the middle crossbar through the bar to the lower crown. Enlarged raster crop and measured black widths30px at y650 and700 confirm connection; initial scaled-image impression of a gap was reviewer error and is retracted.",
+    "Top fork gaps and side component detachments are preserved. Exact actual geometry is acceptable at Regular400."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -41,6 +41,23 @@ class SourceReviewTests(unittest.TestCase):
     def write_source(self, data, path=None):
         (path or self.source_path).write_text(json.dumps(data))
 
+    def test_retracted_individual_review_invalidates_unchanged_geometry(self):
+        review = self.root / "review.json"
+        entry = {**self.entry, "review_report": str(review),
+                 "review_format": "individual-regular400-v1"}
+        decision = {**entry, "accepted": True, "regular400_verdict": "accepted",
+                    "reviewed_weight": 400}
+        review.write_text(json.dumps(decision))
+        self.write_registry([entry])
+        self.assertTrue(verify(self.sources, self.registry)["passed"])
+        decision.update(accepted=False, regular400_verdict="needs_structural_repair")
+        review.write_text(json.dumps(decision))
+        result = verify(self.sources, self.registry)
+        self.assertFalse(result["passed"])
+        self.assertTrue(any("retracted" in error for error in result["errors"]))
+        review.unlink()
+        self.assertFalse(verify(self.sources, self.registry)["passed"])
+
     def write_registry(self, entries):
         self.registry.write_text(json.dumps({"schema_version": 1, "purpose": "Fixture review",
                                              "glyphs": entries}))

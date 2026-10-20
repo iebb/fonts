@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0C8",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0C8.json",
+  "source_png_sha256": "b764314ce643c86cefda89a937a609a89ab0a5b2b84ccfca0c20c09001f6b701",
+  "source_png": "design/seal-individual/U3D0C8.png",
+  "reference_png_sha256": "b3c6e466ae28d8bb43263a5f32e647d763c68d3ee5bc85586f23483fd480b430",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0C8.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fourth-eight/sources/U3D0C8.json",
+  "source_json_sha256": "86331e9a1f0053ca899380703326249928ee837940ab52ebe4b9dd4eb60dbf90",
+  "geometry_sha256": "7038831f930b62228f2e93e735a16cb4fc475430262b3b78c4f8e48e6b92859e",
+  "font_file": "design/quality/proofs/continuation/review-fourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+  "raster_file": "design/quality/proofs/continuation/review-fourth-eight/U3D0C8-Regular400.png",
+  "raster_sha256": "648745ca1841b4b33419bdbbcb8794e6e5ca4faa973d8b447f506d395f807e39",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      269,
+      -64,
+      755,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with native and actualfont.",
+    "Preserves detached leftstaff and right single longcentralstem with top three-prongfork, two middle horizontalbars and lower descending terminal.",
+    "Bar counts, branchcontacts, relative lengths and separate staff-to-rightstem space are correct; shared normalized round-stroke construction retained."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_reaudit": {
+    "reviewer": "independent visual reviewer /root/seal_review",
+    "review_date_utc": "2026-10-20",
+    "verdict": "accepted_reconfirmed",
+    "method": "Re-examined original full native on white, enlarged tightly cropped whole specimens for all available references, and actualfont proof previously inspected at fullsize; individually checked branch counts, free terminals, counters, detachments, and critical contacts.",
+    "all_specimen_enlargement_sha256": "d8a9f13fc477d0f2d0128a90fb15afae0fe24b6a0bbd00cbbdf7ec57431db7f8",
+    "native_inspection_sha256": "5ece8cbc7aa32ca944706c4168503b4e3d10339c6bb4774349b814eb9a3776f6",
+    "notes": [
+      "No missing branch or required gap detected at enlarged component scale."
+    ]
+  }
+}

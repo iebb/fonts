@@ -11,20 +11,32 @@ below remains available while the remaining characters are created.
 
 ## Unicode 18 continuation
 
-The Small Seal target is now pinned to the published Unicode 18.0.0 UCD in
+The Small Seal target is pinned to the published Unicode 18.0.0 UCD in
 `reference/ucd-18/`, with source URLs and SHA-256 fingerprints. Scripts.txt and
-Blocks.txt agree on all 11,328 target characters. The existing chart PDF still
-matches its recorded fingerprint; the reviewed 128 glyphs remain unchanged.
+Blocks.txt agree on all 11,328 target characters. The chart PDF still matches
+its recorded fingerprint. The original 128 glyphs' outlines and spacing are
+preserved exactly in the expanded development font.
 
-[The continuation candidate](fonts/seal-candidates/) adds U+3D080 to a separate
-129-character Regular font. Its independent review is pending. The current
-workspace has 129 drawings and 128 accepted glyphs, leaving 11,200 characters
-without frozen acceptance. Earlier workspace counts of 154 drawings included
-unpublished files that are absent from the recovered GitHub branch.
+The [current development font](fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf?raw=1)
+and [preview](fonts/seal-individual/preview-151.png) now include reviewed U+3D080.
+The [progress audit](design/quality/small-seal-progress.json) reports accepted
+geometry separately from drawings and pending candidates; its timestamp and
+fingerprints identify the evidence it assessed.
+
+Four generation subagents are each assigned 64 distinct characters in
+[current-wave.json](design/quality/current-wave.json). Every new glyph receives
+independent native and actual-font review before frozen acceptance. Native
+mismatches remain recorded even where reviewed vector repairs restore the
+required structure. Candidate presence alone never grants coverage.
+
+Private immutable font proofs can be prepared with `tools/prepare_seal_review.py`.
+The published 128-character v0.6 package remains a historical sample; it does
+not claim full-block completion. Earlier counts of 154 drawings included
+unpublished files absent from the recovered GitHub branch.
 
 ## Small Seal: independent drawings and real strokes
 
-The **version 0.6 design sample contains 128 characters, U+3D000–U+3D07F**. Each character gets its own `image_gen.imagegen` drawing informed by all available **THX, CCZ, QJZ and DYC** specimens in the official Unicode chart. The new U+3D040–U+3D07F page uses 243 of 256 possible chart specimens; missing specimens remain marked unavailable. Where historical variants differ, a coherent attested construction is chosen; incompatible components are not blended. The first 64 characters' source PNG, JSON and SVG files are preserved unchanged in this expansion.
+The **historical version 0.6 design sample contains 128 characters, U+3D000–U+3D07F**. Each character gets its own `image_gen.imagegen` drawing informed by all available **THX, CCZ, QJZ and DYC** specimens in the official Unicode chart. The new U+3D040–U+3D07F page uses 243 of 256 possible chart specimens; missing specimens remain marked unavailable. Where historical variants differ, a coherent attested construction is chosen; incompatible components are not blended. The first 64 characters' source PNG, JSON and SVG files are preserved unchanged in this expansion.
 
 The original generated PNGs and complete prompts are preserved in `design/seal-individual/`. Separate visual reviews record branches, counters, detachments, specimen availability and the exact PNG hash. A drawing that loses a component is rejected. Any subsequent manual correction to the font geometry is explicitly recorded; it does not turn the rejected PNG into an approved drawing.
 
@@ -48,7 +60,7 @@ The native generated drawing remains the main guide for trajectories, shape and 
 
 The geometry of U+3D001 is manually reviewed, including its smooth stem-to-tail curve and detached lower bar. The other glyphs' manual/automatic status and targeted repairs are recorded individually. Validation combines reference review of all **128 sample glyphs at default Regular 400** with `tools/verify_glyph_invariants.py`, which checks recorded structural features in the rendered static and variable fonts. Rules cover details such as bar relationships, branches and open spaces; their recorded weight scopes vary. Some dense-form rules apply only at 300 and 400.
 
-`tools/verify_source_reviews.py` checks the full 128-entry `design/quality/accepted-geometry.json` registry and rejects changed geometry or source PNG hashes until renewed visual review. `tools/verify_normalized_sizes.py --registry design/quality/accepted-geometry.json` checks actual font bounds, centering, source proportions and advances at all named weights, including whether every registered glyph is present. These checks do not establish optical acceptance at every weight. Further shape review remains necessary. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
+`tools/verify_source_reviews.py` checks the full `design/quality/accepted-geometry.json` registry and rejects changed geometry or source PNG hashes until renewed visual review. `tools/verify_normalized_sizes.py --registry design/quality/accepted-geometry.json` checks actual font bounds, centering, source proportions and advances at all named weights, including whether every registered glyph is present. These checks do not establish optical acceptance at every weight. Further shape review remains necessary. Visual chart comparisons are not specialist paleographic certification, and the path sequence does not establish historical writing order. Experimental samples are excluded from production coverage.
 
 ### Weight from pen width
 

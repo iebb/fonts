@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0C7",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0C7.json",
+  "source_png_sha256": "28a4ffdf6c0708a0f9b99096a8c60f974c1f8bad261097eaf763d29930ebf932",
+  "source_png": "design/seal-individual/U3D0C7.png",
+  "reference_png_sha256": "7f875ba2f513865bcdc7c03fb56db19935740343f9a89859c5c5056ba7303f80",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0C7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fourth-eight/sources/U3D0C7.json",
+  "source_json_sha256": "4e36562817281ad6cabd222f9e596d692cee4f02f965a22dfc7f782b1600afe3",
+  "geometry_sha256": "e0ccd66cc2cac8cd5a8525ad43c8ffa7c9c2b0263382b7428b49129b6bfddea2",
+  "font_file": "design/quality/proofs/continuation/review-fourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9dda3c7d184b8eb3b5a85abeb9156779734881588510002d5536d070f973935f",
+  "raster_file": "design/quality/proofs/continuation/review-fourth-eight/U3D0C7-Regular400.png",
+  "raster_sha256": "fa753782fe1b73e581f90046ac448d746da54e40e1a5564a82e4d0308aef3aa2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      234,
+      -64,
+      790,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Compared all four available specimens with second-attempt native and actual Regular400 proof.",
+    "Upper right open-bottom roundedcap surrounds main verticalstem; mainstem continues through middle left-extendingbar and bends downleft. Short rising diagonal twig remains attached near middlebar leftside.",
+    "Outer right descender and detached inner returnhook preserve coherent attested construction. All main course bends, short twig, hookreturn and gaps are present."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_reaudit": {
+    "reviewer": "independent visual reviewer /root/seal_review",
+    "review_date_utc": "2026-10-20",
+    "verdict": "accepted_reconfirmed",
+    "method": "Re-examined original full native on white, enlarged tightly cropped whole specimens for all available references, and actualfont proof previously inspected at fullsize; individually checked branch counts, free terminals, counters, detachments, and critical contacts.",
+    "all_specimen_enlargement_sha256": "f897048121a5671c40b396f8c05b7d6981c4159d8492c60a41f96f448386f849",
+    "native_inspection_sha256": "63fb91d044c63f027e9205d240ca5e0228ff48a677b707cbf12771dec1c72b53",
+    "notes": [
+      "No missing branch or required gap detected at enlarged component scale."
+    ]
+  }
+}

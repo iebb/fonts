@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D147",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D147.json",
+  "source_png_sha256": "561afb256dd989a796191429114b371767e03053d3081a49b8cb3cea0817ca5c",
+  "source_png": "design/seal-individual/U3D147.png",
+  "reference_png_sha256": "130c7ed7df7788fad5efbba8103ba30dcb12c7cba612bdeb736f72fae31885ce",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D147.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D147.json",
+  "source_json_sha256": "28871d6a2fc1c19755e43b8df70bffd0b21df2c38697b8691b970ae635fb47b6",
+  "geometry_sha256": "14913123aa7f5cc73542b2121623d359842ec9ade75c9df6e4cf132822d89159",
+  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D147-Regular400.png",
+  "raster_sha256": "334bdb57e21f21e7b2aad38c41bd2bd80219805c0e66c7c43b2ef00b1d1401ad",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      274,
+      -64,
+      750,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected fullnative, fullactualfont and enlargedwhole forms of all4available specimens, checking each combbar and lowerfootbranch.",
+    "Preserves two detachedtoptridents; left multi-returncomb with four left-extendingcourses, mainlowerstem, leftouterroundedfoot and rightshortuprightspur; right longS-derivedcourse/vertical and separatecurvedouterdescender.",
+    "All four combcourses and lowerfoot/spur terminals remain present and detachements follow coherent THX-type wholeform. Actual Regular400 retains gaps between rightstem and separatecurvedcourse."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "76036a126d4e455462f1f8261a18c973db8adbb645b57e8b80fa24fec178ab66",
+    "native_inspection_sha256": "817b864ea6e198d7f9ac59bc292ba1860be7c9dc9a18fd8aa0056e526ca2f1fb",
+    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
+  }
+}
