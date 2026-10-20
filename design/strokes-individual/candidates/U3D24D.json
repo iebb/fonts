@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -522,67 +522,14 @@
       "maximum_fit_error_font_units": 3.1381
     },
     {
-      "points": [
-        [
-          592.1534,
-          405.6741
-        ],
-        [
-          588.8818,
-          405.6741
-        ],
-        [
-          585.6102,
-          405.6741
-        ],
-        [
-          582.3387,
-          405.6741
-        ],
-        [
-          579.0671,
-          408.9457
-        ],
-        [
-          575.7955,
-          408.9457
-        ],
-        [
-          572.524,
-          408.9457
-        ],
-        [
-          569.2524,
-          412.2173
-        ],
-        [
-          565.9808,
-          412.2173
-        ]
-      ],
       "graph_edges": [
         12
       ],
       "is_loop": false,
-      "path": "M 592.153,405.674 L 565.981,412.217",
-      "commands": [
-        [
-          "M",
-          592.1534,
-          405.6741
-        ],
-        [
-          "L",
-          565.9808,
-          412.2173
-        ]
-      ],
-      "maximum_fit_error": 2.3804,
+      "path": "M 592.153,405.674 C 578,421 555,442 539.808,458.019",
       "curve_segments": 1,
       "id": "stroke-2",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.7276,
-      "maximum_fit_error_font_units": 2.3804
+      "closed": false
     },
     {
       "points": [
@@ -6649,6 +6596,22 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 1.0,
       "maximum_fit_error_font_units": 3.2716
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Recover native upper-right leaf compound descending-left free arm lost by automatic tracing: replace short nearly horizontal nub with full native-proportional descending-left course from original shared anchor592.153405.674 to539.808458.019, bounded smooth trajectory. Retain complete loop/divider/long descending course, lower leaf and every other original path. Coherent whole DYC contacts and two fields preserved; native matches, PNG/provenance unchanged.",
+      "changes": [
+        {
+          "stroke_id": "stroke-2",
+          "previous_path": "M 592.153,405.674 L 565.981,412.217",
+          "repaired_path": "M 592.153,405.674 C 578,421 555,442 539.808,458.019"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "match",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

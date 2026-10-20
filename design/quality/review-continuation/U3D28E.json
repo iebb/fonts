@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D28E",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D28E.json",
+  "source_png_sha256": "1ce5e9a0575e52a53cb2acbc4bfc535d6cdf86170f86132642a455ebf89cb190",
+  "source_png": "design/seal-individual/U3D28E.png",
+  "reference_png_sha256": "9ad748c2535da30538479b9528db40b3b1386820110f818818b245d2d99d0a50",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D28E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D28E.json",
+  "source_json_sha256": "3f48159c28cf096fbc6633a7f6926078a65234aa43f03195b994b0fe56528ee1",
+  "geometry_sha256": "d24c23b803de3f4aafb9b8dcdf453169d9c35ccc0c9fe6da965f0a6996c32920",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D28E-Regular400.png",
+  "raster_sha256": "66a5c0cdc31baecb3a098af268044752a64c684ff7dca83100f06ae2394555f7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      267,
+      -64,
+      757,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. Native mismatch: lower-right winding compound contains an extra internal short connector that creates a false closed field; all available whole witnesses retain an open winding construction there. Native otherwise follows detached-fork THX architecture. Actual additionally loses both short upward side tips of the upper-left capped cup, present clearly in native; upper-left counter remains open."
+  ],
+  "requested_corrections": [
+    "Remove only the unsupported lower-right internal connector to restore the coherent THX open winding course, preserving the three horizontal levels and outer descending terminal.",
+    "Recover both native upper-left cup side upstubs above its crossbar."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D28C",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D28C.json",
+  "source_png_sha256": "bb2fe374646734be10e3bc3b1aac3ea95e3938a1fc8f18202b20fbb72a22ce82",
+  "source_png": "design/seal-individual/U3D28C.png",
+  "reference_png_sha256": "9964b29b391a8659561db38881da00833d123e8607ffd1b95be80ff6abbad4e3",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D28C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D28C.json",
+  "source_json_sha256": "0be49bda44169f2676aacf368e238ccd68f95811ac8fbcb580002b4e089ca6f4",
+  "geometry_sha256": "efa1605c40497d85fc70628bc3e58bba7ce8285316e8149723be37d6d4b11d99",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D28C-Regular400.png",
+  "raster_sha256": "020c8f3a48d5d9d0f304615c8e23c192ae1184c78b5140c6fbac2d82b0c56bd2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      292,
+      -64,
+      732,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. Coherent THX native and actual: both forks detached, two long staffs and short upward tips, upper-right and middle-left paired fields plus lower-right single field (five counters total). All contacts, open gaps and curved returns survive; constant-width courses and proportions acceptable."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

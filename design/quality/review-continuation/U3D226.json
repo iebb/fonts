@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D226.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-221-228-v1/sources/U3D226.json",
-  "source_json_sha256": "fd23cc16de52df63badfc326c7e802f166bf3f0ea59d952659a6b1e746132982",
-  "geometry_sha256": "6d230dc2280557fcafdc21e3873973710cc16158c8d361aa627831100112d9a5",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/U3D226-Regular400.png",
-  "raster_sha256": "4f7783f9464b86dd861432a61e3916f140f2b97718fd22f5f3b36f2461b81363",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D226-tangent-smooth-bow-v2/sources/U3D226.json",
+  "source_json_sha256": "20298dc042563e5f15aa91c2d6c8ca76301712d790ff0bf65bef0cb8a85f9914",
+  "geometry_sha256": "fbb617028edb5b2e51fd2f98eef3881efa56d414cf5c1fa96ee9ea4173a23426",
+  "font_file": "design/quality/proofs/continuation/U3D226-tangent-smooth-bow-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7be9c0fdeb975a03140c219f120d97e56bfe34c99d18345297d9006f313ffe7f",
+  "raster_file": "design/quality/proofs/continuation/U3D226-tangent-smooth-bow-v2/U3D226-Regular400.png",
+  "raster_sha256": "0f70f8aae7bb7b25f3fd678e148cd52350dbcec5dca8895fe31980923bce8762",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,12 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native matches coherent complete THX: both detached forks; broad roof with short central upstub continuing to open oval curl, independently separated lower open bowed return with two attached inward curved branches and long curled tail. Actual lower bow has visible tracking steps and bulges at its upper-left crown and two branch joins. Smooth only this bounded bow crown/left wall and shared branch roots, retaining exact free tips, gap below upper curl, upper roof/curl and complete outer winding/tail; zero closed fields and all original endpoints unchanged.",
-  "requested_corrections": [
-    "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native matches coherent complete THX: both detached forks; broad roof with short central upstub continuing to open oval curl, independently separated lower open bowed return with two attached inward curved branches and long curled tail. Actual lower bow has visible tracking steps and bulges at its upper-left crown and two branch joins. Smooth only this bounded bow crown/left wall and shared branch roots, retaining exact free tips, gap below upper curl, upper roof/curl and complete outer winding/tail; zero closed fields and all original endpoints unchanged."
-  ],
-  "review_comparison_sha256": "79655e0eba83389843e07e0a0e0bed1e80e69ec18f03f92d9f14a332052f2ef7",
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete THX retained: both forks detached; roof/upstub continuing to independent open oval curl above separate lower open bowed return, two inward attached curved branches and long curled tail. Bounded bow crown/left wall/root curves now smooth with matching tangents at exact two shared branch anchors; branch free tips/right winding suffix/tail/upper courses unchanged. Zero fields and original gaps retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "72d6fb43389b55be569b45002e09890f8f6040b5e097f8a27034599595949de4",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,6 +47,18 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "09fbb506d961637aafa07951fe9abc8c339d50448f4aefde60ea225c7ee90fcf",
-    "actual_font_enlargement_sha256": "d3e95f1183d33f0ea6b545ab45e46a6c5f6093cc657ca0da215b0c325f7f59cd"
-  }
+    "actual_font_enlargement_sha256": "7d4f0f70376a84e01d789a058d4bb32f7c52e006a455d119bdc3e59c5480a3f7"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "6d230dc2280557fcafdc21e3873973710cc16158c8d361aa627831100112d9a5",
+      "source_json_sha256": "fd23cc16de52df63badfc326c7e802f166bf3f0ea59d952659a6b1e746132982",
+      "source_png_sha256": "046cee70560cf18f510fa2a1fcd5645bf7b2ee112f9be88914fb10343707942a",
+      "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
+      "raster_sha256": "4f7783f9464b86dd861432a61e3916f140f2b97718fd22f5f3b36f2461b81363",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native matches coherent complete THX: both detached forks; broad roof with short central upstub continuing to open oval curl, independently separated lower open bowed return with two attached inward curved branches and long curled tail. Actual lower bow has visible tracking steps and bulges at its upper-left crown and two branch joins. Smooth only this bounded bow crown/left wall and shared branch roots, retaining exact free tips, gap below upper curl, upper roof/curl and complete outer winding/tail; zero closed fields and all original endpoints unchanged."
+    }
+  ]
 }

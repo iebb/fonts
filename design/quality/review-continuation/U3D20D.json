@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D20D.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D20D-full-four-diagonalmarks-v1/sources/U3D20D.json",
-  "source_json_sha256": "aed32f54c0890dda97d1d93f719c74f9d3c7de4085852a918e7ab79a8f2cbf2f",
-  "geometry_sha256": "8751b48492007d9920e7c9016b5011af5e35a7d1f963b9476ccfa07af7d7333b",
-  "font_file": "design/quality/proofs/continuation/U3D20D-full-four-diagonalmarks-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "0f274c4adbd37fe2f62685aff44162492dbe608d5f07dd6dfa29f10089997715",
-  "raster_file": "design/quality/proofs/continuation/U3D20D-full-four-diagonalmarks-v1/U3D20D-Regular400.png",
-  "raster_sha256": "ada8b97e85afa24405875aa5b93a79223a79d1d3e253ec92c28f481880ed88a3",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D20D-restored-lower-left-upstub-v2/sources/U3D20D.json",
+  "source_json_sha256": "52dbccad72a4eb9eebf81f0e6a23d496867e44b6955c166015459d3988916bc8",
+  "geometry_sha256": "96fc8127a1f750a8c889198025365095e7e315839c43b5029299d723fd1b23e1",
+  "font_file": "design/quality/proofs/continuation/U3D20D-restored-lower-left-upstub-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e01ae1a00172cd3738ddac2b2ca43efbaa79e362b2903c3c445fe2861a504eb1",
+  "raster_file": "design/quality/proofs/continuation/U3D20D-restored-lower-left-upstub-v2/U3D20D-Regular400.png",
+  "raster_sha256": "210db16ca3ca57c99b085e4548f49a28cbebdbb31de3e5af838ced675db04b82",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,12 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Four detached interior diagonal slants are restored to full native lengths, but actual Regular400 still loses the LEFT UPWARD STUB of the lower left cup: native and whole THX both show that outer wall continuing visibly ABOVE its horizontal crossbar. Actual has a flat rounded corner at the bar with no upward projection. Restore only this missing left upper stub from the existing wall at its crossbar contact, preserving the full cup/central divider/right upstub, three left fields, both fork gaps, right enclosure/central cross/four restored detached slants and all other courses. Native matches; this remaining tracing loss prevents acceptance.",
-  "requested_corrections": [
-    "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Four detached interior diagonal slants are restored to full native lengths, but actual Regular400 still loses the LEFT UPWARD STUB of the lower left cup: native and whole THX both show that outer wall continuing visibly ABOVE its horizontal crossbar. Actual has a flat rounded corner at the bar with no upward projection. Restore only this missing left upper stub from the existing wall at its crossbar contact, preserving the full cup/central divider/right upstub, three left fields, both fork gaps, right enclosure/central cross/four restored detached slants and all other courses. Native matches; this remaining tracing loss prevents acceptance."
-  ],
-  "review_comparison_sha256": "59db583c962ed26d988c445955b8d6255eb3f4b9a4e0b59dbdafe30f1c6f9d30",
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete THX retained: both detached forks, left upper one-field cup and lower two-field cup on descending staff with projecting baseline, right open enclosure with short roof upstub, central cross and four separate full diagonal slants. Missing lower left cup upward projection restored at exact existing wall/bar contact; both left and right projecting tips now visible. All other17 repaired courses preserved, all three fields and enclosure gaps clear. Native remains match; prior missing-stub tracing hold preserved in history.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "0fd7fee33bf9b69ec3fc25d77c1b0dfc01e500e1108627ef25d7b8dfc7fa0126",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,7 +47,7 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "fa1d98a34699ef4bdb576f495b37ee8ed1cdd73596817da547cc96eba04fd94b",
-    "actual_font_enlargement_sha256": "9cde79ece0b9c459a81f2f7ddbc9ee6438b1a2aeb8661c1054dcb9a97572b5e5"
+    "actual_font_enlargement_sha256": "0349971e68a282e2b4fb82d6856bdcd0eea7ab4b6fc3f53c11fa3bfbecf091da"
   },
   "previous_geometry_reviews": [
     {
@@ -65,6 +63,16 @@
         "Native matches coherent THX whole form: both forks free; left upper barred cup one counter, lower barred cup bisected by central staff into two counters, low crossbar; right open outer return/upstub and detached central cross plus four diagonal marks.",
         "Actual crop confirms all three left counters and complete lower-cup crossbar (whole-image downscale conceals its right half). However three short diagonal centerlines in right compound have been truncated: upper-right source stroke16 is about10 units, lower-left12 about16 and lower-right15 about19, leaving dot-like remnants rather than full native diagonal marks. Upper-left9 is a wavy bend rather than the native straight slant."
       ]
+    },
+    {
+      "geometry_sha256": "8751b48492007d9920e7c9016b5011af5e35a7d1f963b9476ccfa07af7d7333b",
+      "source_json_sha256": "aed32f54c0890dda97d1d93f719c74f9d3c7de4085852a918e7ab79a8f2cbf2f",
+      "source_png_sha256": "4ee7f0f600abb6d9b78ac6486cd0718b430b8f50f8d0e4aaa8e1d0d59ee5e5c3",
+      "font_sha256": "0f274c4adbd37fe2f62685aff44162492dbe608d5f07dd6dfa29f10089997715",
+      "raster_sha256": "ada8b97e85afa24405875aa5b93a79223a79d1d3e253ec92c28f481880ed88a3",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Four detached interior diagonal slants are restored to full native lengths, but actual Regular400 still loses the LEFT UPWARD STUB of the lower left cup: native and whole THX both show that outer wall continuing visibly ABOVE its horizontal crossbar. Actual has a flat rounded corner at the bar with no upward projection. Restore only this missing left upper stub from the existing wall at its crossbar contact, preserving the full cup/central divider/right upstub, three left fields, both fork gaps, right enclosure/central cross/four restored detached slants and all other courses. Native matches; this remaining tracing loss prevents acceptance."
     }
   ]
 }

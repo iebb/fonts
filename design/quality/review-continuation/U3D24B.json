@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D24B",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D24B.json",
+  "source_png": "design/seal-individual/U3D24B.png",
+  "source_png_sha256": "5ddb60d71ea2a0f162c162ba970a1db51f267adb12562dfc232014a65b70bc77",
+  "reference_png_sha256": "19cdace22e671831e4bc5f7851af5b521f720b5366bc76d286a1d08c31cfda42",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D24B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D24B-THX-rightforkgap-smoothstaff-v1/sources/U3D24B.json",
+  "source_json_sha256": "ad9d3928e6d92c106be994ed6dbf8d5fc074ed0dae20a564a34d9ff0a12b0518",
+  "geometry_sha256": "8843ab9d7f9e960a4f3c164d2a207c674f5a6add5c17a05ce3c6843df806f198",
+  "font_file": "design/quality/proofs/continuation/U3D24B-THX-rightforkgap-smoothstaff-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "cb3b599587f6123170a82cfbd58aa092f8c1a7c6aab424973dcd79f8fc305bfc",
+  "raster_file": "design/quality/proofs/continuation/U3D24B-THX-rightforkgap-smoothstaff-v1/U3D24B-Regular400.png",
+  "raster_sha256": "caeff22013427bfa4c3939a863199ba04c55afc51906ac9173f8851b3b4b4cd2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      243,
+      -64,
+      781,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX both forks free; right independent trident retains upward central body stub and lower two transverse rails. Left central staff now smooth through exact original three branch-root-level anchors and endpoints; all three side diagonal courses, inner right descending branch and outer tips retained. Right fork gap restored, no field. Native mixed fork contact remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "7c6b72bbb6ee6261f18e4115935802a2e31ecd903f1952570741eb2d9e1467e0",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "6b08af8f756af5eb0eb3778069f42ba3021044c1bf45eda3be913b88e04c9921",
+    "actual_font_enlargement_sha256": "bcb31b652d99327c6a19d8ce4f9fea90c18ee8435ca7d238af96d11643b6088e"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "9410e871caa61947044596f047780a59ac0eb009b80ef8395ebbfaaeb99cc07f",
+      "source_json_sha256": "7a37e9fe2e5ea63fe1a8d7527f1afbe5b0fac19ad1107da7ca6eb15f402142a6",
+      "source_png_sha256": "5ddb60d71ea2a0f162c162ba970a1db51f267adb12562dfc232014a65b70bc77",
+      "font_sha256": "146dc870d52f62389fe265e820635974399148d02d9d98554cf4509768df64ed",
+      "raster_sha256": "8136738124c1e61b46017e84af5ad10ea9a00fa10b38f3b30de27ccfdc4eb798",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Current right fork joins the right U/crossbar staff while left fork is detached. Coherent THX keeps BOTH forks detached; CCZ/QJZ joined forms and DYC differ in other fork/body contacts and do not support this mixture. Restore only THX right fork gap retaining its short stem and body upstub, preserving right U/two projecting lower bars and full left cap/three oblique branches/right descending branch/tail. Left descending staff has repeated tracking offsets near branch contacts; smooth bounded stem through exact shared anchors/endpoints without changing other courses. No fields."
+    }
+  ]
+}

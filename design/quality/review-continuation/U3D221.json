@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D221.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-221-228-v1/sources/U3D221.json",
-  "source_json_sha256": "8e5666fc7eaa5e16f8d8c74d516c1e98a0c4c50f891b49df765c763657aa6dba",
-  "geometry_sha256": "de5c48f8c2901b3e219524189be75ba404aad8a2f8967489cce493a226d94ee5",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/U3D221-Regular400.png",
-  "raster_sha256": "82ec82e16471342fddb6de0b8cac8c4cf1f9cc10b5d212f12e29beb20dc80cb7",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D221-detached-two-forks-v1/sources/U3D221.json",
+  "source_json_sha256": "8f380670ac9ab796854ad70274a2ff50bb3d1bbee3709c5a7a26f6ed8d061f87",
+  "geometry_sha256": "6c86c12ec3147c8886af90962ad9d5fc52b6d6fe357bbb614520f13dd2d56e69",
+  "font_file": "design/quality/proofs/continuation/U3D221-detached-two-forks-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a329d891931deb550891af5c5054ca4ebea87beede869bf869c64a7bada2a4a9",
+  "raster_file": "design/quality/proofs/continuation/U3D221-detached-two-forks-v1/U3D221-Regular400.png",
+  "raster_sha256": "f4a2407eb95d37a010167a3994c6b33d6bda2cc33287a11d6c059ddcfff6e148",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,12 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Current native and actual join BOTH top forks to the two body staffs. Coherent complete THX leaves both forks detached with short descending stems and separate body cap tips. Other joined-fork whole variants have different body courses and do not support the present mixture. Restore both THX gaps, retaining left upper cap/central U/three lower legs and right projecting horn, two middle fields, lower returned cap/diagonal/paired descending legs. Smooth only local repeated right-staff tracking offsets at shared returns if needed, preserving all original contacts and terminal positions.",
-  "requested_corrections": [
-    "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Current native and actual join BOTH top forks to the two body staffs. Coherent complete THX leaves both forks detached with short descending stems and separate body cap tips. Other joined-fork whole variants have different body courses and do not support the present mixture. Restore both THX gaps, retaining left upper cap/central U/three lower legs and right projecting horn, two middle fields, lower returned cap/diagonal/paired descending legs. Smooth only local repeated right-staff tracking offsets at shared returns if needed, preserving all original contacts and terminal positions."
-  ],
-  "review_comparison_sha256": "2896818bc378cb103c331c37c0a54d2b746bdc46905cabc5c5342913f666a838",
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX fork gaps restored by removing only two joining stem intervals, preserving short fork stems and separate body cap tips. Left upper cap/central U/three lower legs and right projecting horn/two middle fields/lower returned cap/diagonal/paired legs retained. All original body trajectories and endpoints unchanged. Native joined forks remain mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "ba3f6c375bb7959dfe725b0be08998bbd08a0a2292489e1fa002b0a21f544577",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,6 +47,18 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "77a929f081f0c725261ac1beeeb47f26d3307db124c3ba2b97bba16e1a4e19a5",
-    "actual_font_enlargement_sha256": "a0caf31cdb1ded8eefe6f78ee0491e8a0010762ed9c29d0c3663803a63c14044"
-  }
+    "actual_font_enlargement_sha256": "82cb5b4a805b4198a58f1d254e6683febfe3dab0de66cca8b9a918169fe26136"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "de5c48f8c2901b3e219524189be75ba404aad8a2f8967489cce493a226d94ee5",
+      "source_json_sha256": "8e5666fc7eaa5e16f8d8c74d516c1e98a0c4c50f891b49df765c763657aa6dba",
+      "source_png_sha256": "6e5e2b325abe0a1186d936993aa6b01e1809f6b9047674941a5856237b91533d",
+      "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
+      "raster_sha256": "82ec82e16471342fddb6de0b8cac8c4cf1f9cc10b5d212f12e29beb20dc80cb7",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Current native and actual join BOTH top forks to the two body staffs. Coherent complete THX leaves both forks detached with short descending stems and separate body cap tips. Other joined-fork whole variants have different body courses and do not support the present mixture. Restore both THX gaps, retaining left upper cap/central U/three lower legs and right projecting horn, two middle fields, lower returned cap/diagonal/paired descending legs. Smooth only local repeated right-staff tracking offsets at shared returns if needed, preserving all original contacts and terminal positions."
+    }
+  ]
 }

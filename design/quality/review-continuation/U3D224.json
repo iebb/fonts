@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D224.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-221-228-v1/sources/U3D224.json",
-  "source_json_sha256": "9601e6188b78590b3da023425cf59a7d2d169b1af133c6f6197bc5a1935ccaeb",
-  "geometry_sha256": "fc6ed94d4722e57bd32e71d11b4f8b13c50aee27013b03e3bd46fe4e6584d65b",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/U3D224-Regular400.png",
-  "raster_sha256": "f73ba3908537c7bfc4bae55c7fdc97563dac45814f8ab2325cca7c64ea5200ba",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D224-free-upper-prongtips-v1/sources/U3D224.json",
+  "source_json_sha256": "ddda4918f64903b7cf2bcb6a3f50a447bbcc1087a99f591313f5d80789995e17",
+  "geometry_sha256": "68b892aba9aa07c5fc9e165190370d607bae353008e1a21ba2d2a2e4738f4904",
+  "font_file": "design/quality/proofs/continuation/U3D224-free-upper-prongtips-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2f7aa9a43945ab74f269722443e659ae7557b26a942f8c89e468d51c8f0f819b",
+  "raster_file": "design/quality/proofs/continuation/U3D224-free-upper-prongtips-v1/U3D224-Regular400.png",
+  "raster_sha256": "3b4e8e60bcc415cf2b6832bb65a0073d1f39a1373679e3745eae877805410fa4",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,12 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native/actual close two unsupported upper right fields by extending both interior diagonal prongs into the lower rising return. Complete THX upper right cap remains open, with TWO inward hanging diagonal prongs whose bottom tips are free above the separate lower returning course; right top fork joins this cap and left fork remains detached. CCZ/QJZ/DYC closed upper forms have other whole-body contact differences and do not justify this mixture. Shorten only those interior prongs to restore THX free tips and zero fields; retain upper outer return/endpoints, right fork join, independent lower crossed return/descending stem, bottom detached dash, and left shared staff with two separate H-like branches.",
-  "requested_corrections": [
-    "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native/actual close two unsupported upper right fields by extending both interior diagonal prongs into the lower rising return. Complete THX upper right cap remains open, with TWO inward hanging diagonal prongs whose bottom tips are free above the separate lower returning course; right top fork joins this cap and left fork remains detached. CCZ/QJZ/DYC closed upper forms have other whole-body contact differences and do not justify this mixture. Shorten only those interior prongs to restore THX free tips and zero fields; retain upper outer return/endpoints, right fork join, independent lower crossed return/descending stem, bottom detached dash, and left shared staff with two separate H-like branches."
-  ],
-  "review_comparison_sha256": "50632bf967d030584d14b30d0922b3e6fa458cb20b635a647658e56a26c8ea28",
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX upper construction restored: two upper diagonal inward prongs now terminate freely above lower returning course, leaving zero closed fields. Left fork free and right fork joined to cap retained, along with all other13 paths including left staff/two H branches, upper outer return, independent lower crossed course/descending staff and bottom detached dash. Native closed upper fields remain mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "205fd774d2e99881055c630eb81dcf8a77d0bf585ea1d2bd2e7c2c08323d64ce",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,6 +47,18 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "24b730e78219a9c81d70dca07f7f436e4f957adc5acb2676d04b73d049a06c45",
-    "actual_font_enlargement_sha256": "5a18aae47cce7fb694243f9df79a37209e846dc7aee5a90aff945665f76c79a4"
-  }
+    "actual_font_enlargement_sha256": "672eaaf97b0a9b95f4c9618e5231d0c166b7eac48bb7cb183590b3a25142dcd5"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "fc6ed94d4722e57bd32e71d11b4f8b13c50aee27013b03e3bd46fe4e6584d65b",
+      "source_json_sha256": "9601e6188b78590b3da023425cf59a7d2d169b1af133c6f6197bc5a1935ccaeb",
+      "source_png_sha256": "86861fd185a68124d577bb9236d7ffb04c4803819cf18216d4d276193e19c0e3",
+      "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
+      "raster_sha256": "f73ba3908537c7bfc4bae55c7fdc97563dac45814f8ab2325cca7c64ea5200ba",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native/actual close two unsupported upper right fields by extending both interior diagonal prongs into the lower rising return. Complete THX upper right cap remains open, with TWO inward hanging diagonal prongs whose bottom tips are free above the separate lower returning course; right top fork joins this cap and left fork remains detached. CCZ/QJZ/DYC closed upper forms have other whole-body contact differences and do not justify this mixture. Shorten only those interior prongs to restore THX free tips and zero fields; retain upper outer return/endpoints, right fork join, independent lower crossed return/descending stem, bottom detached dash, and left shared staff with two separate H-like branches."
+    }
+  ]
 }

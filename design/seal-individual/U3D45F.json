@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D45F",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Edit first original Small Seal glyph to THX whole secondreference. Rightbody requires FOUR separate parallel risingdiagonal strokes inside outercurvedwall, current only THREE. Add missing short risingdiagonal so total FOUR with openeven gaps, preserving outerarch/upwardstub/windingtail. UpperLEFT crossbar rightendpoint must bend UP distinctly as THX; preserve topcapgap. Preserve other leftupper/lower geometry entirely. Equalwidth round black transparent.\n",
+  "reference": "reference/seal/individual/U3D45F.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-a8503240-e75c-403b-9fb4-b68f5fd02b6e.png",
+  "output_file": "design/seal-individual/U3D45F.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "dcd0a1cd6f50f19bb751b23ed605594818071214a11171a89d3facab20ab2827",
+  "reference_sha256": "f9da766f688bb4e412014bd0cba311fe77377bbb7619ef21ef99ade95661ca23",
+  "reference_metadata_sha256": "b444bd0725d619167806489f4959c02f293ce32628a3eeefe5059d5addee166b",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D45F",
+    "page": 20,
+    "label_bbox": [
+      384.8999938964844,
+      221.83018493652344,
+      414.9093322753906,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 20,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          220.10096740722656,
+          441.7799987792969,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          220.6332794189453,
+          443.79999389648435,
+          245.67326965332032
+        ],
+        "source_label": "TH-01058"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 20,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          218.66017150878906,
+          465.6398620605469,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          220.6332794189453,
+          470.3999938964844,
+          245.67326965332032
+        ],
+        "source_label": "C-01101"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 20,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          222.91415405273438,
+          494.1398010253906,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          220.6332794189453,
+          497.09999389648436,
+          245.67326965332032
+        ],
+        "source_label": "K-01064"
+      },
+      "DYC": {
+        "available": true,
+        "page": 20,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          220.11215209960938,
+          519.0398559570312,
+          245.14793395996094
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          220.6332794189453,
+          523.7999938964844,
+          245.67326965332032
+        ],
+        "source_label": "D-01052"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D45F-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D45F-attempt-1.json"
+  }
+}

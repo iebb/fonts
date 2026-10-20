@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D3F5",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper, brush or serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels, text, grid or multiple glyphs. Whole THX: detached left U mouth with divider/prongs. Upper right independent winding course has upward short left stem branching down-left then rightward rail, rounded upper right return turning left and bending into bottom free rightward horizontal. Below separate winding compound with THREE leftward rails: top rail bends right/down into lowest leftward return, inner middle free left rail curves down through lowest return junction into long descending right tail. Keep three lower rail ends distinct.",
+  "reference": "reference/seal/individual/U3D3F5.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-5b9e9d63-fafe-42e1-8777-0b62e0ccaafe.png",
+  "output_file": "design/seal-individual/U3D3F5.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "348c2c2d40ee1a6d34327e02c89209234e2cd7d6d65e05697554798b81fcfba0",
+  "reference_sha256": "4faaf105cc97bd513892605d3db5b80bfd1e2f168795e9e5a418706e7b83a5cd",
+  "reference_metadata_sha256": "b4000070f38940fd7ae5e5a89d2d9cac95567fa0a65a0364d7f1f86bc11eeee2",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3F5",
+    "page": 18,
+    "label_bbox": [
+      384.8999938964844,
+      602.230224609375,
+      414.9093322753906,
+      613.3900146484375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 18,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          600.5009765625,
+          441.7799987792969,
+          625.6799926757812
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          601.0332275390625,
+          443.79999389648435,
+          626.0732788085937
+        ],
+        "source_label": "TH-00963"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 18,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          599.0601806640625,
+          465.6398620605469,
+          621.0599975585938
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          601.0332275390625,
+          470.3999938964844,
+          626.0732788085937
+        ],
+        "source_label": "C-00996"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 18,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          603.314208984375,
+          494.1398010253906,
+          624.9359741210938
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          601.0332275390625,
+          497.09999389648436,
+          626.0732788085937
+        ],
+        "source_label": "K-00969"
+      },
+      "DYC": {
+        "available": true,
+        "page": 18,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          600.51220703125,
+          519.0398559570312,
+          625.5479736328125
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          601.0332275390625,
+          523.7999938964844,
+          626.0732788085937
+        ],
+        "source_label": "D-00958"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Upper winding course incorrectly joins lower compound."
+  ]
+}

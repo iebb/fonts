@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D27E",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D27E.json",
+  "source_png_sha256": "5a2bff86bd6bc649ef4fc698cba19d7ed1a491830dc39e62745f4af3c9c08164",
+  "source_png": "design/seal-individual/U3D27E.png",
+  "reference_png_sha256": "9f4700f511d48ef7f1b0bf0cc1a41b47052e8045410074fb571c4e54c44e6895",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D27E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtysixth-eight/sources/U3D27E.json",
+  "source_json_sha256": "d8361811bfb74cca0cafb644b054e26d3041014ee09a05635b4f2517b2da947a",
+  "geometry_sha256": "2f9e9bc85bd1fdcb95939cdb1c72fcdbd0a72d16eed18e7e6f2000e26e391511",
+  "font_file": "design/quality/proofs/continuation/review-thirtysixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c80760424cacdf1e5891f3ebcec4d120fbe9c50ccb51664a8796d5a18113aa56",
+  "raster_file": "design/quality/proofs/continuation/review-thirtysixth-eight/U3D27E-Regular400.png",
+  "raster_sha256": "72a42e5285f0a9159d6a78eefee1453151dff8107101316452a0a0525293e013",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      302,
+      -64,
+      722,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, immutable compiled Regular400 full glyph and enlarged relevant components. Exact hash and weight400 only.",
+    "Native joins both forks into upper three-branch construction but leaves lower cup/shared center staff/three-leg bow detached. THX and DYC have both forks free with detached lower construction; CCZ joins only left; QJZ both-joined whole also links upper left descent into lower cup. Native combination is unsupported."
+  ],
+  "requested_corrections": [
+    "Detach both fork stems above preserved upper-body header to select coherent THX; preserve upturned header right terminal, three downward upper courses and detached lower cup/staff/bow."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

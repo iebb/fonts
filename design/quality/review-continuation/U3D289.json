@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D289",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D289.json",
+  "source_png_sha256": "8b08adc2202babfe7c9cd826cab4a5e3dc25ea99f73652f7d2770f0fd37c2d54",
+  "source_png": "design/seal-individual/U3D289.png",
+  "reference_png_sha256": "e003f19530c1ee69ed5d4db2195d75f6f585d5dab68699128cccc0fdba77f589",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D289.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D289.json",
+  "source_json_sha256": "c84e6557f80b2f9eddc02d960bb25f120b0b80684302c8d0029d756bc6a63b75",
+  "geometry_sha256": "d35e3ccf1325db10eb5b67eb8a3f02f2f8bdcbcd2596653b56776095368b5ed5",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D289-Regular400.png",
+  "raster_sha256": "78ecd26849afc39b8e57446e31aca415707ef73a915941a9c0132ae267dc142b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      231,
+      -64,
+      793,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. DYC unavailable. Coherent THX: both upper forks detached, left crossed teardrop on shared staff within broad U and baseline, independent right loop/staff. Two counters remain open; genuine crossing, proportions, terminals and gaps preserved at constant pen."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D27C",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D27C.json",
+  "source_png_sha256": "1c63f42ded03ecd46cf078389f9aab0c964a8f20d1f90a5508019d68f0a78c69",
+  "source_png": "design/seal-individual/U3D27C.png",
+  "reference_png_sha256": "a269acf7883988c0c623c9a07100c7943934455031764484fc77c4075b9038fa",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D27C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtysixth-eight/sources/U3D27C.json",
+  "source_json_sha256": "aefc32c5aa95d5d3209f21b88f03b1bd6546b4ca98eff154f63e0a070eb8fc25",
+  "geometry_sha256": "cf0f66718dcb27b08a250517f6d3e5ff686f6db527d241c5fda0fd4188085947",
+  "font_file": "design/quality/proofs/continuation/review-thirtysixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c80760424cacdf1e5891f3ebcec4d120fbe9c50ccb51664a8796d5a18113aa56",
+  "raster_file": "design/quality/proofs/continuation/review-thirtysixth-eight/U3D27C-Regular400.png",
+  "raster_sha256": "3a80324f689bce8f4af9cfbbeda20082f481b040655ae241d6b3c0a62b73dd1f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      208,
+      -64,
+      816,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, immutable compiled Regular400 full glyph and enlarged relevant components. Exact hash and weight400 only.",
+    "Native joins both forks and leaves both left inner oblique marks entirely detached. THX has free forks and both inner marks rooted on the left outer arch; CCZ/QJZ joined forks still root inner marks and change other contacts. Native detached pair is unsupported. Actual retains genuine right crossing and the lower independent dash/pedestal/side marks."
+  ],
+  "requested_corrections": [
+    "Detach both forks and root both left inner oblique marks on existing outer arch, preserving free lower tips, to select coherent THX.",
+    "Preserve right crossing/left-to-right course contact, lower detached dash, pedestal and two side curves; smooth upper arch through original anchors if needed."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

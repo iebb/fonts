@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D251",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D251.json",
+  "source_png": "design/seal-individual/U3D251.png",
+  "source_png_sha256": "be28f9bf93d561e1b6e1364991d1819cc097e469d311e8700ff8c9e39a35975b",
+  "reference_png_sha256": "684c81be794dd0fdcfb3e705bc1d538390b151ec576c3fac238ff220cd62d7c5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D251.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D251-whole-THX-rooted-slants-forkjoin-v1/sources/U3D251.json",
+  "source_json_sha256": "75794cc79edbcc8bc52e672468cc4bb30513017a9d3c6fad39784b3687988246",
+  "geometry_sha256": "b3e193c2023ce567d6783ba7f956aa1be65cefd4eeabf68b11a65f0df5c3b1d3",
+  "font_file": "design/quality/proofs/continuation/U3D251-whole-THX-rooted-slants-forkjoin-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a1377b01d4809846d83045698395d7e6ca14b1aaa7945dde39859f76967520f6",
+  "raster_file": "design/quality/proofs/continuation/U3D251-whole-THX-rooted-slants-forkjoin-v1/U3D251-Regular400.png",
+  "raster_sha256": "0438a82fc06ea4a23dc5e0a8b74f9d47d950c40bf1367fffc38cb974b833ba0f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      315,
+      -64,
+      709,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX left fork free/right fork joins upper curved course, long left staff with three one-field cups, right upper winding/three rails with small field, independent lower curved arch and descending tail. Both inner lower slants now root exactly in unchanged outer arch and retain full lower free endpoints; right fork joins exact existing upper curve. All four fields and remaining curves preserved. Native detached fork/slants mismatch retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "64a6ab34d1256d8c310a9cdbfe2cd373beb11bd80f348cd2161e34f09c312eae",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "db4cf3b38a0f2333eb581bd3faf644acd449e4bac4c42a2944f1be1ecd070b6a",
+    "actual_font_enlargement_sha256": "185f2cf40087d14e147c870835bd7185738a3fa73fd4913172a590edf9d6adce"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "bbc135d3132085757b908817d8feaf05a6116e1f71a0974950dcc0bec6b2a816",
+      "source_json_sha256": "0969f3fa7dad629e87b9bd9db619f91c34629bcff2c1d7b4f56dbb1811143961",
+      "source_png_sha256": "be28f9bf93d561e1b6e1364991d1819cc097e469d311e8700ff8c9e39a35975b",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "98faad420004a9b36d7002bf9bd6d9ef59f404d6a62e93358a2780545d0be15f",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Native has both forks free and two completely free inner lower slants. THX coherent whole has right fork joined to upper right curved course and both lower slants rooted on their outer arch; CCZ also joins right fork while altering other body contacts, QJZ and DYC change left fork/body and lower marks. Native retains three left cup fields plus one right small field; actual preserves them."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2AE",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2AE.json",
+  "source_png_sha256": "be5c418cdb856ab3332fac79c2e8c6c0f8a0f28f675c66c1bd97d1fd8db63392",
+  "source_png": "design/seal-individual/U3D2AE.png",
+  "reference_png_sha256": "82384cc8eb5503dccdd11ec57cfe6d61eae7ba5d8ea62f190f06ee0ec85bbfe1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2AE.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortieth-eight/sources/U3D2AE.json",
+  "source_json_sha256": "fb1825c9d91408b23358494ab14384837e41e3afc7d4e51a180bc72cbba3e61f",
+  "geometry_sha256": "e13b913267f7eecd9608b1fbe30de0638182a63ffc33a846a3422b4910780464",
+  "font_file": "design/quality/proofs/continuation/review-fortieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fde2f4b99194c4713454e1cccf415f772a6042af1d172a3ef3a577f5eaa96a6c",
+  "raster_file": "design/quality/proofs/continuation/review-fortieth-eight/U3D2AE-Regular400.png",
+  "raster_sha256": "766809b9d8f05603237911f0c42bc3837b4847667f45ebaff09b17d81c151f76",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      306,
+      -64,
+      718,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable full actual Regular400 and enlarged components. Native mismatch: staff runs through lower cup to its bottom, splitting cup into two fields, and two cup-side short upstubs stop free below four-field upper grid. Whole THX lower cup has ONE field, walls connect upward directly to grid bottom and central grid staff ends at grid bottom. Native also joins lower cup to the separate winding bow through central descent, rather than THX independent bowl and short bowed upstub. Actual preserves these incorrect courses."
+  ],
+  "requested_corrections": [
+    "Restore THX one-field lower cup by ending central grid staff at grid bottom and joining cup side walls to grid bottom; remove free side upstub interpretation.",
+    "Detach lower winding bow from cup, retain its own short inward/upward stub and long descending tail plus separate bottom dash.",
+    "Preserve upper detached forks, broad U and four-field grid."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

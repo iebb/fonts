@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2A5",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D2A5.json",
+  "source_png": "design/seal-individual/U3D2A5.png",
+  "source_png_sha256": "2b6d43e4d6aa810c86d4413b9a77d44a1673c8aa7a15c5d45f511cd90b2061a9",
+  "reference_png_sha256": "0211ef8b7399565026657852dfd40e62456d0f5f42c84883d523d5eb5b2b35fc",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D2A5.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-2A1-2A8-v1/sources/U3D2A5.json",
+  "source_json_sha256": "07318c1277d669ce068ee6a39b41920743d2ad7a3c762e06ab563d9e4c0bc706",
+  "geometry_sha256": "c3901f7345b9018026b2695baf0ee4076acab5738819ce34ee91e2c06b6e8b71",
+  "font_file": "design/quality/proofs/continuation/root-new-eight-2A1-2A8-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c373d5e4cac03ce6bf277ea30b4b0fa20d84923622e867e73197f7573fe653a2",
+  "raster_file": "design/quality/proofs/continuation/root-new-eight-2A1-2A8-v1/U3D2A5-Regular400.png",
+  "raster_sha256": "29bc00be50175d54bee1ae4d845a213b831a45b33e0018e300b1511d3a9f0501",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      308,
+      -64,
+      716,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full unchanged native, every available complete enlarged whole witness, full and enlarged immutable actual Regular400 independently inspected. Native loses lower pedestal BASELINE present in every whole witness, leaving two inner stems free. Both forks wrongly join upper bodies while remainder follows THX right winding meeting lower cup. Restore coherent whole THX both upper fork gaps and missing pedestal baseline, preserving upper three fields, right curl/cup, original stems and outer ticks. Complete QJZ joined-fork form changes right two-leg construction and pedestal/body contact, so cannot justify mixing those contacts. Whole DYC unavailable.",
+  "requested_corrections": [
+    "Full unchanged native, every available complete enlarged whole witness, full and enlarged immutable actual Regular400 independently inspected. Native loses lower pedestal BASELINE present in every whole witness, leaving two inner stems free. Both forks wrongly join upper bodies while remainder follows THX right winding meeting lower cup. Restore coherent whole THX both upper fork gaps and missing pedestal baseline, preserving upper three fields, right curl/cup, original stems and outer ticks. Complete QJZ joined-fork form changes right two-leg construction and pedestal/body contact, so cannot justify mixing those contacts. Whole DYC unavailable."
+  ],
+  "review_comparison_sha256": "6f5814b79322ae9a1d6134f6788feb303bf110c5cce8c8cf6d4f9219b6de4bb3",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "1cb1d18e536a4ea01302171f217cbf87205b30e2d252225d375eb620b021d008",
+    "actual_font_enlargement_sha256": "f8f382c6ffb2781c1dc99baffafd62486285d9a5e2abf15e511552c70332b679"
+  }
+}

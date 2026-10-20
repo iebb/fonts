@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D290",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D290.json",
+  "source_png_sha256": "2b20723f240a46c4ce9a4aa9149e231f0a8b5b35b8e48211bd82da6a3f984ebe",
+  "source_png": "design/seal-individual/U3D290.png",
+  "reference_png_sha256": "17a050dad5de369c955c7fc6b0b3c4b590576fbae66adfd3b85853e8af31a710",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D290.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D290.json",
+  "source_json_sha256": "23b51494ae46e32c6dc096e3ab670276ba968e180f65a79767cd4f0fd3d13a9e",
+  "geometry_sha256": "a8bc37d670221ee9e06572fd068e5a05cec56603aa14ae86c092c01d7e095281",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D290-Regular400.png",
+  "raster_sha256": "710133ea211d44131808ef350aaca492636bf9b8a7bf7f39d4fdb8291eb084c5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      312,
+      -64,
+      712,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. Native mixes contacts: both small lower tridents join the three-field oval roof, but the broad upper cup is detached from both tridents. THX has left small trident free/right joined; CCZ both lower joins also links the upper cup to the left trident, and QJZ alters the central staff ending. Actual preserves the mixed contact and has stepped oval roof/shoulders. Enlarged actual confirms the left small trident central upper stem IS present; no missing-stem correction warranted."
+  ],
+  "requested_corrections": [
+    "For coherent THX, detach only the left small trident stem from the oval roof with a clear gap; preserve right trident join, central staff/upper cup and three oval fields.",
+    "Smooth bounded oval roof/shoulder steps preserving original wall contacts and field divisions."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D243",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D243.json",
+  "source_png": "design/seal-individual/U3D243.png",
+  "source_png_sha256": "764952e9df5f998a83a0c808a7a0c4a2ba094167f17ed353e44ec58606d026b8",
+  "reference_png_sha256": "d093c596b15cc89667ef77f48129123bc107f4965e38165a8b4eedfb0a1f2bd1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D243.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D243-smooth-middle-return-v1/sources/U3D243.json",
+  "source_json_sha256": "4361cf04a2b554c0f9c9005b4cbfa521e999d89c2b6ec3d762b14a0c8a3763a5",
+  "geometry_sha256": "56f12ebacbd3e5dad5c35cafd4b7588ff5827daaff3afd416f1fec57399e7070",
+  "font_file": "design/quality/proofs/continuation/U3D243-smooth-middle-return-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "832d729ad60b9c21508a4ce302b563362dd99d28b5bc18e082e821fa40e7b7cd",
+  "raster_file": "design/quality/proofs/continuation/U3D243-smooth-middle-return-v1/U3D243-Regular400.png",
+  "raster_sha256": "e06293524080331ddf120a6540de8d4e18c65fa6f3965e6a12596cdac2bb93e6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      284,
+      -64,
+      740,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both detached forks, three left overhanging rails, rooted descending bowed staff, right curved return with two fields and descending right leg retained. Middle bent return now smooth through exact existing crossing contact, full tail suffix and other paths retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "d806bda6ae7da1bf4538076318604a9921f251f72e1475e6c1062e82f31995b5",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "6d35f01d75abe8b72f11e559088980fe004930a3d77cb9d98a4c34acf2705bbd",
+    "actual_font_enlargement_sha256": "ea79dfc3e0e761e56bdba7d1a7c828fb2591413f9cc6aa7e0bfb19ff388e7aef"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0c4b6319f52173631b82c75b9a3e820f1ad81092829bd3d9f8893517adc50c9d",
+      "source_json_sha256": "5d5c75b8cef4d863ad91ae3f2bdbafe06682b122b0d787718d165bc66f89da56",
+      "source_png_sha256": "764952e9df5f998a83a0c808a7a0c4a2ba094167f17ed353e44ec58606d026b8",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "ab96e6dadcdcbc448d9363567470bf54be98f34efbb256d9f0188f288af9c035",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Native matches whole THX free forks, three left overhanging rails, two right body fields and two descending legs. Actual retains identity but the middle bent rail has an offset/notch at its staff transition and an uneven lower-right convergence."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D248",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D248.json",
+  "source_png": "design/seal-individual/U3D248.png",
+  "source_png_sha256": "d71ea931db320592a98c8ea61bc1ef11cb46216919c542354cf90f24c55ea1bf",
+  "reference_png_sha256": "94b95612fb96b82f2c069967bb4bd38d45454b130d6635d6925aa96e965fc7f6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D248.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D248-whole-THX-freeforks-v2/sources/U3D248.json",
+  "source_json_sha256": "9d9fdb621a3f85f5f4cb980224ea95b497f3d319ec33382d3343db3c48991b4f",
+  "geometry_sha256": "dbba3041cb59453c41cb23f36933bd377703da78cf2ebc9bf8fc90a8270dd2e4",
+  "font_file": "design/quality/proofs/continuation/U3D248-whole-THX-freeforks-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "da195f974be676bbd632566f34033ec6b5e001ecfa0f5b6fe873a6b7dca7186b",
+  "raster_file": "design/quality/proofs/continuation/U3D248-whole-THX-freeforks-v2/U3D248-Regular400.png",
+  "raster_sha256": "b5787da7d8cc71f894331f7106948fef1295a6b9997a0394794be8450b71d08a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      293,
+      -64,
+      731,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX both upper forks now detached from independent U/cup, centered short upward body stub retained. Upper three-rail right winding and long right descending staff remain THX; repaired lower return closes two lower fields, full lower-left diagonal/staff and lower winding endpoints preserved. Both fork gaps visible at actual400. Earlier DYC attribution retracted because its right end differs; native original missing lower return/variant mismatch retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "e11d849aed9647c842864d8a7838a0e576eedb72714e42018262d98f3552b697",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "461e1524b14f3f6f2e00d5127c113734a2d1f9622ac85f861a1f9e728c1c9840",
+    "actual_font_enlargement_sha256": "f9854d16ef749b213f284619aef18478ca419a9a118e478ed06cdf2524881431"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "bd0fd2fb0206a59c0d31b6de5e3489f5445be00e9356559d369f42be8480be2d",
+      "source_json_sha256": "8c3294f53dab0635766b3cd043ae0f531aefa073dacfcb0e6c172bd6503aa73d",
+      "source_png_sha256": "d71ea931db320592a98c8ea61bc1ef11cb46216919c542354cf90f24c55ea1bf",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "c56fd724797e54a4f71a83ce90a19de144b2953db58458a5f8687da3a74cce7f",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Native omits lower return linking left crossing through central staff to right lower upright: two lower closed fields present in whole THX/DYC are absent. Native both joined forks resembles DYC but DYC also has the complete lower return. Actual further truncates native lower-left diagonal into a short nub and flattens its bend."
+      ]
+    },
+    {
+      "geometry_sha256": "a94b364e4b05882451d44d03656b0e5c2c3e51ed438ff74785f51bdea36e70b0",
+      "source_json_sha256": "644db98aeb110834034e519a9ad4728dbaa1e39a3d04f523b36a4cbc02e6f708",
+      "source_png_sha256": "d71ea931db320592a98c8ea61bc1ef11cb46216919c542354cf90f24c55ea1bf",
+      "font_sha256": "121d32c4360996c6ba3c051dc24c5487eea1d1780b5f8da38e507875967ab903",
+      "raster_sha256": "9db0443eade948f7e56e97e81a63d6c070e04860db3429828f03d11330fae7a8",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Repaired lower winding return now closes required two lower fields and lower-left diagonal restored. However author-selected whole DYC justification conflicts with retained LONG descending right outer staff: complete DYC upper-right winding ends in a short midheight down-right diagonal, whereas THX preserves long right staff but has BOTH upper forks detached from upper U. Thus corrected glyph still mixes variants. Follow coherent whole THX with bounded gaps between both upper forks and independent cup; retain cup own upward free ends, centered upper stub, all upper winding/long right staff, restored lower return/two fields and other original courses. Native original missing lower return/variant mismatch retained; new proof required."
+    }
+  ]
+}

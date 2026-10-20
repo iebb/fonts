@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D262",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D262.json",
+  "source_png": "design/seal-individual/U3D262.png",
+  "source_png_sha256": "6b537d2d1b939b4a294edc373d728c78abf7ce1e9725b12c7204218af8d27d5f",
+  "reference_png_sha256": "02037fff664112fc912913770d8a7bdc7d56f3908b3b5cab782552d9cbdd7cbc",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D262.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D262-THX-three-oblique-rails-v1/sources/U3D262.json",
+  "source_json_sha256": "053ac9744e35e04195eb39f3e7a21910cdf242d13f4623a5e7fb50fef2f0a334",
+  "geometry_sha256": "59f9255a1a9325bca7e35b8d8401d9f14b3d7f5c5002b8459cb0348b6d9ae158",
+  "font_file": "design/quality/proofs/continuation/U3D262-THX-three-oblique-rails-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3639b7b713611af44a971a472367523d629752c3164173e0137ebde95bddf2d2",
+  "raster_file": "design/quality/proofs/continuation/U3D262-THX-three-oblique-rails-v1/U3D262-Regular400.png",
+  "raster_sha256": "8fbd1be6da3b0b9e5f0db561c476b29136ce8e13b947756f5a7ad4b8400f278f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      260,
+      -64,
+      764,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent whole THX both free forks, two independent left horizontal bars, three-field left capsule with two lower legs, and THREE independent right oblique rails with paired lower branches rooted on lowest rail. Missing lowest rail restored at exact existing staff anchor, excess former upper staff prefix removed, middle tracking step smoothed. Original upper two rails remain free and other paths retained. Native missing-third-course mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "44f32cbc07ec40398c771b24e59a47f49da4bed1967498fbcc0361fcad5c2ee4",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "8390d5898e574efef70c86b8e24ffaf8d6f9141be455785acf45698b2947cd26",
+    "actual_font_enlargement_sha256": "5224aca10a5aac48cfed5d964430b5b172134bde0c029208744a2cb4ab04d87a"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "4585524f10ece55aa115384e9082ab7f7e1692bb2a18d62628908fab07bf54a1",
+      "source_json_sha256": "f05d4ba775cf10f9e65b3cdc2f2ea27c0c136276ac92f52e3eaabdde45e1c212",
+      "source_png_sha256": "6b537d2d1b939b4a294edc373d728c78abf7ce1e9725b12c7204218af8d27d5f",
+      "font_sha256": "5992c6a0c479f746584f2089c86920b796924b1c2cf90c485782d2f348614fc9",
+      "raster_sha256": "6f8f1cfe5917638ccbbf9b07002f65b5d3ba5815e76f9d7d38577dc140f5a3bb",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components; exact hash/Regular400 review only.",
+        "Native has only two right oblique rails; THX and the other whole specimens have three, with the lowest carrying two lower branches. Left two free bars and three-field capsule/two legs match THX. Actual also has a step at its lower oblique rail/staff junction."
+      ]
+    }
+  ]
+}

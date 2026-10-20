@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D246",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D246.json",
+  "source_png": "design/seal-individual/U3D246.png",
+  "source_png_sha256": "928b604b319589ced265e3ae780224ff2e18aa77fc351ee736d590fcbcacdef9",
+  "reference_png_sha256": "85af04b4c99d2f524c61c647556d0ec80073cd3e5fbfd778015f0d208247c242",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D246.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D246-smooth-shoulders-rightleg-v1/sources/U3D246.json",
+  "source_json_sha256": "f28e1835bf639085426882e1b8339baad068149b348f17eb8601ad179fec08e2",
+  "geometry_sha256": "bf2481dff9be5c5d8738a6184bba297938fc7f0cb478795e58c99b7d8d5755c8",
+  "font_file": "design/quality/proofs/continuation/U3D246-smooth-shoulders-rightleg-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "76dbeb30f310a9e5ad015f5991886f79d6e51daac9c06744476acc0e1e84f4c2",
+  "raster_file": "design/quality/proofs/continuation/U3D246-smooth-shoulders-rightleg-v1/U3D246-Regular400.png",
+  "raster_sha256": "e5d64a9e3c2402b8eccf06a3b9e6fa425ee990143309f648e7c3914a217c1b35",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      289,
+      -64,
+      735,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both free forks, central upward stub crossing transverse bar with bowed independent side ends, lower two continuous shoulder diagonals rooted at central staff and two descending legs retained. Both shoulders now smooth through exact original leg roots; right long leg smoothed through original endpoints. Other nine paths, free tips and gaps unchanged; no field.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "89cd5ab3fe9c840d0e840f02153831a08deff04638f56af87181f24c0bcfd33c",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "2602d3535069e94d8e13de0d70157cc72bae446542f26b2915ddf3365570a667",
+    "actual_font_enlargement_sha256": "1083cd108f2abf043b7d7f0a3cf424ef5c750a44bea5a979ffd7133182e5f558"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d07479c2bff1b63b13279952699e2298b6d33f46994eb8209359f57ac987305d",
+      "source_json_sha256": "2d120668dcf4db3ae38af799aec00430fd2028ff34fb06c57737f06972f1893c",
+      "source_png_sha256": "928b604b319589ced265e3ae780224ff2e18aa77fc351ee736d590fcbcacdef9",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "bdfdcc6603e2b24f806066970910a8c810e1c8eceb76a4d28ba70c40bb22a195",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Whole THX free forks, shared horizontal header with two curved side descents and central staff into two outward shoulders plus two long lower legs match native. No closed counters. Actual lower shoulders have offset steps at leg roots and right long leg is visibly wavy."
+      ]
+    }
+  ]
+}

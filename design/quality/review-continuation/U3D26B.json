@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D26B",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D26B.json",
+  "source_png": "design/seal-individual/U3D26B.png",
+  "source_png_sha256": "a143070ddbc0c6d0fce6963aacab473bc0140f25dc3e20500d2fc673c19524dc",
+  "reference_png_sha256": "ff0d7641db7a29febf975708a1d681c83be23caef3f4aa8f2ebc70099e1dc76e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D26B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-269-270-v1/sources/U3D26B.json",
+  "source_json_sha256": "2b1bb035c38cdb721634286bb5923512c00c3c8c8d5205a11af66bc68c986a7b",
+  "geometry_sha256": "3b27f9334c10ba980550b4070760601509817b521ee5987ce54580aaf639e572",
+  "font_file": "design/quality/proofs/continuation/root-new-eight-269-270-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d9cd7d8623dccc0b6d1b5c90b0879cce910047ad047790b3088cd3e1c10c552d",
+  "raster_file": "design/quality/proofs/continuation/root-new-eight-269-270-v1/U3D26B-Regular400.png",
+  "raster_sha256": "805f44cc8d366b1bb66a3d176d17c0c5d2929dab66c0004bf931259ab56b8096",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      268,
+      -64,
+      756,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native lower winding incorrectly fuses the independent short right-facing curved mark into the lower U return. Whole THX lower construction has a long left winding continuing through the bottom U to a free upper-right tip, plus a SEPARATE short interior right-facing C with two free tips. Restore this missing separate C and open the two required gaps, preserve lower long winding and original outer tips. Upper both joined forks, outer staff/right winding and detached inner rail are coherent THX and must stay unchanged.",
+  "requested_corrections": [
+    "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native lower winding incorrectly fuses the independent short right-facing curved mark into the lower U return. Whole THX lower construction has a long left winding continuing through the bottom U to a free upper-right tip, plus a SEPARATE short interior right-facing C with two free tips. Restore this missing separate C and open the two required gaps, preserve lower long winding and original outer tips. Upper both joined forks, outer staff/right winding and detached inner rail are coherent THX and must stay unchanged."
+  ],
+  "review_comparison_sha256": "e08ede7a624d08606d6d05e505a3fa696b22e608bf01efaa6b45b1a66b76a03c",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "7477c467363574c461a893acc6020b6b57ba975e7c20bcb6c83c36417a718161",
+    "actual_font_enlargement_sha256": "4f53763380adc0f666a0e3da03daea36bde5a096358c17f44702f97ce2012ccd"
+  }
+}

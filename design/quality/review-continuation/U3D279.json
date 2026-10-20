@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D279",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D279.json",
+  "source_png_sha256": "5384671481c9f13e8f98a2778407ef89a2a27903cc536819e8a860a814eca77b",
+  "source_png": "design/seal-individual/U3D279.png",
+  "reference_png_sha256": "d79a91b980ad9b35a69d344702b9c8d87189fe1d5d34db99feea510aa4914945",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D279.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtysixth-eight/sources/U3D279.json",
+  "source_json_sha256": "6c1b6d99542d2188a45507fb8023f9ef1023c92b974480937696dd2a5798b7f5",
+  "geometry_sha256": "0b3cb03d411deb4431c0cfa95643a06c39e3882cf31a43f7bf9f193bd4d398c8",
+  "font_file": "design/quality/proofs/continuation/review-thirtysixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c80760424cacdf1e5891f3ebcec4d120fbe9c50ccb51664a8796d5a18113aa56",
+  "raster_file": "design/quality/proofs/continuation/review-thirtysixth-eight/U3D279-Regular400.png",
+  "raster_sha256": "9569acd8257668971f65a5a902885537acd26b13dcfcbbff776ed14cd2168893",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      258,
+      -64,
+      766,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, immutable compiled Regular400 full glyph and enlarged relevant components. Exact hash and weight400 only.",
+    "Native joins both forks to header and leaves lower two-leg arch entirely detached from lowest descending course. THX joins lower arch right end into that course and leaves left fork free. CCZ/QJZ both-joined variants retain the lower continuation into their altered foot construction. Actual retains all five descending terminals but native lower gap is unsupported by the complete specimens."
+  ],
+  "requested_corrections": [
+    "Select coherent THX: detach left fork from header and join lower arch right end into existing lowest descending course, preserving its two lower legs, middle short staff/flag and three main descending terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

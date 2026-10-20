@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D240",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D240.json",
+  "source_png": "design/seal-individual/U3D240.png",
+  "source_png_sha256": "11096abb1eeaefdb6f632d1d606fa214504dc3534eb23a1c737e2f3d7bd45d2a",
+  "reference_png_sha256": "181d12bf5692c1ec097e41ba87074380b083d6131b0bf8ea67eaea1d2626de8f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D240.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D240-restored-right-forkstem-v1/sources/U3D240.json",
+  "source_json_sha256": "5825bfb585de1663477d7b697f8ef049fef0c31186becf20dae7c902da86f396",
+  "geometry_sha256": "ab8ef7cd5a7c5d2860868490692c38cb42021af892724ac696aaee99bce53adc",
+  "font_file": "design/quality/proofs/continuation/U3D240-restored-right-forkstem-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "49541ad28ef2f1f21f8ae8e9900d22eae95b07249e2c5c880e36a4d55729b1ab",
+  "raster_file": "design/quality/proofs/continuation/U3D240-restored-right-forkstem-v1/U3D240-Regular400.png",
+  "raster_sha256": "02c5ca5d04ebb1d8a336d2f0e057a889d863c6d3a1d8ae3c8d09fe97564b9895",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      240,
+      -64,
+      784,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX now restores short centered downward stem of detached right upper fork and preserves clear cap gap. Left fork joins long cap/left wall. Two interior rooted tridents with four detached side marks, independent right bifurcating winding and all endpoints preserved, no enclosed field. Native missing downward stem remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "50c02cec68ff3087c72a72e58b920eda1c4d477be410f989c23f7829908a54dc",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "180d5f34f352a8469951ae33c3eaa39a868ba8ac9643af294ad64acb46abbb34",
+    "actual_font_enlargement_sha256": "1ae5da0e9012411eb788a88b87eb87be61cd36f9998d6348539cbdf7ded5e9a6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a1d308cef408fc1e8867198db4c17fd557f0fd8ed4b0d494c407acde206fab84",
+      "source_json_sha256": "08bfde2d17cfc18a938a3b883e827265847498451585ce04a3e0baca8b85afab",
+      "source_png_sha256": "11096abb1eeaefdb6f632d1d606fa214504dc3534eb23a1c737e2f3d7bd45d2a",
+      "font_sha256": "814877bb3d9cf4cfc64b26db5379429c8b6fd40faa7a0fc6145bf55dd5b5ca36",
+      "raster_sha256": "30658b735eb322a906256584911d5075caffd81b3591c6ce06eb8c5adfb5fd41",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Current native and actual right top fork ends at its U baseline and lacks the short DOWNWARD CENTRAL STEM present in coherent complete THX. THX left fork joins outer long cap and right fork is free with its own downward stub; joined-roof whole variants differ and do not justify the missing stem. Restore only a short centered downward right fork stem, retaining clear gap to cap. Preserve left fork roof join, long left wall/cap, two independent inner tridents and four detached side marks, and separate right bifurcating winding with both descending endpoints; zero fields unchanged."
+    }
+  ]
+}

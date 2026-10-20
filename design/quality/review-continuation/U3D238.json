@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D238",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D238.json",
-  "source_png_sha256": "9385d53cca3335d7233fc68965abc7c3db89c2f47729f2b2cf1f1a1d3079aa64",
+  "native_review_report": "design/seal-individual/reviews/U3D238.json",
   "source_png": "design/seal-individual/U3D238.png",
+  "source_png_sha256": "9385d53cca3335d7233fc68965abc7c3db89c2f47729f2b2cf1f1a1d3079aa64",
   "reference_png_sha256": "6dda4399ec2bb5f9903ce904f313b66299bb2e979a4a69cb3f24ec36aa1837fe",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D238.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtieth-eight/sources/U3D238.json",
-  "source_json_sha256": "465d37c5a24ca9a122cd509ffa0d5b306697541dab485d4f60c64676ee034295",
-  "geometry_sha256": "248b4a2c3cf73ad59279c3131843dffb5ceb1a02bcabdbf113577afcde2010ab",
-  "font_file": "design/quality/proofs/continuation/review-thirtieth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
-  "raster_file": "design/quality/proofs/continuation/review-thirtieth-eight/U3D238-Regular400.png",
-  "raster_sha256": "0960614b985eaf86169e320198b03cf09345e09d686bcb37ad77cbd9062eb825",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D238-restored-two-complete-Xs-v1/sources/U3D238.json",
+  "source_json_sha256": "0d600e18448d89fb01297d0dbdee4130d81b7d242501c208ae15b81d49ba3ac3",
+  "geometry_sha256": "c2e0d2bb064eb09e65ad0c52312ede27d0f655bc834e1677be95609a5f64ee3d",
+  "font_file": "design/quality/proofs/continuation/U3D238-restored-two-complete-Xs-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6013e286dd35c4535154690d78ff4a35e2ad1586e218f7e209be860e10fc9887",
+  "raster_file": "design/quality/proofs/continuation/U3D238-restored-two-complete-Xs-v1/U3D238-Regular400.png",
+  "raster_sha256": "69b9ff797f87e9fa6be74ef31043c683ee0be2931eddb8c593cf97cc607bdebf",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
-    "Native matches coherent THX detached forks, TWO separate true left X marks, and right independent open spiral course branching into two long lower legs. No counters.",
-    "Actual loses two arms of UPPER X, leaving only an inverted V; LOWER X loses its upper-left arm, becoming a three-arm Y. Enlarged actual proves missing arms, not a thin whole-image display artifact. Native retains every missing arm."
-  ],
-  "requested_corrections": [
-    "Recover all four native-coordinate arms of BOTH left crosses with genuine shared intersections, preserving each X outer terminals and gap between crosses, and leaving right spiral/legs untouched."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete THX both free upper forks, two separate left true Xs, independent right open spiral branching into two descending legs. All three previously omitted X arms restored to original outer endpoints through shared crossing anchors; all eight X tips and gaps now visible. Right spiral and lower legs unchanged, no fields.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "8179daa8d1958d73524a02d6bbaf698fa60aa408b777d88f590cc1d3be93db86",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "cf5b1b4150477a40f7f8543d51361459b78a8bb5e8fc193f3488e9c8e4bc9dce",
+    "actual_font_enlargement_sha256": "78199be27cbc9c320d4f4ffe10250dfdfdfa0672c5f9f2b5dfc1f846dfa31749"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "248b4a2c3cf73ad59279c3131843dffb5ceb1a02bcabdbf113577afcde2010ab",
+      "source_json_sha256": "465d37c5a24ca9a122cd509ffa0d5b306697541dab485d4f60c64676ee034295",
+      "source_png_sha256": "9385d53cca3335d7233fc68965abc7c3db89c2f47729f2b2cf1f1a1d3079aa64",
+      "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
+      "raster_sha256": "0960614b985eaf86169e320198b03cf09345e09d686bcb37ad77cbd9062eb825",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
+        "Native matches coherent THX detached forks, TWO separate true left X marks, and right independent open spiral course branching into two long lower legs. No counters.",
+        "Actual loses two arms of UPPER X, leaving only an inverted V; LOWER X loses its upper-left arm, becoming a three-arm Y. Enlarged actual proves missing arms, not a thin whole-image display artifact. Native retains every missing arm."
+      ]
+    }
   ]
 }

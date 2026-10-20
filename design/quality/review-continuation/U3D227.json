@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D227.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-221-228-v1/sources/U3D227.json",
-  "source_json_sha256": "b88fed39df188f3e8d5add819a19c07e464a0fb114177fe63ac8fd9f5be6e5f6",
-  "geometry_sha256": "5ac2d51688b0cadae454e74bcd78bcd2be4f7e7e948a765618cf6ccea9063022",
-  "font_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
-  "raster_file": "design/quality/proofs/continuation/root-new-eight-221-228-v1/U3D227-Regular400.png",
-  "raster_sha256": "b97ecf325acda83d9536a3b141237a452762d3acb04a9e518cf3933d3e799bb6",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D227-smooth-left-bow-v2/sources/U3D227.json",
+  "source_json_sha256": "ba178ebd01cd082905dfa6a1dd12a01f936dec30252c26ff67a14c5c544d5034",
+  "geometry_sha256": "1cf7ea7204b0a968c604da8ef92f1d138ac40845aa8518019c8b61373e3f5bb9",
+  "font_file": "design/quality/proofs/continuation/U3D227-smooth-left-bow-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9d8959c356dc40c047aaec0beb81e9119e104e5ef4d28fbb3e24b2fcbe049cf1",
+  "raster_file": "design/quality/proofs/continuation/U3D227-smooth-left-bow-v2/U3D227-Regular400.png",
+  "raster_sha256": "6eb8dc67639248d208cfa6f51a537e284a5907d725f70cf9952f2262b6c48ae4",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,12 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native differs from coherent complete THX: THX left top fork joins roof while right fork has a short gap; current both join. THX lower-right compound is one continuous winding with ONE attached descending branch from its middle bend, yielding two long lower right endpoints. Native instead adds TWO independent detached curved marks beside the winding, yielding an extra lower course and losing the shared branch join. Restore complete THX right fork gap and lower right winding plus single attached branch, preserving its free upper tip, middle bend and two lower endpoints. Preserve left fork roof join, two genuine upper Xs with all eight tips, separate middle open curl, lower left open winding and its two attached inward branches; smooth X roots to true shared crossings if needed, without shifting outer tips.",
-  "requested_corrections": [
-    "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native differs from coherent complete THX: THX left top fork joins roof while right fork has a short gap; current both join. THX lower-right compound is one continuous winding with ONE attached descending branch from its middle bend, yielding two long lower right endpoints. Native instead adds TWO independent detached curved marks beside the winding, yielding an extra lower course and losing the shared branch join. Restore complete THX right fork gap and lower right winding plus single attached branch, preserving its free upper tip, middle bend and two lower endpoints. Preserve left fork roof join, two genuine upper Xs with all eight tips, separate middle open curl, lower left open winding and its two attached inward branches; smooth X roots to true shared crossings if needed, without shifting outer tips."
-  ],
-  "review_comparison_sha256": "59f3cb9a78a0ff1875c38a4a4fb7cf0cde76ae78a7d68dd6321470ce37e625cc",
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Bounded lower-left bowed crown/wall is now smooth through both exact inward branch anchors; branch free tips, independent middle curl and full outer-right winding/tail suffix retained. Complete THX left joined/right detached forks, two genuine upper Xs with all eight tips and lower-right single attached branch now preserved. Native original mismatch retained; accepted corrected editable geometry.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "151c2c2d8b0bd3230cfd1512f5792fb92d1aa59cea5f13e3fd9da7e57393e49b",
   "limitations": [
     "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
     "Heavy weights not visually accepted.",
@@ -49,6 +47,28 @@
   ],
   "detail_review": {
     "all_specimen_enlargement_sha256": "d3f2438597d67e22e6637fb4e659b7ebb1c51b68c4dbe30f13d91823198c13df",
-    "actual_font_enlargement_sha256": "5f879bb1c8e17a121e154b8e6a117e355fb9c8ef7e646ac22ec650641790dee2"
-  }
+    "actual_font_enlargement_sha256": "e49f8c9946b15c36eabf1483a5f4b54787342de946ac643f0060947e84ecc3bd"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "5ac2d51688b0cadae454e74bcd78bcd2be4f7e7e948a765618cf6ccea9063022",
+      "source_json_sha256": "b88fed39df188f3e8d5add819a19c07e464a0fb114177fe63ac8fd9f5be6e5f6",
+      "source_png_sha256": "1a43458724c172ea0ed3615b92472eb4e93162cd750a33994989144677f5aeef",
+      "font_sha256": "1f5bb0a0e652dc8eb104b219c55afc88370db68cdaa248b6dd340e58a5576b31",
+      "raster_sha256": "b97ecf325acda83d9536a3b141237a452762d3acb04a9e518cf3933d3e799bb6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native differs from coherent complete THX: THX left top fork joins roof while right fork has a short gap; current both join. THX lower-right compound is one continuous winding with ONE attached descending branch from its middle bend, yielding two long lower right endpoints. Native instead adds TWO independent detached curved marks beside the winding, yielding an extra lower course and losing the shared branch join. Restore complete THX right fork gap and lower right winding plus single attached branch, preserving its free upper tip, middle bend and two lower endpoints. Preserve left fork roof join, two genuine upper Xs with all eight tips, separate middle open curl, lower left open winding and its two attached inward branches; smooth X roots to true shared crossings if needed, without shifting outer tips."
+    },
+    {
+      "geometry_sha256": "104e658bfd498ddfd9a27521c2d8e4aebe2cb71e146c30b2e438c7b5b12e6b49",
+      "source_json_sha256": "244126c428d77e7ce14acc7e939526501a657e3639f401744d9de74dd0e90211",
+      "source_png_sha256": "1a43458724c172ea0ed3615b92472eb4e93162cd750a33994989144677f5aeef",
+      "font_sha256": "ccb4909406eefa32eb9784ded154740848e7697727c4ee4d4dca2bdc42a7084d",
+      "raster_sha256": "4c692fb27a1cad1045218ffef816d52c7cc298e5e56f24317433915d872cc8e0",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Hard structural corrections now match complete THX: left fork roof join/right fork gap, two genuine upper Xs with eight outer tips, lower-right continuous winding and single attached branch with two endpoints, all restored. However the unchanged LOWER LEFT bowed return has visible box-like tracking steps/bulges at upper-left crown and its two inward branch roots, similar to the pre-repair226 defect. Smooth only this bounded lower-left crown/left wall through the two exact branch anchors, preserving both branch free tips and full outer right winding/tail suffix, middle independent curl, all other courses and gaps. Native original structural mismatch remains; hold pending this final curve correction."
+    }
+  ]
 }

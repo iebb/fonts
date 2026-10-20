@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2BE",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2BE.json",
+  "source_png_sha256": "96414dc10a4b6e9ee9491c6f196ca02046859db6fd1bc86290df1392697109b0",
+  "source_png": "design/seal-individual/U3D2BE.png",
+  "reference_png_sha256": "1e5d507e2ee328c065bcc681fb23248418689c1f95424e64f27cd8c3f30f74ea",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2BE.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortyfirst-eight/sources/U3D2BE.json",
+  "source_json_sha256": "ef6338780fea155184f4608d0398182632727b9e2ba7298432d355546781ddba",
+  "geometry_sha256": "b078fcb1916e74a6aee1ccd40f52e22f0b6624aa1d651cb8af1685eb4ffcea96",
+  "font_file": "design/quality/proofs/continuation/review-fortyfirst-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a1fd40bf8a42a5c504b32c9b01078d0193c24bad4b66bb159202e223c4a14c6b",
+  "raster_file": "design/quality/proofs/continuation/review-fortyfirst-eight/U3D2BE-Regular400.png",
+  "raster_sha256": "260e65869ed6d3bb1d725d1c9092f82802e86995c067939aee45a2365ef66bbf",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      245,
+      -64,
+      779,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native matches complete THX detached forks, crossed left two-field construction with short lower inward tip and two long legs, separate right one-field capped U. Actual splits genuine left crossing into two Y junctions connected by short vertical neck and adds visible shoulder offsets to left winding courses."
+  ],
+  "requested_corrections": [
+    "Restore one genuine left lower crossing, removing intervening vertical neck while preserving two upper fields, short free inner tip and both long terminals.",
+    "Smooth bounded left winding shoulder offsets retaining original anchors and envelope."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

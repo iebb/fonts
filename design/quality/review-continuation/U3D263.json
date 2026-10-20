@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D263",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D263.json",
+  "source_png": "design/seal-individual/U3D263.png",
+  "source_png_sha256": "29be145004012a70b6f5b1c6644b9422bc382ac6a997394e393ac19c9ec80d2d",
+  "reference_png_sha256": "10c98b3162b3872d587a212583b17e9f90a6c1de13735192adcb60fbe938d2db",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D263.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D263-smooth-leftstaff-innerleg-v1/sources/U3D263.json",
+  "source_json_sha256": "2c0ea14d3936b6eea4767a520e48161bfe4a37160650e0e98b669c8aa99c3db2",
+  "geometry_sha256": "f433b084460d7420bbaabafc2a11fc20ebe6a7fbf0b8c8b8b83b5542c87b4237",
+  "font_file": "design/quality/proofs/continuation/U3D263-smooth-leftstaff-innerleg-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "855e80f63403e2dc21e698704e70341b476e01bc34b4ebd9c5539941022e1dd7",
+  "raster_file": "design/quality/proofs/continuation/U3D263-smooth-leftstaff-innerleg-v1/U3D263-Regular400.png",
+  "raster_sha256": "cb8b37d1a64a2e2ebf98263f8aeedebe205df9d2ff648cfd083b57f28759ed50",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      262,
+      -64,
+      762,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent whole THX both free forks, independent chevron roof and central cross/staff, left and right returned side bows with two rooted inward free branches each, five lower terminals and separate central cup/staff/lower arch. Bounded long left staff span below exact branch anchor and local inner-right leg suffix now smooth. All original branch anchors, free tips and body gaps retained. Native construction remains match.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "9af583af4bf2fa8990deee70b03d89aed4c8ef0bce2a96f28b0809f90f8694ed",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "a47de429f8a9e2fee519b7a5349f3682c781975f248c7f6db055ee18a301dba9",
+    "actual_font_enlargement_sha256": "21227883319c023fe762b9d0cbdec7203b672910675587b4459b1ad95ac52cab"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3d8bf00a5c5611958cf6f416c15338eb50926e463a8a160421b0efbf8500093e",
+      "source_json_sha256": "5d0618b2bf6ae988757621bbb08ea456336ff51e0694ce3689351ad48369740b",
+      "source_png_sha256": "29be145004012a70b6f5b1c6644b9422bc382ac6a997394e393ac19c9ec80d2d",
+      "font_sha256": "5992c6a0c479f746584f2089c86920b796924b1c2cf90c485782d2f348614fc9",
+      "raster_sha256": "91924fded5ba643be131ce126dc84c7e587d8d735cca73cdc1e0edb4a2c75abb",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components; exact hash/Regular400 review only.",
+        "Native matches coherent THX free forks, roof/header staff, independent paired three-prong side constructions and separate central cup/staff/lower bow. No closed fields. Actual left outer long staff shows repeated offsets, with a particularly pronounced lower step, and inner right bow leg has a local lump."
+      ]
+    }
+  ]
+}

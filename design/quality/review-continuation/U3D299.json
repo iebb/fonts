@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D299",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D299.json",
+  "source_png_sha256": "e4d2fbdbc55a6dc1fc23d2a883f24b1ecd657c6f39fa83d61b28cc1a7a78fe45",
+  "source_png": "design/seal-individual/U3D299.png",
+  "reference_png_sha256": "06ac7a37ab99af1b503e101fc769a370d7e663b33119ec4fa2e6677298b06076",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D299.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyninth-eight/sources/U3D299.json",
+  "source_json_sha256": "9851ee0ce9c59acc3644ed35cf7c170d8ef1549adbdef321e443859de2683a73",
+  "geometry_sha256": "f60d77f27592d758cba3292447759fc533cd28e7ce3e7753c10e0c7d88e46bc6",
+  "font_file": "design/quality/proofs/continuation/review-thirtyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ca68f482a1bde824c4736987c8621136040b1c0d65e00ccf5dd25dc14eebcb0",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyninth-eight/U3D299-Regular400.png",
+  "raster_sha256": "d9e18d84d348355bdf4be222c43ae5519bc1ec4ec1c8ad68c472da437c7f1458",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      269,
+      -64,
+      755,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native matches whole THX detached forks, two free left dashes, separate upper oblique rail and lower bent return with two descending legs. Actual lower free left dash has a conspicuous bump/notch and the lower bent rail has local stepped contours; identity/contact structure retained."
+  ],
+  "requested_corrections": [
+    "Smooth bounded lower left free dash and lower bent oblique rail offsets, retaining all original tips, upper rail gap and both descending leg roots."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

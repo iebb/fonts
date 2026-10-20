@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D253",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D253.json",
+  "source_png": "design/seal-individual/U3D253.png",
+  "source_png_sha256": "a741a431cf900e25a5333d83a38910d69b337dda92aa8fd3f4a32417b633e29f",
+  "reference_png_sha256": "799e82b3522a677124ad98942c8698d3ff907bbb528d5475d14f49d66f921fa6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D253.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D253-smooth-diagonal-shoulder-v1/sources/U3D253.json",
+  "source_json_sha256": "d4e05b63ea9e0213d1898b8b40a3626c010bfa93202f739eb76c98e475ed4cc3",
+  "geometry_sha256": "44d2ce9f21597c282c532d6fa3a07d739fab082298352cc4caa3d2328906a1bd",
+  "font_file": "design/quality/proofs/continuation/U3D253-smooth-diagonal-shoulder-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d597e903542c96606a4ca597ea76447221a0bbd7825cf2c5663147a8a52a8ab4",
+  "raster_file": "design/quality/proofs/continuation/U3D253-smooth-diagonal-shoulder-v1/U3D253-Regular400.png",
+  "raster_sha256": "d67728eef1cd4656c8fc5824d40ede5fd473af31e835539b3b5c2ff3e6799a6b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      305,
+      -64,
+      719,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both forks joined by short baseline, independent longer body header, diagonal rooted course with descending branch, separate left L return and right paired legs preserved. Bounded diagonal through exact branch anchor and right shoulder through inner root now smooth; long-leg suffix/all free ends unchanged. No field.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "bb84bb6a411efa038dbc9a708a381b37aafe61b0811a1c3d9d3eb2c11b2eb6d9",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "f426db812d93cf1fd9844d02b8f983d7f4c790624543590683beb3b1025a971f",
+    "actual_font_enlargement_sha256": "a037e84851796dbc0d795e1f6bbc675f12f3ed2a4e668713ee631720528f87a5"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "5b16045a3daa9d133702cc0f2dc9124c06d0d976b350c67526b51c74a8300af7",
+      "source_json_sha256": "2e7276eb88be0552b0e7cb7d3994767c6801913a459af5a8af09681e6a00c0e2",
+      "source_png_sha256": "a741a431cf900e25a5333d83a38910d69b337dda92aa8fd3f4a32417b633e29f",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "d6b8bd6db5654776c4a82af7fce426e574c8997bd28b806927ebb91bda30def5",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Native matches THX both fork stems joined to their separate upper baseline, detached lower header, descending slant with inward branch/long staff, separate left L and separate right forked two-leg course. No counters. Actual descending slant has an offset neck above its branch, and right upper shoulder has an angular offset at its inner-leg root."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2A0",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2A0.json",
+  "source_png_sha256": "bfd05a768f2c4975c11a2f47a45596f3ebb58cb3613cbc4a30542291125c3a12",
+  "source_png": "design/seal-individual/U3D2A0.png",
+  "reference_png_sha256": "57fdfbf60a62deada21fee021109dff8d806f2b46d26d749a3760f6ecb8e2bef",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2A0.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyninth-eight/sources/U3D2A0.json",
+  "source_json_sha256": "685081560eee623ccef3d2fbbbfd336d6ecdd37e4308d63040a1f730a269bf14",
+  "geometry_sha256": "8b91834a1408877df42c729f3f4f680e85227ab1c39cdc6d8723e9a50f7584b8",
+  "font_file": "design/quality/proofs/continuation/review-thirtyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ca68f482a1bde824c4736987c8621136040b1c0d65e00ccf5dd25dc14eebcb0",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyninth-eight/U3D2A0-Regular400.png",
+  "raster_sha256": "45b2d72d32135c159b0b20a3f178dfa605c87b69e917c5307bf75a452b56c286",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      236,
+      -64,
+      788,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native matches coherent QJZ: detached forks, left winding staff upper-right arm joined, three free side marks, separate right three-field pedestal with no baseline join to left lower mark. Actual keeps three fields and full terminals, but left long staff has a pronounced corner/offset at lower waist, unlike smooth native course."
+  ],
+  "requested_corrections": [
+    "Smooth only bounded lower waist offset on left long staff retaining exact upper branch contact, main extrema, terminal and gaps to three free side marks."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

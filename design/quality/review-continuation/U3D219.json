@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D219",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D219.json",
-  "source_png_sha256": "2f172cab983bae06ba8379bdd67f7f82bfc8b5628dee853bd017d258e7df04c1",
+  "native_review_report": "design/seal-individual/reviews/U3D219.json",
   "source_png": "design/seal-individual/U3D219.png",
+  "source_png_sha256": "2f172cab983bae06ba8379bdd67f7f82bfc8b5628dee853bd017d258e7df04c1",
   "reference_png_sha256": "bd0d28394eb8b4e0475594d65d474f1378383a384ee3e8f9d4cf8c0e90b99750",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D219.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D219.json",
-  "source_json_sha256": "e568207d4952a08fb7678c64491c9228bc34a303de4e197908c71c856c2489b7",
-  "geometry_sha256": "4f0380e630ea1418f315802b7d121e37524a23acb12bed8c1605a9c9c55eba55",
-  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
-  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D219-Regular400.png",
-  "raster_sha256": "fa35cd65f7c77e5911a1b0edd8ff52257141e28c16cda7f164c3c316094f82ce",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D219-smooth-lower-bow-v1/sources/U3D219.json",
+  "source_json_sha256": "527fa7c22508c8afdaa0de49a29d673a6bd991ebb99fc34f7d941fd3675c8038",
+  "geometry_sha256": "d1f72d1bd58d46c9d8280035f278990e3e220319aeb9b6bea205d0be099f351d",
+  "font_file": "design/quality/proofs/continuation/U3D219-smooth-lower-bow-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "89ad420cc774fa69a80090fb3b411575fc8b402198e04d3a2f3d48860eb3b9b3",
+  "raster_file": "design/quality/proofs/continuation/U3D219-smooth-lower-bow-v1/U3D219-Regular400.png",
+  "raster_sha256": "7d903c06e3ef2d5ddc79d5810bfc4f055f6320b409b4752c9d94a58e0c1d55fe",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
-    "Native matches coherent THX: detached upper forks; barred rounded upper enclosure with two fields/upstub; central staff with two outward diagonal branches; lower open-bottom bowed enclosure, central staff and horizontal crossbar making two closed upper fields and three descending terminals.",
-    "Actual preserves four counters and all branches, but lower bowed enclosure has abrupt flat steps at central crown/left shoulder and repeated lateral bulges on its lower-left descending wall. Enlarged actual crop confirms these tracking defects absent from smooth native."
-  ],
-  "requested_corrections": [
-    "Smooth only lower bowed enclosure/crown and left descending wall, retaining original center/bar contacts, three terminal positions and two lower closed fields."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete THX retained: two free forks, upper two-field loop on central staff and chevron over lower two-field bow. Lower bow crown/left wall now smooth through exact staff apex and crossbar endpoints, with original lower terminals and other10 paths unchanged. Four fields and all gaps retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "0fd99a1c2b8d7b0f9b97c2d68d5d7a12b60f833f63e166a7c79cea1ec60f90ee",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "a82baed7347dc2649308fc70d1eedb9c6021ac8f67ff787e850f7e40112ebf47",
+    "actual_font_enlargement_sha256": "8d0059102be3749a1917207a5bca3dcd2535d8a8f9e210802e9b6402b8c1c77d"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "4f0380e630ea1418f315802b7d121e37524a23acb12bed8c1605a9c9c55eba55",
+      "source_json_sha256": "e568207d4952a08fb7678c64491c9228bc34a303de4e197908c71c856c2489b7",
+      "source_png_sha256": "2f172cab983bae06ba8379bdd67f7f82bfc8b5628dee853bd017d258e7df04c1",
+      "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+      "raster_sha256": "fa35cd65f7c77e5911a1b0edd8ff52257141e28c16cda7f164c3c316094f82ce",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+        "Native matches coherent THX: detached upper forks; barred rounded upper enclosure with two fields/upstub; central staff with two outward diagonal branches; lower open-bottom bowed enclosure, central staff and horizontal crossbar making two closed upper fields and three descending terminals.",
+        "Actual preserves four counters and all branches, but lower bowed enclosure has abrupt flat steps at central crown/left shoulder and repeated lateral bulges on its lower-left descending wall. Enlarged actual crop confirms these tracking defects absent from smooth native."
+      ]
+    }
   ]
 }

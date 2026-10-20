@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D249",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D249.json",
+  "source_png": "design/seal-individual/U3D249.png",
+  "source_png_sha256": "5feee96b236dd2e22d7a23ff55c5584d96095079c35ebfcf10bbdbf5a8cd4ad0",
+  "reference_png_sha256": "73734030399239d02d2d08f4efab550cfdc6720b06773bbf14cb6a5c1f4bb3df",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D249.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D249-THX-single-bent-uppertip-v1/sources/U3D249.json",
+  "source_json_sha256": "16f2a26bfb7e360fe5aa90cbdd7486f8d5cf06b1568c212db236c6390973fc87",
+  "geometry_sha256": "32503a7970f1c89fac301eae499a1f2c1bfff849242eb7644fd67b9c25c78975",
+  "font_file": "design/quality/proofs/continuation/U3D249-THX-single-bent-uppertip-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "987e3ed2efff4942642242903dcda9e2ca5265167edd4c105fdc4c4557c754ed",
+  "raster_file": "design/quality/proofs/continuation/U3D249-THX-single-bent-uppertip-v1/U3D249-Regular400.png",
+  "raster_sha256": "549989a603fe4b9baf34f1d053c353a25c2601830fbcab80f505afb07630d88f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      296,
+      -64,
+      728,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX lower central staff now begins with single bent-right free endpoint; extra independent straight upper projection removed. Both lower U courses and descending terminal preserved. Upper joined-fork cup/central upstub/two crossrails, paired side bent courses and two long outer legs unchanged, zero fields. Native extra free endpoint remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "d3a271970f262f0e40fdedf0efd2c7957bfc5ad04b2a5f4d51f051fe31398333",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "faf59029256a7fc08a26e46a2d5f672cb57af62ca8566f4c23be24f1b865735c",
+    "actual_font_enlargement_sha256": "e19175f335de3a34a10cd2f47b5550157832fddb4e5ae20351c56ba335276505"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7fd6710e5699380aff3cbac100b392fb4cb942ecb03442734da96e7baa586812",
+      "source_json_sha256": "0b051dc7ba5fcc792a51aceab631ef8dea8d62adf3e8343944a66ba38370fd2c",
+      "source_png_sha256": "5feee96b236dd2e22d7a23ff55c5584d96095079c35ebfcf10bbdbf5a8cd4ad0",
+      "font_sha256": "146dc870d52f62389fe265e820635974399148d02d9d98554cf4509768df64ed",
+      "raster_sha256": "6b02c357921ab198c3960e1ded456d06631eb452c4342e0c8e700e917492dd93",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native lower central staff has an unsupported extra short upward free tip ABOVE its small rightward arm, giving that upper junction two free terminal tips. Complete THX instead has one bent rightward free upper endpoint continuing directly into descending central staff, followed by two lower U branches. Other whole variants change lower construction and do not attest this extra three-arm mixture. Remove only extra straight upper staff prefix above the small rightward bend, retaining that bent free tip, the two lower U courses and exact lower central terminal. Preserve both joined upper forks/outer U, long upper staff/two rails, separate paired outer side returns and long descenders; zero fields unchanged."
+    }
+  ]
+}

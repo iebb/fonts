@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2AD",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2AD.json",
+  "source_png_sha256": "d048e2e9e0c6d27fed64a82af5b4d8c872110f56620755d1000cf07fb4b3b0b4",
+  "source_png": "design/seal-individual/U3D2AD.png",
+  "reference_png_sha256": "fe9eb6dd5f446796e2d9ffe3c2fe22728b72db2f47bf05f87b27f9e8c2d80705",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2AD.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortieth-eight/sources/U3D2AD.json",
+  "source_json_sha256": "568e1e73df2139c1c4c548cb76606fefbcb024069b3790466d5b0e0b0ad4efd0",
+  "geometry_sha256": "6a0d633739d7badac19c7230e0b4bcc4ecc04b113900854db51733a7d5b4ec23",
+  "font_file": "design/quality/proofs/continuation/review-fortieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fde2f4b99194c4713454e1cccf415f772a6042af1d172a3ef3a577f5eaa96a6c",
+  "raster_file": "design/quality/proofs/continuation/review-fortieth-eight/U3D2AD-Regular400.png",
+  "raster_sha256": "4c41987276370fe71c092a1f48332c09990d8c7bfe4277125fd8fdd51b796128",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      273,
+      -64,
+      751,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable full actual Regular400 and enlarged components. Native mismatch: short interior connector between middle and bottom winding rails closes an unsupported extra small counter. THX has genuine shared crossing of winding courses with no such internal bridge; left fork joined/right free and independent lower one-field cup otherwise match THX. Actual retains extra field and upper rail undulations."
+  ],
+  "requested_corrections": [
+    "Remove only unsupported interior vertical bridge between middle and bottom winding courses, preserving genuine crossing, long descending staff and independent lower capped cup.",
+    "Smooth bounded upper rail undulations retaining original terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

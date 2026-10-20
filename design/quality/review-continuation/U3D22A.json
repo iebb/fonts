@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D22A",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D22A.json",
-  "source_png_sha256": "fccc7dd0fd7a77e857891a29745e7edf2992396c841cd5433659a83fef36f3e8",
+  "native_review_report": "design/seal-individual/reviews/U3D22A.json",
   "source_png": "design/seal-individual/U3D22A.png",
+  "source_png_sha256": "fccc7dd0fd7a77e857891a29745e7edf2992396c841cd5433659a83fef36f3e8",
   "reference_png_sha256": "7c933251b57b8024edde6ec9e77ac3cd0799384774ea26502c86e4bbb3422c19",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D22A.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D22A.json",
-  "source_json_sha256": "c4188e61326619161367865e347a64cc6bf7b4b7e037b8f7dac65eab1796887b",
-  "geometry_sha256": "f79b58208f5c47c681a7a82fe55046772cd9f9ea9cb61d5d17727b1f8a6bd899",
-  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
-  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D22A-Regular400.png",
-  "raster_sha256": "dd59ba7f3e1392c4d637969c1fc64799a978372dab6157c9e3192ad617c87ae7",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D22A-shared-lower-crossing-v1/sources/U3D22A.json",
+  "source_json_sha256": "e56ee616a83f7ade8f80116659997699c56d8a3f60dce12ae6cdb6d5c65b82a6",
+  "geometry_sha256": "36717ce715052832267f9a28a3ec94ae7743b6b68b0be84eded3c122e48f0708",
+  "font_file": "design/quality/proofs/continuation/U3D22A-shared-lower-crossing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "cb965b1bdc5bb5a79d38db3d9a4073a797ea1266c1b169f82966bc1f6913ebc3",
+  "raster_file": "design/quality/proofs/continuation/U3D22A-shared-lower-crossing-v1/U3D22A-Regular400.png",
+  "raster_sha256": "7d163b136232e7fdf391eac7dc53f8b472201bcbe168cb6487a95426f6fb5564",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
-    "Native matches coherent THX detached forks, central upstub, two stacked almond fields at two true X intersections, two free lower legs and separate side combs each with two short inward bars plus curved lower return.",
-    "Actual enlarged central crop confirms two fields and side gaps, but LOWER crossing is two offset Y roots connected by a short horizontal neck, instead of one shared native X point. Upper crossing is genuine and should remain unchanged."
-  ],
-  "requested_corrections": [
-    "Unify only lower crossing trajectories at one shared point, preserving all four adjacent course endpoints, two almond counters, lower legs and untouched upper X."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete THX retained: two free forks, central double-loop compound with free upper upstub and two descending legs, two independent side combs. Lower two Y roots now unify as genuine crossing at exact recorded source anchor, preserving four outer course anchors/endpoints and upper crossing. Both fields and all side/fork gaps unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "2cb3eaa49935204c0fa1fb4b3813de946f5c6c676cc972f199114ed7cc86d891",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "375372e0ad82a872bd4e8d7afbaa323df628f30e3037efe7078a37055f1e009b",
+    "actual_font_enlargement_sha256": "4b0b019622a56de060751fc31e3200d08af297ebf9b1b140a20de239532e6e91"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f79b58208f5c47c681a7a82fe55046772cd9f9ea9cb61d5d17727b1f8a6bd899",
+      "source_json_sha256": "c4188e61326619161367865e347a64cc6bf7b4b7e037b8f7dac65eab1796887b",
+      "source_png_sha256": "fccc7dd0fd7a77e857891a29745e7edf2992396c841cd5433659a83fef36f3e8",
+      "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+      "raster_sha256": "dd59ba7f3e1392c4d637969c1fc64799a978372dab6157c9e3192ad617c87ae7",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+        "Native matches coherent THX detached forks, central upstub, two stacked almond fields at two true X intersections, two free lower legs and separate side combs each with two short inward bars plus curved lower return.",
+        "Actual enlarged central crop confirms two fields and side gaps, but LOWER crossing is two offset Y roots connected by a short horizontal neck, instead of one shared native X point. Upper crossing is genuine and should remain unchanged."
+      ]
+    }
   ]
 }

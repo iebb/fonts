@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D265",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D265.json",
+  "source_png_sha256": "9b41b384af5ca145c190da189427d588588319fc15c886443730e9fe7d2a3a7b",
+  "source_png": "design/seal-individual/U3D265.png",
+  "reference_png_sha256": "ab3d685c4ede9d74b68a17f1827b413e9443e19fa662cb886530a7ab929b5239",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D265.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtythird-eight/sources/U3D265.json",
+  "source_json_sha256": "1306ae228506adcd4bfdab5e9770011ef9f660816660ab73b6feadd858d2653e",
+  "geometry_sha256": "00fb90d998a2c7f96e43b81ed2816d1246aa19535d5e6bdf9ab1a2a212cf6ef8",
+  "font_file": "design/quality/proofs/continuation/review-thirtythird-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5992c6a0c479f746584f2089c86920b796924b1c2cf90c485782d2f348614fc9",
+  "raster_file": "design/quality/proofs/continuation/review-thirtythird-eight/U3D265-Regular400.png",
+  "raster_sha256": "6396bd9ab08445447682ffb0b4d4be90017f028dc58e20755e8d9f19dc0a821c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      271,
+      -64,
+      753,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components; exact hash/Regular400 review only.",
+    "Native matches coherent THX free forks, header upstub, outer arch/two long legs and central stem/chevron joining both walls, forming two counters. Actual outer walls have several tracking steps, and both diagonal arms bend into short offset shoulders at their wall contacts."
+  ],
+  "requested_corrections": [
+    "Smooth both outer walls through original chevron junctions, preserving header/leg extrema and terminals.",
+    "Restore continuous diagonal chevron arms from shared apex to original wall junctions without offset shoulders; retain two open counters."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

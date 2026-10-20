@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2AF",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2AF.json",
+  "source_png_sha256": "cb905c0899b4339dea15b976741ab4bd217232bd8a5fb1c9392576e0ee6e0b64",
+  "source_png": "design/seal-individual/U3D2AF.png",
+  "reference_png_sha256": "57ee2b8400e8202ed9232cf9698e46effa51692381db66d5d9c39e3bdae3f524",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2AF.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortieth-eight/sources/U3D2AF.json",
+  "source_json_sha256": "1240e5b05c1ff3c39673c5f1875b5ec9f696555c4e4109c49a5e0b9780c547ee",
+  "geometry_sha256": "fa8f6a1ee75200acd926403fa82fd349f610b8fc0b1ac841d8c760a11e9d2a90",
+  "font_file": "design/quality/proofs/continuation/review-fortieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fde2f4b99194c4713454e1cccf415f772a6042af1d172a3ef3a577f5eaa96a6c",
+  "raster_file": "design/quality/proofs/continuation/review-fortieth-eight/U3D2AF-Regular400.png",
+  "raster_sha256": "cdb0fde940282f87d1ee42e22207e3e0b804333a26ac7a27dd7bb702851e4cb7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      266,
+      -64,
+      758,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable full actual Regular400 and enlarged components. Native matches whole THX both forks joined common header, central staff and rounded three-field enclosure. Enlarged header confirms left fork central stem and header join ARE present despite full-image thin-stroke artifact. Actual enclosure has stepped shoulders/walls and branch-to-wall junction lumps, unlike smooth native rounded rectangle."
+  ],
+  "requested_corrections": [
+    "Smooth bounded enclosure shoulders/wall offsets and branch-root lumps, retaining original three-field topology, header contacts, central Y junction and all extrema."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

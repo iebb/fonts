@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -858,268 +858,15 @@
       "maximum_fit_error_font_units": 0.0
     },
     {
-      "points": [
-        [
-          376.23,
-          291.1693
-        ],
-        [
-          376.23,
-          287.8978
-        ],
-        [
-          376.23,
-          284.6262
-        ],
-        [
-          376.23,
-          281.3546
-        ],
-        [
-          376.23,
-          278.0831
-        ],
-        [
-          376.23,
-          274.8115
-        ],
-        [
-          376.23,
-          271.5399
-        ],
-        [
-          376.23,
-          268.2684
-        ],
-        [
-          376.23,
-          264.9968
-        ],
-        [
-          376.23,
-          261.7252
-        ],
-        [
-          376.23,
-          258.4537
-        ],
-        [
-          376.23,
-          255.1821
-        ],
-        [
-          376.23,
-          251.9105
-        ],
-        [
-          376.23,
-          248.639
-        ],
-        [
-          376.23,
-          245.3674
-        ],
-        [
-          376.23,
-          242.0958
-        ],
-        [
-          376.23,
-          238.8243
-        ],
-        [
-          376.23,
-          235.5527
-        ],
-        [
-          376.23,
-          232.2812
-        ],
-        [
-          376.23,
-          229.0096
-        ],
-        [
-          376.23,
-          225.738
-        ],
-        [
-          376.23,
-          222.4665
-        ],
-        [
-          376.23,
-          219.1949
-        ],
-        [
-          376.23,
-          215.9233
-        ],
-        [
-          376.23,
-          212.6518
-        ],
-        [
-          376.23,
-          209.3802
-        ],
-        [
-          376.23,
-          206.1086
-        ],
-        [
-          376.23,
-          202.8371
-        ],
-        [
-          376.23,
-          199.5655
-        ],
-        [
-          376.23,
-          196.2939
-        ],
-        [
-          376.23,
-          193.0224
-        ],
-        [
-          376.23,
-          189.7508
-        ],
-        [
-          376.23,
-          186.4792
-        ],
-        [
-          376.23,
-          183.2077
-        ],
-        [
-          376.23,
-          179.9361
-        ],
-        [
-          376.23,
-          176.6645
-        ],
-        [
-          376.23,
-          173.393
-        ],
-        [
-          376.23,
-          170.1214
-        ],
-        [
-          376.23,
-          166.8498
-        ],
-        [
-          376.23,
-          163.5783
-        ],
-        [
-          376.23,
-          160.3067
-        ],
-        [
-          376.23,
-          157.0351
-        ],
-        [
-          376.23,
-          153.7636
-        ],
-        [
-          376.23,
-          150.492
-        ],
-        [
-          376.23,
-          147.2204
-        ],
-        [
-          376.23,
-          143.9489
-        ],
-        [
-          376.23,
-          140.6773
-        ],
-        [
-          376.23,
-          137.4058
-        ],
-        [
-          376.23,
-          134.1342
-        ],
-        [
-          376.23,
-          130.8626
-        ],
-        [
-          376.23,
-          127.5911
-        ],
-        [
-          376.23,
-          124.3195
-        ],
-        [
-          376.23,
-          121.0479
-        ],
-        [
-          376.23,
-          117.7764
-        ],
-        [
-          376.23,
-          114.5048
-        ],
-        [
-          376.23,
-          111.2332
-        ],
-        [
-          376.23,
-          107.9617
-        ],
-        [
-          376.23,
-          104.6901
-        ],
-        [
-          376.23,
-          101.4185
-        ]
-      ],
       "graph_edges": [
         11,
         10
       ],
       "is_loop": false,
-      "path": "M 376.23,291.169 L 376.23,101.418",
-      "commands": [
-        [
-          "M",
-          376.23,
-          291.1693
-        ],
-        [
-          "L",
-          376.23,
-          101.4185
-        ]
-      ],
-      "maximum_fit_error": 0.0,
+      "path": "M 376.23,250 L 376.23,101.418",
       "curve_segments": 1,
       "id": "stroke-2",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "closed": false
     },
     {
       "points": [
@@ -7020,6 +6767,63 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.8948,
       "maximum_fit_error_font_units": 2.9274
+    },
+    {
+      "id": "stroke-20",
+      "path": "M 372.959,499 L 428.575,470",
+      "closed": false
+    },
+    {
+      "id": "stroke-21",
+      "path": "M 592.153,470 L 647.77,499",
+      "closed": false
+    },
+    {
+      "id": "stroke-22",
+      "path": "M 458.019,690.3 L 458.019,778.633",
+      "closed": false
+    },
+    {
+      "id": "stroke-23",
+      "path": "M 562.709,690.3 L 565.981,781.904",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Complete THX: detach only left fork from cover retaining short descending fork stem, right fork/header join retained. Restore both lower detached interior slants between independent upper/lower chevrons, matching existing upper slant proportions. Close both missing lower small fields by linking exact free inner return endpoints458.019690.3\u2192458.019778.633 and562.709690.3\u2192565.981781.904; preserve both staff/outer arm courses, short inner upstubs and all four original marks/other18paths. Native omissions/mixed contacts mismatch retained.",
+      "changes": [
+        {
+          "stroke_id": "stroke-2",
+          "previous_path": "M 376.23,291.169 L 376.23,101.418",
+          "repaired_path": "M 376.23,250 L 376.23,101.418"
+        }
+      ],
+      "added_strokes": [
+        {
+          "id": "stroke-20",
+          "path": "M 372.959,499 L 428.575,470",
+          "closed": false
+        },
+        {
+          "id": "stroke-21",
+          "path": "M 592.153,470 L 647.77,499",
+          "closed": false
+        },
+        {
+          "id": "stroke-22",
+          "path": "M 458.019,690.3 L 458.019,778.633",
+          "closed": false
+        },
+        {
+          "id": "stroke-23",
+          "path": "M 562.709,690.3 L 565.981,781.904",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

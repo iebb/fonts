@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D23B",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D23B.json",
+  "source_png": "design/seal-individual/U3D23B.png",
+  "source_png_sha256": "a933ea8032bad6b5da3ef2e1fb86729054f8287c7b9f82625be69e4bcc452a94",
+  "reference_png_sha256": "b1745392d23da6381769c22d1935927f506d24d2ac2446b4bacfd5c71e1491c7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D23B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D23B-smooth-chevron-wallroots-v1/sources/U3D23B.json",
+  "source_json_sha256": "12a545d50603da6e4e0cc181e36f2fd11d82e4ebed2817595ae1f2d4d855ed92",
+  "geometry_sha256": "958285848b79387161e3ad60158fde498f0f917a873c0187254292e34087ee48",
+  "font_file": "design/quality/proofs/continuation/U3D23B-smooth-chevron-wallroots-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f48bcb3882f016a5951de65b9790f858ea0fbe14241a40747157be05e578363e",
+  "raster_file": "design/quality/proofs/continuation/U3D23B-smooth-chevron-wallroots-v1/U3D23B-Regular400.png",
+  "raster_sha256": "1ba90f342c92a20365865f1f18aade1225f787c589b91f23637128393765be10",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      299,
+      -64,
+      725,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both free forks, left four-field enclosure with two inward upper curves and lower wall-joined chevron, independent right open return with upward bend and separate inner free vertical. Both lower chevron-wall roots and bottom-left wall now smooth through exact original anchors/apex, four fields retained, upper curves/right return/free endpoints unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f584a075d38457437f0a1a8f55c27f8a2e5154d718ec1580195a8e18da8c5348",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "2cdb899537e67948efb1c2fec334d6f9df391dda7b6b2bdb50525681e19b90af",
+    "actual_font_enlargement_sha256": "6dc5717ce1229ea6e1c0876007e5c5f1e3dbf6e435236d2e542dcfa27d6a630b"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "edd3f9bbfdf0920d9302e6395e793681d9143c5df7bbf33dd210eaac32a5020c",
+      "source_json_sha256": "c40cdfa8503310504614968cd52f5490e963603cc0e75c6481b3dee3d5bd5896",
+      "source_png_sha256": "a933ea8032bad6b5da3ef2e1fb86729054f8287c7b9f82625be69e4bcc452a94",
+      "font_sha256": "814877bb3d9cf4cfc64b26db5379429c8b6fd40faa7a0fc6145bf55dd5b5ca36",
+      "raster_sha256": "3ffd17f88f5419ea265f3f53b2bce298f1ad88fd5fcd497e512b42cff810d7be",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native matches complete THX: both forks detached, left four-field enclosure with two upper inward curves and lower chevron joined to side walls, independent right open long return with bent upper upstub and interior free vertical mark. Actual lower chevron roots visibly overrun both side walls as offset wings/bulges, and bottom-left enclosing wall has local tracking steps. Smooth only these bounded chevron-to-wall contacts/bottom-left wall through exact original joins, retaining full enclosure/four fields, central apex, all other curves, right return and every free endpoint."
+    }
+  ]
+}

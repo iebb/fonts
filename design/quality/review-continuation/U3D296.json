@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D296",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D296.json",
+  "source_png_sha256": "90c290aad53ff3c488f6f6500463fa846080630810bc6b71d7f4fc2040c7a9e8",
+  "source_png": "design/seal-individual/U3D296.png",
+  "reference_png_sha256": "c94c550b2b95299ec2f37e85a39b62fbc6ae7620bb39ad8db79123fef93a33f9",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D296.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyeighth-eight/sources/U3D296.json",
+  "source_json_sha256": "04d4d5457a8c52c7f27e5dbeb46b30a8e156d3fed1f86b6df93f064e8f333cdd",
+  "geometry_sha256": "760ac28407a0870443e70781b94a77ce16556f9bc2879eff1322084b78c61d2e",
+  "font_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72fb659eddcaa0aa33d3457e2c0e4df5f6f41081d6803c6e60cc80bf684b5d4d",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/U3D296-Regular400.png",
+  "raster_sha256": "d64664cc29b341e30d3051b7f5dc05af90e13480aff7235b6ac06335f688a7f5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      268,
+      -64,
+      756,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: two full horizontal bars cross the right chevrons, creating two unsupported triangular counters. Whole THX has outward side branches from chevron arms, no inner bridging bars. Native otherwise preserves detached forks, left three oblique bars/U/bow and right two-field capsule. Actual also has notched/wavy left oblique bars and uneven right capsule wall."
+  ],
+  "requested_corrections": [
+    "Remove only the interior spans of both right chevron bars, retaining their outward side branches and two-field lower capsule.",
+    "Smooth bounded left oblique rails and right capsule wall retaining endpoints and two capsule fields."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

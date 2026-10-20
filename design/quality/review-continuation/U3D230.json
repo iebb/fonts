@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D230",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D230.json",
-  "source_png_sha256": "bd6ee69678ff74134be88b72c62610329edac9b10db29e771d264043b1545b13",
+  "native_review_report": "design/seal-individual/reviews/U3D230.json",
   "source_png": "design/seal-individual/U3D230.png",
+  "source_png_sha256": "bd6ee69678ff74134be88b72c62610329edac9b10db29e771d264043b1545b13",
   "reference_png_sha256": "d0715f5d571639cf6ae180407d2c8bee8039c49526c18cfee8192c312cfbe22e",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D230.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D230.json",
-  "source_json_sha256": "72c735f868ea4f12a2b3ca56c9f5f365443e706f759c4deaade7795297609070",
-  "geometry_sha256": "49521dc0dbf7f45d6aadbcc082977313ac246d7452e03e407c3efd50c0dcf585",
-  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
-  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D230-Regular400.png",
-  "raster_sha256": "5e8d0e0c005580b88a16651c43e12b14e4613c41f868fb42f428e18f073e48b0",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D230-continuous-diagonal-roof-v1/sources/U3D230.json",
+  "source_json_sha256": "04ce73f445d2f04a299119ee07c8f8b73ff2c72e63941eff839c01af048701dd",
+  "geometry_sha256": "72472a7c1b3ed511a908a4387563d04e951174fd73b51ed3d85784caadd7d6d8",
+  "font_file": "design/quality/proofs/continuation/U3D230-continuous-diagonal-roof-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "78997fa2c349eb9ed04bd84b9746f5849658e5ca5dad17a47ee5bedcbec882cc",
+  "raster_file": "design/quality/proofs/continuation/U3D230-continuous-diagonal-roof-v1/U3D230-Regular400.png",
+  "raster_sha256": "353afed4302756d6040c7a0ca3bef5a53768280046db8fb1db290440ea2d842f",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
-    "Native matches coherent THX detached forks, separate left roof/upstub/paired long uprights and baseline, plus independent right upper winding course, separate outer right return and barred hanging cup. Two fields total.",
-    "Actual enlarged left-roof crop shows arched central segment and offset near-horizontal outward wings at the leg junctions, losing the continuous native diagonal chevron arms. Right courses and both counters remain otherwise intact."
-  ],
-  "requested_corrections": [
-    "Recover only the left roof diagonal arm trajectories from native apex through the two existing upright contacts to their free tips, preserving upstub, baseline/counter, endpoints and all right courses."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both detached forks, left diagonal roof and short rooted upright, independent right winding staff/cup with two fields retained. Roof diagonals now run continuously through apex to original outer tips; recorded staff-contact adjustments and other ten paths preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "47a3341cb0189a2ea0912f340d1c8c86e41b71e8387fc86b9876c7274ff21dca",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "2d3739607d3f925c494697144b4d0f03c46558db7c9f7ee4f65b0c2ccee5d04b",
+    "actual_font_enlargement_sha256": "730bd63dfeeca26e58119e7df21b91b55574a0d440b1e49a98ff6857873fb4ea"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "49521dc0dbf7f45d6aadbcc082977313ac246d7452e03e407c3efd50c0dcf585",
+      "source_json_sha256": "72c735f868ea4f12a2b3ca56c9f5f365443e706f759c4deaade7795297609070",
+      "source_png_sha256": "bd6ee69678ff74134be88b72c62610329edac9b10db29e771d264043b1545b13",
+      "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+      "raster_sha256": "5e8d0e0c005580b88a16651c43e12b14e4613c41f868fb42f428e18f073e48b0",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+        "Native matches coherent THX detached forks, separate left roof/upstub/paired long uprights and baseline, plus independent right upper winding course, separate outer right return and barred hanging cup. Two fields total.",
+        "Actual enlarged left-roof crop shows arched central segment and offset near-horizontal outward wings at the leg junctions, losing the continuous native diagonal chevron arms. Right courses and both counters remain otherwise intact."
+      ]
+    }
   ]
 }

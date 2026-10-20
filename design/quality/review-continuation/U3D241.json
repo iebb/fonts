@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D241",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D241.json",
+  "source_png_sha256": "f27415b04bd01fba32fdd78e69307f30674633c908480fde8192ea4a4bf01460",
+  "source_png": "design/seal-individual/U3D241.png",
+  "reference_png_sha256": "a834fe0e18488b7d0da129c1de09d328f8a0cdc802b9301a27a00e1cfe15833b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D241.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyfirst-eight/sources/U3D241.json",
+  "source_json_sha256": "f15e0b9a655eb76d555b670ea4387e22b38b016e5b75aa00532222d919809bd9",
+  "geometry_sha256": "371998a4e59e297409ec9c0f77ae96754cd9bffdc89fe2edebf3376cdfedadc4",
+  "font_file": "design/quality/proofs/continuation/review-thirtyfirst-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyfirst-eight/U3D241-Regular400.png",
+  "raster_sha256": "8104ae66691d95d2a395d1ecbab0890355585e309ffd307cb95849d971573206",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      242,
+      -64,
+      782,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+    "Coherent whole QJZ variant supports both fork stems joined to the cup header, one cup counter, shared center staff and three lower legs. Actual preserves all contacts and clear gaps with smooth constant-width cup and lower bow."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

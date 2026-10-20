@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D292",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D292.json",
+  "source_png_sha256": "7e5174a3ea20f9b5a953bad5ae036923bdb1086d00698ae69c021cea553b3ce2",
+  "source_png": "design/seal-individual/U3D292.png",
+  "reference_png_sha256": "1c0a9743d3df762bc6f43caa508c3ce6482a0b8c1fc4ba894faea658480de795",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D292.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyeighth-eight/sources/U3D292.json",
+  "source_json_sha256": "db1b2f99fca287109ae78e3b356a87da8ce790f26a8fbc0d901cda1ef309a3a2",
+  "geometry_sha256": "685c463c33256c3a23fc3d728cdd8479b396e5ad04f9a5e28c44e29abe455d39",
+  "font_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72fb659eddcaa0aa33d3457e2c0e4df5f6f41081d6803c6e60cc80bf684b5d4d",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/U3D292-Regular400.png",
+  "raster_sha256": "ea21125e8757fed4e81db9c7ceba424eb573ac4e9404e18d66f75ce3069e3ad4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      300,
+      -64,
+      724,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: lower inner left return is detached from the upper left inward C terminal, whereas whole THX connects these courses; native also places two short upward projections over the paired descending uprights instead of the attested central upstub of the broad cup. Actual retains the missing lower connection and loses one native upward projection. Body has pronounced right-return corner/shoulder kinks."
+  ],
+  "requested_corrections": [
+    "Restore coherent THX cup with one central upward stub between its two descending uprights; preserve paired roofs and free interior dashes.",
+    "Join lower-left bent return to the existing upper inward C terminal following whole THX; preserve both downward branches and right-side return.",
+    "Smooth bounded lower right-return shoulders without changing contact topology."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

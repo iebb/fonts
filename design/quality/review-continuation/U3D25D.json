@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D25D",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D25D.json",
+  "source_png": "design/seal-individual/U3D25D.png",
+  "source_png_sha256": "c76caa720cc7a90e6770a538a5d7ca256c7134c15a7f5349427f0ef4dbe4f5f8",
+  "reference_png_sha256": "edb92a4fa0e94cc5b3c5a1a811fb79a677683ff13f051ba8960c50341b02ba35",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D25D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D25D-whole-THX-three-overhangs-inner-return-v1/sources/U3D25D.json",
+  "source_json_sha256": "c15b897d82940e7819a10ace06b89d9f5da26ff238fd506f9f0a01c0b7f544bb",
+  "geometry_sha256": "7d90a089e36476d7794be4a84531a8ae8c503c81417e0024e9a41cab07ea2a31",
+  "font_file": "design/quality/proofs/continuation/U3D25D-whole-THX-three-overhangs-inner-return-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "cfba753388dd9886ec1f36514ec49509f42db90a7b67d1d67bce8c31dacae79f",
+  "raster_file": "design/quality/proofs/continuation/U3D25D-whole-THX-three-overhangs-inner-return-v1/U3D25D-Regular400.png",
+  "raster_sha256": "98d3e52aad155e68904b452dd9a8634b0671007d0eae7c102977791e0a6cc977",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      252,
+      -64,
+      772,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Repaired coherent whole THX detached left upper fork, top winding header with inward bowed return plus two lower oblique overhangs, independent left lower cup/inner upright branch and right rooted cup/crossbar/one-field lower cup. Unsupported fourth parallel native overhang corrected into THX inner return; lower course roots and right staff retained. Three overhanging courses plus distinct inner return, both upper gaps and all lower endpoints visible. Original native fork/four-course mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "cab92f606dbaac01d5c1e062c4d98c9bd39ad0fecdc2df0d695a7210701084cc",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "070395f1a1e69f569a5dcfca3ea02930285d41ae253adfb899953da81a919ef1",
+    "actual_font_enlargement_sha256": "45b2ee31f5023c45f4f7289de953cfe332f59eae871b79deae3450f04cbf9953"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "93c2de66320e5c148e443bbfafa69e7585e6753f1ad03ea512a50a874e4fc00e",
+      "source_json_sha256": "1308efb92b398d34b6942df69a12e2603a3177ce35cf561ecfa3db17658a2f7f",
+      "source_png_sha256": "c76caa720cc7a90e6770a538a5d7ca256c7134c15a7f5349427f0ef4dbe4f5f8",
+      "font_sha256": "316151d194bd60d4809351a135b655150a5254212d17d68114dd2078b660a760",
+      "raster_sha256": "6dbea9c36f94d4f8ba5720f2822e36442a65f4d4b182beb832d7a6cbb9b706fa",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, immutable actual Regular400 full glyph and enlarged relevant components. Exact hash/weight400 judgment only.",
+        "Native introduces four left winding overhanging courses below a joined left fork. Whole THX has a detached fork and three courses; CCZ/QJZ joined-left variants also have three courses and change the upper return/fork contacts. Native four-course mixture is unsupported. Right capped cup/shared staff/crossbar and bottom one-field cup remain identifiable."
+      ]
+    }
+  ]
+}

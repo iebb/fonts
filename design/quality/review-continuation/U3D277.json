@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D277",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D277.json",
+  "source_png_sha256": "7c633a5d3106830fb4b435251a206f9b0ef356736ce6ee73787953a451d852ec",
+  "source_png": "design/seal-individual/U3D277.png",
+  "reference_png_sha256": "d728b398e75e9a157bd055f5463596b7661b58d1c5697d447b5ae6300ea6c8a2",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D277.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyfourth-eight/sources/U3D277.json",
+  "source_json_sha256": "a3b1853eaf0caf5a77bb61425f3d614e145a6135dfc945a5188461382a51ec59",
+  "geometry_sha256": "86f59f9ae52f38ccfb749d2dfd68c8b4b72c8eb7387423e759056e65aac7fa48",
+  "font_file": "design/quality/proofs/continuation/review-thirtyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5aa6cf310f7f1da9ec4bc6d80dad7829a41155d555c6f6063245c4b3fe44e6ef",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyfourth-eight/U3D277-Regular400.png",
+  "raster_sha256": "9c1a58bd70722c6808d1cb4575435d501e984eaae259cd988692af7051b3f9cc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      262,
+      -64,
+      762,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components. Verdict binds exact hashes, weight400 only.",
+    "Native joins both forks and replaces lower triangular construction with a floating diamond above two bars. THX has both forks free, hooked shared left two-cup staff and right three-field capsule followed by two chevrons whose inward diagonals reach the upper of two lower bars. CCZ joined forks changes left contacts and lower construction; QJZ/DYC also differ and do not support this mixed diamond. Actual chevron arms additionally have offset shoulders."
+  ],
+  "requested_corrections": [
+    "Select complete whole THX: free both forks, preserve left hooked shared staff and right three-field capsule.",
+    "Recover lower inward diagonals meeting the upper lower-body bar to form the attested triangle; replace unsupported floating diamond and smooth overhanging chevron arms."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

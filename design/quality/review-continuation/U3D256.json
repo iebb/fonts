@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D256",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D256.json",
+  "source_png": "design/seal-individual/U3D256.png",
+  "source_png_sha256": "2706792426e04891923f172e1db495463ad52cf71c1b052110faf7bcb695dba8",
+  "reference_png_sha256": "3421d996b9895c15bf9fd4db01e3c74ef1af82cfe6bb68208ddd9ec6f9efc5ed",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D256.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D256-smooth-right-shoulder-leg-v1/sources/U3D256.json",
+  "source_json_sha256": "edfe4f65b4a75a68de6dec38a152faaf59b2753679fef4ee9da6586c0115f4ce",
+  "geometry_sha256": "cfa6932e71ec904fbcb1cd13a56fc196052b5b25448427e8791bb3e731d53f3c",
+  "font_file": "design/quality/proofs/continuation/U3D256-smooth-right-shoulder-leg-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c35c1201b29f6b4c024d1543fb8a9975323420522b9aca9253549568cb3b3fa7",
+  "raster_file": "design/quality/proofs/continuation/U3D256-smooth-right-shoulder-leg-v1/U3D256-Regular400.png",
+  "raster_sha256": "e269b895b483ee29b843f088e40a9aa069013f891abe9d6f3a3699c913d97d62",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      327,
+      -64,
+      697,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete CCZ both upper forks JOIN body, independent internal short rail and continuous outer left staff/right winding with two long free lower tips. Upper-right shoulder and lower right leg now smooth; exact upper/left prefix, inner S and free dash preserved. No field; joined-fork whole CCZ remains valid.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "2ba744d3bc92709502001678a4d8543553f7c0228d7640963dd7daedfadecc93",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "f2d85137b043a96540933692a4019f1e6cf5404690788b3d98388c3afe67c539",
+    "actual_font_enlargement_sha256": "e2fbb05b4e018aacea1775397e5731a0310002d922c53695ba12f9e00a39e4d8"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0e00cba601e14e29925da0b2b2ba7e937562b9a51af0d7e8d67a9b386dba0efd",
+      "source_json_sha256": "1edffe3d54d5538b052d570aa18c43696309919107816fda217cb4e50b360abf",
+      "source_png_sha256": "2706792426e04891923f172e1db495463ad52cf71c1b052110faf7bcb695dba8",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "fd60ba56e254c85c2e48164f25d784df61228f6813fd3c918dd69f8a356cde5d",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Whole CCZ supports native both forks joined to common broad winding body, a free inner dash, continuous long left staff and S-shaped right leg. THX left fork is detached; CCZ is the selected coherent whole. Actual upper-right shoulder has a visible notch/lump and lower right leg has tracking waves."
+      ]
+    }
+  ]
+}

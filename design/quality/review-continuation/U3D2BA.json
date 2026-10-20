@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2BA",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2BA.json",
+  "source_png_sha256": "53e84036bf75b04ff3e92c2fdbe444f8b684b91ac1f6abd77b57ad85a7cd6157",
+  "source_png": "design/seal-individual/U3D2BA.png",
+  "reference_png_sha256": "087fb9ebd8dd022f0eff72973278f6181678e2eb9138d20f64dc95f40bface58",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2BA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortyfirst-eight/sources/U3D2BA.json",
+  "source_json_sha256": "79c5a8d293994e233f85e576746273d63ec83215ee5f72b0bd71c6aaf98a7a12",
+  "geometry_sha256": "ad72cdf40e0b2e654774d88951abafddf0bbee8933e3f30a040991fa6093c71a",
+  "font_file": "design/quality/proofs/continuation/review-fortyfirst-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a1fd40bf8a42a5c504b32c9b01078d0193c24bad4b66bb159202e223c4a14c6b",
+  "raster_file": "design/quality/proofs/continuation/review-fortyfirst-eight/U3D2BA-Regular400.png",
+  "raster_sha256": "ec3a1c6a2ebf404104b51cb13394aef85fdcb1e579cddd97adb572d093cba5e7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      213,
+      -64,
+      811,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native matches complete THX: left one-field capped cup over two-field capped cup/shared staff/baseline joining right enclosure, whose shared central staff/two chevrons make five fields. Eight counters total; all present in actual. Enlarged actual has multiple offsets along right enclosing wall and bottom corners, plus stepped upper/lower diagonal courses."
+  ],
+  "requested_corrections": [
+    "Smooth bounded right enclosure shoulder/wall/corner steps and internal diagonal offsets preserving all five right fields, exact contact anchors, common staff and left baseline join."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

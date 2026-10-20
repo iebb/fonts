@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D27F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D27F.json",
+  "source_png_sha256": "54769f0b532cad1660bc3774b1e21f64b228f75934609947ee865870a0719014",
+  "source_png": "design/seal-individual/U3D27F.png",
+  "reference_png_sha256": "ae9e2d558a1f2f8b8ba581287fbe4ee1e6ac8acb9da40ac8cfe3d730d3654f21",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D27F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtysixth-eight/sources/U3D27F.json",
+  "source_json_sha256": "8e7ccfbc72dc74d41fb88fa1a980bdd566b49737f5390cee8e4f53d5c2794feb",
+  "geometry_sha256": "ad967d6e958e2a380bca65eb7cf90329e773d7ecac0588b2e0ce0495f7004104",
+  "font_file": "design/quality/proofs/continuation/review-thirtysixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c80760424cacdf1e5891f3ebcec4d120fbe9c50ccb51664a8796d5a18113aa56",
+  "raster_file": "design/quality/proofs/continuation/review-thirtysixth-eight/U3D27F-Regular400.png",
+  "raster_sha256": "b2560b155852b657d098918a57315bcd8869d6af77dd17d92640fe7ddaa8f417",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      240,
+      -64,
+      784,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, immutable compiled Regular400 full glyph and enlarged relevant components. Exact hash and weight400 only.",
+    "Native matches coherent THX both free forks, independent broad header/short center stem/outer bow and separate inner bow with four lower legs. Actual outer left wall has an obvious offset step and lower inward notch; inner left leg also has a tracking step."
+  ],
+  "requested_corrections": [
+    "Smooth both nested bows through their original top/side extrema and endpoints, removing outer-left and inner-left wall steps while preserving four terminals, short center connector and all fork/body gaps."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

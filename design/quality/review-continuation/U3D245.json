@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D245",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D245.json",
+  "source_png": "design/seal-individual/U3D245.png",
+  "source_png_sha256": "1033cf93e2b90df803c957c92b43c8e650475fa6bfa3c8ce5589fe849f735eaf",
+  "reference_png_sha256": "72768aa6418c0e7ab0eab1091125953902c098943788221f98f23da351a60d5c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D245.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D245-smooth-capsule-wall-v2/sources/U3D245.json",
+  "source_json_sha256": "5a6876be6741ed288508f2c921dd381cfe404d9561af2996fb549a0766f0c396",
+  "geometry_sha256": "5865ae66ce80e38c9563a669bb2ed807f1e1eb971df07cb1f46831bb4ebb2a8f",
+  "font_file": "design/quality/proofs/continuation/U3D245-smooth-capsule-wall-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e24ff6c259486a9a4da05f9575863a37aca527ab4a109b266a4109cc8e29ba0e",
+  "raster_file": "design/quality/proofs/continuation/U3D245-smooth-capsule-wall-v2/U3D245-Regular400.png",
+  "raster_sha256": "26d3dc3ca0c9fe8561dd112a75fbfd9e3882b26c2cf88ce3023be883a67e830e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      254,
+      -64,
+      770,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both free forks, independent side combs, upper-stubbed capsule with true shared X and four fields, lower header/central fork and two detached diagonal slants retained. Outer capsule wall is now smooth through all four exact original X contacts, original extrema retained; all other paths unchanged. Earlier missing-left-fork upper stem claim retracted: it was present in enlarged original actual and preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "5d50df85eac577210e8e8ba38b30ff3ea1e3f0330e8e0725224fc188950612fc",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "3e0ac8c4b8f44b5caf4759c5c2898c849e57da51e4d9b67b4508108ca3a71774",
+    "actual_font_enlargement_sha256": "0c8a20ef80cfaa847a86e1de08b658691d83e79d7b4557cfee9bf495f75c18e1"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3da9e63bb32ebd1fae3e18ddc581afda3c3fb3f8a12ac8000d2987111f028550",
+      "source_json_sha256": "e80987ed83d8ac316fb6aa135c335c47417561084fb3fd4a236c99437bcf8e2a",
+      "source_png_sha256": "1033cf93e2b90df803c957c92b43c8e650475fa6bfa3c8ce5589fe849f735eaf",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "ba76188844320dee102084dfcea8497969debc67f98bbbf5393199000642d54a",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Native matches whole THX: both forks free, independent side combs, crossed four-field capsule and lower header/staff/fork with two detached slants. Actual loses upper half of left trident stem, turns the capsule X into two Ys linked by a neck, and reduces lower-left detached slant to a dot."
+      ]
+    },
+    {
+      "geometry_sha256": "11c4a0421fe81ee1406cce428460a06d97d6da2fbf9fd0293fb65b12fcbc7c44",
+      "source_json_sha256": "5940e44737dfb565baaaea65f2228e4bca8364e49be4b944fd3e685d491fb9f2",
+      "source_png_sha256": "1033cf93e2b90df803c957c92b43c8e650475fa6bfa3c8ce5589fe849f735eaf",
+      "font_sha256": "970472b7523c49538c81e7f943a4d116bafe7f63e2cd027029ad4f5dae4a49d4",
+      "raster_sha256": "634ff66790af7f69842ebe7baf46c3e45f92b36fcd202c88fbc5946152c9310e",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Both genuine capsule crossing and lower-left detached diagonal now restored; four capsule fields and both lower detached slants retained. Earlier missing-left-fork upper stem claim is retracted: enlarged original actual and source stroke17 show full centered upright already present, unchanged. However enlarged actual capsule OUTER wall still has clear four tracking shoulders/bulges at diagonal roots, unlike smooth native rounded rectangle. Source outer-loop stroke23 contains offset multisegment bulges at all four original diagonal contacts. Smooth only bounded outer capsule wall spans through the four exact diagonal contact anchors, preserve shared X/four tips, upper/lower oval extents and upstub, side combs, lower header and all free endpoints. Keep continuous native-aligned rounded rectangle profile without overrun lumps; new proof required."
+    }
+  ]
+}

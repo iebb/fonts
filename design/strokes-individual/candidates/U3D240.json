@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -2915,143 +2915,14 @@
       "maximum_fit_error_font_units": 1.9953
     },
     {
-      "points": [
-        [
-          680.4856,
-          235.5527
-        ],
-        [
-          680.4856,
-          232.2812
-        ],
-        [
-          680.4856,
-          229.0096
-        ],
-        [
-          680.4856,
-          225.738
-        ],
-        [
-          680.4856,
-          222.4665
-        ],
-        [
-          680.4856,
-          219.1949
-        ],
-        [
-          680.4856,
-          215.9233
-        ],
-        [
-          680.4856,
-          212.6518
-        ],
-        [
-          680.4856,
-          209.3802
-        ],
-        [
-          680.4856,
-          206.1086
-        ],
-        [
-          680.4856,
-          202.8371
-        ],
-        [
-          680.4856,
-          199.5655
-        ],
-        [
-          680.4856,
-          196.2939
-        ],
-        [
-          680.4856,
-          193.0224
-        ],
-        [
-          680.4856,
-          189.7508
-        ],
-        [
-          680.4856,
-          186.4792
-        ],
-        [
-          680.4856,
-          183.2077
-        ],
-        [
-          680.4856,
-          179.9361
-        ],
-        [
-          680.4856,
-          176.6645
-        ],
-        [
-          680.4856,
-          173.393
-        ],
-        [
-          680.4856,
-          170.1214
-        ],
-        [
-          680.4856,
-          166.8498
-        ],
-        [
-          680.4856,
-          163.5783
-        ],
-        [
-          680.4856,
-          160.3067
-        ],
-        [
-          680.4856,
-          157.0351
-        ],
-        [
-          680.4856,
-          153.7636
-        ],
-        [
-          680.4856,
-          150.492
-        ],
-        [
-          680.4856,
-          147.2204
-        ]
-      ],
       "graph_edges": [
         16
       ],
       "is_loop": false,
-      "path": "M 680.486,235.553 L 680.486,147.22",
-      "commands": [
-        [
-          "M",
-          680.4856,
-          235.5527
-        ],
-        [
-          "L",
-          680.4856,
-          147.2204
-        ]
-      ],
-      "maximum_fit_error": 0.0,
+      "path": "M 680.486,268 L 680.486,147.22",
       "curve_segments": 1,
       "id": "stroke-9",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "closed": false
     },
     {
       "points": [
@@ -6520,6 +6391,22 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.5918,
       "maximum_fit_error_font_units": 1.9361
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Coherent complete THX right fork requires short central downward stem: extend only original upright from U floor235.553 down to268 at exact same x680.486. Clear gap retained to long cap317.342. All sixteen other courses, joined left fork, both inner tridents/four detached marks and right bifurcating winding/endpoints unchanged; zero fields. Native missing-stem mismatch retained.",
+      "changes": [
+        {
+          "stroke_id": "stroke-9",
+          "previous_path": "M 680.486,235.553 L 680.486,147.22",
+          "repaired_path": "M 680.486,268 L 680.486,147.22"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

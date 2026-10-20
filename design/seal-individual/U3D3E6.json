@@ -1,0 +1,107 @@
+{
+  "code_point": "U+3D3E6",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper, brush or serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels, text, grid or multiple glyphs. Whole THX faithful: central staff carries TWO pairs roof diagonal rails; below diagonals REQUIRED small HORIZONTAL OVAL crossed by staff (two side fields). Do not replace oval by plain rail. Below oval staff enters broad rounded outer enclosure, inside crosses TWO short horizontal rails and stops with gap above independent small U mouth. Bottom outer enclosure curves into paired short supports on long baseline. Detached left small mouth. Preserve exact THX.",
+  "reference": "reference/seal/individual/U3D3E6.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-cebe8072-5a5d-4286-a459-3d8a6f0102f6.png",
+  "output_file": "design/seal-individual/U3D3E6.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "c771c1c9179ed46f39e6fbbcf6d7ee692ef69c8c41d6c838db55fae83c0aec3b",
+  "reference_sha256": "7a5b67c7cd5e19c228225abb15040141ffcd057cec6cc95d3f20cddf8afc197d",
+  "reference_metadata_sha256": "06e464240dce8b80551a2bcf298a44f9f901c8f3a2383680d421765629c316e5",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3E6",
+    "page": 18,
+    "label_bbox": [
+      384.8999938964844,
+      126.73020935058594,
+      415.4693298339844,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 18,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          125.0009994506836,
+          441.7799987792969,
+          150.17999267578125
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          125.53331146240234,
+          443.79999389648435,
+          150.57329406738282
+        ],
+        "source_label": "TH-00948"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 18,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          123.56019592285156,
+          465.6398620605469,
+          145.55999755859375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          125.53331146240234,
+          470.3999938964844,
+          150.57329406738282
+        ],
+        "source_label": "C-00981"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 18,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          127.8141860961914,
+          494.1398010253906,
+          149.4359588623047
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          125.53331146240234,
+          497.09999389648436,
+          150.57329406738282
+        ],
+        "source_label": "K-00954"
+      },
+      "DYC": {
+        "available": true,
+        "page": 18,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          125.0121841430664,
+          519.0398559570312,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          125.53331146240234,
+          523.7999938964844,
+          150.57329406738282
+        ],
+        "source_label": "D-00943"
+      }
+    }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D3E6-attempt-1.json"
+  ]
+}

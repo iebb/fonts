@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D271",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D271.json",
+  "source_png_sha256": "398018a36b9f1bd3de228aaf18ff5d0075f6727440d71963754d6f12a5b99935",
+  "source_png": "design/seal-individual/U3D271.png",
+  "reference_png_sha256": "8ea8a648a2c833111cd22d3930285d08dae9506b5ccc8c13aae6e417677d00a7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D271.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyfourth-eight/sources/U3D271.json",
+  "source_json_sha256": "c4532240452ea5e09575c3a86a508408f8d48f8ab3e5618ee51540f9f1d88a80",
+  "geometry_sha256": "56aac499ace26a9a8d84fefca3eeef8c80473daacfe7afbe41676fa7822af02d",
+  "font_file": "design/quality/proofs/continuation/review-thirtyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5aa6cf310f7f1da9ec4bc6d80dad7829a41155d555c6f6063245c4b3fe44e6ef",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyfourth-eight/U3D271-Regular400.png",
+  "raster_sha256": "3b7dcd07a0e4a74b04b2252fb3c5935b6a04d51591853734642b79e6ba8258d5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      297,
+      -64,
+      727,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components. Verdict binds exact hashes, weight400 only.",
+    "Native upper-left small compound is reduced to a U; THX requires its middle upright with short upper-right elbow in addition to the lower U. Native lower right crossing is also split into upper and lower branch roots on a staff instead of the THX shared crossing. Other whole variants change fork/body contacts and do not support that omission."
+  ],
+  "requested_corrections": [
+    "Recover upper-left middle upright and upper-right short bent branch from whole THX, retaining free fork and component gaps.",
+    "Recover genuine shared lower-right crossing with all four native/reference outer terminal courses, preserving outer enclosure and inner capped cup."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

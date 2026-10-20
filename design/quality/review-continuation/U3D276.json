@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D276",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D276.json",
+  "source_png_sha256": "fb5d47e18412bf797de822c0a0a272beab2ebad2b114ae28c173885753ea8157",
+  "source_png": "design/seal-individual/U3D276.png",
+  "reference_png_sha256": "caacea3940322eb99d6bc65cdd548bbad2c244e5c87f83e639eeb2e83ce8d1b0",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D276.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyfourth-eight/sources/U3D276.json",
+  "source_json_sha256": "9948a9a8b45725d3406b732c21a1d264b195db02702d98d5a1fa07725ce60634",
+  "geometry_sha256": "18607147c1a1f8ddec45f7c62968c422d6d9b9781f4bfdede438a2ccc253092a",
+  "font_file": "design/quality/proofs/continuation/review-thirtyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5aa6cf310f7f1da9ec4bc6d80dad7829a41155d555c6f6063245c4b3fe44e6ef",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyfourth-eight/U3D276-Regular400.png",
+  "raster_sha256": "2fc6eb93941d091fed6921a3ebdb4b28f8da4266296dcd5c5bc87784b14e49fb",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      214,
+      -64,
+      810,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components. Verdict binds exact hashes, weight400 only.",
+    "Native joins both forks into main body staffs; THX/CCZ have both free, QJZ joins only left. Native lower-right inward arm is detached from winding staff, while all available whole witnesses carry that arm into its staff/return junction. Long left central upright exists in actual and was crop-verified despite whole-image display artifact."
+  ],
+  "requested_corrections": [
+    "Detach both forks above retained body upstubs for coherent THX.",
+    "Extend lower-right inward arm into existing winding return/staff junction, preserving free left tip and long right terminal."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

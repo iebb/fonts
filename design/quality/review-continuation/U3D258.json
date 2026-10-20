@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D258",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "design/seal-individual/reviews/U3D258.json",
+  "source_png": "design/seal-individual/U3D258.png",
+  "source_png_sha256": "b3d90a84fa8206cac223f3ee3a8045e509ebe6aedec3933b05ade0c4b69cb047",
+  "reference_png_sha256": "42ad44ac724f9d0469de108fee395b920e65952aed2aee81b66932cba13f6789",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D258.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D258-whole-THX-gap-straight-chevrons-v1/sources/U3D258.json",
+  "source_json_sha256": "4db498f7e19d5bd2571953189584addc9ec91f5619bd2b9182a925dc016ea57d",
+  "geometry_sha256": "e6aefb123100a3eecf5ffab1372206d58c2b2a68d4891c13658d15310ea5c8d4",
+  "font_file": "design/quality/proofs/continuation/U3D258-whole-THX-gap-straight-chevrons-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "07a13d8ea591dde1a74ecf1fb91b20e99dc83c13c11cc5b13998a7ed8803e5eb",
+  "raster_file": "design/quality/proofs/continuation/U3D258-whole-THX-gap-straight-chevrons-v1/U3D258-Regular400.png",
+  "raster_sha256": "30e1ce254d9399646b22779a4206f1dcac89bc485e1393b4b6032611be1827c3",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      278,
+      -64,
+      746,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX now has visible left fork/body gap; right fork remains detached above independent long winding. Upper roof and diamond upper shoulders are continuous straight diagonals through original apices/side anchors; recorded free-overhang endpoint adjustments preserve these courses. Unbisected diamond one field, two lower left rails, right two rooted tridents and independent winding retained. Native round-cap point-contact uncertainty remains recorded rather than rewritten as a match.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "8be1cb194c712df724bfed8a8a675b90cad7ff614da093daea98874476ba8617",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "42d0d4a769ddfa17adc005aa437415c3ded52739e427349dc3af82d1b252e239",
+    "actual_font_enlargement_sha256": "e998c8d332cc32f00ccbc42b3dbd3a39d10e15cfb95aadeae7e7df5134f2abc3"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b7f807d7d3bee5103f307b26d67028e77e2d8d18d3ce352e791b3c3c0b86d84b",
+      "source_json_sha256": "958a090fc0527d6d511638397f155c26a7bf1f5b072fe20ff4dfbf264e04de4e",
+      "source_png_sha256": "b3d90a84fa8206cac223f3ee3a8045e509ebe6aedec3933b05ade0c4b69cb047",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "53e9cc60af922f34cfee12996c6ca285f79d1caff1d2df9da8b889abad6602dd",
+      "regular400_verdict": "held",
+      "native_verdict": "uncertain",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Native left fork tip and header upstub meet only at an ambiguous round-cap point, while actual introduces a long continuous shared stem. THX left fork is clearly free; DYC has a left join but also different header/right interior contacts. Native contact identity is uncertain rather than certified. One unbisected diamond counter and both inner right combs retained. Actual paired roof courses have offset shoulders and small lateral diamond bumps rather than straight overhanging chevron arms."
+      ]
+    }
+  ]
+}

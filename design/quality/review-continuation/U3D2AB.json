@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2AB",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2AB.json",
+  "source_png_sha256": "95ce0162fedb90915aca21610e3c01c0f6b85cda73fc3e7928604935f3a1c40b",
+  "source_png": "design/seal-individual/U3D2AB.png",
+  "reference_png_sha256": "ebcc7ba4d2cbecccb8a7e05586361d72bf3507329e825ec420b53388baac437e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2AB.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortieth-eight/sources/U3D2AB.json",
+  "source_json_sha256": "5edad66369a46e7015a12f289c1e390ed4cf3ea9565b2d76e4331ecac1c41a1b",
+  "geometry_sha256": "5c7546368928d86c779b1f5a9dbdff779c1fc39c01daae196e7bac5dbc6d3426",
+  "font_file": "design/quality/proofs/continuation/review-fortieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fde2f4b99194c4713454e1cccf415f772a6042af1d172a3ef3a577f5eaa96a6c",
+  "raster_file": "design/quality/proofs/continuation/review-fortieth-eight/U3D2AB-Regular400.png",
+  "raster_sha256": "0d7fe7263b37e4ef3f52fee4423af03c0feb736cb25308727340e442af68fa3f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      273,
+      -64,
+      751,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable full actual Regular400 and enlarged components. Native mismatch: right compound simplified to rounded capsule with two fully closed upper fields and two full-width lower fields. THX top staff branches into existing walls leaving one upper-left closed field and open upper-right channel/upstub, plus two lower fields; left lower crossbars also continue into the right outer wall. Current native omits these intercompound bar joins. Actual preserves simplification and shows left rail/wall notches."
+  ],
+  "requested_corrections": [
+    "Restore coherent THX right upper branch/open channel/upstub construction instead of closing both top fields; preserve two lower fields and lower legs.",
+    "Extend the two left horizontal rails to their attested right compound outer-left wall contacts; keep left top fork/capped cup/U and three lower slants.",
+    "Smooth bounded left rails/staff notches after contact repair."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

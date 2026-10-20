@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D264",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D264.json",
+  "source_png": "design/seal-individual/U3D264.png",
+  "source_png_sha256": "94accef3771e72fb43bf8ac199da8ea0e6bf167a61c82349091e531af64ace97",
+  "reference_png_sha256": "911d761a9aa3bde6dca6f643fd21b9ef9a4cb0dd91b6e5e864620b3cd48bfc59",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D264.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D264-smooth-leftarch-inner-slant-v1/sources/U3D264.json",
+  "source_json_sha256": "57e971e156897b759d625d04326ccae943333643366acaf656e89963c29dae08",
+  "geometry_sha256": "5b707f3c7ccca9c4e62d0285524c4ccb651748bb2c65edfdf0a3c7194d15d03b",
+  "font_file": "design/quality/proofs/continuation/U3D264-smooth-leftarch-inner-slant-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d32639447b9da506f207556e868ab5878a00dac1b883b19e9400dc4e511711d0",
+  "raster_file": "design/quality/proofs/continuation/U3D264-smooth-leftarch-inner-slant-v1/U3D264-Regular400.png",
+  "raster_sha256": "125062a344bde07a63a91d9504287f22bda8e7674cb08dea985b894743c14184",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      314,
+      -64,
+      710,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent whole THX both free forks, two separate bowed upper arms, independent central upright above open returned arch with long right winding leg and two rooted inward free slants. Upper-left arch smoothed continuously through exact two slant roots, lower inner slant straightened through unchanged endpoints. Exact remaining outer return and all fork/arm gaps retained. Zero enclosed fields and native construction match preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "57f598a500262954aca53753ee283ebd87caeb363bddce8db9afc638ca117b3a",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "cd0ecb198f298a0e90f9453d37d32c4bddbc35eeab1a4efd1a307990edcfc1b6",
+    "actual_font_enlargement_sha256": "e31853ae4f0d3b8c17e912fec3cefebf4801bf7f925e348280bf8d344d8b210b"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b30a3fa816abfe72ebe34806d4f1792c0a5d310f1bc152c20c3da5ec47b501f2",
+      "source_json_sha256": "63a20e7722892066221fb48fc9007f9f4840cfa3b03ca26a2af5f8eb247dc3e4",
+      "source_png_sha256": "94accef3771e72fb43bf8ac199da8ea0e6bf167a61c82349091e531af64ace97",
+      "font_sha256": "5992c6a0c479f746584f2089c86920b796924b1c2cf90c485782d2f348614fc9",
+      "raster_sha256": "682670bb9a45e520d8eb52273eee7d173cbf566f5452a2cf55e88f26575a3c1b",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components; exact hash/Regular400 review only.",
+        "Native matches THX both free forks and separate shoulder slants, center upstaff into open winding body with two inward slants rooted on left wall and free right tips. No counters. Actual outer upper-left arch has a visible inward notch/offset at upper slant root; lower inner slant has a slight tracking kink."
+      ]
+    }
+  ]
+}

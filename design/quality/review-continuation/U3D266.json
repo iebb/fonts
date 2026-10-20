@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D266",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D266.json",
+  "source_png_sha256": "46fbfe041f3d70a63d1366573c3654323b14bf589189af9fbb6c8e21d2b27333",
+  "source_png": "design/seal-individual/U3D266.png",
+  "reference_png_sha256": "00d91340627b7a75901bb85e3ded70e9d04023f9236b56fc28b4189b7ef68341",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D266.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtythird-eight/sources/U3D266.json",
+  "source_json_sha256": "805c892600434a64c992a148e6a70b4f6c95cf909349f61a7282423be181c870",
+  "geometry_sha256": "224e11d920540d99678c9cea6418441a9ea43fdb7c931978682b233d7f317ba8",
+  "font_file": "design/quality/proofs/continuation/review-thirtythird-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5992c6a0c479f746584f2089c86920b796924b1c2cf90c485782d2f348614fc9",
+  "raster_file": "design/quality/proofs/continuation/review-thirtythird-eight/U3D266-Regular400.png",
+  "raster_sha256": "6cc0d5cb21cae22a217061ac4ebef70d863877361705b81c50d628ffcb75da4c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      240,
+      -64,
+      784,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components; exact hash/Regular400 review only.",
+    "Native matches whole THX free forks, independent left two-bar curved long staff and right I. Actual retains all strokes/gaps, but left top bar has repeated waves and a raised curled right terminal absent from native straight bar."
+  ],
+  "requested_corrections": [
+    "Horizontalize/smooth only left top crossbar between original endpoints, removing raised terminal and tracking waves; preserve lower oblique bar, staff and right I."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

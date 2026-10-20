@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D24D",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D24D.json",
+  "source_png": "design/seal-individual/U3D24D.png",
+  "source_png_sha256": "94e0bfeed25fc91860c113f62821a8fda02acec185717869c56447a2d1dc32e2",
+  "reference_png_sha256": "f3506552dbe6d8ea264c450bec0203cba0131954a5ab99dca1c54333f60bcf0d",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D24D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D24D-restored-upper-leaf-free-arm-v1/sources/U3D24D.json",
+  "source_json_sha256": "901d36987ed8eac58500cf0a75f9638a0fa9e26faf5984cd8dadf841488a2506",
+  "geometry_sha256": "31d44c5ec15f32a642312cc6b7433e6a8c28f847c11e23f0d3a5ae063c7bb2a2",
+  "font_file": "design/quality/proofs/continuation/U3D24D-restored-upper-leaf-free-arm-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bf301c360b10911bebde0b2370463a6dc2e6e403e2e3686a80644b91b9da0df1",
+  "raster_file": "design/quality/proofs/continuation/U3D24D-restored-upper-leaf-free-arm-v1/U3D24D-Regular400.png",
+  "raster_sha256": "d379fff5d82ae7ee48c131a6c1098464579093a02ba378ceab7cfab5d5278467",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      258,
+      -64,
+      766,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete DYC left upper fork joined to transverse left-facing branch/central staff, right fork free, lower left U and three descending legs, two independent slanted right leaf compounds with one field each. Full upper-leaf descending-left free arm restored from unchanged shared root; all other eleven original courses and two fields unchanged. Horizontal stylistic branch remains attested whole construction.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f0a26ad78468ef39a48bf62a37a8df2ba4a244df2eebf5c97ff948b50b09ed71",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "6cc96dc672e6f4098cbf780a1a5afa8b265b32733fe7ccd3b99a6c78c6ab0bdf",
+    "actual_font_enlargement_sha256": "53c5503a86d6e58d18f9e3ebd250c185a9ae156f0d6927ef355718b4a85726fb"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7d6f95ced38528803e808f03477cf82d1a03d68bfc43bc3e3af6e325905bbc5e",
+      "source_json_sha256": "ba10f9bbccb30b2778815e6cfafdd2d0ee6ef94b441c3460140430ebae2604bb",
+      "source_png_sha256": "94e0bfeed25fc91860c113f62821a8fda02acec185717869c56447a2d1dc32e2",
+      "font_sha256": "146dc870d52f62389fe265e820635974399148d02d9d98554cf4509768df64ed",
+      "raster_sha256": "89eb4624df63a85dbe81bf0ca9f0c0be41ced7a33fbe80c3f1de9c1a8d5e91de",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native is coherent complete DYC in its contacts: left fork joins left staff/projecting side branch/U/three legs, right fork remains detached above two independent one-field slanted leaf compounds. Horizontal styling of the left projecting branch preserves its course and free endpoint. Actual truncates the UPPER RIGHT leaf compound leftward slanted free arm to a tiny near-horizontal nub, although native and complete DYC show a substantial descending-left segment. Restore this full native free arm and smooth its bounded shared root, preserving upper loop/diagonal divider/long descending course, lower leaf complete free arm/one field, all left paths and two total fields."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D293",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D293.json",
+  "source_png_sha256": "7f922627186a998953617f5800f7b605327676d7a5e5951c68146ec0184e6846",
+  "source_png": "design/seal-individual/U3D293.png",
+  "reference_png_sha256": "0d71bee583f0076b5c2db337e8ce838278e6dfa70b854354b51fb37410f4cb5f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D293.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyeighth-eight/sources/U3D293.json",
+  "source_json_sha256": "21b88777fe4bd6fa7bf08712e6cc842bfa267234f75edee137a9731e556aaaf4",
+  "geometry_sha256": "65ac1def3685d4b40058bf90229577b1496271a7f8d38e3cd9c505e65b980a39",
+  "font_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72fb659eddcaa0aa33d3457e2c0e4df5f6f41081d6803c6e60cc80bf684b5d4d",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/U3D293-Regular400.png",
+  "raster_sha256": "e4109ffb296aa4405238c6b98f7b8d6522395b6334e6a32a6ade99458f7330c6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      276,
+      -64,
+      748,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Coherent THX detached forks, outer left roof/long leg with central short upstub, separate capped cup on shared staff and lower three-terminal bow. One counter and all gaps retained. Enlarged actual reveals abrupt lateral tracking step in outer left staff below roof shoulder and another near lower descent."
+  ],
+  "requested_corrections": [
+    "Smooth bounded offsets of outer left long staff into a continuous curve preserving roof shoulder, upper upstub, lower terminal and separation from inner compound."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

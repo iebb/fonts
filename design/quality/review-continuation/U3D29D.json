@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D29D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D29D.json",
+  "source_png_sha256": "99cddfa3164a5146c71632285f43c1fe7ad42951d69970ffeb19e5069db46cfa",
+  "source_png": "design/seal-individual/U3D29D.png",
+  "reference_png_sha256": "fb6310a588816f02cf558de283d1f3e37a7c9c49af07e2e3f7674dd8280d6ca9",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D29D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyninth-eight/sources/U3D29D.json",
+  "source_json_sha256": "ee145ca7b22fb0780e020a0cbc91c26dba06ef00c128eca547cf2f68a7eff674",
+  "geometry_sha256": "7f0fcd360c7ebffbf805aef0dccc1f7d776f8dda9e7f569c84a46099ad5e7fcd",
+  "font_file": "design/quality/proofs/continuation/review-thirtyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ca68f482a1bde824c4736987c8621136040b1c0d65e00ccf5dd25dc14eebcb0",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyninth-eight/U3D29D-Regular400.png",
+  "raster_sha256": "00e90a7f313c0c7705e0253721fe0553a2aa8d4491383cc80faecb9c6397dee2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      302,
+      -64,
+      722,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: upper right fork detached and lower cup contains two full crossbars/two closed fields, whereas THX right fork feeds a stepped inner course with one closed lower counter and an open upper channel. Native lower inner emblem simplified to an L plus rising diagonal rather than THX fork/upstub construction. Actual further truncates that rising diagonal almost to a dot. Left winding staff/side marks remain separate."
+  ],
+  "requested_corrections": [
+    "Restore complete THX right fork-to-stepped inner cup course, with only one closed lower counter and open upper channel; preserve left compound and detached left fork.",
+    "Restore THX lower inner fork/upstub and L trajectory within open winding enclosure; recover full diagonal course lost by tracing."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

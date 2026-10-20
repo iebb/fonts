@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D25B",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D25B.json",
+  "source_png": "design/seal-individual/U3D25B.png",
+  "source_png_sha256": "ae5283db014b166a241ca4334aafdbb62fbc8c2cbd1da0458a05e71797336b37",
+  "reference_png_sha256": "91ebdcccdad019a5b70d708f67cb3f8561af119af968f514f46795ce2ba8ff7b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D25B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D25B-smooth-fan-envelope-v1/sources/U3D25B.json",
+  "source_json_sha256": "3e312b94986b8787cb552d6761f8d3f4206567896b83bfe801efdbccc8eb2502",
+  "geometry_sha256": "6a0af89623485d9704cdf3b89af184961eeebe969fc634f0fb48f64741941807",
+  "font_file": "design/quality/proofs/continuation/U3D25B-smooth-fan-envelope-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4363ca8dccd84a97fa87249cc37cbc8801a97bd33485453cb577c05c7ecd46f7",
+  "raster_file": "design/quality/proofs/continuation/U3D25B-smooth-fan-envelope-v1/U3D25B-Regular400.png",
+  "raster_sha256": "c2654672cdb576a704a6bfa1b90f600ae59f213194f7d8b7c7494c72a91f69c8",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      285,
+      -64,
+      739,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both free forks, divided left oval/four fields, divided right upper oval/two fields, independent horizontal cap and four-course lower fan retained. Only fan envelope smoothed through exact branch anchors with original maximum x/free lower endpoint; all interior slants/four lower free tips and six fields unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "0b3714c1e68bdc3bdb4bef32faaf15cf93ccaa65da1a4f9c307bcacecd204d09",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "8a4656407aa64c4c276570f18d92f7449bcd24569901004bc0544b2aaf3bc878",
+    "actual_font_enlargement_sha256": "4959a886ba31dc55962047331537fd8b8c497d2fd41e35200ad8248ae7ef4fef"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "589e7088d7f082443b53adcae7b8b2e62c139d1ed468b009941900cdf09b764e",
+      "source_json_sha256": "a2bf8417414347d7c7d1c92fdb51ea9c6c3259395578946a187c06b7781132ba",
+      "source_png_sha256": "ae5283db014b166a241ca4334aafdbb62fbc8c2cbd1da0458a05e71797336b37",
+      "font_sha256": "316151d194bd60d4809351a135b655150a5254212d17d68114dd2078b660a760",
+      "raster_sha256": "16dfb7b700bc0d28d066713dc0f47e7568d8a93675935e4f5b4f403f5247141a",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, immutable actual Regular400 full glyph and enlarged relevant components. Exact hash/weight400 judgment only.",
+        "Native matches coherent THX free forks, independent four-field left oval, independent two-field upper-right oval and lower four-terminal slant fan. Actual outer fan curve is scalloped into separate rounded shoulders at each slant branch rather than one smooth continuous envelope. Six counters remain open."
+      ]
+    }
+  ]
+}

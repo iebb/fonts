@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D297",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D297.json",
+  "source_png_sha256": "a4343627862661da5f1d697f272166d5645abaa5476c6cd57167f988bc94dc6f",
+  "source_png": "design/seal-individual/U3D297.png",
+  "reference_png_sha256": "3f6888793391940369c65f4ff56fc62c47dae3f688b46eb89f473403988b889e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D297.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyeighth-eight/sources/U3D297.json",
+  "source_json_sha256": "0653087374fbf373dbb8ebd8d102ec2fdedd0b4e2eaa1eefb85e1d64dc8a1cb0",
+  "geometry_sha256": "6560b8ac1577648080bbe50a42c89d9baa181ab641e06aa71539f12f63bb379c",
+  "font_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72fb659eddcaa0aa33d3457e2c0e4df5f6f41081d6803c6e60cc80bf684b5d4d",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/U3D297-Regular400.png",
+  "raster_sha256": "9fa92d707c07a930967df803eea3e4a338723d59241e4d6d9a8544ec19bf6253",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      268,
+      -64,
+      756,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: right three-field pedestal baseline stops free of the left compound lower-right leg. All four whole witnesses join that baseline to the leg. Detached upper forks, bent left staff/header, U and three lower terminals otherwise preserved. Actual retains clear unsupported baseline gap; enlarged staff is present."
+  ],
+  "requested_corrections": [
+    "Extend only left pedestal baseline end to the existing lower-right leg contact, preserving three right fields and all lower terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

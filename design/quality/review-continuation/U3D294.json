@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D294",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D294.json",
+  "source_png_sha256": "258654f7dcb89a1f6384bceca34b5792de2a30910512ef930f04311ff594d9b9",
+  "source_png": "design/seal-individual/U3D294.png",
+  "reference_png_sha256": "5d7ca1907cbfbd425ab3623a7c85f84a2143b07a2c079f07b4b4d10396e51215",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D294.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyeighth-eight/sources/U3D294.json",
+  "source_json_sha256": "4ec3f062addb352a49a8b60f87c5960343b308665ed34484fd90ef068123fd7a",
+  "geometry_sha256": "51d77c00d061f4ef6a119759a56d0ddde0ea17a2274a3749f7a6e476d8434e20",
+  "font_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72fb659eddcaa0aa33d3457e2c0e4df5f6f41081d6803c6e60cc80bf684b5d4d",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/U3D294-Regular400.png",
+  "raster_sha256": "d5dd6b785ed20d60e6a86542dcb9fa96aa6c77913fa603c6daff92f609f23118",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      266,
+      -64,
+      758,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: upper winding S continues directly into lower return, closing a false small field at the lower crossing. THX requires a detached upper winding course and three independent lower courses converging once; joined-family specimens also alter upper fork contacts and do not justify this mixture. Actual preserves the false field and uneven winding shoulders."
+  ],
+  "requested_corrections": [
+    "Separate upper winding course from lower return to match complete THX while preserving upper bent upstub and both detached forks.",
+    "Restore lower three-course convergence at one shared junction, no closed loop, preserving free left terminals and descending right tail."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D28D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D28D.json",
+  "source_png_sha256": "786eb785f2cd25a27fa76c15bf76a801099c5d521929898b2bd21db473e3e947",
+  "source_png": "design/seal-individual/U3D28D.png",
+  "reference_png_sha256": "8c20cc6186867842582a8c4619cc900a9a4d92eddd2e4bdc6d4393d3fd5afa79",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D28D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D28D.json",
+  "source_json_sha256": "8f6b3d200de1bee436f249a2439831d2535a518b251ede3a47007831b46828ef",
+  "geometry_sha256": "ed33abc3a7c69a90f8dc3be68713e4f971be48f7c168d2a00a2173f60fee94e9",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D28D-Regular400.png",
+  "raster_sha256": "d81a85c7b895974e676f9aad7f4e0fe583b99cd35590cc047d3560f5222ed3a7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      295,
+      -64,
+      729,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. Native matches THX detached forks, two independent outer curved staffs and central bent upper course continuing through a genuine lower crossing. Actual replaces the crossing with two Y junctions linked by a short vertical neck; enlarged inspection confirms the extra intervening segment."
+  ],
+  "requested_corrections": [
+    "Unify the lower four branches at their genuine native crossing; remove the intervening vertical neck while preserving all four outer terminals and the upper central course."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

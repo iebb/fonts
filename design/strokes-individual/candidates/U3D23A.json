@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -4428,6 +4428,27 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 1.0,
       "maximum_fit_error_font_units": 3.2716
+    },
+    {
+      "id": "stroke-8",
+      "path": "M 337.1,399.131 L 337.1,369",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Native matches complete THX. Restore only lost short upper-left body wall projection above long cap, from exact cap/wall anchor337.1399.131 to native-proportional y369. All seven original paths, one middle field, long overhangs/two lower endpoints/free forks unchanged.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-8",
+          "path": "M 337.1,399.131 L 337.1,369",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "match",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

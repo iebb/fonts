@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D244",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D244.json",
+  "source_png": "design/seal-individual/U3D244.png",
+  "source_png_sha256": "360c244e5e37af45b86f033f4c33a2adc55acd49e9ebc4ed309870a00f0772af",
+  "reference_png_sha256": "f5507394eca89bca3515fa3fa396dfc2bc1d29a19d2011ddd69538b54485fd81",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D244.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D244-THX-gap-smooth-oval-baseline-v1/sources/U3D244.json",
+  "source_json_sha256": "fd659f8b2a5d42ea7f3499667ecb57170847831700a58d98c66a4a57d0e51bbe",
+  "geometry_sha256": "078450573d5df7294fb0d9a1e5eb579a45f83d5e47684aee9cb1b95b5ad7e87e",
+  "font_file": "design/quality/proofs/continuation/U3D244-THX-gap-smooth-oval-baseline-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "254a06e1635efcb1f98a42bec4a3749815ef1f0fd75fbee50f416a78b9d2a1b3",
+  "raster_file": "design/quality/proofs/continuation/U3D244-THX-gap-smooth-oval-baseline-v1/U3D244-Regular400.png",
+  "raster_sha256": "605568875ee361578d9b3acf825d50c441dab0abcef807285402f58945ab6bba",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      208,
+      -64,
+      816,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX right fork now detached from independent four-rail staff; left upper fork remains detached above cup. Left compound retains cup field, two detached side slants, four-field divided oval and two lower legs. Oval walls and broad baseline now smooth, all original contacts/free ends preserved. Native mixed fork variant remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "fb44ff5d26839ccc60f4f7c8103d5fa18508ee73697ac884942aab6fc2dde228",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "00adfaf4a1003d634eef1b334e711d8e8901dafccd730c8dccf78441bb07c5a3",
+    "actual_font_enlargement_sha256": "ebe43b5e0ae29fdab099ca44ebee659c7f1bdeb7d290c72223d698c6b4790567"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3ecc2d9871ad18c9034e75c25d9af9771356347f60e96c6d9a51f99d4324e3ed",
+      "source_json_sha256": "8c461020fef1500b4312ebbab340389259bed9e702bc11a8beb96832be81f885",
+      "source_png_sha256": "360c244e5e37af45b86f033f4c33a2adc55acd49e9ebc4ed309870a00f0772af",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "50af1ca9e440962af1ed5f4d89eec2237146433986c9574e7ba249b76db6df7e",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Native uses THX left compound with free side slants and four oval fields, but right fork joins the four-bar staff. THX right fork is free; QJZ joined-right whole changes the side-slant/body contacts. CCZ/DYC split the right staff and differ elsewhere. Actual additionally shows uneven oval sidewalls and a lumpy baseline."
+      ]
+    }
+  ]
+}

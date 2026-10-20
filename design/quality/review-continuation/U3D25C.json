@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D25C",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D25C.json",
+  "source_png": "design/seal-individual/U3D25C.png",
+  "source_png_sha256": "6370c11a2265716309a6ed58a33d86e23177e8f888dfaac5ea72562768ffa731",
+  "reference_png_sha256": "2b82dad14b5a4bfe18e8502213fca524655e53c5b8af46de0102f933c46eaffd",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D25C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D25C-smooth-shared-chevron-anchor-v2/sources/U3D25C.json",
+  "source_json_sha256": "3cc17a6ec76cd9506bfd8dc5be9f29e419c6aee3f2eae9f756d44166ec3aa739",
+  "geometry_sha256": "1359616f1d98b347da9b684f9a1c98ac9c5ec81a489efc4641d68f474350c9c2",
+  "font_file": "design/quality/proofs/continuation/U3D25C-smooth-shared-chevron-anchor-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "689eea8b876c8711b274231ead30c82f4c6782bd49421ed51037129b20000080",
+  "raster_file": "design/quality/proofs/continuation/U3D25C-smooth-shared-chevron-anchor-v2/U3D25C-Regular400.png",
+  "raster_sha256": "885f609e0ad11fef9174a2d24c552256fe88ab19b418194a85c23f3776bda680",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      271,
+      -64,
+      753,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent whole THX both free forks, left staff with three cups/fields, right chevron with attached free-ended inner bar, independent small bent pedestal and lower header/hooked return. Bounded shared chevron anchor and adjoining diagonal now continuous; inner bar and small pedestal upper bar smooth. All three left fields, original free tips and component gaps retained. Native remains match.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "86ffec8d43316e5737ceda233af07185e1634669b2d8f39f6f7f4ca6be07176f",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "ed175cb905a8ea0f5921d1967868d59e738e05a14a0bbb4c9f962822d34860a9",
+    "actual_font_enlargement_sha256": "043d153719508267f9f47bd26fd5936ce5f873da9555b4e265b0338531f8dba6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "eb114909828a211a066ee8d0e58e5c5d490d17a110b0fcc5bfa2bf5cbbf95244",
+      "source_json_sha256": "670adb3fb2eb7f11ef2a54a6ab616879939e7a6ac71f6ac6635e23355a8b8482",
+      "source_png_sha256": "6370c11a2265716309a6ed58a33d86e23177e8f888dfaac5ea72562768ffa731",
+      "font_sha256": "316151d194bd60d4809351a135b655150a5254212d17d68114dd2078b660a760",
+      "raster_sha256": "7bd08343fefe3ea38069981d1e6ccd24708044cfaf9b46469fc6ae7a68238f62",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, immutable actual Regular400 full glyph and enlarged relevant components. Exact hash/weight400 judgment only.",
+        "Native matches coherent THX both free forks, left shared three-cup staff, upper-right chevron with attached free-ended inner bar, separate small middle bent pedestal and lower header/hook. Actual left chevron arm is displaced into a short rounded offset beside its inner bar junction; inner bar also waves and middle small upper bar has a lump."
+      ]
+    }
+  ]
+}

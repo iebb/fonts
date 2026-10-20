@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D298",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D298.json",
+  "source_png_sha256": "7593909c66ddacd035e39191403d7a2b10478f1d6130dbafea8594c985465aef",
+  "source_png": "design/seal-individual/U3D298.png",
+  "reference_png_sha256": "df67f2bd6439d9e617718047824a5549027321418691512f4f41c0522ed3256f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D298.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyeighth-eight/sources/U3D298.json",
+  "source_json_sha256": "e3098d3f9f4c0c3e1ffd41ae09dc81a5ec5ee6f4e017da06234fdf2b13f75883",
+  "geometry_sha256": "a7647c7533b20c9282ae5b5e003285712bc6e51591ec4e7a5f951822fce1135e",
+  "font_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72fb659eddcaa0aa33d3457e2c0e4df5f6f41081d6803c6e60cc80bf684b5d4d",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyeighth-eight/U3D298-Regular400.png",
+  "raster_sha256": "ef6a030f2dbbdb8908f4071831f00b0dbc71d5f18e21f2d8a4f6c4b7d3872d45",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      256,
+      -64,
+      768,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native left fork tip kisses the left loop upstub without a clear gap; THX detaches this fork while joining right fork to upper winding course. CCZ/QJZ joined-left families alter right upper stub/contact; current combination not securely coherent. Actual extends the left tip into a continuous long staff. Enlarged actual confirms connector between the two left loops IS present (full-image thin-stroke artifact); no connector restoration required. Right upper shoulder has tracking steps."
+  ],
+  "requested_corrections": [
+    "Establish visible gap between left fork tip and left upper loop upstub for coherent whole THX; retain right fork connection, two linked left counters, lower bow and right winding construction.",
+    "Smooth bounded upper-right winding shoulder steps preserving its branch contacts/free tip."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

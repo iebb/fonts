@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D22E",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D22E.json",
-  "source_png_sha256": "37921005ae6e7ce8b55895abb7cf33993d97757e256e4a84f7bd2624b7896c1d",
+  "native_review_report": "design/seal-individual/reviews/U3D22E.json",
   "source_png": "design/seal-individual/U3D22E.png",
+  "source_png_sha256": "37921005ae6e7ce8b55895abb7cf33993d97757e256e4a84f7bd2624b7896c1d",
   "reference_png_sha256": "8422fe35ed8d801d8ad8d3a32c7f40daa0fc39163cdb3968061908ef3d8cdb3c",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D22E.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D22E.json",
-  "source_json_sha256": "adc3913f49222af2267eb5f6d4b6839613d49ee91082059c6c63309fd1261ec6",
-  "geometry_sha256": "0bdc92f0fb59ff88792817a9c8d26edf64f51f63dd1fde48fa2c95970580d625",
-  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
-  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D22E-Regular400.png",
-  "raster_sha256": "7736f5ea0d510befe01e0eb51495f38e0b5e9598b1fa164c48c958958e863fd8",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D22E-continuous-diagonal-chevron-v1/sources/U3D22E.json",
+  "source_json_sha256": "10efb0adbe7b0b9c6dd5ee5d6be73e2fcc102f29779ae1255f96f75335e4da36",
+  "geometry_sha256": "5dbcb0ec9c44ce22390786d79b6e5060e5563b3261aeedf1ee41f7e84ffdb868",
+  "font_file": "design/quality/proofs/continuation/U3D22E-continuous-diagonal-chevron-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "72b909ad47059f10f46d4660fef2248728e342f37c2b8fcf7ac5bbffbb69140f",
+  "raster_file": "design/quality/proofs/continuation/U3D22E-continuous-diagonal-chevron-v1/U3D22E-Regular400.png",
+  "raster_sha256": "e268fa6ad4827976f6084edcc6452451df25b26603ccfc09191ad3dd80ab4319",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
-    "Native matches coherent THX joined top forks/bar, outer hanging cover with separate inner inverted U and independent lower upstub/chevron/paired long legs; no closed counters.",
-    "Actual enlarged lower chevron crop shows both diagonal arms kink and flatten around leg junctions, making a peaked short arch with offset outward arms. Native has continuous diagonal chevron arms through those junctions. All gaps, two leg tips and short upstub are otherwise retained."
-  ],
-  "requested_corrections": [
-    "Restore continuous straight/smooth diagonal lower chevron arms through the existing paired leg contacts, preserving apex/upstub, four arm/leg terminals and other courses."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both forks joined to long cap, independent outer and inner open arches, lower central upstub, two continuous lower chevron diagonals and both descending legs retained. Bounded repaired chevron courses run continuously from apex to exact outer tips; recorded upper leg contact adjustments retain all lower endpoints. No enclosed field.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "c8be9558f31e6c7eb1c07b9ede749cbe826e045e10b8b431644e764ded758240",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "16af869ff6d71de9ce5c253298f76c8fce8706b955876d015fdeec7cba38cf9f",
+    "actual_font_enlargement_sha256": "dbb57e4d5e330710924f68232ef1d7fbc55d0cd02c8615ed672ee4c9e89bd25f"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0bdc92f0fb59ff88792817a9c8d26edf64f51f63dd1fde48fa2c95970580d625",
+      "source_json_sha256": "adc3913f49222af2267eb5f6d4b6839613d49ee91082059c6c63309fd1261ec6",
+      "source_png_sha256": "37921005ae6e7ce8b55895abb7cf33993d97757e256e4a84f7bd2624b7896c1d",
+      "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+      "raster_sha256": "7736f5ea0d510befe01e0eb51495f38e0b5e9598b1fa164c48c958958e863fd8",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+        "Native matches coherent THX joined top forks/bar, outer hanging cover with separate inner inverted U and independent lower upstub/chevron/paired long legs; no closed counters.",
+        "Actual enlarged lower chevron crop shows both diagonal arms kink and flatten around leg junctions, making a peaked short arch with offset outward arms. Native has continuous diagonal chevron arms through those junctions. All gaps, two leg tips and short upstub are otherwise retained."
+      ]
+    }
   ]
 }

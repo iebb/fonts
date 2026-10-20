@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D247",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D247.json",
+  "source_png": "design/seal-individual/U3D247.png",
+  "source_png_sha256": "9f020ba05422f4ddc7262e232de55d310f5ddb87fb372f234552c471e59a95cf",
+  "reference_png_sha256": "255cfb09f7442a701f83bf9378e122c956f87c3b496a86e7cab3f98723b5781c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D247.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D247-THX-walljoin-smoothroof-v1/sources/U3D247.json",
+  "source_json_sha256": "00c62038c0f583a070fd10d00ec10232558d0585330c1054a1fb9b9cd4761d71",
+  "geometry_sha256": "363914aa52b2c89e95796381c883ad79a2141f297c65347499a3b96e623bf544",
+  "font_file": "design/quality/proofs/continuation/U3D247-THX-walljoin-smoothroof-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8bca708474674f60f337ca75fd55519c254b87fd83cadc48df0adf5b3bc486ec",
+  "raster_file": "design/quality/proofs/continuation/U3D247-THX-walljoin-smoothroof-v1/U3D247-Regular400.png",
+  "raster_sha256": "31566da9a1f20ec9ec0d7ff4a58fe6bd21f8fa6eac728c97221ba94d711965cb",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      245,
+      -64,
+      779,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX both free forks, central upstub/staff, broad roof with two inward rooted side branches, lower three long stems and four separate true X marks retained. Lower-left X now reaches exact outer wall contact as THX; other three Xs remain free. Roof shoulders smoothed through original branch anchors; all other free tips unchanged. Native omitted lower-left wall contact remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "c4d44344adde81da3bcb865be7093461e6cf5829c0d96f60a3d756bb75ad9480",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "6e8496145518244f169e834ccd3046bc5ea8e24dfe2d796bfb2fd3164015ea47",
+    "actual_font_enlargement_sha256": "4e96c1a928ac2db2cd8e0691eba8268d2fd0efb15bb05345e7ab60ea0e22f806"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b1d6b5575c3425f24511e452bc9b78c3cfa6cc36165c20d0b1a024c8e5e5a933",
+      "source_json_sha256": "015f934b59a9e9d37fdc55782151916816741003b773cad02765aa8da58d546b",
+      "source_png_sha256": "9f020ba05422f4ddc7262e232de55d310f5ddb87fb372f234552c471e59a95cf",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "816bef94d65c1f0a80ede42777cfbde954d64461a7a98075330f6ccc1b22dd17",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Native retains both free forks, branched roof, shared central staff and four genuine interior X marks, but lower-left X is detached from outer wall. THX lower-left X reaches that wall; other whole witnesses introduce more joins and fork changes rather than attest this all-free combination. Actual roof also has offset shoulder steps."
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -596,268 +596,15 @@
       "maximum_fit_error_font_units": 0.0
     },
     {
-      "points": [
-        [
-          402.4026,
-          350.0575
-        ],
-        [
-          402.4026,
-          346.7859
-        ],
-        [
-          402.4026,
-          343.5144
-        ],
-        [
-          402.4026,
-          340.2428
-        ],
-        [
-          402.4026,
-          336.9712
-        ],
-        [
-          402.4026,
-          333.6997
-        ],
-        [
-          402.4026,
-          330.4281
-        ],
-        [
-          402.4026,
-          327.1565
-        ],
-        [
-          402.4026,
-          323.885
-        ],
-        [
-          402.4026,
-          320.6134
-        ],
-        [
-          402.4026,
-          317.3419
-        ],
-        [
-          402.4026,
-          314.0703
-        ],
-        [
-          402.4026,
-          310.7987
-        ],
-        [
-          402.4026,
-          307.5272
-        ],
-        [
-          402.4026,
-          304.2556
-        ],
-        [
-          402.4026,
-          300.984
-        ],
-        [
-          402.4026,
-          297.7125
-        ],
-        [
-          402.4026,
-          294.4409
-        ],
-        [
-          402.4026,
-          291.1693
-        ],
-        [
-          402.4026,
-          287.8978
-        ],
-        [
-          402.4026,
-          284.6262
-        ],
-        [
-          402.4026,
-          281.3546
-        ],
-        [
-          402.4026,
-          278.0831
-        ],
-        [
-          402.4026,
-          274.8115
-        ],
-        [
-          402.4026,
-          271.5399
-        ],
-        [
-          402.4026,
-          268.2684
-        ],
-        [
-          402.4026,
-          264.9968
-        ],
-        [
-          402.4026,
-          261.7252
-        ],
-        [
-          402.4026,
-          258.4537
-        ],
-        [
-          402.4026,
-          255.1821
-        ],
-        [
-          402.4026,
-          251.9105
-        ],
-        [
-          402.4026,
-          248.639
-        ],
-        [
-          402.4026,
-          245.3674
-        ],
-        [
-          402.4026,
-          242.0958
-        ],
-        [
-          402.4026,
-          238.8243
-        ],
-        [
-          402.4026,
-          235.5527
-        ],
-        [
-          402.4026,
-          232.2812
-        ],
-        [
-          402.4026,
-          229.0096
-        ],
-        [
-          402.4026,
-          225.738
-        ],
-        [
-          402.4026,
-          222.4665
-        ],
-        [
-          402.4026,
-          219.1949
-        ],
-        [
-          402.4026,
-          215.9233
-        ],
-        [
-          402.4026,
-          212.6518
-        ],
-        [
-          402.4026,
-          209.3802
-        ],
-        [
-          402.4026,
-          206.1086
-        ],
-        [
-          402.4026,
-          202.8371
-        ],
-        [
-          402.4026,
-          199.5655
-        ],
-        [
-          402.4026,
-          196.2939
-        ],
-        [
-          402.4026,
-          193.0224
-        ],
-        [
-          402.4026,
-          189.7508
-        ],
-        [
-          402.4026,
-          186.4792
-        ],
-        [
-          402.4026,
-          183.2077
-        ],
-        [
-          402.4026,
-          179.9361
-        ],
-        [
-          402.4026,
-          176.6645
-        ],
-        [
-          402.4026,
-          173.393
-        ],
-        [
-          402.4026,
-          170.1214
-        ],
-        [
-          405.6741,
-          166.8498
-        ],
-        [
-          405.6741,
-          163.5783
-        ],
-        [
-          405.6741,
-          160.3067
-        ]
-      ],
       "graph_edges": [
         5,
         4
       ],
       "is_loop": false,
-      "path": "M 402.403,350.058 L 405.674,160.307",
-      "commands": [
-        [
-          "M",
-          402.4026,
-          350.0575
-        ],
-        [
-          "L",
-          405.6741,
-          160.3067
-        ]
-      ],
-      "maximum_fit_error": 3.1018,
+      "path": "M 402.403,350.058 L 402.972606618,317.015",
       "curve_segments": 1,
       "id": "stroke-2",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.9481,
-      "maximum_fit_error_font_units": 3.1018
+      "closed": false
     },
     {
       "points": [
@@ -5106,6 +4853,33 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.9559,
       "maximum_fit_error_font_units": 3.1273
+    },
+    {
+      "id": "stroke-14",
+      "path": "M 403.696,275 L 405.674,160.307",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Select complete THX left fork gap: crop only original linear connector y275..317.015, retaining original proportional x(y), lower oval upstub and exact upper fork endpoint. Preserve both oval fields, both lower branches, separate right fork/three right bars and all winding courses; all twelve other source paths unchanged. Native joined left fork remains mismatch; PNG/provenance untouched.",
+      "changes": [
+        {
+          "stroke_id": "stroke-2",
+          "previous_path": "M 402.403,350.058 L 405.674,160.307",
+          "repaired_path": "M 402.403,350.058 L 402.972606618,317.015"
+        }
+      ],
+      "added_strokes": [
+        {
+          "id": "stroke-14",
+          "path": "M 403.696,275 L 405.674,160.307",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

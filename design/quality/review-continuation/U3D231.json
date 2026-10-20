@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D231",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D231.json",
-  "source_png_sha256": "65dba37a78b8707480f91dfb507a4b5f36d1bf0c27765791f5837448e4bd3aa0",
+  "native_review_report": "design/seal-individual/reviews/U3D231.json",
   "source_png": "design/seal-individual/U3D231.png",
+  "source_png_sha256": "65dba37a78b8707480f91dfb507a4b5f36d1bf0c27765791f5837448e4bd3aa0",
   "reference_png_sha256": "5fc843b05c51456022bdd97f29d4b8606cf83a9acc4092c2ca652419cb9a4e9e",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D231.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtieth-eight/sources/U3D231.json",
-  "source_json_sha256": "abc65bb38f3dba70c4ee11ce96a2ef77e6d72c29dc32104657d7fc425d116d75",
-  "geometry_sha256": "fb57eb1251f5ca2b2aee56b88952c76d2b4d5f1a2d76e622147e9ca155aac5dc",
-  "font_file": "design/quality/proofs/continuation/review-thirtieth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
-  "raster_file": "design/quality/proofs/continuation/review-thirtieth-eight/U3D231-Regular400.png",
-  "raster_sha256": "170208b43bf289a33d99c8d92df0db7de6e483fed026e7fedf147b915e582d68",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D231-continuous-headarcs-v2/sources/U3D231.json",
+  "source_json_sha256": "2c952fc30ba1df258d07654f3f29f33f419d74a7ca7fd9962f6b41e90bc45dba",
+  "geometry_sha256": "bff95bd5729e87c3569a60796da8d39ccd80a5f9b31b7f7e962818f5ec433bf1",
+  "font_file": "design/quality/proofs/continuation/U3D231-continuous-headarcs-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ae6607b424cebcaf1f5a24583763c3a3f95302d5dff619366f50249086d313a",
+  "raster_file": "design/quality/proofs/continuation/U3D231-continuous-headarcs-v2/U3D231-Regular400.png",
+  "raster_sha256": "4a0fe40fb9cc21583d1346212d1c0cd5a70c28621f62497ad7a7bd5d228c7872",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
-    "Native matches coherent THX: two detached upper forks and two separate lower bowed two-leg compounds, each with short upward/rightward header extension and shorter inner leg. Four free lower endpoints; no counters.",
-    "Enlarged actual paired-compound crop reveals flat offset shoulder steps where each long outer bow meets its upward header/inner-leg junction. Native has continuous smooth head arcs. Other trajectories and gaps remain recognizable."
-  ],
-  "requested_corrections": [
-    "Smooth only both lower compound head/shoulder transitions through original branch anchors, preserving all header tips and four leg terminals."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both detached forks, independent outer left and inner right headed arches, central horizontal and two descending inner stems retained. Both head arcs now smooth through exact inner-staff roots and original free header tips; all four lower endpoints unchanged and no unintended enclosure.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "8fdc32f491ada9513a41cf458c774872971cd1c65f42090ef1e4286cf9f0d442",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "df1a5393d389075258a90f5246b2090bdfa2bc9a279ea1143affb16692451f69",
+    "actual_font_enlargement_sha256": "d0900446084528417941430e115c1476fcc356988e98b118eff130f625d9c459"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "fb57eb1251f5ca2b2aee56b88952c76d2b4d5f1a2d76e622147e9ca155aac5dc",
+      "source_json_sha256": "abc65bb38f3dba70c4ee11ce96a2ef77e6d72c29dc32104657d7fc425d116d75",
+      "source_png_sha256": "65dba37a78b8707480f91dfb507a4b5f36d1bf0c27765791f5837448e4bd3aa0",
+      "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
+      "raster_sha256": "170208b43bf289a33d99c8d92df0db7de6e483fed026e7fedf147b915e582d68",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
+        "Native matches coherent THX: two detached upper forks and two separate lower bowed two-leg compounds, each with short upward/rightward header extension and shorter inner leg. Four free lower endpoints; no counters.",
+        "Enlarged actual paired-compound crop reveals flat offset shoulder steps where each long outer bow meets its upward header/inner-leg junction. Native has continuous smooth head arcs. Other trajectories and gaps remain recognizable."
+      ]
+    }
   ]
 }

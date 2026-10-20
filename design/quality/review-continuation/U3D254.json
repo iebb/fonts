@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D254",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D254.json",
+  "source_png": "design/seal-individual/U3D254.png",
+  "source_png_sha256": "b472c356461fd0f34a426dc30feac6cf2e6a74c9dc7c1e56e1e0a8bf7a8039d4",
+  "reference_png_sha256": "f855407206178739b996654280c12b3d04b9ea7c4c447f43efac355016a0fd77",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D254.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D254-THX-detached-rightfork-v1/sources/U3D254.json",
+  "source_json_sha256": "df932a7e56e4f9ba9437bd6a183501419baee561c8666c56d31f05815fe9cf87",
+  "geometry_sha256": "725258e5267bb60c518a31a0118109e76aad94cfe583990b0a3cc928df0d91e7",
+  "font_file": "design/quality/proofs/continuation/U3D254-THX-detached-rightfork-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5a24c4ef08d446f7da860606bdd8eaa94cb03e61ce8b6b129e78dc383a11ee08",
+  "raster_file": "design/quality/proofs/continuation/U3D254-THX-detached-rightfork-v1/U3D254-Regular400.png",
+  "raster_sha256": "0df59a51a4c95ba59e9ba05f701f521aafc17b6134147d84eb4f3a6e2af389cb",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      243,
+      -64,
+      781,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX both forks detached, left independent I-like body with upper projection/two bars, right open long curve with own upward stub, two free interior horizontal marks and descending terminal. Only original right fork connector cropped, exact upper/lower curve remainders and body upstub preserved. No field; native mixed fork contact remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "c7796197661ea0beb034cd9ffd8827757d074b937c848139f739e3dac730f13e",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "d9b6418fc08ffce697350f445509612a7e30dbd8dbac2be1e68394306db8fba1",
+    "actual_font_enlargement_sha256": "031d33e06054ac65ae993907c7434c7c6ac222d313bd87c73ee8fbf292057ac4"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "57c33fc60586922675976519f03b3b6c118c82c2c0066bf647c2a0dc72fab26e",
+      "source_json_sha256": "aca7e6ba0005165f4d70b8a23bb1c9565fd8c724942f6c5c4bf29b52b6fc6f9b",
+      "source_png_sha256": "b472c356461fd0f34a426dc30feac6cf2e6a74c9dc7c1e56e1e0a8bf7a8039d4",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "80daba0fa749062265b0462d4df372bb597caa1add3f1c68de69ea7dc4c1261a",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Native joins right fork into the open winding body while keeping left I fully separate. THX has the separate left I but right fork free above body upstub; CCZ joined fork also connects left baseline into body, QJZ/DYC have additional changed joins/openings. Two detached inner dashes retained; no closed counters."
+      ]
+    }
+  ]
+}

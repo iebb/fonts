@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D235",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D235.json",
-  "source_png_sha256": "5351b231e583f9a192fd5a955bd145f0f6ce01078ae553ca1040e55d946a33a5",
+  "native_review_report": "design/seal-individual/reviews/U3D235.json",
   "source_png": "design/seal-individual/U3D235.png",
+  "source_png_sha256": "5351b231e583f9a192fd5a955bd145f0f6ce01078ae553ca1040e55d946a33a5",
   "reference_png_sha256": "71889b0402ae2ff1061008bb65b95b9e826a1380d07b67e5b6cc8dac04a9fde2",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D235.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtieth-eight/sources/U3D235.json",
-  "source_json_sha256": "c81da3a9f6868916975c49c5d3fc48f596085b2f93b35c3203984ad95ac6e5ad",
-  "geometry_sha256": "e969dc6ac281e09792ee5a779a6c0e9dba9937c062ca585694d55d45dc30ff48",
-  "font_file": "design/quality/proofs/continuation/review-thirtieth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
-  "raster_file": "design/quality/proofs/continuation/review-thirtieth-eight/U3D235-Regular400.png",
-  "raster_sha256": "a2b06b921b2e44a35f233c3d1e66ac8aee5842130181b82c3bb012aecbb76e9c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D235-level-rightflag-root-v1/sources/U3D235.json",
+  "source_json_sha256": "deb2d4da2077019fc905edb61f43444681c61497d76ca0585a0311da11c949a7",
+  "geometry_sha256": "99457738fa6108d544110cb3af1d575164ecba99212dbdf893bb6c1ac451cf39",
+  "font_file": "design/quality/proofs/continuation/U3D235-level-rightflag-root-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ebe957d1f909ec7a8afaeb7a6bb1fdc6712c279e0f515b93820faf18021fad17",
+  "raster_file": "design/quality/proofs/continuation/U3D235-level-rightflag-root-v1/U3D235-Regular400.png",
+  "raster_sha256": "4f6b6d18814e37d79c633d10f4edc8d14c46cb21e6dae2aec46527721908994c",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
-    "Native matches THX detached forks, long central staff/upstub carrying short right flag and lower full crossbar, plus two separate outward-bowed lower side legs. No counters.",
-    "Enlarged actual flag-root crop shows the short right flag protrudes as a round blob beyond the LEFT staff boundary, an unintended tracking overshoot. Flag also slopes slightly downward instead of native horizontal; no native identity change is needed."
-  ],
-  "requested_corrections": [
-    "Bound the short flag start to the central staff centerline and restore its horizontal course at the original root height, retaining right tip extent and all other paths."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both free forks, long central staff with short upward continuation, rightward flag, broad horizontal and two independent bowed legs preserved. Only flag-root kink removed by cropping to staff and leveling; recorded3.271 source-unit endpoint shift, other eight paths unchanged. No enclosed field.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "0ed3a00796c41d35b44d06589ed69d4809c3de50d657e26bb2526e74c2891125",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "724bc115b90cf0bda7e8ef6d89da48ba6ed17f6843e0652876985877592d6e5a",
+    "actual_font_enlargement_sha256": "ed4d032b5950925a53209eb32f5c8224c853f13541f332bd3b88dc1e8fb5cae2"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e969dc6ac281e09792ee5a779a6c0e9dba9937c062ca585694d55d45dc30ff48",
+      "source_json_sha256": "c81da3a9f6868916975c49c5d3fc48f596085b2f93b35c3203984ad95ac6e5ad",
+      "source_png_sha256": "5351b231e583f9a192fd5a955bd145f0f6ce01078ae553ca1040e55d946a33a5",
+      "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
+      "raster_sha256": "a2b06b921b2e44a35f233c3d1e66ac8aee5842130181b82c3bb012aecbb76e9c",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
+        "Native matches THX detached forks, long central staff/upstub carrying short right flag and lower full crossbar, plus two separate outward-bowed lower side legs. No counters.",
+        "Enlarged actual flag-root crop shows the short right flag protrudes as a round blob beyond the LEFT staff boundary, an unintended tracking overshoot. Flag also slopes slightly downward instead of native horizontal; no native identity change is needed."
+      ]
+    }
   ]
 }

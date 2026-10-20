@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D242",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D242.json",
+  "source_png": "design/seal-individual/U3D242.png",
+  "source_png_sha256": "5b62f58cae88843d571acce1b5731041cc5a16fbbe537938a416167cf905bf19",
+  "reference_png_sha256": "3a7886937f927efa00ba7fabbd5731e7e0866736fa95437738d3dbea4ce65d9b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D242.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D242-detached-rightfork-v1/sources/U3D242.json",
+  "source_json_sha256": "e7f1141b8e12a94b6992ebb2b5ce9ee7766f1e43956be031427f5410a4591a3e",
+  "geometry_sha256": "e3fe408c0bbb5a30f043a9ffcf3dc218a0270818812ff8f2715dfce249d2014b",
+  "font_file": "design/quality/proofs/continuation/U3D242-detached-rightfork-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8a603ab044cf774ff99d8a708ae4075ae4caaa2862ad06eb0a3a5dca9e3c1df4",
+  "raster_file": "design/quality/proofs/continuation/U3D242-detached-rightfork-v1/U3D242-Regular400.png",
+  "raster_sha256": "6534a4953ec2723e15927856a9a6af909e1eee068c6fc5cde242ce033a4e6c22",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      259,
+      -64,
+      765,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX: both forks detached, left divided oval with upward stub/two fields, independent right upper divided return/two fields and continuous winding descending tail. Right fork gap now open, body header/inner staff contact and other nine paths unchanged. Native mixed fork/body contacts remain recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "32646ce7e0fb12081b23660ca007fe7c69b6fac754153d820db2c786574b839e",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "ece67ecda2fe0c91702848afb7ba8f214243a9801503eb6303a999e9f0fc4b2e",
+    "actual_font_enlargement_sha256": "e2d7fb3621428e40ae9de8f8b3afc99f449f9114e6f05b1c15f1692c2e1fee93"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3566f3edc7ea555aba263f5cff2f4c72e8cf7f9fffbbffab421b47022a31231a",
+      "source_json_sha256": "77d8f1fc719b0fecb0e850957085d9c956c702c1f6abf8293178d98b9e8187ba",
+      "source_png_sha256": "5b62f58cae88843d571acce1b5731041cc5a16fbbe537938a416167cf905bf19",
+      "font_sha256": "6bc80740a1f85a5183735d1dbba0230579cddb600adc88f97146606629d7e7b2",
+      "raster_sha256": "dfc21733b4d57cf72c6ae2f189ff61e584ceb6e11bfc01c1e422f144b3b2fbf1",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, full immutable compiled Regular400 and enlarged component crop; verdict is limited to exact hashes and weight400.",
+        "Native mixes joined right fork with THX barred left oval and fully joined right inner staff/header. CCZ joined-right-fork witness has a free inner upstub instead; QJZ/DYC alter the left body. Four body counters are retained; actual central right upright exists and was crop-verified."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D3FE",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "undefinedWhole THX: left detached U mouth with divider/prongs. Upper right TWO detached roof forks, each central upright splits downward diagonals, FOUR detached short vertical side marks around them. Below separate broad inverted U arch with long side legs. Inside central winding stem starts bent top return, then crosses upward curved side branch and splits into two long bottom legs, TWO detached side vertical marks. Preserve all gaps and exact THX.",
+  "reference": "reference/seal/individual/U3D3FE.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-0878fe4e-781b-49a4-a41a-5f13d5f8a845.png",
+  "output_file": "design/seal-individual/U3D3FE.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "7e61c4005aa51f16094ceb097c2b456ac6da6a80e6d9c3f311d1ef0ee1da1eb2",
+  "reference_sha256": "6d4a0b183ce3946c0106af6a72209fb8e8be25df14e65939ac2eb92fd7984527",
+  "reference_metadata_sha256": "d72ab29b9052a8fa9f4bfb246ec7adc6ded001b88732138e31cf02331e964df7",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3FE",
+    "page": 19,
+    "label_bbox": [
+      87.30000305175781,
+      253.57017517089844,
+      118.41938781738281,
+      264.7299499511719
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 19,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          251.78102111816406,
+          144.17999267578125,
+          276.96002197265625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          252.3732696533203,
+          146.20000305175782,
+          277.3532775878906
+        ],
+        "source_label": "TH-00972"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 19,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          250.34022521972656,
+          168.03985595703125,
+          272.34002685546875
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          252.3732696533203,
+          172.8000030517578,
+          277.3532775878906
+        ],
+        "source_label": "C-01005"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 19,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          254.59420776367188,
+          196.539794921875,
+          276.2159729003906
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          252.3732696533203,
+          199.5000030517578,
+          277.3532775878906
+        ],
+        "source_label": "K-00983"
+      },
+      "DYC": {
+        "available": true,
+        "page": 19,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          251.79220581054688,
+          221.43984985351562,
+          276.8279724121094
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          252.3732696533203,
+          226.20000305175782,
+          277.3532775878906
+        ],
+        "source_label": "D-00967"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Unwanted chart labels; resumed base prompt absent."
+  ]
+}

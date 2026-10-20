@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D27A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D27A.json",
+  "source_png_sha256": "07275414fba8ad73788aaedcddd466b3af9cd5e9efa834b68bc078a5c06930e2",
+  "source_png": "design/seal-individual/U3D27A.png",
+  "reference_png_sha256": "6cb8dbba5db5526a1c24794a1fcbbfd3ec151665e87c0514ac2775342b547cef",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D27A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtysixth-eight/sources/U3D27A.json",
+  "source_json_sha256": "a3cd3982bba934a62f64adba0386c22b86338f9350ca46d002c3a2cb829b6e51",
+  "geometry_sha256": "733e3c3b78a261aac37c793dd332d50179a3b46f9b30a80c6a642e64fe851961",
+  "font_file": "design/quality/proofs/continuation/review-thirtysixth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c80760424cacdf1e5891f3ebcec4d120fbe9c50ccb51664a8796d5a18113aa56",
+  "raster_file": "design/quality/proofs/continuation/review-thirtysixth-eight/U3D27A-Regular400.png",
+  "raster_sha256": "b520bcd9976fb6798477407da0b04ad0fc189592969c09fc1d7829d908992bfe",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      260,
+      -64,
+      764,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Viewed full native, all four enlarged complete witnesses, immutable compiled Regular400 full glyph and enlarged relevant components. Exact hash and weight400 only.",
+    "Native matches coherent whole THX both free forks, separate left opposing winding returns/open inner tips with two lower legs, independent right chevron/upstub and two free bars. Actual left lower return has a narrowed offset immediately before its lower fork branch junction; right chevron arms also show tracking ripples."
+  ],
+  "requested_corrections": [
+    "Smooth left inner lower winding transition into its existing fork junction, removing the offset neck while preserving all open inner tip gaps and original lower terminals.",
+    "Smooth right chevron arms between original apex and terminals; retain upstub and two free bars."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

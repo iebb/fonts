@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D260",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D260.json",
+  "source_png": "design/seal-individual/U3D260.png",
+  "source_png_sha256": "bc34086e2726211abdab145f22a0debef63ec6156573f8d9ea45cb7e2ca2d241",
+  "reference_png_sha256": "a37dbf7e08f91c06b33ac95275a35912e9f0d1d42e0194839615efe658a20eef",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D260.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D260-smooth-walljoined-branch-v2/sources/U3D260.json",
+  "source_json_sha256": "b01cc8dace1a19a214867731561183069133ed0d66eaacbfed3a6dde680b4dc1",
+  "geometry_sha256": "1171de3b874d5fa819db3b6cff71aba90d18c03b4cbdc621a3cf673a7fd69772",
+  "font_file": "design/quality/proofs/continuation/U3D260-smooth-walljoined-branch-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9632ccb16ede760a8b79a9f6be422525e16ee34ff2b69c0f894a9e926bbbd137",
+  "raster_file": "design/quality/proofs/continuation/U3D260-smooth-walljoined-branch-v2/U3D260-Regular400.png",
+  "raster_sha256": "cfd1b7148799888fd84158caf7bafa60d998cd2b887416b344f746f1a7abf8f1",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      274,
+      -64,
+      750,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected coherent whole THX detached upper forks, independent upward-stubbed chevron, left oval field and open arch with inner oval field, THREE separate right oblique courses, lowest course bearing wall-joined inner branch and independent S-shaped right descending leg. Missing third course, short chevron upstub and exact arch contact restored; v2 smooths only inner wall-joined branch continuously between unchanged lowest-rail and arch anchors. All other paths unchanged and both fields/gaps retained. Original native missing-course/contact mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "15f1fa8c67d31659259f7a7f7c61772e6aacc7943092677149b993297efbbbf7",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "4d823b89ff1d01d0d1ae874f2adbd99aa58a5b5d433c54b11fc12c197d5e64d9",
+    "actual_font_enlargement_sha256": "68bd387e6027fd4c35c86e032602d36812d3c9b5e2ed7ab0e28a2e7acf6f56c3"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "9baa6bd749951e45866322afe2a58f595c0f338a286b779bb9754e990363591e",
+      "source_json_sha256": "14ab4acce0934ca2a415c45e97f9649c0a2a8d26789cdd43ce81b45a9bddedeb",
+      "source_png_sha256": "bc34086e2726211abdab145f22a0debef63ec6156573f8d9ea45cb7e2ca2d241",
+      "font_sha256": "316151d194bd60d4809351a135b655150a5254212d17d68114dd2078b660a760",
+      "raster_sha256": "5ec00356948dbb20309103a64b1be43be75685fa2f794968531326e1001fad43",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, immutable actual Regular400 full glyph and enlarged relevant components. Exact hash/weight400 judgment only.",
+        "Native has only two right oblique overhanging courses; all four complete witnesses have three. Native otherwise mixes free left fork/header, detached lower-left arch/right-staff link and joined right oblique returns. THX has three separate oblique courses and a lower-left outer-wall\u2192right-branch connector; CCZ connected-course variant joins left fork. Actual also loses short left chevron upstub visible in native."
+      ]
+    }
+  ]
+}

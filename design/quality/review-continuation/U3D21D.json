@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D21D",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D21D.json",
-  "source_png_sha256": "09efd9d1fe8cf65ddb7a65c3a95a1e66bfd10c37796f0899ccaf01c8b1d7b345",
+  "native_review_report": "design/seal-individual/reviews/U3D21D.json",
   "source_png": "design/seal-individual/U3D21D.png",
+  "source_png_sha256": "09efd9d1fe8cf65ddb7a65c3a95a1e66bfd10c37796f0899ccaf01c8b1d7b345",
   "reference_png_sha256": "3d36eae52e30ef81d73d11055d6e5cb58b008124336118ecaef16cf42c327f84",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D21D.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyeighth-eight/sources/U3D21D.json",
-  "source_json_sha256": "4a4003db8c5b6e3e44dcb7583ee9a656e9b759ce2cf9af81169f778edf1f3df6",
-  "geometry_sha256": "e32f3d2bf8d55c0e50d62390da915544757d69bd4455e73dea4c2ad9be967783",
-  "font_file": "design/quality/proofs/continuation/review-twentyeighth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
-  "raster_file": "design/quality/proofs/continuation/review-twentyeighth-eight/U3D21D-Regular400.png",
-  "raster_sha256": "0f52612bfa2bac65f6b7c5543da19be57a66a119b31206bb3bdef22c76dd328c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D21D-rounded-loop-shoulder-v1/sources/U3D21D.json",
+  "source_json_sha256": "a174c548e67cd6c133fac9c75c74c8dc14c93b2192c0743925c33424f66a6bd8",
+  "geometry_sha256": "ae77b962f94b189e5ceec35353e43a63c5af14741b2f3b1ed5b14a6f737d3ffe",
+  "font_file": "design/quality/proofs/continuation/U3D21D-rounded-loop-shoulder-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c8996b88a17ea08a18b857a6625f7d86819e4d8691ac31dfc2ae0ce894c2d046",
+  "raster_file": "design/quality/proofs/continuation/U3D21D-rounded-loop-shoulder-v1/U3D21D-Regular400.png",
+  "raster_sha256": "09837e243a6c4454aa74553d198df6d2a17a6ab7a0bb3c72667b8ed455d35bb6",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
-    "Native matches coherent THX: detached forks and independent short horizontal header; longer bar capping small cup; central staff through larger open U and lower paired two-field return, branching into short inner left tip/long outer left leg and right winding tail. Three closed fields total.",
-    "Actual keeps all three fields and courses, but enlarged lower-loop crop reveals an abrupt inward angular kink where the upper-right wall leaves the top rail. Native shows a smooth rounded bend at that same junction."
-  ],
-  "requested_corrections": [
-    "Smooth only lower paired-loop upper-right wall transition from its top rail, preserving exact shared contacts, counter proportions, outer extrema and all other trajectories."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent complete THX retained: two free forks, separate upper dash, lower cap/small one-field cup and larger open U on central staff; lower two-field loop with projecting rail and right winding tail/left bent descender. Upper-right lower-loop shoulder now rounded smoothly to exact rail contact with all other12 paths/three fields/endpoints unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "fd460bc20e0b1b0db1a325bd92b6692c115b7e9f7b46f57ccd9814017af3ce16",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "ea558caf44dcc835d5aed864cfba2f78ed18f504602a96ddde5a55d779934909",
+    "actual_font_enlargement_sha256": "a96e1472894496f65cfe20cbb9414de369a520ad86e67b5742101520d4c69ad6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e32f3d2bf8d55c0e50d62390da915544757d69bd4455e73dea4c2ad9be967783",
+      "source_json_sha256": "4a4003db8c5b6e3e44dcb7583ee9a656e9b759ce2cf9af81169f778edf1f3df6",
+      "source_png_sha256": "09efd9d1fe8cf65ddb7a65c3a95a1e66bfd10c37796f0899ccaf01c8b1d7b345",
+      "font_sha256": "c231c619bfdb84536f808b660f1cd42ffe19064bdd3569ff920569dd34926698",
+      "raster_sha256": "0f52612bfa2bac65f6b7c5543da19be57a66a119b31206bb3bdef22c76dd328c",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, every available enlarged whole reference specimen, full compiled Regular400 raster and enlarged relevant component crop. Only Regular400 is judged; no specialist or heavy-weight certification.",
+        "Native matches coherent THX: detached forks and independent short horizontal header; longer bar capping small cup; central staff through larger open U and lower paired two-field return, branching into short inner left tip/long outer left leg and right winding tail. Three closed fields total.",
+        "Actual keeps all three fields and courses, but enlarged lower-loop crop reveals an abrupt inward angular kink where the upper-right wall leaves the top rail. Native shows a smooth rounded bend at that same junction."
+      ]
+    }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D28B",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D28B.json",
+  "source_png_sha256": "ffb95f8ac5e86d0f051a1b6fbc67b4cb4669a8317de720a717537513875450ed",
+  "source_png": "design/seal-individual/U3D28B.png",
+  "reference_png_sha256": "87b70c235c8d28ee5d7d0e02c10b6e68470070dbbe1400e47982657d70a40374",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D28B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D28B.json",
+  "source_json_sha256": "21837741c54071fdae14f3f07fd2269dd6d041febf718c53405118e98244ef9f",
+  "geometry_sha256": "7ed69222bd5fbe848dc139a11ef373686cd2789d15d4c1a3d66f983f6fa4fc0c",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D28B-Regular400.png",
+  "raster_sha256": "09a120cfb41e981fd06616a6a1073d1b21d4274b2f005401a89d0db57715ea3d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      294,
+      -64,
+      730,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. Native matches whole THX: detached upper forks, left four-field oval/staff, separate right winding staff/inner curved slant, and independent lower cup/staff/bow. Actual truncates the right inner curved slant after its first bend, losing the native long descending rightward terminal. Enlarged actual also shows left oval wall/bar-root notches."
+  ],
+  "requested_corrections": [
+    "Recover the complete native right inner curved slant including its long lower-right descending terminal, preserving its gap from the outer staff and lower cup.",
+    "Smooth bounded left oval wall/bar-root notches while retaining four fields and existing terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

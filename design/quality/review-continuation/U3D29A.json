@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D29A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D29A.json",
+  "source_png_sha256": "eaecb17e069143d095d31f649ba4ed34beabec911fc276d007403caa80857e78",
+  "source_png": "design/seal-individual/U3D29A.png",
+  "reference_png_sha256": "d13c48137778066be804d1cd237cf692dec65d2170907a188b443984deebf3d0",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D29A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyninth-eight/sources/U3D29A.json",
+  "source_json_sha256": "68d214e5a0fab86fa740e038f3cc97c1ce8fe0ebcdd95e90549b5c7aead242b4",
+  "geometry_sha256": "c48e37c2e4d92302c7fd9d9c4fcba4c28f8592a6b2144079f20cb0e246a4bfb5",
+  "font_file": "design/quality/proofs/continuation/review-thirtyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ca68f482a1bde824c4736987c8621136040b1c0d65e00ccf5dd25dc14eebcb0",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyninth-eight/U3D29A-Regular400.png",
+  "raster_sha256": "e032988efe0e9c02e0faa5047a3ab9b2b09d689af5bea410fa35c54d64a7d6e2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      327,
+      -64,
+      697,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: both forks join the top capped cup while lower two-field winding compound stays separate with full crossbar. THX has only LEFT fork joined; CCZ only RIGHT joined; QJZ both joined also connects cup to lower body, while DYC changes lower interior bar to a free mark. Actual preserves this mixed-contact form and has notched cup bottom/left winding wall."
+  ],
+  "requested_corrections": [
+    "Detach only right fork stem from top cup, retaining left fork join and separate lower two-field construction, for complete THX.",
+    "Smooth bounded cup-bottom notch and lower left winding-wall offsets preserving existing field contacts."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

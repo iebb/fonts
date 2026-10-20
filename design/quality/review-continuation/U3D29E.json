@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D29E",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D29E.json",
+  "source_png_sha256": "50f8efa3ec07cec84d78e3a0ac5d0279c5d1dcd48da8bc059dc5cb3bf74e6b09",
+  "source_png": "design/seal-individual/U3D29E.png",
+  "reference_png_sha256": "ed8ac40b02671e0417af5effb0e026bb65034f0f78716d3726bcdc3d50f9fc31",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D29E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyninth-eight/sources/U3D29E.json",
+  "source_json_sha256": "bcc5e0445d290f6a22aaed9db8a241360daf87242b406eea289ebf068e7c7d71",
+  "geometry_sha256": "6dec3a09898fa16442a21e2a6303c8a0c6a5f0e4a0115928831f784ea38abb63",
+  "font_file": "design/quality/proofs/continuation/review-thirtyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ca68f482a1bde824c4736987c8621136040b1c0d65e00ccf5dd25dc14eebcb0",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyninth-eight/U3D29E-Regular400.png",
+  "raster_sha256": "61babd6b10bdea31d12a648341d5fc4fceb0ce16c6e020813d0ace9c5649295e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      245,
+      -64,
+      779,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native mismatch: short upper central hanging staff extends all the way into a single symmetric lower U. Whole THX ends that staff above lower construction and has two offset nested U returns (left lower, right upper), with an independent outer winding bottom course. Four free oblique marks and both header-fork joins otherwise match THX. Actual preserves simplification; enlarged header crop confirms right fork central vertical IS present despite full-image rendering artifact."
+  ],
+  "requested_corrections": [
+    "Shorten upper hanging central staff to THX free tip above nested lower returns; preserve both header fork joins and four detached oblique marks.",
+    "Recover the two offset nested lower U returns instead of one symmetric U, preserving separation from the outer winding bottom course."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

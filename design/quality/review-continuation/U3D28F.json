@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D28F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D28F.json",
+  "source_png_sha256": "504cec04afde23fe7913d31b7ec4421939654ebc83001a71f7b6035900bb9b20",
+  "source_png": "design/seal-individual/U3D28F.png",
+  "reference_png_sha256": "414311a6b92b84bc497171958ca63853b9ae08dfd1d45df5f96bcd32fc1d5d3a",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D28F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyseventh-eight/sources/U3D28F.json",
+  "source_json_sha256": "5263b8154ac8eae9934d2629c290505a18814537dcba02eb502dd950972fa2c5",
+  "geometry_sha256": "48ddd0483c4d9c8506a4c1124867a24c643c2d8709e19b87ade1747d0b491b2f",
+  "font_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "38b3560469bd36c5e5bce34c0cbd3e6cf7d7ed06df8a93bbeb6b5be28f2486ac",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyseventh-eight/U3D28F-Regular400.png",
+  "raster_sha256": "cf4a12e0e26066c831dbee29933492e8785b15d7d24b3044f08a9e58a16c4838",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      299,
+      -64,
+      725,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, every available complete enlarged THX/CCZ/QJZ/DYC witness, immutable actual Regular400 raster and enlarged body components. Native and actual preserve coherent THX: detached upper forks, central curved upstaff crossed by broad left-up/right-down course, shared lower junction and two sweeping legs. No closed counter; all terminals and open gaps present. Enlarged lower junction follows the native trajectory, constant width and proportional envelope acceptable."
+  ],
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -282,203 +282,14 @@
   },
   "strokes": [
     {
-      "points": [
-        [
-          503.8211,
-          438.3898
-        ],
-        [
-          507.0927,
-          438.3898
-        ],
-        [
-          510.3642,
-          438.3898
-        ],
-        [
-          513.6358,
-          438.3898
-        ],
-        [
-          516.9073,
-          438.3898
-        ],
-        [
-          520.1789,
-          438.3898
-        ],
-        [
-          523.4505,
-          438.3898
-        ],
-        [
-          526.722,
-          438.3898
-        ],
-        [
-          529.9936,
-          438.3898
-        ],
-        [
-          533.2652,
-          438.3898
-        ],
-        [
-          536.5367,
-          438.3898
-        ],
-        [
-          539.8083,
-          438.3898
-        ],
-        [
-          543.0799,
-          438.3898
-        ],
-        [
-          546.3514,
-          438.3898
-        ],
-        [
-          549.623,
-          438.3898
-        ],
-        [
-          552.8946,
-          438.3898
-        ],
-        [
-          556.1661,
-          438.3898
-        ],
-        [
-          559.4377,
-          438.3898
-        ],
-        [
-          562.7093,
-          438.3898
-        ],
-        [
-          565.9808,
-          438.3898
-        ],
-        [
-          569.2524,
-          438.3898
-        ],
-        [
-          572.524,
-          438.3898
-        ],
-        [
-          575.7955,
-          438.3898
-        ],
-        [
-          579.0671,
-          438.3898
-        ],
-        [
-          582.3387,
-          438.3898
-        ],
-        [
-          585.6102,
-          438.3898
-        ],
-        [
-          588.8818,
-          438.3898
-        ],
-        [
-          592.1534,
-          438.3898
-        ],
-        [
-          595.4249,
-          438.3898
-        ],
-        [
-          598.6965,
-          438.3898
-        ],
-        [
-          601.9681,
-          438.3898
-        ],
-        [
-          605.2396,
-          438.3898
-        ],
-        [
-          608.5112,
-          438.3898
-        ],
-        [
-          611.7827,
-          438.3898
-        ],
-        [
-          615.0543,
-          438.3898
-        ],
-        [
-          618.3259,
-          438.3898
-        ],
-        [
-          621.5974,
-          438.3898
-        ],
-        [
-          624.869,
-          438.3898
-        ],
-        [
-          628.1406,
-          438.3898
-        ],
-        [
-          631.4121,
-          438.3898
-        ],
-        [
-          634.6837,
-          438.3898
-        ],
-        [
-          637.9553,
-          438.3898
-        ],
-        [
-          641.2268,
-          441.6613
-        ]
-      ],
       "graph_edges": [
         6
       ],
       "is_loop": false,
-      "path": "M 503.821,438.39 L 641.227,441.661",
-      "commands": [
-        [
-          "M",
-          503.8211,
-          438.3898
-        ],
-        [
-          "L",
-          641.2268,
-          441.6613
-        ]
-      ],
-      "maximum_fit_error": 3.1927,
+      "path": "M 507.093,438.39 L 641.227,438.39",
       "curve_segments": 1,
       "id": "stroke-1",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.9759,
-      "maximum_fit_error_font_units": 3.1927
+      "closed": false
     },
     {
       "points": [
@@ -4031,6 +3842,22 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Native matches THX. Remove only short flag left-root overshoot by beginning exactly on central staffx507.093, and level flag to horizontal y438.39 as native. Original right tip x641.227 retained, its y shifted3.271 units; all eight other paths and gaps/endpoints unchanged. Native pixels unchanged.",
+      "changes": [
+        {
+          "stroke_id": "stroke-1",
+          "previous_path": "M 503.821,438.39 L 641.227,441.661",
+          "repaired_path": "M 507.093,438.39 L 641.227,438.39"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "match",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

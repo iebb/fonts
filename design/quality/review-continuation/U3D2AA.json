@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D2AA",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D2AA.json",
+  "source_png_sha256": "cbc345fd260504689eee03e20a879cca5b0aad16a52f46db7a813451f1e491aa",
+  "source_png": "design/seal-individual/U3D2AA.png",
+  "reference_png_sha256": "7601b0893d66efed8c121e15f5aff078edb3ee1fd4f2eb7515bc64d6526fc2c5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D2AA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fortieth-eight/sources/U3D2AA.json",
+  "source_json_sha256": "db845c94a9ddab734c8292b458078fed0a39496de4251342ee4abdddc4855d1b",
+  "geometry_sha256": "044e61c0caf4b6db6c1a42e86c31841a7f0c78181a4ece6e94548c2caded8f2e",
+  "font_file": "design/quality/proofs/continuation/review-fortieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fde2f4b99194c4713454e1cccf415f772a6042af1d172a3ef3a577f5eaa96a6c",
+  "raster_file": "design/quality/proofs/continuation/review-fortieth-eight/U3D2AA-Regular400.png",
+  "raster_sha256": "74e0375dadbb72417be774093eed5a1e6c67d1908f20c4a62d3335c6f2332bee",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      236,
+      -64,
+      788,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable full actual Regular400 and enlarged components. Native matches complete THX detached forks, left winding staff/three side marks and right trident/chevron/two-field oval/lower fork with four free diagonals. Actual truncates both lower diagonal marks into dots; remaining contacts and two fields retained."
+  ],
+  "requested_corrections": [
+    "Recover both native lower free diagonal marks at their complete lengths/angles while retaining clear gaps from oval, centralstaff and lower fork."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

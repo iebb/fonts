@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D29F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D29F.json",
+  "source_png_sha256": "bb3e51b0373c0e813b1cbc0abf6985dbb0275199c96bddcf8bf8e3ee7dda21da",
+  "source_png": "design/seal-individual/U3D29F.png",
+  "reference_png_sha256": "0ad27c092f963bd9b5fdbaa033c9e240750cf9d5b3b7ac0bc08136942f7852a6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D29F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtyninth-eight/sources/U3D29F.json",
+  "source_json_sha256": "63e6087e200345fa6772929c204ab2a59a5c9aa7b67711f2040ea78d49b0c9ca",
+  "geometry_sha256": "2764e3589e0d26b15173ae0f544ad0412287d477ddfbc400e24c7ea2d151699b",
+  "font_file": "design/quality/proofs/continuation/review-thirtyninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6ca68f482a1bde824c4736987c8621136040b1c0d65e00ccf5dd25dc14eebcb0",
+  "raster_file": "design/quality/proofs/continuation/review-thirtyninth-eight/U3D29F-Regular400.png",
+  "raster_sha256": "6722af134f76fdf098b7b7ff978a01a1079cda1a21dde352a2de89e94dea7593",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      243,
+      -64,
+      781,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four complete enlarged whole witnesses, immutable actual Regular400 and enlarged component crops. Native matches THX detached forks, left winding staff with three free side marks, right curled upright/crossbar with four free diagonals and four-field lower oval. Actual truncates upper-left and lower-left diagonal marks compared with native, particularly lower-left reduced to a short dash; upper-left has a stepped center. Left main staff waist has an abrupt tracking offset."
+  ],
+  "requested_corrections": [
+    "Recover complete lengths/straight trajectories of both native left diagonals on right compound, preserving their free gaps and all four oval fields.",
+    "Smooth bounded waist offset of left long staff without moving upper branch contact or lower terminal."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

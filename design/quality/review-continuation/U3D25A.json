@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D25A",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D25A.json",
+  "source_png": "design/seal-individual/U3D25A.png",
+  "source_png_sha256": "e4e603ca9d9fa5b6f675ddd315e8d468d73e8e480c1cb1a6e60785a8699c5c97",
+  "reference_png_sha256": "f60a7457686f4248ed9433dd366d76f390a64e714cbd778ece71b3a862dd8a74",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D25A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D25A-genuine-shared-crossing-v1/sources/U3D25A.json",
+  "source_json_sha256": "b0707bd4554d95b9262495028a10d712bde32749a03bcc6662a9f817bec16a5a",
+  "geometry_sha256": "a3b6b9411e6e53cd41cdf91824e6532512181948965476a7df4075cd22e2c4f0",
+  "font_file": "design/quality/proofs/continuation/U3D25A-genuine-shared-crossing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5291593cd1da543ad601ec8f2998fec79c6aa9fa7e21dbf94788a89e2e40bcd3",
+  "raster_file": "design/quality/proofs/continuation/U3D25A-genuine-shared-crossing-v1/U3D25A-Regular400.png",
+  "raster_sha256": "b71260181dede884e90d5eeca5b8c078c9a60173f6c3e5a6a8f03ce943dc6ad5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      297,
+      -64,
+      727,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both free forks, left staff/header, independent right upper flag on bending descending course crossed by short diagonal retained. Two-Y neck replaced with one genuine shared crossing, preserving exact four outer endpoints and full main curve upper/lower remainders. All other courses/free tips unchanged, no field.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "708afed5cdedb548da6945b12bcd941eff03d91fd2c7328e4ce56af8edd4d89d",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "ba5f3439fcf8876ea74892ad91db1c28c4604593cfc1a4df99dfa3b8556fbcb8",
+    "actual_font_enlargement_sha256": "3c6bd129c840bc9d41387310079b4e57d34c73f9ba85606dff471d84d6532451"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "97b8bcd463b999f74c0ff60c15f594e679d04cca7eb874c3e02a878fec3c39ae",
+      "source_json_sha256": "c2cd841ba656e22917aac2e3024e48e3f7af04607db250e46b91437a53c9d494",
+      "source_png_sha256": "e4e603ca9d9fa5b6f675ddd315e8d468d73e8e480c1cb1a6e60785a8699c5c97",
+      "font_sha256": "316151d194bd60d4809351a135b655150a5254212d17d68114dd2078b660a760",
+      "raster_sha256": "10324566d092575953efc4fc61818feae4f4f2d96a9ab6b6b460840405ae7662",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, immutable actual Regular400 full glyph and enlarged relevant components. Exact hash/weight400 judgment only.",
+        "Native matches whole THX free forks, joined left staff/crossbar, right upper free upstub/right elbow and genuine lower crossing with four arms. Actual lower crossing becomes two Ys joined by a short vertical neck."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D252",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D252.json",
+  "source_png": "design/seal-individual/U3D252.png",
+  "source_png_sha256": "b8e4e82c7328e5373bcc38a20e3cc63f39b781fd911e03d05f0a60031e64d55f",
+  "reference_png_sha256": "644cf88caf5e3ef58473a7260905de65bee321eeda5c12a348f25e3591f722e7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D252.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D252-THX-freeforks-smooth-innerleg-v1/sources/U3D252.json",
+  "source_json_sha256": "f08c59f3238b633c882071ef5c1a1da6a7ad5f36a865ea3d5123de95d8c2d262",
+  "geometry_sha256": "a2eae5abea80c68a415546b76e365394cb49487c0dc84eaae345e3f91ff8ad66",
+  "font_file": "design/quality/proofs/continuation/U3D252-THX-freeforks-smooth-innerleg-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a50536875187736bc17f15fa6c50112dfb7fbb7010c8e043da4cd342fbe40d22",
+  "raster_file": "design/quality/proofs/continuation/U3D252-THX-freeforks-smooth-innerleg-v1/U3D252-Regular400.png",
+  "raster_sha256": "07b9806a0492820954769876571ef056a647edef820856f065258ad7313a2374",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      273,
+      -64,
+      751,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX both forks detached from transverse header; four body upstubs, central rooted cup field, nested independent lower bows with central staff and five lower terminals preserved. Only two upper connectors cropped to restore fork gaps and bounded inner-left leg hook smoothed. Exact other curve remainders retained; native joined-fork mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "8336a2b8f483a6f75e7988b3243445e07752fdbed4d8b5e6a9994cf49fdc6d52",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "952bd2810c19086acf6fbf9e9227fcb01f77925790d9661b0e48404624952de2",
+    "actual_font_enlargement_sha256": "dda9a1af2400d0f910e9680d3c30f980ab801ef32c71ac0af46f5c2dee194ff6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "27cb3e2f9843bb5dce796ef0a52ff68f6e8521aac33a64d0903dd7051224f3b7",
+      "source_json_sha256": "ba1abbff010ec565277e7d434d1dcc686c8cc47e94a80e28caefa85611923de4",
+      "source_png_sha256": "b8e4e82c7328e5373bcc38a20e3cc63f39b781fd911e03d05f0a60031e64d55f",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "5d52c906965ea7097825ea9110e9f441d2642c47cb06d52f4de8ca2e02bde0c2",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Native joins both fork stems continuously into the side descents, but uses the THX lower outer and inner bows detached from those side descents. THX/CCZ forks are free; QJZ joined forks also has side descents joining the lower outer bow; DYC joins only left fork. One cup counter and five lower terminals retained. Actual inner-left lower leg has a tracking notch."
+      ]
+    }
+  ]
+}

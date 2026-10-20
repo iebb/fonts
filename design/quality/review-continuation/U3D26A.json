@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D26A",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D26A.json",
+  "source_png": "design/seal-individual/U3D26A.png",
+  "source_png_sha256": "b59dbfbaa837c4a44fc10dcefa0f4f793cd4faf17b736ec6196b7dc1b9bea8a7",
+  "reference_png_sha256": "d77e0e52f000d4a76b9b1feac0002f6d9470c3c21fdcf64739f6a978209726cb",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D26A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-269-270-v1/sources/U3D26A.json",
+  "source_json_sha256": "d4d8139219fc5b050662842f37986ef3ddd7d0512b0010bb9c945e4d458de529",
+  "geometry_sha256": "8b992600e4072b5a44aa9a99e43bbbaea50b1a90182532f455abefd1ae2b2099",
+  "font_file": "design/quality/proofs/continuation/root-new-eight-269-270-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d9cd7d8623dccc0b6d1b5c90b0879cce910047ad047790b3088cd3e1c10c552d",
+  "raster_file": "design/quality/proofs/continuation/root-new-eight-269-270-v1/U3D26A-Regular400.png",
+  "raster_sha256": "186c49f906d0c6fb96b031305942a0dbfdbc8aa3ab8c4bfa5d7bce60b6e656a0",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      265,
+      -64,
+      759,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native upper-right fork lacks its left upright arm and becomes a two-pronged form; all complete witnesses have the three-pronged fork. Restore this missing native arm in editable source, preserving free fork-to-roof gap and remaining body. Additionally actual400 left roof diagonal has a clear junction offset at the short horizontal branch root; smooth that bounded diagonal through original apex and outer endpoint, keep rooted inner bar. Retain divided upper oval/two fields, descending left wall and independent lower oval/one field.",
+  "requested_corrections": [
+    "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native upper-right fork lacks its left upright arm and becomes a two-pronged form; all complete witnesses have the three-pronged fork. Restore this missing native arm in editable source, preserving free fork-to-roof gap and remaining body. Additionally actual400 left roof diagonal has a clear junction offset at the short horizontal branch root; smooth that bounded diagonal through original apex and outer endpoint, keep rooted inner bar. Retain divided upper oval/two fields, descending left wall and independent lower oval/one field."
+  ],
+  "review_comparison_sha256": "db01587d74a6f64ea0a098757b63b3217af1f461cc0281245c1600be74a8bcbf",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "1d9e867b895e317125840427ccf1116e3bae9157116b255829d4b8d1c1c668f6",
+    "actual_font_enlargement_sha256": "490607ea7c2411e28bc302d9874b9bb8c9593bbabbfefe9216a30945f0f9e77a"
+  }
+}

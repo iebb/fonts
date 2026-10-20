@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D257",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D257.json",
+  "source_png": "design/seal-individual/U3D257.png",
+  "source_png_sha256": "056716c3eb721cdef94e0d6070629ee5576bfbe7f828b866bc9b7edc49352bf9",
+  "reference_png_sha256": "9908a941c104d04ec25f7c0f078ac63973c0fb33d1501319ec3bf7e2c1437c44",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D257.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D257-whole-THX-clear-winding-gaps-v4/sources/U3D257.json",
+  "source_json_sha256": "f602daf338bd981d50a98936315a2ff54541636eb9c748a9d910df05820973fe",
+  "geometry_sha256": "c65ffa610c3d44009dba2633e75bfa0c3ac7bd8fd2137aa3d9199a55df53c7b2",
+  "font_file": "design/quality/proofs/continuation/U3D257-whole-THX-clear-winding-gaps-v4/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e9a3a1fac64762450cdb67a30857210ab3d4efb0b39d0d4b8041fe5ed77ee503",
+  "raster_file": "design/quality/proofs/continuation/U3D257-whole-THX-clear-winding-gaps-v4/U3D257-Regular400.png",
+  "raster_sha256": "17a8f55bdbcb3efa3fb69bd1caa711fdcc4678d4eaf334f834aabd4daf9a9cab",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      294,
+      -64,
+      730,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX right fork detached with full centered finger; upper-right independent winding has three free upper tips meeting common curved return/descending staff. Grid upper-left channel open and other three fields closed; lower winding retains three free upper arms converging at a single crossing and long lower staff with separate lowest dash. Original left paired legs retained. Enlarged actual shows recovered tip gaps visibly open; explicitly recorded local respacing preserves construction. Native mixed contacts/false field retained as mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "48296e859240f47522eeda4fdab72a592aaceba7491a901f5fe8f3269ab661ed",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "a4f345df0ae8a9ea66dbd3d600e4fe714878578d12d90819f968448240427d19",
+    "actual_font_enlargement_sha256": "167eb9f1fb4d263883cf18c183b53ac12f32c1320ca88dda41217ae8b2134498"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "84aa2a593a2ace0748f039e8f0b7f9e04ff4d25cb5e9dc1a4e086323b6cbd433",
+      "source_json_sha256": "4a910b2a280c7747a739192d79998f3b7dafc1fca9c751e2362b236920e86b0e",
+      "source_png_sha256": "056716c3eb721cdef94e0d6070629ee5576bfbe7f828b866bc9b7edc49352bf9",
+      "font_sha256": "a2e3ef7c265a072558d695cff8ad2186d762783e1b88dfb3643f57a2e184aa49",
+      "raster_sha256": "b393f52a17befdf55c3c087f74bac38bd65e31dc8c151ab47a536371a14da2ac",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Viewed full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body/component crop. Exact hashes and weight400 only.",
+        "Native has joined right fork, an added upper-left closed grid field, open lower-right grid, and lower spiral joined directly to the grid base. Whole THX instead has free right fork, upper-left open channel, upper-right and both lower grid fields, then a separate lower multi-arm winding construction. CCZ/QJZ/DYC alter contacts but do not support this mixed simplified lower structure. Actual also loses right trident upper vertical."
+      ]
+    }
+  ]
+}

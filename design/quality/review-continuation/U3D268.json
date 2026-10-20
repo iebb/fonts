@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D268",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D268.json",
+  "source_png_sha256": "698d1d224db5228a152ffa2acee24e59d3327f3d01987e5e33a4c49949745fcc",
+  "source_png": "design/seal-individual/U3D268.png",
+  "reference_png_sha256": "c8e9e25de031b85173dbc1375f64572e4e7a752ec16810b672430f9e47066fd6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D268.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtythird-eight/sources/U3D268.json",
+  "source_json_sha256": "411adac1a8a7d2929ba7a5c9df2989dc91be7276d7ca2890ec4f850cd3ded692",
+  "geometry_sha256": "fbc5cb96b3dfe9f8dbe9706a1a129f2271de39e4ae78405f64e75877f40e254a",
+  "font_file": "design/quality/proofs/continuation/review-thirtythird-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5992c6a0c479f746584f2089c86920b796924b1c2cf90c485782d2f348614fc9",
+  "raster_file": "design/quality/proofs/continuation/review-thirtythird-eight/U3D268-Regular400.png",
+  "raster_sha256": "fc4505f8d335a95854fe4a47651722ca40972207eccf8d55fef7183c8540b5c8",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      250,
+      -64,
+      774,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected full native, all four enlarged complete witnesses, full immutable actual Regular400 and enlarged body components; exact hash/Regular400 review only.",
+    "Native left compound has a fork-joined S, detached upper bent mark and nested two lower bows. THX has a free fork and upper return with a connected left overhang, then crossed lower rail forming a small field; QJZ/CCZ joined-left witnesses also connect upper mark and differ in lower construction. No whole witness supports native detached mark/nested-bow mixture. Right actual long leg is also repeatedly wavy."
+  ],
+  "requested_corrections": [
+    "Recover coherent THX left compound: free fork/header gap, complete upper bent return/left overhang and genuine lower diagonal crossing with small field, replacing unsupported nested-bow construction.",
+    "Preserve independent right compound and smooth its long descending leg through original branch junction."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

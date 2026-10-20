@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D23A",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D23A.json",
+  "source_png": "design/seal-individual/U3D23A.png",
+  "source_png_sha256": "6b0ef4e1c8aef4a1665bd059fef23f29a43f534df115d6a35de7083f754f73e6",
+  "reference_png_sha256": "2d8d1ab81298775f1220962fd14e6946ba6a89a78ea0e233ca01c4db989a2a22",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D23A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D23A-restored-left-wall-upstub-v1/sources/U3D23A.json",
+  "source_json_sha256": "97df1e1fe413a15f12acabedc1c2691df9e7aedcb62544e5bc35f8ba2b7765f4",
+  "geometry_sha256": "499984a8cc6a9edf94a843f7c065f6c8b9554929fc3bd90ee33e1553bb859fbf",
+  "font_file": "design/quality/proofs/continuation/U3D23A-restored-left-wall-upstub-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4c964916df256e14f1584f1c9416940164fa1fabfa4c6e0c775ba8574a8636d4",
+  "raster_file": "design/quality/proofs/continuation/U3D23A-restored-left-wall-upstub-v1/U3D23A-Regular400.png",
+  "raster_sha256": "dc60c87b820cae746d978a2a4947550803bc250b55b7bc739df6e5604038e68b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      252,
+      -64,
+      772,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX short left-body wall projection above long cap restored from exact existing contact. Both upper forks remain free; middle returned box retains its single field, long cap overhang and both descending leg endpoints unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "7572c8eff67a6d9743bceb51991f32ae70a2bbeeeedb5006291c2832da5e5add",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "4ca18b122eda7d43f1b47279b43b76e1327633e3ccc82f86a30255d91a3a1353",
+    "actual_font_enlargement_sha256": "ed46d985ac560b8570843d3466a5a8c568711551286ebbc1d1854724f7b76372"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a82c12a203a94bf4217efb3f84cb7faf0f2dda7b7aa32e729bb39bb8d21c833f",
+      "source_json_sha256": "036a62e7a1db073b9557d645299e0de5447b80e943de8051bd5195698ba0d21a",
+      "source_png_sha256": "6b0ef4e1c8aef4a1665bd059fef23f29a43f534df115d6a35de7083f754f73e6",
+      "font_sha256": "814877bb3d9cf4cfc64b26db5379429c8b6fd40faa7a0fc6145bf55dd5b5ca36",
+      "raster_sha256": "809a95cf65eb58162bbc81f56ccc470458f9c767a24aff5828544a144052c2ca",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native matches complete THX with both forks detached and upper left body wall projecting shortly ABOVE its long horizontal top cap. Actual loses this short upward stub and has only a rounded corner at the cap, a tracing omission. Restore only that left wall projection from exact cap/wall contact; preserve independent middle one-field returned box, all long cap overhangs and two lower descending leg endpoints. One field and fork gaps unchanged."
+    }
+  ]
+}

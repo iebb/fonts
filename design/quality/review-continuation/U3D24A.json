@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D24A",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D24A.json",
+  "source_png": "design/seal-individual/U3D24A.png",
+  "source_png_sha256": "97f56c92bfda456b5a642bd01c74e6a8d80bace159a4df4ab205fad63617ad5a",
+  "reference_png_sha256": "db189e2cb15627796343f5b3a1a4e9ca7644ac06f6d5ba26dfc85272851ea8e3",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D24A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D24A-whole-THX-baselineclip-v2/sources/U3D24A.json",
+  "source_json_sha256": "ac47e0f1c6a526fe61fea19083b10df1bdd0a98c72b14e0bee45e3dce7078d81",
+  "geometry_sha256": "f1597a242f5c5ecb964a7f8ba771f43f3e75a4d7144c99a17523a51628f6ea07",
+  "font_file": "design/quality/proofs/continuation/U3D24A-whole-THX-baselineclip-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b12c6bfdba88c8566a71a132496c1fec49ad0221c66b7471eb188c58e43534a7",
+  "raster_file": "design/quality/proofs/continuation/U3D24A-whole-THX-baselineclip-v2/U3D24A-Regular400.png",
+  "raster_sha256": "3ff44db56cc8d93ad0d6a3e25092b49b8e0fd95b59524f42b643b4ff5295559d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      284,
+      -64,
+      740,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected complete THX both upper forks detached, left two connected upper returns with upward right-wall stub, central lower branch/crossbar/two legs, right open curl with free inner tip and long central staff/two rooted returns preserved. Upper-right fork gap and open curl restored; left upper returns joined coherently. Tiny original left-leg overrun above baseline clipped at exact analytic intersection, full remaining curve and terminal preserved. Zero fields, all other courses unchanged. Native contact/closed-curl mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "49dd378640d62a6aea8fb4cf2bc28a30bb85dec6ac78e9f43ee626d26e7e11f1",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "d005192a12450e33f9f8bed8363acf78f4f3e24427da1d1c2528e9e0b2b016eb",
+    "actual_font_enlargement_sha256": "7be637b5e5053876d859d2ad6575dd74798f38ae18112451684cf9df448c069f"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a928aa9f306e44267a5baa460c0d01a56522efdf99b0ff48f6620abf073be2c8",
+      "source_json_sha256": "115e7270f0bbc546ca041a039e9d402bccf73d37d561fb3a59477e89085ccf8c",
+      "source_png_sha256": "97f56c92bfda456b5a642bd01c74e6a8d80bace159a4df4ab205fad63617ad5a",
+      "font_sha256": "146dc870d52f62389fe265e820635974399148d02d9d98554cf4509768df64ed",
+      "raster_sha256": "54c4a0248fa05f677feb0a77493f295604742b073f6434cfc3eb4d56a56bedac",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Current native mixes three unsupported contacts: right top fork joins upper closed oval, whereas coherent THX has detached right fork and OPEN oval curl with free lower-right endpoint; left first upper return is detached from second return, whereas THX shares their right returning staff. Other whole variants have both fork/body and internal construction changes and do not support this mixture. Restore whole THX right fork gap/open upper curl and continuous upper-left return connection while preserving lower left chevron/crossbar/two legs, right central stem/U/short right branch/long bottom return and all original free endpoints. Target zero fields, all required gaps retained. Actual left baseline also has a small tracking projection at leg contact; smooth only if needed through exact contact."
+    }
+  ]
+}

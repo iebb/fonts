@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D287",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D287.json",
+  "source_png": "design/seal-individual/U3D287.png",
+  "source_png_sha256": "346028ad9b7fabb17e86473c7e8d4bad60837b196d9c921fb18e7f4880e74e08",
+  "reference_png_sha256": "6d11ac8036c50fe749f531a49b1a51b5eb42b60e2f5e347e59915b9003cc208e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D287.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-new-eight-281-288-v1/sources/U3D287.json",
+  "source_json_sha256": "a114e4e43ea42bffabe2aaaadd2c91acb590fbe93bfcbe90c3984e926959c7cf",
+  "geometry_sha256": "07e813fae0f20588e498d9121a29479c6655d438b6cc8a34c485179a7006fa7f",
+  "font_file": "design/quality/proofs/continuation/root-new-eight-281-288-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fbb04010125cdbf66478b7bf272746bebf9846273e2fc26ad7f5eff443e962b0",
+  "raster_file": "design/quality/proofs/continuation/root-new-eight-281-288-v1/U3D287-Regular400.png",
+  "raster_sha256": "663628eec8740d611266a03aac4527a2e0604d2d6c3d24183d65ec2b3c580971",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      279,
+      -64,
+      745,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native right diamond is split by an extra central vertical reaching its top apex, producing TWO diamond fields; coherent whole THX has only ONE diamond field, its inner central staff begins at a free upward stub inside diamond. Shorten inner staff to restore this free endpoint and preserve outer diamond/upper right fork join. Native left fork also touches its lower staff rather than THX clear gap; restore gap keeping lower staff upward projection. Three lower right fields, rail endpoints and left two legs must remain unchanged.",
+  "requested_corrections": [
+    "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable actual Regular400 independently inspected. Native right diamond is split by an extra central vertical reaching its top apex, producing TWO diamond fields; coherent whole THX has only ONE diamond field, its inner central staff begins at a free upward stub inside diamond. Shorten inner staff to restore this free endpoint and preserve outer diamond/upper right fork join. Native left fork also touches its lower staff rather than THX clear gap; restore gap keeping lower staff upward projection. Three lower right fields, rail endpoints and left two legs must remain unchanged."
+  ],
+  "review_comparison_sha256": "401f7584a2034e6b38bf01660bdc4649f848c3d7dad03cde8da40eb9fa943657",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "23a7485071a8e8790dc18a1b0d03dea5e4e3994efc420312ac5f80610f6c5e05",
+    "actual_font_enlargement_sha256": "6b6ef4b6f2c1ffda59c198c3a571fa1bb182c7b07eeb7ea3683c38d0dc49b5cf"
+  }
+}

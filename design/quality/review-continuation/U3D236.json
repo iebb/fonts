@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D236",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D236.json",
-  "source_png_sha256": "74cfb099586c0780e5ecbd5e0a8861112d7a504d62b9f56f37a9eb41d75d6021",
+  "native_review_report": "design/seal-individual/reviews/U3D236.json",
   "source_png": "design/seal-individual/U3D236.png",
+  "source_png_sha256": "74cfb099586c0780e5ecbd5e0a8861112d7a504d62b9f56f37a9eb41d75d6021",
   "reference_png_sha256": "e2df32ac7c2deaa4d3cd7e5f3c214e42089999212f19c4710fa0bd6daf951b6e",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D236.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirtieth-eight/sources/U3D236.json",
-  "source_json_sha256": "8bac6446e84e50a22e856679f22fab8462bdcdd437c6ff0de3ddbcf26c399841",
-  "geometry_sha256": "7ac38a12c7628edfbbf452de694c25b3af67288c1b9dac1a8a7f73a75ce1b4dc",
-  "font_file": "design/quality/proofs/continuation/review-thirtieth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
-  "raster_file": "design/quality/proofs/continuation/review-thirtieth-eight/U3D236-Regular400.png",
-  "raster_sha256": "b663bacbaa2b6af5de5213c42f5d2cd4dddd2c2cb2230bfbd73f9c32854ce125",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D236-smooth-innerrail-diagonal-v1/sources/U3D236.json",
+  "source_json_sha256": "e5fac0bb6bc4fd38329a186490dfc5c4ebbe7f86fd8817a93fd1a64b47c61d66",
+  "geometry_sha256": "16c1b9c01d62cdd9867a37e0e21805fa368dffbae32d1643c0ad463dcc7c2d4c",
+  "font_file": "design/quality/proofs/continuation/U3D236-smooth-innerrail-diagonal-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "cb941d9aff773e85d21c60fb3a26a89f9a6377281c2eb71905f58f258f72d441",
+  "raster_file": "design/quality/proofs/continuation/U3D236-smooth-innerrail-diagonal-v1/U3D236-Regular400.png",
+  "raster_sha256": "0f18bdbc899645ae5d42307d637c542559bc8f14abafe92fd0e0891b15cf6b13",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,35 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
-    "Native matches THX detached forks above long upper right-returning course and shorter inner bent course meeting central long staff, with four independent lower diagonal marks. No counters.",
-    "Actual enlarged crop shows repeated wave/scallop tracking on shorter inner horizontal course and on upper-right detached diagonal; lower-right diagonal is properly straight. All branches and gaps remain."
-  ],
-  "requested_corrections": [
-    "Smooth/straighten only shorter inner bent header rail and the wavy upper-right detached diagonal using native endpoints/turns, preserving all free gaps, staff and long outer return."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Complete THX both detached forks, outer right return with three leftward rails, inner rounded return continuing into long descending staff and four detached lower diagonal courses preserved. Bounded inner-rail scalloping and upper-right diagonal smoothed through original endpoints/staff suffix; other eight paths and all gaps unchanged. No enclosed field.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "2b85bcde37a369d73b2419ad1c4078e25aac5f59d4e295f8b504522692ea9f08",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "5d7a2125ca518d9552aec3bfec6a8bfe3032fced695d44e8e0fe7a495d8369ea",
+    "actual_font_enlargement_sha256": "37bb1316fd3b94f0435802232bc7f3fc660f82653b9d5bccae1e661e5ac7900c"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7ac38a12c7628edfbbf452de694c25b3af67288c1b9dac1a8a7f73a75ce1b4dc",
+      "source_json_sha256": "8bac6446e84e50a22e856679f22fab8462bdcdd437c6ff0de3ddbcf26c399841",
+      "source_png_sha256": "74cfb099586c0780e5ecbd5e0a8861112d7a504d62b9f56f37a9eb41d75d6021",
+      "font_sha256": "fcf8ef8d0500cdcbf8fc6e86e646c3548df7458a00c8d5dbcff7d4b1842f7798",
+      "raster_sha256": "b663bacbaa2b6af5de5213c42f5d2cd4dddd2c2cb2230bfbd73f9c32854ce125",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete whole references, full immutable compiled Regular400 raster and enlarged component crop. Native identity and tracing loss judged separately; no other-weight or specialist certification.",
+        "Native matches THX detached forks above long upper right-returning course and shorter inner bent course meeting central long staff, with four independent lower diagonal marks. No counters.",
+        "Actual enlarged crop shows repeated wave/scallop tracking on shorter inner horizontal course and on upper-right detached diagonal; lower-right diagonal is properly straight. All branches and gaps remain."
+      ]
+    }
   ]
 }

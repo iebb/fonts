@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D3F0",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper, brush or serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels, text, grid or multiple glyphs. Whole THX: detached left U mouth with divider/prongs. Upper right horizontal cap rail joins short central stem entering rounded inverted U arch. Inner stem branches downleft/downright touching arch side walls, creating two upper fields; inner short stem below arch separated from upper branch by gap, joins rightward short flag and lower horizontal rail. Bottom separate winding compound has top right bend and lower left return, inner left rail curves through lower junction into long descending right tail. Exact whole THX contacts and free rails.",
+  "reference": "reference/seal/individual/U3D3F0.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-4fb96085-1a4d-4abf-8292-d717c7eb8968.png",
+  "output_file": "design/seal-individual/U3D3F0.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "eb1aee24e9962de9740ae3dfe9a4b72f65e6319c8a1ad471db8bf06f06be5fab",
+  "reference_sha256": "d7c8477bedb94a23900e1c73f424df2d175b8c315c688d29c06141f427d6b00c",
+  "reference_metadata_sha256": "f75d2fa3aa0a29a08a0294343ad296ceb8acbdbf70d14236fb9e4f5c50a84dfa",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D3F0",
+    "page": 18,
+    "label_bbox": [
+      384.8999938964844,
+      443.77020263671875,
+      414.9093322753906,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 18,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          441.98101806640625,
+          441.7799987792969,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          442.57329711914065,
+          443.79999389648435,
+          467.55328979492185
+        ],
+        "source_label": "TH-00958"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 18,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          440.54022216796875,
+          465.6398620605469,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          442.57329711914065,
+          470.3999938964844,
+          467.55328979492185
+        ],
+        "source_label": "C-00991"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 18,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          444.794189453125,
+          494.1398010253906,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          442.57329711914065,
+          497.09999389648436,
+          467.55328979492185
+        ],
+        "source_label": "K-00964"
+      },
+      "DYC": {
+        "available": true,
+        "page": 18,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          441.9921875,
+          519.0398559570312,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          442.57329711914065,
+          523.7999938964844,
+          467.55328979492185
+        ],
+        "source_label": "D-00953"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Bottom compound missing distinct inner upper return rail."
+  ]
+}

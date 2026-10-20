@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D22D",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D22D.json",
-  "source_png_sha256": "3db8d1aa3a555964ea2a211628f255dc5ced8998bdf3f8f78497ae9b3e5e8795",
+  "native_review_report": "design/seal-individual/reviews/U3D22D.json",
   "source_png": "design/seal-individual/U3D22D.png",
+  "source_png_sha256": "3db8d1aa3a555964ea2a211628f255dc5ced8998bdf3f8f78497ae9b3e5e8795",
   "reference_png_sha256": "f3bed64992be5b9369a51b60b46a2cd45a3428595b4c48e6eb4cad829bc6a5b3",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D22D.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyninth-eight/sources/U3D22D.json",
-  "source_json_sha256": "f16c43ea392b67117d26620c337947f97a0458112ac7f9b0f7314d6ba28db844",
-  "geometry_sha256": "44b6789f1851b78cdcc7a29f71dd455dca6c8eb3b8877edb485b623c87c116b7",
-  "font_file": "design/quality/proofs/continuation/review-twentyninth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
-  "raster_file": "design/quality/proofs/continuation/review-twentyninth-eight/U3D22D-Regular400.png",
-  "raster_sha256": "531731eecc56c85d4550ac3f7733592a01c19bd39b382686d8d1e2e06abf8bc7",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D22D-free-roof-stub-v2/sources/U3D22D.json",
+  "source_json_sha256": "04737770818285850419019b9cf9baa6b64d644ff7738d82987a2e538649c221",
+  "geometry_sha256": "1319be583b11bad46a307061bab9b37b1fed641af70090e6a17bfbd20b5799ef",
+  "font_file": "design/quality/proofs/continuation/U3D22D-free-roof-stub-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f035519955626418523970fa6959708e0ad27b3158aa6168e91d7fb924410308",
+  "raster_file": "design/quality/proofs/continuation/U3D22D-free-roof-stub-v2/U3D22D-Regular400.png",
+  "raster_sha256": "279be8393893eca25759e14f8d1fa9b8a13db1b4938da75f873ad896c6597326",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,45 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
-    "Native uses coherent THX detached forks/free short rightward top flag and lower separate barred oval/small oval/Ustaff. But inside the crossed top rectangle, upper/lower marks are detached dots rather than THX short down/up stubs attached respectively to roof/base. Four detached dots belong to CCZ, whose right fork joins the flag; that whole construction is absent here.",
-    "Actual additionally loses the RIGHT detached dot entirely and replaces the central true X with two Y forks joined by a short horizontal neck. Enlarged actual confirms blank right field and lower dot touching base. The three-dot result is a tracing loss, separate from native contact mismatch."
-  ],
-  "requested_corrections": [
-    "Restore one coherent THX crossed enclosure with attached roof downstub/base upstub plus two free side dots, true shared central X and four open triangular fields. Preserve detached forks/flag and lower independent components."
-  ],
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Corrected whole THX upper capsule has true shared X with four outer tips, two detached side dots, roof-attached and base-attached inward short stubs. Roof stub is now visibly free above crossing; four substantial upper fields preserved without accidental micro-pockets. Lower divided oval, independent inner oval, outer U and long descending tail unchanged, three lower fields retained. Both free upper forks and flag remain coherent THX. Native original detached-mark/contact mismatch retained; bounded corrected editable geometry accepted.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "6e660f71ccdcc03676213a51df80219c5fc9920200b7a70329297ac1f7b44d32",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "070f4ca544f8380460578fe6664be94b81817aa8ef993ba8c9fb001532efb531",
+    "actual_font_enlargement_sha256": "f63cc439de0242db013b13a67fa8a9f37ae9b88d2b21f72af504e4bb8d8dc3f3"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "44b6789f1851b78cdcc7a29f71dd455dca6c8eb3b8877edb485b623c87c116b7",
+      "source_json_sha256": "f16c43ea392b67117d26620c337947f97a0458112ac7f9b0f7314d6ba28db844",
+      "source_png_sha256": "3db8d1aa3a555964ea2a211628f255dc5ced8998bdf3f8f78497ae9b3e5e8795",
+      "font_sha256": "4a547f7f28a7995f9979da58a1e3d32d49583dc09dfc5ab1ff68936d18cc9448",
+      "raster_sha256": "531731eecc56c85d4550ac3f7733592a01c19bd39b382686d8d1e2e06abf8bc7",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Independently inspected full native, all four available enlarged complete reference specimens, full immutable compiled Regular400 raster and enlarged relevant component crop. No historical/specialist certification or other-weight acceptance.",
+        "Native uses coherent THX detached forks/free short rightward top flag and lower separate barred oval/small oval/Ustaff. But inside the crossed top rectangle, upper/lower marks are detached dots rather than THX short down/up stubs attached respectively to roof/base. Four detached dots belong to CCZ, whose right fork joins the flag; that whole construction is absent here.",
+        "Actual additionally loses the RIGHT detached dot entirely and replaces the central true X with two Y forks joined by a short horizontal neck. Enlarged actual confirms blank right field and lower dot touching base. The three-dot result is a tracing loss, separate from native contact mismatch."
+      ]
+    },
+    {
+      "geometry_sha256": "8cc093e214e9335eebf90a47e52f4ef77baa09ab65ab6c8ea147483848decd5d",
+      "source_json_sha256": "2e9bf6fa862228a56da10384f8643565bef56b2bb509c382341b9cd112603c53",
+      "source_png_sha256": "3db8d1aa3a555964ea2a211628f255dc5ced8998bdf3f8f78497ae9b3e5e8795",
+      "font_sha256": "56e44d2c9e30ec70b6ae7647c64b170c3b29db52707acc28598407d7d389ddd2",
+      "raster_sha256": "57448b58a009375dea2c3aea7c9d5fcde1ab530279b9e0d05e923f5495aeb9a0",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. THX roof/base attached short stubs, right detached dot and genuine full crossing are mostly restored. However the roof-attached stub extends too far: its lower tip touches the central X and splits the upper triangular field into two. Actual threshold128 confirms five substantial upper fields (361,523,3657,3485,1046 raster pixels) instead of required four; one1-pixel and one8-pixel internal white pocket occur nearby as well. Shorten only the roof-attached stub so its inward endpoint is visibly FREE above the true X at actual400, preserving roof contact, free upper flag, both side dots, base stub and all four outer X tips. Verify the two diagonals share one exact crossing with no accidental micro-loop; preserve all lower three fields and other courses. Native original detached-dot/contact mismatch remains recorded."
+    }
   ]
 }

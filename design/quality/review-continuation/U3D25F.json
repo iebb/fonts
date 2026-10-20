@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D25F",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D25F.json",
+  "source_png": "design/seal-individual/U3D25F.png",
+  "source_png_sha256": "a1a89a70fe4b1834c6fe757c99a36a9c19ca8110320ba02264827b0d05c6026f",
+  "reference_png_sha256": "fd255d72dc23c9e1d133b69319d364336f845fa66a53a2b789710d6812a49d65",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D25F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D25F-THX-bent-arm-shared-cross-v1/sources/U3D25F.json",
+  "source_json_sha256": "83e58c221e355ec4c5f47af21fb03ef81831c86b4e3d2256ddff5c77307732ad",
+  "geometry_sha256": "653e19f7cb5279efc61422448364cd8f72ad850d90ff5210be4bb8f6161b4b68",
+  "font_file": "design/quality/proofs/continuation/U3D25F-THX-bent-arm-shared-cross-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "69e756e7d27ba59ad0705e45e88734ed4e3cb1ac65dc67ad48718c0b9a2a31ab",
+  "raster_file": "design/quality/proofs/continuation/U3D25F-THX-bent-arm-shared-cross-v1/U3D25F-Regular400.png",
+  "raster_sha256": "1d8f15b2fd1c235bf0747a71bf0e82c87950b3f02eddfff72e783c04dcd8e0f1",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      276,
+      -64,
+      748,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native, all four complete enlarged whole witnesses, full and enlarged immutable repaired actual Regular400 independently inspected. Coherent whole THX both free forks, unchanged long left paired courses, central bent pedestal with separate three upright courses below, and right outer return crossing long descending leg at one shared crossing. Missing inward bent hooked arm restored with free left tip and upward corner; original outer return prefix, long leg remainder and lower-left free arm tip retained. All component gaps, courses and endpoints visible at common pen30. Original native missing-hook mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "5a10493ad4493428db24579344ee4dc8fe26c9d30c0820d8073ec225fcc8639b",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "83c9ec8607d9759699b328554632e3b8c466f33e6a986fffafd107e25497cf54",
+    "actual_font_enlargement_sha256": "91d33dce7a0b0116f37165ce3b1ea0b1533145f5dde0efdc7c13f1e5418ac92f"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "6b85323f67438ea69dd5afc1b38dbefb2869bee85022aa55013f4263150c08a0",
+      "source_json_sha256": "bab826b8c518e3ffb1812e8b08743a7cab71c8c96f4b3d9ee367228e4111c792",
+      "source_png_sha256": "a1a89a70fe4b1834c6fe757c99a36a9c19ca8110320ba02264827b0d05c6026f",
+      "font_sha256": "316151d194bd60d4809351a135b655150a5254212d17d68114dd2078b660a760",
+      "raster_sha256": "31250d734580eb0e58294065ec323ec2d8aa3c19b0d4e049e35236905bfe2d49",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four enlarged complete witnesses, immutable actual Regular400 full glyph and enlarged relevant components. Exact hash/weight400 judgment only.",
+        "Native keeps free forks and independent left long paired legs, short central pedestal and three detached lower vertical courses. However right upper inward arm lacks the attested short bent/hooked free course, becoming one diagonal. Actual additionally separates right true crossing into two Y nodes with a vertical neck."
+      ]
+    }
+  ]
+}
