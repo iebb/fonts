@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0D2",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D2.json",
-  "source_png_sha256": "c11e314f4c39b095dde7ab51a927e0ad28f933f76517c3f8db40b75a738a383f",
+  "source_png_sha256": "17e27223e478a39a9739cfc3ed8e5f9c6d9658a3502b7abf278a1f6dc3667679",
   "source_png": "design/seal-individual/U3D0D2.png",
   "reference_png_sha256": "7df9ad8964b42317c999b87c93ca1bf77e7dbca67333d9064ed9cb1fd8bc7ce5",
   "reviewed_specimens": [
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0D2.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight1/sources/U3D0D2.json",
-  "source_json_sha256": "21af74e2b360dfc0820d1bec9247ea17b3ed9d2c0b1170d08b6130a0f3ff1129",
-  "geometry_sha256": "29ae927a7387b590a49b0be8ae9eaacc760ad97f092c156f8fb5c1149a0a2fe4",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "8959493c12b75d4bec6eb8545ab3d723252c9b2574102964b37233ba698837bf",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight1/U3D0D2-Regular400.png",
-  "raster_sha256": "91c824101811e158906df0287303a1b7a9853cda78acbc4fd9ea3ec32dff740d",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-D2D5-native2/sources/U3D0D2.json",
+  "source_json_sha256": "a7c95de0478d0e895eb1efae7a48e7019f77edddcfe9495ea1c93f1991fd980e",
+  "geometry_sha256": "18fae1fcff4c269c78711479261394256600f494f76e7a858d0cd5bf6cb39dc0",
+  "font_file": "design/quality/proofs/continuation/root-D2D5-native2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dfb6334d36a77675119456c076e6d0bd56e625e35345259ce5b8865f90fff872",
+  "raster_file": "design/quality/proofs/continuation/root-D2D5-native2/U3D0D2-Regular400.png",
+  "raster_sha256": "a9396876bc395c5e32a78b622327cb0e94c225865c310b5fdb7ba97de55f3ce8",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -37,15 +37,25 @@
   "regular400_verdict": "needs_structural_repair",
   "accepted": false,
   "registry_modified": false,
-  "notes": "Full native/font and all four enlarged specimens inspected. Right tilted diamond, inward diamond stub, outward slant, three body bars, staff and three counters retained. Middle lower component has only two uprights in native/font. THX and alternatives retain an additional short inner upright/return to the right of central descender; its absence simplifies the middle component. Native bottom cup also ends short of right body rather than coherent THX bottom return.",
+  "notes": "Native retry restores third middle upright/right return, but left three-bar staff bottom rail joins middle outer cup. Whole THX construction has that rail detached, while joined QJZ/DYC forms differ in upper diamond and body construction. Select coherent THX and release only staff-to-cup contact; preserve middle three uprights, returns, diamond short inner stub and right body bars. Full native, all four whole specimens and actual font inspected.",
   "requested_corrections": [
-    "Restore missing short inner upright with its lower return in middle component, using one coherent whole attested variant and preserving right three counters.",
-    "Confirm and explicitly record bottom middle-component return/contact choice against complete historical specimen."
+    "Native retry restores third middle upright/right return, but left three-bar staff bottom rail joins middle outer cup. Whole THX construction has that rail detached, while joined QJZ/DYC forms differ in upper diamond and body construction. Select coherent THX and release only staff-to-cup contact; preserve middle three uprights, returns, diamond short inner stub and right body bars. Full native, all four whole specimens and actual font inspected."
   ],
   "limitations": [
     "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector review does not override uncertain or mismatching native verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "29ae927a7387b590a49b0be8ae9eaacc760ad97f092c156f8fb5c1149a0a2fe4",
+      "source_json_sha256": "21af74e2b360dfc0820d1bec9247ea17b3ed9d2c0b1170d08b6130a0f3ff1129",
+      "font_sha256": "8959493c12b75d4bec6eb8545ab3d723252c9b2574102964b37233ba698837bf",
+      "raster_sha256": "91c824101811e158906df0287303a1b7a9853cda78acbc4fd9ea3ec32dff740d",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native/font and all four enlarged specimens inspected. Right tilted diamond, inward diamond stub, outward slant, three body bars, staff and three counters retained. Middle lower component has only two uprights in native/font. THX and alternatives retain an additional short inner upright/return to the right of central descender; its absence simplifies the middle component. Native bottom cup also ends short of right body rather than coherent THX bottom return."
+    }
   ]
 }

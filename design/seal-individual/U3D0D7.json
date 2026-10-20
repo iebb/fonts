@@ -1,16 +1,16 @@
 {
   "code_point": "U+3D0D7",
-  "attempt": 1,
+  "attempt": 2,
   "tool": "image_gen.imagegen",
-  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0D7: WholeTHX. TOPLEFT roundedrectangularloop dividedbyTWO horizontalbars intoTHREE stackedwhitecounters. TOPRIGHT separate broadreversedC/capshape openLEFT, containingTHREE short horizontalleft-to-right interiorbars asreference. A longverticalstem nearitsrightside descendsthroughitslowerreturn tobaseline. BOTTOMLEFT belowleftloop isone detachedthreehorizontalbarupright, widebase andtop, middlemodestlyshorter. Keeptop-leftbox fullyclosed andtop-rightopenleft; preserveallshortinteriorbars andlongrighttail. Nojoiningtopbox tobottomthreebarcomponent.",
+  "prompt": "Make exactly ONE small addition to FIRST attached U+3D0D7 glyph, guided by SECOND four-specimen reference. In RIGHT upper bowl there should be TWO detached short horizontal interior bars: existing UPPER detached bar between top rail and middle hooked return, and a MISSING LOWER detached bar between middle hooked return and lower return. ADD this missing LOWER detached horizontal bar, same width and comparable length as upper detached bar. It extends from left toward right, stopping well BEFORE right bowl wall and before descending staff. Its two endpoints must remain free with white gaps on all sides. Preserve existing upper detached bar, middle hooked return, top and bottom outer bowl rails, long descending right staff, LEFT three-counter closed loop and BOTTOM LEFT three-bar upright. No other changes. Exactly one additional short horizontal mark in lower interior, black constant-width round-ended stroke, transparent background, one glyph.",
   "reference": "reference/seal/individual/U3D0D7.png",
   "reference_viewed_before_generation": true,
-  "original_generated_file": "/workspace/generated_images/exec-b905ecc1-4544-473b-ad9f-d27f532df0c6.png",
+  "original_generated_file": "/workspace/generated_images/exec-ad7868a0-396e-45b8-bb0f-b90334bd8d0f.png",
   "output_file": "design/seal-individual/U3D0D7.png",
   "original_pixels_unchanged": true,
   "visual_review_status": "pending_independent_review",
   "coverage_eligible": false,
-  "sha256": "8a775ac19aac491cb02a563241b78e77208fb7e50cf84d04bb25809b9976ca13",
+  "sha256": "6eadaf4258f99e297dca7a89ce2dd3b57d5b5dfe0ed82c1f371b4c154e35c5fc",
   "reference_sha256": "0d693dbb442170dade96be8ce2c02bdb486b6801efac46061061a7b6f092bf06",
   "reference_metadata_sha256": "1cd91b65f0b9cfb776497b883d051cbb274d4dc595bf9003f8d9f26243f99642",
   "four_specimen_evidence": {
@@ -100,5 +100,8 @@
         "source_label": "D-00201"
       }
     }
-  }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D0D7-attempt-1.json"
+  ]
 }

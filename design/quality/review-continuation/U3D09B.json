@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D09B",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D09B.json",
+  "source_png_sha256": "bb578065e66d6b84acc1554feb623549fa0dc79eaf5392adcaaaf7a199c89622",
+  "source_png": "design/seal-individual/U3D09B.png",
+  "reference_png_sha256": "0421a099eba9a12e4066e0c3d46ea054c2ff9122208d7a2d2a3b7aea4a03e88a",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D09B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-tenth-eight/sources/U3D09B.json",
+  "source_json_sha256": "1465da61b2384d5f01f6e2cf20f5cc92c68ed5cdfeaa7557c8bc1d47bab5fee5",
+  "geometry_sha256": "7e07841109acf62d42222f4e36d033240d93e3c93d69d6cee4fd48893ff9b9e0",
+  "font_file": "design/quality/proofs/continuation/review-tenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
+  "raster_file": "design/quality/proofs/continuation/review-tenth-eight/U3D09B-Regular400.png",
+  "raster_sha256": "754eb21c3059cbaf7ab4ce152fe904091eb358fe8f643076b6064f179391bd52",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      222,
+      -64,
+      802,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged upper central compound inspected. Upper top-hook/outer-right descending course incorrectly detached from lower left-hooked branch/middle bars; references share central upright tying these courses together. Lower oval/crossed enclosure/right tall branch retained.",
+  "requested_corrections": [
+    "Restore shared central upright connecting top-hook course through left hooked branch and middle bars, following coherent THX whole variant."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

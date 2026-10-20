@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D114",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D114.json",
+  "source_png_sha256": "9c352a7cf0a2349529b27b7e548475eea799bfe9ef71e2774937940ffc8a5403",
+  "source_png": "design/seal-individual/U3D114.png",
+  "reference_png_sha256": "91e76c7c0e4771feb65f14d0a2b32bfdffbc2dbcc6addabcbbca0774dbc0c40b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D114.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D09A114-smooth-shoulders-v1/sources/U3D114.json",
+  "source_json_sha256": "4d1513200afc09e813f80fffda4d639d1a954290e16f43f651c93edbb0bf51e9",
+  "geometry_sha256": "5b7908cf13a95ac9af1ea563223030da825db804ff9367ca7a776288205a4ff5",
+  "font_file": "design/quality/proofs/continuation/U3D09A114-smooth-shoulders-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fab8801849a7c6ac8398863b96ac27e322340113a84fbbd11d0eb2905f0f8445",
+  "raster_file": "design/quality/proofs/continuation/U3D09A114-smooth-shoulders-v1/U3D114-Regular400.png",
+  "raster_sha256": "d9b7f12c4b48fffdd660c1361f4e270e77b19b2b05c2c33bd4d7718a5ea375e6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      234,
+      -64,
+      790,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Independently inspected full native, all four enlarged whole references, repaired actual Regular400 full font and enlarged lower outer arc/inner marks. Coherent THX retains left two-bar staff and separate upper hooked structure, detached lower curved course with two inward diagonal marks. Smoothed upper arc no longer kinked, both branch joints and free ends retained; no added counter or contact.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "5ce776f36b9d82420c81078e5a2e1bda815bef19c0f842fa150287ba42ffc24f",
+      "source_json_sha256": "8b667e6a0838267ddaa4881475260d5834244b231609dbbbf875440ab6be96b4",
+      "font_sha256": "26b464b9ce7f0635500f765b9571c6f5644eb88d6bd64f512eb1df3540c81dff",
+      "raster_sha256": "33bab638f84ba4b4ea7880fee74639f99fe05f7e80c2d40a8d360134f57fc817",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Full native, all four specimens, actual font and enlarged lower arc inspected. Left two-bar staff, right top reentrant head and hooks, lower returning arc with two inner marks retained. Automatic source creates abrupt shoulder/notch where lower arc meets upper inner mark, and another direction step at left mark attachment. Native outer arc is continuous and smoother.",
+      "requested_corrections": [
+        "Smooth only outer lower arc through the two inner-mark attachment neighborhoods, preserving both inward marks and every endpoint/topological relation."
+      ]
+    }
+  ]
+}

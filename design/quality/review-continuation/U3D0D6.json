@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0D6",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D6.json",
+  "source_png_sha256": "e419ae44df60914194b33f5d2dd837c7e209bff305ac966d4a4ed79bc66ef4ba",
+  "source_png": "design/seal-individual/U3D0D6.png",
+  "reference_png_sha256": "a77b088eae08aca41ecb5d7a347620642c70cd21d65bd73958bc854cbc16f775",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0D6.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight2/sources/U3D0D6.json",
+  "source_json_sha256": "47833e83650256afc7cea07bdef354356eae8112f05e42c47a492996cd638093",
+  "geometry_sha256": "73fd0b0eb8b500601e73d5a8ca6eb3d719ac12759ac1e5818a8efa19babcc3e5",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "26b464b9ce7f0635500f765b9571c6f5644eb88d6bd64f512eb1df3540c81dff",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight2/U3D0D6-Regular400.png",
+  "raster_sha256": "78d236d5756537adf1e9360c2a2c393b6be19c6f8cd7055ef023deabaf799895",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      252,
+      -64,
+      772,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native/font and all four enlarged whole specimens inspected. Native joins upper left descending course continuously into bottom left cup, closing an extra upper-left counter. THX/CCZ/DYC show this upper left descending terminal free, separated from the lower left cup; QJZ also has a free upper-left descending terminal. Top structure, three bent marks, inner curl and lower central staff retained.",
+  "requested_corrections": [
+    "Separate upper-left descending terminal from lower left cup to restore free terminal and open gap; preserve lower closed counter and all other courses."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

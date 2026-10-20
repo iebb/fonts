@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D155",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D155.json",
+  "source_png_sha256": "f436b421edfd7251694bde02b9537b85fc4aaac0e0dfdf7768f9d2cb28edc6ef",
+  "source_png": "design/seal-individual/U3D155.png",
+  "reference_png_sha256": "995accaebffcdbdc68ef26d19356f3fd7f847dd6ee89c4e19d61b1cca02d69a6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D155.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-tenth-eight/sources/U3D155.json",
+  "source_json_sha256": "665dc0e4eab23682194ac0ec5bc8552f0b4569a843ac888986fedc33b33bd355",
+  "geometry_sha256": "7060c504d03439a7477e8d968be421f84360c29d53dc1e6feb76adbcfe5f411c",
+  "font_file": "design/quality/proofs/continuation/review-tenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
+  "raster_file": "design/quality/proofs/continuation/review-tenth-eight/U3D155-Regular400.png",
+  "raster_sha256": "3e0a90f0bdd6f96d76c54c5ab61d8d7a0cb5c0d7c5384993f6d6c80c73da3037",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      269,
+      -64,
+      755,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_contact_confirmation",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged roof/innerhook inspected. Both tridents join roof in native/font as QJZ, while inner hooked construction appears THX-like open U; THX has left trident detached and right attached. Cannot confidently identify coherent whole variant for combined contacts. All three lower counters and two lower legs present.",
+  "requested_corrections": [
+    "Choose coherent whole reference variant for trident-to-roof contacts and innerhook; THX permits bounded detachment of left trident while keeping right attached."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

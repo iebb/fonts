@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0D3",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D3.json",
+  "source_png_sha256": "a7a223e7baa3f68651707f5cc98ac32eedccecf73da7b67cd61f1505b87d7a53",
+  "source_png": "design/seal-individual/U3D0D3.png",
+  "reference_png_sha256": "093455a1e5d1b8691501aa9b8e70de6f5096a0c3a6e6903b79e292fd5182189f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0D3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-ninth-eight/sources/U3D0D3.json",
+  "source_json_sha256": "e95adb65bd22ea68d8f7bfe28efca1f2f1e023634ec80ddbf4a4a72cbc2220ba",
+  "geometry_sha256": "64a0db1ffd43f078d386cb3917883e4dd3c09d0fa7960946d031944da32ac5df",
+  "font_file": "design/quality/proofs/continuation/review-ninth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b4ebf51f876849d9484c85a941ab4953d2cc55f91ce7fd299e743fa0613a0f8e",
+  "raster_file": "design/quality/proofs/continuation/review-ninth-eight/U3D0D3-Regular400.png",
+  "raster_sha256": "859909cf4f3bd92c4d69259f1941e18fd3b8ef1c168da041ec05d43cdc53a187",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      245,
+      -64,
+      779,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged right upper mark inspected. Right upper structure lacks left descending U course between upper/lower bars, hence lacks required small counter; left upper structure has this course. THX/CCZ/QJZ show both small counters. Native and actual font have only left upper counter; lower bowl counter retained.",
+  "requested_corrections": [
+    "Restore missing left descending/return course of upper-right structure to form small counter, preserving its central upright, two bars and lower curved two-legged course."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

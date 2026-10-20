@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D0AB",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The four slots THX CCZ QJZ DYC all depict the SAME codepoint; examine every available specimen equally. A slot UNAVAILABLE is absent evidence. Choose ONE coherent historical whole construction where variants differ, preserving every branch, bar, loop, counter, detached mark and opening. Do not blend incompatible variant components or substitute a modern Chinese character. Second image is prior finished glyph used ONLY for stroke style, never copy its different character identity. Reconstruct smooth genuine centerline trajectories with absolutely CONSTANT width black strokes, round caps and round joins, precise straight bars and smooth rounded curves; no brush taper, pressure, swelling, blobs, serifs, texture or extra components. All strokes share one width about3% full canvas. Square1:1 canvas with ONE complete centered glyph inside central70%, generous clear margins. Transparent background, pure black strokes. Output only the ONE glyph: no text, labels, frame, chart, grid, multiple specimens, watermark or shadow. Keep all white counters open and all detached components separate. Preserve the natural tall proportions and bar lengths of the chosen attested construction. U+3D0AB LEFTdetachedTHREE-barI. RIGHTTOPonehorizontalcapcrossesasmallupturnedleftU-cupwithONEtinyclosedcounterandashortcentralstem. BelowthisoneLONGhorizontalcrossbarcrossescenterstem. UnderbarisoneelongatedcurvingbodywithMULTIPLEattachedparallelDOWN-LEFTbranches/fingersandONElongcurvingcentraldescendingcourse;onitsRIGHToneadditionalroundedshoulderextendsintoaLONGseparaterightdescendingleg. Preserveeveryparallelleftfinger'slength/contactandbothlonglowerlegsasTHXwholeconstruction. Noomitteddiagonalmarks,noextrafifthbar,noadditionalcounterbeyondtinytopcup. Studyallavailablehistoricalspecimens. IMPORTANT: truly uniform stroke width. Horizontal bars are constant-thickness straight lines with semicircular endcaps, NEVER pointed/elliptical brush dashes. No calligraphic taper.",
+  "reference": "reference/seal/individual/U3D0AB.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-aa823862-994a-4841-ac63-8ac9525df77e.png",
+  "output_file": "design/seal-individual/U3D0AB.png",
+  "sha256": "5a1fe75a790f8b3d2e0e9043b5d78d2926cd9e3f543405fefdf8b274f203cd04",
+  "reference_sha256": "355f55fb671214272be14b49037f87ba81ac97a82a60ee9f79e612bf828a0daa",
+  "reference_metadata_sha256": "710b33d5d93cdf6338dd701dab57f118ff98c4fa337f2193dd20e38e3217367b",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0AB",
+    "page": 4,
+    "label_bbox": [
+      384.8999938964844,
+      443.77020263671875,
+      416.5793151855469,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          441.98101806640625,
+          441.7799987792969,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          442.57329711914065,
+          443.79999389648435,
+          467.55328979492185
+        ],
+        "source_label": "TH-00158"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          440.54022216796875,
+          465.6398620605469,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          442.57329711914065,
+          470.3999938964844,
+          467.55328979492185
+        ],
+        "source_label": "C-00162"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          444.794189453125,
+          494.1398010253906,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          442.57329711914065,
+          497.09999389648436,
+          467.55328979492185
+        ],
+        "source_label": "K-00160"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          441.9921875,
+          519.0398559570312,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          442.57329711914065,
+          523.7999938964844,
+          467.55328979492185
+        ],
+        "source_label": "D-00158"
+      }
+    }
+  }
+}

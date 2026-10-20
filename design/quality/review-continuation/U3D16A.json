@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D16A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D16A.json",
+  "source_png_sha256": "698421d8f7e0495710bccd2636a48f759a5f8a122b71c11570b7e0b0b6b2d7bf",
+  "source_png": "design/seal-individual/U3D16A.png",
+  "reference_png_sha256": "81db4280bb1d62d7eb8fde93697177a796b412ca1fa8e6980319d9f6a4eebcf8",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D16A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D15116A-restored-inner-bars-v1/sources/U3D16A.json",
+  "source_json_sha256": "413237fead1f520db51b483be9ca0c6196528184556d06973ffb27d4a52ead40",
+  "geometry_sha256": "a09aeff678652f6eb2aa2aa28f22bd8ed83e5e6d82d372124d5b14d7c5230cba",
+  "font_file": "design/quality/proofs/continuation/U3D15116A-restored-inner-bars-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2ab2eeb9548d284db9884ac16f5f38dcf81740bedcb468497469c3777704950c",
+  "raster_file": "design/quality/proofs/continuation/U3D15116A-restored-inner-bars-v1/U3D16A-Regular400.png",
+  "raster_sha256": "eb1249f1f6f197c5b5bf203e1d8e53ef6006b6a21c9ab7c5e8f5d9ec420ecab6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      238,
+      -64,
+      786,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Independently inspected full retry2 native, enlarged THX/CCZ/QJZ whole references (DYC unavailable), repaired Regular400 full font and enlarged lower-right enclosure/interior crop. Restored inner L/bottom bar beneath Y reproduces THX internal course with open outer bottom gap and long tail. Left trident/cup/three-leg courses and right top cup counter preserved; Regular400 inner gaps clear. Native remains mismatch for missing inner L/bottom bar.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D0D2",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0D2: Preserve coherentTHX ancientwholeform. LEFT detachedthreebarupright. Toitsright exactlyTHREE verticallystacked shortbentticks downleftside ofrightcomponent. Atupperright a closed DIAMOND head withshortverticalstub risingfromapex and centralstem insideits lowerhalf continuingdowninto tallbody. Mainrightbody includes FOUR rightward horizontalbarlevels crossedbyuprightstem, clearopenends. Lowerleft ofmainbody a smallU-shaped bentcomponent with additionalupright and hookedreturn, attachedas shownreference. Longmainstem descendsbelowlowestbar. Do notsimplify away stackedticks, diamondcounter, lowerleftbentmarks or rightbarlevels; do not substitute modernregularChineseform.",
+  "reference": "reference/seal/individual/U3D0D2.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-aec7f3f1-2e51-48f6-8343-58db84af5330.png",
+  "output_file": "design/seal-individual/U3D0D2.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "c11e314f4c39b095dde7ab51a927e0ad28f933f76517c3f8db40b75a738a383f",
+  "reference_sha256": "7df9ad8964b42317c999b87c93ca1bf77e7dbca67333d9064ed9cb1fd8bc7ce5",
+  "reference_metadata_sha256": "519a3e7f55d27c368285b0ec5caf55847cee0d1d7a880764f685ff78a91b0149",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0D2",
+    "page": 5,
+    "label_bbox": [
+      236.10000610351562,
+      412.0301818847656,
+      267.2193908691406,
+      423.18994140625
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 5,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          410.3009948730469,
+          292.9800109863281,
+          435.47998046875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          410.83330688476565,
+          295.0000061035156,
+          435.8732971191406
+        ],
+        "source_label": "TH-00197"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 5,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          408.8601989746094,
+          316.8398742675781,
+          430.8599853515625
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          410.83330688476565,
+          321.6000061035156,
+          435.8732971191406
+        ],
+        "source_label": "C-00201"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 5,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          413.1141662597656,
+          345.33978271484375,
+          434.7359313964844
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          410.83330688476565,
+          348.3000061035156,
+          435.8732971191406
+        ],
+        "source_label": "K-00199"
+      },
+      "DYC": {
+        "available": true,
+        "page": 5,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          410.3121643066406,
+          370.2398681640625,
+          435.3479309082031
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          410.83330688476565,
+          375.0000061035156,
+          435.8732971191406
+        ],
+        "source_label": "D-00196"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Missing lowerleft innerupright andreturn; requires3uprights."
+  ]
+}

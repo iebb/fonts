@@ -1,13 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D14F",
-  "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
-  "notes": [
-    "Full native/font and all four enlarged specimens plus enlarged lower native/font inspected. Upper forks, roof, two small cups, nested curl with inner course and two X marks retained. Bottom structure is one continuous M-shaped wave with only two free endpoints. THX/CCZ/QJZ show paired fork construction with a third outward right-facing terminal separate from long descending tail; native and font omit that branch and route long tail from right peak."
-  ],
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": "Independently inspected full native attempt2, all four enlarged whole references, repaired Regular400 full font and enlarged paired cups/nested curl/X crop. Native matches coherent THX form: two roof cups, inner upward terminals, nested curl and two X marks, bottom paired forks with central-origin tail. Actual font now retains short upward inner terminal of right cup, both cup counters open, all lower courses preserved. Shared pen retained.",
   "source_png": "design/seal-individual/U3D14F.png",
-  "source_png_sha256": "21c89ae311952f3238696dc60bd881534df6449dd7dbb3a42eb4e77bef201230",
+  "source_png_sha256": "700a8625826c7e5466cc3eacd0f517f50368702ea3fbe473df3bdece278a716e",
   "reference_overview": "reference/seal/individual/U3D14F.png",
   "reference_png_sha256": "24017b709db169426557f4ac4ffe4da2768da2b1521dadb896c449b6299643bb",
   "reviewed_specimens": [
@@ -21,5 +19,15 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "21c89ae311952f3238696dc60bd881534df6449dd7dbb3a42eb4e77bef201230",
+      "verdict": "mismatch",
+      "notes": [
+        "Full native/font and all four enlarged specimens plus enlarged lower native/font inspected. Upper forks, roof, two small cups, nested curl with inner course and two X marks retained. Bottom structure is one continuous M-shaped wave with only two free endpoints. THX/CCZ/QJZ show paired fork construction with a third outward right-facing terminal separate from long descending tail; native and font omit that branch and route long tail from right peak."
+      ],
+      "reference_png_sha256": "24017b709db169426557f4ac4ffe4da2768da2b1521dadb896c449b6299643bb"
+    }
   ]
 }

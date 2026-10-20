@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -128,10 +128,22 @@
           }
         }
       },
+      "worker_preliminary_verdict": "mismatch",
+      "worker_preliminary_notes": [
+        "Rightcomponentupperleftouteruprightshortenedtostub."
+      ],
+      "native_selection_note": "Selected exact first ImageGen original after two native attempts. First has all other required coherent THX courses and correctly positioned outerleft stub of right compound; retry2 moved long upright to wrong left winding component. Vector correction will extend only correct first stub upward. Both native attempts remain mismatch and archived.",
       "manifest": "design/seal-individual/U3D0D5.json",
-      "manifest_sha256": "24a6b460cc2fc85fda12b87db76715c60ad99bfb77090c67c1bcc3b096dd16f9"
+      "manifest_sha256": "8fbf40e8b3d3358405d7fa24cac4fee9f60e42e112a3c03c4f307759e2ed1017"
     },
-    "visual_reference_review": {},
+    "visual_reference_review": {
+      "verdict": "stale",
+      "notes": [
+        "Review applies to a different PNG hash."
+      ],
+      "review_file": "design/seal-individual/reviews/U3D0D5.json",
+      "review_sha256": "51d8364b439793be06943c7fdd774f2a45442775ef6e765bbf4e01c91e98832c"
+    },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {
       "size": [
@@ -5914,6 +5926,31 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.7716,
       "maximum_fit_error_font_units": 2.5243
+    },
+    {
+      "id": "THX-right-compound-outer-upright",
+      "path": "M 582.339,238.824 L 582.339,353.329",
+      "commands": [
+        [
+          "M",
+          582.339,
+          238.824
+        ],
+        [
+          "L",
+          582.339,
+          353.329
+        ]
+      ],
+      "closed": false,
+      "manual": true
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Selected genuine native attempt1 because retry2 restored upright on wrong component. Extend only correctly positioned original right-compound outerleft stub upward to top-cup height, matching whole THX. All14original tracedpaths unchanged.",
+      "added_stroke": "THX-right-compound-outer-upright",
+      "native_png_remains_mismatch": true
     }
   ]
 }

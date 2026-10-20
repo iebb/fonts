@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D157",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D157.json",
+  "source_png_sha256": "e9eac0233af4064277cd7ea931768a7908276206ce0d6ecbbc25da0023cb7dd5",
+  "source_png": "design/seal-individual/U3D157.png",
+  "reference_png_sha256": "95c597eb6b5610567114f01772ee129f945a2ec4b607de98682aa2a42f24f4de",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D157.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight3/sources/U3D157.json",
+  "source_json_sha256": "7e8bf5e547e99ba906896c8daeb18e998c913ba9ad056a024f0235dc6a342836",
+  "geometry_sha256": "bb4b7ac4c2c4f82336dee96c3e2c3bea88d42212d30c48130052c2dd88db2db9",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bd45fab924bc90290c7c1ae54ecf632dccf7bf91553c663ae9b58637e568bd83",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight3/U3D157-Regular400.png",
+  "raster_sha256": "ad5bc671b8259f8b4e0f9f8e5dbf4e003e8e8b01dc0b44adeaf948fef3694707",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      319,
+      -64,
+      705,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged central/lower structure inspected. Upper enclosure, three slants and capsule with two diagonal dividers retained. Native lower component substitutes a continuous central vertical from capsule to tail, rather than two short inner upward free stems converging into lower tail seen in THX/CCZ and alternatives. Native also adds tapered inward horizontal spur from lower right wall; tracing turns this into joined crossbar and extra closed lower-right counter.",
+  "requested_corrections": [
+    "Restore coherent lower component with two short upward free inner stems and their convergence into lower curved tail; remove alien central uninterrupted staff/spur as appropriate to chosen complete specimen.",
+    "Keep outer lower side courses, top capsule and its two diagonal dividers intact; verify required open gaps and lower counter topology."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

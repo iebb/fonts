@@ -1,13 +1,13 @@
 {
   "font": "/workspace/fonts/fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf",
-  "font_sha256": "7a2be65072f9f5fbdeddc6d25c82747ba900e5a7a1086ae2eb41e7c5074ccba9",
-  "glyph_count": 177,
+  "font_sha256": "f49abd806d58e54f585296fe114290fd27f4bd77e094840b7ee69a6e05c5b135",
+  "glyph_count": 209,
   "source_integrity_pass": true,
   "errors": [],
   "stroke_widths": [
     30.0
   ],
-  "visual_matches": 177,
+  "visual_matches": 209,
   "manual_corrections": [
     "U+3D007",
     "U+3D00B",
@@ -39,12 +39,22 @@
     "U+3D087",
     "U+3D088",
     "U+3D089",
+    "U+3D08A",
+    "U+3D08B",
     "U+3D08C",
     "U+3D08D",
     "U+3D08E",
+    "U+3D08F",
     "U+3D090",
     "U+3D091",
     "U+3D092",
+    "U+3D093",
+    "U+3D094",
+    "U+3D095",
+    "U+3D096",
+    "U+3D097",
+    "U+3D098",
+    "U+3D099",
     "U+3D0C1",
     "U+3D0C2",
     "U+3D0C3",
@@ -54,9 +64,15 @@
     "U+3D0C7",
     "U+3D0C8",
     "U+3D0C9",
+    "U+3D0CA",
     "U+3D0CB",
     "U+3D0CC",
+    "U+3D0CD",
     "U+3D0CE",
+    "U+3D0CF",
+    "U+3D0D0",
+    "U+3D0D1",
+    "U+3D0D4",
     "U+3D101",
     "U+3D102",
     "U+3D103",
@@ -69,15 +85,31 @@
     "U+3D10A",
     "U+3D10B",
     "U+3D10C",
+    "U+3D10D",
+    "U+3D10E",
+    "U+3D10F",
+    "U+3D110",
+    "U+3D111",
+    "U+3D112",
+    "U+3D113",
+    "U+3D115",
+    "U+3D116",
     "U+3D141",
     "U+3D142",
     "U+3D143",
     "U+3D144",
     "U+3D145",
+    "U+3D146",
     "U+3D147",
+    "U+3D148",
     "U+3D149",
     "U+3D14A",
-    "U+3D14B"
+    "U+3D14B",
+    "U+3D14C",
+    "U+3D14D",
+    "U+3D14E",
+    "U+3D150",
+    "U+3D153"
   ],
   "visual_review_pending_or_uncertain": [],
   "pixel_topology_flags": [
@@ -87,8 +119,14 @@
     "U+3D032",
     "U+3D050",
     "U+3D07D",
+    "U+3D08A",
+    "U+3D08B",
+    "U+3D08F",
     "U+3D103",
-    "U+3D107"
+    "U+3D107",
+    "U+3D115",
+    "U+3D148",
+    "U+3D14D"
   ],
   "unexpected_pixel_topology_flags": [],
   "limitations": "Pixel topology flags require visual inspection; matching counts do not prove glyph identity.",
@@ -2578,6 +2616,42 @@
       "topology_changed": false
     },
     {
+      "codepoint": "U+3D08A",
+      "source_sha256": "f6daa0cd646f8f89b6649fba71a4207b17c4aceca6d7f8282894e3f155e2bda7",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 5
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 4
+      },
+      "topology_changed": true
+    },
+    {
+      "codepoint": "U+3D08B",
+      "source_sha256": "eb965ef7d95b28fdfd77a6ed9aeaf379409ea0f383d3bf22f271078d6e6f29b1",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 6,
+        "counters": 5
+      },
+      "font_pixel_topology": {
+        "components": 5,
+        "counters": 4
+      },
+      "topology_changed": true
+    },
+    {
       "codepoint": "U+3D08C",
       "source_sha256": "635d07c82b80b2f52a69c20b53740a424daf130aea3670efbc20726f6dad24f8",
       "visual_review": "match_after_manual_correction",
@@ -2632,6 +2706,24 @@
       "topology_changed": false
     },
     {
+      "codepoint": "U+3D08F",
+      "source_sha256": "4025ffd27799b933070ad463b67173685c50c0cfbcb6a19357f1027619c57009",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 3
+      },
+      "font_pixel_topology": {
+        "components": 5,
+        "counters": 3
+      },
+      "topology_changed": true
+    },
+    {
       "codepoint": "U+3D090",
       "source_sha256": "32e46171e5251a187a7be8f5e198a40519ffa5710425f13e90f070c8b4678f45",
       "visual_review": "match_after_manual_correction",
@@ -2682,6 +2774,132 @@
       "font_pixel_topology": {
         "components": 4,
         "counters": 5
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D093",
+      "source_sha256": "92f491cc83d72dfa299ff9d90ecec7281875b1ef063e55f9c0c067b5670e228f",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D094",
+      "source_sha256": "e6c9e07cbe0cdbeef9e46a98a674dafb1de50c1cf10721d43b2bb22775db79b7",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D095",
+      "source_sha256": "56ec1f176f09fb08af08fc89224c7e104215c141998dea846c790c9589dacdff",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 1
+      },
+      "font_pixel_topology": {
+        "components": 4,
+        "counters": 1
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D096",
+      "source_sha256": "59917d6f953d69852eba27e6822987be7d930fdf9b5fe21dfc420a4c4782b6ba",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 1
+      },
+      "font_pixel_topology": {
+        "components": 4,
+        "counters": 1
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D097",
+      "source_sha256": "2219748c00bbcb5d6926552553c4d90aa7a26c428378843cbacca3e923669fc2",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 3
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 3
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D098",
+      "source_sha256": "2308ff71f0198ee0a7e634931654be675dad4265ef6a3b746b29efdd6ecc11b9",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 7,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 7,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D099",
+      "source_sha256": "ca67b990f2f9a79dac59f37c49872e420f8da4f5fce74aca1fca5f2ccb1ca1bb",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 4,
+        "counters": 0
       },
       "topology_changed": false
     },
@@ -2848,6 +3066,24 @@
       "topology_changed": false
     },
     {
+      "codepoint": "U+3D0CA",
+      "source_sha256": "4ebf9b8ab2325338230829c6351a0aedba86a3036cf046e8bde1acdb8195821a",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 3
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 3
+      },
+      "topology_changed": false
+    },
+    {
       "codepoint": "U+3D0CB",
       "source_sha256": "ebd7f2d61224d559389804179078b58c407f96c62eb135556f480c063d01b1ad",
       "visual_review": "match_after_manual_correction",
@@ -2884,6 +3120,24 @@
       "topology_changed": false
     },
     {
+      "codepoint": "U+3D0CD",
+      "source_sha256": "2a07099e6da43f688d33528f9e59b59b25154bad8e6e81f4be5d30da5910451f",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 2,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 2,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
       "codepoint": "U+3D0CE",
       "source_sha256": "20da3e5f34be772d2e346e432f9fd5c91f7cb1f78b018560a93faec0a330177d",
       "visual_review": "match_after_manual_correction",
@@ -2898,6 +3152,78 @@
       "font_pixel_topology": {
         "components": 2,
         "counters": 2
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D0CF",
+      "source_sha256": "f6cec70d733e71e4fb604db4aebbfe37fb898b818bd56a44de1c8112a7ddbd5f",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 2,
+        "counters": 3
+      },
+      "font_pixel_topology": {
+        "components": 2,
+        "counters": 3
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D0D0",
+      "source_sha256": "30797f33299e7d60c26c629ba4b283be3a2211d912b7f628c2950874972f90ca",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 4,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D0D1",
+      "source_sha256": "06b531405dc701e45f170c4cbd5264afe728cabddfc7eb0bc49adcb07060edfe",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 7,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 7,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D0D4",
+      "source_sha256": "75191228c4335294af1aa7f9a063378e99654859542b422f09c2dcca4587091b",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 2,
+        "counters": 7
+      },
+      "font_pixel_topology": {
+        "components": 2,
+        "counters": 7
       },
       "topology_changed": false
     },
@@ -3118,6 +3444,168 @@
       "topology_changed": false
     },
     {
+      "codepoint": "U+3D10D",
+      "source_sha256": "ffe74470c367b50fb65af906f0e4b25588e672d2a8d9d2559def3725a759fb08",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D10E",
+      "source_sha256": "936a2c5a06feb9164405c96a7f9b1577bf468c488806d2f75cdbe6f946182456",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D10F",
+      "source_sha256": "2d490fc8b82b847db56c7b8f7ba85e67120b9235c5676bd647d30555cad2e733",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 4
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 4
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D110",
+      "source_sha256": "23d72142a216f0d5507df333fedf2bd4e35b1ebd3acd87d4e7975a2057160be5",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D111",
+      "source_sha256": "cc4acb3d0f79c1a603773e3b2de1b9df4876067cb70be17e2a4e2aa15f1d732f",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 6,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D112",
+      "source_sha256": "4acbd8ce023a2da82898b18d9d5cdcfe623d8a2a769c281a714468b5d7dfbfd6",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 8,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 8,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D113",
+      "source_sha256": "7a3df509a9b11bdd723d9dd5a5c4d1475af9bbadedf34cd80046fac59dac097b",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 1,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 1,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D115",
+      "source_sha256": "4c525e2cdb7b43649844d0d24458767cb538235df0452a8d92b56b700890b056",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 3
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 2
+      },
+      "topology_changed": true
+    },
+    {
+      "codepoint": "U+3D116",
+      "source_sha256": "ee5d0ad218cab71867e87e1953d831a064d5266be89dc9811d32673eaee41dbc",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 2,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 2,
+        "counters": 0
+      },
+      "topology_changed": false
+    },
+    {
       "codepoint": "U+3D141",
       "source_sha256": "da43227f48bbddb744638736115263dd044cf5a9eaa63f8730455f18353fd30e",
       "visual_review": "match_after_manual_correction",
@@ -3208,6 +3696,24 @@
       "topology_changed": false
     },
     {
+      "codepoint": "U+3D146",
+      "source_sha256": "c7d73a3458daa548d56bb8ab80f1001a09826555991773a8c4137595f94a91d3",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 5
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 5
+      },
+      "topology_changed": false
+    },
+    {
       "codepoint": "U+3D147",
       "source_sha256": "561afb256dd989a796191429114b371767e03053d3081a49b8cb3cea0817ca5c",
       "visual_review": "match_after_manual_correction",
@@ -3224,6 +3730,24 @@
         "counters": 0
       },
       "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D148",
+      "source_sha256": "d5dce9d6cbef03eb34905b2db3279f43f9b217fae4010b35ee992e178ac46a46",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "mismatch",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 10,
+        "counters": 7
+      },
+      "font_pixel_topology": {
+        "components": 11,
+        "counters": 7
+      },
+      "topology_changed": true
     },
     {
       "codepoint": "U+3D149",
@@ -3276,6 +3800,96 @@
       "font_pixel_topology": {
         "components": 3,
         "counters": 2
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D14C",
+      "source_sha256": "16d0d8bfd52493026e94244ba941234f2f20da0280a318583d53d05b441c505d",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 3,
+        "counters": 1
+      },
+      "font_pixel_topology": {
+        "components": 3,
+        "counters": 1
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D14D",
+      "source_sha256": "f57f6238f5af523e0e3fbab39ae2ba45e597ff3786b299de8aa0c8dd737d18de",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "uncertain",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "manual_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 8,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 7,
+        "counters": 0
+      },
+      "topology_changed": true
+    },
+    {
+      "codepoint": "U+3D14E",
+      "source_sha256": "aaaf380ecb82062569a0f0aa1f7ff7f0403127971d3bc26e044b8e4c9cc69dc0",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 4
+      },
+      "font_pixel_topology": {
+        "components": 4,
+        "counters": 4
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D150",
+      "source_sha256": "12ab1f03742b5a59a926d402a2a08e45cd79b14d64f94e240fc2fc66fc2c7c23",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 4,
+        "counters": 2
+      },
+      "font_pixel_topology": {
+        "components": 4,
+        "counters": 2
+      },
+      "topology_changed": false
+    },
+    {
+      "codepoint": "U+3D153",
+      "source_sha256": "b12cdd71209a10f706606e4c78600506af7af233df2c7bcc83ae00878e2447a2",
+      "visual_review": "match_after_manual_correction",
+      "native_artwork_visual_review": "match",
+      "manual_structural_correction_reviewed": true,
+      "centerline_status": "automatic_geometry_reviewed",
+      "stroke_width": 30.0,
+      "source_pixel_topology": {
+        "components": 2,
+        "counters": 0
+      },
+      "font_pixel_topology": {
+        "components": 2,
+        "counters": 0
       },
       "topology_changed": false
     }

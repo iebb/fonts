@@ -1,16 +1,16 @@
 {
   "code_point": "U+3D16A",
-  "attempt": 1,
+  "attempt": 2,
   "tool": "image_gen.imagegen",
-  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Use THX's clearer spacing when that same construction is attested in the other sources, while considering every available source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No pressure modulation, swelling, taper, brush perimeter, texture, serifs or blobs. Every stroke has identical width, approximately 3% of full square canvas; keep dense counters and gaps open. Exactly one complete glyph centered inside central70% of a square 1:1 canvas, generous empty margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, codepoint, frame, chart, grid, watermark, color, shadows or additional specimens. Preserve structural details rather than decorative resemblance. Codepoint U3D16A. Structural reading aid: THX CCZ QJZ available, DYC absent. Paired detached forks top. LEFT body belowfork is small Ucup on long vertical stem, stem belowcup through inverted-U lower arch and long central descending leg, two outside archlegs shorter. RIGHT body belowfork small upward-open cup with near-top crossbar and tiny innerleft hook, centered connector down to larger rounded enclosure OPEN bottom-left, outer right course curls inward then long descending curved tail. Inside enclosure short detached horizontal baseline with small Y-like shape above. Preserve different169left top hooked-tip absence: here left smallcup has NO long upperleft horizontal hook.",
+  "prompt": "Correct ONE missing mandatory stroke component in attached monoline Small Seal U+3D16A. LEFT BODY currently has only long straight stem from upper fork into lower arch; it MUST ALSO have a SMALL UPWARD-OPEN U-SHAPED CUP halfway down that stem, BELOW upperfork and ABOVE lowerarch. ADD this one small cup crossed centrally by existing long stem: two short upright outside sides connected by a rounded bottom curve, centered on stem. Keep a clear gap above cup to upperfork. All available THX/CCZ/QJZ show this cup; DYC is unavailable. Do NOT add a top horizontal hook (that belongs neighboring169). Preserve lower left inverted-U arch with two outer legs and long central leg; preserve entire right cup/connector/openenclosure/Y+bar/tail, detached topfork pair, proportions. Exactly one added small cup, black constantwidth roundstrokes transparent squarebackground, no labels,text,chart.",
   "reference": "reference/seal/individual/U3D16A.png",
   "reference_viewed_before_generation": true,
-  "original_generated_file": "/workspace/generated_images/exec-4e85a354-db90-4a8e-afae-dd41ff0d13bc.png",
+  "original_generated_file": "/workspace/generated_images/exec-81551478-d718-4130-b710-93cfa40b5f09.png",
   "output_file": "design/seal-individual/U3D16A.png",
   "original_pixels_unchanged": true,
   "visual_review_status": "pending_independent_review",
   "coverage_eligible": false,
-  "sha256": "791674f5bc35b2f6ba079f34ca5c0c86eec07b14232e7d54852dede14217f560",
+  "sha256": "698421d8f7e0495710bccd2636a48f759a5f8a122b71c11570b7e0b0b6b2d7bf",
   "reference_sha256": "81db4280bb1d62d7eb8fde93697177a796b412ca1fa8e6980319d9f6a4eebcf8",
   "reference_metadata_sha256": "e1279fbd5dcc282b5f6aee2b610db35b20d1b2cc07bff9b00b23c26c0426db84",
   "four_specimen_evidence": {
@@ -85,5 +85,9 @@
         "reason": "blank source column in chart"
       }
     }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D16A-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D16A-attempt-1.json"
   }
 }

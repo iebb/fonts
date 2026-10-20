@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -640,21 +640,21 @@
         2
       ],
       "is_loop": false,
-      "path": "M 340.243,729.559 C 384.715,739.764 431.831,743.588 480.92,742.645",
+      "path": "M 340.243,729.559 C 372.2121103579648,736.8949590574526 405.54753066384626,740.9334809826598 439.99999999999994,742.2741292943674",
       "commands": [
         [
           "M",
-          340.2428,
-          729.5591
+          340.243,
+          729.559
         ],
         [
           "C",
-          384.7152,
-          739.7641,
-          431.8306,
-          743.5879,
-          480.9201,
-          742.6454
+          372.2121103579648,
+          736.8949590574526,
+          405.54753066384626,
+          740.9334809826598,
+          439.99999999999994,
+          742.2741292943674
         ]
       ],
       "maximum_fit_error": 2.1331,
@@ -843,17 +843,17 @@
         5
       ],
       "is_loop": false,
-      "path": "M 350.058,546.351 L 487.463,549.623",
+      "path": "M 350.058,546.351 L 440.0,548.4927723081402",
       "commands": [
         [
           "M",
-          350.0575,
-          546.3514
+          350.058,
+          546.351
         ],
         [
           "L",
-          487.4633,
-          549.623
+          440.0,
+          548.4927723081402
         ]
       ],
       "maximum_fit_error": 2.2584,
@@ -1042,17 +1042,17 @@
         6
       ],
       "is_loop": false,
-      "path": "M 350.058,641.227 L 487.463,644.498",
+      "path": "M 350.058,641.227 L 440.0,643.3681177322514",
       "commands": [
         [
           "M",
-          350.0575,
-          641.2268
+          350.058,
+          641.227
         ],
         [
           "L",
-          487.4633,
-          644.4984
+          440.0,
+          643.3681177322514
         ]
       ],
       "maximum_fit_error": 2.4141,
@@ -6986,6 +6986,17 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent whole THX variant: two detached upperforks and three left interior marks attached only to outerleft descender, with free right tips. Native wrongly closes three counters. Crop only mark strokes1\u20133 right tips to x440 retaining exact original remaining courses and allother10paths.",
+      "previous_paths": {
+        "stroke-1": "M 340.243,729.559 C 384.715,739.764 431.831,743.588 480.92,742.645",
+        "stroke-2": "M 350.058,546.351 L 487.463,549.623",
+        "stroke-3": "M 350.058,641.227 L 487.463,644.498"
+      },
+      "native_png_unchanged_and_uncertainty_not_resolved": true
     }
   ]
 }

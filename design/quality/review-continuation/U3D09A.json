@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D09A",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D09A.json",
+  "source_png_sha256": "d5a8dd960d368a8b9f176e6f2663e988a9e032bc8f734443bc51d3a1d3098874",
+  "source_png": "design/seal-individual/U3D09A.png",
+  "reference_png_sha256": "16279e5413963ed4a43533effe1719f85a8f3982f53c8e00b6646bcea840a5b5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D09A.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D09A114-smooth-shoulders-v1/sources/U3D09A.json",
+  "source_json_sha256": "c15979df9c4623a1c8560bde0635b3dd3844fc8d2cfed5f9626488db3c07cf16",
+  "geometry_sha256": "72ec369fc3d580427fc01d850f81bab854334c1a0fb8cfbab4c391cf158c2524",
+  "font_file": "design/quality/proofs/continuation/U3D09A114-smooth-shoulders-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "fab8801849a7c6ac8398863b96ac27e322340113a84fbbd11d0eb2905f0f8445",
+  "raster_file": "design/quality/proofs/continuation/U3D09A114-smooth-shoulders-v1/U3D09A-Regular400.png",
+  "raster_sha256": "d6dc116e5681194f275d1bd88f1ca947e5ddbb3c2eb7378849a52e9902d596c8",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      245,
+      -64,
+      779,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Independently inspected full native, all four enlarged whole references, repaired actual Regular400 full font and enlarged lower branching shoulder. Coherent THX variant retains two upper counters, detached staff, lower bar/stem and four fingers. Smoothed upper shoulder continuous, original finger joints/endpoints retained; all three open slots survive.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "afaf75e89d6ac87bf1164ab26292c732a699219f3d96c3344e303b3a954fd716",
+      "source_json_sha256": "13145c2e8483146347d2e1871e9d581e3c7e3a97441a357b5078ec812c686d2e",
+      "font_sha256": "26b464b9ce7f0635500f765b9571c6f5644eb88d6bd64f512eb1df3540c81dff",
+      "raster_sha256": "94562d1182155245f70a7aed677d023867bfb95402cc65236f77357a06b351a5",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Full native, all four specimens, actual font and enlarged lower shoulder inspected. Detached two-counter top oval, lower rail and four descending fingers retained. Native has smooth common outer shoulder; tracking produces conspicuous scalloped corners and protrusions at each finger attachment, breaking continuous intended outer trajectory.",
+      "requested_corrections": [
+        "Smooth common outer shoulder through finger junctions without changing four fingers, endpoints, rail contact or counters."
+      ]
+    }
+  ]
+}

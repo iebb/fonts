@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -8624,6 +8624,27 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 1.0,
       "maximum_fit_error_font_units": 3.2716
+    },
+    {
+      "id": "restored-right-cup-inner-upward-terminal",
+      "closed": false,
+      "path": "M 543.08,346.786 L 543.08,376.23"
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore only right upper cup inner upward terminal visible in native attempt2 and THX. Automatic tracing retains cup counter/crossbar but drops projecting upright, unlike preserved left cup. Keep every existing source path, roof contact, nested curl, two X and repaired lower paired forks unchanged. This agent is now repair author; acceptance must be by separate reviewer.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "restored-right-cup-inner-upward-terminal",
+          "closed": false,
+          "path": "M 543.08,346.786 L 543.08,376.23"
+        }
+      ],
+      "native_artwork_verdict": "Native attempt2 independently matched references before this source-only repair. PNG/provenance unchanged; no new native generation.",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

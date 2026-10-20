@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -696,17 +696,17 @@
         1
       ],
       "is_loop": false,
-      "path": "M 389.316,314.07 L 389.316,134.134",
+      "path": "M 389.316,268 L 389.316,134.134",
       "commands": [
         [
           "M",
-          389.3163,
-          314.0703
+          389.316,
+          268
         ],
         [
           "L",
-          389.3163,
-          134.1342
+          389.316,
+          134.134
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -7601,6 +7601,15 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.708,
       "maximum_fit_error_font_units": 2.3163
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent whole THX: left upperfork detached from coverroof while right upperfork remains joined. Crop only leftfork centralstem stroke1 bottom endpoint from y314.07 to268; unchanged trajectory and allother13paths. THX innerhook construction preserved.",
+      "previous_paths": {
+        "stroke-1": "M 389.316,314.07 L 389.316,134.134"
+      },
+      "native_png_unchanged_and_uncertainty_not_resolved": true
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "code_point": "U+3D0D6",
-  "attempt": 1,
+  "attempt": 2,
   "tool": "image_gen.imagegen",
-  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0D6: SelectcoherentTHX. LEFT detachedthreebarupright. RIGHT top two closelyspacedhorizontalbars crossedbyshortcentralupright thatrisesaboveboth; rightendturnsupandjoinsasreference, leavingonesmallcounteratupperright. Beneathtopbars THREE detachedshortbentticks evenlyacross. Lowerbody centralwindingstem withwidecrossbar extendingleft, shortleftupwardtwig, androundedshoulder todescendingrightouterreturn. Preserve shortinteriorS-hook andlowerhorizontalbarpair withshortleftconnectingwall, andlongcentralstem descendingbelowlowerbars. Allticks, barsandgaps mustremainvisible asreference; no deletingdensemarks.",
+  "prompt": "Make ONE minimal disconnect repair to FIRST attached U+3D0D6 glyph, guided by SECOND four-specimen reference. On LEFT EDGE of RIGHT lower body, upper left descending stroke currently continues into bottom left cup, closing an EXTRA upper-left white counter. BREAK ONLY this unwanted join: upper left descending stroke must END FREE, separated from bottom cup's own left upright by visible white gap. Keep upper left descending stroke's short upward twig and connection to middle crossbar; shorten only its bottom few units to free it. Keep bottom cup's own left upright and closed LOWER counter intact. Preserve ALL other strokes including top bar structure, three bent marks, inner curl, broad crossbar/right descending return and long central staff. Exactly one gap restored, no other deletions, same constant-width black round strokes on transparent background.",
   "reference": "reference/seal/individual/U3D0D6.png",
   "reference_viewed_before_generation": true,
-  "original_generated_file": "/workspace/generated_images/exec-13f6d7ed-92e0-4134-9d46-d91818620d03.png",
+  "original_generated_file": "/workspace/generated_images/exec-aeabca56-71f4-4a5e-8c8c-ec80b1046000.png",
   "output_file": "design/seal-individual/U3D0D6.png",
   "original_pixels_unchanged": true,
   "visual_review_status": "pending_independent_review",
   "coverage_eligible": false,
-  "sha256": "e419ae44df60914194b33f5d2dd837c7e209bff305ac966d4a4ed79bc66ef4ba",
+  "sha256": "0560735de5740b3f0c50d21a468a74e5654f605f48d69fc28965fd4220dbd9f9",
   "reference_sha256": "a77b088eae08aca41ecb5d7a347620642c70cd21d65bd73958bc854cbc16f775",
   "reference_metadata_sha256": "c1dfcc4c6a04b2d4e7d15418081b7a9c660f5aec3663c900f9bc44b7b6e0fd9c",
   "four_specimen_evidence": {
@@ -100,5 +100,8 @@
         "source_label": "D-00200"
       }
     }
-  }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D0D6-attempt-1.json"
+  ]
 }

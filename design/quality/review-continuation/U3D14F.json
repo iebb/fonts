@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D14F",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "mismatch",
+  "native_verdict": "match",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D14F.json",
-  "source_png_sha256": "21c89ae311952f3238696dc60bd881534df6449dd7dbb3a42eb4e77bef201230",
+  "source_png_sha256": "700a8625826c7e5466cc3eacd0f517f50368702ea3fbe473df3bdece278a716e",
   "source_png": "design/seal-individual/U3D14F.png",
   "reference_png_sha256": "24017b709db169426557f4ac4ffe4da2768da2b1521dadb896c449b6299643bb",
   "reviewed_specimens": [
@@ -16,35 +16,47 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D14F.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight1/sources/U3D14F.json",
-  "source_json_sha256": "89e2d0f304165278e8eaee606b90d0d750e306223fdf4c4bf52e0209f78eecde",
-  "geometry_sha256": "5d217fd2009074c9bb3ec2bb330a4f6802aebc9b6164e1c2ccc91807926608e9",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "8959493c12b75d4bec6eb8545ab3d723252c9b2574102964b37233ba698837bf",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight1/U3D14F-Regular400.png",
-  "raster_sha256": "835292eaa88a0dd85e49e32eaf908923448e44e7985ca73601acd18d89ce46c1",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D14F-restored-cup-stub-v1/sources/U3D14F.json",
+  "source_json_sha256": "aad6044415d1dd86f08e65298f9189bc5deb34c4865df73b2fd815defe6f3bf0",
+  "geometry_sha256": "71c045c8f9c18ef6624eb908003fee99f0f7425df5b0123a078aa9d90d623436",
+  "font_file": "design/quality/proofs/continuation/U3D14F-restored-cup-stub-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ead4d287ddb8e4f97487b2c1a38615fccbd8afc907b4572bbd9c490d97b362b7",
+  "raster_file": "design/quality/proofs/continuation/U3D14F-restored-cup-stub-v1/U3D14F-Regular400.png",
+  "raster_sha256": "07cc0a55155c01d05d5dd41a4e4beede478a2b42b8bd5ea1f8ca11f9c7e34803",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      217,
+      250,
       -64,
-      807,
+      774,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/font and all four enlarged specimens plus enlarged lower native/font inspected. Upper forks, roof, two small cups, nested curl with inner course and two X marks retained. Bottom structure is one continuous M-shaped wave with only two free endpoints. THX/CCZ/QJZ show paired fork construction with a third outward right-facing terminal separate from long descending tail; native and font omit that branch and route long tail from right peak.",
-  "requested_corrections": [
-    "Restore coherent lower paired forks: retain separate outward right-facing terminal and route long tail from the central descending course per selected whole historical variant. Preserve three required free endpoints."
-  ],
+  "notes": "Independently inspected full native attempt2, all four enlarged whole references, repaired Regular400 full font and enlarged paired cups/nested curl/X crop. Native matches coherent THX form: two roof cups, inner upward terminals, nested curl and two X marks, bottom paired forks with central-origin tail. Actual font now retains short upward inner terminal of right cup, both cup counters open, all lower courses preserved. Shared pen retained.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "16cbca421fd2a9c4e1e8434cf0755bec4e704214c9b6d7f7a0fd294f1ddc33a2",
+      "source_json_sha256": "a0946fd3aedcf7a6637c8d8d89322f1c795c140e15ba3a2399fded09f423c6c8",
+      "font_sha256": "f9743b94b87e62ef101363fcb2c656940327c35debabb8b17c4ed3a8dcd06889",
+      "raster_sha256": "a81d2be7a3c74ef06ba5dd3d6f4c491898cf0474005119a82775222d8600af0e",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Independently re-viewed native attempt2, all four complete specimens, actual Regular400 and enlarged upper cups/lower fork details. Native now restores correct third lower outward terminal, central-origin tail, nested curl and coherent THX roof/cup contacts. Actual font retains repaired bottom structure but loses short upward inner terminal of RIGHT upper cup: native has upright projecting above crossbar, whereas font has rounded top-left corner only. Enlarged actual crop confirms missing stem; left cup upward inner terminal remains present.",
+      "requested_corrections": [
+        "Restore short inner upward terminal on right upper cup from native, preserving its crossbar, closed counter, outer roof contact, and all lower paired-fork courses."
+      ]
+    }
   ]
 }

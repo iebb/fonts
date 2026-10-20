@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D16A",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Use THX's clearer spacing when that same construction is attested in the other sources, while considering every available source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No pressure modulation, swelling, taper, brush perimeter, texture, serifs or blobs. Every stroke has identical width, approximately 3% of full square canvas; keep dense counters and gaps open. Exactly one complete glyph centered inside central70% of a square 1:1 canvas, generous empty margins. Pure BLACK strokes on fully TRANSPARENT background. No text, labels, codepoint, frame, chart, grid, watermark, color, shadows or additional specimens. Preserve structural details rather than decorative resemblance. Codepoint U3D16A. Structural reading aid: THX CCZ QJZ available, DYC absent. Paired detached forks top. LEFT body belowfork is small Ucup on long vertical stem, stem belowcup through inverted-U lower arch and long central descending leg, two outside archlegs shorter. RIGHT body belowfork small upward-open cup with near-top crossbar and tiny innerleft hook, centered connector down to larger rounded enclosure OPEN bottom-left, outer right course curls inward then long descending curved tail. Inside enclosure short detached horizontal baseline with small Y-like shape above. Preserve different169left top hooked-tip absence: here left smallcup has NO long upperleft horizontal hook.",
+  "reference": "reference/seal/individual/U3D16A.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-4e85a354-db90-4a8e-afae-dd41ff0d13bc.png",
+  "output_file": "design/seal-individual/U3D16A.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "791674f5bc35b2f6ba079f34ca5c0c86eec07b14232e7d54852dede14217f560",
+  "reference_sha256": "81db4280bb1d62d7eb8fde93697177a796b412ca1fa8e6980319d9f6a4eebcf8",
+  "reference_metadata_sha256": "e1279fbd5dcc282b5f6aee2b610db35b20d1b2cc07bff9b00b23c26c0426db84",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D16A",
+    "page": 8,
+    "label_bbox": [
+      87.30000305175781,
+      158.47019958496094,
+      117.86940002441406,
+      169.62997436523438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 8,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          159.7679901123047,
+          144.17999267578125,
+          181.22999572753906
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          157.2732940673828,
+          146.20000305175782,
+          182.25328674316407
+        ],
+        "source_label": "TH-Y012"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 8,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          155.2401885986328,
+          168.03985595703125,
+          177.239990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          154.67019958496093,
+          172.8000030517578,
+          182.25328674316407
+        ],
+        "source_label": "C-00351"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 8,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          159.49417114257812,
+          196.539794921875,
+          181.11595153808594
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          154.67019958496093,
+          199.5000030517578,
+          182.25328674316407
+        ],
+        "source_label": "K-00333"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

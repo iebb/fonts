@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D151",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D151.json",
+  "source_png_sha256": "07a024a7ed376362e7f65f66a0b2e3486f38ccdc41930775c7e03ce71cbfb82e",
+  "source_png": "design/seal-individual/U3D151.png",
+  "reference_png_sha256": "4dd57dab969dd7e7b2c9a2a91d3babfd8eb0d804f8e990fdb0fe300a3b674894",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D151.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D15116A-restored-inner-bars-v1/sources/U3D151.json",
+  "source_json_sha256": "7ecbd276270bb92eb93eccf907cd3b1913b00cf52a1773a27d4879205b96f51f",
+  "geometry_sha256": "8fcfad2927adbf88d947977a115adc009124fc9b513439f611693174e79ec370",
+  "font_file": "design/quality/proofs/continuation/U3D15116A-restored-inner-bars-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2ab2eeb9548d284db9884ac16f5f38dcf81740bedcb468497469c3777704950c",
+  "raster_file": "design/quality/proofs/continuation/U3D15116A-restored-inner-bars-v1/U3D151-Regular400.png",
+  "raster_sha256": "f70c40286fa270f3f8e28d4cd2e56bacbe403e29aa11b45bc91c0320533b1d86",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      281,
+      -64,
+      743,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Independently inspected full retry2 native, all four enlarged whole references, repaired Regular400 full font and enlarged inner cup/stool crop. Added middle crossbar restores four cup counters while keeping central upright and detached surrounding courses. Upper short inner hook and stool outer legs now correct, coherent THX trident contacts retained. Native remains mismatch because it has only two cup counters.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "47b39346ce6c863cba4bb1ba9831ad841911c86c118d2261515f93fbb606acc2",
+      "source_json_sha256": "baf2b33c8fbfd0f7f766af3005080269c616a51e2b2dd4553f6df4bfd70a1051",
+      "font_sha256": "b4ebf51f876849d9484c85a941ab4953d2cc55f91ce7fd299e743fa0613a0f8e",
+      "raster_sha256": "7cde6902965d119d75956b7c783b1b2b3a3a120ff20d22bf3eb9a49762d87c10",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged top hook region inspected. Missing short inner down-and-right hook from upper-right rail in native/font. Native lower stool has both outer short legs detached, contrary coherent THX contacts where both join curved upper rail. Font additionally joins top-right trident to rail despite native gap; THX requires gap. Shared interior four-counter cup remains.",
+      "requested_corrections": [
+        "Restore short inner down-and-right hook directly beneath upper-right rail.",
+        "Use coherent THX contacts: attach both stool outer short legs to curved upper rail and keep top tridents detached from main top rail.",
+        "Preserve four cup counters, inner horizontal courses and outer walls."
+      ]
+    }
+  ]
+}

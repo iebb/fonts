@@ -1,16 +1,16 @@
 {
   "code_point": "U+3D0D3",
-  "attempt": 1,
+  "attempt": 2,
   "tool": "image_gen.imagegen",
-  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0D3: LEFT detachedthreebarupright. RIGHT two matchingupper motifs sidebyside: eachshortcentralupright withtwohorizontalcrossbarlevels and a roundU return underupperbar; eachcontinuesdowninto pair ofopen roundeddescending/bentlegs. Keeptheseuppermotifs separate. BELOWthem one wide roundedUcup openupward, withtalluprightsides. ONE horizontalbar crosses lowercup creatingONE closedbottomcounter. Insideupperright ofcup a shortverticalhook bendsright toconnect rightwall; leftpartabovebar remainsopen. Preservefourdescendingupperlegs and lowerinnerhook, no extra closeduppercups. CoherentTHX wholeconstruction.",
+  "prompt": "Make ONE minimal repair to FIRST attached U+3D0D3 glyph, using SECOND referenceimageforstructure. Thetwo uppermotifs shouldmatch: LEFTuppermotifalreadyhas a SMALL CLOSED WHITECOUNTER betweenitsleftshortwallandcentralstaff, whileRIGHTuppermotifis missingitsleftdescendingreturn. ADDthemissing shortverticalleftwall belowRIGHTmotif'suppercrossbar, then curveRIGHT tojoinRIGHTmotif'slowercrossbar. This creates EXACTLYONE smallcounterinsideRIGHTuppermotif, matchingLEFTuppermotif'sconstruction andTHX/CCZ/QJZreference. ExistingRIGHTsmalluprightatleftendcurrentlystopsatuppercrossbar; extenditdownandright tolowerbar. Preserveallotherstrokes: leftthreebarcomponent, leftuppercounter, bothupperstaffs andtheirfourdescendinglegs, lowerwidecup andinnerhook/internalbar. Noothergeometrychanges, noaddedcounterelsewhere. Sameblackconstantwidthroundedstrokes transparentbackground.",
   "reference": "reference/seal/individual/U3D0D3.png",
   "reference_viewed_before_generation": true,
-  "original_generated_file": "/workspace/generated_images/exec-e33e9744-5808-4244-be6d-4aa2cc10c8ec.png",
+  "original_generated_file": "/workspace/generated_images/exec-92ffcb8a-fa81-4a7e-8954-0c1e9131ff49.png",
   "output_file": "design/seal-individual/U3D0D3.png",
   "original_pixels_unchanged": true,
   "visual_review_status": "pending_independent_review",
   "coverage_eligible": false,
-  "sha256": "a7a223e7baa3f68651707f5cc98ac32eedccecf73da7b67cd61f1505b87d7a53",
+  "sha256": "e1dfefb951bbf6d293369cfaf011c017c5731b7f76472ef8d2045646651dcd47",
   "reference_sha256": "093455a1e5d1b8691501aa9b8e70de6f5096a0c3a6e6903b79e292fd5182189f",
   "reference_metadata_sha256": "7e3bb0ac067a3ca7eaa0df5dd1a897d4975a929209668e9cda8791fe4c08cf4a",
   "four_specimen_evidence": {
@@ -100,5 +100,8 @@
         "source_label": "D-00197"
       }
     }
-  }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D0D3-attempt-1.json"
+  ]
 }

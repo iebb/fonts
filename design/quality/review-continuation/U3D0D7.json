@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0D7",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D7.json",
+  "source_png_sha256": "8a775ac19aac491cb02a563241b78e77208fb7e50cf84d04bb25809b9976ca13",
+  "source_png": "design/seal-individual/U3D0D7.png",
+  "reference_png_sha256": "0d693dbb442170dade96be8ce2c02bdb486b6801efac46061061a7b6f092bf06",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0D7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-tenth-eight/sources/U3D0D7.json",
+  "source_json_sha256": "cde6da3807b795027832333b33b550e2c18cee30f72ab82be527da3c087efbcb",
+  "geometry_sha256": "bb20188b4d02c09cf2c7746510032bd408f4f21b1c99221463bf548edbc0e7c2",
+  "font_file": "design/quality/proofs/continuation/review-tenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
+  "raster_file": "design/quality/proofs/continuation/review-tenth-eight/U3D0D7-Regular400.png",
+  "raster_sha256": "5fc24b62271636cbdb782c9e694f9be925067dce172b9fe0c750939965c5e49e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      218,
+      -64,
+      806,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged right bowl inspected. Missing lower of two detached interior horizontal bars within right bowl; upper detached bar present. THX/CCZ/QJZ all show two. Left three-counter enclosure, long right descent and lower staff retained.",
+  "requested_corrections": [
+    "Restore second detached horizontal between right bowl middle course and lower return, leaving clear gaps."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}
