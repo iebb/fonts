@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D185",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D185.json",
+  "source_png_sha256": "1ffc6b40a160fc7f883aab3686fe77ffa392e646c850889aa5aa2c22ec452596",
+  "source_png": "design/seal-individual/U3D185.png",
+  "reference_png_sha256": "7cfb4d187cfded78930c7863a45a8bd5bc3793e4e745f5a6758698e2d0e1387c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D185.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-eighteenth-eight/sources/U3D185.json",
+  "source_json_sha256": "c585aac19f5972b76c70d178193a5f14fc09915e4ed81bc0e2d97dbd257ccbf7",
+  "geometry_sha256": "1b17bd65e9a74f8ac2f18ebd16eeeca6d79e5ba795aa4b51290aa2e5c10c91cf",
+  "font_file": "design/quality/proofs/continuation/review-eighteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce45c626ed89ae6e3f8dd561534970035ac500722ccf1127b3e66f84e5ade3aa",
+  "raster_file": "design/quality/proofs/continuation/review-eighteenth-eight/U3D185-Regular400.png",
+  "raster_sha256": "b1ba9dc2967fc3fe86001532e7a23b5770c384906fe89ec648350080c4b68e6f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      282,
+      -64,
+      742,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full retry2 native, all4enlarged whole specimens, full actual Regular400 and enlarged upperfork/rail contact inspected. Whole variant mismatch: leftfork detached but rightfork joined to broad cuprail. THX bothforks detached; CCZ/QJZ both joined; DYC leftjoined/rightdetached. No available whole supports current rightjoined/leftdetached combination. Other uppercupcounter/shorttopstub, lowercover with hanginginnercupcounter and outerlegs retained.",
+  "requested_corrections": [
+    "Select coherent THX by releasing only rightforkstem from uppercuprail, retaining clear gap comparable leftfork and all other courses/counters."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

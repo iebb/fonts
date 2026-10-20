@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -5742,257 +5742,47 @@
       "maximum_fit_error_font_units": 3.2182
     },
     {
-      "points": [
-        [
-          664.1278,
-          359.8722
-        ],
-        [
-          664.1278,
-          356.6006
-        ],
-        [
-          667.3994,
-          353.3291
-        ],
-        [
-          670.6709,
-          353.3291
-        ],
-        [
-          673.9425,
-          350.0575
-        ],
-        [
-          677.2141,
-          350.0575
-        ],
-        [
-          680.4856,
-          350.0575
-        ],
-        [
-          683.7572,
-          350.0575
-        ],
-        [
-          687.0288,
-          350.0575
-        ],
-        [
-          690.3003,
-          350.0575
-        ],
-        [
-          693.5719,
-          350.0575
-        ],
-        [
-          696.8435,
-          353.3291
-        ],
-        [
-          700.115,
-          353.3291
-        ],
-        [
-          703.3866,
-          353.3291
-        ],
-        [
-          703.3866,
-          356.6006
-        ],
-        [
-          706.6581,
-          356.6006
-        ],
-        [
-          709.9297,
-          359.8722
-        ],
-        [
-          713.2013,
-          363.1438
-        ],
-        [
-          716.4728,
-          363.1438
-        ],
-        [
-          716.4728,
-          366.4153
-        ],
-        [
-          719.7444,
-          366.4153
-        ],
-        [
-          723.016,
-          369.6869
-        ],
-        [
-          726.2875,
-          369.6869
-        ],
-        [
-          726.2875,
-          372.9585
-        ],
-        [
-          729.5591,
-          372.9585
-        ],
-        [
-          729.5591,
-          376.23
-        ],
-        [
-          732.8307,
-          376.23
-        ],
-        [
-          736.1022,
-          379.5016
-        ],
-        [
-          739.3738,
-          379.5016
-        ],
-        [
-          739.3738,
-          382.7732
-        ],
-        [
-          742.6454,
-          382.7732
-        ],
-        [
-          742.6454,
-          386.0447
-        ],
-        [
-          745.9169,
-          386.0447
-        ],
-        [
-          749.1885,
-          389.3163
-        ],
-        [
-          752.4601,
-          389.3163
-        ],
-        [
-          752.4601,
-          392.5879
-        ],
-        [
-          755.7316,
-          392.5879
-        ],
-        [
-          755.7316,
-          395.8594
-        ],
-        [
-          759.0032,
-          395.8594
-        ],
-        [
-          759.0032,
-          399.131
-        ],
-        [
-          762.2748,
-          399.131
-        ],
-        [
-          765.5463,
-          399.131
-        ]
-      ],
       "graph_edges": [
         24
       ],
       "is_loop": false,
-      "path": "M 664.128,359.872 C 668.381,348.161 686.299,347.855 697.411,352.152 C 702.326,354.052 705.909,356.852 709.868,359.781 C 714.13,362.933 718.828,366.235 722.966,369.262 C 726.515,371.858 729.651,374.251 732.954,376.752 C 736.53,379.461 740.301,382.295 744.131,385.047 C 747.962,387.799 751.851,390.468 754.884,393.494 C 757.686,396.289 759.759,399.389 765.546,399.131",
-      "commands": [
-        [
-          "M",
-          664.1278,
-          359.8722
-        ],
-        [
-          "C",
-          668.3808,
-          348.1613,
-          686.2989,
-          347.8551,
-          697.4114,
-          352.1516
-        ],
-        [
-          "C",
-          702.3256,
-          354.0518,
-          705.909,
-          356.8519,
-          709.8682,
-          359.7806
-        ],
-        [
-          "C",
-          714.1304,
-          362.9334,
-          718.8284,
-          366.2354,
-          722.9656,
-          369.2616
-        ],
-        [
-          "C",
-          726.5146,
-          371.8576,
-          729.651,
-          374.2511,
-          732.9537,
-          376.7522
-        ],
-        [
-          "C",
-          736.5298,
-          379.4607,
-          740.3013,
-          382.2952,
-          744.1313,
-          385.0469
-        ],
-        [
-          "C",
-          747.9617,
-          387.7986,
-          751.8506,
-          390.4676,
-          754.8843,
-          393.4941
-        ],
-        [
-          "C",
-          757.6864,
-          396.2893,
-          759.7589,
-          399.3894,
-          765.5463,
-          399.131
-        ]
-      ],
-      "maximum_fit_error": 1.7922,
+      "path": "M 637.955,389.316 L 687.029,343.514 L 765.546,399.131",
       "curve_segments": 7,
       "id": "stroke-14",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.5478,
-      "maximum_fit_error_font_units": 1.7922
+      "closed": false
+    },
+    {
+      "id": "stroke-15-restored-inner-c-bar",
+      "path": "M 487.463,618.326 C 535,561 666,538 775.361,526"
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Fresh nativeattempt2/fullTHX inspected: upperchevroncontacts/lowerchevronarms now restored, but middle innerCbar missing. Restore only curved inward bar from existing C/longdescent junction487.463618.326 to freerighttip775.361526, retaining all14 originalcourses and coherent THX whole. Native2 missingbar remains mismatch.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-15-restored-inner-c-bar",
+          "path": "M 487.463,618.326 C 535,561 666,538 775.361,526"
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
+    },
+    {
+      "reason": "Independent enlarged native2 review finds lower-rightchevron leftascending half lostbytracking. Recover complete native2chevron through sourceleftfreetip637.955389.316,peak687.029343.514 and exactoriginalrightfreetip765.546399.131; sourcecoordinatesmappedfrom1254PNGvia1024scale. Allothercourses inclnewinnerCbar unchanged; native remainsmissingCbar mismatch.",
+      "changes": [
+        {
+          "stroke_id": "stroke-14",
+          "previous_path": "M 664.128,359.872 C 668.381,348.161 686.299,347.855 697.411,352.152 C 702.326,354.052 705.909,356.852 709.868,359.781 C 714.13,362.933 718.828,366.235 722.966,369.262 C 726.515,371.858 729.651,374.251 732.954,376.752 C 736.53,379.461 740.301,382.295 744.131,385.047 C 747.962,387.799 751.851,390.468 754.884,393.494 C 757.686,396.289 759.759,399.389 765.546,399.131",
+          "repaired_path": "M 637.955,389.316 L 687.029,343.514 L 765.546,399.131"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

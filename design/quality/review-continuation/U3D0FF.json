@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0FF",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0FF.json",
+  "source_png_sha256": "9e572a8f523aaead16bdd739add45f08b272b95ddc6b8fe829b25f8c83f965c7",
+  "source_png": "design/seal-individual/U3D0FF.png",
+  "reference_png_sha256": "024f44d5f63b69262e9240be344fc310057793716b15fccfb672ce93f72786e1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D0FF.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0FEFF-restored-contacts-v1/sources/U3D0FF.json",
+  "source_json_sha256": "53887b1168b225d6aac2d3fd91453a599ad2d2561e2cb8c3df1d823578f2f29c",
+  "geometry_sha256": "ac110e06dbf1effb8be24ebe7c6b096d0a726eddf8bbf215364ec5be7c1ce642",
+  "font_file": "design/quality/proofs/continuation/U3D0FEFF-restored-contacts-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "19b6a05e0ad1f696ad80b77ec57cabdbf9b253796d7d82bb47d5986dadc5a358",
+  "raster_file": "design/quality/proofs/continuation/U3D0FEFF-restored-contacts-v1/U3D0FF-Regular400.png",
+  "raster_sha256": "e27cb55e889f21977ceb70dce3748fe4e52a1725d3dbb5bdbd04fbae4a04effe",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      230,
+      -64,
+      794,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected both available enlarged whole THX/CCZ specimens, native, full compiled Regular400 and enlarged lower contacts. Upper lower-compound branch now joins outer left wall; inward arm from right upright joins the middle descending branch, matching coherent THX construction. Three diagonal levels, shared winding spine, upper free return tips, separate left staff and outer descenders preserved. Regular400 trajectories, gaps and round constant-width construction acceptable. Native remains mismatch for original omitted contacts; QJZ/DYC unavailable.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e67f41cdc6d016aa2f91a17bc6186202c63c019e38d6b105b01afc9c3e5c6697",
+      "source_json_sha256": "ca6d5287da126204f0638f79684fee7f2bd3e57d3c9037c048d54b26d2a4f5a4",
+      "font_sha256": "2174e769a1cfffdef526e9f6882b4612f17e2a19a59868383f913143fbf3c4f9",
+      "raster_sha256": "92353cf676136cfc4c33f1a64b85de9da0c3e2769933abb9811670af01b97d30",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, both available enlarged whole specimens THX/CCZ (QJZ/DYC unavailable), full actual Regular400 and enlarged lower internal compound inspected. Native omits the connecting upper-left arm of right internal long upright into middle branch of left internal descending construction, leaving a standalone vertical. Both available whole specimens include this right fork contact. THX additionally joins the top leftward lower branch into outer wall; current branch stops free. Actual reproduces omissions.",
+      "requested_corrections": [
+        "Restore right inner upright upper-left arm linking into middle branch junction of lower internal descending construction.",
+        "Use coherent whole THX: connect top leftward lower branch to outer left wall; preserve all remaining inner/outer courses and left staff separation."
+      ]
+    }
+  ]
+}

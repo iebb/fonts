@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D170",
-  "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root",
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": "Full retry2 native, all four enlarged whole specimens, full actual Regular400 and enlarged central upper/lower compounds independently inspected. Coherent THX detached top forks, short central topstub, two right rounded-loop counters and outward middle-rail branch restored. Broad chevron and short crossbar, two detached lower diagonal marks, free-ended internal descending fork, separate outer cup and base with paired central supports/two free side marks retained. Actual two upper counters and base counter open, internal fork remains separated from bowl and all required gaps survive at400.",
   "source_png": "design/seal-individual/U3D170.png",
-  "source_png_sha256": "bf80e8b5f31beb046cc1b70b8959ca4ebebd3f2828d60c9bcbd201c7c2191234",
+  "source_png_sha256": "29b69349ffd0cfd07c55cf21a75a01721554e7f6265f30282aa68779e664ac8b",
   "reference_overview": "reference/seal/individual/U3D170.png",
   "reference_png_sha256": "e4d1ba3ec5646e0c991c3a8329ab6c5ea6fc7547e3793fc0acfe4282049a65c9",
   "reviewed_specimens": [
@@ -14,10 +15,19 @@
     "DYC"
   ],
   "unavailable_specimens": [],
-  "notes": [
-    "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Detached top forks, central upper stub, lower outward branches/bar, open bowl with detached inner slants/fork ends, paired lower staffs, two detached side marks and baseline retained. Upper right rounded return closes only one field between top and middle rails; coherent THX requires return continuing across middle rail to third rail to form two right fields. Native and actual font omit second upper loop counter."
-  ],
   "limitations": [
-    "Exact PNG fingerprint only; no paleographic or writing-order certification."
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "bf80e8b5f31beb046cc1b70b8959ca4ebebd3f2828d60c9bcbd201c7c2191234",
+      "verdict": "mismatch",
+      "notes": [
+        "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Detached top forks, central upper stub, lower outward branches/bar, open bowl with detached inner slants/fork ends, paired lower staffs, two detached side marks and baseline retained. Upper right rounded return closes only one field between top and middle rails; coherent THX requires return continuing across middle rail to third rail to form two right fields. Native and actual font omit second upper loop counter."
+      ],
+      "reference_png_sha256": "e4d1ba3ec5646e0c991c3a8329ab6c5ea6fc7547e3793fc0acfe4282049a65c9"
+    }
   ]
 }

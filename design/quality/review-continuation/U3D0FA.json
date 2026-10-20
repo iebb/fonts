@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0FA.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-sixteenth-eight/sources/U3D0FA.json",
-  "source_json_sha256": "39591c46230ffc94452e7649438eb2ac2047f1073bd45fd4b301cd4dcf8c726d",
-  "geometry_sha256": "c7357c5559ad611aa1d9d6cf9537295e5785d44b8ebe3a8cb76ab6eb584b4fa5",
-  "font_file": "design/quality/proofs/continuation/review-sixteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "72ee788426e91a43fb0e1bd63201e4c67f6b5c3ae56d3975c9b029b129894568",
-  "raster_file": "design/quality/proofs/continuation/review-sixteenth-eight/U3D0FA-Regular400.png",
-  "raster_sha256": "5af4f489eb36cda2cfc2bd0c88482e852c1dcc00de0d3c75752ad7540e404c8b",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0FA-exact-wall-contact-v2/sources/U3D0FA.json",
+  "source_json_sha256": "838c01d08f054f4c4d1eba27473a11491f9813bea745f58ab529285fccbd8955",
+  "geometry_sha256": "7eb268046084cf367e1da627b7b693edb73ea2952e322154011b3fd26c061ac5",
+  "font_file": "design/quality/proofs/continuation/U3D0FA-exact-wall-contact-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f18ffeccce2a16990b0c4a3fef5d86b3005b44744d93354347a4248aaf1f368e",
+  "raster_file": "design/quality/proofs/continuation/U3D0FA-exact-wall-contact-v2/U3D0FA-Regular400.png",
+  "raster_sha256": "83aed834f11c6b5ffa67e3a8c0019e43c12a7249a996082e93bf0d4b2fedc667",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged oval inner chevrons inspected. Both native and font leave all four inner chevron tips free of oval walls. All available whole specimens close the upper Y pair and lower chevron pair to walls, yielding four counter fields; current construction has one oval field with free marks. Outer L, lower three-bar staff and three right slants with split descending tails otherwise retained.",
-  "requested_corrections": [
-    "Restore all four inner chevron tip contacts with oval sidewalls, preserving upper Y-to-topstem link, lower chevron apex gap, outer courses and full whole THX four-counter topology."
-  ],
+  "notes": "Full native/all4 enlarged whole specimens rechecked with full repaired actual Regular400 and independently generated enlarged oval crop. Four inner chevron tip-to-wall contacts now close coherent THX four-counter oval with topstem/Y link, while lower apex stub gap, outer L/staff and right split-descending/slant courses retained. Exact V2 contacts end at oval centerlines without protrusion. Native mismatch remains free interior tips.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "c7357c5559ad611aa1d9d6cf9537295e5785d44b8ebe3a8cb76ab6eb584b4fa5",
+      "source_json_sha256": "39591c46230ffc94452e7649438eb2ac2047f1073bd45fd4b301cd4dcf8c726d",
+      "font_sha256": "72ee788426e91a43fb0e1bd63201e4c67f6b5c3ae56d3975c9b029b129894568",
+      "raster_sha256": "5af4f489eb36cda2cfc2bd0c88482e852c1dcc00de0d3c75752ad7540e404c8b",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged oval inner chevrons inspected. Both native and font leave all four inner chevron tips free of oval walls. All available whole specimens close the upper Y pair and lower chevron pair to walls, yielding four counter fields; current construction has one oval field with free marks. Outer L, lower three-bar staff and three right slants with split descending tails otherwise retained.",
+      "requested_corrections": [
+        "Restore all four inner chevron tip contacts with oval sidewalls, preserving upper Y-to-topstem link, lower chevron apex gap, outer courses and full whole THX four-counter topology."
+      ]
+    }
   ]
 }

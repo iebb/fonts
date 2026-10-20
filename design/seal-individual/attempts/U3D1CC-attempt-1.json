@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D1CC",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Two detached top tridents. Left below trident horizontal serpentine S with TWO reversals, continuing into long outerright vertical descender for left assembly. Inside its lower left detached rounded square with X (four triangular counters), a central stem from square floor goes down through short horizontal bar to long baseline. Right below trident separate zigzagging staff, with narrow slanting parallelogram-shaped two-counter pocket attached at middle, ONE dividing diagonal crossbar, then long curved bottomtail. Preserve X box detached from S and full right two counters.",
+  "reference": "reference/seal/individual/U3D1CC.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-52314763-3e0d-4fac-9e5b-b8c27ed9c003.png",
+  "output_file": "design/seal-individual/U3D1CC.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "f223a14d4bc0b6e4d22d8ed113695ff24b7052b4163860fd6a0d90206860e612",
+  "reference_sha256": "2f06b6dd0dfa61c7a0e3a5a53380b25a5548c0020d5d34e352002b19315665a5",
+  "reference_metadata_sha256": "22c90d89c2ba27d7c49c976eff08e39ca104aee35ffecc6f1050d57470f8aa8c",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D1CC",
+    "page": 9,
+    "label_bbox": [
+      384.8999938964844,
+      95.05015563964844,
+      417.6792907714844,
+      106.20993041992188
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 9,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          93.32100677490234,
+          441.7799987792969,
+          118.50000762939453
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          91.25015563964844,
+          443.79999389648435,
+          118.83331146240235
+        ],
+        "source_label": "TH-00429"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 9,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          91.88020324707031,
+          465.6398620605469,
+          113.8800048828125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          91.25015563964844,
+          470.3999938964844,
+          118.83331146240235
+        ],
+        "source_label": "C-00447"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 9,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          96.13419342041016,
+          494.1398010253906,
+          117.75596618652344
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          91.25015563964844,
+          497.09999389648436,
+          118.83331146240235
+        ],
+        "source_label": "K-00429"
+      },
+      "DYC": {
+        "available": true,
+        "page": 9,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          93.33219146728516,
+          519.0398559570312,
+          118.36796569824219
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          91.25015563964844,
+          523.7999938964844,
+          118.83331146240235
+        ],
+        "source_label": "D-00426"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Outer S descender joins baseline incorrectly."
+  ]
+}

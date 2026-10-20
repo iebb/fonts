@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1A3",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1A3.json",
+  "source_png_sha256": "b640884314dd987bd52d48fdd2a290bed15ff2b8f450740b719f972502010945",
+  "source_png": "design/seal-individual/U3D1A3.png",
+  "reference_png_sha256": "50fff15c3e01af4c3cc115343923153439daf947d811bf2226a44493bf12b064",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1A3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentieth-eight/sources/U3D1A3.json",
+  "source_json_sha256": "9f68cecbfb82294f320e6d8d84ef45197d4a8c88bdc8d1fe36b9a0fe93d13ff8",
+  "geometry_sha256": "0661b2350012fc7c94fde0e5f21c229772b6331dc100e42f8a864dc52563fde1",
+  "font_file": "design/quality/proofs/continuation/review-twentieth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3e61a664412208d934b8d8d2eef59347aeea771e0a76a410448938c2c7cfa4f4",
+  "raster_file": "design/quality/proofs/continuation/review-twentieth-eight/U3D1A3-Regular400.png",
+  "raster_sha256": "a2f7ae08e52ef5324bfa014a8a35396ce4287baf221003d76709be06bdccfefc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      261,
+      -64,
+      763,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Inspected all four enlarged whole references, native, actual and enlarged fork/roof contacts. Native/font left fork detached and right joined is unsupported: THX both free, CCZ/QJZ both joined, DYC left joined/right free. Current three-counter body/upper bent course/external upstub/two feet otherwise closest THX. Native mismatch.",
+  "requested_corrections": [
+    "Release only right fork stem from upper bent course to match coherent THX both detached forks; retain short downstub, upper course upstub and all other trajectories."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

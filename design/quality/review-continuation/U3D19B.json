@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D19B",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D19B.json",
+  "source_png": "design/seal-individual/U3D19B.png",
+  "source_png_sha256": "82356cd3408004e4287b2ee1c44e33e2af47bdcb67da89d728113666a675c1d7",
+  "reference_png_sha256": "b8cf01553f03953155fdb384d91576c7604b5a4403c687d5f36405850c031c15",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D19B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-19B-native2-gaps-v1/sources/U3D19B.json",
+  "source_json_sha256": "a0c95c2cec56c4d2d54ab6ddd1f3d968aa316cbd00637c61a327dfec6b1af979",
+  "geometry_sha256": "77018f7e783e402041eb591cc1e5d2d389f9aa204d4584bf180f519ddc927235",
+  "font_file": "design/quality/proofs/continuation/root-19B-native2-gaps-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "de90a507ba6ce6f3456152388f1f4208525d27b34b1857950e90123b41926f75",
+  "raster_file": "design/quality/proofs/continuation/root-19B-native2-gaps-v1/U3D19B-Regular400.png",
+  "raster_sha256": "ee70c57b1815048e2e1c1d6fb6928b29638fe944c6adc895c87d821b844ae70a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      269,
+      -64,
+      755,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Retry2 full native, all four complete specimens plus prior enlarged whole references and complete actual Regular inspected. Both top fork lower stems are now clearly detached from the header, restoring coherent THX. Outer left wall remains joined to header and bends into the lower right tail; the three separate rim-crossed cups retain exactly one field each, both cup side prongs, free upper ends, and all required gaps. Actual font preserves both fork gaps, three counters and all original endpoints.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "c26d64f72629d2626d1372ffc18c87d042e9f746907b86e0dae59d5b13ce468f",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "bf28b861ee049472573ffdc6dd2461e2eaac1aa72a30baa4f37c03ff71c3d05c",
+      "source_json_sha256": "3bb0c3071bdc263860968d33048bd92e5edcc9c7e793ef17a2f30659e84aa7e0",
+      "source_png_sha256": "628284704f6de3b4b485c806f4b9b81731a3c95b3aa1a1a8caed76a7833a4640",
+      "font_sha256": "0874d327d9fcd0fcadc377747ccd2c906575079a4410f70d7e39c0124f97f553",
+      "raster_sha256": "95cc15f55ecf350a9bd50fe377247194e72d736222c40a5d6aa2d9eabd241abe",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "uncertain",
+      "notes": "Full native, all four complete/enlarged specimens and full actual Regular inspected. Three separate single-field cups, left outer descent/tail and header retained. Native joins both top forks to the header while retaining a joined left outer wall and detached upper cup. THX has both top fork lower stems free; CCZ joins the left only, and the QJZ both-joined construction detaches the left outer wall and joins the upper cup to its right staff. Current contacts do not establish a coherent complete attested whole. Hold for complete-variant correction, preferably restore the two THX fork gaps while preserving all three detached cups and left wall/header contact."
+    }
+  ]
+}

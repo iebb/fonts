@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D171",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D171.json",
-  "source_png_sha256": "9881047f8f233d544da2de482db8f2c643e4d45a78ad8ccf0db5c7c0cd9ab5d2",
+  "source_png_sha256": "1fc5e9e373fce3830a93c9bf50a17f8e38c903e1ae373591cde9a8e059a0f3ce",
   "source_png": "design/seal-individual/U3D171.png",
   "reference_png_sha256": "0c6c9ca3e35503fb6593f1b61c3fd2b1cde0ca460af3fc9a6765d8515a56bb73",
   "reviewed_specimens": [
@@ -16,35 +16,59 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D171.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D171.json",
-  "source_json_sha256": "bbdc6397d8a2f88f5cc72ae33651558413467d7a9f47a0297577ff0db5cb126e",
-  "geometry_sha256": "d97afb74a887011e952c0c5b029512da69753aa565b1b7a83af5809d5911b68d",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D171-Regular400.png",
-  "raster_sha256": "f50ac3e3a8c3b15f9927b39b29982cc62fa596cd87bbbda179805857f277f8c7",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-course-recovery-v2/sources/U3D171.json",
+  "source_json_sha256": "5aa633456a65a2ef82e401f341af722bf0bd6b40b76bcf2eea2d376bd8b6cb2f",
+  "geometry_sha256": "5f186d24c9ea067f7ac788860b5cd327167c1c0b5a02e7f3cfe82d66d570f09b",
+  "font_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5c197f581b30ed1ee39002155ca7f0cbaf24f51f677ffcdcb3358cffc0cef717",
+  "raster_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/U3D171-Regular400.png",
+  "raster_sha256": "85aeba9518197a1ec88be36ff222e9ec1afea782d763f5f7db4a529a783ae92c",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      249,
+      248,
       -64,
-      775,
+      776,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged lower compounds inspected. Native omits right component lower inward curled return that rejoins lower rail/staff, retaining only detached middle dash. Left lower intended staff with short inward upward elbow and outer bottom return has become a plain cup crossed by descending stem. All references retain inner elbow and right lower return; native also joins upper/lower left winding runs where THX separates them.",
-  "requested_corrections": [
-    "Restore a coherent whole attested variant: THX detached left upper winding, lower winding into staff with short inward upward elbow and outer bottom return; restore right lower inward return joining lower rail/staff, preserving middle detached dash and three descents."
-  ],
+  "notes": "Reinspected exact v2 full actual and enlarged right inner elbow against native2/all four whole specimens previously inspected. Missing right short bent course now restored with free left tip, smoothly descending into outer bottom rail above long staff; middle horizontal remains separate. Earlier left third course/I contact/short lower curl intact; both forks detached, three long right descenders and no closed counters match whole THX. Constant width, gaps and round trajectories acceptable. Native2 remains mismatch for omitted courses.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d97afb74a887011e952c0c5b029512da69753aa565b1b7a83af5809d5911b68d",
+      "source_json_sha256": "bbdc6397d8a2f88f5cc72ae33651558413467d7a9f47a0297577ff0db5cb126e",
+      "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+      "raster_sha256": "f50ac3e3a8c3b15f9927b39b29982cc62fa596cd87bbbda179805857f277f8c7",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged lower compounds inspected. Native omits right component lower inward curled return that rejoins lower rail/staff, retaining only detached middle dash. Left lower intended staff with short inward upward elbow and outer bottom return has become a plain cup crossed by descending stem. All references retain inner elbow and right lower return; native also joins upper/lower left winding runs where THX separates them.",
+      "requested_corrections": [
+        "Restore a coherent whole attested variant: THX detached left upper winding, lower winding into staff with short inward upward elbow and outer bottom return; restore right lower inward return joining lower rail/staff, preserving middle detached dash and three descents."
+      ]
+    },
+    {
+      "geometry_sha256": "59e001dc38190d80499dc8309624e722d2d4c8483290b21bda7c67a4e1d4b0db",
+      "source_json_sha256": "b4f7de8a6305c965b588f0340d837b1e3c5952500af37a4fd42a03cf105606f6",
+      "font_sha256": "1a791bba69818f86ef150875c0b3290b30a882786f4480d5fc31ef15cacfe117",
+      "raster_sha256": "a4064717d5e9b5bfa755a6cf90f47a4d27c0b34b5d18652f0451304c5e8c15b5",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native2, all four enlarged whole references, full actual font and enlarged right inner component. Left restored third course, inner I contact and shortened lower curl now match THX. Right winding compound still has only plain outer bottom rail and detached middle horizontal: missing separate inward bent course above bottom rail bending down into it, present in THX. Native remains mismatch for missing courses.",
+      "requested_corrections": [
+        "Restore short right inner bent return above the outer bottom rail, joining that rail at right while retaining free left tip and detached middle horizontal."
+      ]
+    }
   ]
 }

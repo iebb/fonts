@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D195",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D195.json",
+  "source_png_sha256": "cb00561c43cf756193d856ef31a1393faa96da9f395a891c47e8a51055df65e6",
+  "source_png": "design/seal-individual/U3D195.png",
+  "reference_png_sha256": "80649ddd95f437cd2311f12f85cd0ad17bd821a845c9339ec4e01d318d225a2f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D195.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D195.json",
+  "source_json_sha256": "e009e1e4496d9b3f6f76c2e751136ed0b20b08fdb531d024d5b32bf9ccb42e85",
+  "geometry_sha256": "de1aa8beba356a1e37255bee23e7e13bdae8e2b1c82a267444f54752a114bdc5",
+  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D195-Regular400.png",
+  "raster_sha256": "226c21459aa9c24017b33bc1f51175fd2bfbd21985cc41084a261040b81ea804",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      280,
+      -64,
+      744,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Inspected all four enlarged whole specimens, native, actual and enlarged crossing. Native matches coherent THX both fork stems joined to separate rail, isolated oval, lower enclosure with one genuine X and four fields/three descending terminals. Font replaces crossing with two Ys connected by a short horizontal neck and turns lower diagonals into hooked rail contacts with shoulder bumps. Native match retained; geometry held.",
+  "requested_corrections": [
+    "Unify the four native diagonals at one genuine X intersection, preserving exact four enclosure contact tips; smooth diagonal-to-rail shoulders and remove tracking neck/bumps."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

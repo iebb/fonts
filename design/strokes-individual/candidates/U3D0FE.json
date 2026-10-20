@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -1420,200 +1420,15 @@
       "maximum_fit_error_font_units": 0.0
     },
     {
-      "points": [
-        [
-          219.1949,
-          732.8307
-        ],
-        [
-          222.4665,
-          732.8307
-        ],
-        [
-          225.738,
-          732.8307
-        ],
-        [
-          229.0096,
-          732.8307
-        ],
-        [
-          232.2812,
-          732.8307
-        ],
-        [
-          235.5527,
-          732.8307
-        ],
-        [
-          238.8243,
-          732.8307
-        ],
-        [
-          242.0958,
-          732.8307
-        ],
-        [
-          245.3674,
-          732.8307
-        ],
-        [
-          248.639,
-          732.8307
-        ],
-        [
-          251.9105,
-          732.8307
-        ],
-        [
-          255.1821,
-          732.8307
-        ],
-        [
-          258.4537,
-          732.8307
-        ],
-        [
-          261.7252,
-          732.8307
-        ],
-        [
-          264.9968,
-          732.8307
-        ],
-        [
-          268.2684,
-          732.8307
-        ],
-        [
-          271.5399,
-          732.8307
-        ],
-        [
-          274.8115,
-          732.8307
-        ],
-        [
-          278.0831,
-          732.8307
-        ],
-        [
-          281.3546,
-          732.8307
-        ],
-        [
-          284.6262,
-          732.8307
-        ],
-        [
-          287.8978,
-          729.5591
-        ],
-        [
-          291.1693,
-          732.8307
-        ],
-        [
-          294.4409,
-          732.8307
-        ],
-        [
-          297.7125,
-          732.8307
-        ],
-        [
-          300.984,
-          732.8307
-        ],
-        [
-          304.2556,
-          732.8307
-        ],
-        [
-          307.5272,
-          732.8307
-        ],
-        [
-          310.7987,
-          732.8307
-        ],
-        [
-          314.0703,
-          732.8307
-        ],
-        [
-          317.3419,
-          732.8307
-        ],
-        [
-          320.6134,
-          732.8307
-        ],
-        [
-          323.885,
-          732.8307
-        ],
-        [
-          327.1565,
-          732.8307
-        ],
-        [
-          330.4281,
-          732.8307
-        ],
-        [
-          333.6997,
-          732.8307
-        ],
-        [
-          336.9712,
-          732.8307
-        ],
-        [
-          340.2428,
-          732.8307
-        ],
-        [
-          343.5144,
-          732.8307
-        ],
-        [
-          346.7859,
-          732.8307
-        ],
-        [
-          350.0575,
-          732.8307
-        ],
-        [
-          353.3291,
-          732.8307
-        ]
-      ],
       "graph_edges": [
         6,
         7
       ],
       "is_loop": false,
-      "path": "M 219.195,732.831 L 353.329,732.831",
-      "commands": [
-        [
-          "M",
-          219.1949,
-          732.8307
-        ],
-        [
-          "L",
-          353.3291,
-          732.8307
-        ]
-      ],
-      "maximum_fit_error": 3.2716,
+      "path": "M 219.195,732.831 L 410.5,732.831",
       "curve_segments": 1,
       "id": "stroke-5",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 1.0,
-      "maximum_fit_error_font_units": 3.2716
+      "closed": false
     },
     {
       "points": [
@@ -5505,6 +5320,22 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.827,
       "maximum_fit_error_font_units": 2.7056
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore coherent THX lowestleftstaffbar contact to existing outerleftdescendingcentralarch at matchingheight; extendonlyoriginalbarendpoint353.329732.831\u2192410.5732.831. Othersevenpaths exact, nativegap remains mismatch; QJZ/DYC unavailable.",
+      "changes": [
+        {
+          "stroke_id": "stroke-5",
+          "previous_path": "M 219.195,732.831 L 353.329,732.831",
+          "repaired_path": "M 219.195,732.831 L 410.5,732.831"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

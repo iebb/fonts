@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D191",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D191.json",
+  "source_png_sha256": "5d172b9d44a6a3386860d3bd85f992bae7232a1cd82c2683299e2944e4fb5909",
+  "source_png": "design/seal-individual/U3D191.png",
+  "reference_png_sha256": "16cfd859235ab3b6da914af3520f4488a40d6ad5d9dcf525ee78cb984974b95c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D191.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D191.json",
+  "source_json_sha256": "2a18308eb9d53d540b465070d667b0e628f59413201aed00c9925288f9182334",
+  "geometry_sha256": "8eef6475fc511752cc669332a688d41ad1cefaaeb1c089684daaf3454a1b16d2",
+  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D191-Regular400.png",
+  "raster_sha256": "4b00c6baaee4f63e5f2b55e235993144c65efb9741a7f3571a3652175279673f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      301,
+      -64,
+      723,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Inspected all four enlarged whole references, native, full actual font and enlarged diamond. Native and actual have full vertical from top apex to bottom apex dividing diamond into TWO counters. THX has one counter with short upward inner stub from bottom apex; other whole references likewise do not attest this full divider with current detached forks/outerbody. Body three fields and rightward branches preserved, but diamond identity wrong.",
+  "requested_corrections": [
+    "Clip only staff portion inside diamond so short inner upward stub rises from bottom apex, preserving one diamond counter and separate external apex upstub."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

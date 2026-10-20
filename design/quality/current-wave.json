@@ -6,7 +6,7 @@
     "last": "U+3FC3F",
     "count": 11328
   },
-  "wave": 2,
+  "wave": 3,
   "batch_size": 64,
   "assignments": [
     {
@@ -25,31 +25,63 @@
     },
     {
       "worker": "/root/seal_0c1_100",
-      "first": "U+3D1C1",
-      "last": "U+3D200",
+      "first": "U+3D2C1",
+      "last": "U+3D300",
       "count": 64,
-      "wave": 2,
+      "wave": 3,
       "status": "generation_in_progress",
       "previous_assignment": {
-        "first": "U+3D0C1",
-        "last": "U+3D100",
+        "first": "U+3D1C1",
+        "last": "U+3D200",
         "count": 64,
-        "native_generation_complete": true
-      }
+        "native_generation_complete": true,
+        "audit_report": "design/quality/waves/wave-0002-worker-0c1-audit.json"
+      },
+      "completed_assignments": [
+        {
+          "first": "U+3D0C1",
+          "last": "U+3D100",
+          "count": 64,
+          "native_generation_complete": true
+        },
+        {
+          "first": "U+3D1C1",
+          "last": "U+3D200",
+          "count": 64,
+          "native_generation_complete": true,
+          "audit_report": "design/quality/waves/wave-0002-worker-0c1-audit.json"
+        }
+      ]
     },
     {
       "worker": "/root/seal_101_140",
-      "first": "U+3D201",
-      "last": "U+3D240",
+      "first": "U+3D301",
+      "last": "U+3D340",
       "count": 64,
-      "wave": 2,
+      "wave": 3,
       "status": "generation_in_progress",
       "previous_assignment": {
-        "first": "U+3D101",
-        "last": "U+3D140",
+        "first": "U+3D201",
+        "last": "U+3D240",
         "count": 64,
-        "native_generation_complete": true
-      }
+        "native_generation_complete": true,
+        "audit_report": "design/quality/waves/wave-0002-worker-101-audit.json"
+      },
+      "completed_assignments": [
+        {
+          "first": "U+3D101",
+          "last": "U+3D140",
+          "count": 64,
+          "native_generation_complete": true
+        },
+        {
+          "first": "U+3D201",
+          "last": "U+3D240",
+          "count": 64,
+          "native_generation_complete": true,
+          "audit_report": "design/quality/waves/wave-0002-worker-101-audit.json"
+        }
+      ]
     },
     {
       "worker": "/root/seal_141_180",
@@ -67,5 +99,5 @@
     }
   ],
   "reviewer": "/root/seal_review",
-  "semantics": "Allfourfirst64generationassignmentscomplete. These arethecurrentfour64assignments, notacceptanceclaims. Use repertoirestatus for native/review/frozen evidence."
+  "semantics": "Current per-worker assignments may belong to different waves. Each assignment contains 64 distinct codepoints. Completed assignments record audited native generation, not frozen font acceptance; use the repertoire progress audit for review and acceptance evidence."
 }

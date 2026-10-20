@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D194",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D194.json",
+  "source_png_sha256": "bc9f5266be468b566f367a65597eb6396adb43fac9a303ce28669f88ebca805f",
+  "source_png": "design/seal-individual/U3D194.png",
+  "reference_png_sha256": "c2956313e3fc1f8c0e4f3293d9d9d7dbd4e7b7f9277a6fffa27a9da77efea368",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D194.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D194.json",
+  "source_json_sha256": "395e3678331fdb48872c8006d274900f2c8e21c109334fd1413171f639c24333",
+  "geometry_sha256": "926419a06aff5a08a5af877c9db9f38fb893b4dba2be8f4f611be1c84d1b19d1",
+  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D194-Regular400.png",
+  "raster_sha256": "c2a5e9a08fed560e10a5e042027696f06c4351293251b941f6edf09b1edf4451",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      270,
+      -64,
+      754,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Inspected all four enlarged whole references, native, full actual and enlarged cap. Native coherent THX: both forks detached, left three-counter oval, right cap with short upward stub and separate inner bar/capped branching descenders. Actual font loses the short upward stub entirely from right cap crown, confirmed enlarged crop. Other counters, free inner bar and lower bent return preserved.",
+  "requested_corrections": [
+    "Recover native short upward crown stub on right cap, preserving detached right fork gap and all other courses."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D13B",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D13B.json",
+  "source_png_sha256": "218604f877737b95ce7d8d10077986ca99d481488e8af19417b886095f83788e",
+  "source_png": "design/seal-individual/U3D13B.png",
+  "reference_png_sha256": "c45c14d41b57ec46777153a5ab1341a322841d647c46a553dd6c277ac3e4328b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D13B.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/sources/U3D13B.json",
+  "source_json_sha256": "96d5a6c7e578e19cc6fd1b08a024fbf593f4d7ab72f2afec5b528300ab586e8c",
+  "geometry_sha256": "a3a8bc04f3eb8b45d7c1966f8036a83c225f871df03f2ad8cc23d0906fa5b1bf",
+  "font_file": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "67d1ee7e90298bb2787d449d4707df668f0456d0f9d2e7a364433de4cada3ee5",
+  "raster_file": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/U3D13B-Regular400.png",
+  "raster_sha256": "bb4a107de970ea17fceb1a04d0d483d22dab3b59cc5a7a61804680749cfd1bf9",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      286,
+      -64,
+      738,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all4 enlarged whole specimens rechecked with full repaired actual Regular400 and enlarged oval-to-lowerfork gap. Coherent THX detached upperforks and independent lowerfork now restored by only stem-start clipping; oval fourfields, two independent side marks and all right compound courses retained. Actual gapclear and lower central upstub preserved. Native mismatch remains original joined connector.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0c90d7e29273758ba782aa4c715070ab204b777af823d4e82e7da6377985c565",
+      "source_json_sha256": "76a3f60648b3f405a6d9acf119c1939e3a04b467829cfab5597c7131c7645a9e",
+      "font_sha256": "72ee788426e91a43fb0e1bd63201e4c67f6b5c3ae56d3975c9b029b129894568",
+      "raster_sha256": "8ec4284c0c8a9cc3543285e8408ffcbcd32a7d4722b25c2e8b9d1e6cd33665f1",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged lower oval/fork contact inspected. Detached upper forks and separated lower side marks follow THX, but central lower fork stem is continuously joined to oval base. THX central lower fork is detached; joined CCZ/QJZ/DYC variants also alter upper fork contacts. Current mixed whole contact is unsupported. Other four-field oval/inner branches, hooked upper course and right trident/three-leg compound retained.",
+      "requested_corrections": [
+        "For coherent detached-fork THX whole, release only oval-base-to-lower-central-fork connector, retaining short independent central lower upstem, both detached side marks, oval four fields and all right compound courses."
+      ]
+    }
+  ]
+}

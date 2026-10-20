@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D182",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D182.json",
+  "source_png_sha256": "e2131f8478f43f199820000b68512899b79ff0672dff6681789dbfc38d7df1bd",
+  "source_png": "design/seal-individual/U3D182.png",
+  "reference_png_sha256": "9b677482c537029798c69bd680bd41c8633d6f492f7a4a2e067c62d061f900c2",
+  "reviewed_specimens": [
+    "THX",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "QJZ"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D182.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-eighteenth-eight/sources/U3D182.json",
+  "source_json_sha256": "57b3ab99cf2fa00dd4282598dc6bf1567e4b5b4a89bbc0ebe0549683c59f83e8",
+  "geometry_sha256": "33a4d6dc59c569d900e0cf62e013489519e5cbab8672d77eac377cea30adcb9b",
+  "font_file": "design/quality/proofs/continuation/review-eighteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce45c626ed89ae6e3f8dd561534970035ac500722ccf1127b3e66f84e5ade3aa",
+  "raster_file": "design/quality/proofs/continuation/review-eighteenth-eight/U3D182-Regular400.png",
+  "raster_sha256": "1cfbc77272fa4dd2a818885fb114a350c37c2e1f0e30397d071150205f4f2f0e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      257,
+      -64,
+      767,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, both available enlarged whole specimens THX/DYC (CCZ/QJZ unavailable), full actual Regular400 and enlarged lowerstaff/branch junction inspected. Native follows coherent THX detachedforks/top righthook/two-counter winding staff, but leftlowerdescending branch ends at centralstaff rather than crossing it into short UP-RIGHT outward stub. Both available whole specimens show this continuation; actual reproduces missing stub.",
+  "requested_corrections": [
+    "Extend upper root of leftlowerdescending branch across centralstaff into short upward-right free terminal, preserving existing lower legs/staff/returncourses and THX detached upperforks."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

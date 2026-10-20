@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D16C.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifteenth-eight/sources/U3D16C.json",
-  "source_json_sha256": "8ff8cb8ac8fde8d0f131f32396ff67566b63f3ed5c3d4e97ffaecf990b2dc4d2",
-  "geometry_sha256": "b7a7e20202536d4a2643eefeb0f4272e580a8f5a59aa9bbb3e424022c57c9480",
-  "font_file": "design/quality/proofs/continuation/review-fifteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
-  "raster_file": "design/quality/proofs/continuation/review-fifteenth-eight/U3D16C-Regular400.png",
-  "raster_sha256": "eb9b43b3f14101a743e96c4440b57995d80ea1cd29cc9cd53797e422ef43a505",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D16C-complete-lower-crossrail-v2/sources/U3D16C.json",
+  "source_json_sha256": "77d48d1289d944dbd885358a719ca707cd6fde6fa8e649c026229a062c273833",
+  "geometry_sha256": "2726b2101395a77c2eff7a089fef52bdaafcf7780b053ef196b90c9fb279b0ea",
+  "font_file": "design/quality/proofs/continuation/U3D16C-complete-lower-crossrail-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "abd26a5abb3caa1bc4bc5a5c483c956dcbf9e9bf1ce9bf4f45ca8560894487cb",
+  "raster_file": "design/quality/proofs/continuation/U3D16C-complete-lower-crossrail-v2/U3D16C-Regular400.png",
+  "raster_sha256": "596b312d26821a9fc0d851300ea80175df11eb3f61e77042eb3905af72678813",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,18 +34,30 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged middle compound inspected. Native follows detached-fork THX family but right interior curved mark remains free of outer right wall; all available whole forms join these into a branched crossing. Missing short down-right inward terminal at left lower crossing likewise present in available whole specimens. Actual reproduces both omissions, leaving open right chamber instead of required additional counter.",
-  "requested_corrections": [
-    "Join right interior curved mark to outer right-wall crossing, preserving native upper free tip and outer terminal.",
-    "Restore short down-right inward stub at left lower crossing of outer return and descending/bottom course, as coherent THX; preserve lower long tail and both detached forks."
-  ],
+  "notes": "Inspected native, all four enlarged whole references, full compiled font and enlarged compound contacts. Recovered right inner mark-to-wall joint and lower curved crossrail continuation from central staff to right crossing restore two closed body fields of coherent THX. Left inward downward stub now continues across shared lower junction, both upper forks detached, short central upstub and lower long bent return/free terminal preserved. Smooth constant-width Regular400 joins and round trajectories acceptable. Native remains mismatch for omitted right contacts/crossrail and left stub.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b7a7e20202536d4a2643eefeb0f4272e580a8f5a59aa9bbb3e424022c57c9480",
+      "source_json_sha256": "8ff8cb8ac8fde8d0f131f32396ff67566b63f3ed5c3d4e97ffaecf990b2dc4d2",
+      "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
+      "raster_sha256": "eb9b43b3f14101a743e96c4440b57995d80ea1cd29cc9cd53797e422ef43a505",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged middle compound inspected. Native follows detached-fork THX family but right interior curved mark remains free of outer right wall; all available whole forms join these into a branched crossing. Missing short down-right inward terminal at left lower crossing likewise present in available whole specimens. Actual reproduces both omissions, leaving open right chamber instead of required additional counter.",
+      "requested_corrections": [
+        "Join right interior curved mark to outer right-wall crossing, preserving native upper free tip and outer terminal.",
+        "Restore short down-right inward stub at left lower crossing of outer return and descending/bottom course, as coherent THX; preserve lower long tail and both detached forks."
+      ]
+    }
   ]
 }

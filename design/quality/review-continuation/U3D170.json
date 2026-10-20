@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D170",
-  "reviewer": "independent visual reviewer /root",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "mismatch",
-  "native_review_report": "design/seal-individual/reviews/U3D170.json",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D170.json",
+  "source_png_sha256": "29b69349ffd0cfd07c55cf21a75a01721554e7f6265f30282aa68779e664ac8b",
   "source_png": "design/seal-individual/U3D170.png",
-  "source_png_sha256": "bf80e8b5f31beb046cc1b70b8959ca4ebebd3f2828d60c9bcbd201c7c2191234",
   "reference_png_sha256": "e4d1ba3ec5646e0c991c3a8329ab6c5ea6fc7547e3793fc0acfe4282049a65c9",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D170.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-untouched-eight1-v1/sources/U3D170.json",
-  "source_json_sha256": "ab86e6998ac1b485579a3a30bcff7ffe43fb94a9d65f074148885027d349d688",
-  "geometry_sha256": "8fa82bde73bee1350e791d10b77049c269a1bac88670170c4fa45b65f71c5dae",
-  "font_file": "design/quality/proofs/continuation/root-untouched-eight1-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "a89b39e025e0d9670f23323daf97a75201d2dff8873c174a335b0b4d93819fa3",
-  "raster_file": "design/quality/proofs/continuation/root-untouched-eight1-v1/U3D170-Regular400.png",
-  "raster_sha256": "c59de81405f6644676734abb4bb9cf79ba7e842b526e503591bc8b93b845ce05",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-170-retry2/sources/U3D170.json",
+  "source_json_sha256": "db65b7fb1f4a0c246c0999274aa89ae4a40f16002e1d5b2ad7018be34dbdfed7",
+  "geometry_sha256": "d38e75dcc4fd260808fc598e65c97ab7e7e60acef37ec09c702d48ade6604851",
+  "font_file": "design/quality/proofs/continuation/review-170-retry2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "44f29bc156b169a870036871bd3d8b39a765688ba3c530d0cdecc3ff1505bec4",
+  "raster_file": "design/quality/proofs/continuation/review-170-retry2/U3D170-Regular400.png",
+  "raster_sha256": "6474342aed5ebc88956cdfccaa89ccba32b034f2eabd4353d354ee948152f009",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,21 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Detached top forks, central upper stub, lower outward branches/bar, open bowl with detached inner slants/fork ends, paired lower staffs, two detached side marks and baseline retained. Upper right rounded return closes only one field between top and middle rails; coherent THX requires return continuing across middle rail to third rail to form two right fields. Native and actual font omit second upper loop counter.",
-  "requested_corrections": [
-    "Restore coherent THX upper right rounded return from top rail across middle rail to third rail, closing two right loop counters; preserve paired fork gaps, central upper stub and all lower compound courses."
-  ],
-  "review_comparison_sha256": "7570caac5f1e62cd0865097f5a6e4505c1384d837207185f4a7ceb7118f96417",
+  "notes": "Full retry2 native, all four enlarged whole specimens, full actual Regular400 and enlarged central upper/lower compounds independently inspected. Coherent THX detached top forks, short central topstub, two right rounded-loop counters and outward middle-rail branch restored. Broad chevron and short crossbar, two detached lower diagonal marks, free-ended internal descending fork, separate outer cup and base with paired central supports/two free side marks retained. Actual two upper counters and base counter open, internal fork remains separated from bowl and all required gaps survive at400.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
-    "Heavy weights not visually accepted.",
-    "No paleographic or historical writing-order certification."
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
   ],
-  "detail_review": {
-    "all_specimen_enlargement_sha256": "6d0b006e1d4d9839462218bd1c202aadb8bd8e6f99be9d2e5909607e4665f6bf",
-    "actual_font_enlargement_sha256": "93c38f89c51e2c0b6b1039660f167348f590df5febac0ac5d9ce5608c95c83ee"
-  }
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "8fa82bde73bee1350e791d10b77049c269a1bac88670170c4fa45b65f71c5dae",
+      "source_json_sha256": "ab86e6998ac1b485579a3a30bcff7ffe43fb94a9d65f074148885027d349d688",
+      "font_sha256": "a89b39e025e0d9670f23323daf97a75201d2dff8873c174a335b0b4d93819fa3",
+      "raster_sha256": "c59de81405f6644676734abb4bb9cf79ba7e842b526e503591bc8b93b845ce05",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Detached top forks, central upper stub, lower outward branches/bar, open bowl with detached inner slants/fork ends, paired lower staffs, two detached side marks and baseline retained. Upper right rounded return closes only one field between top and middle rails; coherent THX requires return continuing across middle rail to third rail to form two right fields. Native and actual font omit second upper loop counter.",
+      "requested_corrections": [
+        "Restore coherent THX upper right rounded return from top rail across middle rail to third rail, closing two right loop counters; preserve paired fork gaps, central upper stub and all lower compound courses."
+      ]
+    }
+  ]
 }

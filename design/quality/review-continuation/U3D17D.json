@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D17D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D17D.json",
+  "source_png_sha256": "9c0f4821865c5919580371cbcad5a6a73b265cf9115485706b6db42f95d8d656",
+  "source_png": "design/seal-individual/U3D17D.png",
+  "reference_png_sha256": "7a87ef355282b719bb50b98e464db32cce2abec61cb85fb78647b167847dd44f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D17D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-THX-contact-crossing-v1/sources/U3D17D.json",
+  "source_json_sha256": "56004187f9052614892ba44506dc886c787c8d766f8186c04ac90bb721c9f432",
+  "geometry_sha256": "fa0a770bbb0745093455ed9a26c12ba81d3a5098d4f3f1c396c0336555d86e1a",
+  "font_file": "design/quality/proofs/continuation/root-five-THX-contact-crossing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1a791bba69818f86ef150875c0b3290b30a882786f4480d5fc31ef15cacfe117",
+  "raster_file": "design/quality/proofs/continuation/root-five-THX-contact-crossing-v1/U3D17D-Regular400.png",
+  "raster_sha256": "7a8a19e39cac4b9e7c66feb9c1bb93d7515f797a3db27b35f6cc75062cd07a88",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      239,
+      -64,
+      785,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected native, all four enlarged whole references, full compiled Regular400 and enlarged rails/contact. Lowest horizontal rail now reaches left outer wall, matching whole THX with both top forks joined. Precisely two closed counters remain: upper narrow counter below second rail and lower left counter; header channel above the second rail stays open at right. Right inner short upright/curved descent and bottom two terminals retain identity and proportions. Smooth constant-width courses, rounded corners and gaps acceptable. Native verdict uncertain retained for original incoherent free lower left rail.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "6d3cdba0193467784bebbefc29005b0de6f7ee6546b3a9b83f0e557552dccc65",
+      "source_json_sha256": "b37e6a0c28236084248892d49ba0388c7083f6b8cf304401e5cfd5b9cf49d524",
+      "font_sha256": "3ca693a2f935206b461253e226c898e8c9b315e5ed08e794427015c2d9d8fca0",
+      "raster_sha256": "e1c5c0c66818ef9cd32bcfd109250ae1a57e3b51a5c29595ae11dc534813799a",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "uncertain",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Paired tridents join header; two upper fields, outer left descent, short outer right staff and rounded lower fork/tail retained. Lowest crossbar ends free before outer left wall, unlike coherent THX. QJZ and DYC free-left-bar constructions alter other staff/body contacts; the current detached right short staff and continuous middle stem do not clearly establish a complete alternative whole. Hold for coherent THX left crossbar-wall contact or documented complete attested alternative.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Paired tridents join header; two upper fields, outer left descent, short outer right staff and rounded lower fork/tail retained. Lowest crossbar ends free before outer left wall, unlike coherent THX. QJZ and DYC free-left-bar constructions alter other staff/body contacts; the current detached right short staff and continuous middle stem do not clearly establish a complete alternative whole. Hold for coherent THX left crossbar-wall contact or documented complete attested alternative."
+      ]
+    }
+  ]
+}

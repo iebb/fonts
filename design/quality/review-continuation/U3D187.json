@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D187",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D187.json",
+  "source_png_sha256": "67399fe580aa6b5bcd8a35fee9f2ade2129e77b8c0268b008ac0670fa1bb1e03",
+  "source_png": "design/seal-individual/U3D187.png",
+  "reference_png_sha256": "07fa5b4d70b7d18a2ad3fb495f9a6ef7ce0840674e6d22f2d7e85e66783a85c9",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D187.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-eighteenth-eight/sources/U3D187.json",
+  "source_json_sha256": "309de4f9004bbfa5a5498ff978c3e7fa33cf48b261a694affcffdbe4defaacf1",
+  "geometry_sha256": "d992991e4c96b7ac88f92a6ae4aea57364c6d53a623f7a72a384bc72aed640af",
+  "font_file": "design/quality/proofs/continuation/review-eighteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce45c626ed89ae6e3f8dd561534970035ac500722ccf1127b3e66f84e5ade3aa",
+  "raster_file": "design/quality/proofs/continuation/review-eighteenth-eight/U3D187-Regular400.png",
+  "raster_sha256": "2847348584fb38d4ccdce9f6b98cc15dfda1e6278ad78e948a2e3df4d5713a29",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      277,
+      -64,
+      747,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all4enlarged whole specimens, full actual Regular400 and enlarged lowerdiagonal/centralstaff crossing inspected. Native coherent THX detachedupperforks, freeupperwindinghead, leftupstub/sharedcrosscourse, longrightouterdescender and lowerleftdiagonal crossingstaff into rightstub retained. Actual splits the intended single diagonal crossing into two offset Y junctions linked vertically: rightstub begins above leftbranch root, interrupting native continuousslant.",
+  "requested_corrections": [
+    "Unify only lowerleftdiagonal/rightstub crossing of centralstaff into one shared intersection, retaining exact original diagonal outerterminals, centralstaff direction, upperwinding/crosscourse and rightouterdescender."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

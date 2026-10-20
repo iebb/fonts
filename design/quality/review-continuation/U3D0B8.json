@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0B8",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B8.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0B8.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D0B8.json",
-  "source_json_sha256": "1c769f3c19cba7c6286b7b819c0889a80fb044fd65aa0cd799b24d0faf78f9d8",
-  "geometry_sha256": "eff773ab942cc4d9c5343de366ec5c26add24dd3f89432c89fc3766bf6682c47",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D0B8-Regular400.png",
-  "raster_sha256": "74347a96f8b5aec5d76af0ee003fb91f9faeb3831909161b58a9bdc65f69431a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/sources/U3D0B8.json",
+  "source_json_sha256": "544f54327e9da38b1803d699c991d482e0eb8ca038ec705814560c7fb62fe572",
+  "geometry_sha256": "9ae15d5ec639d0da1979659b202dc4ecd8bee67ab8a584295237f0e32f0225cc",
+  "font_file": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7f2971e283011397b1bbfd6eedfea062c3babf058736ddc381923e12f7ff89a4",
+  "raster_file": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/U3D0B8-Regular400.png",
+  "raster_sha256": "40957223c48450666e7eff1f9777ecee437323b91c60b5f47dd1a3756c38947a",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_trajectory_smoothing",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole specimens, actual Regular400 and enlarged lower compound inspected. Native coherent THX has left three-bar staff and upper crossed cup over four-counter lower roof/fork with three descents. Font retains contacts/counters but roof shoulder tracking is visibly scalloped and bumpy, unlike deliberate smooth native roof.",
-  "requested_corrections": [
-    "Smooth only lower compound roof/shoulder tracking while preserving all contacts, counters, proportions and endpoints."
-  ],
+  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged roof/inner courses independently inspected. Coherent THX retains separate three-bar staff, upper cup with two upstubs, shared central stem into lower cover, two roof-linked inner fork uprights and three lower legs. Bounded roof/shoulder smoothing removes pronounced tracking scallops without altering anchors/contacts; four upper lower-cover fields and cup counter remain open. Consistent rounded constant-width course accepted.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "eff773ab942cc4d9c5343de366ec5c26add24dd3f89432c89fc3766bf6682c47",
+      "source_json_sha256": "1c769f3c19cba7c6286b7b819c0889a80fb044fd65aa0cd799b24d0faf78f9d8",
+      "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+      "raster_sha256": "74347a96f8b5aec5d76af0ee003fb91f9faeb3831909161b58a9bdc65f69431a",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole specimens, actual Regular400 and enlarged lower compound inspected. Native coherent THX has left three-bar staff and upper crossed cup over four-counter lower roof/fork with three descents. Font retains contacts/counters but roof shoulder tracking is visibly scalloped and bumpy, unlike deliberate smooth native roof.",
+      "requested_corrections": [
+        "Smooth only lower compound roof/shoulder tracking while preserving all contacts, counters, proportions and endpoints."
+      ]
+    }
   ]
 }

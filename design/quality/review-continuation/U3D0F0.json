@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0F0.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifteenth-eight/sources/U3D0F0.json",
-  "source_json_sha256": "915736ae84c64b49999effeffa9b0e36b06265bfdcabc5349e14884a216dc319",
-  "geometry_sha256": "c4fb656245ea6eb9c95129251a45a8e0e8f6b6ea9df38ee1dfbb9bdae54d45be",
-  "font_file": "design/quality/proofs/continuation/review-fifteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
-  "raster_file": "design/quality/proofs/continuation/review-fifteenth-eight/U3D0F0-Regular400.png",
-  "raster_sha256": "25f296c24e0927d0ec1b04fefc1641fc913ade3166420c10e471604c536cc4af",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/sources/U3D0F0.json",
+  "source_json_sha256": "b426bc0de8ccc5e9580dc984c2b9645385b0fcc6300fe91037d1e08f8a595873",
+  "geometry_sha256": "647d1d87aaf69e6d80b3daaff65f01fd7501b0252d373230e993acde7451b25b",
+  "font_file": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bb1044a5bf7e3c32750b97fae14df5e04519d99e88981a7a91eed046692531ce",
+  "raster_file": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/U3D0F0-Regular400.png",
+  "raster_sha256": "7c65dde91ec684a69adfcab373a660b7735b0dc8d15c33f98d12e3dcdd6f482a",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,18 +34,30 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, actual Regular400 full raster and enlarged crown/crossing inspected. Native matches coherent THX peaked cap with top stub, single diamond counter and genuine crossed lower descent, separate left staff. Actual tracing introduces angular stepped shoulders where cap outer tips meet diamond sides and separates diamond-bottom junction from lower two-leg junction with a short narrow vertical bridge. Native has one shared crossed junction and continuous cap shoulders.",
-  "requested_corrections": [
-    "Unify diamond bottom and both descending legs into one shared crossing, preserving four outer trajectories/endpoints and diamond counter.",
-    "Smooth only upper cap shoulder transitions through both diamond-side branch junctions; remove tracking steps while preserving outer tips/top stub."
-  ],
+  "notes": "Full native/all four enlarged whole specimens previously inspected and rechecked against repaired full actual Regular400 and enlarged crown/crossing. One genuine shared X now unifies diamond bottom with lower descending legs, replacing false short bridge. Both shoulder steps smoothed through preserved side junctions/outer tips; cap peak/topstub, single open diamond counter, long legs and separate left staff retained. Exact repair accepted Regular400.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "c4fb656245ea6eb9c95129251a45a8e0e8f6b6ea9df38ee1dfbb9bdae54d45be",
+      "source_json_sha256": "915736ae84c64b49999effeffa9b0e36b06265bfdcabc5349e14884a216dc319",
+      "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
+      "raster_sha256": "25f296c24e0927d0ec1b04fefc1641fc913ade3166420c10e471604c536cc4af",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Full native, all four enlarged whole specimens, actual Regular400 full raster and enlarged crown/crossing inspected. Native matches coherent THX peaked cap with top stub, single diamond counter and genuine crossed lower descent, separate left staff. Actual tracing introduces angular stepped shoulders where cap outer tips meet diamond sides and separates diamond-bottom junction from lower two-leg junction with a short narrow vertical bridge. Native has one shared crossed junction and continuous cap shoulders.",
+      "requested_corrections": [
+        "Unify diamond bottom and both descending legs into one shared crossing, preserving four outer trajectories/endpoints and diamond counter.",
+        "Smooth only upper cap shoulder transitions through both diamond-side branch junctions; remove tracking steps while preserving outer tips/top stub."
+      ]
+    }
   ]
 }

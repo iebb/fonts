@@ -1,0 +1,107 @@
+{
+  "code_point": "U+3D1FE",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Edit first glyph to whole THX second reference. LEFT water motif must have exactly SIX strokes: THREE bowed uppersegments and THREE long lowersegments, arranged in THREE columns. Currently it has nine (three rows). Join/remove division between middle and bottom rows so each column has one LONG lowerstroke; retain ONE gap at midheight between upper and lower. No other changes. Preserve top detached tridents, right four-counterbox, lower hookedcourse andtail.",
+  "reference": "reference/seal/individual/U3D1FE.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-de870154-9f27-4fd3-b608-d33d3c1799b8.png",
+  "output_file": "design/seal-individual/U3D1FE.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "771d9d50222000e86f76f6b7e4b67268b0939605405bfc0e30cae8d85340e911",
+  "reference_sha256": "9dfbd5aef4c04f8d5f8bfdd28ba3e4964175e935a89c47782adcd9bc4628dce1",
+  "reference_metadata_sha256": "7bfd9c2a1d4c16d45f526fa1c23d43aec07d2cfe70b0d2cc62cba7143bed7a74",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D1FE",
+    "page": 10,
+    "label_bbox": [
+      236.10000610351562,
+      412.0301818847656,
+      267.2193908691406,
+      423.18994140625
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 10,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          410.3009948730469,
+          292.9800109863281,
+          435.47998046875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          410.83330688476565,
+          295.0000061035156,
+          435.8732971191406
+        ],
+        "source_label": "TH-00478"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 10,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          408.8601989746094,
+          316.8398742675781,
+          430.8599853515625
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          410.83330688476565,
+          321.6000061035156,
+          435.8732971191406
+        ],
+        "source_label": "C-00496"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 10,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          413.1141662597656,
+          345.33978271484375,
+          434.7359313964844
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          410.83330688476565,
+          348.3000061035156,
+          435.8732971191406
+        ],
+        "source_label": "K-00478"
+      },
+      "DYC": {
+        "available": true,
+        "page": 10,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          410.3121643066406,
+          370.2398681640625,
+          435.3479309082031
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          410.83330688476565,
+          375.0000061035156,
+          435.8732971191406
+        ],
+        "source_label": "D-00475"
+      }
+    }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D1FE-attempt-1.json"
+  ]
+}

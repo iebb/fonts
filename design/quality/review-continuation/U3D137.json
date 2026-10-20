@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D137",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D137.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D137.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D137.json",
-  "source_json_sha256": "578991726efeaa219bfdd845aa5fd0a8e6629087491c34faabea2294313d39e5",
-  "geometry_sha256": "f9f7a19d2dbc1ce6102251469cd48991f3d676a1795325729bbada0ec2ff0f96",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D137-Regular400.png",
-  "raster_sha256": "89bc5e84d279e47aa3fd06a5417751f229f03bb6d52abda16d979aec502c55fa",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/sources/U3D137.json",
+  "source_json_sha256": "a23f12d78f80d5bc8e5f7e5feefe5717b7a29a0bf019e95a473a5ca5e1e395c1",
+  "geometry_sha256": "ea97d5337b64bbe17322e4eea5bc944775a4991996c4d76dce4371901c6e1b68",
+  "font_file": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7f2971e283011397b1bbfd6eedfea062c3babf058736ddc381923e12f7ff89a4",
+  "raster_file": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/U3D137-Regular400.png",
+  "raster_sha256": "64a17675074f2fb2fcb4a71165b86ee790244ff65e0a6a053ec25a729d93cffd",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged left compound inspected. Native makes both inner left diagonal marks wholly detached. THX and CCZ join both left ends to outer wall with right tips free; QJZ and DYC have different joined forms, none shows current both-free configuration. Right compound and detached tridents otherwise follow THX.",
-  "requested_corrections": [
-    "Restore both inner diagonal left ends to left outer wall for coherent THX; preserve both free right tips, outer winding descents and upper gaps."
-  ],
+  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged left diagonal starts independently inspected. Coherent THX both detached upper forks and right one-counter winding compound retained; two left interior diagonals now start at outer left wall, with right tips free, matching whole THX. Exact extensions preserve original directions/endpoints and open fields; native remains mismatch for detached left diagonal starts.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f9f7a19d2dbc1ce6102251469cd48991f3d676a1795325729bbada0ec2ff0f96",
+      "source_json_sha256": "578991726efeaa219bfdd845aa5fd0a8e6629087491c34faabea2294313d39e5",
+      "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+      "raster_sha256": "89bc5e84d279e47aa3fd06a5417751f229f03bb6d52abda16d979aec502c55fa",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged left compound inspected. Native makes both inner left diagonal marks wholly detached. THX and CCZ join both left ends to outer wall with right tips free; QJZ and DYC have different joined forms, none shows current both-free configuration. Right compound and detached tridents otherwise follow THX.",
+      "requested_corrections": [
+        "Restore both inner diagonal left ends to left outer wall for coherent THX; preserve both free right tips, outer winding descents and upper gaps."
+      ]
+    }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D13E",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D13E.json",
+  "source_png_sha256": "e25d314f589707e5b7384206571087628ebf86aba0083920f5d72712e161254e",
+  "source_png": "design/seal-individual/U3D13E.png",
+  "reference_png_sha256": "1a581eea6d1b0c9c24b3f4d65bca49356bbe145baca3f16ea8163f68e8542d5d",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D13E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D13E13F16C-course-recovery-v1/sources/U3D13E.json",
+  "source_json_sha256": "9f30ec19a141ea17410f255b2f05255e0e27a5a1f8eb5664c12b6d5b504325d7",
+  "geometry_sha256": "194d2172e30504feade66efe9280e736b89fd13de20a0e1b4ac00e25bbc9b5af",
+  "font_file": "design/quality/proofs/continuation/U3D13E13F16C-course-recovery-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1bf9cc27bd308447f47293961d6b131e1776b922800223a907446a58208bb4d6",
+  "raster_file": "design/quality/proofs/continuation/U3D13E13F16C-course-recovery-v1/U3D13E-Regular400.png",
+  "raster_sha256": "0af2630b4b4c1333f23c1005f2fad24faaed61cd78e254389f86057014e2372c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      262,
+      -64,
+      762,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected native, all four enlarged whole references, full actual font and enlarged repaired branches/rail/oval. Bounded smoothing removes previous middle notches and rail bulges while preserving three diagonal courses, middle branch junction, three free upper terminals and rail contact. Both forks detached coherent THX; lower oval and twin feet produce two separate open counters and baseline retained. Smooth constant-width Regular400 courses, gaps and rounded terminals acceptable. Native match retained.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "2d350ef75e7044ac1961ed547f6512dd8cf4df81ef9673417ef30f8521ea2234",
+      "source_json_sha256": "a7649cf69651b045d38b42adec80be391d4999e0e4b74a860d90a14bc02fd348",
+      "font_sha256": "2174e769a1cfffdef526e9f6882b4612f17e2a19a59868383f913143fbf3c4f9",
+      "raster_sha256": "8b8eea8c81fd5d91a801bbc64e3fb1aa280dc32655ec74d7095e99c838f02578",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged middle elbow/rail junction inspected. Native coherent THX detached forks, bent three-course middle construction joined to rail and separate one-counter oval/stool retained. Actual tracing introduces stepped narrow double bend at middle branch junction and a pointed notch/bulge where lowest slant meets horizontal rail; rail also waves. Structure correct but inconsistent smooth trajectories.",
+      "requested_corrections": [
+        "Smooth middle bent-course transition through existing middle-branch junction and lower slant-to-rail junction, removing pointed rail notch/bulge while retaining exact outer terminals, all branch contacts and separate lower oval/stool."
+      ]
+    }
+  ]
+}

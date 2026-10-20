@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -3697,17 +3697,17 @@
         12
       ],
       "is_loop": false,
-      "path": "M 700.115,595.425 L 428.575,598.697",
+      "path": "M 700.115,595.425 L 322.53569624968054,599.9747513510755",
       "commands": [
         [
           "M",
           700.115,
-          595.4249
+          595.425
         ],
         [
           "L",
-          428.5751,
-          598.6965
+          322.53569624968054,
+          599.9747513510755
         ]
       ],
       "maximum_fit_error": 3.232,
@@ -6112,6 +6112,15 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.7812,
       "maximum_fit_error_font_units": 2.5557
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore coherent whole THX lowest crossbar-to-outer-left-wall contact by extending only that bar along its exact existing line and slope until the existing left wall. Original right endpoint and all other eleven courses remain unchanged. Header channel stays open to the right; the existing upper closed field and restored lower closed field make two enclosed counters. Native uncertain mixed contacts remain recorded; this change chooses the complete THX construction rather than combining free-left variants with other staff contacts.",
+      "previous_paths": {
+        "stroke-8": "M 700.115,595.425 L 428.575,598.697"
+      },
+      "native_png_and_provenance_unchanged": true
     }
   ]
 }

@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D19B",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the first attached four-specimen reference sheet. The slots THX CCZ QJZ DYC show the SAME codepoint; examine every available specimen equally, UNAVAILABLE means absent evidence. Choose ONE coherent attested historical whole construction, never blend incompatible variants or replace with modern Chinese. Second image is prior glyph for stroke STYLE ONLY, not character identity. Preserve every bar, branch, loop, counter, detached mark and opening. Genuine smooth centerline trajectories with absolutely CONSTANT black stroke width, round caps and joins, straight precise bars and smooth rounded curves. No brush pressure/taper/swelling/serifs/blobs/texture. All strokes share width around3%fullcanvas. Square1:1 canvas with ONE centered complete glyph in central70%, generous clear margins. Pureblackstrokes TRANSPARENTbackground. Output ONLY oneglyph, no labels/text/frame/grid/shadow/watermark/multiple specimens. Keep whitegaps open and detachedcomponents separate. U+3D19B coherentTHX construction. CRITICALTWOtopthreeprongforksbothDETACHEDfromheaderbelow; leaveatleastONEstroke-widthWHITEGAPbelowEACHforkstem. BroadheaderhorizontalbarbelowforksjoinsLEFTlongverticalwalldescendingandcurvingrightalongbottomthenoutdownrightatail, OPENrightenclosure. InsideenclosureTHREEDETACHEDupwardUcupseachwithhorizontalRIMBARand2shortprongsaboverim: ONEtopwidecentered,TWObottomsmallsidebyside. ExactlyTHREEclosedcounters1percup. Noneof3cupsjoinsheader/wall/othercups. PreserveTHXallbodyshape, onlytopforkgapscritical. Neverattachforks.",
+  "reference": "reference/seal/individual/U3D19B.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-0c811208-6142-4a47-82bf-dd3dac0aede2.png",
+  "output_file": "design/seal-individual/U3D19B.png",
+  "sha256": "82356cd3408004e4287b2ee1c44e33e2af47bdcb67da89d728113666a675c1d7",
+  "reference_sha256": "b8cf01553f03953155fdb384d91576c7604b5a4403c687d5f36405850c031c15",
+  "reference_metadata_sha256": "ac322232150dfb83f18cb80c01a3529884387bb393bb5be96e138ccead3cf33f",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D19B",
+    "page": 8,
+    "label_bbox": [
+      384.8999938964844,
+      443.77020263671875,
+      415.4693298339844,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 8,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          441.98101806640625,
+          441.7799987792969,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          442.57329711914065,
+          443.79999389648435,
+          467.55328979492185
+        ],
+        "source_label": "TH-00380"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 8,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          440.54022216796875,
+          465.6398620605469,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          442.57329711914065,
+          470.3999938964844,
+          467.55328979492185
+        ],
+        "source_label": "C-00398"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 8,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          444.794189453125,
+          494.1398010253906,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          442.57329711914065,
+          497.09999389648436,
+          467.55328979492185
+        ],
+        "source_label": "K-00379"
+      },
+      "DYC": {
+        "available": true,
+        "page": 8,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          441.9921875,
+          519.0398559570312,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          442.57329711914065,
+          523.7999938964844,
+          467.55328979492185
+        ],
+        "source_label": "D-00376"
+      }
+    }
+  }
+}

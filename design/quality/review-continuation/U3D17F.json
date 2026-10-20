@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D17F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D17F.json",
+  "source_png_sha256": "0d3808e2491f51856b6d9c154e8140e048ba9ed4ec59fd9168ad74b3eb1937ea",
+  "source_png": "design/seal-individual/U3D17F.png",
+  "reference_png_sha256": "452b12d64c7b156bdc3eb8f83e7d3c924b96d4eae1737af794664404e20a69ac",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D17F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-17F-rounded-rectangle-v2/sources/U3D17F.json",
+  "source_json_sha256": "c32f7e20757877e4999e2d17a3fa61db6f34122a772ba48c4a634aa4e29bd9c8",
+  "geometry_sha256": "42bcde2da7332df0421d017e3a914729ef1c4cd5430f1a4bcf06db2197ca87d3",
+  "font_file": "design/quality/proofs/continuation/root-17F-rounded-rectangle-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "4be2c74ef37a9fb791296a43d2781f266495a416ca94d57066a7937aea84c9d7",
+  "raster_file": "design/quality/proofs/continuation/root-17F-rounded-rectangle-v2/U3D17F-Regular400.png",
+  "raster_sha256": "86ee27dc9739df6a3614e96ced5a54cdfe433401212e5d343fb23cf49c456f3d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      199,
+      -64,
+      825,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected native, all four enlarged whole references, full compiled actual and enlarged enclosure. Genuine single X now has one shared crossing and four uninterrupted arms closing four clear fields. V2 outer enclosure retains short top/bottom flats, rounded shoulders and vertical midwalls rather than oval silhouette, with original extrema and four diagonal tips preserved. Both top forks detached, short enclosure upstub and four separate long right descenders retain coherent THX identity. Smooth constant-width Regular400 trajectories and round terminals acceptable; native match retained.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3ec525f8ac34b1c8bf8cb147f333d8c57a66eab360ba93dff15a6b8065d81152",
+      "source_json_sha256": "405e858762a935122e35e732b41a58573576a9f0c05eb48a01c05d113f26e44f",
+      "font_sha256": "3ca693a2f935206b461253e226c898e8c9b315e5ed08e794427015c2d9d8fca0",
+      "raster_sha256": "f7496073eaaa7e2cbc8ff0f50f1e71bf33ce765f8837c54bd7b947837250e46e",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native matches coherent THX detached forks, closed left four-field X body with upper stub, and two paired right descending courses. Actual tracing splits the X into upper/lower Y junctions at source y615.054 and631.412 joined by a short vertical neck. Enclosure corners also acquire pronounced steps/bulges at diagonal contacts. Restore one genuine shared crossing and smooth only affected enclosure corners while preserving four fields and all outer endpoints.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native matches coherent THX detached forks, closed left four-field X body with upper stub, and two paired right descending courses. Actual tracing splits the X into upper/lower Y junctions at source y615.054 and631.412 joined by a short vertical neck. Enclosure corners also acquire pronounced steps/bulges at diagonal contacts. Restore one genuine shared crossing and smooth only affected enclosure corners while preserving four fields and all outer endpoints."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1A0",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1A0.json",
+  "source_png_sha256": "c1fffbafa84c76f7338fca92bdd474d07bc3a2c94e018b24c3d1b51a66052c8f",
+  "source_png": "design/seal-individual/U3D1A0.png",
+  "reference_png_sha256": "4f8f3280eea5889dd165b3279e843f5cd4218c563bb80e28435ba9ff0bf4fc77",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1A0.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-course-recovery-v2/sources/U3D1A0.json",
+  "source_json_sha256": "f758e9618db7617c9e02c675a521232e09a161cdf5230f4f694b9cd7212e466a",
+  "geometry_sha256": "d47291c58721067051f342d2cc08b30b1d8c4a2b3857ab2fbd8d59e598770b4e",
+  "font_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5c197f581b30ed1ee39002155ca7f0cbaf24f51f677ffcdcb3358cffc0cef717",
+  "raster_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/U3D1A0-Regular400.png",
+  "raster_sha256": "13804576ad53669e13bcde08747a651afac8fcf19d3971d273f45ef695ff1723",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      272,
+      -64,
+      752,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected native, all four enlarged whole references, full compiled actual and enlarged both X components. Upper recovered missing arm restores genuine full four-tip X; lower X remains separate with uninterrupted crossing. Both detached upper forks and two one-counter cups match coherent THX, separate lower left winding course/inner I and free descending terminal retained. Smooth constant-width Regular400 courses and round ends acceptable. Native match retained.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "67e6301e6deba76964cd871a88443c6d466d24957e89c8c8ee3b62781c30b352",
+      "source_json_sha256": "94f01e682d0c2caf1bf6b8e82bc1470fb6e35f7a3a94f030311dbe85c3096616",
+      "font_sha256": "0874d327d9fcd0fcadc377747ccd2c906575079a4410f70d7e39c0124f97f553",
+      "raster_sha256": "065e7492802f219074d7426e9fbfc7364ea2cbd9dda22be88c5e481a1feba579",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete specimens, complete actual Regular and enlarged actual inspected. Coherent THX detached top forks above two single-field cups, separate left winding course surrounding an I, and two separate right X crosses retained in the native. Actual upper right X truncates its lower-right diagonal arm to a short bump near the central junction; restore only the missing arm to the original native lower-right tip, and inspect its genuine crossing. Lower right X, both cup fields, left inner I and all other free endpoints retained.",
+      "requested_corrections": [
+        "Full native, all four complete specimens, complete actual Regular and enlarged actual inspected. Coherent THX detached top forks above two single-field cups, separate left winding course surrounding an I, and two separate right X crosses retained in the native. Actual upper right X truncates its lower-right diagonal arm to a short bump near the central junction; restore only the missing arm to the original native lower-right tip, and inspect its genuine crossing. Lower right X, both cup fields, left inner I and all other free endpoints retained."
+      ]
+    }
+  ]
+}

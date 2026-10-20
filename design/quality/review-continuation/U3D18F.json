@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D18F",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D18F.json",
+  "source_png_sha256": "e2c387d6ac731b7bbfd9283a69d8c59c03a1aa1ceaee050dbe5ba1a3fc9384a1",
+  "source_png": "design/seal-individual/U3D18F.png",
+  "reference_png_sha256": "6d998e827712623bd53cd19602703442ef150a899ebcbe6b90326b2eadb7e15d",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D18F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D18F.json",
+  "source_json_sha256": "e377c8c13ec77444000691143d7a6e41ee2de96609e41a95fb05f82e1adb5e0c",
+  "geometry_sha256": "c452d32d1ad57202f672ae39859613eaecb5c6baf055f5156bd18bedbc04233c",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D18F-Regular400.png",
+  "raster_sha256": "a910df6282d348d54135581a0b6f5fa694991bfac6f901347174818f04e83468",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      236,
+      -64,
+      788,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged right lower compound inspected. Upper right paired-counter cap and joined right trident plus left wave contacts correspond connected variant family, but lower right intended winding double return with detached left side descending mark has become simple one-return bar/stem/fork with added lower crossbar; detached lower left side mark missing. All whole specimens retain inner winding return and both lower side courses; no complete attested variant supports current simplification.",
+  "requested_corrections": [
+    "Recover coherent whole right lower winding double-return course with central descending fork and both detached side descending marks; remove invented simple lower crossbar only after selecting full reference contact variant. Preserve upper cap/counters and left waves."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

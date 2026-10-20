@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0FB",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0FB.json",
+  "source_png_sha256": "a4af1e90cfc2e4899bc9b2b36a24cdff82795bb93dbed972c70515baf711a804",
+  "source_png": "design/seal-individual/U3D0FB.png",
+  "reference_png_sha256": "1b1729ec8bd3171818d843bffa3400d510bedba13b98bfa30a5a5f810b0edd60",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0FB.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B3FB-inner-course-wave-v1/sources/U3D0FB.json",
+  "source_json_sha256": "f24512efc1c889f5557047211799fee3a79b520c8e3cade9252bb0bf64fabaf3",
+  "geometry_sha256": "901baa3fb2da9a8677d8c98ee216ade2262e757e1cbd62d2025f0f0b34b7590f",
+  "font_file": "design/quality/proofs/continuation/U3D0B3FB-inner-course-wave-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2bb0b2c84ed4b0ee0259c3dafef29ac8d9ad9debcc02126d7fe7ee70104302e6",
+  "raster_file": "design/quality/proofs/continuation/U3D0B3FB-inner-course-wave-v1/U3D0FB-Regular400.png",
+  "raster_sha256": "e503d1324c067c5aa30d329eda3ea65da033115395702ee2f312fd3f5a7a6767",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      247,
+      -64,
+      777,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all4enlarged whole specimens, full repaired actual Regular400 and enlarged centralwave/rightreturn inspected. CoherentQJZ whole retains joined lowestreturn\u2192bottomstaff rail; continuous long centralleftwave restored between original upper/lowercourses with flankingfree marks preserved. Rightshoulder/three diagonal roots smoothed through originalanchors, top two-counteroval and all course endpoints unchanged. Native mismatch remains split centralwave; exact repaired400geometry accepted.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a0ca02223c43c9bb364d2b0ac89c7e41c2b4cd0fdc698b252bcafc0ad7a7261f",
+      "source_json_sha256": "c86f294fa19b1517d5f88609ce91a3f9d0edf60dcd3c9db277d1f2dfaeaf18e3",
+      "font_sha256": "4423c3e0dca613507109dd2c4248e5e65eeb398277ef004b634a111a64432931",
+      "raster_sha256": "94f1c41dc9d8a72e64e923fafbc2478db7a4b924423aae3b196a9aee17877803",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged left waves/body inspected. Native divides left central wave into two detached segments, producing six separate left marks; all four references retain one continuous central wave between split outer left/right waves. Native right winding return joins lower staff rail as QJZ/DYC, but current font additionally tracks smooth native right curve as lumpy staged elbows.",
+      "requested_corrections": [
+        "Restore continuous central left wave while retaining split outside waves. Choose coherent QJZ/DYC joined lower rail variant or whole THX detached return; smooth automatic right shoulder elbows preserving branch contacts and free tips."
+      ]
+    }
+  ]
+}

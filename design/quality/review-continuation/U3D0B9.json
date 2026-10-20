@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0B9",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B9.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0B9.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D0B9.json",
-  "source_json_sha256": "d76420872f3561a9b81af7c3ffa15d0128886298aa6fb5c588948f7096f264ca",
-  "geometry_sha256": "7464bcb3e3b286fe53650c4e71b8c7c1913663e023132004ef1f9a71d29ef937",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D0B9-Regular400.png",
-  "raster_sha256": "a9b5786f1e277c6dfd398a7bb9cc26aed388e9344bd5150dbe1e340e92ae6500",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/sources/U3D0B9.json",
+  "source_json_sha256": "a5b7753fa7f4e8b690f65c287c367def0a91bc2c11a9e2d362f3683c0c7d8ff0",
+  "geometry_sha256": "227d9424e34d0adc9c2380a524bc598a69fa1849137504a620abe517d4fc3bd1",
+  "font_file": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7f2971e283011397b1bbfd6eedfea062c3babf058736ddc381923e12f7ff89a4",
+  "raster_file": "design/quality/proofs/continuation/U3D0B8B9136137-contact-smoothing-v1/U3D0B9-Regular400.png",
+  "raster_sha256": "d9446e18b3f27cc0a59335647b43afe4286a19b31e77f1247bda4259ccb63a39",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole and enlarged specimens, actual Regular400 and enlarged upper return inspected. Native closes the upper inner return into an oval. THX/DYC inner return is free; CCZ/QJZ closed forms have additional staff/lower-course contact choices absent here. Current detached left staff and paired separate lower descents otherwise follow THX, so closed oval is an incoherent contact blend.",
-  "requested_corrections": [
-    "Restore coherent THX free upper inner-return terminal with clear opening, preserving outer S and paired lower descents and detached left staff."
-  ],
+  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged upper open return/tail split independently inspected. Rooted whole THX open inner return restored by releasing false closed oval, with separate left staff and two lower descending courses. Actual inner tip free and all open gaps clear; remaining original curves/proportions unchanged. Native mismatch remains for closed inner oval.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7464bcb3e3b286fe53650c4e71b8c7c1913663e023132004ef1f9a71d29ef937",
+      "source_json_sha256": "d76420872f3561a9b81af7c3ffa15d0128886298aa6fb5c588948f7096f264ca",
+      "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+      "raster_sha256": "a9b5786f1e277c6dfd398a7bb9cc26aed388e9344bd5150dbe1e340e92ae6500",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole and enlarged specimens, actual Regular400 and enlarged upper return inspected. Native closes the upper inner return into an oval. THX/DYC inner return is free; CCZ/QJZ closed forms have additional staff/lower-course contact choices absent here. Current detached left staff and paired separate lower descents otherwise follow THX, so closed oval is an incoherent contact blend.",
+      "requested_corrections": [
+        "Restore coherent THX free upper inner-return terminal with clear opening, preserving outer S and paired lower descents and detached left staff."
+      ]
+    }
   ]
 }

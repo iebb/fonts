@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0ED.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-ED169/sources/U3D0ED.json",
-  "source_json_sha256": "6a23e4f650aa5e0834e34f1cac983312c7bf2f6c52ce582b62ae0168aca27c2d",
-  "geometry_sha256": "bdab4c9a9480e282f5b25995e12b33ff76f7e391ef845bfb1c49c76aae8945b0",
-  "font_file": "design/quality/proofs/continuation/review-retries-ED169/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "5c46820efae642958c1e0fafe5a691c7566682d829f213208bd340888a7ac427",
-  "raster_file": "design/quality/proofs/continuation/review-retries-ED169/U3D0ED-Regular400.png",
-  "raster_sha256": "c2ef90fdb311a94a0dfce1da3ed89111425608c1923e4d316aa8a8b1986982ac",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/sources/U3D0ED.json",
+  "source_json_sha256": "df82bd6f46d894dc4f2ce7034e1dcf58d9ae41926215068acdb707e0a7775106",
+  "geometry_sha256": "1520058a2e3ac748dfa0c3886fd12d4c59328dd8000a6a5c96bbbaec877128f5",
+  "font_file": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bb1044a5bf7e3c32750b97fae14df5e04519d99e88981a7a91eed046692531ce",
+  "raster_file": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/U3D0ED-Regular400.png",
+  "raster_sha256": "d7e4c8134a58a72f54b7a5c466b14195b2ef4dc5cd0970966e2388e0674e858f",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,13 +34,11 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged inner/bottom compound inspected. Retry2 native restores coherent THX T/L/right-return counter and three-counter lower capsule. Actual structure retained, but long descending central course and middle inner horizontal/return show repeated tracking notches and scalloped edges inconsistent with smooth constant-width trajectories.",
-  "requested_corrections": [
-    "Smooth bounded central long descent and middle inner rail/return without changing endpoints, contacts, counters, or other courses."
-  ],
+  "notes": "Full retry2 native/all four enlarged whole specimens previously inspected and rechecked against repaired full actual Regular400 and enlarged inner return/long descent. Bounded smoothing removes middle rail/return and long descent notches while preserving coherent THX T/L/right-return counter, three-counter lower capsule, separate left winding curl and all original contacts/endpoints. Smooth constant-width repaired trajectories accepted.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
@@ -58,6 +56,18 @@
       "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged inner structure inspected. Left winding component, right outer cap/stub, long right inner return and lower three-counter oval with paired legs retained. Native inner T stem stops free above lower L rail, and L rail itself stops before long return wall. THX joins stem and L base to return, closing small internal counter; native/font omit required contacts and counter.",
       "requested_corrections": [
         "Restore coherent THX inner T-stem to L-base and L-base to right return contact, preserving free upper L tip, cap gaps, outer winding and lower oval/legs."
+      ]
+    },
+    {
+      "geometry_sha256": "bdab4c9a9480e282f5b25995e12b33ff76f7e391ef845bfb1c49c76aae8945b0",
+      "source_json_sha256": "6a23e4f650aa5e0834e34f1cac983312c7bf2f6c52ce582b62ae0168aca27c2d",
+      "font_sha256": "5c46820efae642958c1e0fafe5a691c7566682d829f213208bd340888a7ac427",
+      "raster_sha256": "c2ef90fdb311a94a0dfce1da3ed89111425608c1923e4d316aa8a8b1986982ac",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged inner/bottom compound inspected. Retry2 native restores coherent THX T/L/right-return counter and three-counter lower capsule. Actual structure retained, but long descending central course and middle inner horizontal/return show repeated tracking notches and scalloped edges inconsistent with smooth constant-width trajectories.",
+      "requested_corrections": [
+        "Smooth bounded central long descent and middle inner rail/return without changing endpoints, contacts, counters, or other courses."
       ]
     }
   ]

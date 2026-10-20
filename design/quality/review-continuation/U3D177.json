@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D177",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D177.json",
+  "source_png_sha256": "77ed74fb39f970f4c678c57ed5ebe0ae4dac8bee227fc562674d5267a6f3bb17",
+  "source_png": "design/seal-individual/U3D177.png",
+  "reference_png_sha256": "ae63bc2b6142c81099676986bc674354533332dad55d13f8099827793d8ca446",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D177.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/sources/U3D177.json",
+  "source_json_sha256": "7ed4eb03998124263c6a96d92a6d64613fa76d3cfb7e6f48578dc193de1872f9",
+  "geometry_sha256": "3105137a67196e0cecd2a811823c3b4f6845736cede37c8e020fb5afd1a79f6d",
+  "font_file": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "67d1ee7e90298bb2787d449d4707df668f0456d0f9d2e7a364433de4cada3ee5",
+  "raster_file": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/U3D177-Regular400.png",
+  "raster_sha256": "e289492fe8b8f5e6b34ff9b7140f9e1fa04d5ed47ca1e4a33f60fcdb7fc9cc53",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      259,
+      -64,
+      765,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all4 enlarged whole specimens rechecked with full repaired actual Regular400 and enlarged lower rail/return. Coherent CCZ joined-fork whole retained; repeated lowest-rail scallops and middle-right curve bulge removed while original intersection/endpoints and all contacts preserved. Smooth constant-width repaired trajectories accepted.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "c2f7f833fb4fd9ef2bc027b3330e2d44f42638d82dba544dd80a6090ee5fcbc9",
+      "source_json_sha256": "67205850a4290c8bc1454794cf9cf1f22dc0062f71e2bcebb1e56ce42a59e48f",
+      "font_sha256": "72ee788426e91a43fb0e1bd63201e4c67f6b5c3ae56d3975c9b029b129894568",
+      "raster_sha256": "e4d7b873940f9d0b92cb891e6107118f7f26eeb8d591ef2e32b8477592157655",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged right compound/lower rail inspected. Joined upper forks use attested CCZ whole family with winding right return and separate long left descent; native course identity retained. Actual tracing introduces pronounced repeated scalloping along lowest rightward return course and localized bulge on outer right middle curve. Hold for smooth constant-width trajectory repair preserving all contacts/endpoints and selected joined-fork whole.",
+      "requested_corrections": [
+        "Smooth repeated tracking scallops along lowest return rail and localized bulge on middle outer right curve, retaining original endpoints/intersection/upper fork contacts and all other paths."
+      ]
+    }
+  ]
+}

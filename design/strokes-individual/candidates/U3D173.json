@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -4639,17 +4639,17 @@
         19
       ],
       "is_loop": false,
-      "path": "M 520.179,667.399 L 520.179,791.719",
+      "path": "M 520.179,667.399 L 520.179,861.3768813362778",
       "commands": [
         [
           "M",
-          520.1789,
-          667.3994
+          520.179,
+          667.399
         ],
         [
           "L",
-          520.1789,
-          791.7188
+          520.179,
+          861.3768813362778
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -5356,6 +5356,15 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Extend only the separate lower inner upright downward along its exact vertical until its existing inner L baseline, restoring coherent THX contact. Preserve upper Y flow through the middle bar into the outer right leg, separate lower-upright upper free tip, both lower L terminals, and all other eleven native2 courses. Native2 missing contact remains recorded.",
+      "previous_paths": {
+        "stroke-10": "M 520.179,667.399 L 520.179,791.719"
+      },
+      "native_png_and_provenance_unchanged": true
     }
   ]
 }

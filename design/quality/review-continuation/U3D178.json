@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D178",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D178.json",
+  "source_png_sha256": "eb86fa173bab29ad38328a8d84eb669e634e0abb29afa6a42d5debc8333727e7",
+  "source_png": "design/seal-individual/U3D178.png",
+  "reference_png_sha256": "194eb3c051fcf0bdb81c2e6c7bac667868204455d9331721600943b29b852ac1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D178.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/sources/U3D178.json",
+  "source_json_sha256": "c485cd8659883c5d48352c2ad42526220a7991376b105e549600802bcd8f505e",
+  "geometry_sha256": "2880c47e7757c2fcf80cd88e9472121b1aed9a4407a3f47afed8bb1488540638",
+  "font_file": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "67d1ee7e90298bb2787d449d4707df668f0456d0f9d2e7a364433de4cada3ee5",
+  "raster_file": "design/quality/proofs/continuation/U3D0FA13B176177178179-bounded-v1/U3D178-Regular400.png",
+  "raster_sha256": "46c5c2f11992f3b26f88cae10d744e77d149fe9df3b9a0ebbf986d5ef8c73356",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      284,
+      -64,
+      740,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all4 enlarged whole specimens, full repaired actual Regular400 and enlarged lower sidewall/branchanchors independently inspected. Coherent QJZ joined-fork whole retained with upper winding shared staff and lower diagonal ladder, one crosscourse into long right descent and other two free tips. Sidewall smoothing removes stepped bulge through preserved branch anchors; no extra counters/contacts, endpoints and other courses unchanged.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "22343633d53d336a63bc96f0a53cb32a32e00ce66d6adf2440be87d12b2d709e",
+      "source_json_sha256": "4265c10f7111b02ae4f35e75920c07a65e459bb41e1439553374fbf0b02a0d97",
+      "font_sha256": "4423c3e0dca613507109dd2c4248e5e65eeb398277ef004b634a111a64432931",
+      "raster_sha256": "3c9a447df79c642db47777d4b25f00468a881290f825ad70120c8aca89a28e6e",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged lower compound inspected. Coherent QJZ connected upper tridents to two-rail bent course, lower curved enclosure with left sidewall, top/bottom free inward slants and joined middle divider. Font retains topology but lower-left sidewall is tracked as abrupt stepped segments with bulging elbows at branch joins, unlike continuous deliberate native/reference curve.",
+      "requested_corrections": [
+        "Smooth lower-left sidewall and its branch transitions only, preserving all free inward tips, middle divider contacts, outer endpoints and selected connected upper variant."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D18C",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D18C.json",
+  "source_png_sha256": "5d6ad9326fc88fd0b485e44ec5006582c5b51b7af336ec406544e70e8163fbfa",
+  "source_png": "design/seal-individual/U3D18C.png",
+  "reference_png_sha256": "b0a80e951b3b52e42f555c872ff1e596b590419588c1928d6d038f4e2fd77c91",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D18C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D18C.json",
+  "source_json_sha256": "5e514ae05ecbf4338afb5ab0224f148017cb6ad28f76c0ff6a37278bc07c65f1",
+  "geometry_sha256": "32a8a97ba39e0822044088d683b9979967c676f6faed86b48f2b3c166f3897de",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D18C-Regular400.png",
+  "raster_sha256": "4e56c6b14fc8316e17e739fc260a8d23ae89178a6b972fc613529fe38eb8740c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      277,
+      -64,
+      747,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged roof/cup inspected. Native pairs detached upper tridents with THX separated roof but connects both cup sidewalls to upper bar, creating two enclosed fields; THX cup has free side upper tips below separate bar linked only by central staff. Font additionally drops almost entire LEFT diagonal arm of native full chevron roof, leaving tiny hook.",
+  "requested_corrections": [
+    "Restore complete left chevron roof arm from native with original free endpoint/apex/right arm preserved.",
+    "Select coherent THX free cup side upper terminals below separate top bar, retaining central bar-to-cup staff and detached side descents."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D198",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D198.json",
+  "source_png_sha256": "f1411f8cb11024a89e4f1718899cdbf3b0f80d6fda12cb366d32dbd33e396e98",
+  "source_png": "design/seal-individual/U3D198.png",
+  "reference_png_sha256": "17cd85a53e20ba15adec2f790ca653e6a1d2e4452c865d771ec393beff1cb1d3",
+  "reviewed_specimens": [
+    "THX",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "QJZ"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D198.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D198.json",
+  "source_json_sha256": "d9f8a878aa813afc570007e320777eaa734c94d2a803037c740e501dc047903c",
+  "geometry_sha256": "58498056191c35b38e77da778b508e01cae8e111ba39163f9b8a1d8e48f76dfc",
+  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D198-Regular400.png",
+  "raster_sha256": "292b41d684080a093a778175f52fb081a9929fcbcc8ec3b00ac7ae17705ca04d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      249,
+      -64,
+      775,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Inspected both available enlarged THX/DYC whole references, native, full actual and enlarged left courses. Native/font have FOUR left oblique courses including fork-connected top course; THX and DYC attest THREE. Native fork topcourse also ends as downward-left bent staff rather than staff meeting interior of top oblique rail as THX. Whole remaining form closest THX (separate I/cup, separate bottomdash). CCZ/QJZ unavailable. Native mismatch.",
+  "requested_corrections": [
+    "Correct left compound to three oblique rails total, with left fork staff meeting the top rail internally as whole THX; retain separate I below and all right/lower courses."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

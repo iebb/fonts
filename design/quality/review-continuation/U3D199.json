@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D199",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D199.json",
+  "source_png_sha256": "a6b5fde68d61074095adc8b92c959521e7f446f41fe9cb494e6f7b08493536e9",
+  "source_png": "design/seal-individual/U3D199.png",
+  "reference_png_sha256": "b1cd1738ca24d874c06dad67ba65404a9f9d2a28219fced4a5de2c310e9343b8",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D199.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-course-recovery-v2/sources/U3D199.json",
+  "source_json_sha256": "ca7269920c003c508374bb976292d9c489ea6b34d0512ffc3d9e0b4e6bcc9627",
+  "geometry_sha256": "14fa85cf5ecf77f139264461a2b5acc4f7cec1f28e64b5899d44032b75ccbd60",
+  "font_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5c197f581b30ed1ee39002155ca7f0cbaf24f51f677ffcdcb3358cffc0cef717",
+  "raster_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/U3D199-Regular400.png",
+  "raster_sha256": "73f973f65ae985f7c1a2caa6230271ac749a8f9f56c9f307afa1532cdc9fdf2b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      232,
+      -64,
+      792,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Inspected all four enlarged whole references, native, full actual and enlarged both X marks/lower bowl. Corrected top X and lower bowl shared diagonal intersection retain THX identity. Lower standalone X still has lumpy kink on rising left half and offset shoulder at center compared to clean upper X/native. Native match retained; bounded smoothing needed.",
+  "requested_corrections": [
+    "Smooth only remaining lower standalone X rising diagonal through exact outer tips and shared crossing; remove hooked shoulder/lump."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f96fccb46ee1489bd3744e749ef7dedbf08bee46eb8ac38eb46b5f892f389134",
+      "source_json_sha256": "757ba2d012740795a078a2dfbc048d0e33d7163233d5a90d4d43cd89b24d8aa3",
+      "font_sha256": "0874d327d9fcd0fcadc377747ccd2c906575079a4410f70d7e39c0124f97f553",
+      "raster_sha256": "7439f7e7fb5bdd79cb1f34063273a97e77c6372ee9ae2b26d77cce1d8a24b0b2",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete specimens, complete actual Regular and enlarged actual inspected. Native retains coherent THX detached left top fork, joined right top fork/three-rail return, two left diagonal crosses, middle I and small cup, lower open curved return crossed by descending course, and detached bottom dash. Actual top left X has offset half junctions at (359.872,405.674) and (376.23,405.674); the lower curved return crossing similarly splits the incoming and outgoing diagonal across its baseline at x588.882 and634.684 instead of one genuine diagonal crossing. Unify only those two artificial bridges, preserving all original diagonal tips and unchanged other courses.",
+      "requested_corrections": [
+        "Full native, all four complete specimens, complete actual Regular and enlarged actual inspected. Native retains coherent THX detached left top fork, joined right top fork/three-rail return, two left diagonal crosses, middle I and small cup, lower open curved return crossed by descending course, and detached bottom dash. Actual top left X has offset half junctions at (359.872,405.674) and (376.23,405.674); the lower curved return crossing similarly splits the incoming and outgoing diagonal across its baseline at x588.882 and634.684 instead of one genuine diagonal crossing. Unify only those two artificial bridges, preserving all original diagonal tips and unchanged other courses."
+      ]
+    }
+  ]
+}

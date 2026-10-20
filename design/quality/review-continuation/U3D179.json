@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D179",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D179.json",
+  "source_png_sha256": "d0baa1be6d44715e9337b8dbc76c622e2d22821a1d1c4ff1ff0a79de3ee7dc4b",
+  "source_png": "design/seal-individual/U3D179.png",
+  "reference_png_sha256": "cb6f3abd6f346caa0ab55bb3abc874c959cda5702b2e623d9dfd8a3d134c6e3c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D179.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D179-restored-upper-stub-v2/sources/U3D179.json",
+  "source_json_sha256": "ff2afcf0e5bcb8f8863286e8352bf59a8a5b2bf7133134652cb6d4835600b72c",
+  "geometry_sha256": "32da1a1d7d752e34c6fd08b3966fc23199b1e894c541f8fc90b64eebeb4033cf",
+  "font_file": "design/quality/proofs/continuation/U3D179-restored-upper-stub-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "363fd361a3e42137b9f4fa4e098212c8900b2148a7ea57e9bbb4ec30a9ca7877",
+  "raster_file": "design/quality/proofs/continuation/U3D179-restored-upper-stub-v2/U3D179-Regular400.png",
+  "raster_sha256": "e6c41a99dcdd7471810063c9a608534101c745a4e833b6c43896a4a330e10abb",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      307,
+      -64,
+      717,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native and all3available enlarged whole specimens plus whole THX enlargement independently inspected; final repaired full actual Regular400 and enlarged upperstub/gap rechecked. Corrected prior secondary reviewer reading: small LEFT counter/roof join is attested THX and preserved. Lower left inner elbow clipped to free short descent; rightupperstaff UPstub now restored above topmost bar with clear gap to detached fork. Remaining right two-field cup/free innerstub/winding tail and long outerdescent unchanged. Native mismatch retained for long left inner elbow descent.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e29fe038117f974c3ec4ecb12bab1d1ed324a9a7511fcc6eee6c8da4b36f1137",
+      "source_json_sha256": "4a6226f5fcb7873241b5cf95269a6fcabc9e096072b61672f2162353a692c0d6",
+      "font_sha256": "4423c3e0dca613507109dd2c4248e5e65eeb398277ef004b634a111a64432931",
+      "raster_sha256": "51238cd0a1e175957f31cf820fa71348193b0a3775f67de3d1effe50fa3716d3",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, three available whole/enlarged specimens (DYC unavailable), actual Regular400 and enlarged left inner elbow inspected. Native otherwise follows detached THX upper forks and right winding/paired-counter courses, but left internal downward elbow joins outer lower roof creating an extra small counter. THX inner elbow descends freely inside outer cover; CCZ/QJZ also retain free inner descent. Native turns intended short inner free descent into extra joined counter and long exterior right leg.",
+      "requested_corrections": [
+        "Restore coherent THX left free short inner descent inside distinct outer curved cover, removing false small counter/inner-to-outer join while preserving winding staff and outer terminal courses."
+      ]
+    },
+    {
+      "geometry_sha256": "916e4daceefa22635aa8ed0f7b81fde6a632c087d82ad441353335be79474b13",
+      "source_json_sha256": "dd164585d4167c64be721f210ca3e9b812681ae814de859e60f58b1438833213",
+      "font_sha256": "67d1ee7e90298bb2787d449d4707df668f0456d0f9d2e7a364433de4cada3ee5",
+      "raster_sha256": "2f16b34b90230d8262ac9756834f719316f77d366fd51ada43f0a5831908ace2",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all3available enlarged whole specimens plus enlarged whole THX independently inspected, full repaired actual Regular400 and enlarged leftcounter/lowerclip and rightupperstaff. Corrected prior reviewer interpretation: small LEFT counter/roof join is attested THX and must remain. Lower elbow now free short descent after clipping, but actual font omits native/THX right upper staff UPstub above topmost horizontal; enlarged crop confirms omission.",
+      "requested_corrections": [
+        "Retain attested left smallcounter/roofjoin and lower short inner descent clipping.",
+        "Restore right upperstaff short upstub above top horizontal, proportioned to native/THX and detached from upperfork."
+      ]
+    }
+  ]
+}

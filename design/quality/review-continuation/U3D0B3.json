@@ -5,7 +5,7 @@
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B3.json",
-  "source_png_sha256": "9a479d81d15c0e0674014da91be948fee249ebef58f5ad80d633b688a51f6929",
+  "source_png_sha256": "66f6c383f30b648cf8f6560d7748a9c53a0d914cffd900398839be3f3985c009",
   "source_png": "design/seal-individual/U3D0B3.png",
   "reference_png_sha256": "609a8675ed888dd5f18928edca8c707a5a1fdc42b1cc792a2a62d50cbc9ccf9f",
   "reviewed_specimens": [
@@ -17,37 +17,62 @@
     "DYC"
   ],
   "geometry_source": "design/strokes-individual/candidates/U3D0B3.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifteenth-eight/sources/U3D0B3.json",
-  "source_json_sha256": "79b5d61c5279eba518cbe325424f1dd96aaef4eb94c8b611bbd5e524a4336d18",
-  "geometry_sha256": "35958aa3a054561297d100df86e3363b7989f2d54b721145c859da4f68ef544a",
-  "font_file": "design/quality/proofs/continuation/review-fifteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
-  "raster_file": "design/quality/proofs/continuation/review-fifteenth-eight/U3D0B3-Regular400.png",
-  "raster_sha256": "8786ab81505a8696f386bb010f88804defa76271d4c3f01c61d2a5332d379d7f",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B3-full-lower-right-chevron-v2/sources/U3D0B3.json",
+  "source_json_sha256": "156f1b69748c9a903f8439397dda7ee990de0da1b046b88ac92244222f014458",
+  "geometry_sha256": "3b3a8542877140b67d92365e0302d05a1f1574d01336e2c04d463e51c4b3852f",
+  "font_file": "design/quality/proofs/continuation/U3D0B3-full-lower-right-chevron-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c1afb369fe4aa974d96e3abd4e252efd2c0d4562d7c6b0e93dae57fa41ffc227",
+  "raster_file": "design/quality/proofs/continuation/U3D0B3-full-lower-right-chevron-v2/U3D0B3-Regular400.png",
+  "raster_sha256": "5e95f437448f89baed4f02f8183436a1a146e5322d124b80a16f9bb93471bec1",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      206,
+      248,
       -64,
-      818,
+      776,
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all available enlarged whole specimens (DYC unavailable), full actual Regular400 and enlarged upper marks/inner winding inspected. Native has all four upper chevrons free of central upright, while no available whole attests this combination. Inner C return also detached from long outer descending course, whereas all available specimens join them. Actual tracking further loses right descending halves of both lower chevrons, leaving bent diagonal dashes.",
-  "requested_corrections": [
-    "Choose coherent THX whole contacts: both upper chevrons inner ends join central upright; lower-left inner end joins upright and lower-right remains free.",
-    "Join inner C leftmost bend to long descending outer course as in whole THX.",
-    "Restore full two-branch lower chevrons lost by tracing; preserve all four endpoints and open gaps required by selected whole variant."
-  ],
+  "notes": "Reinspected current native2, all three available enlarged whole specimens, full compiled font and enlarged upper chevrons/inner courses. Recovered full lower-right chevron has both long arms and a clear free left gap, matching native2 and coherent THX. Added inner C course restores three winding levels; top paired chevrons share central staff, lower left joins it, lower right remains detached; lower stool joins winding outer course. Constant width, smooth rounded courses and clear gaps acceptable at Regular400. Native2 remains mismatch solely for omitted inner C course; old native1-chevrons hold is stale.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "35958aa3a054561297d100df86e3363b7989f2d54b721145c859da4f68ef544a",
+      "source_json_sha256": "79b5d61c5279eba518cbe325424f1dd96aaef4eb94c8b611bbd5e524a4336d18",
+      "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
+      "raster_sha256": "8786ab81505a8696f386bb010f88804defa76271d4c3f01c61d2a5332d379d7f",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all available enlarged whole specimens (DYC unavailable), full actual Regular400 and enlarged upper marks/inner winding inspected. Native has all four upper chevrons free of central upright, while no available whole attests this combination. Inner C return also detached from long outer descending course, whereas all available specimens join them. Actual tracking further loses right descending halves of both lower chevrons, leaving bent diagonal dashes.",
+      "requested_corrections": [
+        "Choose coherent THX whole contacts: both upper chevrons inner ends join central upright; lower-left inner end joins upright and lower-right remains free.",
+        "Join inner C leftmost bend to long descending outer course as in whole THX.",
+        "Restore full two-branch lower chevrons lost by tracing; preserve all four endpoints and open gaps required by selected whole variant."
+      ]
+    },
+    {
+      "geometry_sha256": "f4f1720725a3445dd44fc26892dbede15d2e88169db5bf038fb0231f54373483",
+      "source_json_sha256": "788ee485810f3cc393edc067f0ce2a5a006ab1f1555c887e2e16e9d009db8f50",
+      "font_sha256": "2bb0b2c84ed4b0ee0259c3dafef29ac8d9ad9debcc02126d7fe7ee70104302e6",
+      "raster_sha256": "93e032ec6333b5a47c5b408a9f2ad8dc5d025188d07643b3823a2327fed1b051",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Fresh retry2 full native, all3available enlarged whole specimens, full repaired actual Regular400 and enlarged innerreturn/upper chevrons independently inspected. Native2 fixes old mixed chevroncontacts and outerC/stool join but omits innerCcrosscourse; added course restores coherentTHX three winding levels. Actual lower-R chevron still loses full ascending left half into tiny hook, unlike native2 and THX; hold exactgeometry until native trajectory recovered.",
+      "requested_corrections": [
+        "Preserve restored innerCcourse and all native2 contacts.",
+        "Recover full lower-right chevron ascending-left half from native2, retaining original free lefttip/peak/righttip and all otherpaths."
+      ]
+    }
   ]
 }

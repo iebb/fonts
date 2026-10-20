@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D173",
-  "reviewer": "independent visual reviewer /root",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "design/seal-individual/reviews/U3D173.json",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D173.json",
+  "source_png_sha256": "e10bb4d1ce35fd31325e4d3ee9e9ab21e8f00d493697c2dc0dd265be2614c091",
   "source_png": "design/seal-individual/U3D173.png",
-  "source_png_sha256": "5992585549726043814b131e334ff80deaa7df3149df0e4f28dccd788b3d5b1e",
   "reference_png_sha256": "8357b60a1868e463984487b8e448b8f0247d6aa7be5c206ef540acd7e8f38357",
   "reviewed_specimens": [
     "THX",
@@ -16,39 +16,47 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D173.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-untouched-eight2-v1/sources/U3D173.json",
-  "source_json_sha256": "9a82b8b2c24de6d5f0ef19d436570516a37fca998209b650582e64036eecbe5e",
-  "geometry_sha256": "1844348fc5230dfeac61ba2c4dadcc26dc8932f8462015b122db33dcd37ca703",
-  "font_file": "design/quality/proofs/continuation/root-untouched-eight2-v1/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "5e91f571b38a7818b3161152767210a441027a3ae2ebfbada3e238b4181a96b5",
-  "raster_file": "design/quality/proofs/continuation/root-untouched-eight2-v1/U3D173-Regular400.png",
-  "raster_sha256": "4df086b121e173ff4ab9bfed5191e267116a2676ef66af438dd03c6aba38922a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-THX-contact-crossing-v1/sources/U3D173.json",
+  "source_json_sha256": "d2b756c260b012642d669e984d84781fa392fccdda0bf8de1e154f129ee750b4",
+  "geometry_sha256": "b2047b82c740c02664616b4ac01782cc738698f9f0ce911489ed6379cefa78ed",
+  "font_file": "design/quality/proofs/continuation/root-five-THX-contact-crossing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1a791bba69818f86ef150875c0b3290b30a882786f4480d5fc31ef15cacfe117",
+  "raster_file": "design/quality/proofs/continuation/root-five-THX-contact-crossing-v1/U3D173-Regular400.png",
+  "raster_sha256": "05c440e5f599576f0b8c3e6263431767701b51ac9866c97ecb5a83d45f717742",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      249,
+      250,
       -64,
-      775,
+      774,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native retains THX detached paired top forks, open left roof, middle crossbar and outer legs, but upper inner Y stem wrongly continues down into lower interior, stopping free above L baseline. Coherent THX upper Y crosses middle bar then bends right into outer right descending leg; a separate short lower inner upright begins below middle bar with a gap and joins the inner L baseline. Actual tracing retains both incorrect upper/lower flow and missing L-base contact.",
-  "requested_corrections": [
-    "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native retains THX detached paired top forks, open left roof, middle crossbar and outer legs, but upper inner Y stem wrongly continues down into lower interior, stopping free above L baseline. Coherent THX upper Y crosses middle bar then bends right into outer right descending leg; a separate short lower inner upright begins below middle bar with a gap and joins the inner L baseline. Actual tracing retains both incorrect upper/lower flow and missing L-base contact."
-  ],
-  "review_comparison_sha256": "06e6236c7dfe9d3ffa28362270de6c9e4fd6ac8e20f5e492493a57d0e0368677",
+  "notes": "Inspected native2, all four enlarged whole references, full actual font and enlarged lower inner contact. Extended inner upright now meets the separate L base cleanly as coherent THX. Both upper forks remain detached, open cover/upper Y and crossbar-to-outer-descender trajectories retained. Smooth constant-width Regular400 courses, round terminals and gaps acceptable. Native2 remains mismatch for missing I-to-L contact.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
-    "Heavy weights not visually accepted.",
-    "No paleographic or historical writing-order certification."
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
   ],
-  "detail_review": {
-    "all_specimen_enlargement_sha256": "04d7a2b226768c6a92dc36a297d9113a72fba3b3d29b4cf1ee98e0006a85a697",
-    "actual_font_enlargement_sha256": "b4cbaf7b0e10c08457f7b31dec4828c85bd239779bb5a3d3bca7e06ade94b351"
-  }
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "1844348fc5230dfeac61ba2c4dadcc26dc8932f8462015b122db33dcd37ca703",
+      "source_json_sha256": "9a82b8b2c24de6d5f0ef19d436570516a37fca998209b650582e64036eecbe5e",
+      "font_sha256": "5e91f571b38a7818b3161152767210a441027a3ae2ebfbada3e238b4181a96b5",
+      "raster_sha256": "4df086b121e173ff4ab9bfed5191e267116a2676ef66af438dd03c6aba38922a",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native retains THX detached paired top forks, open left roof, middle crossbar and outer legs, but upper inner Y stem wrongly continues down into lower interior, stopping free above L baseline. Coherent THX upper Y crosses middle bar then bends right into outer right descending leg; a separate short lower inner upright begins below middle bar with a gap and joins the inner L baseline. Actual tracing retains both incorrect upper/lower flow and missing L-base contact.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native retains THX detached paired top forks, open left roof, middle crossbar and outer legs, but upper inner Y stem wrongly continues down into lower interior, stopping free above L baseline. Coherent THX upper Y crosses middle bar then bends right into outer right descending leg; a separate short lower inner upright begins below middle bar with a gap and joins the inner L baseline. Actual tracing retains both incorrect upper/lower flow and missing L-base contact."
+      ]
+    }
+  ]
 }

@@ -1,0 +1,105 @@
+{
+  "code_point": "U+3D273",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Create exactly one abstract typographic character for a Small Seal font, Unicode U+3D273. The attached image is a four-column historical font reference showing the same written character, not a figurative scene. Compare all available THX, CCZ, QJZ and DYC specimens and redraw one coherent complete THX construction as original rounded sans-serif monoline typography. Preserve the written sign's separate strokes, holes, small vertical marks and connection geometry exactly. This is solely a font glyph, with no people or objects. Equal constant-width black strokes, smooth rounded corners and endpoints, no taper or brush effect. One centered complete character in central70% of square transparent canvas, clear margins, no readable annotations, labels, chart layout, background, color, texture or additional characters.\n",
+  "reference": "reference/seal/individual/U3D273.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-a378eb78-7a78-446c-b7fc-655ce048a33c.png",
+  "output_file": "design/seal-individual/U3D273.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "4b4befb230b92178aca74fa5dafcc213bcabbe1174daa733302dc5b33dd5e816",
+  "reference_sha256": "9611e828cb4d32dbb8966680726bf70be80e11be1f8c4b207cb482b07165b665",
+  "reference_metadata_sha256": "bb22099c0cf5a31959df2827ae228b9a549fa2ef48c25ff4c0e90e37c9cf2f77",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D273",
+    "page": 12,
+    "label_bbox": [
+      236.10000610351562,
+      316.9302062988281,
+      265.5594177246094,
+      328.0899658203125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 12,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          315.2010192871094,
+          292.9800109863281,
+          340.3800048828125
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          315.73330078125,
+          295.0000061035156,
+          340.773291015625
+        ],
+        "source_label": "TH-00594"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 12,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          313.7602233886719,
+          316.8398742675781,
+          335.760009765625
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          315.73330078125,
+          321.6000061035156,
+          340.773291015625
+        ],
+        "source_label": "C-00612"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 12,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          318.0141906738281,
+          345.33978271484375,
+          339.6359558105469
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          315.73330078125,
+          348.3000061035156,
+          340.773291015625
+        ],
+        "source_label": "K-00593"
+      },
+      "DYC": {
+        "available": true,
+        "page": 12,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          315.2121887207031,
+          370.2398681640625,
+          340.2479553222656
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          315.73330078125,
+          375.0000061035156,
+          340.773291015625
+        ],
+        "source_label": "D-00591"
+      }
+    }
+  },
+  "previous_attempt_error": "design/seal-individual/attempts/U3D273-attempt-1-error.json"
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D176",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D176.json",
+  "source_png_sha256": "a1c175019fc1b2a774bf2eca30a93be49061d4f20b304e933cfcd6a035fb6124",
+  "source_png": "design/seal-individual/U3D176.png",
+  "reference_png_sha256": "dc94742edbb53511be179273b8a70795bf3c230e95b93fd996784b82bb03bead",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D176.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D176-smooth-upper-wall-v4/sources/U3D176.json",
+  "source_json_sha256": "af0e033ba4c540eb0cebd8e90c60619596935138aedd0572e058d89db2ee4c1f",
+  "geometry_sha256": "5b2b89c4630576e1e7f3a6bc62bb559d7de373f18f97b39de6d51a2a1c8ac004",
+  "font_file": "design/quality/proofs/continuation/U3D176-smooth-upper-wall-v4/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3f9983fd60f84cc6debbf323281384ed25276f659c7c7859198c41bad1866887",
+  "raster_file": "design/quality/proofs/continuation/U3D176-smooth-upper-wall-v4/U3D176-Regular400.png",
+  "raster_sha256": "1b950265b87a4dea0b18afea7cf0508e4eec8acdfaf416651c5bc345caecd3ed",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      292,
+      -64,
+      732,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all4enlarged whole specimens independently inspected; final repaired full actual Regular400 and enlarged diamond/lowerbody rechecked. Correct coherent THX topology: single diamondcounter with shortinnerstub, restoredsharedcentralstaff, freeoutwardjunctionstub and THREE leftbodyfields (curvedupperfield+tworectangles). Originalextra risingbar removed; priorv1/v2extra field/triangle rejected. V4 boundedouterbow smoothing removes pronouncedtrackingknobs while preserving exactdiamondjunction/firstbaranchor/lowercourse. Upperjoinedforks/pairedopenenclosures/threefreediagonalseach unchanged. Native mismatch retained for missingstaff/stub andextrabar.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "542a40b90e38f8fc378fb32b1750dfc78943de2019b3a45d40a9b3bf9889b2bf",
+      "source_json_sha256": "250b4ca098deadcda3e297076b486d3d31a37632053f99dba218fefcec33704a",
+      "font_sha256": "72ee788426e91a43fb0e1bd63201e4c67f6b5c3ae56d3975c9b029b129894568",
+      "raster_sha256": "f82cdc9a49f6affa9ddb77ab8c57e68ffe1484d81d145438e9e59032a9f82b46",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged lower diamond/body inspected. Native preserves coherent THX joined upper forks/paired open enclosures with three detached slants each, but omits lower central upright below diamond and thus loses all three required lower body fields. Also absent short rightward course from diamond-base/staff junction. Actual reproduces these omissions.",
+      "requested_corrections": [
+        "Restore central lower staff from short diamond inner stub through all lower bars to base, maintaining single diamond counter plus three lower fields.",
+        "Restore short outward right branch at diamond-base/shared-staff junction, distinct from the three lower bars."
+      ]
+    }
+  ]
+}

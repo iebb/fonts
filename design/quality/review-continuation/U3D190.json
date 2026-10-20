@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D190",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D190.json",
+  "source_png_sha256": "0acfa794c5a02b03ebed4921b195a7b3e1f0b7c815a673c73b0dcf48a4ed73ce",
+  "source_png": "design/seal-individual/U3D190.png",
+  "reference_png_sha256": "c4005aaf94ffd03b8d9bc65be795ba344b2ec96d5e4a969e1c45526379f9a1be",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D190.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D190.json",
+  "source_json_sha256": "1c3041d6857d381b99e204153b3960373328ffb69f0cac75e4b51120724d70f4",
+  "geometry_sha256": "455cb4202a6563cd11ee8c0f425f86c2f325dadfe9ae9edfed64c967b451e577",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D190-Regular400.png",
+  "raster_sha256": "c383e99e0f24347ec847e4691be5a0407cb7e8053db540593b03e2df2225bbb6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      284,
+      -64,
+      740,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged diamond inspected. Detached upper tridents, paired left cups on hooked long stem, right diamond/body family otherwise THX. Native connects central lower upright all the way to diamond apex/upper stub, dividing required one-counter diamond into two. THX inner short upward tip is free below apex; right outer apex stub remains separate above diamond. Three lower body fields and outward branch retained.",
+  "requested_corrections": [
+    "Release only inner central upright top from diamond apex, leaving short free upward inner stub and single diamond counter; preserve exterior apex stub, outward branch and three lower fields."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

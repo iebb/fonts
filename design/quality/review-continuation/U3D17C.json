@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D17C",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D17C.json",
+  "source_png_sha256": "fbf1ee509f8d9a9b89971d9d3ed9ccf4ef27707acbb1fc3ec0d6fdf691e23cc6",
+  "source_png": "design/seal-individual/U3D17C.png",
+  "reference_png_sha256": "d3209ef8c30b2f8f16ada5b51fd5a005b9b7d659b9b6496e13b2da8a3c11f52c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D17C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-course-recovery-v2/sources/U3D17C.json",
+  "source_json_sha256": "1d10479a00bc4a4196a4a697da4e57fbb47c3ac70d5bd431013536ea3f442aaf",
+  "geometry_sha256": "64642fe86d69aa017ebe625ae96ffd16447c693da2228c34f0a979740cd42ef4",
+  "font_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5c197f581b30ed1ee39002155ca7f0cbaf24f51f677ffcdcb3358cffc0cef717",
+  "raster_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/U3D17C-Regular400.png",
+  "raster_sha256": "f6a1b53717c00b83675768edfc13aa70810b84e3ed62b67f2290846fb9a9a917",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      289,
+      -64,
+      735,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Reinspected exact v2 full actual and enlarged three-course middle stack against native/all four enlarged whole specimens previously inspected. Middle open U now restored between one-counter capped upper cup and one-counter capped lower cup, shared staff continues through it. Stack extrema/width retained with adequate pen-width gaps, no added side counters. Four side square counters plus two central counters total six; both upper forks detached and separate lower hooked doublearc preserved as whole THX. Smooth constant-width Regular400 acceptable. Native remains mismatch for extra divider, missing middle U and lower hook join.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b4f8e59e7d36008c4e208157639b66fb1a25e05dfd0f416f88790c154639b9a1",
+      "source_json_sha256": "3a4d3050fcc17fb42b7bfdfcb51354dcfb6baa0b34e50a4ce829231d8f7ee447",
+      "font_sha256": "3ca693a2f935206b461253e226c898e8c9b315e5ed08e794427015c2d9d8fca0",
+      "raster_sha256": "f91171b62b01e5391300a266aaf7eedfe663e16d09ca3e9c620f92336c2fa75d",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Side paired capsules/feet, detached top forks, central dash/cups and lower paired arcs retained. Current upper central cup is divided into two counters; coherent THX has one upper cup counter. Native also joins the lower cup directly down into lower hooked staff, whereas THX lower hook/staff is separate. Other joined variants alter whole fork/header/body contacts. Actual font retains extra divider and unsupported upper-to-lower staff connection.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Side paired capsules/feet, detached top forks, central dash/cups and lower paired arcs retained. Current upper central cup is divided into two counters; coherent THX has one upper cup counter. Native also joins the lower cup directly down into lower hooked staff, whereas THX lower hook/staff is separate. Other joined variants alter whole fork/header/body contacts. Actual font retains extra divider and unsupported upper-to-lower staff connection."
+      ]
+    },
+    {
+      "geometry_sha256": "9a03569762c5e793caea5a9ef31ec62f87f08206c61436e970bafb894a737ef5",
+      "source_json_sha256": "97763bcd23bec4e447144c0f1402e1036011fa92225c4fd4daa1cf37452b48a1",
+      "font_sha256": "1a791bba69818f86ef150875c0b3290b30a882786f4480d5fc31ef15cacfe117",
+      "raster_sha256": "c121abfebbd58f43049622ace7e5601045a9cc8023d60dd5f760499852559e8b",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native, all four enlarged whole references, compiled full font and enlarged central stack. Upper cup now one counter and bottom hook detached correctly for THX, but middle OPEN U course between upper capped cup and lower capped cup is entirely absent. Native also omits this trajectory and remains mismatch.",
+      "requested_corrections": [
+        "Restore the separate middle open U course crossing shared central staff between upper and lower capped cups; preserve both existing one-counter cups and detached lower hook."
+      ]
+    }
+  ]
+}

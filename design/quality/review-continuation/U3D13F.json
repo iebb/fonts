@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D13F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D13F.json",
+  "source_png_sha256": "3cbbc26b62db94a21b0a9321c429c2eb75d2d4321f3bdcfdad368cdae19dcf1a",
+  "source_png": "design/seal-individual/U3D13F.png",
+  "reference_png_sha256": "d3151372650f6c9e07cc11dfb3b8d21f666d66b02308dca62d5b278052fb052c",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D13F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D13E13F16C-course-recovery-v1/sources/U3D13F.json",
+  "source_json_sha256": "47e04423b92cf141d8251f84af6ff2c0788cbf162ecefb4e8de17cba78dcad78",
+  "geometry_sha256": "32ce75854f20d39d6dd7d9c6d24a66e4d9577c8a94a90424b5baefbdd083cf7f",
+  "font_file": "design/quality/proofs/continuation/U3D13E13F16C-course-recovery-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "1bf9cc27bd308447f47293961d6b131e1776b922800223a907446a58208bb4d6",
+  "raster_file": "design/quality/proofs/continuation/U3D13E13F16C-course-recovery-v1/U3D13F-Regular400.png",
+  "raster_sha256": "74520b5c5ba3db7b0403341f3e9667f7f9786b1e9228f1a3c55114aec66919d4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      206,
+      -64,
+      818,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected native, all four enlarged whole references, full actual font and enlarged four fork/X components. Six upper terminal recoveries restore native main diagonal lengths and all upper fork branch pairs; no truncated tiny main spurs remain. Single genuine X, four three-terminal fork branches and two detached upper forks retain coherent THX identity. Free gaps, native diagonal envelope, constant width and rounded trajectories acceptable at Regular400. Native match retained.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "72c398a4c9a17d805c193059dfe1f90291721f1db9c735038119bb686578848c",
+      "source_json_sha256": "d5c165de2bdbda3a82879788b15e539cfa1fc5a87f6268470ec5fbaab6527f53",
+      "font_sha256": "2174e769a1cfffdef526e9f6882b4612f17e2a19a59868383f913143fbf3c4f9",
+      "raster_sha256": "9ee86815d26847c8fd1bb5abd568beb15b9490fede144ad7f6c9e6f7a7725c8b",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged crossed-fork branches inspected. Native coherent THX retains detached upper forks and one central X whose four arms terminate in three-finger fork structures. Actual tracing truncates the outward upper-left main diagonal to a tiny spur near upper-left fork junction and shortens the corresponding upper-right terminal; upper branching proportions/identity lost.",
+      "requested_corrections": [
+        "Recover both original upper main-diagonal outer terminals from native, especially upper-left truncated spur, preserving one shared X and all four fork-branch trajectories/endpoints. Use native source coordinates rather than shortened automatic centerlines."
+      ]
+    }
+  ]
+}

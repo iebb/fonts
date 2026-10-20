@@ -17,13 +17,13 @@
     "QJZ"
   ],
   "geometry_source": "design/strokes-individual/candidates/U3D169.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-ED169/sources/U3D169.json",
-  "source_json_sha256": "002c031b6a0ce04e25887da358e3679b8420e93ede665e5806f793274e3dbcc1",
-  "geometry_sha256": "c4b391b8b0ba77cce9e8be18382eb9defe5daa71707a94d7f9386bab200a68a4",
-  "font_file": "design/quality/proofs/continuation/review-retries-ED169/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "5c46820efae642958c1e0fafe5a691c7566682d829f213208bd340888a7ac427",
-  "raster_file": "design/quality/proofs/continuation/review-retries-ED169/U3D169-Regular400.png",
-  "raster_sha256": "686979a98549141ceaa0ab327ce3efc3a6d0fe1e7ef458248541af47a72d6ee3",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/sources/U3D169.json",
+  "source_json_sha256": "4c5d2600c1777bb870095a57e89d7e7c2da5c379e421dc2ee1e90283d3b9cc76",
+  "geometry_sha256": "55b031030ab38df213adfe681de944cb3cc6ff61faf38ba564cf91e6e429852a",
+  "font_file": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bb1044a5bf7e3c32750b97fae14df5e04519d99e88981a7a91eed046692531ce",
+  "raster_file": "design/quality/proofs/continuation/U3D0F0ED169-crossing-return-fork-v1/U3D169-Regular400.png",
+  "raster_sha256": "206f576b5a58971e14fc87f7c879fc98cc20dc8035e57acfc3b540ceb39c5f37",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -35,14 +35,11 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, available enlarged whole THX and DYC specimens (CCZ/QJZ unavailable), full actual Regular400 and enlarged right compound inspected. Retry2 retains left compound, but right top trident changed into an elbow/cup construction linked down into the middle cup. Neither available whole form attests this upper topology; lower inner L also remains detached from the descending inner fork left branch, unlike both available wholes.",
-  "requested_corrections": [
-    "Restore right upper genuine three-finger fork and short downstem detached from the separate middle cup; remove misplaced upper elbow/cup and long fork-to-middle connection.",
-    "Restore lower inner L-to-left branch contact of roof-linked descending fork, preserving outer winding boundary and free right fork tip."
-  ],
+  "notes": "Full retry2 native and both available enlarged whole specimens THX/DYC previously inspected; repaired full actual Regular400 and enlarged whole right compound rechecked. Genuine upper three-finger fork restored with central straight downstub detached from middle cup short upstub. Lower roof-linked descending fork left branch now meets inner L, retaining free right tip and outer winding boundary; left compound unchanged. Coherent THX contacts/counter retained, exact repaired geometry accepted; native2 remains mismatch for upper elbow/cup construction and missing lower contact.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
@@ -61,6 +58,19 @@
       "requested_corrections": [
         "Restore coherent THX upper right cup: joined crossbar plus separate short upper inner elbow and correct counter.",
         "Restore lower right roof-linked central fork and left bent L course, preserving attested free endpoints and outer reentrant wall/tail gap."
+      ]
+    },
+    {
+      "geometry_sha256": "c4b391b8b0ba77cce9e8be18382eb9defe5daa71707a94d7f9386bab200a68a4",
+      "source_json_sha256": "002c031b6a0ce04e25887da358e3679b8420e93ede665e5806f793274e3dbcc1",
+      "font_sha256": "5c46820efae642958c1e0fafe5a691c7566682d829f213208bd340888a7ac427",
+      "raster_sha256": "686979a98549141ceaa0ab327ce3efc3a6d0fe1e7ef458248541af47a72d6ee3",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, available enlarged whole THX and DYC specimens (CCZ/QJZ unavailable), full actual Regular400 and enlarged right compound inspected. Retry2 retains left compound, but right top trident changed into an elbow/cup construction linked down into the middle cup. Neither available whole form attests this upper topology; lower inner L also remains detached from the descending inner fork left branch, unlike both available wholes.",
+      "requested_corrections": [
+        "Restore right upper genuine three-finger fork and short downstem detached from the separate middle cup; remove misplaced upper elbow/cup and long fork-to-middle connection.",
+        "Restore lower inner L-to-left branch contact of roof-linked descending fork, preserving outer winding boundary and free right fork tip."
       ]
     }
   ]

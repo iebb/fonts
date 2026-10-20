@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0FE",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0FE.json",
+  "source_png_sha256": "ff7d7ee51c380253ece0cb242f0d9e7c7f583c893e81838458a8774b1dcce995",
+  "source_png": "design/seal-individual/U3D0FE.png",
+  "reference_png_sha256": "0d74cf720c4a47e6a75c81d366151af34cf1be1f31990349dd7936752d5ace96",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D0FE.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0FEFF-restored-contacts-v1/sources/U3D0FE.json",
+  "source_json_sha256": "18a8bfe327dbcf077bd30ba6da52e85dec58ebc26a55c26386933c9728afa3a4",
+  "geometry_sha256": "b8e6516837fd735b1128d532399c2ff788dfe3b81d1b28cc8df99cc4db216642",
+  "font_file": "design/quality/proofs/continuation/U3D0FEFF-restored-contacts-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "19b6a05e0ad1f696ad80b77ec57cabdbf9b253796d7d82bb47d5986dadc5a358",
+  "raster_file": "design/quality/proofs/continuation/U3D0FEFF-restored-contacts-v1/U3D0FE-Regular400.png",
+  "raster_sha256": "80a035154845693ff1c7580869e9673ec5e36955dbbc1d0be500d5de2338b888",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      208,
+      -64,
+      816,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Inspected both available enlarged whole THX/CCZ specimens, native, full compiled Regular400 and enlarged lower contact. Lowest left staff bar now joins central arch at the attested THX point. Separate right cup retains its single counter, central long staff and open descenders retain proportions. Smooth constant-width courses and round terminals acceptable; QJZ/DYC unavailable. Native remains mismatch for original missing contact.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a8917d6fecae1ab16f1d36f32c3c19c54e36d354701ca0e6fc00718deccc79c0",
+      "source_json_sha256": "476150b4965f70bfffcfce28438adf259125ca82e37cb54b541efc4eee894e8f",
+      "font_sha256": "2174e769a1cfffdef526e9f6882b4612f17e2a19a59868383f913143fbf3c4f9",
+      "raster_sha256": "3258f257b565cfb01e9d47ac4397c6670f5c4c87c6477fae3ef777c891e13e48",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, both available enlarged whole specimens THX/CCZ (QJZ/DYC unavailable), full actual Regular400 and enlarged lower staff/arch proximity inspected. Native otherwise follows THX three long central descenders/top bent stem and separate right one-counter cup. Missing lowest staff bar contact to left outer central arch near its lower part: THX joins this contact, CCZ additionally changes other upper contacts. Actual maintains clear gap, so coherent THX whole identity incomplete.",
+      "requested_corrections": [
+        "Restore lowest left staff bar rightward connection into the long central compound outer-left descending course at matching THX relative height, preserving other components/counter/gaps."
+      ]
+    }
+  ]
+}
