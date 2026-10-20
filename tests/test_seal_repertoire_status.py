@@ -17,7 +17,7 @@ class SealProgressTests(unittest.TestCase):
         self.workspace = tempfile.TemporaryDirectory()
         self.addCleanup(self.workspace.cleanup)
         self.root = Path(self.workspace.name)
-        self.ucd = self.root / "reference/ucd-19-draft"
+        self.ucd = self.root / "reference/ucd-18"
         self.ucd.mkdir(parents=True)
         for name in ("Scripts.txt", "Blocks.txt"):
             (self.ucd / name).write_text("3D000..3FC3F ; Seal # the full draft repertoire\n")
@@ -46,6 +46,17 @@ class SealProgressTests(unittest.TestCase):
     def write_registry(self):
         self.write_json(self.registry, {"schema_version": 1, "coverage_eligible": False,
                                         "glyphs": self.entries})
+
+    def test_candidate_geometry_counts_as_present_without_acceptance(self):
+        self.drawing(0x3D080)
+        source = self.root / "design/strokes-individual/auto/U3D080.json"
+        candidate = source.parent.parent / "candidates/U3D080.json"
+        candidate.parent.mkdir()
+        source.rename(candidate)
+        report = status(self.root)
+        self.assertEqual(report["counts"]["centerline_present"], 1)
+        self.assertEqual(report["counts"]["frozen_default_accepted"], 0)
+        self.assertFalse(report["default_prototype_goal_complete"])
 
     def drawing(self, cp, accept=False):
         name = f"U{cp:05X}"

@@ -1,6 +1,6 @@
 # Full Small Seal creation
 
-The target is every code point in the pinned Unicode19 draft Seal script and
+The target is every code point in the pinned Unicode 18.0.0 Seal script and
 block: U+3D000–U+3FC3F, 11,328 characters. Both UCD properties must agree, and
 the cached UCD files must retain their recorded fingerprints. A shorter chart,
 font cmap or work queue cannot redefine this target.
@@ -45,3 +45,20 @@ reviewed source trajectories and pass raster and width checks before use.
 
 The published128-character v0.6 sample is an intermediate artifact. It does not
 complete this goal and remains excluded from production coverage.
+
+## Resume from a clean checkout
+
+The published Unicode 18 UCD is pinned in `reference/ucd-18/`; the older
+Unicode 19 development files remain only as historical coverage evidence.
+Download the chart to `reference/seal/U3D000.pdf` from the URL in the chart
+index and verify its SHA-256 before use. Recreate the private all-specimen
+index without generating hundreds of comparison sheets:
+
+```sh
+python3 tools/prepare_multi_references.py --start 3D000 --count 11328 --index-only
+python3 tools/prepare_individual_references.py --start 3D000 --count 192
+make seal-progress
+```
+
+The references remain private and excluded from Git. Do not promote the
+U+3D080 candidate or any later glyph merely because it compiles successfully.

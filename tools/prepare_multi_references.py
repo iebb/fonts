@@ -195,12 +195,17 @@ def main() -> None:
     parser.add_argument("--count", type=int, default=64)
     parser.add_argument("--sheet-size", type=int, default=2400)
     parser.add_argument("--overview", type=parse_codepoint, default=0x3D001)
+    parser.add_argument("--index-only", action="store_true",
+                        help="Index the complete range without rendering comparison sheets")
     args = parser.parse_args()
     if args.count <= 0 or args.count % 16:
         parser.error("--count must be a positive multiple of sixteen")
     index = index_chart(args.pdf, args.start, args.count)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     (args.output_dir / "chart-index.json").write_text(json.dumps(index, indent=2) + "\n")
+    if args.index_only:
+        print(f"Indexed {len(index['glyphs'])} characters in {args.output_dir / 'chart-index.json'}")
+        return
     for start in range(args.start, args.start + args.count, 16):
         output = args.output_dir / f"reference-{start:05X}-{start + 15:05X}.png"
         metadata = render_batch(args.pdf, index, start, output, args.sheet_size)

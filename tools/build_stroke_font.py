@@ -404,11 +404,19 @@ def sha256(path: Path) -> str:
 def build_all(source_root: Path, output: Path, family: str = FAMILY,
               font_stroke_width: float | None = None,
               require_visual_match: bool = False,
-              normalization_extent: float | None = None) -> dict:
+              normalization_extent: float | None = None,
+              additional_source_root: Path | None = None) -> dict:
     family_basename(family)
     if font_stroke_width is not None and (not math.isfinite(font_stroke_width) or font_stroke_width <= 0):
         raise ValueError("font_stroke_width must be finite and positive")
     sources = load_sources(source_root, require_visual_match, normalization_extent)
+    if additional_source_root is not None:
+        additional = load_sources(additional_source_root, require_visual_match, normalization_extent)
+        duplicates = {source["codepoint"] for source in sources} & {source["codepoint"] for source in additional}
+        if duplicates:
+            raise ValueError("Additional sources cannot override existing glyphs: "
+                             + ", ".join(f"U+{cp:05X}" for cp in sorted(duplicates)))
+        sources = sorted(sources + additional, key=lambda source: source["codepoint"])
     output.mkdir(parents=True, exist_ok=True)
     svg_dir = output / "centerlines"
     svg_dir.mkdir(exist_ok=True)
@@ -478,6 +486,8 @@ def build_all(source_root: Path, output: Path, family: str = FAMILY,
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-root", type=Path, default=ROOT / "design/strokes-individual")
+    parser.add_argument("--additional-source-root", type=Path,
+                        help="Explicitly include separate candidate sources; duplicate codepoints are rejected")
     parser.add_argument("--output", type=Path, default=ROOT / "fonts/seal-individual")
     parser.add_argument("--family", default="Panorama Gothic Seal Individual", help="Font family; also determines the output filename")
     parser.add_argument("--font-stroke-width", type=float,
@@ -489,7 +499,8 @@ def main():
     args = parser.parse_args()
     manifest = build_all(args.source_root, args.output, args.family, args.font_stroke_width,
                          args.require_visual_match,
-                         NORMALIZED_CENTERLINE_EXTENT if args.normalize_glyphs else None)
+                         NORMALIZED_CENTERLINE_EXTENT if args.normalize_glyphs else None,
+                         args.additional_source_root)
     reviewed = sum(glyph["status"] == "manual_geometry_reviewed" for glyph in manifest["glyphs"])
     print(f"Built {manifest['glyph_count']} centerline glyphs ({reviewed} manual geometry reviewed) in {args.output}")
 

@@ -131,7 +131,7 @@ def next_batch(points: tuple[int, ...], accepted: set[int], size: int) -> dict |
 
 def status(root: Path = ROOT, batch_size: int = 64, full_worklist: bool = False) -> dict:
     root = Path(root)
-    points, pin = pinned_goal(root / "reference/ucd-19-draft")
+    points, pin = pinned_goal(root / "reference/ucd-18")
     target = set(points)
     index_path, pdf = root / "reference/seal/chart-index.json", root / "reference/seal/U3D000.pdf"
     index_bytes = index_path.read_bytes()
@@ -153,7 +153,8 @@ def status(root: Path = ROOT, batch_size: int = 64, full_worklist: bool = False)
         entries[cp] = entry
     native_dir, source_dir = root / "design/seal-individual", root / "design/strokes-individual"
     native, provenance = named_files(native_dir, ".png"), named_files(native_dir, ".json")
-    centerlines = {**named_files(source_dir / "auto", ".json"), **named_files(source_dir, ".json")}
+    centerlines = {**named_files(source_dir / "candidates", ".json"),
+                   **named_files(source_dir / "auto", ".json"), **named_files(source_dir, ".json")}
     reviews = named_files(native_dir / "reviews", ".json")
     references = named_files(root / "reference/seal/individual", ".png")
     reference_metadata = named_files(root / "reference/seal/individual", ".json")
@@ -303,7 +304,7 @@ def main() -> None:
     args = parser.parse_args()
     output = args.output or args.root / "design/quality/small-seal-progress.json"
     protected = [args.root / "design/quality/accepted-geometry.json", args.root / "reference/seal/chart-index.json",
-                 *(args.root / "reference/ucd-19-draft").glob("*")]
+                 *(args.root / "reference/ucd-18").glob("*")]
     protected_roots = [args.root / "reference", args.root / "design/seal-individual",
                        args.root / "design/strokes-individual"]
     if (output.resolve() in {path.resolve() for path in protected}

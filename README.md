@@ -1,6 +1,6 @@
 # Panorama Gothic
 
-A sans-serif font family and supplements targeting the **Unicode 19 development draft**. This project prioritizes authentic character shapes for codepoints missing from Noto. Hex labels, tofu boxes and other placeholders do not count toward coverage.
+A sans-serif font family and supplements targeting the **Unicode 18.0.0**. This project prioritizes authentic character shapes for codepoints missing from Noto. Hex labels, tofu boxes and other placeholders do not count toward coverage.
 
 The active Small Seal goal is the **entire 11,328-character range,
 U+3D000–U+3FC3F**. See the [workspace progress snapshot](design/quality/small-seal-progress.json)
@@ -8,6 +8,19 @@ and [creation and review criteria](design/quality/SMALL-SEAL-GOAL.md). The
 snapshot distinguishes generated drawings, pending reviews and frozen accepted
 geometry; a new batch is published after review. The downloadable v0.6 sample
 below remains available while the remaining characters are created.
+
+## Unicode 18 continuation
+
+The Small Seal target is now pinned to the published Unicode 18.0.0 UCD in
+`reference/ucd-18/`, with source URLs and SHA-256 fingerprints. Scripts.txt and
+Blocks.txt agree on all 11,328 target characters. The existing chart PDF still
+matches its recorded fingerprint; the reviewed 128 glyphs remain unchanged.
+
+[The continuation candidate](fonts/seal-candidates/) adds U+3D080 to a separate
+129-character Regular font. Its independent review is pending. The current
+workspace has 129 drawings and 128 accepted glyphs, leaving 11,200 characters
+without frozen acceptance. Earlier workspace counts of 154 drawings included
+unpublished files that are absent from the recovered GitHub branch.
 
 ## Small Seal: independent drawings and real strokes
 

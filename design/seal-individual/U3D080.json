@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D080",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new Small Seal glyph U+3D080 using attached four historical specimens as reference and previous glyph as style reference. All four THX CCZ QJZ DYC show same essential structure; choose a coherent construction closest to THX proportions, informed by all four. Original smooth Gothic sans-serif monoline trajectories, absolutely constant stroke width, round caps and joins, no brush pressure or taper. Match existing glyph's general smoothness and stroke weight. Square canvas, one centered complete glyph in central 70%, black strokes transparent background, no labels or other content. Required structure: LEFT detached vertical stem with three horizontal bars top middle bottom, lower only modestly wider. CENTER one tall straight stem from fork top to bottom. At top a U-shaped fork with two upright sides joining center stem. Around middle one small closed rounded rectangular loop centered on stem; stem divides loop into two counters. Below loop a rounded inverted-U arch with two descending outer legs, centered on stem, central stem descends slightly longer than outside arch legs. RIGHT detached sinuous descending stroke, slopes down-left then curves down-right, then long lower right descending leg; one separate branch descends down-left from the middle shoulder, substantially shorter than the main outer leg. Preserve spaces between left component, middle component and right component, preserve both tiny loop counters. Avoid extra joins or missing legs. Use earlier glyph solely for stroke style, never its different character construction.",
+  "reference": "reference/seal/individual/U3D080.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-d5ee4617-9de7-4c13-8ae2-5301dd8c2f04.png",
+  "output_file": "design/seal-individual/U3D080.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "66a35a5c1d02b266ef4cf88d696ed17ea2ef08a4588286b8f9ac197783737a37",
+  "reference_sha256": "f6e305582ab98f0bd051d31c892d1066cfc7294b0135272cc51fb230bd8b4e94",
+  "reference_metadata_sha256": "67001e7a047a702b93ec5ac8bf3b3874a53e6a7d5953e6530cf1f57f7e826367",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D080",
+    "page": 4,
+    "label_bbox": [
+      87.30000305175781,
+      348.6701965332031,
+      116.7594223022461,
+      359.8299560546875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          346.8810119628906,
+          144.17999267578125,
+          372.05999755859375
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          347.473291015625,
+          146.20000305175782,
+          372.4532836914062
+        ],
+        "source_label": "TH-00118"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          345.4402160644531,
+          168.03985595703125,
+          367.44000244140625
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          347.473291015625,
+          172.8000030517578,
+          372.4532836914062
+        ],
+        "source_label": "C-00122"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          349.6941833496094,
+          196.539794921875,
+          371.3159484863281
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          347.473291015625,
+          199.5000030517578,
+          372.4532836914062
+        ],
+        "source_label": "K-00123"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          346.8921813964844,
+          221.43984985351562,
+          371.9279479980469
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          347.473291015625,
+          226.20000305175782,
+          372.4532836914062
+        ],
+        "source_label": "D-00116"
+      }
+    }
+  }
+}

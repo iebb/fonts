@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 from fontTools.ttLib import TTFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from build_stroke_font import (build_font, flatten_path, load_sources, normalize_sources,
+from build_stroke_font import (build_all, build_font, flatten_path, load_sources, normalize_sources,
                                point_segment_distance, write_centerline_svg)
 
 
@@ -184,6 +184,31 @@ class StrokeFontTests(unittest.TestCase):
         data["visual_reference_match_reviewed"] = True
         path.write_text(json.dumps(data))
         self.assertEqual(len(load_sources(directory, require_visual_match=True)), 1)
+
+    def test_candidates_require_explicit_inclusion_and_cannot_replace_glyphs(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            candidates = root / "candidates"
+            candidates.mkdir()
+            source = {"codepoint": "U+3D000", "viewBox": [0, 0, 1024, 1024],
+                      "stroke_width": 43, "strokes": [{"path": "M 200 300 L 700 300"}],
+                      "visual_reference_match_reviewed": True}
+            (root / "U3D000.json").write_text(json.dumps(source))
+            candidate = {**source, "codepoint": "U+3D080", "visual_reference_match_reviewed": False}
+            (candidates / "U3D080.json").write_text(json.dumps(candidate))
+            self.assertEqual([s["codepoint"] for s in load_sources(root, True)], [0x3D000])
+            report = build_all(root, root / "output", additional_source_root=candidates,
+                               font_stroke_width=30, normalization_extent=738)
+            self.assertEqual(report["glyph_count"], 2)
+            self.assertFalse(report["coverage_eligible"])
+            with TTFont(root / "output/PanoramaGothicSealStrokes-Regular.ttf") as font:
+                self.assertEqual(set(font.getBestCmap()) - {32}, {0x3D000, 0x3D080})
+            with self.assertRaisesRegex(ValueError, "accepted visual reference"):
+                build_all(root, root / "strict", require_visual_match=True,
+                          additional_source_root=candidates)
+            (candidates / "U3D000.json").write_text(json.dumps(source))
+            with self.assertRaisesRegex(ValueError, "cannot override"):
+                build_all(root, root / "duplicate", additional_source_root=candidates)
 
 
 if __name__ == "__main__":
