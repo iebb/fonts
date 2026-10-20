@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1C4",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1C4.json",
+  "source_png": "design/seal-individual/U3D1C4.png",
+  "source_png_sha256": "1dad0a764c16281ae9277ee8d874524b7e8ffdeaa4313b77c1d3da7cd56e4015",
+  "reference_png_sha256": "60c1cd857ec99a5840cbf6d2253ee6c1eb9b1a972b8c79f4d64a6f598d4b9266",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1C4.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/sources/U3D1C4.json",
+  "source_json_sha256": "1bc1ff46ca0352475e2479249c9e10e251fd99c33b1328c808b31e930bf7cab9",
+  "geometry_sha256": "d5844d169086c7216a2c1f3f98936097a497aa15e72d6fd4f6706832cc872630",
+  "font_file": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9a5851fc462acc73cdcb1e966ba280a7b443e79d3cc3850659da63c01d67cf14",
+  "raster_file": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/U3D1C4-Regular400.png",
+  "raster_sha256": "8f59d923c73a5b10529d5f424d37f9937a6570da8a69284d4d7dd10d98b89ec5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      257,
+      -64,
+      767,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged whole references and full/enlarged repaired actual Regular inspected. Coherent THX both top forks join long bent upper return with left projecting overhang and separate long right descent. Lower enclosure now contains two parallel rising diagonals against one descending diagonal, producing six clear fields as attested. Smooth enclosure passes through retained diagonal contacts/extrema; original X tips and component gap preserved. Native missing-diagonal mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "16cb9372f02074b9e4ce0cf05ac41f23ec72ed9f4ff299edc2ef4facd8f43147",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "69fe6feea627326c2bb33bdf1afebe0d0c5efc416fd6ad0b9db7c68b2eb59442",
+    "actual_font_enlargement_sha256": "450b732281d88e44601d9094a2af9bf4bc0c5869db2ed99fc34dda2168181345"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "fa74b04f874bd59c9372d0cee788c2399d1bf5132a700bd9756aeffad48729cb",
+      "source_json_sha256": "cd020d1fa4839a54dcf03515cf5bf0dd212663d4a6ffb003e8c4c2b4ff094ecc",
+      "source_png_sha256": "1dad0a764c16281ae9277ee8d874524b7e8ffdeaa4313b77c1d3da7cd56e4015",
+      "font_sha256": "e1554f20b25eda4b8856daaa4bba5c7a02f37820fe72a29b66d274305bfcbe80",
+      "raster_sha256": "560996a856689face0f4163cba88f0ccdb952fc910a386d0cb61d54275343fff",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Inspected full native, all four whole references, actual font and enlarged lower enclosure. Every specimen has two parallel rising diagonals crossing the single descending diagonal, making six enclosed fields; native/font have only one rising diagonal and four fields. Upper both-fork joined winding architecture agrees THX/CCZ but lower identity is incomplete. Actual enclosure corners also have pronounced shoulder lumps rather than smooth rounded rectangle."
+      ]
+    }
+  ]
+}

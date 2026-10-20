@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F1",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F1.json",
+  "source_png_sha256": "1e000bddbcbd8eec264f882c6788122ea85fe98482a2d353e86167e4d89f6c85",
+  "source_png": "design/seal-individual/U3D1F1.png",
+  "reference_png_sha256": "e1acba54c0c069a3b2e5fac53a5ee9bf3a2002f5dc14a7ec68af74f3122a74e5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F1.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F1.json",
+  "source_json_sha256": "0b2316327a7bfd72b28a7c9aed5817dac2a7e290acb4f73a84fbb519e061632e",
+  "geometry_sha256": "330c7bc2d908beb3293b77d37d1446f349a0bd7eff2554371749ae1f4c72bbb1",
+  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F1-Regular400.png",
+  "raster_sha256": "2cd85bbb1060c3e78b5890461d6a437b631373d64ea2042e8d36f4f0558e218c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      310,
+      -64,
+      714,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four enlarged whole specimens/full actual and enlarged upper side marks inspected. Native matches THX detached forks and two independent tiered central forks each flanked by detached curved marks. Actual truncates upper-left side mark to approximately half native trajectory/length, visibly much shorter than native symmetric counterpart; other branches/terminals and gaps preserved."
+  ],
+  "requested_corrections": [
+    "Recover full native upper-left detached curved side mark trajectory/endpoints; preserve separation from central upper fork and original upper fork gap."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

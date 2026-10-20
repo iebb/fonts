@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1B5",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1B5.json",
+  "source_png": "design/seal-individual/U3D1B5.png",
+  "source_png_sha256": "f9d6e147569211bf712dc0b8c66236abdaf9c25b3884999bb5571a6beb43cceb",
+  "reference_png_sha256": "3cd6dd98431a80edbf6b96390bdba9d5b3ed52eac33cc578ee1014b52f342076",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1B5.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/sources/U3D1B5.json",
+  "source_json_sha256": "679524ec2dab0b2f2245c416e5f1386280e339cb79d2d8dacf31187da832b460",
+  "geometry_sha256": "6cf15856dc2d6f7b183d78c71ebc27fda5251a32840d97763a3ab13d3a469318",
+  "font_file": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9a5851fc462acc73cdcb1e966ba280a7b443e79d3cc3850659da63c01d67cf14",
+  "raster_file": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/U3D1B5-Regular400.png",
+  "raster_sha256": "7d8ce732b61c9b41179e3cdf2419201e829436215d86fcfa641b19bab46e3a55",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      278,
+      -64,
+      746,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native2, all four complete/enlarged whole references and full/enlarged repaired actual Regular inspected. Coherent THX free top forks, three independent long left descenders, upper-right staff/arm and bent compound, and lower open winding return with two inner diagonals retained. Right fork now ends above the separate upward compound stub; upper short arm projects right only. All gaps and lower free tips retained. Native mixed-contact mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "83fccd73059e1c496e645cbb335fd3cbb694c4943c05103c044010956d65d2bd",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "8037101f9e81e6864764301a2565688f7041fc05697531e30d415025c5019795",
+    "actual_font_enlargement_sha256": "37e2b1326a20729ef2c1dd51111c4ea09fdfc7a8b2324953f468f0a0be719b74"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f5d456bb3b3e0c5c7680f0b2742450e31081fa7847fbd0621934965fcd805d1a",
+      "source_json_sha256": "40edecd469b8dacdfc669e87f9eae8642150e6cc5e2119502d0d96cdff429ab0",
+      "source_png_sha256": "f9d6e147569211bf712dc0b8c66236abdaf9c25b3884999bb5571a6beb43cceb",
+      "font_sha256": "bead0c7f5bcd3de99fbd9963b1e6b312ad2e07dcc62bd97ef20a5a4056d0a64c",
+      "raster_sha256": "b8cf5bfb0a69aa9b19542fd894aad61c0b4ffdf72facec0fa23008183a8a21b8",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native2, all four enlarged whole references, full actual and enlarged right upper contacts. Native/font central long upright free from right compound as THX, but right fork joins compound instead of THX gap; other fork-joined variants also join central upright into right courses, so current mixed contacts unsupported. Upper short bar extends left of small vertical instead of THX rightward arm only. Bottom two interior slants and open bent return retained, left three descenders intact. Native mismatch."
+    }
+  ]
+}

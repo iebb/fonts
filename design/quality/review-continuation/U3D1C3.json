@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1C3",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1C3.json",
+  "source_png": "design/seal-individual/U3D1C3.png",
+  "source_png_sha256": "eacf011eac90675c983321d40f3993be55904c86c7e504816d5ec88edaeb0aeb",
+  "reference_png_sha256": "4ce9e3c34844192ad10bd5a152a8800defecade86a1a633a61f3e71d58218ad0",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1C3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1C3-round-upper-shoulders-v2/sources/U3D1C3.json",
+  "source_json_sha256": "1a512ec73636a356ca67a6bdccd28c581afa0feecb1ee428c584dc793095fdb0",
+  "geometry_sha256": "8e15a46a3ca72281744041265acabdd83c8ea3c273ad71e56d910977a166444e",
+  "font_file": "design/quality/proofs/continuation/U3D1C3-round-upper-shoulders-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c3bb4010a68976823f306e92f6e69e366a77b4965acd2aac9137bd8eccbba5ef",
+  "raster_file": "design/quality/proofs/continuation/U3D1C3-round-upper-shoulders-v2/U3D1C3-Regular400.png",
+  "raster_sha256": "15e2353abb4befdd77abdb94641bad3da7fbf32bd349e1eb23d7f36d8177fba9",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      315,
+      -64,
+      709,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged whole references and full/enlarged repaired actual Regular inspected. Complete THX restored both fork gaps over four-field divided oval with free central roof stub; lower bifurcating long return and separate open winding curl retained. Oval upper shoulders and lower branch junction are rounded without original tracking lumps; all four fields, lower open channels and original free tips stay intact. Native incompatible joined-fork whole remains mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "6b44ad512cebbc1fa5e2f1b73c62145850f142c48956c5202a7fb812b7baf00e",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "92cd5e3753e4ffba584ae39d1cf8c16e34d7e2be156c0db348e8c3fa1dfbd7b9",
+    "actual_font_enlargement_sha256": "058c86c3fb7d9921f3290dd0a507f7937a0b975e8ad726d9c419f720bf3d246b"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "fb3c4b45087a2dd928782f7adb4f39c14e2392d88e6c0871491586b27086e90e",
+      "source_json_sha256": "a09ec1d756adef245130c3d84daeb6957dd80fcdcf3f54ddeebda1655fccf1cc",
+      "source_png_sha256": "eacf011eac90675c983321d40f3993be55904c86c7e504816d5ec88edaeb0aeb",
+      "font_sha256": "e1554f20b25eda4b8856daaa4bba5c7a02f37820fe72a29b66d274305bfcbe80",
+      "raster_sha256": "075283054407a27d6e27a8bd6c36d600fffb454435256aaf36306145478c2da6",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": [
+        "Viewed native, all four whole specimens, compiled font and enlarged lower courses/upper forks. Native combines both top forks joined to four-field body with the THX open lower curl and bifurcating central lower stems. THX has both forks detached; QJZ joined forks instead has connected horizontal lower return and a closed small loop; DYC joined forks has detached descending central wave and a closed small loop. This combination is not a coherent attested whole specimen. Actual font also has conspicuous tracking steps/knots on left fork staff, body shoulders and rim."
+      ]
+    }
+  ]
+}

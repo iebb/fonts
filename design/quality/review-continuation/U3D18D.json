@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D18D",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D18D.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D18D.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D18D.json",
-  "source_json_sha256": "9ec4d846c73cf11476c5b527cec24f7198ff9c17b26c48c3afa28f5ff052c32a",
-  "geometry_sha256": "a3a089ca7001369f53a7be4b531ccc868c46b205c00a2a8a6f9eccd19d8b088e",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D18D-Regular400.png",
-  "raster_sha256": "b1987c1b361020ab94d97c5f728b30318c66062523d8c0a33ea12e256d91fd3f",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D18B18C18D-whole-THX-v1/sources/U3D18D.json",
+  "source_json_sha256": "46763217b572594286b16ec1eac70b600b26124a0e6abdff4bfe6f5c395cd411",
+  "geometry_sha256": "090b76324f3ca3259acf66aea5249c1b7fc45a3c0bd69487394fbc0c63d51893",
+  "font_file": "design/quality/proofs/continuation/U3D18B18C18D-whole-THX-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b6f4a6c1acf6f6181b7357d29e84cdf8a852249a2999f5ef2485265acb309d69",
+  "raster_file": "design/quality/proofs/continuation/U3D18B18C18D-whole-THX-v1/U3D18D-Regular400.png",
+  "raster_sha256": "edb6bc2062deace795637a696c39e110ecb801ba20fc9c54cc085a4bc80877a9",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged lower right grid inspected. Native detached upper tridents/left split outer waves and continuous central wave follow THX, but right body is symmetric four-counter grid directly attached beneath cup. THX has free upper side leg terminals beneath winding cup, short first bar only between central staff/right leg, then two full bars, giving three asymmetric body counters. Joined-fork variants also differ; current detached-fork whole lacks required body construction.",
-  "requested_corrections": [
-    "Restore coherent whole THX right body: release side leg upper tips from cup, retain central connecting staff, introduce short upper staff-to-right-leg bar and two full lower bars, preserving three body fields and free upper side tips. Compare full enlarged THX rather than counting symmetric grid."
-  ],
+  "notes": "Inspected native, all four enlarged whole references, full actual and enlarged right body fields. Body uprights now free below upper cup and added staff-to-right upper shortbar yields exactly three asymmetric THX fields: narrow upper right plus lower pair. Enlarged crop confirms narrow counter stays open at Regular400; no cup/body join. Both forks detached, long left wave/four separate side marks and three right feet preserved. Constant-width rounded trajectories acceptable; native mismatch retained for original cupjoin/fourgrid.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a3a089ca7001369f53a7be4b531ccc868c46b205c00a2a8a6f9eccd19d8b088e",
+      "source_json_sha256": "9ec4d846c73cf11476c5b527cec24f7198ff9c17b26c48c3afa28f5ff052c32a",
+      "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+      "raster_sha256": "b1987c1b361020ab94d97c5f728b30318c66062523d8c0a33ea12e256d91fd3f",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged lower right grid inspected. Native detached upper tridents/left split outer waves and continuous central wave follow THX, but right body is symmetric four-counter grid directly attached beneath cup. THX has free upper side leg terminals beneath winding cup, short first bar only between central staff/right leg, then two full bars, giving three asymmetric body counters. Joined-fork variants also differ; current detached-fork whole lacks required body construction.",
+      "requested_corrections": [
+        "Restore coherent whole THX right body: release side leg upper tips from cup, retain central connecting staff, introduce short upper staff-to-right-leg bar and two full lower bars, preserving three body fields and free upper side tips. Compare full enlarged THX rather than counting symmetric grid."
+      ]
+    }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1AC",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1AC.json",
+  "source_png": "design/seal-individual/U3D1AC.png",
+  "source_png_sha256": "3d0f5d60a99d896be1b802475e0f4d910b12081391359f014ab493d6466f90ae",
+  "reference_png_sha256": "1e6d06e8725b5ec92d61971fef43900973bd2db04f315205c9d3c0af08c31940",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1AC.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/sources/U3D1AC.json",
+  "source_json_sha256": "58b2355c4af6c3f3ac21a867310c8f102c9202bdaa21cd26f7e533ca879b2740",
+  "geometry_sha256": "05e2a4e0d30e85f296974e9c484509f816eb00c3aace125305476392aa830b16",
+  "font_file": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d1b36dbffd3473b34e4e212a4eb9a05bf41663924847ee4fcbc387174d87def5",
+  "raster_file": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/U3D1AC-Regular400.png",
+  "raster_sha256": "00df80c2aaec0f3229345fbce65a751fc547e6d9be1935cabdfccdd58b6d66a2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      293,
+      -64,
+      731,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Upper cup now has one genuine X crossing, smooth lower enclosure corners and all four original diagonal tips, retaining four open fields. Two free top forks and cup upper prongs, detached lower header/outer legs, two one-field lower ovals, connecting staffs and bottom trident remain unchanged. Six total fields and all required gaps preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "11310d0350b8bc24966b3ebeeab3011653b30b7392be72c1fbbd522378abb06c",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "d1ed4a4a2fd09b4758cd4d8815202d04e9194364a2ca46663fff456f45bbaa42",
+    "actual_font_enlargement_sha256": "b8c48ec014ca91f9e420fe27f1dc10996bc6e5b867c24d824037866485f485dd"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "31e3c6599556fa2d2022382d36306279fac0252b8a31759878e3242239b05a38",
+      "source_json_sha256": "f3326ba827efe2a077b225d9281d4199a1d10615bb115f0e87f1f3f3aa884ecb",
+      "source_png_sha256": "3d0f5d60a99d896be1b802475e0f4d910b12081391359f014ab493d6466f90ae",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "6e35a80830feeb4fcca38d7ad00ba29a32b158e18ea06517c41209d01ee48fc7",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Coherent THX two free forks, capped X cup with two short upper prongs, separate lower header/outer legs enclosing two single-field ovals and bottom trident retained. Actual upper cup X splits diagonal halves across a horizontal bridge between source x497.278 and523.451 at y372.959, and cup lower corners have tracking steps. Unify a true shared X crossing and smooth only affected cup enclosure corners through original four diagonal tips, preserving six total fields and all other courses."
+    }
+  ]
+}

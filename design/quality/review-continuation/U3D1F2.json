@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F2",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F2.json",
+  "source_png_sha256": "bfe86d10272c2a92d28c8ce6814bac8182da7bf98be516eee1f25398853587b0",
+  "source_png": "design/seal-individual/U3D1F2.png",
+  "reference_png_sha256": "72f2f871f66876e72d023136328c4aac407be28a94a51135f93829f43c66990f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F2.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F2.json",
+  "source_json_sha256": "0a3ba7fe1d19eade364952b511d6db89f9d7b273a282ec7f16836b788eb13681",
+  "geometry_sha256": "9b10de9bca86316af9aa4b5f90e016c9a7251e90fbbb57b291e2980a4e0f4410",
+  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F2-Regular400.png",
+  "raster_sha256": "a232ab3b2878342e8b07d85d2cb63149cb2f3e06cb18137ab92c5121833f08e6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      240,
+      -64,
+      784,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual and enlarged inner forks inspected. Native omits short leftward bent tips atop BOTH inner trident central uprights, attested all specimens. Native also leaves middle body rail separated from outer left wall although THX joins that rail to wall; current outer/top/body otherwise closest THX, with all six bottom legs and four body fields. Counts alone do not recover missing hooks/contact."
+  ],
+  "requested_corrections": [
+    "Restore short leftward bent upper tips on both inner trident central uprights, keeping them detached from outer roof.",
+    "For coherent THX extend only middle body rail left endpoint to existing outer wall; retain other left rail tips and all lower terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

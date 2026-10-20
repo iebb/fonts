@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D354",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Choose THX construction when corroborated, considering every source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No taper, pressure, brush perimeter, texture, serif or blobs. Every stroke identical width approximately3% of square canvas; keep dense counters and gaps open. Exactly one complete glyph centered in central70%, generous empty margins. Pure BLACK strokes fully TRANSPARENT background. No text,labels,codepoint,frame,chart,grid,watermark,color,shadows or other specimens. Structural reading aid: THX corroborated CCZ,QJZ; DYC unavailable. Top TWO repeated matching bird-like small units. Each has diamond/rounded triangular closed head with short upward apex stub and vertical center staff splitting head into TWO counters; below head outer curved left leg and central staff crossed by FOUR right projecting rails, leaving THREE stacked lower counters. Both units detached from bottom large forkstaff: three-pronged cup, long center staff crossed by one long horizontal rail below cup. Preserve gaps top units/bottom fork.\n",
+  "reference": "reference/seal/individual/U3D354.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-34bb69a0-e278-425e-822f-a9cca5fea129.png",
+  "output_file": "design/seal-individual/U3D354.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "f5fa77d1ec4fa2678acc3b14e2e36a7d035b8715eee115e59b555095374dadd6",
+  "reference_sha256": "c47308404cf74e0dbc24117bc69975810f67bfbad8968a8b2b698e7f42e7baad",
+  "reference_metadata_sha256": "9f2d42ae64eca81b7e7ea376a30d32e1ba5b12a855a658039b0b3b19c7489b13",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D354",
+    "page": 16,
+    "label_bbox": [
+      87.30000305175781,
+      475.4501953125,
+      116.7594223022461,
+      486.6099548339844
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 16,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          473.72100830078125,
+          144.17999267578125,
+          498.8999938964844
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          474.2532897949219,
+          146.20000305175782,
+          499.2332824707031
+        ],
+        "source_label": "TH-00805"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 16,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          472.28021240234375,
+          168.03985595703125,
+          494.2799987792969
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          474.2532897949219,
+          172.8000030517578,
+          499.2332824707031
+        ],
+        "source_label": "C-00836"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 16,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          476.5341796875,
+          196.539794921875,
+          498.15594482421875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          474.2532897949219,
+          199.5000030517578,
+          499.2332824707031
+        ],
+        "source_label": "K-00810"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

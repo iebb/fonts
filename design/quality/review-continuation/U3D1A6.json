@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1A6",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1A6.json",
+  "source_png": "design/seal-individual/U3D1A6.png",
+  "source_png_sha256": "f5296cd89b384bae25fd004bd192cf34d04923d43bdf5e886c446efb09207c04",
+  "reference_png_sha256": "a157c52691e22acfcd7abd12b277aa9dedabd965460a5b9bac6f04057501103e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1A6.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/sources/U3D1A6.json",
+  "source_json_sha256": "4c8d1fe8965548e19ba614a7448e42f1a6ed3e23e7f84f09645bd3cae26d87ee",
+  "geometry_sha256": "dc9e26688560bb26b2633b498313606dc18db479b99adedd923bde1858eb1d61",
+  "font_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce935902d8fee9b1cb14e8398aa11f24a4cd6bfbcbbc4b00cb404aa024253533",
+  "raster_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/U3D1A6-Regular400.png",
+  "raster_sha256": "48994d62affab9c7d18c8a99607e2906c8a9f5ff1306cf8d213eb312a76c3d41",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      276,
+      -64,
+      748,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Coherent THX left top fork free and right fork joined to the four-field outer enclosure; four internal forked figures retained. Only lower-left internal outward branch now touches the outer left wall with a smooth continuation, as THX requires. Other internal tips stay free, central dividers and four compartments remain intact; no added counter or unintended figure contact.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "36c3fd8201bbbcf27f516213b6eecb023d409bf902ec1242a1740f4a678a08a9",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "058cea38e59d630b68ba1c0e9b30b5bf20f64f7e2014ff0a43e2f791dae1b0bd",
+    "actual_font_enlargement_sha256": "5e0581923d27ed41a78cc77bf49bc55b6e003fb2293fea92194aef0440c34e71"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7094e60b071ff09fbc7aee98acc864270571f70a2521bd3cab72fdfd71e52b65",
+      "source_json_sha256": "67429ff7e034c67fa7770fd8d0eada766e6ecb16133fb2d30883bca75df49b9e",
+      "source_png_sha256": "f5296cd89b384bae25fd004bd192cf34d04923d43bdf5e886c446efb09207c04",
+      "font_sha256": "3e61a664412208d934b8d8d2eef59347aeea771e0a76a410448938c2c7cfa4f4",
+      "raster_sha256": "75ac7479252a78bd89b8f4bb82cb348a4e940ef3447db71ab1033a1eeb24afee",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole references, native, actual and enlarged lower left mark/wall. Native/font preserve THX leftforkfree/rightforkjoined and four-cell outer grid, but all four inner figures are detached from walls. THX lower-left figure outward lower-left branch touches outer left wall near lower shoulder. Other whole variants alter further contacts/forks, so current all-free inner configuration not supported with THX outer contacts. Native mismatch."
+    }
+  ]
+}

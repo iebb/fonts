@@ -17,13 +17,13 @@
     "QJZ"
   ],
   "geometry_source": "design/strokes-individual/candidates/U3D198.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D198.json",
-  "source_json_sha256": "d9f8a878aa813afc570007e320777eaa734c94d2a803037c740e501dc047903c",
-  "geometry_sha256": "58498056191c35b38e77da778b508e01cae8e111ba39163f9b8a1d8e48f76dfc",
-  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
-  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D198-Regular400.png",
-  "raster_sha256": "292b41d684080a093a778175f52fb081a9929fcbcc8ec3b00ac7ae17705ca04d",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/sources/U3D198.json",
+  "source_json_sha256": "0919acff329c6db3ea1c3995ebbbbb3d23c8adc0902ad56f2d967c33ea2730e7",
+  "geometry_sha256": "5fc27b0f9614306508a6da881f5dab90cc15bee20304e44ab2172010d8008629",
+  "font_file": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7be7dd5eaa5987d330ddf72de6a35acc0b2d7e07df17d3f0dc14afabf85fda41",
+  "raster_file": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/U3D198-Regular400.png",
+  "raster_sha256": "fc93ebd40ec4d0acae3092844851d6c456081e54f66f6f8bb483cd9ed28e3b61",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -35,17 +35,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected both available enlarged THX/DYC whole references, native, full actual and enlarged left courses. Native/font have FOUR left oblique courses including fork-connected top course; THX and DYC attest THREE. Native fork topcourse also ends as downward-left bent staff rather than staff meeting interior of top oblique rail as THX. Whole remaining form closest THX (separate I/cup, separate bottomdash). CCZ/QJZ unavailable. Native mismatch.",
-  "requested_corrections": [
-    "Correct left compound to three oblique rails total, with left fork staff meeting the top rail internally as whole THX; retain separate I below and all right/lower courses."
-  ],
+  "notes": "Reinspected exact repaired full actual and enlarged left courses against native/both available enlarged whole THX/DYC specimens previously inspected. Exactly THREE oblique courses now, forkstaff meets top rail internally as coherent THX, separate Ibelow/cup and bottom winding return/dash preserved. Smooth constant-width Regular400 trajectories and gaps acceptable. Native remains mismatch for original extra course/staffterminal; CCZ/QJZ unavailable.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "58498056191c35b38e77da778b508e01cae8e111ba39163f9b8a1d8e48f76dfc",
+      "source_json_sha256": "d9f8a878aa813afc570007e320777eaa734c94d2a803037c740e501dc047903c",
+      "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+      "raster_sha256": "292b41d684080a093a778175f52fb081a9929fcbcc8ec3b00ac7ae17705ca04d",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected both available enlarged THX/DYC whole references, native, full actual and enlarged left courses. Native/font have FOUR left oblique courses including fork-connected top course; THX and DYC attest THREE. Native fork topcourse also ends as downward-left bent staff rather than staff meeting interior of top oblique rail as THX. Whole remaining form closest THX (separate I/cup, separate bottomdash). CCZ/QJZ unavailable. Native mismatch.",
+      "requested_corrections": [
+        "Correct left compound to three oblique rails total, with left fork staff meeting the top rail internally as whole THX; retain separate I below and all right/lower courses."
+      ]
+    }
   ]
 }

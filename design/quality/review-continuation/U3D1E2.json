@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1E2",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E2.json",
+  "source_png_sha256": "6ef8a343de43536fd22aba178f630576d08adb99226ba12dd53f1b01d49899f5",
+  "source_png": "design/seal-individual/U3D1E2.png",
+  "reference_png_sha256": "eaacf9ff64f7a3894831c145817b544d9c6f99e222ded07befa4b02f748bd0d2",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1E2.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E2.json",
+  "source_json_sha256": "4c88150ac6d85a8631e2d9045161a27717d013a43c94f8752b1367352720d72b",
+  "geometry_sha256": "81fe27d4932a31812921894c04972585e0e539ec242d008c129f8f9170668d22",
+  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E2-Regular400.png",
+  "raster_sha256": "374b63deca2cbd93f1b62d752ca74551cdb77fdd9d100c8e0c18b6f289be2ae2",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      263,
+      -64,
+      761,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Inspected native/all four whole specimens/full actual and enlarged body. Native breaks central left long winding course into two detached halves, yielding six separate side strokes instead of one continuous central course plus four short side marks attested all references. It also adds unsupported downward central terminal beneath upper-right crossbar; THX/QJZ upper right compound has only two outward bent feet and no middle hanging staff. Both top forks detached otherwise THX. Actual additionally has notched/lumpy lower right return rail."
+  ],
+  "requested_corrections": [
+    "Restore continuous middle left winding course through gap, retaining four outer detached marks.",
+    "Remove unsupported hanging center staff below upper-right crossbar, retain both outward bent feet and their gap from lower compound.",
+    "Smooth lower right return rail through exact native anchors without lumpy pen deviations."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D195.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D195.json",
-  "source_json_sha256": "e009e1e4496d9b3f6f76c2e751136ed0b20b08fdb531d024d5b32bf9ccb42e85",
-  "geometry_sha256": "de1aa8beba356a1e37255bee23e7e13bdae8e2b1c82a267444f54752a114bdc5",
-  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
-  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D195-Regular400.png",
-  "raster_sha256": "226c21459aa9c24017b33bc1f51175fd2bfbd21985cc41084a261040b81ea804",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/sources/U3D195.json",
+  "source_json_sha256": "578d181f6cdc565cbbced0ab59d4987be0a0c172b7abbc9e5f11e5ff5157795b",
+  "geometry_sha256": "54c66c579027d3cae6ba6fe34258bb0c29b7369f9c64d5da927c0349e77ca9a3",
+  "font_file": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7be7dd5eaa5987d330ddf72de6a35acc0b2d7e07df17d3f0dc14afabf85fda41",
+  "raster_file": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/U3D195-Regular400.png",
+  "raster_sha256": "a0046c6dff6064be7f04a6e5eefc7fcfdfc3a7979c978253a93f6f05b02efc4e",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole specimens, native, actual and enlarged crossing. Native matches coherent THX both fork stems joined to separate rail, isolated oval, lower enclosure with one genuine X and four fields/three descending terminals. Font replaces crossing with two Ys connected by a short horizontal neck and turns lower diagonals into hooked rail contacts with shoulder bumps. Native match retained; geometry held.",
-  "requested_corrections": [
-    "Unify the four native diagonals at one genuine X intersection, preserving exact four enclosure contact tips; smooth diagonal-to-rail shoulders and remove tracking neck/bumps."
-  ],
+  "notes": "Reinspected exact repaired full actual and enlarged X/rails against native/all four enlarged whole references previously inspected. Genuine shared X now four uninterrupted straight arms with preserved outer contacts, lower hooked shoulderbumps removed and rail smooth. Coherent THX bothforks joined separate upperrail, separate oval, four lower fields/threefeet retained. Regular400 constant width/round curves/gaps acceptable; native match retained.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "de1aa8beba356a1e37255bee23e7e13bdae8e2b1c82a267444f54752a114bdc5",
+      "source_json_sha256": "e009e1e4496d9b3f6f76c2e751136ed0b20b08fdb531d024d5b32bf9ccb42e85",
+      "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+      "raster_sha256": "226c21459aa9c24017b33bc1f51175fd2bfbd21985cc41084a261040b81ea804",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Inspected all four enlarged whole specimens, native, actual and enlarged crossing. Native matches coherent THX both fork stems joined to separate rail, isolated oval, lower enclosure with one genuine X and four fields/three descending terminals. Font replaces crossing with two Ys connected by a short horizontal neck and turns lower diagonals into hooked rail contacts with shoulder bumps. Native match retained; geometry held.",
+      "requested_corrections": [
+        "Unify the four native diagonals at one genuine X intersection, preserving exact four enclosure contact tips; smooth diagonal-to-rail shoulders and remove tracking neck/bumps."
+      ]
+    }
   ]
 }

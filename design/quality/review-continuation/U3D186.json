@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D186.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-eighteenth-eight/sources/U3D186.json",
-  "source_json_sha256": "2d734d4ee1f3948ec69115e461d1f8a231deef4aaeac6b45ced1dc231be71ea7",
-  "geometry_sha256": "372e2aae54657b061c895182d437a2281dc0d14d9692eb7cdb17e4f204e19e90",
-  "font_file": "design/quality/proofs/continuation/review-eighteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "ce45c626ed89ae6e3f8dd561534970035ac500722ccf1127b3e66f84e5ade3aa",
-  "raster_file": "design/quality/proofs/continuation/review-eighteenth-eight/U3D186-Regular400.png",
-  "raster_sha256": "eb5a16da620179bf71748023272b8631cb5e2ed9ca270f645ff95bda8e06d972",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D186-restored-left-upstub-v2/sources/U3D186.json",
+  "source_json_sha256": "b4d4cc7a36ce46534e6ff777746a23ed79017155e88017eda751368731613d6b",
+  "geometry_sha256": "980bb0357ab3f6a3a1db39e87a8e62efc98e212326f5e876e546709387a2c39f",
+  "font_file": "design/quality/proofs/continuation/U3D186-restored-left-upstub-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dfd894a04b6b8b9b8788f3bc00b089b5c0d12c42e1e07a72f262252b7d7b56f6",
+  "raster_file": "design/quality/proofs/continuation/U3D186-restored-left-upstub-v2/U3D186-Regular400.png",
+  "raster_sha256": "d8d9878809fa01bd3bb7d4e851153486b7e297c33a0ab90abc7dbda948e3456d",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,51 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all4enlarged whole specimens, full actual Regular400 and enlarged lowestcup inspected. Coherent THX detachedforks/freeupperdash and stackedcup topology otherwise retained, but centralstaff continues through lowestcup interior tobase, splitting it into two counters. Allavailable whole specimens have one uninterrupted lowestcupcounter; actual reproduces extra divider.",
-  "requested_corrections": [
-    "Remove only central vertical segment inside lowestcup from its crossbar down tobase, retaining upstreamcentralstaff contact at crossbar, lowestcup outerboundary/upstubs and all othercourses."
-  ],
+  "notes": "Reinspected exact v2 full actual and enlarged lowest cup against native/all four enlarged whole references previously inspected. Missing left upward cup stub recovered, now both ends project above cap. Corrected lowest cup has onecounter; upper smallcup one and middle cup two, totalfour, sharedstaff/open U/separate dash and detached forks intact. Smooth constant-width Regular400 construction/gaps acceptable. Native mismatch remains for original extra lowestdivider.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "372e2aae54657b061c895182d437a2281dc0d14d9692eb7cdb17e4f204e19e90",
+      "source_json_sha256": "2d734d4ee1f3948ec69115e461d1f8a231deef4aaeac6b45ced1dc231be71ea7",
+      "font_sha256": "ce45c626ed89ae6e3f8dd561534970035ac500722ccf1127b3e66f84e5ade3aa",
+      "raster_sha256": "eb5a16da620179bf71748023272b8631cb5e2ed9ca270f645ff95bda8e06d972",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all4enlarged whole specimens, full actual Regular400 and enlarged lowestcup inspected. Coherent THX detachedforks/freeupperdash and stackedcup topology otherwise retained, but centralstaff continues through lowestcup interior tobase, splitting it into two counters. Allavailable whole specimens have one uninterrupted lowestcupcounter; actual reproduces extra divider.",
+      "requested_corrections": [
+        "Remove only central vertical segment inside lowestcup from its crossbar down tobase, retaining upstreamcentralstaff contact at crossbar, lowestcup outerboundary/upstubs and all othercourses."
+      ]
+    },
+    {
+      "geometry_sha256": "d0feb4dccb8854ba182f4c8b3e48e7fbc92429f205b471d30665467ac947b0ff",
+      "source_json_sha256": "4b677acdf822ca8a8f0fbecfd9d363e3ff7bd88135c456b2290ad225c3530cbc",
+      "font_sha256": "5652d79c683dae1386ff5d8277109658e2f4f95babd5924ddf7d142dcd2907e0",
+      "raster_sha256": "f0a3c4fd9844a0c0160aa723aade72f9dc864a7c623fca139bbe5c0a5d2978c9",
+      "regular400_verdict": "accepted",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native, all four enlarged whole references, full actual and enlarged lowest cup. Removed extra lowest-cup divider now yields one bottom counter, matching whole THX. Upper small cup onecounter, middle two-counter cup, intervening open U/shared staff and separate upper dash retained; four counters total, bothforks detached. Smooth constant-width rounded courses/gaps acceptable at Regular400. Native mismatch retained for extra lowest divider.",
+      "requested_corrections": []
+    },
+    {
+      "geometry_sha256": "d0feb4dccb8854ba182f4c8b3e48e7fbc92429f205b471d30665467ac947b0ff",
+      "source_json_sha256": "4b677acdf822ca8a8f0fbecfd9d363e3ff7bd88135c456b2290ad225c3530cbc",
+      "font_sha256": "5652d79c683dae1386ff5d8277109658e2f4f95babd5924ddf7d142dcd2907e0",
+      "raster_sha256": "f0a3c4fd9844a0c0160aa723aade72f9dc864a7c623fca139bbe5c0a5d2978c9",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native, all four enlarged whole references, full actual and enlarged lowest cup. Divider removal correctly restores one bottom counter, four total. However enlarged bottom crop shows LEFT short upward stub above lowest cup cap entirely lost: current left wall meets cap flush, while right stub and native/THX both project upward. Must recover missing native left stub before acceptance. Native mismatch retained for extra lowest divider.",
+      "requested_corrections": [
+        "Recover missing left short upward stub above lowest cup cap, matching native/THX existing right stub; keep corrected one bottom counter and all other courses."
+      ]
+    }
   ]
 }

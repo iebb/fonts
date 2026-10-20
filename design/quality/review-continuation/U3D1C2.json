@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1C2",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1C2.json",
+  "source_png": "design/seal-individual/U3D1C2.png",
+  "source_png_sha256": "86f10ff544ecee675a6ca9422024c3dafebf8d06e25627c2efe967bad453f0b3",
+  "reference_png_sha256": "39685605a244db4ed89d319a3f045416131a499a34067b7f593fe00525bcba00",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1C2.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/sources/U3D1C2.json",
+  "source_json_sha256": "1029cb530a179b087f8182419c7874019d0f4da1c5cabf1ac8524e3b949abec1",
+  "geometry_sha256": "89114129dcfb41c9ad7ae28632cf19905ab178e42e7ba1112772f48dc3447138",
+  "font_file": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9a5851fc462acc73cdcb1e966ba280a7b443e79d3cc3850659da63c01d67cf14",
+  "raster_file": "design/quality/proofs/continuation/U3D1B5C2C3C4-bounded-v1/U3D1C2-Regular400.png",
+  "raster_sha256": "d7100142f1439d1f24619597aada7be935d69cf1753b1a81364ec71033e77601",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      277,
+      -64,
+      747,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged whole references and full/enlarged repaired actual Regular inspected. Coherent THX two detached top forks, three-field left oval with two lower legs and independent right curved branch compound retained. Right upper staff, inward descending branch and broad outer bow now meet smoothly at their original shared root, with exact upper/lower free endpoints and unedited remainders. No new field, contact or terminal introduced.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "28e03fb60a7aff5d03ca6f8c0a153853c1a15e8580809c60ee6797e6f5c91e76",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "3935e9ff9b88578e3f9fe53bccf568a91baf92952400ae4857947c1e28c3df24",
+    "actual_font_enlargement_sha256": "82eb1d001a2e104c4c7ac4810da59b8b7e04b11d4d877e9865e3c202208f0a90"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "4aec770b460566afd7e80d9b37bb79b172dcc3080d106ef3ce2521035a5533c5",
+      "source_json_sha256": "bcb5e82a7194bafe998480fd972b2747685f1295e53491ea62379fe9b29207e8",
+      "source_png_sha256": "86f10ff544ecee675a6ca9422024c3dafebf8d06e25627c2efe967bad453f0b3",
+      "font_sha256": "e1554f20b25eda4b8856daaa4bba5c7a02f37820fe72a29b66d274305bfcbe80",
+      "raster_sha256": "68b484cd6f49e9b7d97c1228aa943a972fcb5d4b672b5fc7da924fe938d94351",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged right branch junction. Native coherent THX both forks free, left threecounter oval/twofeet, right long bent fork with two descending tips. Font right junction forms angular offset shoulder/knot at upper staff\u2192inner descent/outerbranch root rather than native smooth continuous flow. Native match; geometry held for bounded smoothing."
+    }
+  ]
+}

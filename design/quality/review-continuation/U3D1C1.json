@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1C1",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1C1.json",
+  "source_png_sha256": "1e3b4f53c66c3e0d91b0d375bea30c563c938d4e46adcdef09256ddd267dd737",
+  "source_png": "design/seal-individual/U3D1C1.png",
+  "reference_png_sha256": "cd2a7d9b405bc4149fcf76bfb570038291a4b60d102d1e5de1477677ef249a74",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1C1.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-B2C1-retry2/sources/U3D1C1.json",
+  "source_json_sha256": "be0a77f2a08a37c9afef82388c0336f6bd9221a34579101785c0d6cfbf47c4ae",
+  "geometry_sha256": "dfa48d4978e1b3879edb3c6321eadbbc58bf7e3f4331737ec48781cdd3d7ce79",
+  "font_file": "design/quality/proofs/continuation/review-B2C1-retry2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "a25c7a23bbf0b2ad5b1ed542983b53f29b36a6c32273785d73c5b6fac67a9b84",
+  "raster_file": "design/quality/proofs/continuation/review-B2C1-retry2/U3D1C1-Regular400.png",
+  "raster_sha256": "ba5c09ed316864faed26d069596b9d4b278f76d9b8b103e96e43f231217e2217",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      252,
+      -64,
+      772,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Fresh retry2 native/all four enlarged whole specimens/new compiled font and enlarged right compound inspected. Retry restores open upper-right wall/upstub and top rail overhang plus inner roof-linked branching into wall junctions; previous floating chevron/closed rim corrected. However right top fork now joins compound staff continuously, contrary THX detached right fork with separate small compound upstub; other joined-right variants change roof/wall and lower-return construction. Current otherwise THX courses retained. Actual still has lumpy notched upper left body bend and upper-right wall/inner-branch courses."
+  ],
+  "requested_corrections": [
+    "Detach right top fork from compound staff, retaining short compound upstub above first bar to match coherent THX.",
+    "Bounded smoothing of upper-left outer bow/shared inward branch and right upper wall/inner branch through original anchors; keep four right fields, full left branches and lower terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "82907707c6ab3beda6a1ebdacbd73fd3dfe4b75dca41ecbd6611e848e99bad6c",
+      "source_json_sha256": "1765d099b3be4da5899ccf3686f51ca6cfa491dfcefd709d862ee7696604d6ef",
+      "font_sha256": "e1554f20b25eda4b8856daaa4bba5c7a02f37820fe72a29b66d274305bfcbe80",
+      "raster_sha256": "5aa40c396ee6b6c194dffdd4c753d91be4bf36d009744d8fb4abdbea924af4a5",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native, all four enlarged whole references, full actual and enlarged THX/right compound. Right body native/font has fully closed top rim and floating chevron across upper chamber. Coherent THX instead has top rail free right overhang, upper right wall starts as short upstub below rail, and branching inner trajectory descends from toprail to leftwall plus diagonally down-right to firstbodybar/rightwall. Current chevron/cap construction is unattested whole despite four counters. Native mismatch; left compound retains branch count.",
+      "requested_corrections": [
+        "Restore THX right upper body courses/contacts: free toprail right end, separate short rightwall upstub, inner descending branch attached to toprail and splitting to leftwall/firstbar-rightwall junction. Preserve lower two fields/two feet and left compound."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1B8",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1B8.json",
+  "source_png": "design/seal-individual/U3D1B8.png",
+  "source_png_sha256": "f850ea69b607abbb70efe5123dd049338ee2f77777d6d957986aa50a421464bd",
+  "reference_png_sha256": "665a42f182ed43c8c2e0e4b57e15f5a8cd8cd5647ca206d45080a12c5196d2bc",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1B8.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/sources/U3D1B8.json",
+  "source_json_sha256": "de31ee027948100aa2abeecdbccf9df031e38d2239559e3767293da8f5b9fde0",
+  "geometry_sha256": "e00d1c10e5baf0e26aee9f750c209941e283e5d3adbea0749edb295de6d1a9fe",
+  "font_file": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ffdc5ff35dae91c1be819c9d568eb648ad2edda140865b1afd4410beacdaa95b",
+  "raster_file": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/U3D1B8-Regular400.png",
+  "raster_sha256": "85ee042c72cf420c1e370b1eb33fb5c570222cc9394ea62cec4b6baf720560bb",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      280,
+      -64,
+      744,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent THX left fork joins the roof while right fork stays free; central staff now reaches the roof and upper-left diagonal joins its cross. Upper-right diagonal and both short lower detached diagonal marks are present and legible. Two separate lower inward winding returns, four inner free return tips, two long outer tails and open central gap remain intact. Native unsupported mixed-contact verdict remains mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "384d9af94eab8c83bfdc471ff1922d2c6d9c7ff82c6db4e5c502916f77f3a867",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "79f5b001dde378daff686c240f94a4a7c29217a307d72b3880e4979a96b6e66e",
+    "actual_font_enlargement_sha256": "4cf211a609242d8d4b2f2851185b733cab3c99510d61c276aa5a4ddabbce3915"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "a3358f66abf0c68572674aa3575d60b4c1da6085ba7a7b645280a14193f9583d",
+      "source_json_sha256": "93a266f6d8f2e9eac99503b552422a74b897d85f7620e0d55111f2ce08a0560c",
+      "source_png_sha256": "f850ea69b607abbb70efe5123dd049338ee2f77777d6d957986aa50a421464bd",
+      "font_sha256": "bead0c7f5bcd3de99fbd9963b1e6b312ad2e07dcc62bd97ef20a5a4056d0a64c",
+      "raster_sha256": "6a545600b5f2f0a8cb253a3c1d1d738736555b584b988cb9ffef213fc17e6e1e",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged central marks. Native both forks joined/all four inner diagonals detached/central staff free of roof is an unsupported mixture. THX leftforkjoined/rightfree, central staff cap touches roof and upper-left diagonal joins crossbar junction; other variants alter inner contacts. Font further truncates both upper native diagonals to dots. Lower paired open returns and two descenders otherwise retained. Native mismatch."
+    }
+  ]
+}

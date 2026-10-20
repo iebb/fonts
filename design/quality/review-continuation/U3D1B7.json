@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1B7",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1B7.json",
+  "source_png": "design/seal-individual/U3D1B7.png",
+  "source_png_sha256": "9fdf70454bd489afec8517670bdb06ff29e0711d45636777ca3bd1dbda97da62",
+  "reference_png_sha256": "c40870ea3b2fe4e76bf7fc58e7df449f74573a66b6c82efcee22e43400a5d1b1",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1B7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/sources/U3D1B7.json",
+  "source_json_sha256": "57b4ecf32b51d22bc9f7f3ddcd0ad19f54a35d959c70c7bf72bf2469e910d4de",
+  "geometry_sha256": "3e9b9771e07d2be93672b4e4728d5650ac2c67a1abee6e4755dffbc53585b701",
+  "font_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce935902d8fee9b1cb14e8398aa11f24a4cd6bfbcbbc4b00cb404aa024253533",
+  "raster_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/U3D1B7-Regular400.png",
+  "raster_sha256": "41bc9f906e67d6c37384504ffc2e7773192814082f5a0d06b293c25a6e4fa4bc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      293,
+      -64,
+      731,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Coherent THX both forks join the two-field upper capsule; separate lower long header supports one broad curved outer bow with three inward rails and four lower free terminals. Smoothed bow passes through the same two rail anchors/endpoints without prior tracking scallops or extra shoulders. Both fields, rail gaps and header separation retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "28e024614e0dd51be92b1b94e6ae9ffbfed0d6315c4a37e135b256e7f28445d2",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "e7af52f8c052b74990c7a1bdf38af583cfc60a43f08e882a43bca4a5e546f82e",
+    "actual_font_enlargement_sha256": "5e94ee320e6009ec3466a1a75d0bd0c2f9fd87c95f67aec2dbc7bc7894ce1baa"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e0aee43364bde46d4c90a567f1db08dfad7e3215e56f53386775271ed7664dcc",
+      "source_json_sha256": "b095917cabde044ff7f9e59cde542cf6b4d645209a1304f069038b78eaf50924",
+      "source_png_sha256": "9fdf70454bd489afec8517670bdb06ff29e0711d45636777ca3bd1dbda97da62",
+      "font_sha256": "bead0c7f5bcd3de99fbd9963b1e6b312ad2e07dcc62bd97ef20a5a4056d0a64c",
+      "raster_sha256": "73f5b4d6f958fe893be5d6ad6b9068eded7fa5655c5a2a613ac7a55673b47536",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged lower bow. Native coherent CCZ both upperforks joined to two-counter oval and separate lower rail/body. Four lower oblique terminals retained but font outer lower right return is scalloped/stepped at two inner branch anchors instead of smooth native broad bow. Native match; geometry needs bounded smoothing."
+    }
+  ]
+}

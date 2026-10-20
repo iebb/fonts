@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D194.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D194.json",
-  "source_json_sha256": "395e3678331fdb48872c8006d274900f2c8e21c109334fd1413171f639c24333",
-  "geometry_sha256": "926419a06aff5a08a5af877c9db9f38fb893b4dba2be8f4f611be1c84d1b19d1",
-  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
-  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D194-Regular400.png",
-  "raster_sha256": "c2a5e9a08fed560e10a5e042027696f06c4351293251b941f6edf09b1edf4451",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D190191193194-bounded-v1/sources/U3D194.json",
+  "source_json_sha256": "bf693e92855b26092d23a0874f86d4d8794e10c08693b66aef308ae4aa5a1599",
+  "geometry_sha256": "920d7918abd0fa16255ec416460df7a67a706f5965260becdc602942c730f4d9",
+  "font_file": "design/quality/proofs/continuation/U3D190191193194-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "97545b957771801998b1e6d9f4cc70a288262775a7f2a16691425fba20ad2b93",
+  "raster_file": "design/quality/proofs/continuation/U3D190191193194-bounded-v1/U3D194-Regular400.png",
+  "raster_sha256": "6610126cb56cd0bc46f9e3d49b47edf3d96f2319d0883014ce2b1e36f1eced12",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole references, native, full actual and enlarged cap. Native coherent THX: both forks detached, left three-counter oval, right cap with short upward stub and separate inner bar/capped branching descenders. Actual font loses the short upward stub entirely from right cap crown, confirmed enlarged crop. Other counters, free inner bar and lower bent return preserved.",
-  "requested_corrections": [
-    "Recover native short upward crown stub on right cap, preserving detached right fork gap and all other courses."
-  ],
+  "notes": "Reinspected exact repaired full actual and enlarged right cap crown against native/all four enlarged whole references previously inspected. Lost short upstub restored matching native/THX while right fork remains detached. Left three-field oval, separate inner dash and branching capped two descenders retained, no false contacts. Smooth constant-width rounded Regular400 acceptable. Native match retained.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "926419a06aff5a08a5af877c9db9f38fb893b4dba2be8f4f611be1c84d1b19d1",
+      "source_json_sha256": "395e3678331fdb48872c8006d274900f2c8e21c109334fd1413171f639c24333",
+      "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+      "raster_sha256": "c2a5e9a08fed560e10a5e042027696f06c4351293251b941f6edf09b1edf4451",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged cap. Native coherent THX: both forks detached, left three-counter oval, right cap with short upward stub and separate inner bar/capped branching descenders. Actual font loses the short upward stub entirely from right cap crown, confirmed enlarged crop. Other counters, free inner bar and lower bent return preserved.",
+      "requested_corrections": [
+        "Recover native short upward crown stub on right cap, preserving detached right fork gap and all other courses."
+      ]
+    }
   ]
 }

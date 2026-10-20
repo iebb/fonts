@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F6",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F6.json",
+  "source_png_sha256": "c4df864e1974122cc57007a33672ae3e33fe81da33013aa9c63a67a311d08735",
+  "source_png": "design/seal-individual/U3D1F6.png",
+  "reference_png_sha256": "5f4096a2544c1cc39ad69a6249cbea95ad415ce24851732061789cb3dadac801",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F6.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F6.json",
+  "source_json_sha256": "9b6beceef38de7b8460ead57807d762d11c837e2013ddacfe3a888ba96dae1ec",
+  "geometry_sha256": "784d9314704efbf81357a4ec57992df38a2e720bead67f358fb8c9fb1b2ec152",
+  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F6-Regular400.png",
+  "raster_sha256": "2a02ccb53f70259e765332be6e753c79fd007f30b6658b2223f2179500eada58",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      269,
+      -64,
+      755,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual and enlarged shared root inspected. Native coherent THX both top forks detached, separate upper winding curving into shared two-leg fork, no counter. Actual retains all tips/proportions but shared outer-bow root has a conspicuous flat offset shoulder/notch rather than native continuous curve."
+  ],
+  "requested_corrections": [
+    "Smooth only upper winding\u2192outer bowed descent transition at existing two-leg root, preserving exact shared anchor, original three terminals and broad bow envelope."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

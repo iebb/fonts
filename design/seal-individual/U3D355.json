@@ -1,0 +1,74 @@
+{
+  "code_point": "U+3D355",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Choose THX construction when corroborated, considering every source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No taper, pressure, brush perimeter, texture, serif or blobs. Every stroke identical width approximately3% of square canvas; keep dense counters and gaps open. Exactly one complete glyph centered in central70%, generous empty margins. Pure BLACK strokes fully TRANSPARENT background. No text,labels,codepoint,frame,chart,grid,watermark,color,shadows or other specimens. Structural reading aid: THX whole, only THX and DYC available. Two matching bird-like side units: tilted diamond head each has short up-left projecting top stub, unbisected single counter; below each central staff and bowed left leg crossed by FOUR right projecting bars, creating three lower counters. Between side units is separate central vertical column: detached short top dash; next full horizontal cap with attached small hanging U; central stem continues to middle U cup and bottom U cup with horizontal crossrail inside bottom cup. Bottom separate large three-pronged forkstaff with one long crossbar below cup. Keep dense side/center components detached as THX.\n",
+  "reference": "reference/seal/individual/U3D355.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-9b471ed3-4097-469b-915f-1717978e9953.png",
+  "output_file": "design/seal-individual/U3D355.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "59f3b0961b5b9228b100d1bb554b44ea421a348632a7c43c144e72928b4346bb",
+  "reference_sha256": "62e8d8639d9fb3845fd62b4761b4bf7ff3354186ed3df8b079ac5b22c54ea858",
+  "reference_metadata_sha256": "573a9ea17a3b5462fa040b52284cd62f4857882f69a8a64e03cc26718b252d66",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D355",
+    "page": 16,
+    "label_bbox": [
+      87.30000305175781,
+      507.13018798828125,
+      116.7594223022461,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 16,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          508.48797607421875,
+          144.17999267578125,
+          529.949951171875
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          505.93328247070315,
+          146.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "TH-Y018"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "DYC": {
+        "available": true,
+        "page": 16,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          505.4121398925781,
+          221.43984985351562,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          503.33018798828124,
+          226.20000305175782,
+          530.9732421875
+        ],
+        "source_label": "D-00800"
+      }
+    }
+  }
+}

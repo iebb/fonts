@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1B1",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1B1.json",
+  "source_png": "design/seal-individual/U3D1B1.png",
+  "source_png_sha256": "78ed28357e432bae94b682544a408f472c6d09e313d4c8d38d6d108d6503408d",
+  "reference_png_sha256": "90169d0e61df926b666e3c1bc0d7c80ed431b86a88e8af7f40c15d19aba06f95",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1B1.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/sources/U3D1B1.json",
+  "source_json_sha256": "d07066bb861d741bc5eee3c775d15d80537579b892f028727e92613b919ddec2",
+  "geometry_sha256": "13020c4e5d4c21aec9487722f0ff9da25019220bede76fd12c232052950f33e9",
+  "font_file": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f7c73aa7bb4584114abc033525ed7853ae260b961f4466312abe7a2530558de2",
+  "raster_file": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/U3D1B1-Regular400.png",
+  "raster_sha256": "ab0f1846c5ea2371fd31ccbb049cff64175793dce4b324b7d4786528280832c4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      289,
+      -64,
+      735,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native2, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent THX left fork/header, detached capped cup, open U and two-field lower cup retained; unsupported lower-cup central divider removed. Right middle course now has its attested left bent U and short upright, creating the small counter beside the central staff. Upper bent return, three-field lower oval, two lower legs and outer long descent remain unchanged. Eight total fields and all necessary gaps retained.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "717cc9659323137dfb30fa0550aa46765b3d9f04443dab41075f7a427a5094e3",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "7feee2ec3064747a98b7171c8c6583ac43ea6ebcbf92696c0df61185e265cbc4",
+    "actual_font_enlargement_sha256": "04712a10313c31b5ed89f4406172ba77674e9f4e1348b00a581b1121fb9263d6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "12e83a45fd573cca83cfeac1841644bd4dd35bb6bef717219d32e3c3805b5b1a",
+      "source_json_sha256": "60c7259e64700c1cd6090ac90e30ede2d3926289234e8e27108a58f9d9c94d5f",
+      "source_png_sha256": "78ed28357e432bae94b682544a408f472c6d09e313d4c8d38d6d108d6503408d",
+      "font_sha256": "bead0c7f5bcd3de99fbd9963b1e6b312ad2e07dcc62bd97ef20a5a4056d0a64c",
+      "raster_sha256": "92e65736c271d4b2ee99493f6972435cdb9eb6ff9d697c320b2811c4e8475816",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native2, all four enlarged whole references, full actual and enlarged left staff/cup. Native/font left lower cup has extra central divider across upper field making THREE counters, all whole specimens show TWO. Right middle compound simplified to free I instead of THX central staff with left bent U/short upright and two bars extending right, forming small left counter. Upper return and lower three-field oval preserved. Native mismatch; thin staff presence confirmed by actual crop."
+    }
+  ]
+}

@@ -6,22 +6,38 @@
     "last": "U+3FC3F",
     "count": 11328
   },
-  "wave": 3,
+  "wave": 4,
   "batch_size": 64,
   "assignments": [
     {
       "worker": "/root/seal_081_088",
-      "first": "U+3D181",
-      "last": "U+3D1C0",
+      "first": "U+3D281",
+      "last": "U+3D2C0",
       "count": 64,
-      "wave": 2,
+      "wave": 3,
       "status": "generation_in_progress",
       "previous_assignment": {
-        "first": "U+3D081",
-        "last": "U+3D0C0",
+        "first": "U+3D181",
+        "last": "U+3D1C0",
         "count": 64,
-        "native_generation_complete": true
-      }
+        "native_generation_complete": true,
+        "audit_report": "design/quality/waves/wave-0002-worker-081-audit.json"
+      },
+      "completed_assignments": [
+        {
+          "first": "U+3D081",
+          "last": "U+3D0C0",
+          "count": 64,
+          "native_generation_complete": true
+        },
+        {
+          "first": "U+3D181",
+          "last": "U+3D1C0",
+          "count": 64,
+          "native_generation_complete": true,
+          "audit_report": "design/quality/waves/wave-0002-worker-081-audit.json"
+        }
+      ]
     },
     {
       "worker": "/root/seal_0c1_100",
@@ -55,17 +71,17 @@
     },
     {
       "worker": "/root/seal_101_140",
-      "first": "U+3D301",
-      "last": "U+3D340",
+      "first": "U+3D401",
+      "last": "U+3D440",
       "count": 64,
-      "wave": 3,
+      "wave": 4,
       "status": "generation_in_progress",
       "previous_assignment": {
-        "first": "U+3D201",
-        "last": "U+3D240",
+        "first": "U+3D301",
+        "last": "U+3D340",
         "count": 64,
         "native_generation_complete": true,
-        "audit_report": "design/quality/waves/wave-0002-worker-101-audit.json"
+        "audit_report": "design/quality/waves/wave-0003-worker-101-audit.json"
       },
       "completed_assignments": [
         {
@@ -80,22 +96,45 @@
           "count": 64,
           "native_generation_complete": true,
           "audit_report": "design/quality/waves/wave-0002-worker-101-audit.json"
+        },
+        {
+          "first": "U+3D301",
+          "last": "U+3D340",
+          "count": 64,
+          "native_generation_complete": true,
+          "audit_report": "design/quality/waves/wave-0003-worker-101-audit.json"
         }
       ]
     },
     {
       "worker": "/root/seal_141_180",
-      "first": "U+3D241",
-      "last": "U+3D280",
+      "first": "U+3D341",
+      "last": "U+3D380",
       "count": 64,
-      "wave": 2,
+      "wave": 3,
       "status": "generation_in_progress",
       "previous_assignment": {
-        "first": "U+3D141",
-        "last": "U+3D180",
+        "first": "U+3D241",
+        "last": "U+3D280",
         "count": 64,
-        "native_generation_complete": true
-      }
+        "native_generation_complete": true,
+        "audit_report": "design/quality/waves/wave-0002-worker-141-audit.json"
+      },
+      "completed_assignments": [
+        {
+          "first": "U+3D141",
+          "last": "U+3D180",
+          "count": 64,
+          "native_generation_complete": true
+        },
+        {
+          "first": "U+3D241",
+          "last": "U+3D280",
+          "count": 64,
+          "native_generation_complete": true,
+          "audit_report": "design/quality/waves/wave-0002-worker-141-audit.json"
+        }
+      ]
     }
   ],
   "reviewer": "/root/seal_review",

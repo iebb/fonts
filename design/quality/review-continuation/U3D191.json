@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D191.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D191.json",
-  "source_json_sha256": "2a18308eb9d53d540b465070d667b0e628f59413201aed00c9925288f9182334",
-  "geometry_sha256": "8eef6475fc511752cc669332a688d41ad1cefaaeb1c089684daaf3454a1b16d2",
-  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
-  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D191-Regular400.png",
-  "raster_sha256": "4b00c6baaee4f63e5f2b55e235993144c65efb9741a7f3571a3652175279673f",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D190191-smooth-bodywall-v2/sources/U3D191.json",
+  "source_json_sha256": "a1032e6623151c8ab6b19131ccebf6834cf501036c6f2a9060967fec0b41dcaa",
+  "geometry_sha256": "3927a102430c0e9f772e4aa0a327b7b69290d3cf896ed96cf873c7dd3ab6092e",
+  "font_file": "design/quality/proofs/continuation/U3D190191-smooth-bodywall-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "af65d6649981a006a4fa092679aeeea7ca28c5dc99f4ae6efa93c77fac95e065",
+  "raster_file": "design/quality/proofs/continuation/U3D190191-smooth-bodywall-v2/U3D191-Regular400.png",
+  "raster_sha256": "12aaddb83e288ebabb68e58a80a051d88f49aab814e06bd9c93aacdc8e55e600",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,41 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole references, native, full actual font and enlarged diamond. Native and actual have full vertical from top apex to bottom apex dividing diamond into TWO counters. THX has one counter with short upward inner stub from bottom apex; other whole references likewise do not attest this full divider with current detached forks/outerbody. Body three fields and rightward branches preserved, but diamond identity wrong.",
-  "requested_corrections": [
-    "Clip only staff portion inside diamond so short inner upward stub rises from bottom apex, preserving one diamond counter and separate external apex upstub."
-  ],
+  "notes": "Reinspected exact v2 full actual and enlarged left bodywall against previously inspected native/all four enlarged whole specimens. Smooth bow replaces stepped firstbar shoulder and irregular interbar course, exact three bar anchors/outer endpoint retained. One diamond counter with free inner upstub, outward junction stub and three bodyfields preserved; original external apex upstub retained where attested. Upper fork contacts/other compounds unchanged, coherent THX and constant-width Regular400 accepted. Native remains mismatch for original diamond/branch identity defects.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "8eef6475fc511752cc669332a688d41ad1cefaaeb1c089684daaf3454a1b16d2",
+      "source_json_sha256": "2a18308eb9d53d540b465070d667b0e628f59413201aed00c9925288f9182334",
+      "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+      "raster_sha256": "4b00c6baaee4f63e5f2b55e235993144c65efb9741a7f3571a3652175279673f",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole references, native, full actual font and enlarged diamond. Native and actual have full vertical from top apex to bottom apex dividing diamond into TWO counters. THX has one counter with short upward inner stub from bottom apex; other whole references likewise do not attest this full divider with current detached forks/outerbody. Body three fields and rightward branches preserved, but diamond identity wrong.",
+      "requested_corrections": [
+        "Clip only staff portion inside diamond so short inner upward stub rises from bottom apex, preserving one diamond counter and separate external apex upstub."
+      ]
+    },
+    {
+      "geometry_sha256": "e480626b7083f1a59ccaf31eacb30a68789a800f646952963d5c18eac95cc3fe",
+      "source_json_sha256": "b8ffa5e13301ca2908c227ff4af8aac8fdbc815c9ad573b6a617afdb69fc5271",
+      "font_sha256": "97545b957771801998b1e6d9f4cc70a288262775a7f2a16691425fba20ad2b93",
+      "raster_sha256": "f46c17827884bdb55840fcac1651eb6d8919d7b070a4801fa30808ac1f5d8c92",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native/all four enlarged whole references, full repaired actual and enlarged diamond/body. Correct one diamond counter/free inner stub with external apex stub retained; three lower fields/outwardbranch intact as THX. Left outer bodywall still has pronounced tracking shoulder/step at first horizontal bar and uneven bend between anchors, inconsistent smooth constant-width style. Native mismatch retained for original diamond divider.",
+      "requested_corrections": [
+        "Smooth only bounded left bodywall through existing three horizontal bar junction anchors, preserving diamond, free inner stub, external upstub, all three fields and outer endpoints."
+      ]
+    }
   ]
 }

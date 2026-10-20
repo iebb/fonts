@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D18F",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D18F.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D18F.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D18F.json",
-  "source_json_sha256": "e377c8c13ec77444000691143d7a6e41ee2de96609e41a95fb05f82e1adb5e0c",
-  "geometry_sha256": "c452d32d1ad57202f672ae39859613eaecb5c6baf055f5156bd18bedbc04233c",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D18F-Regular400.png",
-  "raster_sha256": "a910df6282d348d54135581a0b6f5fa694991bfac6f901347174818f04e83468",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D18F-whole-THX-winding-v2/sources/U3D18F.json",
+  "source_json_sha256": "f458efe89415ec02fe2b863b7c6b388255f3673dfb171035b3a4f7b4a9262de3",
+  "geometry_sha256": "225d16ff6b883b471da0fca9320efe64f3cea68549352953c7f9b15ec2aa350e",
+  "font_file": "design/quality/proofs/continuation/U3D18F-whole-THX-winding-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "721cb8e005742db90cd2a20f036bb3eab438e8064238489ee9ed40a750ad8420",
+  "raster_file": "design/quality/proofs/continuation/U3D18F-whole-THX-winding-v2/U3D18F-Regular400.png",
+  "raster_sha256": "835a76e12cd2c154a5c62f0f6862b4423fdb46f995b4d7e370b5caee85162571",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged right lower compound inspected. Upper right paired-counter cap and joined right trident plus left wave contacts correspond connected variant family, but lower right intended winding double return with detached left side descending mark has become simple one-return bar/stem/fork with added lower crossbar; detached lower left side mark missing. All whole specimens retain inner winding return and both lower side courses; no complete attested variant supports current simplification.",
-  "requested_corrections": [
-    "Recover coherent whole right lower winding double-return course with central descending fork and both detached side descending marks; remove invented simple lower crossbar only after selecting full reference contact variant. Preserve upper cap/counters and left waves."
-  ],
+  "notes": "Inspected all four enlarged whole references, native, full exact v2 compiled font and enlarged lower winding return. Complete coherent THX now: rightfork detached from cap upstub, left long wave separate from upper rightside mark, two small cap side counters, lower winding compound has outer and inner open-left returns into shared staff and bifurcated feet. Missing detached lower-left side mark recovered, alien crossbar removed; no false closed lower counter. Constant-width smooth round courses, distinct gaps and original envelope acceptable Regular400. Native mismatch retained for original omissions/connected upper contacts.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "c452d32d1ad57202f672ae39859613eaecb5c6baf055f5156bd18bedbc04233c",
+      "source_json_sha256": "e377c8c13ec77444000691143d7a6e41ee2de96609e41a95fb05f82e1adb5e0c",
+      "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+      "raster_sha256": "a910df6282d348d54135581a0b6f5fa694991bfac6f901347174818f04e83468",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged right lower compound inspected. Upper right paired-counter cap and joined right trident plus left wave contacts correspond connected variant family, but lower right intended winding double return with detached left side descending mark has become simple one-return bar/stem/fork with added lower crossbar; detached lower left side mark missing. All whole specimens retain inner winding return and both lower side courses; no complete attested variant supports current simplification.",
+      "requested_corrections": [
+        "Recover coherent whole right lower winding double-return course with central descending fork and both detached side descending marks; remove invented simple lower crossbar only after selecting full reference contact variant. Preserve upper cap/counters and left waves."
+      ]
+    }
   ]
 }

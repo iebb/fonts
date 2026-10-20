@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1CC",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1CC.json",
+  "source_png": "design/seal-individual/U3D1CC.png",
+  "source_png_sha256": "8bb2c2e148fec670a6fcb66e1304234ead4ca5e622f2635c2c43b8f0f26d7a81",
+  "reference_png_sha256": "2f06b6dd0dfa61c7a0e3a5a53380b25a5548c0020d5d34e352002b19315665a5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1CC.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1C9CC-six-open-fields-v3/sources/U3D1CC.json",
+  "source_json_sha256": "8c429f2c054f8d8b0ebd49ffe4d738dda877290eddd01ffbc134940a4dda8790",
+  "geometry_sha256": "a26b4098c1b401664bd0e81d7d4c30994cfc67ca1cb04b3125e4eed6ae9b35e1",
+  "font_file": "design/quality/proofs/continuation/U3D1C9CC-six-open-fields-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d4012e0b70a97822f7944b85e19d8874cd9b49821c33625fa7a11170184ab290",
+  "raster_file": "design/quality/proofs/continuation/U3D1C9CC-six-open-fields-v3/U3D1CC-Regular400.png",
+  "raster_sha256": "1aa00e194b8ffcf5d7f5b613a4a9f6b0cb26d5a8fdccde43d65f3994f93cc1c6",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      253,
+      -64,
+      771,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native2, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Complete THX both top forks now free over separate left winding return and right two-field compound. Left enclosure has two parallel rising diagonals crossing the preserved falling diagonal, with SIX visibly open fields; eight total including right body. Minimal local re-spacing of both rising contact pairs within the same enclosure bounds is explicitly recorded and authorized, to keep all six fields open at shared pen30. Original falling course/endpoints and unrelated sources remain exact. Enclosure corner knobs removed, lower projecting rails/staff and all body gaps retained. Native topology mismatch remains recorded.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f52b9d5a8a242e63b626d1fd60f6137f508a5cea7c65b71cc3aa425f791b3020",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "0ef4ac885ce6e5d0b2cb782dbcfe9eb6fa022443499874f2d5993a5d8fbbc6e4",
+    "actual_font_enlargement_sha256": "ad1f5ef64cc18825314fd8bf8a7e0f30dc79de27d5ddaf1c4aba7f2cebfee402"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7b5f596b6b1c92142ef4a0acebf2f6f3a55951af8cbf6ed304ad9304c8bfabef",
+      "source_json_sha256": "e6082b912ee135a47b3963e784e895ccc259745716d7fcec6401c8db980024fb",
+      "source_png_sha256": "8bb2c2e148fec670a6fcb66e1304234ead4ca5e622f2635c2c43b8f0f26d7a81",
+      "font_sha256": "2aa929ecdc16318011f90a2f128e6147ffa775f2bdd9ad96a785d3c4ae8947e6",
+      "raster_sha256": "68cd7209e189a38bdfc54940bd3313bb8904260817d82e2fe85503b29c2c8c97",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native2, all four complete/enlarged whole references and full/enlarged actual Regular inspected. Native joins both top forks while retaining otherwise separate THX left winding return and right two-field compound, an unsupported whole mix: complete THX leaves both forks free; other joined-fork variants change body contacts. Left crossed enclosure also has only one rising diagonal and four fields, while THX needs two parallel rising diagonals against the descending diagonal, yielding six fields. Restore the complete THX two fork gaps and missing parallel rising diagonal; smooth only enclosure corner knobs through retained contact points/extrema. Preserve two right fields, separate long left winding return, bottom staff/two projecting rails and all free tips."
+    }
+  ]
+}

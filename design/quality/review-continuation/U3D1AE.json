@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1AE",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1AE.json",
+  "source_png": "design/seal-individual/U3D1AE.png",
+  "source_png_sha256": "e4148474fbd73fe8a02b40aa668ece0582911078c921e325972a539a3598b046",
+  "reference_png_sha256": "10f37282dbd570143ff2d1ff3d8243cd98c74432a21d29631d346de3cba758d0",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1AE.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-native2-last-eight-v1/sources/U3D1AE.json",
+  "source_json_sha256": "7312dcb46b42a08b9a3f5ae9632014e85caf4516e94394a84d3aee2e97c8e0b8",
+  "geometry_sha256": "8610fb1224052ec540da5b7d09d5a5fbbae91a653b37b8788ad52f1604a27ffa",
+  "font_file": "design/quality/proofs/continuation/root-native2-last-eight-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ac479681ebd86709d38d71c9e91f786caf9dcfcc8119d1562ad7e487be21096c",
+  "raster_file": "design/quality/proofs/continuation/root-native2-last-eight-v1/U3D1AE-Regular400.png",
+  "raster_sha256": "1c0fddd5c1c9d3b4ad4105a15f65786642c38bf0173a20895ca111831f9ed596",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      282,
+      -64,
+      742,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Retry2 full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Coherent THX detached forks, three-field upper oval crossed by two bent upper courses, and separate outer winding return around open-left inner course retained. Inner upper-left terminal is free; its lower-left course meets the outer return lip, leaving exactly one right inner field and four total fields. Actual preserves the open left side, required lip contact, tail, both fork gaps and all four fields.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f37afc035f4d4162ba4b74d8695b497a1cd8f8a4ecacd90a937abe3af5470e4a",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "04f160438d3040b01a9d0fc7a60ff63f903b108a6bb418385fde85efd035905e",
+    "actual_font_enlargement_sha256": "d9470e002c2a5620f15d9ee5232235f5ef943f8ff64fad80ca797d7f3d2ca55d"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "53b9bad44f82c17d52d4a567da0b0a9a8737cd3bceafcc2d2fa3013908824978",
+      "source_json_sha256": "eaa7df7522696435678f92081196895dc73e75c2960d7ba4d5d6e4cefa9362c7",
+      "source_png_sha256": "07a6fe28c355b29d25c78818c0c05bde1531aced615edf15214623a14408782f",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "7e70c57022bc7bad524decc5bf3cc0e19151bb1ed841122d3f67fca78a1e54c4",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, extra THX inner detail and full/enlarged actual Regular inspected. Top compound retains three oval fields and two slanted upper courses. Lower internal course is an extra closed slanted oval split into two fields; all complete specimens have one right enclosed inner field and an open left side. Coherent THX has a free upper-left inner terminal and lower-left course meeting the outer return lip. Restore this open inner construction and contact while preserving the three top fields and original outer return. Current native/actual total five fields versus required coherent THX four. Bounded native2 requested; no source acceptance."
+    }
+  ]
+}

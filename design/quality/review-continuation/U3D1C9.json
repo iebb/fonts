@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1C9",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1C9.json",
+  "source_png": "design/seal-individual/U3D1C9.png",
+  "source_png_sha256": "a69eb365783608d91b5602d6c0c3dfc6d0e7f8a8d931d7d66cdf56c9d6d0e3b4",
+  "reference_png_sha256": "457bf04cc646f7b771fd0b18a4e7f4dfc5bda80983c917ca40508ba7e3e299f4",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1C9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1C9CC-six-open-fields-v3/sources/U3D1C9.json",
+  "source_json_sha256": "bae2b2943a98f2ed924debbb85bc80816e9b7899c9802daaa8857ea000cd2e6c",
+  "geometry_sha256": "fc0a87c6b513abc4db8dd6bfb35e1a0dda6e77939224e9507151dcc3813e57ad",
+  "font_file": "design/quality/proofs/continuation/U3D1C9CC-six-open-fields-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d4012e0b70a97822f7944b85e19d8874cd9b49821c33625fa7a11170184ab290",
+  "raster_file": "design/quality/proofs/continuation/U3D1C9CC-six-open-fields-v3/U3D1C9-Regular400.png",
+  "raster_sha256": "ef7147db9a78b40a80a5d8f3ffc37cf4a1249dcbab248359a7c9bd528cca23e4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      250,
+      -64,
+      774,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Coherent THX detached top forks over one curved X retained. Central source now uses one genuine shared crossing and smooth diagonal continuations, removing the horizontal bridge between offset halves. Exact four original outer X endpoints, broad upper cup/lower leg envelopes, both upper fork gaps and zero enclosed fields are preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "8aaedecfc4585601b676368f7fd72dc204b786886e1a6b270da242e40b10cedc",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "0e6f06f741152a112f8131cd1a850869d7ea3fac79e5806596bed4e75c0cbcb8",
+    "actual_font_enlargement_sha256": "f48b0bf61f99a6c8d70605ec4a207bda818cbd562a251ca62110395049b1cfea"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "146c07d2fb34616faedebe2d33d04e5fb468cbb806abb802bb54d8090b64efa4",
+      "source_json_sha256": "8dc6cb9b119d361e1bad7785ff6095e76bf2cde9e4750943bac6b47544366218",
+      "source_png_sha256": "a69eb365783608d91b5602d6c0c3dfc6d0e7f8a8d931d7d66cdf56c9d6d0e3b4",
+      "font_sha256": "2aa929ecdc16318011f90a2f128e6147ffa775f2bdd9ad96a785d3c4ae8947e6",
+      "raster_sha256": "3e9299652022b6a58ac60f52383d6e74e51900963c3838c2c8461a8f051cc7cc",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged whole references and full/enlarged actual Regular inspected. Native matches coherent THX detached top forks over one genuine curved X with four long/free diagonal ends. Actual splits the crossing into offset left and right half junctions joined by a conspicuous horizontal bridge. Unify only this central crossing, preserving the exact four original outer endpoints, broad upper cup and lower leg envelopes, and both top fork gaps."
+    }
+  ]
+}

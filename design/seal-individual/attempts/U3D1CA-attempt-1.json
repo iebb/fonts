@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D1CA",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Top two tridents joined their stems by short horizontal. Below this is separate broad long horizontal rail. Two nested U cups below rail, narrow inner and broad outer, their bottoms pierced by same central staff. Under cups one detached wider rounded U bowl with ONE internal horizontal divider, two counters, central stem goes through its floor and down across long horizontal baseline continuing far beneath. Coherent THX, exactly two nested upper cups and two lower counters.",
+  "reference": "reference/seal/individual/U3D1CA.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-0923e6e7-4934-4562-8b35-14f4e321296b.png",
+  "output_file": "design/seal-individual/U3D1CA.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "b1cd5732af21825055efdf03bc56ef045b46c36996a3952cdacda5cf7553d1f4",
+  "reference_sha256": "aeaa098cc9ddd051775421ebbe8ce8237333c6c927289dba399b28ceb2de403a",
+  "reference_metadata_sha256": "19c6b991275f723b2681478d4b4fe3dbfa2372859f69f4ab28922ac148d21cc2",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D1CA",
+    "page": 9,
+    "label_bbox": [
+      236.10000610351562,
+      665.6502075195312,
+      268.3293762207031,
+      676.8099975585938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 9,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          663.9209594726562,
+          292.9800109863281,
+          689.0999755859375
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          664.453271484375,
+          295.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "TH-00427"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 9,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          662.4801635742188,
+          316.8398742675781,
+          684.47998046875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          664.453271484375,
+          321.6000061035156,
+          689.4332641601562
+        ],
+        "source_label": "C-00445"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 9,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          666.7341918945312,
+          345.33978271484375,
+          688.35595703125
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          664.453271484375,
+          348.3000061035156,
+          689.4332641601562
+        ],
+        "source_label": "K-00427"
+      },
+      "DYC": {
+        "available": true,
+        "page": 9,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          663.9321899414062,
+          370.2398681640625,
+          688.9679565429688
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          664.453271484375,
+          375.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "D-00424"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Extra central dividers inside cups; THX requires three total fields."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1E3",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E3.json",
+  "source_png_sha256": "d9f7c164d9f3f1ad84e1129a8b284b73995acae1ccd840c23557cf9553e47787",
+  "source_png": "design/seal-individual/U3D1E3.png",
+  "reference_png_sha256": "1a377c12ae38c77692e979fc25e2a6ccfa8823aed803acdd0834ae25db5dcb7d",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1E3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E3.json",
+  "source_json_sha256": "58a92965c817f194d59ba5f3ee941ea9af525dc8022ef359c156f6876376df25",
+  "geometry_sha256": "bb75672940c3768d1740bcbd8d8f895160c6bc80b859172b0ae5c5bd957ce3f8",
+  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E3-Regular400.png",
+  "raster_sha256": "cd60db55073eb972621f58e5e668ab7d6c8718e8e895f240884f05c210191040",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      283,
+      -64,
+      741,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual and enlarged lower paired staves inspected. Native preserves THX both forks free, independent upper-right stacked chevrons/side marks and left winding compound. But paired lower right staves omit each outer returned wall/course connecting upper and lower crossbar levels, leaving two open hooks/free bars instead of the two small closed counters attested THX. Other whole specimens also retain paired small lower fields. Actual upper left roof turn has tracking kink."
+  ],
+  "requested_corrections": [
+    "Restore both lower-right small returned wall courses to close one narrow field per staff between original crossbar levels, preserving tips/long descending staff and paired separation.",
+    "Smooth bounded upper-left turning course through original endpoints and branch anchors."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

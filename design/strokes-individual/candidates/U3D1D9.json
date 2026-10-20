@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -2611,17 +2611,17 @@
         15
       ],
       "is_loop": false,
-      "path": "M 637.955,582.339 L 637.955,134.134",
+      "path": "M 637.955,582.339 L 637.955,336.971",
       "commands": [
         [
           "M",
-          637.9553,
-          582.3387
+          637.955,
+          582.339
         ],
         [
           "L",
-          637.9553,
-          134.1342
+          637.955,
+          336.971
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -7671,6 +7671,35 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.4796,
       "maximum_fit_error_font_units": 1.569
+    },
+    {
+      "id": "THX-right-fork-upper-retained",
+      "path": "M 637.955,287.8980000000001 L 637.955,134.13400000000001",
+      "commands": [
+        [
+          "M",
+          637.955,
+          287.8980000000001
+        ],
+        [
+          "L",
+          637.955,
+          134.13400000000001
+        ]
+      ],
+      "closed": false,
+      "manual": true
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore complete THX right fork separation by removing only the original straight staff segment between y287.898 and336.971. The upper fork retains its short downward free stem; lower arch retains its own short upward free stub. Both surviving original straight remainders, all other fifteen paths, two left counters, right inner marks/bifurcation and detached lower return remain exact. Native mixed-contact mismatch remains recorded.",
+      "previous_paths": {
+        "stroke-4": "M 637.955,582.339 L 637.955,134.134"
+      },
+      "native_png_and_provenance_unchanged": true,
+      "author": "/root",
+      "independent_actual_font_review_required": true
     }
   ]
 }

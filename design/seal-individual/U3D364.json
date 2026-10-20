@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D364",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Correct the first original Small Seal glyph to coherent whole THX in second reference. ONE correction: upper central vertical column MUST BE DETACHED from the lower large forkstaff. Currently continuous central vertical wrongly joins the small inverted-U branch above to the large U cup below. Cut a visible gap in central staff exactly between the upper small inverted-U bottom area and the top tip of the lower forkstaff's center prong. Keep upper column staff ending shortly beneath its small inverted-U branch. Keep lower forkstaff center prong beginning freely just above the lower cup sides. Preserve all three lower column rails, upper oval/crossings, side brackets, side winding courses and bottom crossbar. Constant-width rounded black strokes transparent background.\n",
+  "reference": "reference/seal/individual/U3D364.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-3e3a9b1d-2e4a-4e54-8dba-57bfa6efeac0.png",
+  "output_file": "design/seal-individual/U3D364.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "bb37de03eba5825549d1c5f6f994711bff5b735ec4550e98ba959f1de1a04d26",
+  "reference_sha256": "17b1867eebca9c98c494ba3bc56368bfdccd9d37f06693dbb2d6a17f1ee17ec7",
+  "reference_metadata_sha256": "8a188b0d39b3f47595cfa79bfeb7f69beb99de0f8182237aaf3a02f538c51677",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D364",
+    "page": 16,
+    "label_bbox": [
+      236.10000610351562,
+      348.6701965332031,
+      265.5594177246094,
+      359.8299560546875
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 16,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          346.8810119628906,
+          292.9800109863281,
+          372.05999755859375
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          347.473291015625,
+          295.0000061035156,
+          372.4532836914062
+        ],
+        "source_label": "TH-00820"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 16,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          345.4402160644531,
+          316.8398742675781,
+          367.44000244140625
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          347.473291015625,
+          321.6000061035156,
+          372.4532836914062
+        ],
+        "source_label": "C-00851"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 16,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          349.6941833496094,
+          345.33978271484375,
+          371.3159484863281
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          347.473291015625,
+          348.3000061035156,
+          372.4532836914062
+        ],
+        "source_label": "K-00826"
+      },
+      "DYC": {
+        "available": true,
+        "page": 16,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          346.8921813964844,
+          370.2398681640625,
+          371.9279479980469
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          347.473291015625,
+          375.0000061035156,
+          372.4532836914062
+        ],
+        "source_label": "D-00815"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D364-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D364-attempt-1.json"
+  }
+}

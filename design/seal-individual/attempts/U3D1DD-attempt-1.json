@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D1DD",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Two top detached tridents. Left below small pitchedroof and detached short dash beneath. TWO small U cups under roof, crossbars forming lowercounter each. Each cup joins TWO wavy descending legs (FOUR lowerlegs total). Right tall staff with short upper rightbranch; beneath branch reversed-C outercurve joining middle elbow whose vertical continues long down-righttail. All THX distinct courses, do notmerge right with leftcups.",
+  "reference": "reference/seal/individual/U3D1DD.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-54118245-f741-47aa-b393-1950a947c438.png",
+  "output_file": "design/seal-individual/U3D1DD.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "1940b319cef5d47578d31219021c97b6abb62f9c826bab685e490aa7c62e0a65",
+  "reference_sha256": "3ed58932e1f0d80b3b9728c6eb8a7d036b57d1b4c324de8da62322b8f7b2913b",
+  "reference_metadata_sha256": "51f5cf14c8b21c50f5c6e4cead38c2a15fb573dd55eca50b80eee5ae19ff5317",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D1DD",
+    "page": 9,
+    "label_bbox": [
+      384.8999938964844,
+      633.97021484375,
+      417.6792907714844,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 9,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          632.1809692382812,
+          441.7799987792969,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          632.7732788085938,
+          443.79999389648435,
+          657.753271484375
+        ],
+        "source_label": "TH-00445"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 9,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          630.7401733398438,
+          465.6398620605469,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          632.7732788085938,
+          470.3999938964844,
+          657.753271484375
+        ],
+        "source_label": "C-00463"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 9,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          634.9942016601562,
+          494.1398010253906,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          632.7732788085938,
+          497.09999389648436,
+          657.753271484375
+        ],
+        "source_label": "K-00445"
+      },
+      "DYC": {
+        "available": true,
+        "page": 9,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          632.1921997070312,
+          519.0398559570312,
+          657.2279663085938
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          632.7732788085938,
+          523.7999938964844,
+          657.753271484375
+        ],
+        "source_label": "D-00442"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Missing right fork lower stem and two leftward course overhangs."
+  ]
+}

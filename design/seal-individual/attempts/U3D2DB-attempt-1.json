@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D2DB",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; select a coherent whole THX construction, never blend incompatible variants. SQUARE CANVAS, equal width and height, landscape or portrait forbidden. Harmonious rounded Gothic sans-serif MONOLINE with absolutely constant stroke width about 3% canvas, round caps/joins, smooth curves, no taper/brush/serifs. Faithful branches, separate strokes, gaps and counters. Center glyph within central 70% of square. Pure BLACK strokes on fully TRANSPARENT background. No labels/text/grid/multipleglyphs. Two detached toptridents. Beneath longhorizontal crossbar crossedcenterstaff, narrowUcupunderbarwithbothraisedprongs crossingrail; staffpasses cupfloor downinto horizontaloval, dividesoval TWOcounters. Underoval TWO detacheddiagonalshortsidearms, oneeachside. Belowstaff broadinvertedUarch encloses TWOshortparallelhorizontalcrossbars piercedbycentralstaff, lowerlonger. Staffendsatlowerinnerbar, archlegsfreebelow. MatchTHX.",
+  "reference": "reference/seal/individual/U3D2DB.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-51df69cd-693a-4964-a504-402c521c4263.png",
+  "output_file": "design/seal-individual/U3D2DB.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "9415f11be1ce3557da391b1d99c1541a2dadce3a2e77423222d13f881ff7e975",
+  "reference_sha256": "246fb5e9d7e8aacc9dc28936b44fae512610c6fb0ccebe89e5945e4d10840e51",
+  "reference_metadata_sha256": "6cd9b18f34043248890e9d98f8496c206121dac0a51028e39d0cd7fc6c1af1bd",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D2DB",
+    "page": 14,
+    "label_bbox": [
+      87.30000305175781,
+      443.77020263671875,
+      119.52936553955078,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 14,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          441.98101806640625,
+          144.17999267578125,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          442.57329711914065,
+          146.20000305175782,
+          467.55328979492185
+        ],
+        "source_label": "TH-00697"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 14,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          440.54022216796875,
+          168.03985595703125,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          442.57329711914065,
+          172.8000030517578,
+          467.55328979492185
+        ],
+        "source_label": "C-00715"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 14,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          444.794189453125,
+          196.539794921875,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          442.57329711914065,
+          199.5000030517578,
+          467.55328979492185
+        ],
+        "source_label": "K-00699"
+      },
+      "DYC": {
+        "available": true,
+        "page": 14,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          441.9921875,
+          221.43984985351562,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          442.57329711914065,
+          226.20000305175782,
+          467.55328979492185
+        ],
+        "source_label": "D-00693"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Top trident staffs incorrectly join crossbar."
+  ]
+}

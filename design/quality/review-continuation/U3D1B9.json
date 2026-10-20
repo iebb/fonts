@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1B9",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1B9.json",
+  "source_png": "design/seal-individual/U3D1B9.png",
+  "source_png_sha256": "a94feab3469260cfe3cebb32d66996cb9d8736e7abd944951b5b155e7dd59c60",
+  "reference_png_sha256": "a72208f378fc19a1b1a2d8ba38cb34b9d6eac00ac6b65539add78b97a966a537",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1B9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/sources/U3D1B9.json",
+  "source_json_sha256": "9fa6e75ee4ef9a20a1be7b0d4ceab2ac407ec6be8a51bb8b7dd2045c3f34803f",
+  "geometry_sha256": "7bc77e94c96714112203ef378a7b348fedb0fc6e5dc44f482490e0b1b86627f7",
+  "font_file": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ffdc5ff35dae91c1be819c9d568eb648ad2edda140865b1afd4410beacdaa95b",
+  "raster_file": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/U3D1B9-Regular400.png",
+  "raster_sha256": "331c391791e073cf074d8d07bfdd181c435e684b39d44087dc23dab896905a95",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      267,
+      -64,
+      757,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent THX both free top forks, left header/descent, right upward bent return, detached inner dash and one-field cup retained. Right diagonal branches now meet the descending staff at one genuine crossing, removing the artificial vertical neck while preserving both diagonal free tips and the original staff remainders.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "52c8b1dcb498bb04e0aafab3b3cd6ec42afe823ac0aa5d0c06c2e9b02e75c7bd",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "0fc46f9424e396a47d6aae2cd4599d3c8ffe861ada66d1725610178725e9e81c",
+    "actual_font_enlargement_sha256": "ac7e5c21a74dde0475ae17f527a90c424b02e660e5065b5d7400fbad7676662f"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "93d3a3e04f861861ba643d639101a82964b455f0bf28cb147622fb00de2e9980",
+      "source_json_sha256": "8bfe47e0bb3953e5d7257d1cf821c443f2e88968558f9c3bd06e4e1b52b09d34",
+      "source_png_sha256": "a94feab3469260cfe3cebb32d66996cb9d8736e7abd944951b5b155e7dd59c60",
+      "font_sha256": "ac479681ebd86709d38d71c9e91f786caf9dcfcc8119d1562ad7e487be21096c",
+      "raster_sha256": "6dde48fa084f190389308aabdf4e6356042422fc75fff61481c63c33e47bbc7d",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native coherent THX two free top forks, outer left header/descent, right upper bent return/staff, inner detached dash and single-field cup, and right diagonal crossing/long tail retained. Actual right crossing has separate upper and lower branch nodes at source (634.684,582.339) and(634.684,634.684), joined by an artificial vertical neck. Unify a genuine shared diagonal crossing preserving both right diagonal tips, existing long-staff remainders, top return and every other path."
+    }
+  ]
+}

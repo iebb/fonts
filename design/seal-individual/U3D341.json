@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D341",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Edit the first image, an original Small Seal font glyph, using the second image historical four-specimen reference. Preserve the left fork, crossbar and staff exactly. Only correct the right structure to the coherent THX whole construction: the inner curved descending leg MUST BEGIN CONNECTED TO THE UPPER HORIZONTAL ROOF, at a junction near its left side. Currently that inner leg is wrongly detached below roof. Extend its upper endpoint to meet the roof, forming one continuous joined right component with two long descending legs. Preserve the roof overhang right of junction. Equal constant-width black monoline strokes, rounded ends and joins, transparent background, generous square margins. No other changes.\n",
+  "reference": "reference/seal/individual/U3D341.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-5081398b-8c05-4120-b423-123f2c9dce90.png",
+  "output_file": "design/seal-individual/U3D341.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "d5e69b0f0f172840a06bb787e538cc34b6903827d1018c16cfe63c6c6753ebc6",
+  "reference_sha256": "8aa382b3cb8f65ff71752c2a7d0fbb3c7f3e1b391930fe3dd862d5a18a86299d",
+  "reference_metadata_sha256": "9e0e21b6bf97535e5ca23e91e5952fd4afa84965a1980b3d36e3786a67c54bd6",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D341",
+    "page": 15,
+    "label_bbox": [
+      384.8999938964844,
+      507.13018798828125,
+      414.3593444824219,
+      518.2899780273438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 15,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          505.4009704589844,
+          441.7799987792969,
+          530.5799560546875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          505.93328247070315,
+          443.79999389648435,
+          530.9732421875
+        ],
+        "source_label": "TH-00786"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 15,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          503.9601745605469,
+          465.6398620605469,
+          525.9599609375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          505.93328247070315,
+          470.3999938964844,
+          530.9732421875
+        ],
+        "source_label": "C-00817"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 15,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          508.2141418457031,
+          494.1398010253906,
+          529.8359375
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          505.93328247070315,
+          497.09999389648436,
+          530.9732421875
+        ],
+        "source_label": "K-00816"
+      },
+      "DYC": {
+        "available": true,
+        "page": 15,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          505.4121398925781,
+          519.0398559570312,
+          530.4479370117188
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          505.93328247070315,
+          523.7999938964844,
+          530.9732421875
+        ],
+        "source_label": "D-00781"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D341-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D341-attempt-1.json"
+  }
+}

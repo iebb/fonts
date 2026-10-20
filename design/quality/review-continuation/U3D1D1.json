@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1D1",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D1.json",
+  "source_png_sha256": "1865725f214d8de883960c9d013862daa3c42a0150984f71e5c1624a1d491ca1",
+  "source_png": "design/seal-individual/U3D1D1.png",
+  "reference_png_sha256": "96986f219aeba617944aae8aa3a1068706b460155c488acee6f992b2cf4f32cf",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1D1.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentythird-eight/sources/U3D1D1.json",
+  "source_json_sha256": "dae9b2f38065fa3d09b9503028f95da6e39881b254fdaec09555a103f7ded506",
+  "geometry_sha256": "12e5ee326e64812b67800b0d2cfcd0252a147c8673beab8258aadf1b1571282a",
+  "font_file": "design/quality/proofs/continuation/review-twentythird-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
+  "raster_file": "design/quality/proofs/continuation/review-twentythird-eight/U3D1D1-Regular400.png",
+  "raster_sha256": "3d2ba2846122d355dc064bbc1f92b561644c481ae6d67d9ff1df441cf8e5402a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      209,
+      -64,
+      815,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/actual font and enlarged right compound inspected. Current left fork detached and two independent open left curves, plus right lower crossbar joining both arch walls, match THX body. But native right fork joins staff continuously, while THX both forks detached with separate short staff upstub above first bar. Joined-right CCZ/QJZ variants change left upper contact and/or lower crossbar wall contacts. Actual otherwise retains four counters, three right feet and full left trajectories."
+  ],
+  "requested_corrections": [
+    "Detach right fork from separate compound staff while retaining a short staff upstub above top bar, coherent with whole THX and unchanged left courses/lower wall contacts."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -5013,6 +5013,27 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.8792,
       "maximum_fit_error_font_units": 2.8764
+    },
+    {
+      "id": "stroke-13",
+      "path": "M 690.3,588.882 C 662,598 614,605 565.981,605",
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore missing third leftward return from existing right outer/inner shared junction (690.3,588.882), following complete THX. The new free return remains above unchanged detached dash at y647.77; all twelve original trajectories, both fork gaps, left three rails and long right tail are unchanged. Native artwork omits this return and remains mismatching.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-13",
+          "path": "M 690.3,588.882 C 662,598 614,605 565.981,605",
+          "closed": false
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

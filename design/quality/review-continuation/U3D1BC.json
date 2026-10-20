@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1BC",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1BC.json",
+  "source_png": "design/seal-individual/U3D1BC.png",
+  "source_png_sha256": "d50b8825794e335b9991e8e2aa342b31cae336698a211aba21a4f30cbfec9230",
+  "reference_png_sha256": "34d1125870737e0761340d97f92ee2b47417d47a5658156b93e2daf6d1e41a6e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1BC.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/sources/U3D1BC.json",
+  "source_json_sha256": "34c8ba04e39fb006eba68b1ea2a182320a7cff58ac759c6373a3ac294b24c90c",
+  "geometry_sha256": "b29cccf2931a180c6bed2fa55d7c99fcf5dd2c67f0cc316d1c266e87d4c1a72a",
+  "font_file": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ffdc5ff35dae91c1be819c9d568eb648ad2edda140865b1afd4410beacdaa95b",
+  "raster_file": "design/quality/proofs/continuation/U3D1B9BCB1B8-bounded-v1/U3D1BC-Regular400.png",
+  "raster_sha256": "290991cda84a863c95142a580bc34d0cdcdff7572083993f11ab56bfb9062d97",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      196,
+      -64,
+      828,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent THX detached top forks, left three-field arch with four lower legs, and separate right winding return with two inward rails and long tail retained. Left upper header now includes its missing short upward free stub above the rightward arm, with a visible gap from the top fork. All three fields and other endpoints remain unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "4edb31aae1ac1457eb76466a72c392510547c5eac4229831bda465676cf08faf",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "1cbb96de604fc8064849a6764dbb9560d8dc72ca7f5b7e3bf5eab579a23e3158",
+    "actual_font_enlargement_sha256": "b5e1a6d16df6636bb47844197e93ac36850dc597e53e0436e65d182f8fd92a1a"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d1f5ca6a8b2184dd1219f937588cc249ef7f7d2e80a30c7048207761b88b8293",
+      "source_json_sha256": "7b2bf1eceeeafa81b795e640c056f57442223e6be8d66bf91cef8692e15ccabd",
+      "source_png_sha256": "d50b8825794e335b9991e8e2aa342b31cae336698a211aba21a4f30cbfec9230",
+      "font_sha256": "ac479681ebd86709d38d71c9e91f786caf9dcfcc8119d1562ad7e487be21096c",
+      "raster_sha256": "ca5f908e3f719a1bd3a10db3f5d02043c149b6a0f0ae53cb0fa50f1ea0902ce6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected; current source endpoints confirm the omission. Native coherent THX detached top forks, left short upper header with upward free stub, arch enclosing three upper fields above four lower legs, and separate right bent return/short inner courses and outer tail retained. Actual loses the free upward stub above the left short header: source course only turns at header y386.045 without continuing to the native upper free tip. Restore only that short upward extension; keep three fields, outer arch, two inner uprights, right course contacts and all six lower/right free endpoints."
+    }
+  ]
+}

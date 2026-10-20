@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1E4",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E4.json",
+  "source_png_sha256": "ad4513ad7ecb1bbae83da6a4e6c04ccdd70eaf2c1d99952b9123b5ec148e76e6",
+  "source_png": "design/seal-individual/U3D1E4.png",
+  "reference_png_sha256": "4a38c87a6c1553fd9ce22f48f8636d3c8fb13b1d2dc30e50ebbca80ea0d4a3ed",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1E4.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E4.json",
+  "source_json_sha256": "5fa91fc0f99f214e8eaec82ae0462ade30e645a3c07e0bed8732c98deb13ed97",
+  "geometry_sha256": "4bd37395dae9dbfb069b4d982e38676527d5d6e7dd55463c7c4d61421cfbe484",
+  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E4-Regular400.png",
+  "raster_sha256": "7bed7c37f4ae1de8778ed5a8bff326e932cca4512a951182a85210a9e2801e1c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      244,
+      -64,
+      780,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual and enlarged lower crossing inspected. Native matches THX both top forks detached, peaked header with central free lower stub, separate lower winding crossed by down-right diagonal with three open left terminals. Actual retains genuine single crossing, but diagonal bends abruptly before/after crossing creating offset S-shaped neck rather than smooth native trajectory. Lower outer rail also has flat stepped transition on left-middle course."
+  ],
+  "requested_corrections": [
+    "Bounded smooth descending diagonal through exact shared crossing and original endpoints, removing abrupt neck bends while retaining native broad trajectory.",
+    "Smooth bounded lower outer rail flat-step transition retaining terminals/envelope and crossing anchor."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

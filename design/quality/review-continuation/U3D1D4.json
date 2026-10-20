@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1D4",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D4.json",
+  "source_png_sha256": "5a6d6d16da6537bd72a4e94739429e948af6994d1b2e50779b6834fff1cc6dec",
+  "source_png": "design/seal-individual/U3D1D4.png",
+  "reference_png_sha256": "14e4b4ce305c5309ba8f877a991bbd5db5ae3600dd2b499e2d003bffa785ed54",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1D4.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentythird-eight/sources/U3D1D4.json",
+  "source_json_sha256": "a11f649d83d271ab58262c2074698f0ef99ae1f502a23a5fbb5b243b9f169dcd",
+  "geometry_sha256": "9fa06f2ffa9cb0064b64b5f999630c75ad73ca9ed3be5c09f9280de13da3ff69",
+  "font_file": "design/quality/proofs/continuation/review-twentythird-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
+  "raster_file": "design/quality/proofs/continuation/review-twentythird-eight/U3D1D4-Regular400.png",
+  "raster_sha256": "595c53cfdb0c1e9e941506802a1520f5fc97e03f93394d70ef65301ac5e2a37b",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      246,
+      -64,
+      778,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four enlarged whole specimens/actual font and enlarged right compound inspected. THX has upper outer turning course, inner bent course, and an additional leftward return from their lower shared junction, followed by a detached lower dash. Native/font omit that third leftward return, leaving only a Y-shaped junction. Left three-bar staff/inner trident and both detached top forks otherwise match THX."
+  ],
+  "requested_corrections": [
+    "Restore missing leftward return from existing right upper outer/inner shared junction, above unchanged detached dash. Preserve both original upper courses, long descending staff, left compound and both detached forks."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

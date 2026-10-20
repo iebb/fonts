@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1A9",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1A9.json",
+  "source_png": "design/seal-individual/U3D1A9.png",
+  "source_png_sha256": "cfb315cea9a21d6fd5df2c3da22b0f14bbb63e346c689553cd2ace833954a3ef",
+  "reference_png_sha256": "68e28da2888a68370aca106fbc83de60226f8f608e90c090d56d2e2644ef5568",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1A9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/sources/U3D1A9.json",
+  "source_json_sha256": "13acd078ca1d9d5d5255ed7fc450d5bde3b9f0ebcec8e6874e3f94480d15ba18",
+  "geometry_sha256": "5887c6db7e6b13231cf79abac5a888d57bfa568f123359e1d6f2061c2351fc2b",
+  "font_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce935902d8fee9b1cb14e8398aa11f24a4cd6bfbcbbc4b00cb404aa024253533",
+  "raster_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/U3D1A9-Regular400.png",
+  "raster_sha256": "ef28e9cc9b184db294626a875d00cdca54b825b0356d7ff5640a16df08507d68",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      262,
+      -64,
+      762,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Restored right short upper-left descending diagonal now reaches its original native free tip, matching paired coherent THX staff constructions. Both fork gaps, four crossbars, curved staff shoulders and both long lower free tips are intact; no other path or native pixels changed.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "9e3898e78f4d5ea4da2282b3b7e4804a6fd20d6317eb55f421cab7cc31467a22",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "fdd9172dd2146d1943bd8c8b9b7f4b8d418da7b90f5ec4fb6ce18ee6144f5c2e",
+    "actual_font_enlargement_sha256": "4715651cfe6d8761e54c9e468b37a032d4c120982d9d2676717deacde8f7058b"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "14a48cb89f33dbfbc5233b96ec376f2589217d0387a9296363ddfa1cf33af1d7",
+      "source_json_sha256": "f932747d2e9dfd7af6a3e0fbfd772e6b04c7f4eb6f28c26e2c147b9874624058",
+      "source_png_sha256": "cfb315cea9a21d6fd5df2c3da22b0f14bbb63e346c689553cd2ace833954a3ef",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "b9befeb9ffc05bd6083b33d8d0b242d38b39bf02e41a83a0ae838db647aec697",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Native coherent THX has two detached top tridents above paired independent curved staffs, each with short upper-left diagonal branch and two crossbars. Actual right short diagonal branch is truncated to a tiny downward nub below the upper shoulder; recover its native free lower-left tip and exact branch course. Left staff, both fork gaps, four crossbars and both long lower tips remain intact."
+    }
+  ]
+}

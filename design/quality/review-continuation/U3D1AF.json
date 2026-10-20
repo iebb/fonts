@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1AF",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1AF.json",
+  "source_png": "design/seal-individual/U3D1AF.png",
+  "source_png_sha256": "2a99e603e8c25c6cf3f469ba312ac862f82ca33245d379020dfe1706f64c232f",
+  "reference_png_sha256": "913d8339f441b458b27da3e3afaa1f235d4ec6a43e0a6dbe832dd14439c0223e",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1AF.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/sources/U3D1AF.json",
+  "source_json_sha256": "609d52665f8ba8e94fb1860cb2b46463ca5235710b66c15f28a7def02e09b593",
+  "geometry_sha256": "a7e94122d47710300075bab540e4e89872683db66bfd908ccb47d7844820ffe5",
+  "font_file": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f7c73aa7bb4584114abc033525ed7853ae260b961f4466312abe7a2530558de2",
+  "raster_file": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/U3D1AF-Regular400.png",
+  "raster_sha256": "30a00f32a05018937118157f42ff3b84f56a449751b197ac93b2972647f6ac4f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      273,
+      -64,
+      751,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native2, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent THX detached forks and both separate left winding courses retained. Right ladder has three rectangular cells, one rounded oval and one lower crossed-return field, five total. Oval shoulders now join the same ladder contacts smoothly without previous corner steps; every other course and all free terminals remain unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "6565e4de5fc9dde3f225502298e16818cadb9c99e882256b8aa84cd6fbffe461",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "94ce762b76ffce5042c298e790b88220a4e41261efc82558fee2d05bcf07c040",
+    "actual_font_enlargement_sha256": "9bb1a934f0e75b6631bef36bf80c7cc900f9b901d0122e2a8242cbbec0d026a3"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "15ba5cc93a8b30012f9480fcb330c6dcde543168b3bb1d5ac3c7735c62d52155",
+      "source_json_sha256": "1a9a6fd9110b8d06d414c0738ad67731cdd1800163b00c5e97413be8a1afafee",
+      "source_png_sha256": "658bb560a9629ef164919995009a15985923005dc79504b82acbf202b84f8541",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "17a91575f547c8274f84246843420a10a8d2ef14966a998ada371e02ef66d55d",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, extra THX ladder detail and full/enlarged actual Regular inspected. Native retains coherent THX left two free winding courses, both free fork gaps, right upper ladder above oval and lower crossed bent return. The upper ladder has only TWO rectangular cells; THX has THREE above its separate oval. Other whole variants replace the ladder with separately configured loops and do not attest this two-cell ladder whole. Restore the missing rung/third upper field while preserving the oval and lower right return field: five total fields, current four. Bounded native2 requested; preserve existing coherent fork gaps."
+    },
+    {
+      "geometry_sha256": "e3adad6186d56037a9bd358bbced1f9707267a9a3f9ae397e79cc8de60aba95c",
+      "source_json_sha256": "03fd94e968039bdc7ab91ef0bc763d0404d5edf3a22c2d2cdae4b2dc8e952b6f",
+      "source_png_sha256": "2a99e603e8c25c6cf3f469ba312ac862f82ca33245d379020dfe1706f64c232f",
+      "font_sha256": "ac479681ebd86709d38d71c9e91f786caf9dcfcc8119d1562ad7e487be21096c",
+      "raster_sha256": "7bd645ee431e2cda8e78ee4d0c5226b3b09455a578061fa5bf5d3aeefdbe9119",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Retry2 full native, all four complete/enlarged specimens with extra THX ladder detail and full/enlarged actual Regular inspected. Native now retains coherent THX three rectangular ladder cells, one oval field and one lower crossed-return field, five total; both fork gaps and left two open courses remain correct. Actual oval acquires conspicuous angled/stepped upper shoulders at the ladder-wall contacts instead of the rounded native oval course. Smooth only this oval contour through existing ladder contacts/extrema while preserving all five fields, lower crossing and every other path."
+    }
+  ]
+}

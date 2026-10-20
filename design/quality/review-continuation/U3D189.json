@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D189",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "match",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D189.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D189.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D189.json",
-  "source_json_sha256": "a4ad5b725b336cdd8ce6472b5fd9fda769d70eb1c18625932a793f4a1720b017",
-  "geometry_sha256": "d187de4996ccb50200dadf94c00aa2480d6d992ac16c87a21efcb4d1676baf4e",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D189-Regular400.png",
-  "raster_sha256": "5b70839247dba668d798ffa1388a22d28893d40eaef31f72bc9c78364c9b10ee",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D182185186187189-bounded-v1/sources/U3D189.json",
+  "source_json_sha256": "1d47d41634700a762f12caab7753bf71b7051cc05e8ae78baee814839f072509",
+  "geometry_sha256": "e43b07704e690d97ed2909ea6be5e634146bae850ca6d6c07146ec09fd73310e",
+  "font_file": "design/quality/proofs/continuation/U3D182185186187189-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5652d79c683dae1386ff5d8277109658e2f4f95babd5924ddf7d142dcd2907e0",
+  "raster_file": "design/quality/proofs/continuation/U3D182185186187189-bounded-v1/U3D189-Regular400.png",
+  "raster_sha256": "0abcae26ac6b47e2364f4f1dfbbd229ef163b8de8a85837872202b3fc84db706",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole specimens, actual Regular400 and enlarged upper fork/cups/body inspected. Native coherent THX: detached paired tridents, two crossed small cups, lower four-field rounded enclosure on crossed staff and separate paired right winding descents. Font loses LEFT trident short downward central terminal below its cup, although native/ref have it; right trident terminal survives.",
-  "requested_corrections": [
-    "Restore only tracking-lost short downward left trident terminal, preserving detached cups and other paths."
-  ],
+  "notes": "Inspected native, all four enlarged whole references, full actual and enlarged left lower staff. Restored long downward terminal below grid/basebar matches native/THX, six counters(two cups plus four-grid) retained. Both forks detached; separate right bent long upright and second curved descender retain free endpoints. Smooth constant-width Regular400 curves and gaps acceptable. Native match retained.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d187de4996ccb50200dadf94c00aa2480d6d992ac16c87a21efcb4d1676baf4e",
+      "source_json_sha256": "a4ad5b725b336cdd8ce6472b5fd9fda769d70eb1c18625932a793f4a1720b017",
+      "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+      "raster_sha256": "5b70839247dba668d798ffa1388a22d28893d40eaef31f72bc9c78364c9b10ee",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole specimens, actual Regular400 and enlarged upper fork/cups/body inspected. Native coherent THX: detached paired tridents, two crossed small cups, lower four-field rounded enclosure on crossed staff and separate paired right winding descents. Font loses LEFT trident short downward central terminal below its cup, although native/ref have it; right trident terminal survives.",
+      "requested_corrections": [
+        "Restore only tracking-lost short downward left trident terminal, preserving detached cups and other paths."
+      ]
+    }
   ]
 }

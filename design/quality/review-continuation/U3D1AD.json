@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1AD",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1AD.json",
+  "source_png": "design/seal-individual/U3D1AD.png",
+  "source_png_sha256": "75d7cc061f38480b2fa116ad877fff4aa3b49ae9802ac8c2bf2e38492a46b036",
+  "reference_png_sha256": "df45f86d3d09968629a34077eb3f3d04d9b094a142eb1d26afb96182e97203df",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1AD.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/sources/U3D1AD.json",
+  "source_json_sha256": "843390d046371af69edb6609f75081b6ee5eb9a91b19de763a2d8d32461504db",
+  "geometry_sha256": "ab7803e9fe6d56cb46e688a5b27d86ace645bc6d52a2fdf531837f47d13366f1",
+  "font_file": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d1b36dbffd3473b34e4e212a4eb9a05bf41663924847ee4fcbc387174d87def5",
+  "raster_file": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/U3D1AD-Regular400.png",
+  "raster_sha256": "4e343cfe65353a6154b971d1f547e3693ce1739b7d26a1c05b5c06c4709be554",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      303,
+      -64,
+      721,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Top and bottom diagonal junctions are genuine shared crossings; smoothed diamond shoulders retain one clear diamond field and all six original outer diagonal tips. Both top forks remain detached, lower arch/top stub and three legs are unchanged, and gap above the arch remains open. Artificial horizontal necks and shoulder notches removed.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "8cbaafee415f26296c11e7d2ed0f2aa53a4249209b3b909aec91cf6e924907c2",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "73960baa88c8b05d5c5a6c551d27d76e1ed55f4fd4cc4b32e0bf2571bef1f6d4",
+    "actual_font_enlargement_sha256": "050b593f252bab04901104b4046cc6e41b5aa0ef16983bb420e5a07f9959cfb6"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "291432a6b332e2120905c84fd31e58d569a4381f47f92c32857bf40b05fab77e",
+      "source_json_sha256": "476c2d6f74d490ab4904a8dc516d806a71cf59e1cce34633b575b7744293d6f7",
+      "source_png_sha256": "75d7cc061f38480b2fa116ad877fff4aa3b49ae9802ac8c2bf2e38492a46b036",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "6eab09f617b9020476f0682f337260ca5cf342116f7c5d63d7592abb68ece8fa",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Native coherent THX two detached forks, paired crossing/diamond courses with one open diamond counter and separate three-leg lower arch with top stub retained. Actual diagonal network develops horizontal bridges across source top junction x494.006..526.722 and bottom x490.735..529.994, plus conspicuous notches at diamond shoulders. Restore genuine top/bottom crossing nodes and smooth diagonal courses while preserving all six outer diagonal tips, one diamond counter, lower gap, arch and fork endpoints."
+    }
+  ]
+}

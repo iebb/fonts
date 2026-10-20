@@ -16,35 +16,47 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1A1.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentieth-eight/sources/U3D1A1.json",
-  "source_json_sha256": "4651b1526da0158137fde9a556d6916dc4d91b0dc2ff038816e7799162995d41",
-  "geometry_sha256": "bf97a61b97cdffe90dae918a017bf43537224b2dd60f89d0cfa5fda4ba6e6323",
-  "font_file": "design/quality/proofs/continuation/review-twentieth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "3e61a664412208d934b8d8d2eef59347aeea771e0a76a410448938c2c7cfa4f4",
-  "raster_file": "design/quality/proofs/continuation/review-twentieth-eight/U3D1A1-Regular400.png",
-  "raster_sha256": "0836eba276c868a66ccfb4f760dfc521050672f8a2af1846e9d18e69b438d39a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/sources/U3D1A1.json",
+  "source_json_sha256": "d6821d9f1f47b2d1dd78c33416524931b0e399f82e29e29c49862bf37d339df7",
+  "geometry_sha256": "f2cff431bce5fe1e06d8f392ae92f9d9ca7c7992f7121a87a80f42dd5f4a2125",
+  "font_file": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "7be7dd5eaa5987d330ddf72de6a35acc0b2d7e07df17d3f0dc14afabf85fda41",
+  "raster_file": "design/quality/proofs/continuation/U3D1951981A1-bounded-v1/U3D1A1-Regular400.png",
+  "raster_sha256": "4a19a376b1d02840024c22ac0b2827eaa6a4b7c4916185b918ce0b24baccdd90",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      282,
+      284,
       -64,
-      742,
+      740,
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole references, native, full actual and enlarged right return. Native coherent CCZ both forks joined to respective oval bodies; three left counters/two left feet, two right counters/four curved lower terminals retained. Font right lower outer return is stepped/scalloped at two inner branch roots instead of native smooth continuous broad bow; enlarged crop confirms pronounced successive humps. Native match retained.",
-  "requested_corrections": [
-    "Smooth only right lower outer return through existing three branch anchors and exact final outer terminal, preserving inner branch endpoints and continuous native bow envelope."
-  ],
+  "notes": "Reinspected exact repaired full actual and enlarged right lower bow against native/all four enlarged whole references previously inspected. Continuous smooth broad bow replaces scallopedoutertrackingcourse while exact three branch junctions and finalterminal retained. Four lower curved terminals, three left/two right counters, twinleftfeet and coherent CCZ forkjoins preserved. Constant-width Regular400 smoothness/gaps acceptable; native match retained.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "bf97a61b97cdffe90dae918a017bf43537224b2dd60f89d0cfa5fda4ba6e6323",
+      "source_json_sha256": "4651b1526da0158137fde9a556d6916dc4d91b0dc2ff038816e7799162995d41",
+      "font_sha256": "3e61a664412208d934b8d8d2eef59347aeea771e0a76a410448938c2c7cfa4f4",
+      "raster_sha256": "0836eba276c868a66ccfb4f760dfc521050672f8a2af1846e9d18e69b438d39a",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged right return. Native coherent CCZ both forks joined to respective oval bodies; three left counters/two left feet, two right counters/four curved lower terminals retained. Font right lower outer return is stepped/scalloped at two inner branch roots instead of native smooth continuous broad bow; enlarged crop confirms pronounced successive humps. Native match retained.",
+      "requested_corrections": [
+        "Smooth only right lower outer return through existing three branch anchors and exact final outer terminal, preserving inner branch endpoints and continuous native bow envelope."
+      ]
+    }
   ]
 }

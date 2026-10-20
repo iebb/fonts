@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1BA",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1BA.json",
+  "source_png": "design/seal-individual/U3D1BA.png",
+  "source_png_sha256": "53a3c5002b1439a9a4db171593e59813f70c734af1c9f5b00c8fdf54f2ad6b80",
+  "reference_png_sha256": "9cba040f1d8dd5b4f444fe3909d9ea1727140685e1855270a4040fac7632d666",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1BA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1BA-restored-header-overhang-v2/sources/U3D1BA.json",
+  "source_json_sha256": "22a9cf2faec21c550a1854cdc743982ce535a5dc07d08b45422902aaec46eaa6",
+  "geometry_sha256": "e8f56c32f4e9c1f7c8241f2acc1bb878bfbb0fbd988859dbfa926fb0daa53e73",
+  "font_file": "design/quality/proofs/continuation/U3D1BA-restored-header-overhang-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "63f228781d05a5c9d02d50d20eb412490257a38dc5a99d24bf6e78495e56827a",
+  "raster_file": "design/quality/proofs/continuation/U3D1BA-restored-header-overhang-v2/U3D1BA-Regular400.png",
+  "raster_sha256": "b534993b58f502b0ddc84f0522708fe8ef1e39080661ebc25782b56339e1d651",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      277,
+      -64,
+      747,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full unchanged native2, all four complete/enlarged whole references and full/enlarged final actual Regular inspected. Coherent THX repaired upper oval has four fields: upper Y is separate from lower chevron, and the lower chevron retains its own free upward stub. Two-field lower cup keeps its free central stub and gap from main lower chevron, six total fields. Upper horizontal header now projects left through the left top-fork staff, restoring the missing attested overhang. Both joined forks, upper winding S return, detached lower side dashes, enclosure extrema, gaps and all other free tips are preserved. Native extra-divider/missing-overhang verdict remains mismatch.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "f530f5e6a621002a4c6274e394f595f05a643c484aeed0d5287dc8e7a4a7598f",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "939b5f1a5fdbafbfa54908204e3a8e02535edd73a2b5da616d274ba1c9627b33",
+    "actual_font_enlargement_sha256": "f70ac1fbf232a6f1d6ad5177f2282053cf2ae28ede60080b1780139753860898"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "1ede14ff2a119abc2c7b41895c1f6d203775c4b78693bde2fc1ca38d51312cca",
+      "source_json_sha256": "72161cac48a02fc2bd1f7a07a2e9bc826695898eba0005ba98bc6093056dabc8",
+      "source_png_sha256": "53a3c5002b1439a9a4db171593e59813f70c734af1c9f5b00c8fdf54f2ad6b80",
+      "font_sha256": "ac479681ebd86709d38d71c9e91f786caf9dcfcc8119d1562ad7e487be21096c",
+      "raster_sha256": "7affb9fbaecfe4632986610678cf38a39e5d3eec9b7621e69a833cef1db625f7",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native, all four complete/enlarged specimens, extra THX detail and full/enlarged actual Regular inspected. The restored upper S return, paired attached forks, outer four-field body, lower main chevron/paired dashes and separate two-field cup construction are recognizable. Native/actual keep an unsupported vertical link between the upper Y junction and lower chevron within the upper oval, splitting the middle region: upper body has five fields, whole THX four. Total seven current fields versus six required. Remove only the unsupported internal link, preserve upper stem-to-Y and the lower chevron own upper stub/gap, and smooth stepped enclosure corners without losing lower cup free center upstub."
+    }
+  ]
+}

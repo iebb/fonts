@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F7",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F7.json",
+  "source_png_sha256": "65821be67d257f44458c6fff12e53fd5e39d0c40483f283dae3573ef292accc7",
+  "source_png": "design/seal-individual/U3D1F7.png",
+  "reference_png_sha256": "b2ad3cc5164e54e84d165d3991f967a8c8e96b566821e71739d2bef7ba4f79c4",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F7.json",
+  "source_json_sha256": "f8caaf4ec12bcdc5c62d67cc7d6ef331ea213128a6cd3de4edf8f38a79226ab5",
+  "geometry_sha256": "2edb92da79aaf5e6a31cd3d02941710b3812565706831f36e24f729eb0f338c6",
+  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F7-Regular400.png",
+  "raster_sha256": "56d9d63661e87fb9daa3698543c7e9c00507d7bcacbd124cc4ca4e45d86c48cc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      281,
+      -64,
+      743,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual and enlarged right winding inspected. Native coherently THX both forks detached, three independent short left curves over one-field two-leg arch, separate right winding dividing into two descending terminals. Actual topology/lengths retained but right winding\u2192outer bow has offset flat shoulder at shared root rather than native continuous curvature."
+  ],
+  "requested_corrections": [
+    "Smooth bounded right upper winding\u2192outer bow shared-root transition through original anchor, preserving exact three free endpoints and outer bow envelope; other components unchanged."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1D8",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1D8.json",
+  "source_png_sha256": "c57534b264140e6b7bbf04f337690f77bf546e033a5358ecdf095084bd89a6e9",
+  "source_png": "design/seal-individual/U3D1D8.png",
+  "reference_png_sha256": "c52af4ad58b920b429e29a6f81f16a119d7608bb05117c8ea634b2a7212483e6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1D8.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentythird-eight/sources/U3D1D8.json",
+  "source_json_sha256": "008da0e58470d0d45b3c6c4f0f6b9cb30d5053f79ec1e3c939fb5094338dfdc6",
+  "geometry_sha256": "a33cf20ed07aaf47a354bdcc627bb4ced43a5ffc5b074b0f23999d591077c045",
+  "font_file": "design/quality/proofs/continuation/review-twentythird-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d3bae9420d662fdd964f19abf7df16fcaa9f8c0f9b667b02fa59e6ba749abec5",
+  "raster_file": "design/quality/proofs/continuation/review-twentythird-eight/U3D1D8-Regular400.png",
+  "raster_sha256": "6c0bfbf2bfe3f3322901abb1fee8f295fa009b9f6663b798ceb67a2808d6e862",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      288,
+      -64,
+      736,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four enlarged whole specimens/actual font/enlarged right courses inspected. Native/font simplify lower right compound to a single bent return/tail, omitting inner bent horizontal course present in all four specimens. Whole upper/body contacts also mixed: both fork stems joined and left lower oval linked diagonally to middle lower oval, but upper-right compound isolated from left grid; THX has both forks detached and left lower oval separated from middle, CCZ/QJZ connected family has additional upper-right\u2192left-grid connection. Actual lower ovals additionally tracked with lumpy pinched inner contour."
+  ],
+  "requested_corrections": [
+    "Restore missing inner bent horizontal course in right lower compound retaining outer return/tail.",
+    "Choose coherent whole specimen; THX requires detach both upper forks and detach left lower oval from middle lower oval, retaining short upper stubs.",
+    "Smooth lower oval courses retaining original field counts and envelope."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

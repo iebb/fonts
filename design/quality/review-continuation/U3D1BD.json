@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1BD",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D1BD.json",
+  "source_png": "design/seal-individual/U3D1BD.png",
+  "source_png_sha256": "88a7079d75366223d5609490e22de7ff486b2f761948416ea4451303afebf9a3",
+  "reference_png_sha256": "8b61b23bd3c1dfd75563fc300434f2409d022cece38f1ff9add0f464581b5096",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1BD.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/sources/U3D1BD.json",
+  "source_json_sha256": "689fee7d3fac03c480d0edbdbb480e979ced9602e8a9626a69db8fd898a09d6a",
+  "geometry_sha256": "bc401ab807730f47b26bf0f4bc7fbb73ca1fd0b47291d559c98ddfd61f39a384",
+  "font_file": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f7c73aa7bb4584114abc033525ed7853ae260b961f4466312abe7a2530558de2",
+  "raster_file": "design/quality/proofs/continuation/U3D1AF1BA1BB1BD1B1-bounded-v1/U3D1BD-Regular400.png",
+  "raster_sha256": "7b7bfabf49eeef11b87f818689980af7522c7834fb52bb0466db67fce0459a8e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      319,
+      -64,
+      705,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native2, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent complete THX body has nine closed fields: four upper, three middle and two lower. Middle cup now uses one continuous outer-left wall and one free right upright, removing the duplicated inner-left prong and second right prong. Both joined top forks, central upward stub, upper rail overhangs, lower crossed return/spur and winding tail remain intact. Native2 mismatch history is preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "b897c6c28783410de7d7f97b21735b67b2ab43e6aa045db361c784e5ed8a7a0d",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "9843681218fcb2619d16160e73484fc04f44f37a27bdcc823a58d3c916092aed",
+    "actual_font_enlargement_sha256": "fe6c2d2a79b49b63213622d6f55a810d946ff132b1a01d3915b8d1d4e8e20893"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0e8069f0371be7706a9e0cbf96bd61184841e0fee32d5c8949ac35e5c29e6274",
+      "source_json_sha256": "f86bd353f12c4138b5273d8f9eb0c286a50306b9d15fe2b73578e56ba7ff26dc",
+      "source_png_sha256": "88a7079d75366223d5609490e22de7ff486b2f761948416ea4451303afebf9a3",
+      "font_sha256": "ac479681ebd86709d38d71c9e91f786caf9dcfcc8119d1562ad7e487be21096c",
+      "raster_sha256": "fa764fcb1bdaad2518ba495033c1bb0e22301b350b56fd4646bc979ebd824de6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native, all four complete/enlarged specimens, extra THX detail and full/enlarged actual Regular inspected. Whole THX and current actual both have nine closed fields; earlier preliminary eight-field annotation was incorrect, and matching counts alone do not establish the construction. Current middle region duplicates two U courses: it adds a free inner-left upright and two separate right uprights around the middle rim, while coherent THX has one continuous outer left wall and one right free upright. Merge only this duplicated middle U/rim construction into the complete THX continuous-wall form, preserving all nine required fields, upper cap contacts/top stub, lower winding return and its free tips. No third native attempt."
+    }
+  ]
+}

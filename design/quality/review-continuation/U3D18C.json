@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D18C",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D18C.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D18C.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D18C.json",
-  "source_json_sha256": "5e514ae05ecbf4338afb5ab0224f148017cb6ad28f76c0ff6a37278bc07c65f1",
-  "geometry_sha256": "32a8a97ba39e0822044088d683b9979967c676f6faed86b48f2b3c166f3897de",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D18C-Regular400.png",
-  "raster_sha256": "4e56c6b14fc8316e17e739fc260a8d23ae89178a6b972fc613529fe38eb8740c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D18B18C18D-whole-THX-v1/sources/U3D18C.json",
+  "source_json_sha256": "d081870fd79b39bde6b424b8a28f6b4cc9a1c76f7df261ab58ecb2192cd1243a",
+  "geometry_sha256": "c9e7cfb315d0a4d860144e15305d28d3cf5014b0532c10e6be096927a6414fe1",
+  "font_file": "design/quality/proofs/continuation/U3D18B18C18D-whole-THX-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b6f4a6c1acf6f6181b7357d29e84cdf8a852249a2999f5ef2485265acb309d69",
+  "raster_file": "design/quality/proofs/continuation/U3D18B18C18D-whole-THX-v1/U3D18C-Regular400.png",
+  "raster_sha256": "9bced855c4bd16d377efa18da28aa8640c71bcafd689404dc6ccd290c851ff9c",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,18 +34,30 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged roof/cup inspected. Native pairs detached upper tridents with THX separated roof but connects both cup sidewalls to upper bar, creating two enclosed fields; THX cup has free side upper tips below separate bar linked only by central staff. Font additionally drops almost entire LEFT diagonal arm of native full chevron roof, leaving tiny hook.",
-  "requested_corrections": [
-    "Restore complete left chevron roof arm from native with original free endpoint/apex/right arm preserved.",
-    "Select coherent THX free cup side upper terminals below separate top bar, retaining central bar-to-cup staff and detached side descents."
-  ],
+  "notes": "Inspected native, all four enlarged whole references, full actual and enlarged right roof/cup. Full missing roof left arm recovered, open U tips now detached from T bar while shared central staff continues through bowl matching coherent THX. Both forks detached, left three-counter staff and three long right lower terminals intact. Three counters total without false cup side fields, smooth constant-width Regular400 courses/round ends/gaps acceptable. Native mismatch retained for original cupbar contacts.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "32a8a97ba39e0822044088d683b9979967c676f6faed86b48f2b3c166f3897de",
+      "source_json_sha256": "5e514ae05ecbf4338afb5ab0224f148017cb6ad28f76c0ff6a37278bc07c65f1",
+      "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+      "raster_sha256": "4e56c6b14fc8316e17e739fc260a8d23ae89178a6b972fc613529fe38eb8740c",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged roof/cup inspected. Native pairs detached upper tridents with THX separated roof but connects both cup sidewalls to upper bar, creating two enclosed fields; THX cup has free side upper tips below separate bar linked only by central staff. Font additionally drops almost entire LEFT diagonal arm of native full chevron roof, leaving tiny hook.",
+      "requested_corrections": [
+        "Restore complete left chevron roof arm from native with original free endpoint/apex/right arm preserved.",
+        "Select coherent THX free cup side upper terminals below separate top bar, retaining central bar-to-cup staff and detached side descents."
+      ]
+    }
   ]
 }

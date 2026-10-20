@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1CA",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1CA.json",
+  "source_png_sha256": "5b5ad1342173d39ef2deb408a26eb7b1fd58fa72fcc7c933db75af0aba4d8d2d",
+  "source_png": "design/seal-individual/U3D1CA.png",
+  "reference_png_sha256": "aeaa098cc9ddd051775421ebbe8ce8237333c6c927289dba399b28ceb2de403a",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1CA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-CAD0-retry2/sources/U3D1CA.json",
+  "source_json_sha256": "e248c14b3e51c844141dc3e1424a7ffd6c8fc47e78fb05eee23c8332e27df72f",
+  "geometry_sha256": "95b94f4363067ba8d4f18adf8419ef5a050fe77ed8676b11f41ab4c0c4fa552f",
+  "font_file": "design/quality/proofs/continuation/review-CAD0-retry2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bcd861672fcef35108b5a4cd57e7d440ee1b401a26b9cb5b1675687eefc8e841",
+  "raster_file": "design/quality/proofs/continuation/review-CAD0-retry2/U3D1CA-Regular400.png",
+  "raster_sha256": "9f7024072a1d46877ef1078e93bd7be1d3de209382244dafbb98c77f40da7067",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      275,
+      -64,
+      749,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Fresh retry2 native/all four enlarged whole specimens/new actual and enlarged stack inspected. Extra original vertical dividers removed and three counters now present. However nested open U around capped upper cup completely omitted, leaving only capped cup on staff. Lower two-field compound also became a fully closed oval without THX two upward end prongs above its upper crossbar. Matching counts conceal missing courses. Top fork shared base/separate header and bottom crossbar/staff retained."
+  ],
+  "requested_corrections": [
+    "Restore independent wider open U around/below upper capped cup, centered on shared staff with both tips free below header.",
+    "Restore lower two-field barred cup with two upward terminal prongs at upper crossbar level, retaining two fields and bottom staff."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "3c7ccdb2b2aaf6613cd12e30069afa36ede9a681ea0ad996a7bcd5a54b59e334",
+      "source_json_sha256": "7e2c7a3dcc392989fac161f1511c7b37740a634a6c14abe0d6e90b3a09132dda",
+      "font_sha256": "2aa929ecdc16318011f90a2f128e6147ffa775f2bdd9ad96a785d3c4ae8947e6",
+      "raster_sha256": "b1cde191fe3ce62ac62611246a57417944308071bc3e1c62f9b7fa2fe732362c",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged whole references, an additional enlarged THX upper-detail crop and full/enlarged actual Regular inspected. Native and font add a central vertical divider inside the small upper capped cup and through both fields of the lower cup, yielding six fields. Complete THX has one undivided small capped-cup field and two undivided lower-cup fields, three total; the connecting central staff begins below the small cup and does not divide either enclosed cup. Other complete specimens also omit these extra dividers. Restore the three-field THX whole while retaining joined top-fork header with both projecting ends, separated lower header, open middle U, lower cup prongs, bottom crossbar and descending stem.",
+      "requested_corrections": [
+        "Full native, all four complete/enlarged whole references, an additional enlarged THX upper-detail crop and full/enlarged actual Regular inspected. Native and font add a central vertical divider inside the small upper capped cup and through both fields of the lower cup, yielding six fields. Complete THX has one undivided small capped-cup field and two undivided lower-cup fields, three total; the connecting central staff begins below the small cup and does not divide either enclosed cup. Other complete specimens also omit these extra dividers. Restore the three-field THX whole while retaining joined top-fork header with both projecting ends, separated lower header, open middle U, lower cup prongs, bottom crossbar and descending stem."
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D1A3",
-  "reviewer": "independent visual reviewer /root/seal_review",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1A3.json",
-  "source_png_sha256": "b640884314dd987bd52d48fdd2a290bed15ff2b8f450740b719f972502010945",
+  "native_review_report": "design/seal-individual/reviews/U3D1A3.json",
   "source_png": "design/seal-individual/U3D1A3.png",
+  "source_png_sha256": "b640884314dd987bd52d48fdd2a290bed15ff2b8f450740b719f972502010945",
   "reference_png_sha256": "50fff15c3e01af4c3cc115343923153439daf947d811bf2226a44493bf12b064",
   "reviewed_specimens": [
     "THX",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D1A3.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentieth-eight/sources/U3D1A3.json",
-  "source_json_sha256": "9f68cecbfb82294f320e6d8d84ef45197d4a8c88bdc8d1fe36b9a0fe93d13ff8",
-  "geometry_sha256": "0661b2350012fc7c94fde0e5f21c229772b6331dc100e42f8a864dc52563fde1",
-  "font_file": "design/quality/proofs/continuation/review-twentieth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "3e61a664412208d934b8d8d2eef59347aeea771e0a76a410448938c2c7cfa4f4",
-  "raster_file": "design/quality/proofs/continuation/review-twentieth-eight/U3D1A3-Regular400.png",
-  "raster_sha256": "a2f7ae08e52ef5324bfa014a8a35396ce4287baf221003d76709be06bdccfefc",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/sources/U3D1A3.json",
+  "source_json_sha256": "0d0bb0cc273acce5ce34c9ea49070660677ac3e86368dafb9bb5253894646346",
+  "geometry_sha256": "8d5a2065927b6e4cc28a3629a3cba1063e5f5ed63bbd0e34ab47b3565d122bfd",
+  "font_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "ce935902d8fee9b1cb14e8398aa11f24a4cd6bfbcbbc4b00cb404aa024253533",
+  "raster_file": "design/quality/proofs/continuation/U3D1A3A6A9B7-bounded-v1/U3D1A3-Regular400.png",
+  "raster_sha256": "07098ac77d1824b6f00c6db1014c0a382f3c93bad2882fbb6b1e1687270bf299",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,31 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole references, native, actual and enlarged fork/roof contacts. Native/font left fork detached and right joined is unsupported: THX both free, CCZ/QJZ both joined, DYC left joined/right free. Current three-counter body/upper bent course/external upstub/two feet otherwise closest THX. Native mismatch.",
-  "requested_corrections": [
-    "Release only right fork stem from upper bent course to match coherent THX both detached forks; retain short downstub, upper course upstub and all other trajectories."
-  ],
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Coherent complete THX both top forks free from the winding return; short upper return stub, all three enclosed horizontal body fields and two separated lower tails retained. Right fork clipping restores a visible gap while preserving the return shape and original native discrepancy. All other courses and free endpoints unchanged.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "d7683bd6cdb699c07b1a29a04ff1b708ebadd87092008ee47101486665fbf52d",
   "limitations": [
-    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector correction does not change a mismatching native PNG verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "cd409a58ef62c353c4160ae1d7c81cce8ed0de0de1613d04d605c99038924b1e",
+    "actual_font_enlargement_sha256": "e98a692f3fc3142d3ed797b45b419db7e94321e057bcb4dd9575926d46369053"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0661b2350012fc7c94fde0e5f21c229772b6331dc100e42f8a864dc52563fde1",
+      "source_json_sha256": "9f68cecbfb82294f320e6d8d84ef45197d4a8c88bdc8d1fe36b9a0fe93d13ff8",
+      "source_png_sha256": "b640884314dd987bd52d48fdd2a290bed15ff2b8f450740b719f972502010945",
+      "font_sha256": "3e61a664412208d934b8d8d2eef59347aeea771e0a76a410448938c2c7cfa4f4",
+      "raster_sha256": "a2f7ae08e52ef5324bfa014a8a35396ce4287baf221003d76709be06bdccfefc",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole references, native, actual and enlarged fork/roof contacts. Native/font left fork detached and right joined is unsupported: THX both free, CCZ/QJZ both joined, DYC left joined/right free. Current three-counter body/upper bent course/external upstub/two feet otherwise closest THX. Native mismatch."
+    }
   ]
 }

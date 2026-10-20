@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1F3",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1F3.json",
+  "source_png_sha256": "2616baa47d5f76b0ec0a7f768a3a41d039be7dcc51a8304804488b2d76cd2f62",
+  "source_png": "design/seal-individual/U3D1F3.png",
+  "reference_png_sha256": "586b71d4213e7dfc212b1d846209fb48388ac911d8b883d59dcf7166b9bdfa4b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1F3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfifth-eight/sources/U3D1F3.json",
+  "source_json_sha256": "1888b2b06ec84ea09cf27a8c2baf6e29c57a0daa64cf4a29915bfce25d0c1da6",
+  "geometry_sha256": "a5488fa987891bb3288d1e10c0b8e1c20a247df0e04e30272ee911476de5acc6",
+  "font_file": "design/quality/proofs/continuation/review-twentyfifth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "93d438b50586697152221f4847ad85e36beb1b610ce9f54b278cf6c9b8c7d36b",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfifth-eight/U3D1F3-Regular400.png",
+  "raster_sha256": "1dc12063619b8747fe770cdfae1a6cd41b634369915cf3b90e9bb95f62cd48aa",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      287,
+      -64,
+      737,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual and enlarged right upper compound inspected. Native omits roof\u2192inner branch central upright and free left inner branch\u2192left wall contact, leaving unsupported floating inward hook atop right wall and only two lower counters. THX has those links forming one small upper-left field and triangular field plus two lower fields (four total). Native right fork also joins roof, unlike THX detached pair; connected variants still retain upper branch contacts/counters. Left fork/side marks/two legs and right two bottom terminals otherwise retained."
+  ],
+  "requested_corrections": [
+    "Restore central roof\u2192inner branch link and left branch\u2192left wall contact, retaining distinct right wall upstub and roof overhang, to recover four THX body fields.",
+    "Detach right top fork from roof, preserving coherent THX whole contact structure and both lower terminals."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

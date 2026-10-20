@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D18B",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D18B.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D18B.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D18B.json",
-  "source_json_sha256": "8d8393ff55cd3edd41f1d2d8d05747790e600acf2299d01383883206514c4c5d",
-  "geometry_sha256": "2e92a8cdb4cb6b7c37a72cbb597d75e00a17aeba873897ac6c0f74f51f63c2aa",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D18B-Regular400.png",
-  "raster_sha256": "2d62967df9b7ca9b24c3cfc0f75baa64416eace2918de33394492e5941b9b320",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D18B-smooth-left-bodywall-v2/sources/U3D18B.json",
+  "source_json_sha256": "6ba977934c5148d237c6741cd48d166e1123425ff947ba374ad7c6348c940d6b",
+  "geometry_sha256": "daa9d3e0784df21afbc90153abd96c7cfab244deaa58a746d026b743079ec546",
+  "font_file": "design/quality/proofs/continuation/U3D18B-smooth-left-bodywall-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "64df0a398912c62b63ddf3283c80bddcf716934a9c2d6643f855806d61b3e4b5",
+  "raster_file": "design/quality/proofs/continuation/U3D18B-smooth-left-bodywall-v2/U3D18B-Regular400.png",
+  "raster_sha256": "a33ffca082a70ac97a82909da4b253aca51b77363769b219ddc697f94c45826e",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,19 +34,43 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged diamond/body inspected. Detached opposing upper compounds otherwise coherent THX. Native central upright wrongly touches diamond apex, bisecting required single diamond counter; short outward right branch from diamond-base/staff junction also missing. Font also loses short upward inward terminals above both upper compound rails. Three lower left body fields otherwise retained.",
-  "requested_corrections": [
-    "Release central inner diamond staff tip from apex to restore single diamond counter and short free inner stub.",
-    "Restore short outward right course at diamond-base/staff junction.",
-    "Recover native short upward inward terminals on both upper compound rails, preserving upper gaps and four small upper counters."
-  ],
+  "notes": "Reinspected exact v2 full actual and enlarged left bodywall against previously inspected native/all four enlarged whole specimens. Smooth bow replaces stepped firstbar shoulder and irregular interbar course, exact three bar anchors/outer endpoint retained. One diamond counter with free inner upstub, outward junction stub and three bodyfields preserved; original external apex upstub retained where attested. Upper fork contacts/other compounds unchanged, coherent THX and constant-width Regular400 accepted. Native remains mismatch for original diamond/branch identity defects.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "2e92a8cdb4cb6b7c37a72cbb597d75e00a17aeba873897ac6c0f74f51f63c2aa",
+      "source_json_sha256": "8d8393ff55cd3edd41f1d2d8d05747790e600acf2299d01383883206514c4c5d",
+      "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+      "raster_sha256": "2d62967df9b7ca9b24c3cfc0f75baa64416eace2918de33394492e5941b9b320",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged diamond/body inspected. Detached opposing upper compounds otherwise coherent THX. Native central upright wrongly touches diamond apex, bisecting required single diamond counter; short outward right branch from diamond-base/staff junction also missing. Font also loses short upward inward terminals above both upper compound rails. Three lower left body fields otherwise retained.",
+      "requested_corrections": [
+        "Release central inner diamond staff tip from apex to restore single diamond counter and short free inner stub.",
+        "Restore short outward right course at diamond-base/staff junction.",
+        "Recover native short upward inward terminals on both upper compound rails, preserving upper gaps and four small upper counters."
+      ]
+    },
+    {
+      "geometry_sha256": "32f65b7da24fa5d67ec86bb8ee5955606af3cf48a805247ad7f09858760fc4b1",
+      "source_json_sha256": "afafa43277b3eea96dd0d9b37cc3abe104b47edc9aea6e1b9df5414c4c13146c",
+      "font_sha256": "b6f4a6c1acf6f6181b7357d29e84cdf8a852249a2999f5ef2485265acb309d69",
+      "raster_sha256": "857851e3e896754babec813704978e8d1a5711b73e6b407a6db502e7db0a9d67",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged restored diamond/body. One diamond counter with free inner upstub, outward bottom-junction stub and both upper inward upstubs restored coherently THX. However left bodywall has pronounced stepped knot at first horizontal branch/shelf below diamond; needs bounded smoothing to maintain smooth constant-width style. Native mismatch retained.",
+      "requested_corrections": [
+        "Smooth bounded left bodywall through original three horizontal bar anchors, preserving three body fields, diamond/free inner stub/outward stub and all endpoints."
+      ]
+    }
   ]
 }

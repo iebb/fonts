@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1AA",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1AA.json",
+  "source_png": "design/seal-individual/U3D1AA.png",
+  "source_png_sha256": "6538f645b32287403b4d5fcd19357f481715f6216c8a36a67dc71a6e8a0a0a56",
+  "reference_png_sha256": "d6b23a92481356a3661dbefe9221927aa6dd923c0e809932de5a5483f3c024d6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1AA.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/sources/U3D1AA.json",
+  "source_json_sha256": "5f4c03b372306c7c929fd92af50aa8016034fe26149d5a476c63a1fbf213923c",
+  "geometry_sha256": "7eea0f4ac8fbfe40382fb03ce72d44d21b09065cb7423ff5ddce84a6580c5f1a",
+  "font_file": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "d1b36dbffd3473b34e4e212a4eb9a05bf41663924847ee4fcbc387174d87def5",
+  "raster_file": "design/quality/proofs/continuation/U3D1AAABACAD-bounded-v3/U3D1AA-Regular400.png",
+  "raster_sha256": "58e7b2256e1834ee8d7d01a9b962440cf4a13aedb9e084da6e474006d1b608dc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      272,
+      -64,
+      752,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Rounded body enclosure now passes smoothly through its same four interior branch/chevron contacts and exact extrema, removing stepped lower corners. Coherent THX four fields, top rail/staff, paired detached upper curves, left forked descending compound, original free tips and proportions preserved.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "7a3a32e7e4a5ce0cbc883e5f173d6342de6c43d7f6b088950432438f6755f16a",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "7ded958b0cce8099b1d34a2dfb5b4782240fcd6c56ab3150f623814af2bcfccd",
+    "actual_font_enlargement_sha256": "9de20ab7a5a472bd8f8a75844ab047e2667cc8f1fdeab42ebae0506b6b6dd4b1"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "801a0500686884876c2ff22c6bf5ed1fb875a18085d7fb473728d422459a415a",
+      "source_json_sha256": "fe524d300c8e1f0185f2f316a7d915b5c9fa3edd8fbf597edb6c5ab0343c0920",
+      "source_png_sha256": "6538f645b32287403b4d5fcd19357f481715f6216c8a36a67dc71a6e8a0a0a56",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "fc5cc569c214784dbe75c5bb76c9c3b69f2eed4801cdcf654738bb8fceb9df2f",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Native coherent THX left diagonal/staff/forked long legs and separate right paired curves over four-field enclosed body retained. Actual right enclosure has prominent stepped lower corners at the inner chevron contact points, expanding below the main side walls and introducing shoulder notches. Smooth only those enclosure corners through the original contact points and extrema, preserving four fields, both inner branches, top rail/staff and all free tips."
+    }
+  ]
+}

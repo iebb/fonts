@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1AB",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1AB.json",
+  "source_png": "design/seal-individual/U3D1AB.png",
+  "source_png_sha256": "76b453a5549f4719b9639ffd4f6fc034b176a0da2fd45ad5ee02db4bc55b6362",
+  "reference_png_sha256": "42641b1218b52a6047562a8568d834efb0879da0706112230b0f9dc08d6d81b7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1AB.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1AB-shared-lower-junction-v4/sources/U3D1AB.json",
+  "source_json_sha256": "03e4109b1605a35535c3655efaf33e7d7d2a66f5d81d91f75e773908b25a9d31",
+  "geometry_sha256": "65f9bb0714904854c4bb91201123f3a7edb693c1c057b5d7532033466b40549a",
+  "font_file": "design/quality/proofs/continuation/U3D1AB-shared-lower-junction-v4/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b39aa87fe0e84f35040178d913810c640d3045862e1462832f31ef63a1966a33",
+  "raster_file": "design/quality/proofs/continuation/U3D1AB-shared-lower-junction-v4/U3D1AB-Regular400.png",
+  "raster_sha256": "d31c0bd92e86777b425639f4ddeb431a3bfe453bbda258faf387e2c39a0ef580",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      301,
+      -64,
+      723,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged witnesses and full/enlarged repaired actual Regular inspected. Coherent THX detached top forks, outer arch with free central roof stub, two-field inner oval and lower winding return retained. Lower-left oval/inner-leg/spur now has one genuine shared crossing, with original spur free tip and exact lower leg remainder preserved. Prior vertical bridge is removed; upper-right rounded return and projecting rim tip remain intact.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "5f784e01db5c7d2ac1a29db66f5fee132c2c45d0719714d74db8de03a36b7d60",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "139d5c22efb6df5bb2de741ef164596d755b2a7220a1776494e2463af5481d74",
+    "actual_font_enlargement_sha256": "cee76eb33803095d81c7621b5facf82c52bea0fa57665b9cacb0ff0f9c42e375"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "fb58008e135fcaf5db07951b5e2d8ba108fa340a097a17c753bb224292bf4f91",
+      "source_json_sha256": "69f58c92d4a827f165e667250e6ecd2be041563f2732eceb5d1d16fa1c05c7fe",
+      "source_png_sha256": "76b453a5549f4719b9639ffd4f6fc034b176a0da2fd45ad5ee02db4bc55b6362",
+      "font_sha256": "d40b2f84e376b4c734c4311b36f335b8ff2121069e85a4fed663f391f7e98f77",
+      "raster_sha256": "48e9e9f283812d93af57152758489d6698d3c25ad32421fee6048e125c4c6a09",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four whole/enlarged specimens, complete/enlarged actual Regular and enlarged original native inner course inspected. Coherent THX two free top forks, large open-bottom outer cover with central top stub/staff, internal two-field slanted oval/crossed descending courses retained. Actual upper-right inner oval shoulder becomes a blunt corner and loses the native upper rim short projecting free tip. Restore that free native tip and rounded right return only, keeping all two fields and other contacts/endpoints. Current actual lower junction should be preserved unless independent evidence requires an additional change."
+    },
+    {
+      "geometry_sha256": "e57ae47ca24e17d7cd7caa63850487d4b02658a6adfd5654bb62f19586eb041a",
+      "source_json_sha256": "7b4310e463e9befcddb23b6e0d2869722353cd77782beb98d0f4009d700c2017",
+      "source_png_sha256": "76b453a5549f4719b9639ffd4f6fc034b176a0da2fd45ad5ee02db4bc55b6362",
+      "font_sha256": "d1b36dbffd3473b34e4e212a4eb9a05bf41663924847ee4fcbc387174d87def5",
+      "raster_sha256": "cd941bd2f6fee8f7aac1778dd82246c5463ec19ab09fa2f291488dd1ab6e1672",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged specimens and full/enlarged repaired actual Regular inspected. Upper-right inner oval return is now rounded and its short upper rim projecting tip restored. Enlarged actual also confirms an unresolved lower-left junction: oval return meets near source(431.847,621.597), but inward spur starts at(431.847,654.313), leaving a conspicuous vertical bridge before the lower inner leg. Coherent THX/native construction calls for one genuine oval-course/leg/spur crossing. Unify only that junction, preserve original short spur free tip, lower inner-leg remainder, both fields and all new upper-right repair geometry."
+    }
+  ]
+}

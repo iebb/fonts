@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D1D0",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Two detached upper tridents. Left below trident TWO stacked rounded U forks sharing central staff, each has two upper prongs. Below forks separate short horizontal, then separate wider horizontal with central downward leg; TWO additional detached vertical side strokes beneath this bar, total THREE descending legs. Right below trident tall rounded reversed-C course beginning upperleft going right then down then left at middle; separate inside elbow rises from left tip into down-right longstaff that crosses outer return at middle and extends to baseline. Preserve no closed box, all left fork prongs.",
+  "reference": "reference/seal/individual/U3D1D0.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-da12bc3f-7502-4f92-bb2d-6122d363d268.png",
+  "output_file": "design/seal-individual/U3D1D0.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "08a3f358f4abd00dfe96bcf8c4cb1c5acda380e48b1303f427ea0237df6f67ce",
+  "reference_sha256": "268e598b3e7ff34143d91edef59c2bbbf3b10bc3a6307f5ea4f5b6522ee0b9ec",
+  "reference_metadata_sha256": "9b25f5d494f6a8379620af9888e2beb9f382cc67e87d7f60345cd1032840a28c",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D1D0",
+    "page": 9,
+    "label_bbox": [
+      384.8999938964844,
+      221.83018493652344,
+      416.0193176269531,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 9,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          220.10096740722656,
+          441.7799987792969,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          220.6332794189453,
+          443.79999389648435,
+          245.67326965332032
+        ],
+        "source_label": "TH-00433"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 9,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          218.66017150878906,
+          465.6398620605469,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          220.6332794189453,
+          470.3999938964844,
+          245.67326965332032
+        ],
+        "source_label": "C-00451"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 9,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          222.91415405273438,
+          494.1398010253906,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          220.6332794189453,
+          497.09999389648436,
+          245.67326965332032
+        ],
+        "source_label": "K-00433"
+      },
+      "DYC": {
+        "available": true,
+        "page": 9,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          220.11215209960938,
+          519.0398559570312,
+          245.14793395996094
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          220.6332794189453,
+          523.7999938964844,
+          245.67326965332032
+        ],
+        "source_label": "D-00430"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Middle left staff joins separate dash; restore gap."
+  ]
+}

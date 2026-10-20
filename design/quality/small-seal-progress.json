@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-20T09:21:56+00:00",
+  "generated_utc": "2026-10-20T10:32:08+00:00",
   "goal": {
     "script": "Seal",
     "block": "Seal",
@@ -38,7 +38,7 @@
     },
     "registry": {
       "path": "/workspace/fonts/design/quality/accepted-geometry.json",
-      "sha256": "2fc748d51195ead9fcf9796a7cfe13b66d88ab82fe9339e8b4bf47ca1301cef0"
+      "sha256": "65afb4734cd7821e654cc345c6cc0e3696375d999725bc7f29cf129c328e9c97"
     },
     "chart": {
       "index": "/workspace/fonts/reference/seal/chart-index.json",
@@ -52,24 +52,25 @@
   "counts": {
     "reference_indexed": 11328,
     "reference_overview_ready": 1921,
-    "native_png_present": 658,
-    "native_provenance_valid": 658,
-    "centerline_present": 658,
-    "registry_listed": 372,
-    "frozen_default_accepted": 372,
+    "native_png_present": 821,
+    "native_provenance_valid": 821,
+    "centerline_present": 820,
+    "registry_listed": 438,
+    "frozen_default_accepted": 438,
     "stale_registry_entry": 0,
-    "native_review_match": 331,
-    "native_review_mismatch": 80,
+    "native_review_match": 383,
+    "native_review_mismatch": 105,
     "native_review_uncertain": 7,
-    "native_review_stale": 0,
-    "native_review_pending": 10910
+    "native_review_stale": 1,
+    "native_review_pending": 10832
   },
   "workflow_counts": {
-    "awaiting_frozen_acceptance": 265,
-    "awaiting_geometry_review_with_native_mismatch": 20,
-    "awaiting_geometry_review_with_native_uncertain": 1,
-    "awaiting_native": 10670,
-    "frozen_default_accepted": 372
+    "awaiting_centerlines": 1,
+    "awaiting_frozen_acceptance": 358,
+    "awaiting_geometry_review_with_native_mismatch": 23,
+    "awaiting_geometry_review_with_native_stale": 1,
+    "awaiting_native": 10507,
+    "frozen_default_accepted": 438
   },
   "stage_ranges": {
     "reference_indexed": [
@@ -87,147 +88,107 @@
     "native_png_present": [
       [
         "U+3D000",
-        "U+3D1B8"
-      ],
-      [
-        "U+3D1C1",
-        "U+3D279"
+        "U+3D298"
       ],
       [
         "U+3D2C1",
-        "U+3D2C8"
+        "U+3D2F2"
       ],
       [
         "U+3D301",
-        "U+3D318"
+        "U+3D367"
+      ],
+      [
+        "U+3D401",
+        "U+3D403"
       ]
     ],
     "native_provenance_valid": [
       [
         "U+3D000",
-        "U+3D1B8"
-      ],
-      [
-        "U+3D1C1",
-        "U+3D279"
+        "U+3D298"
       ],
       [
         "U+3D2C1",
-        "U+3D2C8"
+        "U+3D2F2"
       ],
       [
         "U+3D301",
-        "U+3D318"
+        "U+3D367"
+      ],
+      [
+        "U+3D401",
+        "U+3D403"
       ]
     ],
     "centerline_present": [
       [
         "U+3D000",
-        "U+3D1B8"
-      ],
-      [
-        "U+3D1C1",
-        "U+3D279"
+        "U+3D298"
       ],
       [
         "U+3D2C1",
-        "U+3D2C8"
+        "U+3D2F2"
       ],
       [
         "U+3D301",
-        "U+3D318"
+        "U+3D366"
+      ],
+      [
+        "U+3D401",
+        "U+3D403"
       ]
     ],
     "registry_listed": [
       [
         "U+3D000",
-        "U+3D0B2"
+        "U+3D1AA"
       ],
       [
-        "U+3D0B4",
-        "U+3D0FA"
+        "U+3D1AC",
+        "U+3D1AE"
       ],
       [
-        "U+3D0FC",
-        "U+3D0FD"
+        "U+3D1B0",
+        "U+3D1B0"
       ],
       [
-        "U+3D100",
-        "U+3D13D"
+        "U+3D1B3",
+        "U+3D1B4"
       ],
       [
-        "U+3D140",
-        "U+3D156"
+        "U+3D1B6",
+        "U+3D1B7"
       ],
       [
-        "U+3D158",
-        "U+3D16B"
-      ],
-      [
-        "U+3D16D",
-        "U+3D170"
-      ],
-      [
-        "U+3D172",
-        "U+3D172"
-      ],
-      [
-        "U+3D174",
-        "U+3D17B"
-      ],
-      [
-        "U+3D17E",
-        "U+3D17E"
-      ],
-      [
-        "U+3D180",
-        "U+3D180"
+        "U+3D1BE",
+        "U+3D1C0"
       ]
     ],
     "frozen_default_accepted": [
       [
         "U+3D000",
-        "U+3D0B2"
+        "U+3D1AA"
       ],
       [
-        "U+3D0B4",
-        "U+3D0FA"
+        "U+3D1AC",
+        "U+3D1AE"
       ],
       [
-        "U+3D0FC",
-        "U+3D0FD"
+        "U+3D1B0",
+        "U+3D1B0"
       ],
       [
-        "U+3D100",
-        "U+3D13D"
+        "U+3D1B3",
+        "U+3D1B4"
       ],
       [
-        "U+3D140",
-        "U+3D156"
+        "U+3D1B6",
+        "U+3D1B7"
       ],
       [
-        "U+3D158",
-        "U+3D16B"
-      ],
-      [
-        "U+3D16D",
-        "U+3D170"
-      ],
-      [
-        "U+3D172",
-        "U+3D172"
-      ],
-      [
-        "U+3D174",
-        "U+3D17B"
-      ],
-      [
-        "U+3D17E",
-        "U+3D17E"
-      ],
-      [
-        "U+3D180",
-        "U+3D180"
+        "U+3D1BE",
+        "U+3D1C0"
       ]
     ],
     "stale_registry_entry": [],
@@ -490,7 +451,87 @@
       ],
       [
         "U+3D19F",
-        "U+3D1A1"
+        "U+3D1A2"
+      ],
+      [
+        "U+3D1A4",
+        "U+3D1A5"
+      ],
+      [
+        "U+3D1A7",
+        "U+3D1B0"
+      ],
+      [
+        "U+3D1B2",
+        "U+3D1B4"
+      ],
+      [
+        "U+3D1B6",
+        "U+3D1B7"
+      ],
+      [
+        "U+3D1B9",
+        "U+3D1B9"
+      ],
+      [
+        "U+3D1BB",
+        "U+3D1BC"
+      ],
+      [
+        "U+3D1BE",
+        "U+3D1C0"
+      ],
+      [
+        "U+3D1C2",
+        "U+3D1C2"
+      ],
+      [
+        "U+3D1C6",
+        "U+3D1C9"
+      ],
+      [
+        "U+3D1CB",
+        "U+3D1CB"
+      ],
+      [
+        "U+3D1CD",
+        "U+3D1CF"
+      ],
+      [
+        "U+3D1D2",
+        "U+3D1D3"
+      ],
+      [
+        "U+3D1D5",
+        "U+3D1D7"
+      ],
+      [
+        "U+3D1DA",
+        "U+3D1DB"
+      ],
+      [
+        "U+3D1DE",
+        "U+3D1DF"
+      ],
+      [
+        "U+3D1E1",
+        "U+3D1E1"
+      ],
+      [
+        "U+3D1E4",
+        "U+3D1E5"
+      ],
+      [
+        "U+3D1E7",
+        "U+3D1E8"
+      ],
+      [
+        "U+3D1F1",
+        "U+3D1F1"
+      ],
+      [
+        "U+3D1F4",
+        "U+3D1F7"
       ]
     ],
     "native_review_mismatch": [
@@ -737,6 +778,82 @@
       [
         "U+3D19E",
         "U+3D19E"
+      ],
+      [
+        "U+3D1A3",
+        "U+3D1A3"
+      ],
+      [
+        "U+3D1A6",
+        "U+3D1A6"
+      ],
+      [
+        "U+3D1B1",
+        "U+3D1B1"
+      ],
+      [
+        "U+3D1B5",
+        "U+3D1B5"
+      ],
+      [
+        "U+3D1B8",
+        "U+3D1B8"
+      ],
+      [
+        "U+3D1BA",
+        "U+3D1BA"
+      ],
+      [
+        "U+3D1BD",
+        "U+3D1BD"
+      ],
+      [
+        "U+3D1C1",
+        "U+3D1C1"
+      ],
+      [
+        "U+3D1C3",
+        "U+3D1C5"
+      ],
+      [
+        "U+3D1CA",
+        "U+3D1CA"
+      ],
+      [
+        "U+3D1CC",
+        "U+3D1CC"
+      ],
+      [
+        "U+3D1D0",
+        "U+3D1D1"
+      ],
+      [
+        "U+3D1D4",
+        "U+3D1D4"
+      ],
+      [
+        "U+3D1D8",
+        "U+3D1D9"
+      ],
+      [
+        "U+3D1DC",
+        "U+3D1DC"
+      ],
+      [
+        "U+3D1E0",
+        "U+3D1E0"
+      ],
+      [
+        "U+3D1E2",
+        "U+3D1E3"
+      ],
+      [
+        "U+3D1E6",
+        "U+3D1E6"
+      ],
+      [
+        "U+3D1F2",
+        "U+3D1F3"
       ]
     ],
     "native_review_uncertain": [
@@ -769,18 +886,27 @@
         "U+3D17D"
       ]
     ],
-    "native_review_stale": [],
+    "native_review_stale": [
+      [
+        "U+3D1DD",
+        "U+3D1DD"
+      ]
+    ],
     "native_review_pending": [
       [
-        "U+3D1A2",
+        "U+3D1E9",
+        "U+3D1F0"
+      ],
+      [
+        "U+3D1F8",
         "U+3FC3F"
       ]
     ]
   },
   "unindexed_reference_ranges": [],
   "next_unaccepted_batch": {
-    "first": "U+3D0B3",
-    "last": "U+3D0B3",
+    "first": "U+3D1AB",
+    "last": "U+3D1AB",
     "count": 1,
     "reason": "First contiguous unaccepted run, bounded by batch size and accepted gaps."
   },

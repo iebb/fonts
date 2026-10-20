@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D190",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D190.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D190.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight12/sources/U3D190.json",
-  "source_json_sha256": "1c3041d6857d381b99e204153b3960373328ffb69f0cac75e4b51120724d70f4",
-  "geometry_sha256": "455cb4202a6563cd11ee8c0f425f86c2f325dadfe9ae9edfed64c967b451e577",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight12/U3D190-Regular400.png",
-  "raster_sha256": "c383e99e0f24347ec847e4691be5a0407cb7e8053db540593b03e2df2225bbb6",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D190191-smooth-bodywall-v2/sources/U3D190.json",
+  "source_json_sha256": "05097793c44a9d5cb507df351d0af2a5e29fee4bf02c7d368ff3aaec6c8634ce",
+  "geometry_sha256": "8dbee6c2ac68446480ce7eadbd13281278eac1bbdef9b78b8c66ff9a4f4c5722",
+  "font_file": "design/quality/proofs/continuation/U3D190191-smooth-bodywall-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "af65d6649981a006a4fa092679aeeea7ca28c5dc99f4ae6efa93c77fac95e065",
+  "raster_file": "design/quality/proofs/continuation/U3D190191-smooth-bodywall-v2/U3D190-Regular400.png",
+  "raster_sha256": "2b402eaf4d74250fb2bd99e6aa6c853265378817ce3465d507f283285a41ffd2",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,41 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged diamond inspected. Detached upper tridents, paired left cups on hooked long stem, right diamond/body family otherwise THX. Native connects central lower upright all the way to diamond apex/upper stub, dividing required one-counter diamond into two. THX inner short upward tip is free below apex; right outer apex stub remains separate above diamond. Three lower body fields and outward branch retained.",
-  "requested_corrections": [
-    "Release only inner central upright top from diamond apex, leaving short free upward inner stub and single diamond counter; preserve exterior apex stub, outward branch and three lower fields."
-  ],
+  "notes": "Reinspected exact v2 full actual and enlarged left bodywall against previously inspected native/all four enlarged whole specimens. Smooth bow replaces stepped firstbar shoulder and irregular interbar course, exact three bar anchors/outer endpoint retained. One diamond counter with free inner upstub, outward junction stub and three bodyfields preserved; original external apex upstub retained where attested. Upper fork contacts/other compounds unchanged, coherent THX and constant-width Regular400 accepted. Native remains mismatch for original diamond/branch identity defects.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "455cb4202a6563cd11ee8c0f425f86c2f325dadfe9ae9edfed64c967b451e577",
+      "source_json_sha256": "1c3041d6857d381b99e204153b3960373328ffb69f0cac75e4b51120724d70f4",
+      "font_sha256": "e41960e62184de3127bbbc5c1d074492ec106f98b6ce4c7ebea7f664a3f6f34d",
+      "raster_sha256": "c383e99e0f24347ec847e4691be5a0407cb7e8053db540593b03e2df2225bbb6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged diamond inspected. Detached upper tridents, paired left cups on hooked long stem, right diamond/body family otherwise THX. Native connects central lower upright all the way to diamond apex/upper stub, dividing required one-counter diamond into two. THX inner short upward tip is free below apex; right outer apex stub remains separate above diamond. Three lower body fields and outward branch retained.",
+      "requested_corrections": [
+        "Release only inner central upright top from diamond apex, leaving short free upward inner stub and single diamond counter; preserve exterior apex stub, outward branch and three lower fields."
+      ]
+    },
+    {
+      "geometry_sha256": "de85e329709e715ac87ff388a9ddb5f267365ca8dc1cc76bac56da469967f813",
+      "source_json_sha256": "d5dc2af7c969ad50467f6697fef3829e44e4cb0a6381074e3743959762209cd3",
+      "font_sha256": "97545b957771801998b1e6d9f4cc70a288262775a7f2a16691425fba20ad2b93",
+      "raster_sha256": "a8685b4a1b28e074239943a119d8699ec69cae8441b8902f35d970cacf6fe4fd",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected native/all four enlarged whole references, full repaired actual and enlarged diamond/body. Correct one diamond counter/free inner stub with external apex stub retained; three lower fields/outwardbranch intact as THX. Left outer bodywall still has pronounced tracking shoulder/step at first horizontal bar and uneven bend between anchors, inconsistent smooth constant-width style. Native mismatch retained for original diamond divider.",
+      "requested_corrections": [
+        "Smooth only bounded left bodywall through existing three horizontal bar junction anchors, preserving diamond, free inner stub, external upstub, all three fields and outer endpoints."
+      ]
+    }
   ]
 }

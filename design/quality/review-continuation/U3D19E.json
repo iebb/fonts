@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D19E.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-five-course-recovery-v2/sources/U3D19E.json",
-  "source_json_sha256": "46fe9b94f3ca82589c5fb2c8b11da1125b4ab1f832a9941d30a1445f253731c9",
-  "geometry_sha256": "f7c7a836f2124f59e7df8757199885ade7efe835e341d707367212b0e2c8c2f2",
-  "font_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "5c197f581b30ed1ee39002155ca7f0cbaf24f51f677ffcdcb3358cffc0cef717",
-  "raster_file": "design/quality/proofs/continuation/root-five-course-recovery-v2/U3D19E-Regular400.png",
-  "raster_sha256": "4fc7bafcff1efff31262b003f1179d7e2d697001f760bed37a7d33a322c51a6d",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-19E-fivefingers-twofields-v3/sources/U3D19E.json",
+  "source_json_sha256": "4d16d33aafacda5a57410c293fafed1a8e8860b3622c8bc99109209e41c2e366",
+  "geometry_sha256": "d02ebd43a8d972f4be1868aff560e857e8fb7002db08e35dfc0377b007d43879",
+  "font_file": "design/quality/proofs/continuation/root-19E-fivefingers-twofields-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6390301dc1fa8a7b3e62d484005a885a090d607062f8019147942da88819d764",
+  "raster_file": "design/quality/proofs/continuation/root-19E-fivefingers-twofields-v3/U3D19E-Regular400.png",
+  "raster_sha256": "1415b3d5b49cb8ac73da31f029961ef7306d30866b135ef342f7df6f42991233",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,11 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole references, native, full actual and enlarged right compound. Restored left cup rim overhang correct but native and actual omit TWO detached inner upright marks from right upper five-finger compound (only three fingers remain). Lower right hanging cup has ONE counter vs THX TWO, missing extra internal horizontal bar. All other references also attest extra fingers/two lower fields with other contacts. Native mismatch supersedes earlier incomplete native assessment.",
-  "requested_corrections": [
-    "Restore two detached inner vertical marks inside right upper compound, forming five fingers total as THX.",
-    "Restore extra interior crossbar in lower right hanging cup for two counters, retaining central staff-to-topbar contact."
-  ],
+  "notes": "Reinspected full exact v3 actual and enlarged entire right compound against previously inspected native/all four whole references. Two added detached inner vertical marks restore five upper fingers with clear white gaps, existing U width/proportions retained. Added lower inner cup crossbar restores two open counters; total four closed counters including two left cups. Both forks detached and complete coherent THX architecture retained; short left cup rim overhangs restored. Smooth constant-width Regular400 courses and gap clarity acceptable. Native remains mismatch for omitted two marks and extra lower crossbar.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
@@ -59,6 +56,19 @@
       "notes": "Full native, all four complete specimens, complete actual Regular and enlarged actual inspected. Native matches coherent THX two detached top forks; left detached dash, upper capped cup with projecting top rail, central trident and lower cup, plus right joined trident/arch/inner cup. Actual upper left cup rail is shortened to its wall edges and loses both native/THX projecting free ends. Restore only that rail through the same upper cup contact level with both original native overhangs; retain all three counters and every other course.",
       "requested_corrections": [
         "Full native, all four complete specimens, complete actual Regular and enlarged actual inspected. Native matches coherent THX two detached top forks; left detached dash, upper capped cup with projecting top rail, central trident and lower cup, plus right joined trident/arch/inner cup. Actual upper left cup rail is shortened to its wall edges and loses both native/THX projecting free ends. Restore only that rail through the same upper cup contact level with both original native overhangs; retain all three counters and every other course."
+      ]
+    },
+    {
+      "geometry_sha256": "f7c7a836f2124f59e7df8757199885ade7efe835e341d707367212b0e2c8c2f2",
+      "source_json_sha256": "46fe9b94f3ca82589c5fb2c8b11da1125b4ab1f832a9941d30a1445f253731c9",
+      "font_sha256": "5c197f581b30ed1ee39002155ca7f0cbaf24f51f677ffcdcb3358cffc0cef717",
+      "raster_sha256": "4fc7bafcff1efff31262b003f1179d7e2d697001f760bed37a7d33a322c51a6d",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole references, native, full actual and enlarged right compound. Restored left cup rim overhang correct but native and actual omit TWO detached inner upright marks from right upper five-finger compound (only three fingers remain). Lower right hanging cup has ONE counter vs THX TWO, missing extra internal horizontal bar. All other references also attest extra fingers/two lower fields with other contacts. Native mismatch supersedes earlier incomplete native assessment.",
+      "requested_corrections": [
+        "Restore two detached inner vertical marks inside right upper compound, forming five fingers total as THX.",
+        "Restore extra interior crossbar in lower right hanging cup for two counters, retaining central staff-to-topbar contact."
       ]
     }
   ]

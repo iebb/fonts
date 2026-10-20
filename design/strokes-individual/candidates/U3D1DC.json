@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -7514,6 +7514,33 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 1.0,
       "maximum_fit_error_font_units": 3.2716
+    },
+    {
+      "id": "THX-right-lower-header-left-overhang",
+      "path": "M 577.075,670.1188261953727 L 628.8788450118561,670.1188261953727",
+      "commands": [
+        [
+          "M",
+          577.075,
+          670.1188261953727
+        ],
+        [
+          "L",
+          628.8788450118561,
+          670.1188261953727
+        ]
+      ],
+      "closed": false,
+      "manual": true
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore only the short leftward header overhang on the separate lower-right two-leg course. Add a horizontal segment from source(577.075,670.118826) through the original upper header point(628.878845,670.118826); the existing leg/header curve is untouched. Preserve all thirteen original paths exactly, both one-field cups, both top fork gaps, detached roof/dash, lower leg endpoints/envelopes and component spacing. Native missing-overhang verdict remains mismatch.",
+      "previous_paths": {},
+      "native_png_and_provenance_unchanged": true,
+      "author": "/root",
+      "independent_actual_font_review_required": true
     }
   ]
 }

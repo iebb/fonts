@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1E1",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E1.json",
+  "source_png_sha256": "77614191f7da3080d3d294a8d3d57714150442cd2d31e7ef05f8ca3ee674a8b6",
+  "source_png": "design/seal-individual/U3D1E1.png",
+  "reference_png_sha256": "67161b3d1bd231efedbeafddfdcfd81009550b9453d89e10a5731b81e428410f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1E1.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E1.json",
+  "source_json_sha256": "0e38b66090b78d9d13b983f357dafaaf8a4bb2751d395efcb4f4f1495f7748ac",
+  "geometry_sha256": "2cad86d99f9ff20a16f4dd573a16cdf41fbcdcd7ebcb84d21755feffa43f37f7",
+  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E1-Regular400.png",
+  "raster_sha256": "56f5ab8ec59302e9aad2e3d88f82133af1a95a1404adda8148d7dabe84a9b919",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      283,
+      -64,
+      741,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four enlarged whole specimens/full actual and enlarged left staff component inspected. Native coherent THX both forks free, left three-field oval/side mark/two lower legs, separate right inner dash and upper winding with broad lower branch courses. Actual loses downward terminal of left staff side mark: native has two rightward terminals meeting crossbar, actual retains only up-right terminal. Right lower branch shared roots also show offset tracking knots."
+  ],
+  "requested_corrections": [
+    "Recover missing downward terminal of left staff side mark from exact native course; retain upward terminal/crossbar.",
+    "Smooth bounded right lower shared branch roots through original anchors retaining all three bottom terminals and broad bows."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

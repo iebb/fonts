@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1C7",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D1C7.json",
+  "source_png": "design/seal-individual/U3D1C7.png",
+  "source_png_sha256": "2fc04270248ecf0420995bd1805a87cbe1ba60a556639e4f003696d9e0358536",
+  "reference_png_sha256": "83e904787c2fc469d51b71be4bc2d4bda636a666086d4ac9e96a7a50495cf3ae",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1C7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D1C5C7-bounded-v1/sources/U3D1C7.json",
+  "source_json_sha256": "7c493b10e57310ce925a3b1a712b4df3938c65546133cefaceb28f9be1faa798",
+  "geometry_sha256": "2b9613807d3d5f1ddd53d0c732089eb1732684f1157461e40acd13ed12b2c242",
+  "font_file": "design/quality/proofs/continuation/U3D1C5C7-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5f7b0536e47c2802ba0d2d05f54365819e6d559912dcf6b4bb909dd48b8aeb51",
+  "raster_file": "design/quality/proofs/continuation/U3D1C5C7-bounded-v1/U3D1C7-Regular400.png",
+  "raster_sha256": "56a2ad6cbdad307cdbaa1715732a4116ae2d87c6961b042b38db4444f66a9aa5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      292,
+      -64,
+      732,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged whole witnesses and full/enlarged repaired actual Regular inspected. Complete THX both free top forks, peaked upper course with upward stub, shared left header junction and free right baseline overhang retained. Two separate outer lower bows and inward upstems now merge smoothly into the winding lower tail without prior offset knot/neck. Exact upper peak, both inner free tips, original bow envelopes and tail remainder retained; no new enclosed field or contact.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "e7dc6661203389d29d9e28a202067abac689761bc8b88c4552f1ada2e3977aac",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "3a9fcb105e192b460c5af17c61f08605befd4b1a3ccbbe2cfc55f652e8fe3077",
+    "actual_font_enlargement_sha256": "6d74b6655316c656094623b9a67c600c816c26da57d30cb586a8618b8d90aa59"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f4c51b3bb60d943194683084aad567af841cd51c6f80da7eb720322611df2dd5",
+      "source_json_sha256": "48af654ac8a713a87d1d28d088a4bad6e4b590b2005bc53b8bc98f48917dd37b",
+      "source_png_sha256": "2fc04270248ecf0420995bd1805a87cbe1ba60a556639e4f003696d9e0358536",
+      "font_sha256": "e1554f20b25eda4b8856daaa4bba5c7a02f37820fe72a29b66d274305bfcbe80",
+      "raster_sha256": "59f6e690540b62faaa00531829fe238e1ed337108104b635d4c696fe71131b99",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": [
+        "Full native/all four whole references/full actual and enlarged body inspected. Native coherently matches THX both forks free, left header upstem joins peaked branch and lower horizontal rail, lower paired open inward stems merge into down-right tail; no closed counter. Actual preserves topology but left header junction has a conspicuous offset shoulder/knot, and lower inward-stem\u2192tail shared junction has a kink/short neck rather than native continuous sweep."
+      ]
+    }
+  ]
+}

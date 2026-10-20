@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D1E6",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D1E6.json",
+  "source_png_sha256": "b919e5d2693f15dfbf7824044b4bf7e244c90a02d8055a960de7d90d6624af30",
+  "source_png": "design/seal-individual/U3D1E6.png",
+  "reference_png_sha256": "4235125f27df587fbb49fc987a19097327b53a6049a227bea4c67334783ea418",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D1E6.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-twentyfourth-eight/sources/U3D1E6.json",
+  "source_json_sha256": "d8b2e8e70114c8f616ebcfed67d2eb273dc8b77d9c5eb17cdd73c43673be6b8c",
+  "geometry_sha256": "2fff35c2239c4ca810d500f48a7a22132bb454de671fcacdeaa5a2ab247c1087",
+  "font_file": "design/quality/proofs/continuation/review-twentyfourth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "dde3ad814782ac448809e7fb2e19cc677dffa6a799fe8e8108a530fc3551bd65",
+  "raster_file": "design/quality/proofs/continuation/review-twentyfourth-eight/U3D1E6-Regular400.png",
+  "raster_sha256": "74e09dea40a9366f6d606085ffb18c40b09383e2a2dc9f3b9a910c7abc87ff0e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      302,
+      -64,
+      722,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": [
+    "Full native/all four whole specimens/full actual/enlarged right upper compound inspected. Native matches THX detached left fork, one left body divided upper pair plus lower full field/short central upstub, and separated upper-right bent fork/lower trident staff. But right top fork continuously joins upper bent course; THX both forks detached while joined-right QJZ also joins bent course to lower trident, unlike current. Actual right upper course has angular offset knee/notch at inner return shared branch root."
+  ],
+  "requested_corrections": [
+    "Detach right upper fork from upper bent course retaining original course up-tip, preserving gap to lower trident staff and all left THX contacts.",
+    "Smooth bounded upper-right inward return/shared branch root through original anchor and full branch endpoints."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

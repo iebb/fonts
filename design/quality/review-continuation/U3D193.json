@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D193.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-nineteenth-eight/sources/U3D193.json",
-  "source_json_sha256": "1e6f2da1b14a109dd45321f6368adf540b811073d8f1391ee91dd67985c55c41",
-  "geometry_sha256": "7a9eb040b0821f8b3b2a134716ec8b977940eb04b7d3f5823bab947e24f5f46e",
-  "font_file": "design/quality/proofs/continuation/review-nineteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
-  "raster_file": "design/quality/proofs/continuation/review-nineteenth-eight/U3D193-Regular400.png",
-  "raster_sha256": "61c7e40f6121095045216a7e9e11491300a54b32bad64a2574e0de08642a8833",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D190191193194-bounded-v1/sources/U3D193.json",
+  "source_json_sha256": "55b6749fa33691cad1df3b9d443790443c9ee43730593e91eaef29ae0eb338f7",
+  "geometry_sha256": "5aaca9da456ff0294455fe9b704fdde8d99bea7c0083ff61109d398f73f28976",
+  "font_file": "design/quality/proofs/continuation/U3D190191193194-bounded-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "97545b957771801998b1e6d9f4cc70a288262775a7f2a16691425fba20ad2b93",
+  "raster_file": "design/quality/proofs/continuation/U3D190191193194-bounded-v1/U3D193-Regular400.png",
+  "raster_sha256": "fddc8e5042577d98f931d8e3eb58ca4b503e309258c717c8e8b55899d7272d8e",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Inspected all four enlarged whole specimens, native, actual and enlarged fork/roof contacts. Native/font have left fork detached but right fork joined. THX and DYC have both detached, CCZ/QJZ both joined; this combination not coherent with an attested whole. Two upper counters, crossing staff/outer descenders and detached bottom cup otherwise retain identity. Native mismatch.",
-  "requested_corrections": [
-    "Release only right fork staff from cover roof to match coherent THX both-detached forks, preserving its short downward terminal and all body courses."
-  ],
+  "notes": "Reinspected exact repaired full actual and enlarged fork/roof gaps against native/all four enlarged whole references previously inspected. Right fork now free as left, coherent THX two detached forks retained above two-counter upper compound and separate lower one-counter cup. All staff/rail/outerdescender courses preserved, smooth constant-width rounded Regular400 acceptable. Native mismatch remains for original mixed fork contact.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7a9eb040b0821f8b3b2a134716ec8b977940eb04b7d3f5823bab947e24f5f46e",
+      "source_json_sha256": "1e6f2da1b14a109dd45321f6368adf540b811073d8f1391ee91dd67985c55c41",
+      "font_sha256": "dec4ffe2097ab1e4b55a07dd9237bf750947bcea330ff68566b2f7a836668a82",
+      "raster_sha256": "61c7e40f6121095045216a7e9e11491300a54b32bad64a2574e0de08642a8833",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Inspected all four enlarged whole specimens, native, actual and enlarged fork/roof contacts. Native/font have left fork detached but right fork joined. THX and DYC have both detached, CCZ/QJZ both joined; this combination not coherent with an attested whole. Two upper counters, crossing staff/outer descenders and detached bottom cup otherwise retain identity. Native mismatch.",
+      "requested_corrections": [
+        "Release only right fork staff from cover roof to match coherent THX both-detached forks, preserving its short downward terminal and all body courses."
+      ]
+    }
   ]
 }
