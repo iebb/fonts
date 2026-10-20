@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0D2",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D2.json",
+  "source_png_sha256": "c11e314f4c39b095dde7ab51a927e0ad28f933f76517c3f8db40b75a738a383f",
+  "source_png": "design/seal-individual/U3D0D2.png",
+  "reference_png_sha256": "7df9ad8964b42317c999b87c93ca1bf77e7dbca67333d9064ed9cb1fd8bc7ce5",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0D2.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight1/sources/U3D0D2.json",
+  "source_json_sha256": "21af74e2b360dfc0820d1bec9247ea17b3ed9d2c0b1170d08b6130a0f3ff1129",
+  "geometry_sha256": "29ae927a7387b590a49b0be8ae9eaacc760ad97f092c156f8fb5c1149a0a2fe4",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8959493c12b75d4bec6eb8545ab3d723252c9b2574102964b37233ba698837bf",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight1/U3D0D2-Regular400.png",
+  "raster_sha256": "91c824101811e158906df0287303a1b7a9853cda78acbc4fd9ea3ec32dff740d",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      240,
+      -64,
+      784,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native/font and all four enlarged specimens inspected. Right tilted diamond, inward diamond stub, outward slant, three body bars, staff and three counters retained. Middle lower component has only two uprights in native/font. THX and alternatives retain an additional short inner upright/return to the right of central descender; its absence simplifies the middle component. Native bottom cup also ends short of right body rather than coherent THX bottom return.",
+  "requested_corrections": [
+    "Restore missing short inner upright with its lower return in middle component, using one coherent whole attested variant and preserving right three counters.",
+    "Confirm and explicitly record bottom middle-component return/contact choice against complete historical specimen."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

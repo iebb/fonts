@@ -1,0 +1,107 @@
+{
+  "code_point": "U+3D0CA",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Make ONE minimal structural repair to the FIRST attached glyph U+3D0CA. SECOND attached image is its four-specimen historical reference, used only to confirm the missingstroke. Preserve every existing glyphstroke, the wholeleftcomponent, bottomthreebarcomponent, S-shapedrightcentralstem, rightouterleg, proportions and roundmonoline style. Add exactly ONE missing LEFT OUTER UPRIGHT to the RIGHT component. The rightcomponent currently has onlyTWO descendinglegs but ALLfourreferences requireTHREE. Newleftouterupright beginsjustabovetheLEFT END ofthe existingrightcomponentcrossbar, intersectsandconnectstothatcrossbar'sleftend, thendescendswithsmoothleftwardcurve tosamebaselineasthe otherTWOlegs. Keepthisnewlegseparate fromleftcomponent andScentrallegbelowcrossbar. The existingcrossbar'sleftterminal MUST NO LONGER befree; itmustmeetthenewleg. On1254canvas approximate newlegtop (735,455), crossbarintersection(735,510), lowerend(680,785); existingScentrallegendsaround(725,785)andrightouterlegaround(885,785), so THREE distinctfeet. Allthreelegshaveclearwhitegaps. Nootheradditionsordeletions. Outputexactlyoneblackglyphtransparentbackground square, sameconstantwidthroundedstrokes, nolabels.",
+  "reference": "reference/seal/individual/U3D0CA.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-00011323-4378-40b7-bbf9-a35ca0fc0815.png",
+  "output_file": "design/seal-individual/U3D0CA.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "4ebf9b8ab2325338230829c6351a0aedba86a3036cf046e8bde1acdb8195821a",
+  "reference_sha256": "161b59d1e4dd5a492b1cec92212bf582d0e4c24685ade863f9a5408be58a43df",
+  "reference_metadata_sha256": "df79144aac8f25839571dc2ad4589f8b8559d6a27bdbef13f7119b405b58314c",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0CA",
+    "page": 5,
+    "label_bbox": [
+      236.10000610351562,
+      158.47019958496094,
+      268.3293762207031,
+      169.62997436523438
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 5,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          156.6809844970703,
+          292.9800109863281,
+          181.8599853515625
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          157.2732940673828,
+          295.0000061035156,
+          182.25328674316407
+        ],
+        "source_label": "TH-00189"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 5,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          155.2401885986328,
+          316.8398742675781,
+          177.239990234375
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          157.2732940673828,
+          321.6000061035156,
+          182.25328674316407
+        ],
+        "source_label": "C-00193"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 5,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          159.49417114257812,
+          345.33978271484375,
+          181.11595153808594
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          157.2732940673828,
+          348.3000061035156,
+          182.25328674316407
+        ],
+        "source_label": "K-00191"
+      },
+      "DYC": {
+        "available": true,
+        "page": 5,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          156.69216918945312,
+          370.2398681640625,
+          181.7279510498047
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          157.2732940673828,
+          375.0000061035156,
+          182.25328674316407
+        ],
+        "source_label": "D-00188"
+      }
+    }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D0CA-attempt-1.json"
+  ]
+}

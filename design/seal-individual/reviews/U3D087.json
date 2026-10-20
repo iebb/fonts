@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D087",
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": [
+    "Compared both available THX andDYC specimens (CCZ/QJZunavailable) with native and actual Regular400 proof.",
+    "Exactly one three-bar staff and one detached small dot to right of middlebar are present. Top/middle/bottom bar length hierarchy, dot placement and clear dot-to-bar gap agree with reference.",
+    "Actual TTF raster preserves tiny dot: separate inkcomponent remains, not dropped by skeleton or compiler. No unwanted counters/extra branches."
+  ],
+  "source_png": "design/seal-individual/U3D087.png",
+  "source_png_sha256": "e0307b1644d024092767843fb18635d3cec78c9ce5f0688cc0af9e8afb7d8974",
+  "reference_overview": "reference/seal/individual/U3D087.png",
+  "reference_png_sha256": "7283a59cb5279412b8e0108e9047f08151bb1ab1c54517a1dc652072032253c7",
+  "reviewed_specimens": [
+    "THX",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "QJZ"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ]
+}

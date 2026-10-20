@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D090.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-090-109-145/sources/U3D090.json",
-  "source_json_sha256": "8d434b45028e2eab745ec488ac70d950adf984617ac51b101e5995cb6412bd23",
-  "geometry_sha256": "6334af10793f8bd0522fa5c8d87103c2f64b979050fb197d7042d46345ca4cb4",
-  "font_file": "design/quality/proofs/continuation/review-retries-090-109-145/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "64e3555d48dca2f4419cd7b70f93a06ad0a4341ba57a1f2f7b2c959f573b6ece",
-  "raster_file": "design/quality/proofs/continuation/review-retries-090-109-145/U3D090-Regular400.png",
-  "raster_sha256": "15141c5af401d6e616eb1dd9ef6a61bd6450a0c0715783303fea7856cc763116",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D090-smooth-rails-v2/sources/U3D090.json",
+  "source_json_sha256": "f4b271e3e7edda8ab3eb5c8c7b99fd85d8feb708ce26bd08f80f9aadf3c1eb10",
+  "geometry_sha256": "e585af1eccd721bcb7dc6e3ac1a3f0a497d6d16175ebca1b291ab4a6b7a95268",
+  "font_file": "design/quality/proofs/continuation/U3D090-smooth-rails-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "52a4d0a2f429cb65bf2cd1f8b90c6699500c08e4f2327e2331c287e6cd683d94",
+  "raster_file": "design/quality/proofs/continuation/U3D090-smooth-rails-v2/U3D090-Regular400.png",
+  "raster_sha256": "87547ed01ceec522de75f2fdb0d14deadbec174fc6b0c55323e0e9c4f6d614bd",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_trajectory_smoothing",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Retry native restores three upper fingers. All four whole reference specimens inspected; attached bowl shoulder follows coherent CCZ topology. Actual Regular400 preserves branches and counter but first body crossbar has several conspicuous wavy humps and comb rail has angular microsegments; enlarged proof confirms centerline roughness.",
-  "requested_corrections": [
-    "Smooth comb rail and first body crossbar to single intentional trajectories, preserving terminals, three fingers, bowl shoulder contact, and all other paths."
-  ],
+  "notes": "Revised actual Regular400 font inspected full size and enlarged comb/crossbar crop against previously inspected unchanged full native and all four whole reference specimens. Bounded smoothing removes conspicuous repeated humps from first body crossbar and comb rail, retains exact terminals, three fingers and CCZ-attested bowl shoulder attachment. Shared pen, counter, branches and descent proportions retained. Native remains match. Only Regular400 accepted.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "6334af10793f8bd0522fa5c8d87103c2f64b979050fb197d7042d46345ca4cb4",
+      "source_json_sha256": "8d434b45028e2eab745ec488ac70d950adf984617ac51b101e5995cb6412bd23",
+      "font_sha256": "64e3555d48dca2f4419cd7b70f93a06ad0a4341ba57a1f2f7b2c959f573b6ece",
+      "raster_sha256": "15141c5af401d6e616eb1dd9ef6a61bd6450a0c0715783303fea7856cc763116",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Retry native restores three upper fingers. All four whole reference specimens inspected; attached bowl shoulder follows coherent CCZ topology. Actual Regular400 preserves branches and counter but first body crossbar has several conspicuous wavy humps and comb rail has angular microsegments; enlarged proof confirms centerline roughness.",
+      "requested_corrections": [
+        "Smooth comb rail and first body crossbar to single intentional trajectories, preserving terminals, three fingers, bowl shoulder contact, and all other paths."
+      ]
+    }
   ]
 }

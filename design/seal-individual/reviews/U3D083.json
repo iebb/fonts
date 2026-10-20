@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D083",
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": [
+    "Compared all four available specimens with full-resolution second-attempt native and actual Regular400 proof. Retry restores gap between neighboring upper fork prongs and gap between left upper lower-right leg and lower oval.",
+    "Two upper three-prong forks, their middle bars and bent descending legs, detached left three-bar staff, lower oval with two internal bars forming3 counters, and two downward feet are complete.",
+    "Actual Regular400 proof preserves both restored gaps and all branches/counters. Exact second-attempt native and geometry now accepted at default400."
+  ],
+  "source_png": "design/seal-individual/U3D083.png",
+  "source_png_sha256": "8ceea96f2b2798e72826560f1068a2c9ae44aca00111fba754ceeb9d231c3050",
+  "reference_overview": "reference/seal/individual/U3D083.png",
+  "reference_png_sha256": "ff257a33a3a2e23fcd8fa89949b670e63411ec1ea59557076652b4cb44520f13",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "9e2791699ef6471e9a00c5132f76aaf5288d3e52e90f28affd3fe50b5835af59",
+      "verdict": "match",
+      "notes": [
+        "Compared all four available THX, CCZ, QJZ and DYC specimens with original native drawing on white.",
+        "Preserves detached left three-bar staff, two upper fork/trident components with middle bars and their descending bent legs, and lower single rounded enclosure.",
+        "Lower enclosure has two horizontal internal bars making exactly three counters, plus two short separate descending feet. Both upper tridents retain three upward prongs and their required lower bent branches.",
+        "Native preserves a coherent attested construction and all required component detachments. Compiled font geometry and heavy weights require separate reviews."
+      ],
+      "reference_png_sha256": "ff257a33a3a2e23fcd8fa89949b670e63411ec1ea59557076652b4cb44520f13"
+    },
+    {
+      "source_png_sha256": "9e2791699ef6471e9a00c5132f76aaf5288d3e52e90f28affd3fe50b5835af59",
+      "verdict": "mismatch",
+      "notes": [
+        "Independently compared original native drawing on white against every available THX, CCZ, QJZ and DYC chart specimen; unavailable columns remain excluded.",
+        "Full-resolution native inspection overrides the earlier small-sheet assessment: neighboring upper fork prongs are fused, whereas all four references show separate upper fork components.",
+        "Left upper component lower-right descending leg is also fused into the lower three-counter oval, closing the reference gap. Both joins recur in the actual Regular400 font. The two lower feet and three oval counters themselves remain present.",
+        "This native PNG assessment is independent of compiled-font geometry acceptance; not specialist paleographic certification."
+      ],
+      "reference_png_sha256": "ff257a33a3a2e23fcd8fa89949b670e63411ec1ea59557076652b4cb44520f13"
+    }
+  ]
+}

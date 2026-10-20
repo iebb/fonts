@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D086",
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": [
+    "Compared available enlarged THX,CCZ,QJZ specimens (DYCunavailable) with second-attempt native and actualfont.",
+    "Retry restores both inward diagonal branches attached to innerhook leftwall. Outer rightlongcourse with three upper leftward branches, detachedstaff, and innerhook with long lowerreturn are preserved.",
+    "Actual Regular400 keeps both required attachments and open spaces without extra counters; exact retrygeometry accepted."
+  ],
+  "source_png": "design/seal-individual/U3D086.png",
+  "source_png_sha256": "ba7c34f506d35284dbe17f7cc0f78ac7daa79b6677d0852abddbe5557e160817",
+  "reference_overview": "reference/seal/individual/U3D086.png",
+  "reference_png_sha256": "0278a97acc4e78ccde95645c0c2ff6b28b97b6b85462714b441eafdd216ea9ee",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "f4f0bd9199a3fe8580234d2024e9c545a5ff72e6345ee20ecc65e25cb9f1949a",
+      "verdict": "mismatch",
+      "notes": [
+        "Compared enlarged THX,CCZ,QJZ (DYCunavailable) to native and actualfont.",
+        "All three references have TWO internal short diagonal branches attached to innerhook leftwall. Native and actualfont instead contain two detached diagonal marks.",
+        "This changes required contacts and increases large inkcomponents from3(staff,outerrightcourse,innerhook+branches) to5. Hold until both inward marks connect correctly to innerhook leftwall without adding counters."
+      ],
+      "reference_png_sha256": "0278a97acc4e78ccde95645c0c2ff6b28b97b6b85462714b441eafdd216ea9ee"
+    }
+  ]
+}

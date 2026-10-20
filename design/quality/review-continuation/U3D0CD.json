@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0CD",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0CD.json",
+  "source_png_sha256": "2a07099e6da43f688d33528f9e59b59b25154bad8e6e81f4be5d30da5910451f",
+  "source_png": "design/seal-individual/U3D0CD.png",
+  "reference_png_sha256": "5b45cf0fe8afca19bebf10d371f1cde922f4fc557e4d045c9cdddc0b57532e5a",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0CD.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/CD10D148-repaired-v2/sources/U3D0CD.json",
+  "source_json_sha256": "551ff9fedc4d9c0859e85fe886f24adf1d1680ad28c4721d45275a4fb25cbcab",
+  "geometry_sha256": "68021dda4c1c7084bacf543a53b05bc721ac804ad3529676769c96399208e90d",
+  "font_file": "design/quality/proofs/continuation/CD10D148-repaired-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "db48fc88980abb67f3b1854657673999786fc981bebf5beae146a8dc6f733525",
+  "raster_file": "design/quality/proofs/continuation/CD10D148-repaired-v2/U3D0CD-Regular400.png",
+  "raster_sha256": "b265f22d47949b7a45d2fc5e2af37868188e4983769334d2c6d18cca1a0ce65f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      232,
+      -64,
+      792,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Repaired actual font inspected full and enlarged upper branch shoulder against previously inspected full native and all four whole specimens. Smoother outer curve removes prior angular kink, preserving all four terminals and lower branch. THX whole topology and shared Regular400 pen retained. Native remains match.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "40ab6a296566af7846a2f709c59c398f2526243e6481a30836639d8bbb8efaa3",
+      "source_json_sha256": "71469a24188133868b9bb5329be552e4c4f6ad9aba68f0afa8bc8c331daf3b78",
+      "font_sha256": "42cc779096c5f40e85cb24c07ba0b8b0fc729f21f41dba3a24a3c49a780d0df7",
+      "raster_sha256": "4099f7cb4f2a91946c95bd94de05f8e292cd8e4108877578bbc90e776690e7cd",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged upper junction inspected. Native matches THX four-terminal branch form. Actual tracking creates abrupt direction changes on upper outer curve adjacent to top branch junction, visible as kinked shoulder. Branch identity retained but trajectory needs smoothing.",
+      "requested_corrections": [
+        "Smooth upper outer course through branch junction to continuous intentional curvature, preserving all four terminals and lower branch."
+      ]
+    }
+  ]
+}

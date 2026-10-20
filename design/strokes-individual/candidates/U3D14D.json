@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -4340,162 +4340,24 @@
       "maximum_fit_error_font_units": 2.4003
     },
     {
-      "points": [
-        [
-          588.8818,
-          628.1406
-        ],
-        [
-          588.8818,
-          631.4121
-        ],
-        [
-          592.1534,
-          634.6837
-        ],
-        [
-          592.1534,
-          637.9553
-        ],
-        [
-          595.4249,
-          637.9553
-        ],
-        [
-          595.4249,
-          641.2268
-        ],
-        [
-          598.6965,
-          641.2268
-        ],
-        [
-          598.6965,
-          644.4984
-        ],
-        [
-          601.9681,
-          644.4984
-        ],
-        [
-          601.9681,
-          647.77
-        ],
-        [
-          605.2396,
-          647.77
-        ],
-        [
-          605.2396,
-          651.0415
-        ],
-        [
-          608.5112,
-          651.0415
-        ],
-        [
-          608.5112,
-          654.3131
-        ],
-        [
-          611.7827,
-          654.3131
-        ],
-        [
-          611.7827,
-          657.5847
-        ],
-        [
-          615.0543,
-          657.5847
-        ],
-        [
-          615.0543,
-          660.8562
-        ],
-        [
-          618.3259,
-          664.1278
-        ],
-        [
-          621.5974,
-          667.3994
-        ],
-        [
-          621.5974,
-          670.6709
-        ]
-      ],
       "graph_edges": [
         15
       ],
       "is_loop": false,
-      "path": "M 588.882,628.141 C 597.863,648.3 611.13,649.036 621.597,670.671",
-      "commands": [
-        [
-          "M",
-          588.8818,
-          628.1406
-        ],
-        [
-          "C",
-          597.8626,
-          648.3003,
-          611.1297,
-          649.0361,
-          621.5974,
-          670.6709
-        ]
-      ],
-      "maximum_fit_error": 1.976,
+      "path": "M 576,618 L 626,675",
       "curve_segments": 1,
       "id": "stroke-8",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.604,
-      "maximum_fit_error_font_units": 1.976
+      "closed": false
     },
     {
-      "points": [
-        [
-          595.4249,
-          474.377
-        ],
-        [
-          598.6965,
-          474.377
-        ],
-        [
-          601.9681,
-          471.1054
-        ],
-        [
-          601.9681,
-          467.8339
-        ]
-      ],
       "graph_edges": [
         16
       ],
       "is_loop": false,
-      "path": "M 595.425,474.377 L 601.968,467.834",
-      "commands": [
-        [
-          "M",
-          595.4249,
-          474.377
-        ],
-        [
-          "L",
-          601.9681,
-          467.8339
-        ]
-      ],
-      "maximum_fit_error": 2.3133,
+      "path": "M 626,449 L 510.364,535",
       "curve_segments": 1,
       "id": "stroke-9",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.7071,
-      "maximum_fit_error_font_units": 2.3133
+      "closed": false
     },
     {
       "points": [
@@ -4722,74 +4584,55 @@
       "maximum_fit_error_font_units": 0.0
     },
     {
-      "points": [
-        [
-          418.5968,
-          644.4984
-        ],
-        [
-          418.924,
-          644.4984
-        ]
-      ],
       "graph_edges": [
         17
       ],
       "is_loop": false,
-      "path": "M 418.597,644.498 L 418.924,644.498",
-      "commands": [
-        [
-          "M",
-          418.5968,
-          644.4984
-        ],
-        [
-          "L",
-          418.924,
-          644.4984
-        ]
-      ],
-      "maximum_fit_error": 0.0,
+      "path": "M 392,675 L 448,618",
       "curve_segments": 1,
       "id": "stroke-11",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "closed": false
     },
     {
-      "points": [
-        [
-          421.8684,
-          471.1054
-        ],
-        [
-          422.1955,
-          471.1054
-        ]
-      ],
       "graph_edges": [
         18
       ],
       "is_loop": false,
-      "path": "M 421.868,471.105 L 422.195,471.105",
-      "commands": [
-        [
-          "M",
-          421.8684,
-          471.1054
-        ],
-        [
-          "L",
-          422.1955,
-          471.1054
-        ]
-      ],
-      "maximum_fit_error": 0.0,
+      "path": "M 398,449 L 448,499",
       "curve_segments": 1,
       "id": "stroke-12",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "closed": false
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore four diagonal marks from collapsed native tracking. Choose complete THX construction for vector: detached tridents, central enclosure top stub, open-bottom outer course, attached center cross, detached upper-left/lower-left/lower-right diagonals, upper-right diagonal joining central vertical just above crossbar. Thus deliberately extend upper-right native diagonal to staff, resolving vector contact choice explicitly rather than copying uncertain native hybrid. All other8trajectories unchanged.",
+      "changes": [
+        {
+          "stroke_id": "stroke-8",
+          "previous_path": "M 588.882,628.141 C 597.863,648.3 611.13,649.036 621.597,670.671",
+          "repaired_path": "M 576,618 L 626,675"
+        },
+        {
+          "stroke_id": "stroke-9",
+          "previous_path": "M 595.425,474.377 L 601.968,467.834",
+          "repaired_path": "M 626,449 L 510.364,535"
+        },
+        {
+          "stroke_id": "stroke-11",
+          "previous_path": "M 418.597,644.498 L 418.924,644.498",
+          "repaired_path": "M 392,675 L 448,618"
+        },
+        {
+          "stroke_id": "stroke-12",
+          "previous_path": "M 421.868,471.105 L 422.195,471.105",
+          "repaired_path": "M 398,449 L 448,499"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "Native contact remains uncertain/mismatch: upper-right diagonal detached while THX attaches; other whole variants differ at outer contacts and central cross. Vector selects coherent THX contacts, but does not certify native. Original PNG and provenance unchanged.",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

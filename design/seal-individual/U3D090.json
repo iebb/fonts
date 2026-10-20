@@ -1,0 +1,106 @@
+{
+  "code_point": "U+3D090",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Make ONE tiny structural deletion in FIRST attached monoline glyph U+3D090. Preserve every other stroke, spacing, proportions, thickness, transparency, left3-bar I, both horizontal crossbars and lower curved body exactly. SECOND image gives fourhistorical specimens. At the VERY TOP is a horizontal curved CAP with descending prongs. The firstimage wrongly has FOUR downward fingers counting its leftmost curved return. Reference has exactly THREE downward fingers IN TOTAL including the leftmost curved return. Delete ONE extra middle descending finger, leaving: (1) cap's leftmost rounded downward return, (2) ONE central short downward-curving finger, (3) ONE rightmost downward-curving finger. There must be exactly THREE descending endtips under this topcap, with clear gaps between them, never four. Keep topcap itself and its position, do not add labels, do not change any lowerglyph structure. Uniform-width black strokes with round caps andjoins on transparent background. Only one glyph.",
+  "reference": "reference/seal/individual/U3D090.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "previous_attempt": "design/seal-individual/attempts/U3D090-attempt-1.json",
+  "preliminary_notes": "Second native attempt reduces top comb from4 fingers to3 total including leftmost return. Independent review pending.",
+  "original_generated_file": "/workspace/generated_images/exec-0d963932-a52e-464b-830d-ffdbbe3c6e79.png",
+  "output_file": "design/seal-individual/U3D090.png",
+  "sha256": "32e46171e5251a187a7be8f5e198a40519ffa5710425f13e90f070c8b4678f45",
+  "reference_sha256": "f8eafcb34d0f2231821fba934df7460cf483a7dec0ba9b12c80c87886c55948b",
+  "reference_metadata_sha256": "7fe1b953048743c5095f66c061f0132f2af2c34668cc4444681084adc8acbff0",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D090",
+    "page": 4,
+    "label_bbox": [
+      236.10000610351562,
+      221.83018493652344,
+      265.5594177246094,
+      232.98995971679688
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          220.10096740722656,
+          292.9800109863281,
+          245.27996826171875
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          220.6332794189453,
+          295.0000061035156,
+          245.67326965332032
+        ],
+        "source_label": "TH-00132"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          218.66017150878906,
+          316.8398742675781,
+          240.65997314453125
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          220.6332794189453,
+          321.6000061035156,
+          245.67326965332032
+        ],
+        "source_label": "C-00136"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          222.91415405273438,
+          345.33978271484375,
+          244.5359344482422
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          220.6332794189453,
+          348.3000061035156,
+          245.67326965332032
+        ],
+        "source_label": "K-00136"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          220.11215209960938,
+          370.2398681640625,
+          245.14793395996094
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          220.6332794189453,
+          375.0000061035156,
+          245.67326965332032
+        ],
+        "source_label": "D-00131"
+      }
+    }
+  }
+}

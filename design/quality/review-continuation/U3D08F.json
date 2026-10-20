@@ -3,7 +3,7 @@
   "codepoint": "U+3D08F",
   "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "uncertain",
+  "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D08F.json",
   "source_png_sha256": "4025ffd27799b933070ad463b67173685c50c0cfbcb6a19357f1027619c57009",
   "source_png": "design/seal-individual/U3D08F.png",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D08F.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-sixth-eight/sources/U3D08F.json",
-  "source_json_sha256": "ce97aaebd5b0cc47e6928bbbc2000ee6978c0954c6d49f366b2338dc9b5932a1",
-  "geometry_sha256": "f1b52bc03651ce9be78f0fe6f0c0ad3d8b7fa1f330332de07fa99b36847c13bd",
-  "font_file": "design/quality/proofs/continuation/review-sixth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "db7835af62541bbbaa723a39fd6a06df9589c0be4b91db46d4dd2f1c084ded02",
-  "raster_file": "design/quality/proofs/continuation/review-sixth-eight/U3D08F-Regular400.png",
-  "raster_sha256": "b6c126d10248d13b7eac001df177004837a5c7f0a679480339772e6b79aa447d",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D08F-THX-staff-gap-v1/sources/U3D08F.json",
+  "source_json_sha256": "1648f651730619733acc01fdad42b3576e238e767f17f1e825dc7d2691a128f5",
+  "geometry_sha256": "5715fbbd076fbbfc4f170dbb68a41cfc4d6136d5f0d32166a8bcd4fb3fd63d87",
+  "font_file": "design/quality/proofs/continuation/U3D08F-THX-staff-gap-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6bf109b4b450f5768cd4c9006ed3a976c4c93e61121289fd2b2f61f876e660ed",
+  "raster_file": "design/quality/proofs/continuation/U3D08F-THX-staff-gap-v1/U3D08F-Regular400.png",
+  "raster_sha256": "8e38ddc1a9114233389f42883167a2cc6609d143f20850f7cef53a5a37116ad7",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_contact_confirmation",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens and actual font inspected. Current upper-right stem joins top bar of bottom I as QJZ/DYC; left outer lower course remains detached as THX/CCZ. Cannot confidently identify coherent whole attested variant matching combined contacts. Branches and three upper counters otherwise present.",
-  "requested_corrections": [
-    "Confirm coherent whole variant supporting combined left-detached and right-joined relationship; otherwise choose THX whole variant and restore right stem to bottom I gap."
-  ],
+  "notes": "Repaired actual font inspected full and enlarged upper-right stem/bottom-staff gap against previously inspected full native and all four whole specimens. Clipped right stem now detached from bottom staff while left outer lower course remains detached: coherent THX whole topology. Three upper counters and all courses preserved. Native original combined contacts remain mismatch for selected THX variant.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f1b52bc03651ce9be78f0fe6f0c0ad3d8b7fa1f330332de07fa99b36847c13bd",
+      "source_json_sha256": "ce97aaebd5b0cc47e6928bbbc2000ee6978c0954c6d49f366b2338dc9b5932a1",
+      "font_sha256": "db7835af62541bbbaa723a39fd6a06df9589c0be4b91db46d4dd2f1c084ded02",
+      "raster_sha256": "b6c126d10248d13b7eac001df177004837a5c7f0a679480339772e6b79aa447d",
+      "regular400_verdict": "needs_contact_confirmation",
+      "native_verdict": "uncertain",
+      "notes": "Full native, all four enlarged whole specimens and actual font inspected. Current upper-right stem joins top bar of bottom I as QJZ/DYC; left outer lower course remains detached as THX/CCZ. Cannot confidently identify coherent whole attested variant matching combined contacts. Branches and three upper counters otherwise present.",
+      "requested_corrections": [
+        "Confirm coherent whole variant supporting combined left-detached and right-joined relationship; otherwise choose THX whole variant and restore right stem to bottom I gap."
+      ]
+    }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D107",
+  "verdict": "mismatch",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": [
+    "Native middle diamond has a continuous vertical divider creating two separate counters, whereas both available references show onecounter with short bottomattached upwardstub.",
+    "This source PNG remains mismatch even though bounded independently reviewed vectorclipping restores the compiledfont."
+  ],
+  "source_png": "design/seal-individual/U3D107.png",
+  "source_png_sha256": "e9ddc704d6121b349ac2e1522d1bff882d7aa8162618b6f76e575c1abf9d0066",
+  "reference_overview": "reference/seal/individual/U3D107.png",
+  "reference_png_sha256": "1070304407de6c5ef33abfe0cad12c101c5b62a73703db35f942f0de748e1dd7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ]
+}

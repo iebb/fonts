@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -1938,21 +1938,21 @@
         25
       ],
       "is_loop": false,
-      "path": "M 657.585,386.045 C 657.509,476.907 661.95,557.585 660.856,647.77",
+      "path": "M 657.585,386.045 C 657.5255506518731,457.11982459876396,660.2299680440656,521.9632524998499,660.8870567972236,589.9999999999999",
       "commands": [
         [
           "M",
-          657.5847,
-          386.0447
+          657.585,
+          386.045
         ],
         [
           "C",
-          657.5091,
-          476.9066,
-          661.9496,
-          557.585,
-          660.8562,
-          647.77
+          657.5255506518731,
+          457.11982459876396,
+          660.2299680440656,
+          521.9632524998499,
+          660.8870567972236,
+          589.9999999999999
         ]
       ],
       "maximum_fit_error": 2.8247,
@@ -7024,6 +7024,14 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent THX whole variant: left outer course and right central stem both detached from lower three-bar staff. Native incorrectly joins right stem only. Crop only end of stroke5 at y590, retaining exact cubic upper portion and all other13paths.",
+      "stroke_id": "stroke-5",
+      "previous_path": "M 657.585,386.045 C 657.509,476.907 661.95,557.585 660.856,647.77",
+      "native_png_remains_mismatch": true
     }
   ]
 }

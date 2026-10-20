@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D115",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D115.json",
+  "source_png_sha256": "4c525e2cdb7b43649844d0d24458767cb538235df0452a8d92b56b700890b056",
+  "source_png": "design/seal-individual/U3D115.png",
+  "reference_png_sha256": "5f29a36d780111ca4ed98ffaa822640accff5ec87b08ec6b816fbd3223bf2fab",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D115.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D115-smooth-descent-v2/sources/U3D115.json",
+  "source_json_sha256": "0efe61b763319254833a755253e0ca74ce5e89560f52611a853cebcd63e04e1b",
+  "geometry_sha256": "d258c9bf4500d3bc4ca0941b8ef1832ae07be69f0974055e2a4aac967ccd7c71",
+  "font_file": "design/quality/proofs/continuation/U3D115-smooth-descent-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e3930565edd5a0635ef5152afcc51a3f710273a7e71b7c6c44ae937d187c2182",
+  "raster_file": "design/quality/proofs/continuation/U3D115-smooth-descent-v2/U3D115-Regular400.png",
+  "raster_sha256": "96b4586157130e53c9aea2a27f4761a8c0f18b38316c1cf093f9c2c640ace643",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      257,
+      -64,
+      767,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Revised actual Regular400 font inspected full and enlarged lower return/descent crop against previously inspected full selected first native and all four whole references. Abrupt notch removed; lower outer descent now continuous smooth curve. Exactly two lozenges and short free inner stub retained, all right components unchanged. Native remains mismatch for original extra third counter.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "80e130fcd2eb830184f4e4fbfb161e1ac5bafc4c326f7af9928b2770c50ee728",
+      "source_json_sha256": "8dad334878974051c9ec1fc8e45cb5f0af7a14516565c0a49518c412aabc4649",
+      "font_sha256": "780e6b75f7fefbaef0abce3a36d564e25456f2b85d12150a8cc12bde69da4015",
+      "raster_sha256": "9fa7e12c6e7b37244e1029b2e7bae23dc07f49562005eeae164de0b58e831f0e",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "mismatch",
+      "notes": "Selected first native inspected full against all four enlarged whole specimens: extra third lozenge absent from references. Bounded actual-font repair restores two lozenges and short free lower stub. Full font and enlarged left component inspected; lower-right long descent now has abrupt inward notch where outer return joins descent, unlike intentional smooth trajectory in native/references. Structural correction sound but trajectory held.",
+      "requested_corrections": [
+        "Smooth outer lower-right return-to-long-descent transition around proof x550,y770; preserve endpoints, two counters, short free stub and all other paths."
+      ]
+    }
+  ]
+}

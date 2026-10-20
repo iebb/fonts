@@ -5,7 +5,7 @@
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D146.json",
-  "source_png_sha256": "b6e4380eb8997ec77050d348d8b7f1dc29f65e6518608498a1ea79e7a00175c9",
+  "source_png_sha256": "c7d73a3458daa548d56bb8ab80f1001a09826555991773a8c4137595f94a91d3",
   "source_png": "design/seal-individual/U3D146.png",
   "reference_png_sha256": "c17989e141c86caddeac326192a9ff98a09cfbd2c6d5d8da2d368f7b8edbd7a0",
   "reviewed_specimens": [
@@ -16,33 +16,29 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D146.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-146-attempt2/sources/U3D146.json",
-  "source_json_sha256": "c3e25390ab092c573d99cadade1977e01ceb408c33eb555c24e945cc80f2338b",
-  "geometry_sha256": "49e89f53966b138fcbdf9f1c7a432fd656453e28ba2e0baf8935dd60efa380ff",
-  "font_file": "design/quality/proofs/continuation/review-146-attempt2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "c6944701edddf41d2d782bbf1eecef85b32a0841629a6fef71c800be79f1b773",
-  "raster_file": "design/quality/proofs/continuation/review-146-attempt2/U3D146-Regular400.png",
-  "raster_sha256": "fbb19f2b445dcd801c21d6bd0211c0521d8530f5ce09dc30197fcd3c965e3627",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D146-first-plus-slant-v2/sources/U3D146.json",
+  "source_json_sha256": "2992938ccabb2c3c3e249ed2511c3f4cc323599232f7941574f311f88c51ef08",
+  "geometry_sha256": "2ae3f4199e624cda128c55c35fc3125b3d29962e13ebdaa59706c0ca075b6bd1",
+  "font_file": "design/quality/proofs/continuation/U3D146-first-plus-slant-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "24b2ab1a3b73568e8b02c1c5ae2032986033e1e8899911ef3126f3e63acfdb19",
+  "raster_file": "design/quality/proofs/continuation/U3D146-first-plus-slant-v2/U3D146-Regular400.png",
+  "raster_sha256": "0c918e3c373d9224f00c66db4ecd4bba6aff73130ec35da6668830e0fdf47e98",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      224,
+      233,
       -64,
-      800,
+      791,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole reference specimens and actual font inspected. Retry adds outward upper slant but removes a horizontal; more seriously right body has no inner vertical staff at all. All references retain inner staff and three stacked counters between it and left descending wall. Current right body has zero counters below diamond and only slant plus two horizontals. Native remains mismatch after two attempts.",
-  "requested_corrections": [
-    "Add inner straight vertical from lower diamond junction through right body to bottom bar, keeping left descending wall distinct.",
-    "Restore additional middle horizontal so upper outward slant plus three horizontal levels form three stacked counters.",
-    "Choose one coherent attested whole variant for diamond interior/upstub and top-fork attachment; QJZ/DYC allow unpierced diamond. Preserve left components."
-  ],
+  "notes": "Selected first native inspected full against all four enlarged whole specimens: inner staff and three body counters present, missing outward upper slant. Repaired actual font inspected full and enlarged diamond/body: upper slant restored with clear gap above first horizontal, all three stacked body counters and three horizontal levels retained. Unpierced diamond and right trident contact are coherent QJZ-like attested topology. Native remains mismatch for missing upper slant.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
@@ -67,6 +63,20 @@
           "feature": "rightbody upperprojectingbranch",
           "action": "Restore outward/slantingupperbranch beneathdiamond and above remainingthreebars, choosing one coherentattested eye/fork/bodyconstruction."
         }
+      ]
+    },
+    {
+      "geometry_sha256": "49e89f53966b138fcbdf9f1c7a432fd656453e28ba2e0baf8935dd60efa380ff",
+      "source_json_sha256": "c3e25390ab092c573d99cadade1977e01ceb408c33eb555c24e945cc80f2338b",
+      "font_sha256": "c6944701edddf41d2d782bbf1eecef85b32a0841629a6fef71c800be79f1b773",
+      "raster_sha256": "fbb19f2b445dcd801c21d6bd0211c0521d8530f5ce09dc30197fcd3c965e3627",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole reference specimens and actual font inspected. Retry adds outward upper slant but removes a horizontal; more seriously right body has no inner vertical staff at all. All references retain inner staff and three stacked counters between it and left descending wall. Current right body has zero counters below diamond and only slant plus two horizontals. Native remains mismatch after two attempts.",
+      "requested_corrections": [
+        "Add inner straight vertical from lower diamond junction through right body to bottom bar, keeping left descending wall distinct.",
+        "Restore additional middle horizontal so upper outward slant plus three horizontal levels form three stacked counters.",
+        "Choose one coherent attested whole variant for diamond interior/upstub and top-fork attachment; QJZ/DYC allow unpierced diamond. Preserve left components."
       ]
     }
   ]

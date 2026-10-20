@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D10D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D10D.json",
+  "source_png_sha256": "ffe74470c367b50fb65af906f0e4b25588e672d2a8d9d2559def3725a759fb08",
+  "source_png": "design/seal-individual/U3D10D.png",
+  "reference_png_sha256": "2f98303e48fcca3f5e10f51bc6b75572a01ba093bbd30297fc8ae87af00771c8",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D10D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/CD10D148-repaired-v2/sources/U3D10D.json",
+  "source_json_sha256": "0cedcd2ebc58980a59b44dd19f7d9d492dbce5f7ed417bdf6bb25f5ad8242efc",
+  "geometry_sha256": "8ce3083c18ec8601ab76418f572383fd85b5a6f3960efd659f2d5a57bc0cd698",
+  "font_file": "design/quality/proofs/continuation/CD10D148-repaired-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "db48fc88980abb67f3b1854657673999786fc981bebf5beae146a8dc6f733525",
+  "raster_file": "design/quality/proofs/continuation/CD10D148-repaired-v2/U3D10D-Regular400.png",
+  "raster_sha256": "b91b5053eccf4f16eeb362090eaf0d6dbec50a19009af39fbefaa9c8a9742ef5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      250,
+      -64,
+      774,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Repaired actual font inspected full and enlarged lower-right bowl against previously inspected native and all four whole specimens. Added lower-left outer return restores third left-facing terminal with continuous shoulder; long inner descender and gap remain. Upper fork gap, four interior bars and all other courses preserved. Native remains mismatch for missing return.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7905e4ab8ea132ba14ef4acf198260bf99f4479f6375ca12af260d44a9d394aa",
+      "source_json_sha256": "46501745002b47e36358b11a34c5e996aab2b9a882eab389b804bbb66f61b2f0",
+      "font_sha256": "42cc779096c5f40e85cb24c07ba0b8b0fc729f21f41dba3a24a3c49a780d0df7",
+      "raster_sha256": "8d8ea0d2280821cf2802aa38078ab81644a14abf9587302645554b2d5febafd1",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged lower-right bowl inspected. Retry restored upper fork gap and detached fourth interior bar. Lower-right bowl still lacks lower-left returning branch: THX/CCZ/QJZ/DYC all show three left-facing terminals on this lower-right structure, but native and font have only outer top and inner middle terminals plus straight downward stem. Missing third lower-left return is structural.",
+      "requested_corrections": [
+        "Extend outer bowl return from current junction leftward/downward to restore third left-facing terminal below inner middle terminal; preserve long descending inner staff.",
+        "Keep upper fork gap, four interior bars, and all other courses unchanged."
+      ]
+    }
+  ]
+}

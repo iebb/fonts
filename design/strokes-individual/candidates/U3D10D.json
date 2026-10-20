@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -5488,6 +5488,27 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.88,
       "maximum_fit_error_font_units": 2.879
+    },
+    {
+      "id": "restored-third-lower-left-return",
+      "closed": false,
+      "path": "M 700.115,700.115 C 676,713 639,723 598.697,732.831"
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "All four historical specimens show third lower-left return from outer bowl beneath inner middle terminal. Restore only missing branch from existing outer-bowl junction, preserving long descending inner staff, upper fork gap, all four interior bars and every original trajectory.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "restored-third-lower-left-return",
+          "closed": false,
+          "path": "M 700.115,700.115 C 676,713 639,723 598.697,732.831"
+        }
+      ],
+      "native_artwork_verdict": "Native attempt2 lacks third lower-left bowl return; vector-only restoration. Native bytes and mismatch verdict retained.",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

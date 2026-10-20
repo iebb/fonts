@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D103",
+  "verdict": "mismatch",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": [
+    "Second-attempt native restores two tallstems/four top+bottom terminals but middlebar wrongly bridges centralgap.",
+    "Both available THX andCCZ have uninterrupted centralgap with outward-only bars. This native PNG remains mismatch even after separately reviewed vectorbar split."
+  ],
+  "source_png": "design/seal-individual/U3D103.png",
+  "source_png_sha256": "b223cbfba16a7469fec3c4e9ec9c34bfedd69416376e8ee7121807d0bd3c3dbe",
+  "reference_overview": "reference/seal/individual/U3D103.png",
+  "reference_png_sha256": "816d5052b3b8bd56663017ff1a1d75f32f78e9a3f03864b1d2bfddf2fd06f665",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ"
+  ],
+  "unavailable_specimens": [
+    "QJZ",
+    "DYC"
+  ],
+  "limitations": [
+    "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
+    "Does not verify historical writing order, exact metrics, or final font stroke width.",
+    "Verdict applies only to the source PNG hash recorded here."
+  ]
+}

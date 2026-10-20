@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D096",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D096.json",
+  "source_png_sha256": "59917d6f953d69852eba27e6822987be7d930fdf9b5fe21dfc420a4c4782b6ba",
+  "source_png": "design/seal-individual/U3D096.png",
+  "reference_png_sha256": "1727bc2d75d0d343ae4b1f1ac4fdb853fe1237a43a11c059b109b585452c7be7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D096.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D096-roof-gap-v1/sources/U3D096.json",
+  "source_json_sha256": "a71da2a088f1c95a761b7eaeb3614bf8a2e59c6a511e9952610b00bce4db5420",
+  "geometry_sha256": "55cedf74a677aa67e55b377a4f5cd7c895c140cf6046f4d5bdd4c32f665cb386",
+  "font_file": "design/quality/proofs/continuation/U3D096-roof-gap-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f75fcd705767d450b405b00bc03ef24501c474ff4e87a11ba42a5641b0b98b57",
+  "raster_file": "design/quality/proofs/continuation/U3D096-roof-gap-v1/U3D096-Regular400.png",
+  "raster_sha256": "19c191286c488e295e491fe9ee8cb44c3371dbd6381a68da57699376959216c7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      249,
+      -64,
+      775,
+      704
+    ]
+  },
+  "regular400_verdict": "match",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Independently re-viewed full unchanged native, all four complete historical specimens, repaired actual Regular400 font, and enlarged roof-right/bowl gap. Cropped tracking connector is removed; clearly visible white gap now separates roof terminal from upper-right bowl while the closed bowl, long return, roof left terminal, short inner return and left three-bar staff are retained. All other source trajectories preserved. Native match remains valid.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "source_json_sha256": "994685d2340cb42e96bbe1e528475c05e2ece9aea8918cb6ccb00d1d97ec0a91",
+      "geometry_sha256": "8c3e1bb156822849ef944b99656f1d01e8db53df365d16b81193e0fcb705a854",
+      "font_sha256": "8959493c12b75d4bec6eb8545ab3d723252c9b2574102964b37233ba698837bf",
+      "raster_sha256": "c6a46a7745d562cb1c7091c4928dd44466cd5088b96ab87d44441cd9d0e5c1b9",
+      "regular400_verdict": "needs_structural_repair",
+      "accepted": false,
+      "notes": "Native follows open-roof THX construction with detached right inner bowl and left returning arc plus short inner return. Enlarged native preserves a narrow white gap between roof right terminal and upper-right bowl. Actual Regular400 introduces a definite connector from roof terminal into bowl, changing the detached topology. All four specimens and full native/font inspected; enlarged junction confirms bridge."
+    }
+  ]
+}

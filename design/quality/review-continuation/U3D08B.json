@@ -3,9 +3,9 @@
   "codepoint": "U+3D08B",
   "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "uncertain",
+  "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D08B.json",
-  "source_png_sha256": "388c03523993f9ef6708fe354eab0f85ee94c7a73c7dc5f84e3371efc84f7461",
+  "source_png_sha256": "eb965ef7d95b28fdfd77a6ed9aeaf379409ea0f383d3bf22f271078d6e6f29b1",
   "source_png": "design/seal-individual/U3D08B.png",
   "reference_png_sha256": "e3321e6282b0608993a257c8532e881f8acb79cfc2fe759c1f050c3e23ae51be",
   "reviewed_specimens": [
@@ -17,47 +17,54 @@
     "CCZ"
   ],
   "geometry_source": "design/strokes-individual/candidates/U3D08B.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifth-eight/sources/U3D08B.json",
-  "source_json_sha256": "462b9eab44090119c2e9d9f21ded45634841ee04d924ff6f8c64e5a5e79446a1",
-  "geometry_sha256": "b4fb7e366b7c036c017862eed15da0629eac9c8641ea0e6a70c738b74fcddc0b",
-  "font_file": "design/quality/proofs/continuation/review-fifth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
-  "raster_file": "design/quality/proofs/continuation/review-fifth-eight/U3D08B-Regular400.png",
-  "raster_sha256": "6160c3a3866d3bb2bf0f33c6ce92ed41cb648f501aaaf5a18cea97c089c7c47a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D08A-08B-THX-contacts-v1/sources/U3D08B.json",
+  "source_json_sha256": "03648900f32a05100c87eb31589ffc757914ad1544e16b0a2f0f25865e6ae376",
+  "geometry_sha256": "a7d84910c595785b7170bd56ed5e0ca22ca0e2dc58fa538775b79fc11a8c8987",
+  "font_file": "design/quality/proofs/continuation/U3D08A-08B-THX-contacts-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3775da69252173095e06ac35cb6a4ca0629251b0fd297ac35cbc63d224ec9f0c",
+  "raster_file": "design/quality/proofs/continuation/U3D08A-08B-THX-contacts-v1/U3D08B-Regular400.png",
+  "raster_sha256": "2050a6fca923bf2162c8bf6c02cc36c145af08bb1d6f7322be18a96af59e9bfa",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      220,
+      213,
       -64,
-      804,
+      811,
       704
     ]
   },
-  "regular400_verdict": "needs_contact_confirmation",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": [
-    "Inspected fullnative, actualfont and enlarged allavailable whole specimens. All mainbars, pairedinteriormarks, loweroval/counters and outercomponents are present.",
-    "Contact construction is not confidently matched to one coherentwholevariant: THX attaches upper interior pairedlegs into cover sidewalls/neighboring lowercourse, whereas native/actualdetach theselegs from cover. Other sourcefamilies vary both coverconstruction and legcontacts.",
-    "This is a contact/variantuncertainty rather than an omittedbar claim. Hold acceptance until explicit coherentattestedwholeform is selected and required contacts independently confirmed."
-  ],
-  "requested_corrections": [
-    {
-      "feature": "interiorlegs/cover contacts",
-      "action": "Compare enlarged wholevariants and select one coherent construction; preserve its specific leg-to-wall/neighboringcourse contacts. Do not certify merely from barcounts or blend incompatible cover/interior choices."
-    }
-  ],
+  "notes": "Full retry2 native, enlarged THX/QJZ/DYC whole specimens and repaired actual Regular400 full font plus enlarged interior contacts inspected; CCZ unavailable. Top internal bar now clears cover walls, right upper leg joins right cover wall, shared left upper/lower stem restored with lower terminal free. Right upper bowl and lower staff separated; separate bottom oval retains three counters. Coherent THX whole topology. Native remains mismatch for joined bar/walls and missing shared left stem.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
   ],
-  "detail_review": {
-    "all_specimen_enlargement_sha256": "b739b8ce6014b00921f23f288179ddb11ba97fdba5e607c6b4891e0d8785205a",
-    "native_inspection_sha256": "52d948c523cb8eae75795dcd11ace355740fecbb3665bc33fdeb45ef56805a96",
-    "method": "Fullnative and fullactualfont separately inspected; enlarged allavailable whole-reference specimens used for individual component/branch/contact/counter comparison."
-  }
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b4fb7e366b7c036c017862eed15da0629eac9c8641ea0e6a70c738b74fcddc0b",
+      "source_json_sha256": "462b9eab44090119c2e9d9f21ded45634841ee04d924ff6f8c64e5a5e79446a1",
+      "font_sha256": "98547a196b354262ff4106537e26488918239e9a859a117115eab86536bf6fae",
+      "raster_sha256": "6160c3a3866d3bb2bf0f33c6ce92ed41cb648f501aaaf5a18cea97c089c7c47a",
+      "regular400_verdict": "needs_contact_confirmation",
+      "native_verdict": "uncertain",
+      "notes": [
+        "Inspected fullnative, actualfont and enlarged allavailable whole specimens. All mainbars, pairedinteriormarks, loweroval/counters and outercomponents are present.",
+        "Contact construction is not confidently matched to one coherentwholevariant: THX attaches upper interior pairedlegs into cover sidewalls/neighboring lowercourse, whereas native/actualdetach theselegs from cover. Other sourcefamilies vary both coverconstruction and legcontacts.",
+        "This is a contact/variantuncertainty rather than an omittedbar claim. Hold acceptance until explicit coherentattestedwholeform is selected and required contacts independently confirmed."
+      ],
+      "requested_corrections": [
+        {
+          "feature": "interiorlegs/cover contacts",
+          "action": "Compare enlarged wholevariants and select one coherent construction; preserve its specific leg-to-wall/neighboringcourse contacts. Do not certify merely from barcounts or blend incompatible cover/interior choices."
+        }
+      ]
+    }
+  ]
 }

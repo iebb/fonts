@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D14D",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "uncertain",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D14D.json",
+  "source_png_sha256": "f57f6238f5af523e0e3fbab39ae2ba45e597ff3786b299de8aa0c8dd737d18de",
+  "source_png": "design/seal-individual/U3D14D.png",
+  "reference_png_sha256": "43568d8370eb457414d32dcf6f578f33ac3145fe592f1990eda3699d5d73ac40",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D14D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D14D-restored-diagonals-THX-v1/sources/U3D14D.json",
+  "source_json_sha256": "e286fd2b886839f87089a23ad4b8911ca93876f3af4569f452fc5ce302beb765",
+  "geometry_sha256": "7001592f5b357f6b6dbbfd788a70e7fc4e22f16378510de97f97b7e81bd3e1bc",
+  "font_file": "design/quality/proofs/continuation/U3D14D-restored-diagonals-THX-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "cf5eba8fe113f65993fdc600d3100a5445ced18eeb9fbecb023ca63f69b5d9e5",
+  "raster_file": "design/quality/proofs/continuation/U3D14D-restored-diagonals-THX-v1/U3D14D-Regular400.png",
+  "raster_sha256": "28162b8a3f39c2f61c166ab2d72f64ee2cdfb0d69d6a7f01698f156314452cdc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      282,
+      -64,
+      742,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Repaired actual Regular400 font inspected full and enlarged interior against previously inspected full native and all four whole references. Four diagonal trajectories restored; upper-right joins center above crossbar following coherent THX whole variant, other three remain detached. Outer open-bottom course, upper stub and detached paired tridents preserved. Native remains uncertain for original detached upper-right contact.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e14a058be5675a598be056ecda2a7d8a70cb9fff0757deb7a6219a5fff66406b",
+      "source_json_sha256": "b1b5f5219f11ed2f77dfc8c329e73e844581c53d245fb5c048e08b8bc557f8e2",
+      "font_sha256": "a36d1f8924eb6a829189c335e99e81c6ee973eef25f7b550fa78d09ddd5c9c1d",
+      "raster_sha256": "a21615baf00a71a5b18dcf3d7fbf6d6bef8aeab01002d8e9d7fd746076327786",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "uncertain",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged interior crop inspected. Actual tracking collapses three native diagonal marks to dot-sized remnants and shortens fourth, losing required diagonal trajectories. Native itself separates upper-right diagonal from central cross, whereas THX attaches it; CCZ also decomposes central cross and QJZ/DYC change enclosure contacts. Coherent whole variant for current native contacts remains uncertain.",
+      "requested_corrections": [
+        "Restore full lengths and diagonal trajectories of all four interior marks from native, rather than dot remnants.",
+        "Confirm coherent whole variant for interior mark/cross contacts; THX whole choice requires upper-right diagonal join to center. Preserve outer open-bottom course and detached top tridents."
+      ]
+    }
+  ]
+}
