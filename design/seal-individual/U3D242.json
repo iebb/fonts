@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D242",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Correct ONE missing stroke in attached monoline Small Seal U+3D242. In RIGHT upper rounded loop there should be TWO STACKED COUNTERS. ADD ONE SHORT HORIZONTAL INNER CROSSBAR from the existing upright/left wall of that right upper loop to its rounded outer RIGHT wall, approximately halfway down the upper loop, splitting its currently single counter into TWO vertically stacked counters. Inspect THX reference: short horizontal bar immediately beneath roof of upper right loop. Preserve left separate loop with its middle horizontalbar, tiny upright above leftloop, paired detached topforks, right upper roof and tall upright, complete lower S-shaped descending tail. No other changes. Black constantwidth roundcaps/joins, transparentsquarecanvas, no labels/text/chart.\n",
+  "reference": "reference/seal/individual/U3D242.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-2b90a773-468e-4077-8e35-cb755da213ec.png",
+  "output_file": "design/seal-individual/U3D242.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "5b62f58cae88843d571acce1b5731041cc5a16fbbe537938a416167cf905bf19",
+  "reference_sha256": "3a7886937f927efa00ba7fabbd5731e7e0866736fa95437738d3dbea4ce65d9b",
+  "reference_metadata_sha256": "c3a5f3a0f15290c553111cc7a02891bee50ca557ce9dc26e65f6808812d2e2fd",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D242",
+    "page": 11,
+    "label_bbox": [
+      236.10000610351562,
+      665.6502075195312,
+      265.5594177246094,
+      676.8099975585938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 11,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          271.9800109863281,
+          663.9209594726562,
+          292.9800109863281,
+          689.0999755859375
+        ],
+        "crop_bbox": [
+          270.0000061035156,
+          664.453271484375,
+          295.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "TH-00545"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 11,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          301.44000244140625,
+          662.4801635742188,
+          316.8398742675781,
+          684.47998046875
+        ],
+        "crop_bbox": [
+          296.6000061035156,
+          664.453271484375,
+          321.6000061035156,
+          689.4332641601562
+        ],
+        "source_label": "C-00563"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 11,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          326.3399963378906,
+          666.7341918945312,
+          345.33978271484375,
+          688.35595703125
+        ],
+        "crop_bbox": [
+          323.3000061035156,
+          664.453271484375,
+          348.3000061035156,
+          689.4332641601562
+        ],
+        "source_label": "K-00544"
+      },
+      "DYC": {
+        "available": true,
+        "page": 11,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          354.8399963378906,
+          663.9321899414062,
+          370.2398681640625,
+          688.9679565429688
+        ],
+        "crop_bbox": [
+          350.0000061035156,
+          664.453271484375,
+          375.0000061035156,
+          689.4332641601562
+        ],
+        "source_label": "D-00541"
+      }
+    }
+  },
+  "previous_attempt": {
+    "native": "design/seal-individual/attempts/U3D242-attempt-1.png",
+    "provenance": "design/seal-individual/attempts/U3D242-attempt-1.json"
+  }
+}

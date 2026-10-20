@@ -1,6 +1,7 @@
 """Verify real variation interpolation preserves a pen stroke's trajectory."""
 
 import json
+import struct
 from pathlib import Path
 import sys
 import tempfile
@@ -8,11 +9,17 @@ import unittest
 
 import numpy as np
 from fontTools.ttLib import TTFont
+from fontTools.ttLib.tables.TupleVariation import TupleVariation
+from fontTools.ttLib.tables._g_l_y_f import GlyphCoordinates
+from fontTools.varLib.iup import iup_delta
 from fontTools.varLib.instancer import instantiateVariableFont
 from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from build_stroke_variable import build_variable, topology, stroke_width
+from build_stroke_variable import (
+    build_variable, encodable_variations, topology, stroke_width,
+    variation_payload_size,
+)
 
 
 class StrokeVariableTests(unittest.TestCase):
@@ -92,6 +99,74 @@ class StrokeVariableTests(unittest.TestCase):
             self.assertLessEqual(max(abs(a-b) for p, q in zip(actual.coordinates, expected.coordinates)
                                      for a, b in zip(p, q)), 1)
             self.assertEqual(instance["hmtx"][name][0], master["hmtx"][name][0])
+
+
+class LargeVariationTests(unittest.TestCase):
+    def test_oversized_raw_tuple_can_use_smaller_iup_encoding(self):
+        count = 40000
+        original = GlyphCoordinates([(0, 0)] * (count + 4))
+        ends = list(range(3, count, 4))
+        deltas = [(((i // 4) * 1399) % 6001 - 3000,
+                   ((i // 4) * 733) % 6001 - 3000) for i in range(count)]
+        deltas.extend([(0, 0)] * 4)
+        variation = TupleVariation({"wght": (0, 1, 1)}, deltas)
+        self.assertGreater(variation_payload_size(variation), 65535)
+        with self.assertRaises(struct.error):
+            variation.compile(["wght"])
+        parts = encodable_variations(variation, original, ends)
+        self.assertEqual(len(parts), 1)
+        self.assertLessEqual(len(parts[0].compile(["wght"])[1]), 65535)
+        self.assertEqual(iup_delta(parts[0].coordinates, original, ends), deltas)
+
+    def test_noninterpolable_large_tuple_splits_with_exact_additive_motion(self):
+        count = 40000
+        original = GlyphCoordinates([(0, 0)] * (count + 4))
+        deltas = [((i * 1399) % 6001 - 3000, (i * 733) % 6001 - 3000)
+                  for i in range(count + 4)]
+        variation = TupleVariation({"wght": (0, 1, 1)}, deltas)
+        parts = encodable_variations(variation, original, list(range(3, count, 4)))
+        self.assertGreater(len(parts), 1)
+        combined = [[0, 0] for _ in deltas]
+        for part in parts:
+            header, payload = part.compile(["wght"])
+            self.assertEqual(struct.unpack(">H", header[:2])[0], len(payload))
+            self.assertLessEqual(len(payload), 65535)
+            # A zero point-count byte addresses all points, including phantoms.
+            self.assertEqual(payload[0], 0)
+            xs, offset = TupleVariation.decompileDeltas_(len(deltas), payload, 1)
+            ys, offset = TupleVariation.decompileDeltas_(len(deltas), payload, offset)
+            self.assertEqual(offset, len(payload))
+            for total, x, y in zip(combined, xs, ys):
+                total[0] += x
+                total[1] += y
+        self.assertEqual(list(map(tuple, combined)), deltas)
+
+    def test_dense_variable_font_roundtrips_and_preserves_master_points(self):
+        with tempfile.TemporaryDirectory() as workspace:
+            root = Path(workspace)
+            source = root / "source"
+            source.mkdir()
+            points = [(200 + i % 25 * 10, 200 + i // 25 * 10)
+                      for i in range(1300)]
+            path = "M " + " L ".join(f"{x},{y}" for x, y in points)
+            (source / "UE200.json").write_text(json.dumps({
+                "codepoint": "U+E200", "viewBox": [0, 0, 1024, 1024],
+                "stroke_width": 43, "strokes": [{"path": path}],
+            }))
+            output = root / "font"
+            report = build_variable(source, output, "Dense Variation Fixture")
+            self.assertGreater(report["variation_encoding"]["oversized_original_tuples"], 0)
+            variable = TTFont(output / "DenseVariationFixture.ttf")
+            name = variable.getBestCmap()[0xE200]
+            for weight, style in [(300, "Light"), (400, "Regular"), (700, "Bold")]:
+                instance = instantiateVariableFont(variable, {"wght": weight}, inplace=False)
+                master = TTFont(output / "masters" / f"DenseVariationFixture-{style}.ttf")
+                actual, expected = instance["glyf"][name], master["glyf"][name]
+                self.assertEqual(actual.endPtsOfContours, expected.endPtsOfContours)
+                error = max(abs(a - b) for p, q in zip(actual.coordinates, expected.coordinates)
+                            for a, b in zip(p, q))
+                self.assertLessEqual(error, 0 if weight == 400 else 1)
+                self.assertEqual(instance["hmtx"][name], master["hmtx"][name])
 
 
 if __name__ == "__main__":

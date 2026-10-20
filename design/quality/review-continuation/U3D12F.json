@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D12F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D12F.json",
+  "source_png_sha256": "755142258f5e6ac8659c3fac7550473f25c32cdd1589b8a2d44c9fff43ba715d",
+  "source_png": "design/seal-individual/U3D12F.png",
+  "reference_png_sha256": "56f8ef7025fe9c27d19150cecb428bd39648ebe48cb1ab7ec9edd3e5d5dc58b4",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D12F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D12F-central-cover-link-v6/sources/U3D12F.json",
+  "source_json_sha256": "0950e904b5f7dbdf2d34a11bf1923b3fe6c8f01ef9259fd9c815189b264ddf95",
+  "geometry_sha256": "dc17f4659ae491b1f79c625d70855a1f46add2469c94445d97051136823d489a",
+  "font_file": "design/quality/proofs/continuation/U3D12F-central-cover-link-v6/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "815b0d6a05ece9e97d2d50a81e4479b7c2fd416506b09b336ceb20b8589fed9e",
+  "raster_file": "design/quality/proofs/continuation/U3D12F-central-cover-link-v6/U3D12F-Regular400.png",
+  "raster_sha256": "7962dd438ddcbc1cf1d6b32f1c3053db0d9cc137408ea7e2d88d6ca95880bda4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      288,
+      -64,
+      736,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Selected first native, all four enlarged whole specimens, full actual Regular400 and enlarged comb/inner compound/stream gaps inspected. Coherent THX restored: two stacked comb counters; central comb leg joins cover roof while outer legs detach. Paired inner cap links form small rectangle, continue as two outward curved wall branches; lower inverted V remains detached from those branches, giving four body fields plus upper rectangle. Three stream heads remain detached below enclosure and split into four lower terminals. Dense counters remain visibly open with common pen; proportional envelope consistent. Native1 retains missing top comb bar, incorrect inner Y construction, detached central comb-to-cover gap and attached streams, so mismatch unchanged.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0eeb030deafde93cc48666ad8456701320de27da04a0d797cca9fa4420de4c4f",
+      "source_json_sha256": "86d714206206bb2f3693983b3e05fdf7b5942bcc6cc3ff100edf439dcb33f745",
+      "font_sha256": "491d2f3514d1da6aa7fb129d50d1f20fd2b345699351464771120fac01296864",
+      "raster_sha256": "efe07c382127efcf966874766a8d167eb07fe11e10c8a1b43e16652ba6c40805",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Independently inspected selected first native full, all four enlarged whole references, repaired Regular400 full font and enlarged central enclosure/stream gaps. Streams now correctly detached, but central enclosure still simplified to single cap T feeding Y. THX has two upright cap links making small rectangular upper counter, two curved outward branches joining sidewalls and separate lower inverted V. Current three inner cells are produced by wrong Y contacts; count alone insufficient. Native also missing top central comb second horizontal creating second counter.",
+      "requested_corrections": [
+        "Restore paired cap-to-enclosure links with small upper rectangle and curved outward sidewall branches.",
+        "Separate lower inverted V from cap links, preserving sidewall contacts and lower triangular counter.",
+        "Restore second horizontal inside top central comb: THX has two counters above three downward legs, current has one.",
+        "Preserve repaired detached streams and four lower stream terminals."
+      ]
+    }
+  ]
+}

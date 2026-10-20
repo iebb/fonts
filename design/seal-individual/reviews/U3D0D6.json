@@ -1,13 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0D6",
-  "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
-  "notes": [
-    "Full native/font and all four enlarged whole specimens inspected. Native joins upper left descending course continuously into bottom left cup, closing an extra upper-left counter. THX/CCZ/DYC show this upper left descending terminal free, separated from the lower left cup; QJZ also has a free upper-left descending terminal. Top structure, three bent marks, inner curl and lower central staff retained."
-  ],
+  "verdict": "uncertain",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": "Rechecked full actual Regular400 and enlarged lower/central crop against previously inspected native2/all four whole specimens and enlarged THX. Middle descending mark now joins downward to existing lower compound stem, while its top and both outer marks remain detached, restoring coherent THX contact. Roof shoulder now smooth. Curled inner tip stays free; central lower staff and lower counter present continuously in enlarged proof despite whole-image thin-line display artifact. Upper counter, detached left staff and right descent preserved. Consistent pen and proportional envelope. Native2 isolated-middle contact combination remains uncertain.",
   "source_png": "design/seal-individual/U3D0D6.png",
-  "source_png_sha256": "e419ae44df60914194b33f5d2dd837c7e209bff305ac966d4a4ed79bc66ef4ba",
+  "source_png_sha256": "0560735de5740b3f0c50d21a468a74e5654f605f48d69fc28965fd4220dbd9f9",
   "reference_overview": "reference/seal/individual/U3D0D6.png",
   "reference_png_sha256": "a77b088eae08aca41ecb5d7a347620642c70cd21d65bd73958bc854cbc16f775",
   "reviewed_specimens": [
@@ -21,5 +19,15 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "e419ae44df60914194b33f5d2dd837c7e209bff305ac966d4a4ed79bc66ef4ba",
+      "verdict": "mismatch",
+      "notes": [
+        "Full native/font and all four enlarged whole specimens inspected. Native joins upper left descending course continuously into bottom left cup, closing an extra upper-left counter. THX/CCZ/DYC show this upper left descending terminal free, separated from the lower left cup; QJZ also has a free upper-left descending terminal. Top structure, three bent marks, inner curl and lower central staff retained."
+      ],
+      "reference_png_sha256": "a77b088eae08aca41ecb5d7a347620642c70cd21d65bd73958bc854cbc16f775"
+    }
   ]
 }

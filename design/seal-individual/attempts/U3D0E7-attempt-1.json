@@ -1,0 +1,108 @@
+{
+  "code_point": "U+3D0E7",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0E7: LEFT detachedthreebarupright. RIGHTtallenclosure anddiagonaldescender asTHX: uppercap extendsright into smallroundedrightbowl, withshortinteriorhookedreturn undercap. Outerleftwall curvesdownalongfullbody thenroundsright atbottom tojoin mainstem. Mainstem startsnearupperright anddescendsdiagonallydownright throughbody andpastbottom intolongtail. ONE broadmidheight horizontalcrossbar crossesmainstem andprojectsright. Preserveupperinnerhook, smalltoprightcounter, closedlowerleftspacebetweenleftwall/mainstem/crossbar, andlongtail. Allclosedcounters andopenreturns mustremainfaithful; no substitutingmodernregularform.",
+  "reference": "reference/seal/individual/U3D0E7.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-c0d799b3-905b-4f87-b0e5-4457c257f7b6.png",
+  "output_file": "design/seal-individual/U3D0E7.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "f8f4952598c89b86f3c0b92cfa10acdf6ef5c39bdf10b6e204aa95b3df632323",
+  "reference_sha256": "cd73e2e3a350689f20fd17b21b0fe2cd91e9a58a8d1dc5339669f5e85708a7a8",
+  "reference_metadata_sha256": "2ab6ac831fdf594f6052e4ed09e68d9ae8a9949143d6972f7e8044d751dbeaa4",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0E7",
+    "page": 5,
+    "label_bbox": [
+      384.8999938964844,
+      443.77020263671875,
+      415.4693298339844,
+      454.9299621582031
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 5,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          441.98101806640625,
+          441.7799987792969,
+          467.1600036621094
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          442.57329711914065,
+          443.79999389648435,
+          467.55328979492185
+        ],
+        "source_label": "TH-00218"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 5,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          440.54022216796875,
+          465.6398620605469,
+          462.5400085449219
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          442.57329711914065,
+          470.3999938964844,
+          467.55328979492185
+        ],
+        "source_label": "C-00222"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 5,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          444.794189453125,
+          494.1398010253906,
+          466.41595458984375
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          442.57329711914065,
+          497.09999389648436,
+          467.55328979492185
+        ],
+        "source_label": "K-00220"
+      },
+      "DYC": {
+        "available": true,
+        "page": 5,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          441.9921875,
+          519.0398559570312,
+          467.0279541015625
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          442.57329711914065,
+          523.7999938964844,
+          467.55328979492185
+        ],
+        "source_label": "D-00217"
+      }
+    }
+  },
+  "worker_preliminary_verdict": "mismatch",
+  "worker_preliminary_notes": [
+    "Upperinnerhookreturnleftterminalshouldjoinouterleftwall."
+  ]
+}

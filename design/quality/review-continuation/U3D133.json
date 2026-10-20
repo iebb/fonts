@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D133",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D133.json",
+  "source_png_sha256": "5fdaf9e8da5726b3e769edfa981da756ae6358bb822511fc0ed0a9fb4ffe51a7",
+  "source_png": "design/seal-individual/U3D133.png",
+  "reference_png_sha256": "1b5f1eba6be440066df02e10f037e5c8b5f263771877e84fc88224e4b46fd194",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D133.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D133135-shared-junctions-v2/sources/U3D133.json",
+  "source_json_sha256": "3b63eb3ec51d32d1b54d80f9641a2a0cc30ebdf5ea27098c0bda7f371f9b17f3",
+  "geometry_sha256": "a8dfd07ff6a20088b1170ed37805d7f935c6c69a247cb0095040d2e95eee0fa1",
+  "font_file": "design/quality/proofs/continuation/U3D133135-shared-junctions-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6f198173de02eae5666214099fabbed6bf7c0170decbc0262f21c2ce136c8d0a",
+  "raster_file": "design/quality/proofs/continuation/U3D133135-shared-junctions-v2/U3D133-Regular400.png",
+  "raster_sha256": "c4bf68bdc7fc0b9cddeec02da9cbcc0c3bcefe072f40688b3a46d191f0c13777",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      263,
+      -64,
+      761,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Rechecked full compiled Regular400 and enlarged shared right junction against previously inspected full native2/all four whole references. Middle curved return now converges with outer bowl/lower return/right tail at single junction as native and THX; both right fields open and continuous shared upright intact. Detached upper forks, separate left branching staff and long descenders preserved. Smooth common pen and proportional envelope. Native2 remains match.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "915e1c6a84df593d1d2c949b4b6864b8754bb5f975f38312ebef45fc8d799902",
+      "source_json_sha256": "5b90c55c42dab02fc4e19c625f271f34524e2ec7f005d29e9fb6fea3d5f939ba",
+      "font_sha256": "03716ecd944c4d294ff5ac6ca401bdf54b4c6fd0853f43488ff59b986e5cee7a",
+      "raster_sha256": "de3aa9276df05f7427aafc2bb877999b71894dcea858ddf03441380ba55cf0e5",
+      "regular400_verdict": "held",
+      "native_verdict": "match",
+      "notes": "Retry2 full native/all four enlarged whole specimens/full actual Regular400 and enlarged right compound inspected. Native coherent THX shared upright and separate left compound restored. Actual font right middle curved return meets outer bowl above lower return junction, leaving short staff segment between two contacts; native and THX converge at one lower junction. Tracking has displaced that return upward. Hold geometry for bounded junction restoration; preserve upper detached forks and other paths.",
+      "requested_corrections": [
+        "Extend/smooth right middle curved return to meet the existing lower bowl-return/right-tail junction rather than outer bowl above it; preserve all outer paths and shared upright."
+      ]
+    }
+  ]
+}

@@ -17,8 +17,10 @@ from fontTools.designspaceLib import (
     AxisDescriptor, DesignSpaceDocument, InstanceDescriptor, SourceDescriptor,
 )
 from fontTools.ttLib import TTFont
+from fontTools.ttLib.tables.TupleVariation import TupleVariation
 from fontTools.varLib import build
 from fontTools.varLib.instancer import instantiateVariableFont
+from fontTools.varLib.iup import iup_delta_optimize
 
 from build_stroke_font import (
     ROOT, NORMALIZED_CENTERLINE_EXTENT, build_font, family_basename, load_sources,
@@ -28,6 +30,80 @@ from build_stroke_font import (
 MASTERS = {300: ("Light", 23.5), 400: ("Regular", 30.0),
            600: ("SemiBold", 43.0), 700: ("Bold", 49.5)}
 INSTANCES = {300: "Light", 400: "Regular", 500: "Medium", 600: "SemiBold", 700: "Bold"}
+
+
+def variation_payload_size(variation: TupleVariation) -> int:
+    """Measure before packing the tuple's 16-bit payload-length field.
+
+    An explicit point list has a separate 15-bit count limit. The empty list
+    means all points and does not have that restriction.
+    """
+    points = variation.getUsedPoints()
+    if points is None:
+        return 0
+    if points and len(points) > 0x7FFF:
+        return 0x10000
+    return (len(variation.compilePoints(points))
+            + len(variation.compileDeltas()))
+
+
+def encodable_variations(variation: TupleVariation, coordinates, end_points) -> list:
+    """Keep the usual IUP optimization without packing an oversized candidate.
+
+    FontTools compares packed original and optimized tuples, but packing the
+    original can overflow before the smaller candidate is considered. If both
+    candidates exceed the format limits, additive tuples carry disjoint blocks
+    of point deltas. Explicit zeros elsewhere prevent IUP from moving points
+    outside each block, so their sum retains the original motion exactly.
+    """
+    raw_size = variation_payload_size(variation)
+    optimized = TupleVariation(variation.axes, iup_delta_optimize(
+        variation.coordinates, coordinates, end_points, tolerance=0.5))
+    optimized_size = variation_payload_size(optimized)
+    chosen = optimized if optimized_size < raw_size else variation
+    if min(raw_size, optimized_size) <= 0xFFFF:
+        return [chosen] if chosen.getUsedPoints() is not None else []
+
+    if any(delta is None for delta in variation.coordinates):
+        raise ValueError("Oversized variation must have complete point deltas")
+    result = []
+    for start in range(0, len(variation.coordinates), 8192):
+        end = min(start + 8192, len(variation.coordinates))
+        block = variation.coordinates[start:end]
+        if not any(delta != (0, 0) for delta in block):
+            continue
+        deltas = [(0, 0)] * len(variation.coordinates)
+        deltas[start:end] = block
+        part = TupleVariation(variation.axes, deltas)
+        if variation_payload_size(part) > 0xFFFF:
+            raise ValueError("Variation delta block exceeds the tuple format limit")
+        result.append(part)
+    return result
+
+
+def encode_gvar_variations(font: TTFont) -> dict:
+    """Bound variation payloads without changing glyph points or contours."""
+    report = {"oversized_original_tuples": 0, "split_original_tuples": 0,
+              "added_tuples": 0, "affected_glyphs": []}
+    for name, variations in font["gvar"].variations.items():
+        if not variations:
+            continue
+        coordinates, controls = font["glyf"]._getCoordinatesAndControls(
+            name, font["hmtx"].metrics, None)
+        encoded = []
+        for variation in variations:
+            oversized = variation_payload_size(variation) > 0xFFFF
+            parts = encodable_variations(variation, coordinates, controls.endPts)
+            if oversized:
+                report["oversized_original_tuples"] += 1
+                if name not in report["affected_glyphs"]:
+                    report["affected_glyphs"].append(name)
+            if len(parts) > 1:
+                report["split_original_tuples"] += 1
+                report["added_tuples"] += len(parts) - 1
+            encoded.extend(parts)
+        font["gvar"].variations[name] = encoded
+    return report
 
 
 def stroke_width(weight: float) -> float:
@@ -125,7 +201,8 @@ def build_variable(source_root: Path, output: Path,
         document.addInstance(instance)
     designspace_path = output / f"{basename}.designspace"
     document.write(designspace_path)
-    variable, _, _ = build(document)
+    variable, _, _ = build(document, optimize=False)
+    variation_encoding = encode_gvar_variations(variable)
     variable.recalcTimestamp = False
     variable_path = output / f"{basename}.ttf"
     variable.save(variable_path)
@@ -146,6 +223,7 @@ def build_variable(source_root: Path, output: Path,
         "axis": {"tag": "wght", "minimum": 300, "default": 400, "maximum": 700},
         "construction": "Same editable centerlines; only the common pen radius changes.",
         "outline_offsets_used": False, "centerline_geometry_changes_with_weight": False,
+        "variation_encoding": variation_encoding,
         "weight_remapping": {"previous_300_is_now": 400, "previous_400_is_now": 600},
         "normalization": {"preserve_aspect_ratio": True, "pen_width_scaled": False,
                           "target_centerline_extent": NORMALIZED_CENTERLINE_EXTENT,

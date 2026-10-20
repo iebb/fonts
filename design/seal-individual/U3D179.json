@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D179",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four historical specimens of the SAME codepoint. Study all AVAILABLE THX, CCZ, QJZ and DYC specimens, preserve all defining stroke branches, open gaps, closed counters, detachments and bar-length relationships. Choose one coherent attested whole construction; never blend incompatible variants and never substitute a modern Chinese character. Choose THX construction when corroborated, considering every source. Redraw as harmonious Gothic sans-serif monoline font centerline trajectories with absolutely CONSTANT stroke width, smooth rounded B\u00e9zier-like curves, precise straight bars, round caps and round joins. No taper, pressure, brush perimeter, texture, serif or blobs. Every stroke identical width approximately3% of square canvas; keep dense counters and gaps open. Exactly one complete glyph centered in central70%, generous empty margins. Pure BLACK strokes fully TRANSPARENT background. No text,labels,codepoint,frame,chart,grid,watermark,color,shadows or other specimens. Structural reading aid: THX CCZ QJZ available; DYC absent. Paired detached forks top. LEFT body upper S-like shoulder and small open U-shaped leftward cup crossed by central descending stem, below that stem passes through tall inverted-U arch giving THREE descending legs. RIGHT body upper short upright with one rightward bar, beneath long horizontal shoulder loops down-right and back left across descending slanted outer right leg. Inside lower right, one small tilted rounded rectangular LOOP with TWO short vertical dividers, one shorter lower-left curving leg and one central serpentine tail descending below loop. Preserve small lower LOOP identity: neighboring17A has arch instead, do not substitute.\n",
+  "reference": "reference/seal/individual/U3D179.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-9c7fff9f-9292-4f17-a70e-adc38453af45.png",
+  "output_file": "design/seal-individual/U3D179.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "d0baa1be6d44715e9337b8dbc76c622e2d22821a1d1c4ff1ff0a79de3ee7dc4b",
+  "reference_sha256": "cb6f3abd6f346caa0ab55bb3abc874c959cda5702b2e623d9dfd8a3d134c6e3c",
+  "reference_metadata_sha256": "ec5ea0e1b2d5373da28e2654410b14a94653beeffbce1fb51a910451a6d298c9",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D179",
+    "page": 8,
+    "label_bbox": [
+      87.30000305175781,
+      633.97021484375,
+      116.7594223022461,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 8,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          632.1809692382812,
+          144.17999267578125,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          632.7732788085938,
+          146.20000305175782,
+          657.753271484375
+        ],
+        "source_label": "TH-00348"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 8,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          630.7401733398438,
+          168.03985595703125,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          632.7732788085938,
+          172.8000030517578,
+          657.753271484375
+        ],
+        "source_label": "C-00366"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 8,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          634.9942016601562,
+          196.539794921875,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          632.7732788085938,
+          199.5000030517578,
+          657.753271484375
+        ],
+        "source_label": "K-00348"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -548,21 +548,26 @@
         5
       ],
       "is_loop": false,
-      "path": "M 461.291,405.674 C 456.768,450.548 436.71,465.634 425.303,500.55",
+      "path": "M 461.291,405.674 C 456.768,450.548 436.71,465.634 425.303,500.55 L 414.19068491272225,534.5639908466196",
       "commands": [
         [
           "M",
-          461.2907,
-          405.6741
+          461.291,
+          405.674
         ],
         [
           "C",
-          456.7678,
-          450.5476,
-          436.7098,
-          465.6344,
-          425.3035,
-          500.5495
+          456.768,
+          450.548,
+          436.71,
+          465.634,
+          425.303,
+          500.55
+        ],
+        [
+          "L",
+          414.19068491272225,
+          534.5639908466196
         ]
       ],
       "maximum_fit_error": 1.9989,
@@ -3795,21 +3800,26 @@
         20
       ],
       "is_loop": false,
-      "path": "M 559.438,405.674 C 565.779,448.714 581.805,468.131 595.425,500.55",
+      "path": "M 559.438,405.674 C 565.779,448.714 581.805,468.131 595.425,500.55 L 609.3751410011646,533.754817996825",
       "commands": [
         [
           "M",
-          559.4377,
-          405.6741
+          559.438,
+          405.674
         ],
         [
           "C",
-          565.7786,
-          448.7139,
-          581.8051,
-          468.1306,
-          595.4249,
-          500.5495
+          565.779,
+          448.714,
+          581.805,
+          468.131,
+          595.425,
+          500.55
+        ],
+        [
+          "L",
+          609.3751410011646,
+          533.754817996825
         ]
       ],
       "maximum_fit_error": 2.4815,
@@ -7354,6 +7364,16 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.8814,
       "maximum_fit_error_font_units": 2.8836
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent complete THX construction: extend each existing internal oval divider along its exact terminal tangent until the original bottom-wall centerline. Preserve all original cubic segments, outer oval, central staff and other 16 paths. Both bottom contacts restore four open counters. Native missing-contact mismatch remains recorded.",
+      "previous_paths": {
+        "stroke-1": "M 461.291,405.674 C 456.768,450.548 436.71,465.634 425.303,500.55",
+        "stroke-8": "M 559.438,405.674 C 565.779,448.714 581.805,468.131 595.425,500.55"
+      },
+      "native_png_unchanged_and_mismatch_retained": true
     }
   ]
 }

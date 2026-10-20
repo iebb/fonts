@@ -1,0 +1,106 @@
+{
+  "code_point": "U+3D0B5",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Repair ONLY the UPPER RIGHT smallbarcompound in FIRST attached U+3D0B5 glyph. SECONDimagefourhistoricalspecimens;THIRDimageenlargesTHXuppercompound. Preserveleft3-barstaffandentireLOWERcrossed-stemcomponentexactly,theirtrajectories/positions/proportions/transparency. Upperrightcompound MUSThaveTWOshortverticalsidestaffswithFOUR horizontallevelsEACH, notthreeascurrentlydrawn. On eachstaff counttopbar1,shortcrossbar2,middlebranchbar3,andLOWERBASEbar4. RestoremissingFOURTHBASEbarunderthirdbranchbaronBOTHsidestaffs. BothstaffverticalstemsENDattheirfourthbasebars,notstubsbelowthirdbar. CentraluprightbetweenstaffsdescendstobifurcationwhoseoutwardbranchesmeettheTHIRDbarleveloneachside,NOTthefourthbasebars. SeeTHXcrop exacttopology. Slightlycompress/repositionONLYuppercompound'sbarspacingenoughtofitfourclearseparatedlevelswhilepreservingcleargaptolowercrossedcomponent. NOclosedcounters;nobarsshouldmerge. Uniformblackmonolinewidthroundcaps/joins,transparentcanvas,onecompleteglyph,nolettersorlabels. Allotherstrokesunchanged.",
+  "reference": "reference/seal/individual/U3D0B5.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "previous_attempt": "design/seal-individual/attempts/U3D0B5-attempt-1.json",
+  "preliminary_notes": "Secondnativeattempt restores4barlevels onbothupper sidestaffs,centralfork joins3rdlevel. Lowercrossedcomponent retainedbutminortrajectoryvariation needsindependentreview. Firstoriginal preserved.",
+  "original_generated_file": "/workspace/generated_images/exec-0c61698b-b06d-4bb1-bf84-d0919e4e7b8f.png",
+  "output_file": "design/seal-individual/U3D0B5.png",
+  "sha256": "def96b3e7918309c693e9cd52e3956fdea815421a137ff3178c028d933d5e5b5",
+  "reference_sha256": "e6ecdab298c42f92b31945f84f29c9a9d442a3b1e46536c28ed396e65f1c7a93",
+  "reference_metadata_sha256": "26266613b9e2ada4fb2dda93d49a028a40365810e807cca299653b00cce2ce9f",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0B5",
+    "page": 5,
+    "label_bbox": [
+      87.30000305175781,
+      126.73020935058594,
+      117.86940002441406,
+      137.88998413085938
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 5,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          125.0009994506836,
+          144.17999267578125,
+          150.17999267578125
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          125.53331146240234,
+          146.20000305175782,
+          150.57329406738282
+        ],
+        "source_label": "TH-00168"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 5,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          123.56019592285156,
+          168.03985595703125,
+          145.55999755859375
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          125.53331146240234,
+          172.8000030517578,
+          150.57329406738282
+        ],
+        "source_label": "C-00172"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 5,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          127.8141860961914,
+          196.539794921875,
+          149.4359588623047
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          125.53331146240234,
+          199.5000030517578,
+          150.57329406738282
+        ],
+        "source_label": "K-00170"
+      },
+      "DYC": {
+        "available": true,
+        "page": 5,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          125.0121841430664,
+          221.43984985351562,
+          150.04795837402344
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          125.53331146240234,
+          226.20000305175782,
+          150.57329406738282
+        ],
+        "source_label": "D-00167"
+      }
+    }
+  }
+}

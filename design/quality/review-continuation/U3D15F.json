@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D15F",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D15F.json",
+  "source_png_sha256": "6fe4dfa8b574e9d29b5ddcbd6dc381f47c4a398a1d48a93e08ec5cb4cf772ecf",
+  "source_png": "design/seal-individual/U3D15F.png",
+  "reference_png_sha256": "88dda0bfaeccf8ba3374df9fa0fd22d006821499595a620afe111c9320ccaa12",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D15F.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D15E15F-detached-components-v2/sources/U3D15F.json",
+  "source_json_sha256": "2c7262ae33d932f64abd0c373fd46a4a6cf42aa605020e0455e31b6d3c055ba5",
+  "geometry_sha256": "f463fd47739802e9beb532a2485027bac14022b907b06f6fdc49a9d8beb17e7a",
+  "font_file": "design/quality/proofs/continuation/U3D15E15F-detached-components-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e264672f6a8c488a78d28c4106b160efeb3d2d1950eb5f082cabc20e259a70d8",
+  "raster_file": "design/quality/proofs/continuation/U3D15E15F-detached-components-v2/U3D15F-Regular400.png",
+  "raster_sha256": "6c7e63838d790eec7573482796cbb2997ffd836621668cbcb13c6c92900a8aa7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      280,
+      -64,
+      744,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Rechecked full actual Regular400 and enlarged bottom crossed mark against previously inspected full native/all four whole specimens. Added right upright/rounded return joins bottom two bars, restoring THX small right counter without touching long diagonal terminal. Paired upper feet, winding component, separate tall left arch and detached top forks preserved. Common rounded pen/open gaps/proportional envelope. Native mismatch unchanged.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b547ed5fe9229ff81096800f8fae92c461b284fbf3288faec630138cae71772b",
+      "source_json_sha256": "f2ce7f80769c118294ca1e34f268ca4f8d9e55fb07effc228887788b90c24e73",
+      "font_sha256": "a40c39501e514f3b00a9573df9728413feafa5fc56338abaefa2a5aab44897e8",
+      "raster_sha256": "f4e3e222b69092009e8ac0d48f408bffd7dd457041580bf82ac8c1b700f2e848",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged lower right structure inspected. Coherent THX detached upper forks, separate tall left arch, winding upper right with paired feet preserved. Bottom crossed two-bar mark omits right upright joining bars, thus loses THX small closed right counter. Hold to restore that bounded connector; preserve long diagonal terminal and all component gaps.",
+      "requested_corrections": [
+        "Add short right upright from upper lower-right bar tip to lower bar, restoring small closed counter as THX; preserve crossing diagonal long terminal and other components."
+      ]
+    }
+  ]
+}

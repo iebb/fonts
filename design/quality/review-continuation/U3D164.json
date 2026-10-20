@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D164",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D164.json",
+  "source_png_sha256": "658f7a7374c749f13ae4f544d67eec0bd3e9ef602e026a6ef4ed4ffa2e1edcc1",
+  "source_png": "design/seal-individual/U3D164.png",
+  "reference_png_sha256": "a5d2a33fb7e078e996793ac152272a17c8ddbd610be944f540c48baa090b5151",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D164.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-162164/sources/U3D164.json",
+  "source_json_sha256": "f755e9f669c456677235c3d72bd1e3d225e6a01c9da8908ca8e48dfc4ecfb0f1",
+  "geometry_sha256": "19fa6d76d0ba5dcc16f476e94c81a1ef0f10ff48d98184f53c54794543d1c24b",
+  "font_file": "design/quality/proofs/continuation/review-retries-162164/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "892eb2434f413ba6211c913d77e976d55b271c2809b14d0a1f846315f5872703",
+  "raster_file": "design/quality/proofs/continuation/review-retries-162164/U3D164-Regular400.png",
+  "raster_sha256": "db8812b976b470415e09f5bf69b139a8333b76616db0c70d497b51f24aa6c891",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      280,
+      -64,
+      744,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Hanging central cup and winding paired forks restored. Bottom upper-left/upper-right diagonal marks remain detached from horizontal bar, whereas coherent THX joins their lower ends to bar. Additionally actual font lower-left detached diagonal collapses to short dot while native retains full slant. Hold bounded upper diagonal-to-bar extensions and recovery of lower-left diagonal trajectory, preserving lower-right mark/native.",
+  "requested_corrections": [
+    "Extend lower ends of both UPPER diagonal marks to bottom horizontal bar as THX, retaining detached lower pair.",
+    "Restore actual-font lower-left detached diagonal full native trajectory; currently collapsed to dot."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "48bb5744578d029e6c59e2427563b7e2f30ceb1dd9dfd54d19a6cb5b02543c79",
+      "source_json_sha256": "5d01f348852b502b351cb12a2f46cd76177de79300f10eee16403ed89c330c16",
+      "font_sha256": "64d18243cca44c905567eb8b7e59e652112e1b10fd0ca7bf4045467fba146ced",
+      "raster_sha256": "2f2d49769965255ca2dd05be8fa58b89b73ebae44c0a926ec13188e3e7a9c08c",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged central/lower components inspected. Upper detached tridents, broad cup, upper rails/outer left descent retained. Native omits hanging central cup beneath rails, substitutes free-ending central staff, and detaches/simplifies its paired winding side branches. THX has connected cup with side winding branches that each fork into multiple free terminals. Actual tracing additionally reduces lower-right diagonal to dot and shortens other diagonal marks, while native retains four full diagonals. Whole contact construction must be corrected.",
+      "requested_corrections": [
+        "Restore coherent THX hanging central cup beneath rails with paired attached winding branches and required split terminals; preserve detached tridents, rail/outer descent and lower cross.",
+        "Restore all four diagonal marks as complete slanted courses in actual font, with attested cross contacts according to chosen whole variant."
+      ]
+    }
+  ]
+}

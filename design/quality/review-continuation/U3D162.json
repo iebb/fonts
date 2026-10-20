@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D162",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D162.json",
+  "source_png_sha256": "a062055232caf275729c9bfd7c346120671d54c9ba6978e297e0852a080aa041",
+  "source_png": "design/seal-individual/U3D162.png",
+  "reference_png_sha256": "a98eb4639b43c9c8efc86f36f2894a03917cf06b0728e02730db1748befcdb15",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D162.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-162164/sources/U3D162.json",
+  "source_json_sha256": "b1e8ec3a3c05000ab6954c4757031049695c96209999d63358f03cd2cc759311",
+  "geometry_sha256": "6536f51da915da86b4cd8b4d8354b717c7a1fd9e9519b8c3cec06052a5bcbbab",
+  "font_file": "design/quality/proofs/continuation/review-retries-162164/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "892eb2434f413ba6211c913d77e976d55b271c2809b14d0a1f846315f5872703",
+  "raster_file": "design/quality/proofs/continuation/review-retries-162164/U3D162-Regular400.png",
+  "raster_sha256": "fea3ea28d34c5ba8f6f792cf67c1c99b3ce87e1f1b2237ba5fd2d4c849d62076",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      260,
+      -64,
+      764,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Missing lower curl/right staff/body counters restored, but new inner staff passes fully through diamond to its top apex, splitting it into two counters. THX has one diamond counter with short internal upward stub stopping near middle, no outer top apex stub. Native also adds outer top stub. Hold for bounded clipping of staff top and outer apex stub; preserve restored three body counters and left curl.",
+  "requested_corrections": [
+    "Clip inner right staff upper end to mid-diamond short stub, leaving one open diamond counter.",
+    "Remove extra outer diamond apex upward stub, preserving diamond boundary and detached right upper fork."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "0dbf15395c52620295178a38d71a972180bc82ce44b88945c4e73017a828e65f",
+      "source_json_sha256": "7a7a0bf4a6b7a6bb4a1c556b7e54c9e6d3b13ee69c288a561a40c1e1bff68365",
+      "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
+      "raster_sha256": "829dd9f6898db2edb5ad45a4331af64970ad6609bd693edf3bffcf26b8f4b723",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged complete component inspected. Right compound omits entire inner upright from diamond bottom through three bars, losing three attested body counters. Lower left inner curled return replaced by detached short dash. Upper contacts also mix joined forks with free X unlike coherent THX whole. Hold native for faithful whole redraw preserving mandatory counters/trajectories rather than current simplification.",
+      "requested_corrections": [
+        "Restore right compound inner staff from diamond bottom through all three bars, giving three body counters and top short inner terminal as coherent THX.",
+        "Restore lower left curled inner return attached to upper rail rather than detached dash.",
+        "Use coherent THX detached upper forks and separate small left fork, detached X within cup."
+      ]
+    }
+  ]
+}

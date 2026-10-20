@@ -2,12 +2,10 @@
   "schema_version": 1,
   "codepoint": "U+3D0D5",
   "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root",
-  "notes": [
-    "Native retry puts restored long outer upright on left winding-stem component, making its upper bar a vertical-plus-horizontal corner. Whole THX places that upright on LEFT OUTER side of RIGHT compound, attached to right compound shoulder, while left winding-stem top bar remains detached and horizontal. Current restoration is mislocated. Prefer first native original, which has correct other trajectories, and extend its correctly placed right-compound outer stub upward. Full native, all four whole specimens and actual font inspected."
-  ],
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": "Independently inspected selected first native full, all four enlarged whole references, repaired Regular400 full font and enlarged right compound upright. Added long upright extends correct outer-left right-compound stub upward, consistent THX. Left detached cup, separate winding lower course, right top hook, middlebars and four right descenders retained; five lower total terminals. Native remains mismatch for missing long outer-left upright.",
   "source_png": "design/seal-individual/U3D0D5.png",
-  "source_png_sha256": "8217f1b1429381982d43d98c89687819526f4dd93c9014f5092e3966cfd9140b",
+  "source_png_sha256": "0a45f21274296b15d7150504cca60918976ac24302d849e727cbf10f17c73422",
   "reference_overview": "reference/seal/individual/U3D0D5.png",
   "reference_png_sha256": "ab7456d091ab606f8eba968652c82d86d261e637cbe6a70a4f5ba32f444bb35c",
   "reviewed_specimens": [
@@ -21,5 +19,15 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "8217f1b1429381982d43d98c89687819526f4dd93c9014f5092e3966cfd9140b",
+      "verdict": "mismatch",
+      "notes": [
+        "Native retry puts restored long outer upright on left winding-stem component, making its upper bar a vertical-plus-horizontal corner. Whole THX places that upright on LEFT OUTER side of RIGHT compound, attached to right compound shoulder, while left winding-stem top bar remains detached and horizontal. Current restoration is mislocated. Prefer first native original, which has correct other trajectories, and extend its correctly placed right-compound outer stub upward. Full native, all four whole specimens and actual font inspected."
+      ],
+      "reference_png_sha256": "ab7456d091ab606f8eba968652c82d86d261e637cbe6a70a4f5ba32f444bb35c"
+    }
   ]
 }

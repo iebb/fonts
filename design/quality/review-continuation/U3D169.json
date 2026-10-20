@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D169",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D169.json",
+  "source_png_sha256": "a77f54be7c4d1873bcb6f5c2fbfbdbed4421bb1b0e0a855298e2a18b08dbfbc0",
+  "source_png": "design/seal-individual/U3D169.png",
+  "reference_png_sha256": "e47352d8bd7215e8af5fc27b170e111d2078b46f60675d5f935ad3234d7acc87",
+  "reviewed_specimens": [
+    "THX",
+    "DYC"
+  ],
+  "unavailable_specimens": [
+    "CCZ",
+    "QJZ"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D169.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight8/sources/U3D169.json",
+  "source_json_sha256": "11caf496baafb70d548d7770a2e207d2d764b40096e6f7e7d31bf81629b36407",
+  "geometry_sha256": "f82c2ea2d03f0bd5f6c3653192438473e177454982c90b0f7fc67d4f65f5b6e4",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight8/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3be4d1994fe2e2a4ad233de6b9717acbe9cd765f6ce9365c15845733cef1caf5",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight8/U3D169-Regular400.png",
+  "raster_sha256": "0f380bff495b4b9378dc2ea266ee09a1f869e3a3bbacb1396de140c8f7e71c8c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      274,
+      -64,
+      750,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, both available complete/enlarged THX/DYC specimens (CCZ/QJZ unavailable), actual Regular400 and enlarged right components inspected. Left component retained. Native upper right cup loses full crossbar left contact and separate small upper inner elbow, so expected closed counter absent. Lower right component replaces roof-linked central fork plus left L course/free branch ends with detached trident on base; roof connection, L course and correct fork direction/contacts missing. Actual font retains omissions.",
+  "requested_corrections": [
+    "Restore coherent THX upper right cup: joined crossbar plus separate short upper inner elbow and correct counter.",
+    "Restore lower right roof-linked central fork and left bent L course, preserving attested free endpoints and outer reentrant wall/tail gap."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

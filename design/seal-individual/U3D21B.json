@@ -1,0 +1,89 @@
+{
+  "code_point": "U+3D21B",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE new original Small Seal glyph from the attached historical reference. It shows four specimen slots of THE SAME character, THX, CCZ, QJZ, DYC. Study ALL AVAILABLE specimens equally; UNAVAILABLE slots are absent evidence. Choose one coherent attested whole construction, do not blend incompatible variants, substitute modern Chinese, or reproduce reference brush outlines. Reconstruct original smooth centerline trajectories as a harmonious Gothic sans-serif MONOLINE drawing. Absolutely constant stroke width around 3% full canvas, round caps and round joins, precise straight bars and rounded smooth curves. No taper, swelling, brush pressure, texture, blobs, or serifs. Preserve every branch, detached stroke, counter, gap, contact and bar length relationship. Square1:1 canvas, one complete centered glyph within central70%, pure black strokes on fully TRANSPARENT background, generous margins. NO labels, text, codepoints, frames, grids, shadows, watermark, background, multiple glyphs. U+3D21B. Threeavailable THX CCZ QJZ, DYCunavailable. FollowTHX coherentwhole. Top2smalltridentforks, separated. BelowTOPLEFT a shortreverseC horizontalbowl OPENLEFT (topbarstartleft,roundedrightturn,lowerbarreturnsleft). BelowTOPRIGHT mirrorC OPENRIGHT (topbarstartright,roundedleftturn,lowerbarreturnsright). Forkstemsendjustabove bowls withcleargaps perTHX. Beloweachbowl one separate longinvertedJ-like curvingcourse: LEFTcourse startsleftatmidheight risesaroundroundcapright thencontinuesdownleftintonlongleftwardbaselinehook; RIGHTmirror startsrightmidheight archesleftthensweepsdownrighttobaseline. No closedcounters, allsixcomponentsseparate (2forks,2bowls,2lowercurves).",
+  "reference": "reference/seal/individual/U3D21B.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-8166f3fc-f9cb-4854-8e92-b88fab676c2b.png",
+  "output_file": "design/seal-individual/U3D21B.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "8693fea8d5402537ae2aae13c48846852d1ba7cf9e0dda87df43a47d7d6d4c6c",
+  "reference_sha256": "2fcd18b5a585a794a4bf59b34016e7450b7f30218654a21719ed9ad33bc36463",
+  "reference_metadata_sha256": "d6fbfb5af82efca0d64ae286e1bc19d343ebcbcf5de149d91b5b5e4e2d4bd656",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D21B",
+    "page": 10,
+    "label_bbox": [
+      384.8999938964844,
+      697.3302001953125,
+      415.4693298339844,
+      708.489990234375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 10,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          695.6010131835938,
+          441.7799987792969,
+          720.780029296875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          696.1332641601563,
+          443.79999389648435,
+          721.1732543945312
+        ],
+        "source_label": "TH-00507"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 10,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          694.1602172851562,
+          465.6398620605469,
+          716.1600341796875
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          696.1332641601563,
+          470.3999938964844,
+          721.1732543945312
+        ],
+        "source_label": "C-00525"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 10,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          698.4142456054688,
+          494.1398010253906,
+          720.0360107421875
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          696.1332641601563,
+          497.09999389648436,
+          721.1732543945312
+        ],
+        "source_label": "K-00506"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

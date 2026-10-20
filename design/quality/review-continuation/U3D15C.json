@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D15C",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D15C.json",
+  "source_png_sha256": "96bd923d59a851cedca84c01ae9e90c51bab9e24a841008a887a9f4d31c144b3",
+  "source_png": "design/seal-individual/U3D15C.png",
+  "reference_png_sha256": "34954078e24efad9931871a581658fe4e0e8bef4fef81f82b15296aa1ee55882",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D15C.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight5/sources/U3D15C.json",
+  "source_json_sha256": "288f92dcdd9f31cb1d09e2f54eff092bfee7ac9322aa6d6a75e941c208af37de",
+  "geometry_sha256": "b646f4e77949b44569d637bf14db734b6a9e3cc34d9b171b7726cb0930270945",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight5/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f0cdba02889cc78e23d517a51950de97c57185b2bb3733807c1d28915f22694c",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight5/U3D15C-Regular400.png",
+  "raster_sha256": "9dfdb143575e8ca3cd7af955dce615090c0392b4f53af8b69b2c446256de805c",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      270,
+      -64,
+      754,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged lower components inspected. Native and font omit required upward inner curved return immediately right of left lower counter/fork: THX has curved upward free end joining lower crossing, CCZ has detached related upright, and QJZ/DYC retain the inner course. Current candidate has no such course. Native also joins top tridents to cover despite THX detached choice, while CCZ joined variant has other differing contacts; coherent complete variant must be explicit.",
+  "requested_corrections": [
+    "Restore required upward inner course right of left lower counter and its attested lower contact/free tip, choosing one coherent whole historical specimen.",
+    "Reconcile upper trident/cover and other variant contacts as a whole; preserve right paired loops and unaffected branches."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

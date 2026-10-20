@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -6475,6 +6475,33 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.965,
       "maximum_fit_error_font_units": 3.1571
+    },
+    {
+      "id": "stroke-16",
+      "path": "M 438.39,575.795 C 461,589 486,591 503,590"
+    },
+    {
+      "id": "stroke-17",
+      "path": "M 723.016,572.524 C 699,588 678,589 657,590"
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Full native/all4refs/actualfont and enlarged THX inspected: each outer shoulder requires separate inward lower stub beneath existing free upper tip. Add ONLY two short inward lower branches from existing shoulder intersections, preserving all15 original paths, upper free tips, topbar gaps and paired inner U forms. Native original1 remains missing both courses; no PNG or provenance changes.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-16",
+          "path": "M 438.39,575.795 C 461,589 486,591 503,590"
+        },
+        {
+          "id": "stroke-17",
+          "path": "M 723.016,572.524 C 699,588 678,589 657,590"
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

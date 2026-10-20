@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D15D",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D15D.json",
+  "source_png_sha256": "4e271a87e49e61d23d76ab6b0190ca78ed144383ff6c2be30d390e3ad4fa293a",
+  "source_png": "design/seal-individual/U3D15D.png",
+  "reference_png_sha256": "5f485c2f35d5545db893a4b6f67aeb3f8db30acae8e92f5900d4ccd266f44794",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D15D.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight5/sources/U3D15D.json",
+  "source_json_sha256": "508eb5cf94c9e085f4f80bd475cb3e45965258bdf25ddc4e19f59785fdbc2983",
+  "geometry_sha256": "f49a417469991bdef7d4efb39effe997c393c7633f09ccdf5456137d9487d996",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight5/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "f0cdba02889cc78e23d517a51950de97c57185b2bb3733807c1d28915f22694c",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight5/U3D15D-Regular400.png",
+  "raster_sha256": "5c8809ae0aaf6fbd9caa9108d4e27324b97790a4641962312c5bb8cbf6f18020",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      306,
+      -64,
+      718,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged oval marks inspected. Native uses two short diagonal marks detached at both ends inside central oval split by staff. THX requires two joined upright dividers, making four oval counters; QJZ/DYC retain four-counter construction, while CCZ has asymmetric joined left divider and detached right mark plus differing upper contacts. Native pair does not establish a coherent complete attested construction. Actual tracing additionally touches left mark to lower oval wall, unlike native detached tip.",
+  "requested_corrections": [
+    "Select one coherent whole attested construction and restore central oval divider/contact structure, including four counters if choosing THX.",
+    "Correct accidental tracing contact of left inner mark to lower oval wall; retain all required gaps and verify enlarged actual Regular400."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

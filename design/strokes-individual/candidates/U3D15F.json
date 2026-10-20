@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -5686,6 +5686,25 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.7554,
       "maximum_fit_error_font_units": 2.4713
+    },
+    {
+      "id": "stroke-14",
+      "path": "M 709.93,719.744 L 709.93,778 C 709.93,795 680,805 647.77,811.348"
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Full native/all4refs/font and enlarged THX inspected. Restore only missing lower-right bar-end upright and its short rounded lower return to existing lower bar/diagonal junction647.77811.348. This closes required small right counter without changing either existing bar, diagonal long terminal, upper winding/paired feet, left arch or component gaps. Native PNG remains missing connector and mismatching.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-14",
+          "path": "M 709.93,719.744 L 709.93,778 C 709.93,795 680,805 647.77,811.348"
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

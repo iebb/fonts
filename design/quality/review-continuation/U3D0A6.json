@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0A6",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0A6.json",
+  "source_png_sha256": "756be4a5fda4c0c34cd1db7fbf06635b5aba5080f6215782e35d9acba122ca59",
+  "source_png": "design/seal-individual/U3D0A6.png",
+  "reference_png_sha256": "7a68c177011fb9684330c876f362848d083701c0e050c708356a2d251a7bfedb",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0A6.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/sources/U3D0A6.json",
+  "source_json_sha256": "d9cb7825f3b3f36ef802de461636749828e8d5272e01bd2fdd1add442b2a01c0",
+  "geometry_sha256": "d14b3c73a96169c4157c37309186668bd2c6af865ae5e9187fbffba5e0456f0e",
+  "font_file": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "0729680545db628543051d55cf1ca3a711a2921e4941faa26572333743b135db",
+  "raster_file": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/U3D0A6-Regular400.png",
+  "raster_sha256": "7473c4aaac08df709a96f6154fd767800efa7a1ccd640a87a89fffd0d714ddc9",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      260,
+      -64,
+      764,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Rechecked full actual Regular400 and enlarged shoulder forks against previously inspected full native/all four whole specimens. Both missing lower inward stubs restored; each shoulder now has inner upper tip and lower free stub as THX. Gaps to paired inner U tips remain open, top fork/two bars/long outer stems unchanged. Consistent common pen/proportional envelope. Native missing stubs remains mismatch.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "2d3eafbd6ba8c0b38d08391942b5e9b2c65bab3f6b70407996b3cf6d8628bd5f",
+      "source_json_sha256": "031453a74f3492abc66ba4eb2c8c9e041a18ee26efd7d80a26c5ee6097a712c2",
+      "font_sha256": "a40c39501e514f3b00a9573df9728413feafa5fc56338abaefa2a5aab44897e8",
+      "raster_sha256": "999ed2606c6ebba8e101b083d6fc662b6e13beff54199dbb22ccb23d1267b829",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged outer fork components inspected. Upper fork/two bars and lower paired internal U forms preserved, but outer left and right fork intersections each omit short inward-facing lower terminal. THX shows two crossed trajectories at each shoulder, producing inner upper tip and separate inner lower stub; native/font only have upper tip. Hold to restore both short lower inward branches.",
+      "requested_corrections": [
+        "Restore short inward-facing lower stub at each outer shoulder fork intersection, preserving existing inner upper tips, outer curved courses and long lower stems."
+      ]
+    }
+  ]
+}

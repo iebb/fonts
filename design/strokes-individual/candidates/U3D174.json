@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -1982,17 +1982,17 @@
         15
       ],
       "is_loop": false,
-      "path": "M 408.946,837.521 L 408.946,700.115",
+      "path": "M 408.946,837.521 L 408.946,729.9890205289666",
       "commands": [
         [
           "M",
-          408.9457,
-          837.5208
+          408.946,
+          837.521
         ],
         [
           "L",
-          408.9457,
-          700.115
+          408.946,
+          729.9890205289666
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -6808,6 +6808,38 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.9016,
       "maximum_fit_error_font_units": 2.9496
+    },
+    {
+      "id": "THX-lower-chevron-upward-stub",
+      "path": "M 411.821,622.622 L 411.821,592",
+      "commands": [
+        [
+          "M",
+          411.821,
+          622.622
+        ],
+        [
+          "L",
+          411.821,
+          592
+        ]
+      ],
+      "closed": false,
+      "manual": true
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent THX detachedfork/header/body construction: remove only short upright projecting into lower capsule field, leaving lower centerleg/fork untouched. Clip stroke8 upperendpoint to exact existing capsulebase intersection at x408.946; allother18paths unchanged.",
+      "stroke_id": "stroke-8",
+      "previous_path": "M 408.946,837.521 L 408.946,700.115",
+      "capsule_base_y": 729.9890205289666,
+      "native_png_unchanged_and_uncertainty_not_resolved": true
+    },
+    {
+      "reason": "Independent enlarged THX review confirms intended short upwardstub belongs at LOWER internal chevron apex into middle field, while lowercapsule field staysclear. Add only stub at existing lowerchevronapex411.821,622.622 to y592, detached fromupperchevron; retainall19previouspaths includingcorrectedbasestemclip.",
+      "added_stroke": "THX-lower-chevron-upward-stub",
+      "native_png_unchanged_and_uncertainty_not_resolved": true
     }
   ]
 }

@@ -3,9 +3,9 @@
   "codepoint": "U+3D0D7",
   "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "mismatch",
+  "native_verdict": "match",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D7.json",
-  "source_png_sha256": "8a775ac19aac491cb02a563241b78e77208fb7e50cf84d04bb25809b9976ca13",
+  "source_png_sha256": "6eadaf4258f99e297dca7a89ce2dd3b57d5b5dfe0ed82c1f371b4c154e35c5fc",
   "source_png": "design/seal-individual/U3D0D7.png",
   "reference_png_sha256": "0d693dbb442170dade96be8ce2c02bdb486b6801efac46061061a7b6f092bf06",
   "reviewed_specimens": [
@@ -16,35 +16,47 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0D7.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-tenth-eight/sources/U3D0D7.json",
-  "source_json_sha256": "cde6da3807b795027832333b33b550e2c18cee30f72ab82be527da3c087efbcb",
-  "geometry_sha256": "bb20188b4d02c09cf2c7746510032bd408f4f21b1c99221463bf548edbc0e7c2",
-  "font_file": "design/quality/proofs/continuation/review-tenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
-  "raster_file": "design/quality/proofs/continuation/review-tenth-eight/U3D0D7-Regular400.png",
-  "raster_sha256": "5fc24b62271636cbdb782c9e694f9be925067dce172b9fe0c750939965c5e49e",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-D3D6D7/sources/U3D0D7.json",
+  "source_json_sha256": "4b8eb4df2f5b4ad378f45cc20a407c1f7c8e6dad7f97b956399ba76f914b9e1e",
+  "geometry_sha256": "d4caed60e5a82d82c32f80a58884b4a75f91367badca966d80e7b5ce9fe0dc2b",
+  "font_file": "design/quality/proofs/continuation/review-retries-D3D6D7/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8e9fd2cb085b81a165004c48c2994bb8ce0b9d13ae5d452457d98e530e6aac05",
+  "raster_file": "design/quality/proofs/continuation/review-retries-D3D6D7/U3D0D7-Regular400.png",
+  "raster_sha256": "d4dff6c05cbcaa8e0b1d834e06be49b87bb073e72950cbdde8329aaacf5cb17b",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      218,
+      223,
       -64,
-      806,
+      801,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged right bowl inspected. Missing lower of two detached interior horizontal bars within right bowl; upper detached bar present. THX/CCZ/QJZ all show two. Left three-counter enclosure, long right descent and lower staff retained.",
-  "requested_corrections": [
-    "Restore second detached horizontal between right bowl middle course and lower return, leaving clear gaps."
-  ],
+  "notes": "Retry2 full native/all four whole specimens/full compiled Regular400 and enlarged right compound inspected. Both detached right interior bars now survive between outer roof and middle return, distinct from joined lower return. Left enclosure three counters, bottom three-bar staff and long separate right descender match coherent THX. Rounded constant-width course, all gaps open.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "bb20188b4d02c09cf2c7746510032bd408f4f21b1c99221463bf548edbc0e7c2",
+      "source_json_sha256": "cde6da3807b795027832333b33b550e2c18cee30f72ab82be527da3c087efbcb",
+      "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
+      "raster_sha256": "5fc24b62271636cbdb782c9e694f9be925067dce172b9fe0c750939965c5e49e",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged right bowl inspected. Missing lower of two detached interior horizontal bars within right bowl; upper detached bar present. THX/CCZ/QJZ all show two. Left three-counter enclosure, long right descent and lower staff retained.",
+      "requested_corrections": [
+        "Restore second detached horizontal between right bowl middle course and lower return, leaving clear gaps."
+      ]
+    }
   ]
 }

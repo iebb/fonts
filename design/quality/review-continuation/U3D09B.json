@@ -5,7 +5,7 @@
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D09B.json",
-  "source_png_sha256": "bb578065e66d6b84acc1554feb623549fa0dc79eaf5392adcaaaf7a199c89622",
+  "source_png_sha256": "a29c41408dc986922d84ecd471de32f2ca3f399452f828c88c29667c3f7ea2ce",
   "source_png": "design/seal-individual/U3D09B.png",
   "reference_png_sha256": "0421a099eba9a12e4066e0c3d46ea054c2ff9122208d7a2d2a3b7aea4a03e88a",
   "reviewed_specimens": [
@@ -16,35 +16,59 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D09B.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-tenth-eight/sources/U3D09B.json",
-  "source_json_sha256": "1465da61b2384d5f01f6e2cf20f5cc92c68ed5cdfeaa7557c8bc1d47bab5fee5",
-  "geometry_sha256": "7e07841109acf62d42222f4e36d033240d93e3c93d69d6cee4fd48893ff9b9e0",
-  "font_file": "design/quality/proofs/continuation/review-tenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
-  "raster_file": "design/quality/proofs/continuation/review-tenth-eight/U3D09B-Regular400.png",
-  "raster_sha256": "754eb21c3059cbaf7ab4ce152fe904091eb358fe8f643076b6064f179391bd52",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D09B-smooth-crossed-frame-v2/sources/U3D09B.json",
+  "source_json_sha256": "29986416b41b396ecb4bf5e1e1b0467ec01d3540c83f09f6f7dc5cb0649a7c78",
+  "geometry_sha256": "8c20cd9cb923ad18f600397e6e996d731031b8865c510aa19126eb7a42bf4fa4",
+  "font_file": "design/quality/proofs/continuation/U3D09B-smooth-crossed-frame-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "665fd5ad01a80d9785e6e7beaa88e26f3d2e70a9d21c4de08a98ea741de668bf",
+  "raster_file": "design/quality/proofs/continuation/U3D09B-smooth-crossed-frame-v2/U3D09B-Regular400.png",
+  "raster_sha256": "601b6408a1f565919738341ac5f57dfa255f5f370bcbff85e4cea098ed594d3b",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      222,
+      239,
       -64,
-      802,
+      785,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged upper central compound inspected. Upper top-hook/outer-right descending course incorrectly detached from lower left-hooked branch/middle bars; references share central upright tying these courses together. Lower oval/crossed enclosure/right tall branch retained.",
-  "requested_corrections": [
-    "Restore shared central upright connecting top-hook course through left hooked branch and middle bars, following coherent THX whole variant."
-  ],
+  "notes": "Rechecked full actual Regular400 and enlarged crossed frame against previously inspected full native2/all four whole specimens. Upper cap gap and shared central upright remain correct. Lower diagonal courses are now smooth straight trajectories through a shared crossing; lower rail no longer bows into a lobe. Four triangular fields remain open including small lower triangle; three lower terminals preserved. Detached middle bar/oval, left staff and long right course retain coherent THX identities. Consistent rounded pen and proportional envelope. Native2 cap-to-right-staff contact remains mismatch.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7e07841109acf62d42222f4e36d033240d93e3c93d69d6cee4fd48893ff9b9e0",
+      "source_json_sha256": "1465da61b2384d5f01f6e2cf20f5cc92c68ed5cdfeaa7557c8bc1d47bab5fee5",
+      "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
+      "raster_sha256": "754eb21c3059cbaf7ab4ce152fe904091eb358fe8f643076b6064f179391bd52",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged upper central compound inspected. Upper top-hook/outer-right descending course incorrectly detached from lower left-hooked branch/middle bars; references share central upright tying these courses together. Lower oval/crossed enclosure/right tall branch retained.",
+      "requested_corrections": [
+        "Restore shared central upright connecting top-hook course through left hooked branch and middle bars, following coherent THX whole variant."
+      ]
+    },
+    {
+      "geometry_sha256": "37864053ca51c3fff7b57d2e0452b35c38509002a3da287e6da479470dc179cd",
+      "source_json_sha256": "6293d73a0d7f6ea3eb5bf44903d6f8b7e62f4a144f89be91eceac645b81fd93d",
+      "font_sha256": "88686e579e61498f01235ca2a8f2d393906e036bb0ee72cfade8e32d274bebaf",
+      "raster_sha256": "65e1351ea59cc250eecc5531ff973eb9fd1a6b060c9c9fa52465b144a1680f96",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native2/all four whole references/full actual compiled font and enlarged upper/lower components inspected. Cap-to-right-staff gap repaired correctly and shared central upright survives. Lower crossed enclosure retains four open triangular fields and three terminals, but both diagonal courses bulge and kink near central crossing/lower rail; bottom rail bows into an uneven lobe unlike smooth regular pen trajectory. Hold for bounded smoothing of this component, preserving four fields, endpoints and all other components.",
+      "requested_corrections": [
+        "Smooth lower crossed enclosure diagonal centerlines through crossing and lower rail joins; remove bulges/kinks while preserving all four open fields, three lower terminals, existing outer extent and shared pen width."
+      ]
+    }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D158",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D158.json",
+  "source_png": "design/seal-individual/U3D158.png",
+  "source_png_sha256": "2e95ac5b7907605c7a723b568133da9d8c1385ea3307aa2658700beab40886dc",
+  "reference_png_sha256": "1b9ccf6d0bdd98515d67396933caa1760ce2783c25ef2dae644527b6828e164b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D158.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-158174-native2-v1/sources/U3D158.json",
+  "source_json_sha256": "c64d638fad4c400b32688372b17a6a34a7382e97241673b17cf7afcd2a1a83a9",
+  "geometry_sha256": "2be9f9fe2a21a2ac98033a78804d929755ec7e4b9c517f01bae17a957302a781",
+  "font_file": "design/quality/proofs/continuation/root-158174-native2-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e08478fa8b0f72ff938539f865b578bbcb1052d759fef7726a04a9f82e855c84",
+  "raster_file": "design/quality/proofs/continuation/root-158174-native2-v1/U3D158-Regular400.png",
+  "raster_sha256": "0f471152599e84a3ec25ee65b62d58702d439391a3727eebf6b309c5f1467c75",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      259,
+      -64,
+      765,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Native retry2 restores coherent whole THX free lower-right return and separate inner diagonal, without R-like loop or extra counter. Full native, all four enlarged whole specimens, full actual Regular400 and enlarged right bowl inspected. Two detached top forks, three left descenders/forked center, detached three-legged right cap, two-bar staff and crossed lower curved branches remain. Uniform pen, proportional envelope, counters/gaps and all terminals clear.",
+  "requested_corrections": [],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "7e36cf413ee52f7d8bb2181bc51ea763eb89338e995944bf7119af457a1ebcff",
+    "actual_component_crop_sha256": "59262ee5c0ca421242042e627740dc1a58e1f7a787e34177e69311b4df231ce9"
+  },
+  "limitations": [
+    "Exact recorded source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7e2e81baa9241f7311710bec1a008cd3fbf3d917228a886b0025ec8189e751cf",
+      "source_json_sha256": "7317d03e0a0ad0a937606c66a863579bba94811b49f72fd94aeba8e523d8ee82",
+      "font_sha256": "759d007fdee020d682358d01706c5f8ba5cc94f67bc39fecd29a1f5a838069a4",
+      "raster_sha256": "fc814c265d3be517b24e39aa7cbb984b187bc7da58910457edbb819e46667f3b",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged reference specimens, actual Regular400 and enlarged right lower bowl inspected. Upper tridents, left paired side marks and descending fork, right comb and two bars are retained. Native wrongly continues the right central staff through the lower bowl and joins its upper curved return and inner diagonal to that staff, forming a closed R-like loop and small extra left counter. THX has a reentrant left descent with free upper return and free inner diagonal; alternative references likewise do not justify this closed native construction. Actual tracing retains the wrong contacts."
+    }
+  ]
+}

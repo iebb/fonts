@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0D6",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "mismatch",
+  "native_verdict": "uncertain",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D6.json",
-  "source_png_sha256": "e419ae44df60914194b33f5d2dd837c7e209bff305ac966d4a4ed79bc66ef4ba",
+  "source_png_sha256": "0560735de5740b3f0c50d21a468a74e5654f605f48d69fc28965fd4220dbd9f9",
   "source_png": "design/seal-individual/U3D0D6.png",
   "reference_png_sha256": "a77b088eae08aca41ecb5d7a347620642c70cd21d65bd73958bc854cbc16f775",
   "reviewed_specimens": [
@@ -16,35 +16,60 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0D6.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight2/sources/U3D0D6.json",
-  "source_json_sha256": "47833e83650256afc7cea07bdef354356eae8112f05e42c47a492996cd638093",
-  "geometry_sha256": "73fd0b0eb8b500601e73d5a8ca6eb3d719ac12759ac1e5818a8efa19babcc3e5",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "26b464b9ce7f0635500f765b9571c6f5644eb88d6bd64f512eb1df3540c81dff",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight2/U3D0D6-Regular400.png",
-  "raster_sha256": "78d236d5756537adf1e9360c2a2c393b6be19c6f8cd7055ef023deabaf799895",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0D6-THX-middle-connector-v1/sources/U3D0D6.json",
+  "source_json_sha256": "18fa5724c468ccda0070bef9f713ce52de6b178bb860f233b74e46610fc6ee36",
+  "geometry_sha256": "7b10c02c729bb5b5ff65c1b514a680aa53beba2def2f38b6ee037ecd7b428cd9",
+  "font_file": "design/quality/proofs/continuation/U3D0D6-THX-middle-connector-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "bd6a60b681ea1ff7422f11560b7f24e2b0cf11201671486f8e91a90e9af84dae",
+  "raster_file": "design/quality/proofs/continuation/U3D0D6-THX-middle-connector-v1/U3D0D6-Regular400.png",
+  "raster_sha256": "35d949bbc7da81c0f33f6f1c7b7a3b9970b2c5a14835277f903a6fcde0d061f9",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      252,
+      251,
       -64,
-      772,
+      773,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/font and all four enlarged whole specimens inspected. Native joins upper left descending course continuously into bottom left cup, closing an extra upper-left counter. THX/CCZ/DYC show this upper left descending terminal free, separated from the lower left cup; QJZ also has a free upper-left descending terminal. Top structure, three bent marks, inner curl and lower central staff retained.",
-  "requested_corrections": [
-    "Separate upper-left descending terminal from lower left cup to restore free terminal and open gap; preserve lower closed counter and all other courses."
-  ],
+  "notes": "Rechecked full actual Regular400 and enlarged lower/central crop against previously inspected native2/all four whole specimens and enlarged THX. Middle descending mark now joins downward to existing lower compound stem, while its top and both outer marks remain detached, restoring coherent THX contact. Roof shoulder now smooth. Curled inner tip stays free; central lower staff and lower counter present continuously in enlarged proof despite whole-image thin-line display artifact. Upper counter, detached left staff and right descent preserved. Consistent pen and proportional envelope. Native2 isolated-middle contact combination remains uncertain.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "73fd0b0eb8b500601e73d5a8ca6eb3d719ac12759ac1e5818a8efa19babcc3e5",
+      "source_json_sha256": "47833e83650256afc7cea07bdef354356eae8112f05e42c47a492996cd638093",
+      "font_sha256": "26b464b9ce7f0635500f765b9571c6f5644eb88d6bd64f512eb1df3540c81dff",
+      "raster_sha256": "78d236d5756537adf1e9360c2a2c393b6be19c6f8cd7055ef023deabaf799895",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native/font and all four enlarged whole specimens inspected. Native joins upper left descending course continuously into bottom left cup, closing an extra upper-left counter. THX/CCZ/DYC show this upper left descending terminal free, separated from the lower left cup; QJZ also has a free upper-left descending terminal. Top structure, three bent marks, inner curl and lower central staff retained.",
+      "requested_corrections": [
+        "Separate upper-left descending terminal from lower left cup to restore free terminal and open gap; preserve lower closed counter and all other courses."
+      ]
+    },
+    {
+      "geometry_sha256": "8d6d06902143fef574114b5439b7c2db13fb1830b0f3eeed890d7cfe4716d19b",
+      "source_json_sha256": "3459f4d5033de9ffce41f4bc743e99b33d91b2c2ac37897873f3af4c0c6c9a96",
+      "font_sha256": "8e9fd2cb085b81a165004c48c2994bb8ce0b9d13ae5d452457d98e530e6aac05",
+      "raster_sha256": "7c8c60182c481441517c9749ffb65667e4cefa8d32f7af5e8eaace56e2dd95df",
+      "regular400_verdict": "held",
+      "native_verdict": "uncertain",
+      "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Three middle descending marks are all detached above lower compound. THX middle mark instead contacts its upward stem on lower compound, whereas DYC joins middle mark to top enclosure; current isolated-middle combination lacks a coherent whole specimen. Current lower compound also has angular shoulder at roof/stem junction. Hold for bounded THX central-mark connection and smooth roof shoulder; preserve detached outer marks.",
+      "requested_corrections": [
+        "Join bottom of middle descending mark to upward central stem of lower compound as coherent THX, keeping its top detached and outer two marks detached.",
+        "Smooth abrupt roof shoulder near lower compound central stem without changing branch topology or other components."
+      ]
+    }
   ]
 }

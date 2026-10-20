@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0DC",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0DC.json",
+  "source_png_sha256": "bb55f8fb2ea35f2b85974c35e0e7854dbd0a79c3356249d8cb21df85a58b0993",
+  "source_png": "design/seal-individual/U3D0DC.png",
+  "reference_png_sha256": "29af5cff8907f3b50c1bd422faa842d7c085a1d054221e734d0d79d750aad5d6",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0DC.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0DC-apex-branch-v1/sources/U3D0DC.json",
+  "source_json_sha256": "99774cbf9b0f9e5b8c54ff063bf4966bb165fd43e9c7ae0c31542302e9eff889",
+  "geometry_sha256": "3729a542f014d4be52a0c0362f34d6dbf3b444ce43df92b235f4ceba2563012c",
+  "font_file": "design/quality/proofs/continuation/U3D0DC-apex-branch-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b618d724856e439ebe688ca6c542fa6ed33e5d6f249c5bc01436e00e3fc2fd94",
+  "raster_file": "design/quality/proofs/continuation/U3D0DC-apex-branch-v1/U3D0DC-Regular400.png",
+  "raster_sha256": "25dd90820af8866868d91ed25dfffe80db1fdfc9e344ed887b5015274de66ba5",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      291,
+      -64,
+      733,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all four enlarged whole specimens/full compiled Regular400 and enlarged diamond/staff detail inspected. First right branch now starts at diamond bottom junction as coherent THX, rather than lower on staff. Upper diamond counter, inner short upright and top terminal preserved; curved outer staff, three lower horizontal courses forming three open left fields, long foot and attached left staff bottom rail survive. Common rounded constant-width pen and proportional envelope consistent. Native first branch originates below diamond junction, so mismatch remains.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "e2a5cf4d635dd287de9d7de9979b1777bac62f003fb5e278a3841926cf5e6ba8",
+      "source_json_sha256": "4f236a9710a6e99b0ab19f7e9cf05fc39d1da13c58363edd1889e4efbce6c405",
+      "font_sha256": "5e64d4c66951e60bfb4c042e4ebb1f6a3f9708f59dce386c99d8d828b33db07d",
+      "raster_sha256": "38cd128fcdefb90e488c618c4ab83a622d4d45f85891378c44b640bcb76afe00",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole chart specimens, enlarged THX reference and actual Regular400 font inspected. Left staff lower rail correctly joins right outer body; diamond short inner stub, upper outer stem, three lower bars and three body counters retained. Upper outward branch attaches to central staff well below diamond bottom apex, whereas coherent THX branch exits the shared diamond-bottom junction diagonally. Hold minimal vector branch repositioning; preserve other courses.",
+      "requested_corrections": [
+        "Full native, all four whole chart specimens, enlarged THX reference and actual Regular400 font inspected. Left staff lower rail correctly joins right outer body; diamond short inner stub, upper outer stem, three lower bars and three body counters retained. Upper outward branch attaches to central staff well below diamond bottom apex, whereas coherent THX branch exits the shared diamond-bottom junction diagonally. Hold minimal vector branch repositioning; preserve other courses."
+      ]
+    }
+  ]
+}

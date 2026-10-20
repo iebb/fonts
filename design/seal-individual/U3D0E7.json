@@ -1,16 +1,16 @@
 {
   "code_point": "U+3D0E7",
-  "attempt": 1,
+  "attempt": 2,
   "tool": "image_gen.imagegen",
-  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0E7: LEFT detachedthreebarupright. RIGHTtallenclosure anddiagonaldescender asTHX: uppercap extendsright into smallroundedrightbowl, withshortinteriorhookedreturn undercap. Outerleftwall curvesdownalongfullbody thenroundsright atbottom tojoin mainstem. Mainstem startsnearupperright anddescendsdiagonallydownright throughbody andpastbottom intolongtail. ONE broadmidheight horizontalcrossbar crossesmainstem andprojectsright. Preserveupperinnerhook, smalltoprightcounter, closedlowerleftspacebetweenleftwall/mainstem/crossbar, andlongtail. Allclosedcounters andopenreturns mustremainfaithful; no substitutingmodernregularform.",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Edit first image glyph to fix ONE contact against second four-specimen reference (whole THX): the upper inner bent return currently has a FREE left terminal midway inside upper enclosure. Extend that terminal horizontally LEFT until it JOINS the outer left upright, forming a closed upper-left field. This contact is essential. Preserve upper right little counter, middle crossbar, lower counter, long descending righttail and left \u738b. No other structure changes, same uniform monoline black transparent.",
   "reference": "reference/seal/individual/U3D0E7.png",
   "reference_viewed_before_generation": true,
-  "original_generated_file": "/workspace/generated_images/exec-c0d799b3-905b-4f87-b0e5-4457c257f7b6.png",
+  "original_generated_file": "/workspace/generated_images/exec-2ccc9a3b-e38a-4680-8cc3-db5ede5fea6d.png",
   "output_file": "design/seal-individual/U3D0E7.png",
   "original_pixels_unchanged": true,
   "visual_review_status": "pending_independent_review",
   "coverage_eligible": false,
-  "sha256": "f8f4952598c89b86f3c0b92cfa10acdf6ef5c39bdf10b6e204aa95b3df632323",
+  "sha256": "f31c79a2ee14b5fcfb1540e8efa0451b7b04165723f0f994f5b5918fa3b3b9cd",
   "reference_sha256": "cd73e2e3a350689f20fd17b21b0fe2cd91e9a58a8d1dc5339669f5e85708a7a8",
   "reference_metadata_sha256": "2ab6ac831fdf594f6052e4ed09e68d9ae8a9949143d6972f7e8044d751dbeaa4",
   "four_specimen_evidence": {
@@ -100,5 +100,8 @@
         "source_label": "D-00217"
       }
     }
-  }
+  },
+  "previous_attempts": [
+    "design/seal-individual/attempts/U3D0E7-attempt-1.json"
+  ]
 }

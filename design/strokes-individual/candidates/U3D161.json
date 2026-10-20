@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -6819,6 +6819,25 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.8325,
       "maximum_fit_error_font_units": 2.7236
+    },
+    {
+      "id": "stroke-19",
+      "path": "M 510.209,294.441 L 510.209,374.554"
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Full native/all4refs/actualfont and enlarged THX inspected. Add ONLY missing short vertical from upper cap rail to existing chevron apex, restoring required paired upper fields. All18 original paths, four detached side cups/crossbars, upper forks, body bars and lower tails preserved exactly. Native remains missing connector and mismatching.",
+      "changes": [],
+      "added_strokes": [
+        {
+          "id": "stroke-19",
+          "path": "M 510.209,294.441 L 510.209,374.554"
+        }
+      ],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

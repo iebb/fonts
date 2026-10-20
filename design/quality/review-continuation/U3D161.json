@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D161",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D161.json",
+  "source_png_sha256": "41fa8db1979a6d0956a7b09cdd54924c5d12bb9415e173e9e5fd65ff6fe10233",
+  "source_png": "design/seal-individual/U3D161.png",
+  "reference_png_sha256": "ac25bec8e0b30b2a1382890ea68245e6bc5873591e3b50d68d480e30968746a0",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D161.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/sources/U3D161.json",
+  "source_json_sha256": "2cb2865bc58955a331f5b1e35a693e30f515544fb0c3a86b8a4ad02dff5d9ba7",
+  "geometry_sha256": "22b79cad6ace334e6c95ce69ba8845fc8041c5a59ee7f08572d9fec7ded823ef",
+  "font_file": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "0729680545db628543051d55cf1ca3a711a2921e4941faa26572333743b135db",
+  "raster_file": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/U3D161-Regular400.png",
+  "raster_sha256": "6774b3b5417f85d009d08e06cff61c3bc0f948ecf8dc5a83c94ff93e9bdc58f8",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      308,
+      -64,
+      716,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged central enclosure inspected. Added cap-to-chevron-apex link restores coherent THX small upper-left counter; three lower central counters open, four separate side cups/counters and paired detached upper forks preserved. Long winding lower terminal and short left foot unchanged, smooth rounded common pen/proportional envelope. Native missing cap link remains mismatch.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "070620c12b626e7552a3ba28c000d9e7b0637e0c559b46543e432ebcbe5f15a5",
+      "source_json_sha256": "855cb1944b0b1b57c8eb1406da9eb04fe184d85c07dcb363268c478677953d69",
+      "font_sha256": "35b7793b7e1f8a489236e2f1373236859888c289c88e84c05f0db2fda6e3b30f",
+      "raster_sha256": "940647de9907b84a6625633004ec7b93dd5a8c7884b4af6066c4ce746406fe73",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged upper central fork inspected. Four detached side cups/crossbars and two detached tridents retained. Native central component omits required short vertical link from upper free rail to inner chevron apex visible in THX; paired side branches meet walls but cap-to-apex connection is absent. Actual tracing preserves omission. Other whole variants differ substantially and do not justify treating this almost-THX construction as accepted.",
+      "requested_corrections": [
+        "Restore coherent chosen whole-specimen central cap-to-chevron link and required counter/contact structure; preserve all four detached side cups, upper tridents, lower crossbars and both lower tails."
+      ]
+    }
+  ]
+}

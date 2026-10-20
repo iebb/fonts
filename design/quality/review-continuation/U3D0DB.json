@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0DB",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0DB.json",
+  "source_png_sha256": "c3fbf57ec32be867a19ddcfb8067c62855e35f3042839a17214dcfd56b7a93e8",
+  "source_png": "design/seal-individual/U3D0DB.png",
+  "reference_png_sha256": "5acae56d45ea3c3504dedcf36e67b84bd2db228acddb0e43e5df29e04d6fd861",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0DB.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/DBB1-corrected-tail-contacts-v1/sources/U3D0DB.json",
+  "source_json_sha256": "4b3150057e6484e6e5a22340c70dd7f6613d30ad2c0188d80f94481dc9669f08",
+  "geometry_sha256": "922a2e06b48d7fef95778b6d76e06e083e237af6111ad21afe5c2c123cd2a2dc",
+  "font_file": "design/quality/proofs/continuation/DBB1-corrected-tail-contacts-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "07917d20303dd7c99f943e2a039800429a8f07e645a38c8c23ea26e2b6c082ba",
+  "raster_file": "design/quality/proofs/continuation/DBB1-corrected-tail-contacts-v1/U3D0DB-Regular400.png",
+  "raster_sha256": "5ade7d9290cfd027099410c825920550b459bc2bcef412f1377a781466f031d7",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      233,
+      -64,
+      791,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged repaired contact inspected. Coherent THX top enclosure lower rail flat, curved outward tail exits middle rail rather than lower rail; two upper counters remain open. Single upper chevron beneath enclosure, short crossbar, lower chevron inside open cup, four detached side marks and paired feet/base preserved. Left staff detached. Common rounded pen and proportional envelope consistent. Native lower enclosure rail/tail junction remains mismatch.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "db17271db104d961bddd1b27d23a6a15ba028ecc1e4c3e16cdf3cf688dbafd46",
+      "source_json_sha256": "cb5774ec7b79fb3fdbea4e27698a9e3aabc920ab8c7bf09b5e65628592c7bb91",
+      "font_sha256": "5e64d4c66951e60bfb4c042e4ebb1f6a3f9708f59dce386c99d8d828b33db07d",
+      "raster_sha256": "a3c2e4a39ef37588242e1b3f54324a6c7dc65019daa6d8507efbb83f5c2e04f5",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four whole chart specimens, enlarged THX reference and actual Regular400 font inspected. Native omits short horizontal below upper chevron, replaces two detached middle side diagonals with joined chevron, omits lower central upward chevron and collapses required two-stem lower support to one upright. Upper right tail exits lower R corner instead of middle rail. Actual font retains these native simplifications; hold for coherent THX whole native retry.",
+      "requested_corrections": [
+        "Full native, all four whole chart specimens, enlarged THX reference and actual Regular400 font inspected. Native omits short horizontal below upper chevron, replaces two detached middle side diagonals with joined chevron, omits lower central upward chevron and collapses required two-stem lower support to one upright. Upper right tail exits lower R corner instead of middle rail. Actual font retains these native simplifications; hold for coherent THX whole native retry."
+      ]
+    }
+  ]
+}

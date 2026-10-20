@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0A9",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0A9.json",
+  "source_png_sha256": "b942b208f7a6df9c962090a6be1f98fba204107fce91a9f0c80e60b836855871",
+  "source_png": "design/seal-individual/U3D0A9.png",
+  "reference_png_sha256": "cc2a36bb03a66ed3dbffd64256383d69d6d9d3931a8d59e8fa97fa1378f670d8",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0A9.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirteenth-eight/sources/U3D0A9.json",
+  "source_json_sha256": "75630b7017e45d1814761588698262cf0d78aaad53a7cd7d2d1cceb1543cddb4",
+  "geometry_sha256": "eee0982826d3e18a0f667840d48d552e3d7ffeb77a9a966f8d2786a986218bba",
+  "font_file": "design/quality/proofs/continuation/review-thirteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
+  "raster_file": "design/quality/proofs/continuation/review-thirteenth-eight/U3D0A9-Regular400.png",
+  "raster_sha256": "6b74cf58215886a40f48785095a7b28cac5de3c6966e152390d977b0e75c6a2a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      206,
+      -64,
+      818,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native/all four enlarged whole specimens/full compiled Regular400 and enlarged lower central component inspected. Top counter and outer paired double-leg forms survive, but central bottom cap descends as one solid staff instead of two separate legs. All four references require paired central lower terminals, giving six bottom terminals overall; native/font currently five. Hold for correct central lower split preserving upper chevron and cap.",
+  "requested_corrections": [
+    "Restore two separate central lower legs under short lower cap bar rather than one solid staff, yielding six total bottom terminals, preserving upper central chevron and outer paired courses."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

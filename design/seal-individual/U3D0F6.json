@@ -1,0 +1,104 @@
+{
+  "code_point": "U+3D0F6",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0F6: LEFT detachedthreebarupright. RIGHT FIVE tallparallelverticalcourses, centralcoursehighest/longest, twoneighborsslightlyshorter, twooutsidecoursesshorteragain. TWO curvedcrossbarlevels spanALLFIVE courses: uppercrossbarslopesup towardmiddlethenbackdown, lowercrossbarcurvesdown towardmiddlethenbackuptoright. Betweenupperandlowercrossbars exactlyFOUR tallnarrowwhitecounters(onebetweeneachneighboringcourse). Allfiveupperandfivelowerterminaltips remainvisible, noomittedouterupright, noextrahorizontalbars. Thinuniformroundedstrokes withclearcounters.",
+  "reference": "reference/seal/individual/U3D0F6.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-ec23a9f7-b652-4093-8688-a0169f6a6a3d.png",
+  "output_file": "design/seal-individual/U3D0F6.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "f5c359d14c4d6121985b0f29c517d680fb254bf16975ca8ced7060026f5fe751",
+  "reference_sha256": "443af67562ea0c68f60d88dc3e390470448252f6d0e7d7fda1886a7e17a90405",
+  "reference_metadata_sha256": "0c19f0a203777596874f9aead8a5ae879e4a78cd7b6715c64d12e60ac022afd7",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0F6",
+    "page": 6,
+    "label_bbox": [
+      87.30000305175781,
+      285.25018310546875,
+      117.30941009521484,
+      296.4099426269531
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 6,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          123.18000030517578,
+          283.52099609375,
+          144.17999267578125,
+          308.6999816894531
+        ],
+        "crop_bbox": [
+          121.20000305175782,
+          284.05327758789065,
+          146.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "TH-00233"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 6,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          152.63999938964844,
+          282.0802001953125,
+          168.03985595703125,
+          304.0799865722656
+        ],
+        "crop_bbox": [
+          147.8000030517578,
+          284.05327758789065,
+          172.8000030517578,
+          309.03330078125
+        ],
+        "source_label": "C-00237"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 6,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          177.5399932861328,
+          286.33416748046875,
+          196.539794921875,
+          307.9559326171875
+        ],
+        "crop_bbox": [
+          174.5000030517578,
+          284.05327758789065,
+          199.5000030517578,
+          309.03330078125
+        ],
+        "source_label": "K-00235"
+      },
+      "DYC": {
+        "available": true,
+        "page": 6,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          206.0399932861328,
+          283.53216552734375,
+          221.43984985351562,
+          308.56793212890625
+        ],
+        "crop_bbox": [
+          201.20000305175782,
+          284.05327758789065,
+          226.20000305175782,
+          309.03330078125
+        ],
+        "source_label": "D-00232"
+      }
+    }
+  }
+}

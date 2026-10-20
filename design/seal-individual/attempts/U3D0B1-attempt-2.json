@@ -1,0 +1,105 @@
+{
+  "code_point": "U+3D0B1",
+  "attempt": 2,
+  "tool": "image_gen.imagegen",
+  "prompt": "Repair ONLY wrong courseconnection in FIRST attached U+3D0B1 original glyph using SECOND four-sourcechartreference. Keep allgeometry/proportions, leftIstaff, topinnerbackwardC, bottomcup1counter, transparentcanvasandwidth. RIGHTMOSTlongdescendingtail is currentlywrongly attachedto MIDDLEINNERsmallC's lowerrightendpoint. It MUST instead attachto the LOWER RIGHT END of the LARGE OUTER S-shapedcourse which startsatveryTOPhorizontalcap. Restore ONEcontinuouslargeOUTERcourse fromtopcap ->downright ->turnleft ->rounddown ->turnright atmidlowerhorizontalarm ->DOWNaslongrighttail. The smallINNERmiddleC must be a SEPARATE shortC-shapedstroke with TWO OPEN ENDS pointingright, withwhitegapsfromoutercourse/tail. In firstimage outerS currentlyends nearx800,y790; extendthatarmrighttotheexistingrighttailnearx920,y790 andcurvedown. SEVER wrongconnection betweeninnermiddleC'slowerendpointnearx900,y735andrighttail, removeONLYtheunnecessaryshortverticalpieceabovethenewouterS-tailjunction. KeepinnermiddleC entirelydetachedinsideouterbend. Exactly5detachedmaincomponents:leftstaff,outerS+tail,topinnerreturn,middleinnerC,bottomcup. Noextraloops/counters, oneglyphpureblackconstantwidthroundstrokes,nolabels.",
+  "reference": "reference/seal/individual/U3D0B1.png",
+  "reference_viewed_before_generation": true,
+  "original_pixels_unchanged": true,
+  "visual_review_status": "mismatch_preliminary",
+  "coverage_eligible": false,
+  "original_generated_file": "/workspace/generated_images/exec-5b177bda-4e30-44a7-ab72-35ded5aa03c6.png",
+  "output_file": "design/seal-individual/attempts/U3D0B1-attempt-2.png",
+  "preliminary_notes": "Secondnativeattempt didnotfix courseconnection: longrighttail stilljoins innermiddleC instead ofouterS. Canonicalattempt1 retainedunchanged; rootvectorrepairneeded. No thirdnativeattempt allowed.",
+  "sha256": "32dbb74f114712797348155b13ca8dce701b910615580558d956ad98cc1f0cbe",
+  "reference_sha256": "67f40c4766e41bdfaddf5fe2cc7c141daac6d69c6dddd949c3f806405cd77223",
+  "reference_metadata_sha256": "1a1c838745f6d2d6a47a99646fefa0c7e041870f564110a44989548c6ad55b01",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D0B1",
+    "page": 4,
+    "label_bbox": [
+      384.8999938964844,
+      633.97021484375,
+      415.4693298339844,
+      645.1300048828125
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 4,
+        "font": "CMEXShuowenSeal",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          632.1809692382812,
+          441.7799987792969,
+          657.3599853515625
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          632.7732788085938,
+          443.79999389648435,
+          657.753271484375
+        ],
+        "source_label": "TH-00164"
+      },
+      "CCZ": {
+        "available": true,
+        "page": 4,
+        "font": "Shuowen-ccz",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          450.239990234375,
+          630.7401733398438,
+          465.6398620605469,
+          652.739990234375
+        ],
+        "crop_bbox": [
+          445.3999938964844,
+          632.7732788085938,
+          470.3999938964844,
+          657.753271484375
+        ],
+        "source_label": "C-00168"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 4,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          634.9942016601562,
+          494.1398010253906,
+          656.615966796875
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          632.7732788085938,
+          497.09999389648436,
+          657.753271484375
+        ],
+        "source_label": "K-00166"
+      },
+      "DYC": {
+        "available": true,
+        "page": 4,
+        "font": "dyc",
+        "font_size": 21.999799728393555,
+        "bbox": [
+          503.6400146484375,
+          632.1921997070312,
+          519.0398559570312,
+          657.2279663085938
+        ],
+        "crop_bbox": [
+          498.79999389648435,
+          632.7732788085938,
+          523.7999938964844,
+          657.753271484375
+        ],
+        "source_label": "D-00164"
+      }
+    }
+  }
+}

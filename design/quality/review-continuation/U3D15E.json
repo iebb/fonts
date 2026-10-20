@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D15E",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D15E.json",
+  "source_png_sha256": "50f49b0136966e9bff91511a92c348d4839fc411477a9d7bb1d6e6f33c8d922a",
+  "source_png": "design/seal-individual/U3D15E.png",
+  "reference_png_sha256": "3270c8d33c230ef3a4bc15689ea6701be880a319738def445361281e0c174465",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D15E.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D15E15F-detached-components-v2/sources/U3D15E.json",
+  "source_json_sha256": "35b7fb5b0e552096d2ebf75c2549d95532298dc3c50c7c3a41989e5f42859c37",
+  "geometry_sha256": "0d10af4b97eb62c3e54f23626956ae2af451444983d18b591834a17985a125a2",
+  "font_file": "design/quality/proofs/continuation/U3D15E15F-detached-components-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "e264672f6a8c488a78d28c4106b160efeb3d2d1950eb5f082cabc20e259a70d8",
+  "raster_file": "design/quality/proofs/continuation/U3D15E15F-detached-components-v2/U3D15E-Regular400.png",
+  "raster_sha256": "aedde94aca7cc2876d1a150b86b3a7de4c919d21882ee438a59cf39d4b1e242e",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      280,
+      -64,
+      744,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Rechecked full actual Regular400 and enlarged upper/lower separation against previously inspected full native/all four whole specimens. Coherent THX upper winding component detached from both lower compounds; narrow but visible gap over left stub and clear gap over right stub. Both lower upward stubs restored, isolated extra dash removed, lower crossed loop branches/four terminals preserved. Upper forks detached, all six counters open. Common rounded pen/proportional envelope. Native mismatch unchanged.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "5c748a923784d252f507337795071b1939b485bad6d838391f0a3a461ecab917",
+      "source_json_sha256": "e725fb2f00c17b8d7c109c49dd799c0adc58ae8ed77daf02025dea147952e275",
+      "font_sha256": "a40c39501e514f3b00a9573df9728413feafa5fc56338abaefa2a5aab44897e8",
+      "raster_sha256": "11fb10bcd74f9bb251abc2b2959e3849cf64bffcb7644bbc19b70501ddd09036",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged lower structure inspected. Detached upper forks follow THX, but top winding construction incorrectly joins both lower compounds; THX separates all three main components. Native also adds unattested detached short middle dash. Lower compound upper stubs are swallowed into shared winding connectors. Hold for coherent THX separation and removal of extra dash while retaining lower loop branches/counters.",
+      "requested_corrections": [
+        "Use coherent THX whole form: detach upper winding component from both lower compounds, preserving its free left/right lower terminals and restoring lower compound upward stubs.",
+        "Remove extra detached short central dash between lower compounds."
+      ]
+    }
+  ]
+}

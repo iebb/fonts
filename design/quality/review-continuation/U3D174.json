@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D174",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D174.json",
+  "source_png_sha256": "fd660b8407228099269c0715b80ebb2f959eb256639f854b45e9293245e50e0c",
+  "source_png": "design/seal-individual/U3D174.png",
+  "reference_png_sha256": "d80eb36c0949af0523060b7887e267259a4555e40f99391cda092d468df8f562",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D174.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D174-correct-chevron-stub-v3/sources/U3D174.json",
+  "source_json_sha256": "60d35f607802bd99662d49de506fe931383f3cf1b2202828fc2aaeb8040cb673",
+  "geometry_sha256": "b8f26ce22313fdf3187d9de9c41f4d81016f7c2c605c6f0f0e03aeaf58bc28e8",
+  "font_file": "design/quality/proofs/continuation/U3D174-correct-chevron-stub-v3/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2c5d1ebd9fde5d5459bb0f38bf31e0e2e97b2431792bc13bdbfa0d4a9912af2f",
+  "raster_file": "design/quality/proofs/continuation/U3D174-correct-chevron-stub-v3/U3D174-Regular400.png",
+  "raster_sha256": "b16b7fe516bc396c270afb0edf8cec192d08d930456b1c7bbf122bb1e895a9da",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      274,
+      -64,
+      750,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Rechecked full compiled Regular400 and enlarged central body against previously inspected full native2/all four whole specimens and enlarged THX chevrons. Lower internal chevron now has correct short central upward stub into middle field, detached from upper chevron; bottom field remains clear after removal of misplaced base spur. Two upper side fields and lower fields open, upper hooked course, detached paired forks, separate right winding split course, lower two side marks/fork feet preserved. Consistent rounded common pen/proportional envelope. Native2 wrong stub placement remains mismatch.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "aeafdddcfd7fc10cdcaf89fe56f154de0a791c1cb5aacfa0128aeeb81b9de2e5",
+      "source_json_sha256": "28af4351608aff568d83a3e3d3453f1c89af0d27ffff407e42783177daec0f8c",
+      "font_sha256": "e08478fa8b0f72ff938539f865b578bbcb1052d759fef7726a04a9f82e855c84",
+      "raster_sha256": "ea2dc457b3c472bfcaf53ba3f46db6da38951f00f3096a9cb561ecb7aba3e456",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "uncertain",
+      "notes": "Native retry2 restores upper staff-to-chevron and two chevron-to-sidewall contacts. Full native, all four enlarged whole specimens, full actual Regular400 and enlarged body inspected. Current body adds short upright projecting into lower field from capsule base. THX detached forks/header/body has no stub; DYC has lower stub but joins left fork into header and differs in body construction. Choose coherent THX whole vector form by removing only inner stub, retaining external center leg/fork, side marks, body branches and right flowing compound.",
+      "requested_corrections": [
+        "Native retry2 restores upper staff-to-chevron and two chevron-to-sidewall contacts. Full native, all four enlarged whole specimens, full actual Regular400 and enlarged body inspected. Current body adds short upright projecting into lower field from capsule base. THX detached forks/header/body has no stub; DYC has lower stub but joins left fork into header and differs in body construction. Choose coherent THX whole vector form by removing only inner stub, retaining external center leg/fork, side marks, body branches and right flowing compound."
+      ]
+    },
+    {
+      "geometry_sha256": "dee7821468f5810b83afea9b5d88be756c3302435492e281bec157d2eaebb6b4",
+      "source_json_sha256": "08c8718f0a95e621a6bdafe0823a7a5bf8176249ab74d832e9163e2349cae7a0",
+      "font_sha256": "f54131561c82d1926544de8fa4e26de69ef2f7e7e796e44ea54e532e38f178a8",
+      "raster_sha256": "e08ec2a0b08e6ab24739235d6e71e211b604949225022850b7b2f859006a07ba",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native2/all four enlarged whole specimens/full actual Regular400 and enlarged THX/body crops inspected. Bottom base spur removed correctly, but coherent THX lower chevron requires its own short central UPWARD stub into middle field; native2 and current font omit this and instead native places stub at base. Current lower chevron remains plain inverted V. Hold for bounded upward stub at lower chevron apex, leaving lower field clear and upper chevron independent.",
+      "requested_corrections": [
+        "Add short central upward stub at LOWER internal chevron apex into middle field as THX; keep detached from upper chevron and preserve cleared bottom field."
+      ]
+    }
+  ]
+}

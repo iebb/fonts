@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0D7",
-  "verdict": "mismatch",
+  "verdict": "match",
   "reviewer": "independent visual reviewer /root/seal_review",
-  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged right bowl inspected. Missing lower of two detached interior horizontal bars within right bowl; upper detached bar present. THX/CCZ/QJZ all show two. Left three-counter enclosure, long right descent and lower staff retained.",
+  "notes": "Retry2 full native/all four whole specimens/full compiled Regular400 and enlarged right compound inspected. Both detached right interior bars now survive between outer roof and middle return, distinct from joined lower return. Left enclosure three counters, bottom three-bar staff and long separate right descender match coherent THX. Rounded constant-width course, all gaps open.",
   "source_png": "design/seal-individual/U3D0D7.png",
-  "source_png_sha256": "8a775ac19aac491cb02a563241b78e77208fb7e50cf84d04bb25809b9976ca13",
+  "source_png_sha256": "6eadaf4258f99e297dca7a89ce2dd3b57d5b5dfe0ed82c1f371b4c154e35c5fc",
   "reference_overview": "reference/seal/individual/U3D0D7.png",
   "reference_png_sha256": "0d693dbb442170dade96be8ce2c02bdb486b6801efac46061061a7b6f092bf06",
   "reviewed_specimens": [
@@ -19,5 +19,13 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "8a775ac19aac491cb02a563241b78e77208fb7e50cf84d04bb25809b9976ca13",
+      "verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged right bowl inspected. Missing lower of two detached interior horizontal bars within right bowl; upper detached bar present. THX/CCZ/QJZ all show two. Left three-counter enclosure, long right descent and lower staff retained.",
+      "reference_png_sha256": "0d693dbb442170dade96be8ce2c02bdb486b6801efac46061061a7b6f092bf06"
+    }
   ]
 }

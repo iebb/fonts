@@ -5,7 +5,7 @@
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D117.json",
-  "source_png_sha256": "b4e7db42af8c37a8b0ba0379afaea3e7bae178a73fc14ada3805c04879efc4f5",
+  "source_png_sha256": "4bc786e0e27eb0a1b9a749332e7b2615c0c400a3a4255faacb779aa74e79d4b9",
   "source_png": "design/seal-individual/U3D117.png",
   "reference_png_sha256": "59dde7b48a51fe05dcd496459bfc55c2146b39cb7a7824780581a564c1c18b93",
   "reviewed_specimens": [
@@ -16,36 +16,48 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D117.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-tenth-eight/sources/U3D117.json",
-  "source_json_sha256": "970881a4039dc32c4eb8c475492c8bd254c75de99a440971159a33a2ba12563d",
-  "geometry_sha256": "c5e0a4ba88fad186b2d5428728ae57a505e222f6ee902052d5000536af7791ef",
-  "font_file": "design/quality/proofs/continuation/review-tenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
-  "raster_file": "design/quality/proofs/continuation/review-tenth-eight/U3D117-Regular400.png",
-  "raster_sha256": "38f25c15743335ad9fc01829d1866cedc68539934fc85ab3ac035e59678ab518",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D117-detached-lower-arcs-v1/sources/U3D117.json",
+  "source_json_sha256": "4a6ee6acfb2cef14e4e683b2bbb302f801ad8c9b28514aa7183ab2b35253b5af",
+  "geometry_sha256": "8ab247b781e83593d18b4bb38762a673026e57ad00dab615f226100a4d3e262b",
+  "font_file": "design/quality/proofs/continuation/U3D117-detached-lower-arcs-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "396b1782fcab72a3b13044121321cf438e3e7d3c3c35e549a6e60897af079aa7",
+  "raster_file": "design/quality/proofs/continuation/U3D117-detached-lower-arcs-v1/U3D117-Regular400.png",
+  "raster_sha256": "3549067ae68221c45e131d79335be62bdb8383fe55059dacd249c14770a2ae77",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      250,
+      225,
       -64,
-      774,
+      799,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four enlarged whole specimens, actual font and enlarged central enclosure inspected. Central cap-to-enclosure simplified to single T instead of two upright links and small upper rectangular counter. Inner two curved branches should join enclosure sides, but native/font use central Y. Required division identity lost despite lower triangle and paired lower bowls preserved.",
-  "requested_corrections": [
-    "Restore two cap-to-enclosure upright links and their small rectangular counter.",
-    "Restore interior paired curved branches from links to enclosure sidewalls, preserving detached lower triangular branch/counter consistent with THX."
-  ],
+  "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged inner/lower component inspected. Coherent THX paired cap links form upper rectangle, continue as curved outward branches to walls; detached lower chevron produces four body fields. Both lower outer arc starts now visibly detach from body base, preserving crossed lower forks, free inner tips and two long feet. Left two-bar staff and detached upper elbow marks preserved. Consistent rounded pen and open gaps. Native2 wrong lower-arc/base joins remain mismatch; vector correction restores THX gaps.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "c5e0a4ba88fad186b2d5428728ae57a505e222f6ee902052d5000536af7791ef",
+      "source_json_sha256": "970881a4039dc32c4eb8c475492c8bd254c75de99a440971159a33a2ba12563d",
+      "font_sha256": "4a0e817ca805000374d844cff0721a44972eca91f3082ad5de6b11e6b66e697a",
+      "raster_sha256": "38f25c15743335ad9fc01829d1866cedc68539934fc85ab3ac035e59678ab518",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four enlarged whole specimens, actual font and enlarged central enclosure inspected. Central cap-to-enclosure simplified to single T instead of two upright links and small upper rectangular counter. Inner two curved branches should join enclosure sides, but native/font use central Y. Required division identity lost despite lower triangle and paired lower bowls preserved.",
+      "requested_corrections": [
+        "Restore two cap-to-enclosure upright links and their small rectangular counter.",
+        "Restore interior paired curved branches from links to enclosure sidewalls, preserving detached lower triangular branch/counter consistent with THX."
+      ]
+    }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0D5",
-  "reviewer": "independent visual reviewer /root",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0D5.json",
-  "source_png_sha256": "8217f1b1429381982d43d98c89687819526f4dd93c9014f5092e3966cfd9140b",
+  "source_png_sha256": "0a45f21274296b15d7150504cca60918976ac24302d849e727cbf10f17c73422",
   "source_png": "design/seal-individual/U3D0D5.png",
   "reference_png_sha256": "ab7456d091ab606f8eba968652c82d86d261e637cbe6a70a4f5ba32f444bb35c",
   "reviewed_specimens": [
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0D5.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-D2D5-native2/sources/U3D0D5.json",
-  "source_json_sha256": "1d84c0fe9b1070d9e23e2a10294ec1ab6f5dd9605798a445629fa5011a1802bc",
-  "geometry_sha256": "8223abe55ccced112eae36233575ddc6d7a196e10c47700fbd5baef278967ee7",
-  "font_file": "design/quality/proofs/continuation/root-D2D5-native2/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "dfb6334d36a77675119456c076e6d0bd56e625e35345259ce5b8865f90fff872",
-  "raster_file": "design/quality/proofs/continuation/root-D2D5-native2/U3D0D5-Regular400.png",
-  "raster_sha256": "249d8a1f39c95bf74951579938a9254235df71b538a957880f9243114ee9c8f6",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-D2D5-THX-repairs-v1/sources/U3D0D5.json",
+  "source_json_sha256": "f8f3da48a5c1903a1413f788e70e1f65eb0b96c856a9ceed128edafb295906ce",
+  "geometry_sha256": "8fe67c3b0d627cbe9e399c6ffd252e3efde3dc666083ec52d59d280258ed5627",
+  "font_file": "design/quality/proofs/continuation/root-D2D5-THX-repairs-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6a4ae03e3a481531312f043a6754ccaea83eecf8f4e797b90922d97141076ce2",
+  "raster_file": "design/quality/proofs/continuation/root-D2D5-THX-repairs-v1/U3D0D5-Regular400.png",
+  "raster_sha256": "f8d5601fe92fa421354c3e4e3b66a0b838bf0ce94ad60f16f7a574fe2b50d873",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,18 +34,16 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Native retry puts restored long outer upright on left winding-stem component, making its upper bar a vertical-plus-horizontal corner. Whole THX places that upright on LEFT OUTER side of RIGHT compound, attached to right compound shoulder, while left winding-stem top bar remains detached and horizontal. Current restoration is mislocated. Prefer first native original, which has correct other trajectories, and extend its correctly placed right-compound outer stub upward. Full native, all four whole specimens and actual font inspected.",
-  "requested_corrections": [
-    "Native retry puts restored long outer upright on left winding-stem component, making its upper bar a vertical-plus-horizontal corner. Whole THX places that upright on LEFT OUTER side of RIGHT compound, attached to right compound shoulder, while left winding-stem top bar remains detached and horizontal. Current restoration is mislocated. Prefer first native original, which has correct other trajectories, and extend its correctly placed right-compound outer stub upward. Full native, all four whole specimens and actual font inspected."
-  ],
+  "notes": "Independently inspected selected first native full, all four enlarged whole references, repaired Regular400 full font and enlarged right compound upright. Added long upright extends correct outer-left right-compound stub upward, consistent THX. Left detached cup, separate winding lower course, right top hook, middlebars and four right descenders retained; five lower total terminals. Native remains mismatch for missing long outer-left upright.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
   ],
   "previous_geometry_reviews": [
     {
@@ -56,6 +54,18 @@
       "regular400_verdict": "needs_structural_repair",
       "native_verdict": "mismatch",
       "notes": "Full native/font and all four enlarged whole specimens inspected. Right upper component should have a distinct left outer descending upright adjacent to its central upright. Native/font replace this with a very short left-facing/upturned stub at middle junction, omitting upper length seen in THX/CCZ/QJZ. Upper cup, long left bend, right inner course and four lower descents otherwise retained."
+    },
+    {
+      "geometry_sha256": "8223abe55ccced112eae36233575ddc6d7a196e10c47700fbd5baef278967ee7",
+      "source_json_sha256": "1d84c0fe9b1070d9e23e2a10294ec1ab6f5dd9605798a445629fa5011a1802bc",
+      "font_sha256": "dfb6334d36a77675119456c076e6d0bd56e625e35345259ce5b8865f90fff872",
+      "raster_sha256": "249d8a1f39c95bf74951579938a9254235df71b538a957880f9243114ee9c8f6",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Native retry puts restored long outer upright on left winding-stem component, making its upper bar a vertical-plus-horizontal corner. Whole THX places that upright on LEFT OUTER side of RIGHT compound, attached to right compound shoulder, while left winding-stem top bar remains detached and horizontal. Current restoration is mislocated. Prefer first native original, which has correct other trajectories, and extend its correctly placed right-compound outer stub upward. Full native, all four whole specimens and actual font inspected.",
+      "requested_corrections": [
+        "Native retry puts restored long outer upright on left winding-stem component, making its upper bar a vertical-plus-horizontal corner. Whole THX places that upright on LEFT OUTER side of RIGHT compound, attached to right compound shoulder, while left winding-stem top bar remains detached and horizontal. Current restoration is mislocated. Prefer first native original, which has correct other trajectories, and extend its correctly placed right-compound outer stub upward. Full native, all four whole specimens and actual font inspected."
+      ]
     }
   ]
 }

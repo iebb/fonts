@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0A7",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0A7.json",
+  "source_png_sha256": "bd8105d677871ae37c64c4b85f624ef47d396d3d9c14692992dafc1bcd85302e",
+  "source_png": "design/seal-individual/U3D0A7.png",
+  "reference_png_sha256": "736d0c1c3bfb712475bc913cb02c02ed7165ffc90c63112cfbbc88d9d8d041d0",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0A7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/sources/U3D0A7.json",
+  "source_json_sha256": "f7ea77a5e4fae7eca6644e51ca4d5fe03c01ee8568e28c85edc2385cdb903d35",
+  "geometry_sha256": "f278363ef0e966b6947ef93c7efd26d3426376e1a82934b60cc580e38025c812",
+  "font_file": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "0729680545db628543051d55cf1ca3a711a2921e4941faa26572333743b135db",
+  "raster_file": "design/quality/proofs/continuation/U3D0A60A7161-restored-branches-v1/U3D0A7-Regular400.png",
+  "raster_sha256": "df6f99a2363b85404ec8782989f19179dc7eae7eb75468199fc0e08b2be43ddd",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      241,
+      -64,
+      783,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged central crossing inspected. Coherent native/THX central course now crosses through one genuine X, without intervening connector splitting into Ys. Upper branch retained, four central terminals and separate outer tall courses preserved, detached left staff remains separate. Smooth rounded common pen/proportional envelope. Native remains match.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b0f1aefbbee4d53bfde97a7e05859d60c378f8ef382007e99ea776714f1b22e7",
+      "source_json_sha256": "008a06b78541669504d0455f36bb84566d93e336051ead84ac327eaf2c9bead2",
+      "font_sha256": "35b7793b7e1f8a489236e2f1373236859888c289c88e84c05f0db2fda6e3b30f",
+      "raster_sha256": "760ccae6bea05955e06892a156efc4b9bc28ac82abecc0385f12352b11e15cb0",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete specimens, actual Regular400 and enlarged central crossing inspected. Native agrees with attested short upper-right inner branch variant and one crossing of long central courses. Actual tracing splits native lower X crossing into two separated Y junctions connected by a conspicuous short vertical segment; this changes course continuity although terminal count survives. Outer side courses and left staff retained.",
+      "requested_corrections": [
+        "Restore one shared lower X crossing of the two curved central courses, eliminating invented short vertical between Y junctions; preserve native trajectories and free endpoints."
+      ]
+    }
+  ]
+}

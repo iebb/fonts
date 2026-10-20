@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0E7",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0E7.json",
+  "source_png_sha256": "f8f4952598c89b86f3c0b92cfa10acdf6ef5c39bdf10b6e204aa95b3df632323",
+  "source_png": "design/seal-individual/U3D0E7.png",
+  "reference_png_sha256": "cd73e2e3a350689f20fd17b21b0fe2cd91e9a58a8d1dc5339669f5e85708a7a8",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0E7.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirteenth-eight/sources/U3D0E7.json",
+  "source_json_sha256": "97d0d5c4ea82a8c84e69587300750ddbce6ff0d69dbf54ae0c4c9486570dc688",
+  "geometry_sha256": "94dba6ef45a90285a84d1cd153ecacab23af3910cdbbdbc06f7098fc30fd0ad4",
+  "font_file": "design/quality/proofs/continuation/review-thirteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
+  "raster_file": "design/quality/proofs/continuation/review-thirteenth-eight/U3D0E7-Regular400.png",
+  "raster_sha256": "8ad5364d30d6354c34865e7030a1ea82626989df3f1aa502b0d5cc46c7e53c29",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      243,
+      -64,
+      781,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged right compound inspected. Upper inner bent return stops free inside left chamber, whereas all whole references connect it to outer left wall, separating upper left and middle left counters. Native/font therefore lose one closed field. Hold for bounded inner return extension to wall, preserving top right counter, middle crossbar, lower counter and long tail.",
+  "requested_corrections": [
+    "Extend inner bent upper return leftward to existing outer left wall at attested mid-upper height, restoring separate closed upper-left/middle-left fields."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

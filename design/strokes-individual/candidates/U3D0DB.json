@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -18,7 +18,7 @@
   "stroke_order": "Geometrically inferred path sequence; not historical writing order.",
   "source": {
     "file": "design/seal-individual/U3D0DB.png",
-    "sha256": "c75a6b57a2389e49deb39dcb5bb78f9f74e857a65ff2e9ea79c9d49d9213712c",
+    "sha256": "c3fbf57ec32be867a19ddcfb8067c62855e35f3042839a17214dcfd56b7a93e8",
     "source_pixels_modified": false,
     "source_layout": "one complete glyph per native PNG",
     "original_size": [
@@ -27,17 +27,17 @@
     ],
     "generation_review": {
       "code_point": "U+3D0DB",
-      "attempt": 1,
+      "attempt": 2,
       "tool": "image_gen.imagegen",
-      "prompt": "Draw exactly ONE complete original Small Seal font glyph from the attached four-specimen Unicode reference sheet. The THX, CCZ, QJZ and DYC slots all depict the SAME character; study every available specimen, treating blank slots as unavailable evidence. Choose one coherent attested whole construction, never combine incompatible variants or replace with a modern Chinese character. Produce harmonious Gothic/sans-serif MONOLINE strokes, absolutely constant width around3% of square canvas, smooth rounded B\u00e9zier-like curves, round caps and round joins, precise straight bars, no pressure modulation, brush edges, taper, serif, swelling, decorative marks or blobs. Maintain authentic branch relationships, length proportions, separate strokes, open gaps and counters. One glyph centered in central70% of square1:1 canvas with generous empty margins. Pure BLACK strokes on fully TRANSPARENT background, no labels, annotations, text, codepoints, grids, background, frames, shadows, watermark or multiple glyphs. Specific U+3D0DB: CoherentTHX intricatewholeform. LEFT detachedthreebarupright. RIGHT tallcentralstem withthreecloseupperhorizontalbarlevels, smallrightsideenclosedreturn andshortdiagonalrightwardbranch. Belowupperbars TWO wide invertedV/rooflikebranchlevels stackedaroundcentralstem. A largeUcup surrounds lowerbranches withtwo talluprightsides androundedbottom crossingcentralstem. Underthatcup centralstem continuesdown toONE longhorizontalbaseline. ONE detachedshortslantingfoot oneachside ofcentralstem between cupandbaseline. Preserveeachupperbar/shortreturn, both invertedVbranches, enclosinglowercup, andtwodetachedfeet. Keepall smallwhitegaps open, no modernsubstitution.",
+      "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs.  Redraw U+3D0DB faithfully to THX. Left \u738b three rails. Right upper central vertical with rounded right box of two counters: diagonal tail exits MIDDLE rail at right, not lower corner. Beneath box upward chevron attached central stem, then a short horizontal crossbar directly beneath chevron. Middle region TWO short detached side diagonals flanking central stem, with air gaps from stem. Below them another upward chevron JOINED at its apex to central stem inside broad open U cup. Central stem ends at that lower chevron, not running through cup floor. Beneath cup TWO close parallel vertical supports to bottom horizontal baseline enclosing narrow counter, with detached slanted short strokes outside these supports. Preserve all details and clear gaps.",
       "reference": "reference/seal/individual/U3D0DB.png",
       "reference_viewed_before_generation": true,
-      "original_generated_file": "/workspace/generated_images/exec-6502ca1d-1f08-48a3-9264-a10bc5aa08b7.png",
+      "original_generated_file": "/workspace/generated_images/exec-4b717f13-fbd6-4ef6-b116-eeb52a7a456b.png",
       "output_file": "design/seal-individual/U3D0DB.png",
       "original_pixels_unchanged": true,
       "visual_review_status": "pending_independent_review",
       "coverage_eligible": false,
-      "sha256": "c75a6b57a2389e49deb39dcb5bb78f9f74e857a65ff2e9ea79c9d49d9213712c",
+      "sha256": "c3fbf57ec32be867a19ddcfb8067c62855e35f3042839a17214dcfd56b7a93e8",
       "reference_sha256": "5acae56d45ea3c3504dedcf36e67b84bd2db228acddb0e43e5df29e04d6fd861",
       "reference_metadata_sha256": "d7b58492f11b428deb1ea4a9bc9553eee2374f84b611bc2238ead0923b9fe3cc",
       "four_specimen_evidence": {
@@ -128,10 +128,20 @@
           }
         }
       },
+      "previous_attempts": [
+        "design/seal-individual/attempts/U3D0DB-attempt-1.json"
+      ],
       "manifest": "design/seal-individual/U3D0DB.json",
-      "manifest_sha256": "685d551b6e878b1a0ff91aa87e1d1024435e7494cc3ce6efe835143d33baead0"
+      "manifest_sha256": "612b4347f7ef2115ee2ac844c23acae6d330e04a82474fe761603fcc30f3ecce"
     },
-    "visual_reference_review": {},
+    "visual_reference_review": {
+      "verdict": "stale",
+      "notes": [
+        "Review applies to a different PNG hash."
+      ],
+      "review_file": "design/seal-individual/reviews/U3D0DB.json",
+      "review_sha256": "a23f2212e660af3664471b04930e2505a8e1f1eebff9d5622d21ad319f108df6"
+    },
     "alpha_threshold": 128,
     "readonly_alpha_analysis": {
       "size": [
@@ -162,67 +172,67 @@
   "maximum_fit_error_analysis_pixels": 1.0,
   "maximum_fit_error_font_units": 3.2716,
   "topology": {
-    "retained_mask_components": 4,
+    "retained_mask_components": 7,
     "removed_small_components": 0,
-    "skeleton_pixels": 1247,
+    "skeleton_pixels": 1210,
     "pruned_spur_pixels": 0,
-    "graph_edges": 33,
+    "graph_edges": 40,
     "junctions": [
       {
         "point": [
-          294.4409,
-          304.2556
-        ],
-        "degree": 3,
-        "continuations": [
-          {
-            "edges": [
-              0,
-              2
-            ],
-            "angle_degrees": 180.0
-          }
-        ],
-        "unpaired_branches": 1,
-        "review_required": true,
-        "point_analysis_pixels": [
-          90.0,
-          93.0
-        ]
-      },
-      {
-        "point": [
-          294.4409,
-          474.377
+          327.1565,
+          471.1054
         ],
         "degree": 4,
         "continuations": [
           {
             "edges": [
-              1,
-              4
+              0,
+              3
             ],
             "angle_degrees": 180.0
           },
           {
             "edges": [
-              3,
-              5
+              1,
+              2
             ],
-            "angle_degrees": 180.0
+            "angle_degrees": 175.24
           }
         ],
         "unpaired_branches": 0,
         "review_required": true,
         "point_analysis_pixels": [
-          90.0,
-          145.0
+          100.0,
+          144.0
         ]
       },
       {
         "point": [
-          294.4409,
-          647.77
+          327.1565,
+          690.3003
+        ],
+        "degree": 3,
+        "continuations": [
+          {
+            "edges": [
+              4,
+              5
+            ],
+            "angle_degrees": 170.47
+          }
+        ],
+        "unpaired_branches": 1,
+        "review_required": true,
+        "point_analysis_pixels": [
+          100.0,
+          211.0
+        ]
+      },
+      {
+        "point": [
+          330.4281,
+          278.0831
         ],
         "degree": 3,
         "continuations": [
@@ -231,165 +241,151 @@
               6,
               7
             ],
-            "angle_degrees": 170.47
+            "angle_degrees": 180.0
           }
         ],
         "unpaired_branches": 1,
         "review_required": true,
         "point_analysis_pixels": [
-          90.0,
-          198.0
+          101.0,
+          85.0
         ]
       },
       {
         "point": [
-          549.623,
-          225.738
+          523.4505,
+          775.361
         ],
-        "degree": 4,
+        "degree": 3,
         "continuations": [
           {
             "edges": [
               8,
-              11
-            ],
-            "angle_degrees": 180.0
-          },
-          {
-            "edges": [
-              9,
               10
             ],
-            "angle_degrees": 180.0
+            "angle_degrees": 165.96
           }
         ],
-        "unpaired_branches": 0,
+        "unpaired_branches": 1,
         "review_required": true,
         "point_analysis_pixels": [
-          168.0,
-          69.0
+          160.0,
+          237.0
         ]
       },
       {
         "point": [
-          549.623,
-          297.7125
+          523.4505,
+          899.6805
+        ],
+        "degree": 3,
+        "continuations": [
+          {
+            "edges": [
+              11,
+              12
+            ],
+            "angle_degrees": 180.0
+          }
+        ],
+        "unpaired_branches": 1,
+        "review_required": true,
+        "point_analysis_pixels": [
+          160.0,
+          275.0
+        ]
+      },
+      {
+        "point": [
+          567.6166,
+          487.4633
         ],
         "degree": 4,
         "continuations": [
           {
             "edges": [
-              10,
-              13
+              14,
+              15
             ],
             "angle_degrees": 180.0
           },
-          {
-            "edges": [
-              12,
-              14
-            ],
-            "angle_degrees": 180.0
-          }
-        ],
-        "unpaired_branches": 0,
-        "review_required": true,
-        "point_analysis_pixels": [
-          168.0,
-          91.0
-        ]
-      },
-      {
-        "point": [
-          549.623,
-          366.4153
-        ],
-        "degree": 4,
-        "continuations": [
           {
             "edges": [
               13,
               16
             ],
-            "angle_degrees": 180.0
-          },
-          {
-            "edges": [
-              15,
-              17
-            ],
-            "angle_degrees": 180.0
+            "angle_degrees": 150.76
           }
         ],
         "unpaired_branches": 0,
         "review_required": true,
         "point_analysis_pixels": [
-          168.0,
-          112.0
+          173.5,
+          149.0
         ]
       },
       {
         "point": [
-          549.623,
-          431.8466
+          565.9808,
+          575.7955
         ],
         "degree": 4,
         "continuations": [
           {
             "edges": [
-              16,
+              14,
+              18
+            ],
+            "angle_degrees": 180.0
+          },
+          {
+            "edges": [
+              17,
               19
             ],
             "angle_degrees": 180.0
-          },
-          {
-            "edges": [
-              18,
-              20
-            ],
-            "angle_degrees": 156.5
           }
         ],
         "unpaired_branches": 0,
         "review_required": true,
         "point_analysis_pixels": [
-          168.0,
-          132.0
+          173.0,
+          176.0
         ]
       },
       {
         "point": [
-          549.623,
-          526.722
+          569.2524,
+          229.0096
         ],
         "degree": 4,
         "continuations": [
           {
             "edges": [
-              19,
-              22
+              20,
+              23
             ],
             "angle_degrees": 180.0
           },
           {
             "edges": [
               21,
-              23
+              22
             ],
-            "angle_degrees": 161.08
+            "angle_degrees": 180.0
           }
         ],
         "unpaired_branches": 0,
         "review_required": true,
         "point_analysis_pixels": [
-          168.0,
-          161.0
+          174.0,
+          70.0
         ]
       },
       {
         "point": [
-          549.623,
-          716.4728
+          569.2524,
+          317.3419
         ],
         "degree": 4,
         "continuations": [
@@ -411,57 +407,86 @@
         "unpaired_branches": 0,
         "review_required": true,
         "point_analysis_pixels": [
-          168.0,
-          219.0
+          174.0,
+          97.0
         ]
       },
       {
         "point": [
-          549.623,
-          857.1502
+          569.2524,
+          405.6741
         ],
-        "degree": 3,
+        "degree": 4,
         "continuations": [
+          {
+            "edges": [
+              15,
+              25
+            ],
+            "angle_degrees": 180.0
+          },
           {
             "edges": [
               27,
               28
             ],
-            "angle_degrees": 170.47
+            "angle_degrees": 175.24
           }
         ],
-        "unpaired_branches": 1,
+        "unpaired_branches": 0,
         "review_required": true,
         "point_analysis_pixels": [
-          168.0,
-          262.0
+          174.0,
+          124.0
         ]
       },
       {
         "point": [
-          723.016,
-          359.8722
+          569.2524,
+          677.2141
         ],
         "degree": 3,
         "continuations": [],
         "unpaired_branches": 3,
         "review_required": true,
         "point_analysis_pixels": [
-          221.0,
-          110.0
+          174.0,
+          207.0
         ]
       },
       {
         "point": [
-          726.2875,
-          297.7125
+          618.3259,
+          775.361
         ],
         "degree": 3,
         "continuations": [
           {
             "edges": [
-              11,
-              29
+              10,
+              32
+            ],
+            "angle_degrees": 175.24
+          }
+        ],
+        "unpaired_branches": 1,
+        "review_required": true,
+        "point_analysis_pixels": [
+          189.0,
+          237.0
+        ]
+      },
+      {
+        "point": [
+          618.3259,
+          899.6805
+        ],
+        "degree": 3,
+        "continuations": [
+          {
+            "edges": [
+              12,
+              33
             ],
             "angle_degrees": 180.0
           }
@@ -469,8 +494,52 @@
         "unpaired_branches": 1,
         "review_required": true,
         "point_analysis_pixels": [
-          222.0,
-          91.0
+          189.0,
+          275.0
+        ]
+      },
+      {
+        "point": [
+          641.2268,
+          408.9457
+        ],
+        "degree": 3,
+        "continuations": [
+          {
+            "edges": [
+              28,
+              35
+            ],
+            "angle_degrees": 163.93
+          }
+        ],
+        "unpaired_branches": 1,
+        "review_required": true,
+        "point_analysis_pixels": [
+          196.0,
+          125.0
+        ]
+      },
+      {
+        "point": [
+          745.9169,
+          317.3419
+        ],
+        "degree": 3,
+        "continuations": [
+          {
+            "edges": [
+              23,
+              35
+            ],
+            "angle_degrees": 175.24
+          }
+        ],
+        "unpaired_branches": 1,
+        "review_required": true,
+        "point_analysis_pixels": [
+          228.0,
+          97.0
         ]
       }
     ],
@@ -480,1331 +549,713 @@
     {
       "points": [
         [
-          294.4409,
-          304.2556
+          327.1565,
+          690.3003
         ],
         [
-          294.4409,
-          307.5272
+          327.1565,
+          687.0288
         ],
         [
-          294.4409,
-          310.7987
+          327.1565,
+          683.7572
         ],
         [
-          294.4409,
-          314.0703
+          327.1565,
+          680.4856
         ],
         [
-          294.4409,
-          317.3419
+          327.1565,
+          677.2141
         ],
         [
-          294.4409,
-          320.6134
+          327.1565,
+          673.9425
         ],
         [
-          294.4409,
-          323.885
+          327.1565,
+          670.6709
         ],
         [
-          294.4409,
-          327.1565
+          327.1565,
+          667.3994
         ],
         [
-          294.4409,
-          330.4281
+          327.1565,
+          664.1278
         ],
         [
-          294.4409,
-          333.6997
+          327.1565,
+          660.8562
         ],
         [
-          294.4409,
-          336.9712
+          327.1565,
+          657.5847
         ],
         [
-          294.4409,
-          340.2428
+          327.1565,
+          654.3131
         ],
         [
-          294.4409,
-          343.5144
+          327.1565,
+          651.0415
         ],
         [
-          294.4409,
-          346.7859
+          327.1565,
+          647.77
         ],
         [
-          294.4409,
-          350.0575
-        ],
-        [
-          294.4409,
-          353.3291
-        ],
-        [
-          294.4409,
-          356.6006
-        ],
-        [
-          294.4409,
-          359.8722
-        ],
-        [
-          294.4409,
-          363.1438
-        ],
-        [
-          294.4409,
-          366.4153
-        ],
-        [
-          294.4409,
-          369.6869
-        ],
-        [
-          294.4409,
-          372.9585
-        ],
-        [
-          294.4409,
-          376.23
-        ],
-        [
-          294.4409,
-          379.5016
-        ],
-        [
-          294.4409,
-          382.7732
-        ],
-        [
-          294.4409,
-          386.0447
-        ],
-        [
-          294.4409,
-          389.3163
-        ],
-        [
-          294.4409,
-          392.5879
-        ],
-        [
-          294.4409,
-          395.8594
-        ],
-        [
-          294.4409,
-          399.131
-        ],
-        [
-          294.4409,
-          402.4026
-        ],
-        [
-          294.4409,
-          405.6741
-        ],
-        [
-          294.4409,
-          408.9457
-        ],
-        [
-          294.4409,
-          412.2173
-        ],
-        [
-          294.4409,
-          415.4888
-        ],
-        [
-          294.4409,
-          418.7604
-        ],
-        [
-          294.4409,
-          422.0319
-        ],
-        [
-          294.4409,
-          425.3035
-        ],
-        [
-          294.4409,
-          428.5751
-        ],
-        [
-          294.4409,
-          431.8466
-        ],
-        [
-          294.4409,
-          435.1182
-        ],
-        [
-          294.4409,
-          438.3898
-        ],
-        [
-          294.4409,
-          441.6613
-        ],
-        [
-          294.4409,
-          444.9329
-        ],
-        [
-          294.4409,
-          448.2045
-        ],
-        [
-          294.4409,
-          451.476
-        ],
-        [
-          294.4409,
-          454.7476
-        ],
-        [
-          294.4409,
-          458.0192
-        ],
-        [
-          294.4409,
-          461.2907
-        ],
-        [
-          294.4409,
-          464.5623
-        ],
-        [
-          294.4409,
-          467.8339
-        ],
-        [
-          294.4409,
-          471.1054
-        ],
-        [
-          294.4409,
-          474.377
-        ],
-        [
-          294.4409,
-          477.6486
-        ],
-        [
-          294.4409,
-          480.9201
-        ],
-        [
-          294.4409,
-          484.1917
-        ],
-        [
-          294.4409,
-          487.4633
-        ],
-        [
-          294.4409,
-          490.7348
-        ],
-        [
-          294.4409,
-          494.0064
-        ],
-        [
-          294.4409,
-          497.278
-        ],
-        [
-          294.4409,
-          500.5495
-        ],
-        [
-          294.4409,
-          503.8211
-        ],
-        [
-          294.4409,
-          507.0927
-        ],
-        [
-          294.4409,
-          510.3642
-        ],
-        [
-          294.4409,
-          513.6358
-        ],
-        [
-          294.4409,
-          516.9073
-        ],
-        [
-          294.4409,
-          520.1789
-        ],
-        [
-          294.4409,
-          523.4505
-        ],
-        [
-          294.4409,
-          526.722
-        ],
-        [
-          294.4409,
-          529.9936
-        ],
-        [
-          294.4409,
-          533.2652
-        ],
-        [
-          294.4409,
-          536.5367
-        ],
-        [
-          294.4409,
-          539.8083
-        ],
-        [
-          294.4409,
-          543.0799
-        ],
-        [
-          294.4409,
-          546.3514
-        ],
-        [
-          294.4409,
-          549.623
-        ],
-        [
-          294.4409,
-          552.8946
-        ],
-        [
-          294.4409,
-          556.1661
-        ],
-        [
-          294.4409,
-          559.4377
-        ],
-        [
-          294.4409,
-          562.7093
-        ],
-        [
-          294.4409,
-          565.9808
-        ],
-        [
-          294.4409,
-          569.2524
-        ],
-        [
-          294.4409,
-          572.524
-        ],
-        [
-          294.4409,
-          575.7955
-        ],
-        [
-          294.4409,
-          579.0671
-        ],
-        [
-          294.4409,
-          582.3387
-        ],
-        [
-          294.4409,
-          585.6102
-        ],
-        [
-          294.4409,
-          588.8818
-        ],
-        [
-          294.4409,
-          592.1534
-        ],
-        [
-          294.4409,
-          595.4249
-        ],
-        [
-          294.4409,
-          598.6965
-        ],
-        [
-          294.4409,
-          601.9681
-        ],
-        [
-          294.4409,
-          605.2396
-        ],
-        [
-          294.4409,
-          608.5112
-        ],
-        [
-          294.4409,
-          611.7827
-        ],
-        [
-          294.4409,
-          615.0543
-        ],
-        [
-          294.4409,
-          618.3259
-        ],
-        [
-          294.4409,
-          621.5974
-        ],
-        [
-          294.4409,
-          624.869
-        ],
-        [
-          294.4409,
-          628.1406
-        ],
-        [
-          294.4409,
-          631.4121
-        ],
-        [
-          294.4409,
-          634.6837
-        ],
-        [
-          294.4409,
-          637.9553
-        ],
-        [
-          294.4409,
-          641.2268
-        ],
-        [
-          294.4409,
+          327.1565,
           644.4984
         ],
         [
-          294.4409,
-          647.77
-        ]
-      ],
-      "graph_edges": [
-        1,
-        4
-      ],
-      "is_loop": false,
-      "path": "M 294.441,304.256 L 294.441,647.77",
-      "commands": [
+          327.1565,
+          641.2268
+        ],
         [
-          "M",
-          294.4409,
+          327.1565,
+          637.9553
+        ],
+        [
+          327.1565,
+          634.6837
+        ],
+        [
+          327.1565,
+          631.4121
+        ],
+        [
+          327.1565,
+          628.1406
+        ],
+        [
+          327.1565,
+          624.869
+        ],
+        [
+          327.1565,
+          621.5974
+        ],
+        [
+          327.1565,
+          618.3259
+        ],
+        [
+          327.1565,
+          615.0543
+        ],
+        [
+          327.1565,
+          611.7827
+        ],
+        [
+          327.1565,
+          608.5112
+        ],
+        [
+          327.1565,
+          605.2396
+        ],
+        [
+          327.1565,
+          601.9681
+        ],
+        [
+          327.1565,
+          598.6965
+        ],
+        [
+          327.1565,
+          595.4249
+        ],
+        [
+          327.1565,
+          592.1534
+        ],
+        [
+          327.1565,
+          588.8818
+        ],
+        [
+          327.1565,
+          585.6102
+        ],
+        [
+          327.1565,
+          582.3387
+        ],
+        [
+          327.1565,
+          579.0671
+        ],
+        [
+          327.1565,
+          575.7955
+        ],
+        [
+          327.1565,
+          572.524
+        ],
+        [
+          327.1565,
+          569.2524
+        ],
+        [
+          327.1565,
+          565.9808
+        ],
+        [
+          327.1565,
+          562.7093
+        ],
+        [
+          327.1565,
+          559.4377
+        ],
+        [
+          327.1565,
+          556.1661
+        ],
+        [
+          327.1565,
+          552.8946
+        ],
+        [
+          327.1565,
+          549.623
+        ],
+        [
+          327.1565,
+          546.3514
+        ],
+        [
+          327.1565,
+          543.0799
+        ],
+        [
+          327.1565,
+          539.8083
+        ],
+        [
+          327.1565,
+          536.5367
+        ],
+        [
+          327.1565,
+          533.2652
+        ],
+        [
+          327.1565,
+          529.9936
+        ],
+        [
+          327.1565,
+          526.722
+        ],
+        [
+          327.1565,
+          523.4505
+        ],
+        [
+          327.1565,
+          520.1789
+        ],
+        [
+          327.1565,
+          516.9073
+        ],
+        [
+          327.1565,
+          513.6358
+        ],
+        [
+          327.1565,
+          510.3642
+        ],
+        [
+          327.1565,
+          507.0927
+        ],
+        [
+          327.1565,
+          503.8211
+        ],
+        [
+          327.1565,
+          500.5495
+        ],
+        [
+          327.1565,
+          497.278
+        ],
+        [
+          327.1565,
+          494.0064
+        ],
+        [
+          327.1565,
+          490.7348
+        ],
+        [
+          327.1565,
+          487.4633
+        ],
+        [
+          327.1565,
+          484.1917
+        ],
+        [
+          327.1565,
+          480.9201
+        ],
+        [
+          327.1565,
+          477.6486
+        ],
+        [
+          327.1565,
+          474.377
+        ],
+        [
+          327.1565,
+          471.1054
+        ],
+        [
+          327.1565,
+          467.8339
+        ],
+        [
+          327.1565,
+          464.5623
+        ],
+        [
+          327.1565,
+          461.2907
+        ],
+        [
+          330.4281,
+          458.0192
+        ],
+        [
+          330.4281,
+          454.7476
+        ],
+        [
+          330.4281,
+          451.476
+        ],
+        [
+          330.4281,
+          448.2045
+        ],
+        [
+          330.4281,
+          444.9329
+        ],
+        [
+          330.4281,
+          441.6613
+        ],
+        [
+          330.4281,
+          438.3898
+        ],
+        [
+          330.4281,
+          435.1182
+        ],
+        [
+          330.4281,
+          431.8466
+        ],
+        [
+          330.4281,
+          428.5751
+        ],
+        [
+          330.4281,
+          425.3035
+        ],
+        [
+          330.4281,
+          422.0319
+        ],
+        [
+          330.4281,
+          418.7604
+        ],
+        [
+          330.4281,
+          415.4888
+        ],
+        [
+          330.4281,
+          412.2173
+        ],
+        [
+          330.4281,
+          408.9457
+        ],
+        [
+          330.4281,
+          405.6741
+        ],
+        [
+          330.4281,
+          402.4026
+        ],
+        [
+          330.4281,
+          399.131
+        ],
+        [
+          330.4281,
+          395.8594
+        ],
+        [
+          330.4281,
+          392.5879
+        ],
+        [
+          330.4281,
+          389.3163
+        ],
+        [
+          330.4281,
+          386.0447
+        ],
+        [
+          330.4281,
+          382.7732
+        ],
+        [
+          330.4281,
+          379.5016
+        ],
+        [
+          330.4281,
+          376.23
+        ],
+        [
+          330.4281,
+          372.9585
+        ],
+        [
+          330.4281,
+          369.6869
+        ],
+        [
+          330.4281,
+          366.4153
+        ],
+        [
+          330.4281,
+          363.1438
+        ],
+        [
+          330.4281,
+          359.8722
+        ],
+        [
+          330.4281,
+          356.6006
+        ],
+        [
+          330.4281,
+          353.3291
+        ],
+        [
+          330.4281,
+          350.0575
+        ],
+        [
+          330.4281,
+          346.7859
+        ],
+        [
+          330.4281,
+          343.5144
+        ],
+        [
+          330.4281,
+          340.2428
+        ],
+        [
+          330.4281,
+          336.9712
+        ],
+        [
+          330.4281,
+          333.6997
+        ],
+        [
+          330.4281,
+          330.4281
+        ],
+        [
+          330.4281,
+          327.1565
+        ],
+        [
+          330.4281,
+          323.885
+        ],
+        [
+          330.4281,
+          320.6134
+        ],
+        [
+          330.4281,
+          317.3419
+        ],
+        [
+          330.4281,
+          314.0703
+        ],
+        [
+          330.4281,
+          310.7987
+        ],
+        [
+          330.4281,
+          307.5272
+        ],
+        [
+          330.4281,
           304.2556
         ],
         [
-          "L",
-          294.4409,
-          647.77
+          330.4281,
+          300.984
+        ],
+        [
+          330.4281,
+          297.7125
+        ],
+        [
+          330.4281,
+          294.4409
+        ],
+        [
+          330.4281,
+          291.1693
+        ],
+        [
+          330.4281,
+          287.8978
+        ],
+        [
+          330.4281,
+          284.6262
+        ],
+        [
+          330.4281,
+          281.3546
+        ],
+        [
+          330.4281,
+          278.0831
         ]
       ],
-      "maximum_fit_error": 0.0,
+      "graph_edges": [
+        2,
+        1
+      ],
+      "is_loop": false,
+      "path": "M 327.156,690.3 L 330.428,278.083",
+      "commands": [
+        [
+          "M",
+          327.1565,
+          690.3003
+        ],
+        [
+          "L",
+          330.4281,
+          278.0831
+        ]
+      ],
+      "maximum_fit_error": 1.8174,
       "curve_segments": 1,
       "id": "stroke-1",
       "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "maximum_fit_error_analysis_pixels": 0.5555,
+      "maximum_fit_error_font_units": 1.8174
     },
     {
       "points": [
         [
-          549.623,
-          857.1502
-        ],
-        [
-          549.623,
-          853.8786
-        ],
-        [
-          549.623,
-          850.607
-        ],
-        [
-          549.623,
-          847.3355
-        ],
-        [
-          549.623,
-          844.0639
-        ],
-        [
-          549.623,
-          840.7923
-        ],
-        [
-          549.623,
-          837.5208
-        ],
-        [
-          549.623,
-          834.2492
-        ],
-        [
-          549.623,
-          830.9776
-        ],
-        [
-          549.623,
-          827.7061
-        ],
-        [
-          549.623,
-          824.4345
-        ],
-        [
-          549.623,
-          821.1629
-        ],
-        [
-          549.623,
-          817.8914
-        ],
-        [
-          549.623,
-          814.6198
-        ],
-        [
-          549.623,
-          811.3482
-        ],
-        [
-          549.623,
-          808.0767
-        ],
-        [
-          549.623,
-          804.8051
-        ],
-        [
-          549.623,
-          801.5335
-        ],
-        [
-          549.623,
-          798.262
-        ],
-        [
-          549.623,
-          794.9904
-        ],
-        [
-          549.623,
-          791.7188
-        ],
-        [
-          549.623,
-          788.4473
-        ],
-        [
-          549.623,
-          785.1757
-        ],
-        [
-          549.623,
-          781.9042
-        ],
-        [
-          549.623,
-          778.6326
-        ],
-        [
-          549.623,
+          523.4505,
           775.361
         ],
         [
-          549.623,
-          772.0895
+          523.4505,
+          778.6326
         ],
         [
-          549.623,
-          768.8179
+          523.4505,
+          781.9042
         ],
         [
-          549.623,
-          765.5463
+          523.4505,
+          785.1757
         ],
         [
-          549.623,
-          762.2748
+          523.4505,
+          788.4473
         ],
         [
-          549.623,
-          759.0032
+          523.4505,
+          791.7188
         ],
         [
-          549.623,
-          755.7316
+          523.4505,
+          794.9904
         ],
         [
-          549.623,
-          752.4601
+          523.4505,
+          798.262
         ],
         [
-          549.623,
-          749.1885
+          523.4505,
+          801.5335
         ],
         [
-          549.623,
-          745.9169
+          523.4505,
+          804.8051
         ],
         [
-          549.623,
-          742.6454
+          523.4505,
+          808.0767
         ],
         [
-          549.623,
-          739.3738
+          523.4505,
+          811.3482
         ],
         [
-          549.623,
-          736.1022
+          523.4505,
+          814.6198
         ],
         [
-          549.623,
-          732.8307
+          523.4505,
+          817.8914
         ],
         [
-          549.623,
-          729.5591
+          523.4505,
+          821.1629
         ],
         [
-          549.623,
-          726.2875
+          523.4505,
+          824.4345
         ],
         [
-          549.623,
-          723.016
+          523.4505,
+          827.7061
         ],
         [
-          549.623,
-          719.7444
+          523.4505,
+          830.9776
         ],
         [
-          549.623,
-          716.4728
+          523.4505,
+          834.2492
         ],
         [
-          549.623,
-          713.2013
+          523.4505,
+          837.5208
         ],
         [
-          549.623,
-          709.9297
+          523.4505,
+          840.7923
         ],
         [
-          549.623,
-          706.6581
+          523.4505,
+          844.0639
         ],
         [
-          549.623,
-          703.3866
+          523.4505,
+          847.3355
         ],
         [
-          549.623,
-          700.115
+          523.4505,
+          850.607
         ],
         [
-          549.623,
-          696.8435
+          523.4505,
+          853.8786
         ],
         [
-          549.623,
-          693.5719
-        ],
-        [
-          549.623,
-          690.3003
-        ],
-        [
-          549.623,
-          687.0288
-        ],
-        [
-          549.623,
-          683.7572
-        ],
-        [
-          549.623,
-          680.4856
-        ],
-        [
-          549.623,
-          677.2141
-        ],
-        [
-          549.623,
-          673.9425
-        ],
-        [
-          549.623,
-          670.6709
-        ],
-        [
-          549.623,
-          667.3994
-        ],
-        [
-          549.623,
-          664.1278
-        ],
-        [
-          549.623,
-          660.8562
-        ],
-        [
-          549.623,
-          657.5847
-        ],
-        [
-          549.623,
-          654.3131
-        ],
-        [
-          549.623,
-          651.0415
-        ],
-        [
-          549.623,
-          647.77
-        ],
-        [
-          549.623,
-          644.4984
-        ],
-        [
-          549.623,
-          641.2268
-        ],
-        [
-          549.623,
-          637.9553
-        ],
-        [
-          549.623,
-          634.6837
-        ],
-        [
-          549.623,
-          631.4121
-        ],
-        [
-          549.623,
-          628.1406
-        ],
-        [
-          549.623,
-          624.869
-        ],
-        [
-          549.623,
-          621.5974
-        ],
-        [
-          549.623,
-          618.3259
-        ],
-        [
-          549.623,
-          615.0543
-        ],
-        [
-          549.623,
-          611.7827
-        ],
-        [
-          549.623,
-          608.5112
-        ],
-        [
-          549.623,
-          605.2396
-        ],
-        [
-          549.623,
-          601.9681
-        ],
-        [
-          549.623,
-          598.6965
-        ],
-        [
-          549.623,
-          595.4249
-        ],
-        [
-          549.623,
-          592.1534
-        ],
-        [
-          549.623,
-          588.8818
-        ],
-        [
-          549.623,
-          585.6102
-        ],
-        [
-          549.623,
-          582.3387
-        ],
-        [
-          549.623,
-          579.0671
-        ],
-        [
-          549.623,
-          575.7955
-        ],
-        [
-          549.623,
-          572.524
-        ],
-        [
-          549.623,
-          569.2524
-        ],
-        [
-          549.623,
-          565.9808
-        ],
-        [
-          549.623,
-          562.7093
-        ],
-        [
-          549.623,
-          559.4377
-        ],
-        [
-          549.623,
-          556.1661
-        ],
-        [
-          549.623,
-          552.8946
-        ],
-        [
-          549.623,
-          549.623
-        ],
-        [
-          549.623,
-          546.3514
-        ],
-        [
-          549.623,
-          543.0799
-        ],
-        [
-          549.623,
-          539.8083
-        ],
-        [
-          549.623,
-          536.5367
-        ],
-        [
-          549.623,
-          533.2652
-        ],
-        [
-          549.623,
-          529.9936
-        ],
-        [
-          549.623,
-          526.722
-        ],
-        [
-          549.623,
-          523.4505
-        ],
-        [
-          549.623,
-          520.1789
-        ],
-        [
-          549.623,
-          516.9073
-        ],
-        [
-          549.623,
-          513.6358
-        ],
-        [
-          549.623,
-          510.3642
-        ],
-        [
-          549.623,
-          507.0927
-        ],
-        [
-          549.623,
-          503.8211
-        ],
-        [
-          549.623,
-          500.5495
-        ],
-        [
-          549.623,
-          497.278
-        ],
-        [
-          549.623,
-          494.0064
-        ],
-        [
-          549.623,
-          490.7348
-        ],
-        [
-          549.623,
-          487.4633
-        ],
-        [
-          549.623,
-          484.1917
-        ],
-        [
-          549.623,
-          480.9201
-        ],
-        [
-          549.623,
-          477.6486
-        ],
-        [
-          549.623,
-          474.377
-        ],
-        [
-          549.623,
-          471.1054
-        ],
-        [
-          549.623,
-          467.8339
-        ],
-        [
-          549.623,
-          464.5623
-        ],
-        [
-          549.623,
-          461.2907
-        ],
-        [
-          549.623,
-          458.0192
-        ],
-        [
-          549.623,
-          454.7476
-        ],
-        [
-          549.623,
-          451.476
-        ],
-        [
-          549.623,
-          448.2045
-        ],
-        [
-          549.623,
-          444.9329
-        ],
-        [
-          549.623,
-          441.6613
-        ],
-        [
-          549.623,
-          438.3898
-        ],
-        [
-          549.623,
-          435.1182
-        ],
-        [
-          549.623,
-          431.8466
-        ],
-        [
-          549.623,
-          428.5751
-        ],
-        [
-          549.623,
-          425.3035
-        ],
-        [
-          549.623,
-          422.0319
-        ],
-        [
-          549.623,
-          418.7604
-        ],
-        [
-          549.623,
-          415.4888
-        ],
-        [
-          549.623,
-          412.2173
-        ],
-        [
-          549.623,
-          408.9457
-        ],
-        [
-          549.623,
-          405.6741
-        ],
-        [
-          549.623,
-          402.4026
-        ],
-        [
-          549.623,
-          399.131
-        ],
-        [
-          549.623,
-          395.8594
-        ],
-        [
-          549.623,
-          392.5879
-        ],
-        [
-          549.623,
-          389.3163
-        ],
-        [
-          549.623,
-          386.0447
-        ],
-        [
-          549.623,
-          382.7732
-        ],
-        [
-          549.623,
-          379.5016
-        ],
-        [
-          549.623,
-          376.23
-        ],
-        [
-          549.623,
-          372.9585
-        ],
-        [
-          549.623,
-          369.6869
-        ],
-        [
-          549.623,
-          366.4153
-        ],
-        [
-          549.623,
-          363.1438
-        ],
-        [
-          549.623,
-          359.8722
-        ],
-        [
-          549.623,
-          356.6006
-        ],
-        [
-          549.623,
-          353.3291
-        ],
-        [
-          549.623,
-          350.0575
-        ],
-        [
-          549.623,
-          346.7859
-        ],
-        [
-          549.623,
-          343.5144
-        ],
-        [
-          549.623,
-          340.2428
-        ],
-        [
-          549.623,
-          336.9712
-        ],
-        [
-          549.623,
-          333.6997
-        ],
-        [
-          549.623,
-          330.4281
-        ],
-        [
-          549.623,
-          327.1565
-        ],
-        [
-          549.623,
-          323.885
-        ],
-        [
-          549.623,
-          320.6134
-        ],
-        [
-          549.623,
-          317.3419
-        ],
-        [
-          549.623,
-          314.0703
-        ],
-        [
-          549.623,
-          310.7987
-        ],
-        [
-          549.623,
-          307.5272
-        ],
-        [
-          549.623,
-          304.2556
-        ],
-        [
-          549.623,
-          300.984
-        ],
-        [
-          549.623,
-          297.7125
-        ],
-        [
-          549.623,
-          294.4409
-        ],
-        [
-          549.623,
-          291.1693
-        ],
-        [
-          549.623,
-          287.8978
-        ],
-        [
-          549.623,
-          284.6262
-        ],
-        [
-          549.623,
-          281.3546
-        ],
-        [
-          549.623,
-          278.0831
-        ],
-        [
-          549.623,
-          274.8115
-        ],
-        [
-          549.623,
-          271.5399
-        ],
-        [
-          549.623,
-          268.2684
-        ],
-        [
-          549.623,
-          264.9968
-        ],
-        [
-          549.623,
-          261.7252
-        ],
-        [
-          549.623,
-          258.4537
-        ],
-        [
-          549.623,
-          255.1821
-        ],
-        [
-          549.623,
-          251.9105
-        ],
-        [
-          549.623,
-          248.639
-        ],
-        [
-          549.623,
-          245.3674
-        ],
-        [
-          549.623,
-          242.0958
-        ],
-        [
-          549.623,
-          238.8243
-        ],
-        [
-          549.623,
-          235.5527
-        ],
-        [
-          549.623,
-          232.2812
-        ],
-        [
-          549.623,
-          229.0096
-        ],
-        [
-          549.623,
-          225.738
-        ],
-        [
-          549.623,
-          222.4665
-        ],
-        [
-          549.623,
-          219.1949
-        ],
-        [
-          549.623,
-          215.9233
-        ],
-        [
-          549.623,
-          212.6518
-        ],
-        [
-          549.623,
-          209.3802
-        ],
-        [
-          549.623,
-          206.1086
-        ],
-        [
-          549.623,
-          202.8371
-        ],
-        [
-          549.623,
-          199.5655
-        ],
-        [
-          549.623,
-          196.2939
-        ],
-        [
-          549.623,
-          193.0224
-        ],
-        [
-          549.623,
-          189.7508
-        ],
-        [
-          549.623,
-          186.4792
-        ],
-        [
-          549.623,
-          183.2077
-        ],
-        [
-          549.623,
-          179.9361
-        ],
-        [
-          549.623,
-          176.6645
-        ],
-        [
-          549.623,
-          173.393
-        ],
-        [
-          549.623,
-          170.1214
-        ],
-        [
-          549.623,
-          166.8498
-        ],
-        [
-          549.623,
-          163.5783
-        ]
-      ],
-      "graph_edges": [
-        25,
-        22,
-        19,
-        16,
-        13,
-        10,
-        9
-      ],
-      "is_loop": false,
-      "path": "M 549.623,857.15 L 549.623,163.578",
-      "commands": [
-        [
-          "M",
-          549.623,
+          523.4505,
           857.1502
         ],
         [
+          523.4505,
+          860.4217
+        ],
+        [
+          523.4505,
+          863.6933
+        ],
+        [
+          523.4505,
+          866.9649
+        ],
+        [
+          523.4505,
+          870.2364
+        ],
+        [
+          523.4505,
+          873.508
+        ],
+        [
+          523.4505,
+          876.7796
+        ],
+        [
+          523.4505,
+          880.0511
+        ],
+        [
+          523.4505,
+          883.3227
+        ],
+        [
+          523.4505,
+          886.5942
+        ],
+        [
+          523.4505,
+          889.8658
+        ],
+        [
+          523.4505,
+          893.1374
+        ],
+        [
+          523.4505,
+          896.4089
+        ],
+        [
+          523.4505,
+          899.6805
+        ]
+      ],
+      "graph_edges": [
+        9
+      ],
+      "is_loop": false,
+      "path": "M 523.451,775.361 L 523.451,899.681",
+      "commands": [
+        [
+          "M",
+          523.4505,
+          775.361
+        ],
+        [
           "L",
-          549.623,
-          163.5783
+          523.4505,
+          899.6805
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -1817,1522 +1268,1115 @@
     {
       "points": [
         [
-          723.016,
-          359.8722
-        ],
-        [
-          719.7444,
-          363.1438
-        ],
-        [
-          716.4728,
-          363.1438
-        ],
-        [
-          713.2013,
-          363.1438
-        ],
-        [
-          709.9297,
-          363.1438
-        ],
-        [
-          706.6581,
-          363.1438
-        ],
-        [
-          703.3866,
-          366.4153
-        ],
-        [
-          700.115,
-          366.4153
-        ],
-        [
-          696.8435,
-          366.4153
-        ],
-        [
-          693.5719,
-          366.4153
-        ],
-        [
-          690.3003,
-          366.4153
-        ],
-        [
-          687.0288,
-          366.4153
-        ],
-        [
-          683.7572,
-          366.4153
-        ],
-        [
-          680.4856,
-          366.4153
-        ],
-        [
-          677.2141,
-          366.4153
-        ],
-        [
-          673.9425,
-          366.4153
-        ],
-        [
-          670.6709,
-          366.4153
-        ],
-        [
-          667.3994,
-          366.4153
-        ],
-        [
-          664.1278,
-          366.4153
-        ],
-        [
-          660.8562,
-          366.4153
-        ],
-        [
-          657.5847,
-          366.4153
-        ],
-        [
-          654.3131,
-          366.4153
-        ],
-        [
-          651.0415,
-          366.4153
-        ],
-        [
-          647.77,
-          366.4153
-        ],
-        [
-          644.4984,
-          366.4153
-        ],
-        [
-          641.2268,
-          366.4153
-        ],
-        [
-          637.9553,
-          366.4153
-        ],
-        [
-          634.6837,
-          366.4153
-        ],
-        [
-          631.4121,
-          366.4153
-        ],
-        [
-          628.1406,
-          366.4153
-        ],
-        [
-          624.869,
-          366.4153
-        ],
-        [
-          621.5974,
-          366.4153
-        ],
-        [
-          618.3259,
-          366.4153
-        ],
-        [
-          615.0543,
-          366.4153
-        ],
-        [
-          611.7827,
-          366.4153
-        ],
-        [
-          608.5112,
-          366.4153
-        ],
-        [
-          605.2396,
-          366.4153
-        ],
-        [
-          601.9681,
-          366.4153
-        ],
-        [
-          598.6965,
-          366.4153
-        ],
-        [
-          595.4249,
-          366.4153
-        ],
-        [
-          592.1534,
-          366.4153
-        ],
-        [
-          588.8818,
-          366.4153
-        ],
-        [
-          585.6102,
-          366.4153
-        ],
-        [
-          582.3387,
-          366.4153
-        ],
-        [
-          579.0671,
-          366.4153
-        ],
-        [
-          575.7955,
-          366.4153
-        ],
-        [
-          572.524,
-          366.4153
+          569.2524,
+          677.2141
         ],
         [
           569.2524,
-          366.4153
-        ],
-        [
-          565.9808,
-          366.4153
-        ],
-        [
-          562.7093,
-          366.4153
-        ],
-        [
-          559.4377,
-          366.4153
-        ],
-        [
-          556.1661,
-          366.4153
-        ],
-        [
-          552.8946,
-          366.4153
-        ],
-        [
-          549.623,
-          366.4153
-        ],
-        [
-          546.3514,
-          366.4153
-        ],
-        [
-          543.0799,
-          366.4153
-        ],
-        [
-          539.8083,
-          366.4153
-        ],
-        [
-          536.5367,
-          366.4153
-        ],
-        [
-          533.2652,
-          366.4153
-        ],
-        [
-          529.9936,
-          366.4153
-        ],
-        [
-          526.722,
-          366.4153
-        ],
-        [
-          523.4505,
-          366.4153
-        ],
-        [
-          520.1789,
-          366.4153
-        ],
-        [
-          516.9073,
-          366.4153
-        ],
-        [
-          513.6358,
-          366.4153
-        ],
-        [
-          510.3642,
-          366.4153
-        ],
-        [
-          507.0927,
-          366.4153
-        ],
-        [
-          503.8211,
-          366.4153
-        ],
-        [
-          500.5495,
-          366.4153
-        ],
-        [
-          497.278,
-          366.4153
-        ],
-        [
-          494.0064,
-          366.4153
-        ],
-        [
-          490.7348,
-          366.4153
-        ],
-        [
-          487.4633,
-          366.4153
-        ],
-        [
-          484.1917,
-          366.4153
-        ],
-        [
-          480.9201,
-          366.4153
-        ],
-        [
-          477.6486,
-          366.4153
-        ],
-        [
-          474.377,
-          366.4153
-        ],
-        [
-          471.1054,
-          366.4153
-        ],
-        [
-          467.8339,
-          366.4153
-        ],
-        [
-          464.5623,
-          366.4153
-        ],
-        [
-          461.2907,
-          366.4153
-        ],
-        [
-          458.0192,
-          366.4153
-        ],
-        [
-          454.7476,
-          366.4153
-        ],
-        [
-          451.476,
-          366.4153
-        ],
-        [
-          448.2045,
-          366.4153
-        ],
-        [
-          444.9329,
-          366.4153
-        ],
-        [
-          441.6613,
-          366.4153
-        ]
-      ],
-      "graph_edges": [
-        17,
-        15
-      ],
-      "is_loop": false,
-      "path": "M 723.016,359.872 C 700.497,365.609 675.957,366.464 651.155,366.69 C 628.34,366.897 605.304,366.57 582.338,366.414 C 535.313,366.093 488.583,366.485 441.661,366.415",
-      "commands": [
-        [
-          "M",
-          723.016,
-          359.8722
-        ],
-        [
-          "C",
-          700.4971,
-          365.6086,
-          675.9568,
-          366.4644,
-          651.1551,
-          366.6898
-        ],
-        [
-          "C",
-          628.3401,
-          366.8969,
-          605.3041,
-          366.5704,
-          582.338,
-          366.414
-        ],
-        [
-          "C",
-          535.3128,
-          366.0934,
-          488.5828,
-          366.4853,
-          441.6613,
-          366.4153
-        ]
-      ],
-      "maximum_fit_error": 2.8054,
-      "curve_segments": 3,
-      "id": "stroke-3",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.8575,
-      "maximum_fit_error_font_units": 2.8054
-    },
-    {
-      "points": [
-        [
-          723.016,
-          359.8722
-        ],
-        [
-          726.2875,
-          356.6006
-        ],
-        [
-          726.2875,
-          353.3291
-        ],
-        [
-          726.2875,
-          350.0575
-        ],
-        [
-          726.2875,
-          346.7859
-        ],
-        [
-          726.2875,
-          343.5144
-        ],
-        [
-          726.2875,
-          340.2428
-        ],
-        [
-          726.2875,
-          336.9712
-        ],
-        [
-          726.2875,
-          333.6997
-        ],
-        [
-          726.2875,
-          330.4281
-        ],
-        [
-          726.2875,
-          327.1565
-        ],
-        [
-          726.2875,
-          323.885
-        ],
-        [
-          726.2875,
-          320.6134
-        ],
-        [
-          726.2875,
-          317.3419
-        ],
-        [
-          726.2875,
-          314.0703
-        ],
-        [
-          726.2875,
-          310.7987
-        ],
-        [
-          726.2875,
-          307.5272
-        ],
-        [
-          726.2875,
-          304.2556
-        ],
-        [
-          726.2875,
-          300.984
-        ],
-        [
-          726.2875,
-          297.7125
-        ],
-        [
-          726.2875,
-          294.4409
-        ],
-        [
-          726.2875,
-          291.1693
-        ],
-        [
-          726.2875,
-          287.8978
-        ],
-        [
-          726.2875,
-          284.6262
-        ],
-        [
-          726.2875,
-          281.3546
-        ],
-        [
-          726.2875,
-          278.0831
-        ],
-        [
-          726.2875,
-          274.8115
-        ],
-        [
-          726.2875,
-          271.5399
-        ],
-        [
-          726.2875,
-          268.2684
-        ],
-        [
-          726.2875,
-          264.9968
-        ],
-        [
-          726.2875,
-          261.7252
-        ],
-        [
-          726.2875,
-          258.4537
-        ],
-        [
-          723.016,
-          255.1821
-        ],
-        [
-          723.016,
-          251.9105
-        ],
-        [
-          723.016,
-          248.639
-        ],
-        [
-          723.016,
-          245.3674
-        ],
-        [
-          723.016,
-          242.0958
-        ],
-        [
-          719.7444,
-          238.8243
-        ],
-        [
-          716.4728,
-          235.5527
-        ],
-        [
-          713.2013,
-          232.2812
-        ],
-        [
-          709.9297,
-          229.0096
-        ],
-        [
-          706.6581,
-          229.0096
-        ],
-        [
-          703.3866,
-          229.0096
-        ],
-        [
-          700.115,
-          229.0096
-        ],
-        [
-          696.8435,
-          225.738
-        ],
-        [
-          693.5719,
-          225.738
-        ],
-        [
-          690.3003,
-          225.738
-        ],
-        [
-          687.0288,
-          225.738
-        ],
-        [
-          683.7572,
-          225.738
-        ],
-        [
-          680.4856,
-          225.738
-        ],
-        [
-          677.2141,
-          225.738
-        ],
-        [
-          673.9425,
-          225.738
-        ],
-        [
-          670.6709,
-          225.738
-        ],
-        [
-          667.3994,
-          225.738
-        ],
-        [
-          664.1278,
-          225.738
-        ],
-        [
-          660.8562,
-          225.738
-        ],
-        [
-          657.5847,
-          225.738
-        ],
-        [
-          654.3131,
-          225.738
-        ],
-        [
-          651.0415,
-          225.738
-        ],
-        [
-          647.77,
-          225.738
-        ],
-        [
-          644.4984,
-          225.738
-        ],
-        [
-          641.2268,
-          225.738
-        ],
-        [
-          637.9553,
-          225.738
-        ],
-        [
-          634.6837,
-          225.738
-        ],
-        [
-          631.4121,
-          225.738
-        ],
-        [
-          628.1406,
-          225.738
-        ],
-        [
-          624.869,
-          225.738
-        ],
-        [
-          621.5974,
-          225.738
-        ],
-        [
-          618.3259,
-          225.738
-        ],
-        [
-          615.0543,
-          225.738
-        ],
-        [
-          611.7827,
-          225.738
-        ],
-        [
-          608.5112,
-          225.738
-        ],
-        [
-          605.2396,
-          225.738
-        ],
-        [
-          601.9681,
-          225.738
-        ],
-        [
-          598.6965,
-          225.738
-        ],
-        [
-          595.4249,
-          225.738
-        ],
-        [
-          592.1534,
-          225.738
-        ],
-        [
-          588.8818,
-          225.738
-        ],
-        [
-          585.6102,
-          225.738
-        ],
-        [
-          582.3387,
-          225.738
-        ],
-        [
-          579.0671,
-          225.738
-        ],
-        [
-          575.7955,
-          225.738
-        ],
-        [
-          572.524,
-          225.738
+          673.9425
         ],
         [
           569.2524,
-          225.738
+          670.6709
+        ],
+        [
+          569.2524,
+          667.3994
+        ],
+        [
+          569.2524,
+          664.1278
         ],
         [
           565.9808,
-          225.738
+          660.8562
         ],
         [
-          562.7093,
-          225.738
+          565.9808,
+          657.5847
         ],
         [
-          559.4377,
-          225.738
+          565.9808,
+          654.3131
         ],
         [
-          556.1661,
-          225.738
+          565.9808,
+          651.0415
         ],
         [
-          552.8946,
-          225.738
+          565.9808,
+          647.77
         ],
         [
-          549.623,
-          225.738
+          565.9808,
+          644.4984
         ],
         [
-          546.3514,
-          225.738
+          565.9808,
+          641.2268
         ],
         [
-          543.0799,
-          225.738
+          565.9808,
+          637.9553
         ],
         [
-          539.8083,
-          225.738
+          565.9808,
+          634.6837
         ],
         [
-          536.5367,
-          225.738
+          565.9808,
+          631.4121
         ],
         [
-          533.2652,
-          225.738
+          565.9808,
+          628.1406
         ],
         [
-          529.9936,
-          225.738
+          565.9808,
+          624.869
         ],
         [
-          526.722,
-          225.738
+          565.9808,
+          621.5974
         ],
         [
-          523.4505,
-          225.738
+          565.9808,
+          618.3259
         ],
         [
-          520.1789,
-          225.738
+          565.9808,
+          615.0543
         ],
         [
-          516.9073,
-          225.738
+          565.9808,
+          611.7827
         ],
         [
-          513.6358,
-          225.738
+          565.9808,
+          608.5112
         ],
         [
-          510.3642,
-          225.738
+          565.9808,
+          605.2396
         ],
         [
-          507.0927,
-          225.738
+          565.9808,
+          601.9681
         ],
         [
-          503.8211,
-          225.738
+          565.9808,
+          598.6965
         ],
         [
-          500.5495,
-          225.738
+          565.9808,
+          595.4249
         ],
         [
-          497.278,
-          225.738
+          565.9808,
+          592.1534
         ],
         [
-          494.0064,
-          225.738
+          565.9808,
+          588.8818
         ],
         [
-          490.7348,
-          225.738
+          565.9808,
+          585.6102
         ],
         [
-          487.4633,
-          225.738
+          565.9808,
+          582.3387
         ],
         [
-          484.1917,
-          225.738
+          565.9808,
+          579.0671
         ],
         [
-          480.9201,
-          225.738
+          565.9808,
+          575.7955
         ],
         [
-          477.6486,
-          225.738
+          565.9808,
+          572.524
         ],
         [
-          474.377,
-          225.738
+          565.9808,
+          569.2524
         ],
         [
-          471.1054,
-          225.738
+          565.9808,
+          565.9808
         ],
         [
-          467.8339,
-          225.738
+          565.9808,
+          562.7093
         ],
         [
-          464.5623,
-          225.738
+          565.9808,
+          559.4377
         ],
         [
-          461.2907,
-          225.738
+          565.9808,
+          556.1661
         ],
         [
-          458.0192,
-          225.738
+          565.9808,
+          552.8946
         ],
         [
-          454.7476,
-          225.738
+          565.9808,
+          549.623
         ],
         [
-          451.476,
-          225.738
+          565.9808,
+          546.3514
         ],
         [
-          448.2045,
-          225.738
+          565.9808,
+          543.0799
         ],
         [
-          444.9329,
-          225.738
-        ]
-      ],
-      "graph_edges": [
-        29,
-        11,
-        8
-      ],
-      "is_loop": false,
-      "path": "M 723.016,359.872 C 727.803,342.885 725.657,326.042 725.95,307.897 C 726.217,291.315 728.523,273.645 725.625,258.214 C 723.76,248.279 719.737,239.272 712.503,233.853 C 706.639,229.46 698.663,227.424 690.428,226.244 C 674.648,223.982 657.912,224.858 641.33,225.387 C 575.005,227.504 511.156,224.066 444.933,225.738",
-      "commands": [
+          565.9808,
+          539.8083
+        ],
+        [
+          565.9808,
+          536.5367
+        ],
+        [
+          565.9808,
+          533.2652
+        ],
+        [
+          565.9808,
+          529.9936
+        ],
+        [
+          565.9808,
+          526.722
+        ],
         [
-          "M",
-          723.016,
-          359.8722
+          565.9808,
+          523.4505
         ],
         [
-          "C",
-          727.8033,
-          342.8846,
-          725.6565,
-          326.0423,
-          725.9496,
-          307.8972
+          565.9808,
+          520.1789
         ],
         [
-          "C",
-          726.2175,
-          291.3152,
-          728.5233,
-          273.6452,
-          725.625,
-          258.2135
+          565.9808,
+          516.9073
         ],
         [
-          "C",
-          723.7596,
-          248.2791,
-          719.7372,
-          239.2722,
-          712.5028,
-          233.8528
+          565.9808,
+          513.6358
         ],
         [
-          "C",
-          706.6385,
-          229.4598,
-          698.6631,
-          227.4242,
-          690.4276,
-          226.2438
+          565.9808,
+          510.3642
         ],
         [
-          "C",
-          674.6475,
-          223.9815,
-          657.9115,
-          224.858,
-          641.3302,
-          225.3873
+          565.9808,
+          507.0927
         ],
         [
-          "C",
-          575.0054,
-          227.5043,
-          511.1563,
-          224.0662,
-          444.9329,
-          225.738
-        ]
-      ],
-      "maximum_fit_error": 2.8495,
-      "curve_segments": 6,
-      "id": "stroke-4",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.871,
-      "maximum_fit_error_font_units": 2.8495
-    },
-    {
-      "points": [
+          565.9808,
+          503.8211
+        ],
+        [
+          565.9808,
+          500.5495
+        ],
         [
-          723.016,
-          359.8722
+          565.9808,
+          497.278
         ],
         [
-          726.2875,
-          363.1438
+          565.9808,
+          494.0064
         ],
         [
-          729.5591,
-          366.4153
+          565.9808,
+          490.7348
         ],
         [
-          732.8307,
-          366.4153
+          567.6166,
+          487.4633
         ],
         [
-          732.8307,
-          369.6869
+          569.2524,
+          484.1917
         ],
         [
-          736.1022,
-          369.6869
+          569.2524,
+          480.9201
         ],
         [
-          736.1022,
-          372.9585
+          569.2524,
+          477.6486
         ],
         [
-          739.3738,
-          372.9585
+          569.2524,
+          474.377
         ],
         [
-          739.3738,
-          376.23
+          569.2524,
+          471.1054
         ],
         [
-          742.6454,
-          379.5016
+          569.2524,
+          467.8339
         ],
         [
-          745.9169,
-          382.7732
+          569.2524,
+          464.5623
         ],
         [
-          745.9169,
-          386.0447
+          569.2524,
+          461.2907
         ],
         [
-          749.1885,
-          386.0447
+          569.2524,
+          458.0192
         ],
         [
-          749.1885,
-          389.3163
+          569.2524,
+          454.7476
         ],
         [
-          752.4601,
-          389.3163
+          569.2524,
+          451.476
         ],
         [
-          752.4601,
-          392.5879
+          569.2524,
+          448.2045
         ],
         [
-          755.7316,
-          392.5879
+          569.2524,
+          444.9329
         ],
         [
-          755.7316,
-          395.8594
+          569.2524,
+          441.6613
         ],
         [
-          759.0032,
-          395.8594
+          569.2524,
+          438.3898
         ],
         [
-          759.0032,
-          399.131
+          569.2524,
+          435.1182
         ],
         [
-          762.2748,
-          399.131
+          569.2524,
+          431.8466
         ],
         [
-          762.2748,
-          402.4026
+          569.2524,
+          428.5751
         ],
         [
-          765.5463,
-          402.4026
+          569.2524,
+          425.3035
         ],
         [
-          765.5463,
-          405.6741
+          569.2524,
+          422.0319
         ],
         [
-          768.8179,
-          405.6741
+          569.2524,
+          418.7604
         ],
         [
-          768.8179,
-          408.9457
+          569.2524,
+          415.4888
         ],
         [
-          772.0895,
+          569.2524,
           412.2173
         ],
         [
-          772.0895,
-          415.4888
+          569.2524,
+          408.9457
+        ],
+        [
+          569.2524,
+          405.6741
+        ],
+        [
+          569.2524,
+          402.4026
+        ],
+        [
+          569.2524,
+          399.131
+        ],
+        [
+          569.2524,
+          395.8594
+        ],
+        [
+          569.2524,
+          392.5879
+        ],
+        [
+          569.2524,
+          389.3163
+        ],
+        [
+          569.2524,
+          386.0447
+        ],
+        [
+          569.2524,
+          382.7732
+        ],
+        [
+          569.2524,
+          379.5016
+        ],
+        [
+          569.2524,
+          376.23
+        ],
+        [
+          569.2524,
+          372.9585
+        ],
+        [
+          569.2524,
+          369.6869
+        ],
+        [
+          569.2524,
+          366.4153
+        ],
+        [
+          569.2524,
+          363.1438
+        ],
+        [
+          569.2524,
+          359.8722
+        ],
+        [
+          569.2524,
+          356.6006
+        ],
+        [
+          569.2524,
+          353.3291
+        ],
+        [
+          569.2524,
+          350.0575
+        ],
+        [
+          569.2524,
+          346.7859
+        ],
+        [
+          569.2524,
+          343.5144
+        ],
+        [
+          569.2524,
+          340.2428
+        ],
+        [
+          569.2524,
+          336.9712
+        ],
+        [
+          569.2524,
+          333.6997
+        ],
+        [
+          569.2524,
+          330.4281
+        ],
+        [
+          569.2524,
+          327.1565
+        ],
+        [
+          569.2524,
+          323.885
+        ],
+        [
+          569.2524,
+          320.6134
+        ],
+        [
+          569.2524,
+          317.3419
+        ],
+        [
+          569.2524,
+          314.0703
+        ],
+        [
+          569.2524,
+          310.7987
+        ],
+        [
+          569.2524,
+          307.5272
+        ],
+        [
+          569.2524,
+          304.2556
+        ],
+        [
+          569.2524,
+          300.984
+        ],
+        [
+          569.2524,
+          297.7125
+        ],
+        [
+          569.2524,
+          294.4409
+        ],
+        [
+          569.2524,
+          291.1693
+        ],
+        [
+          569.2524,
+          287.8978
+        ],
+        [
+          569.2524,
+          284.6262
+        ],
+        [
+          569.2524,
+          281.3546
+        ],
+        [
+          569.2524,
+          278.0831
+        ],
+        [
+          569.2524,
+          274.8115
+        ],
+        [
+          569.2524,
+          271.5399
+        ],
+        [
+          569.2524,
+          268.2684
+        ],
+        [
+          569.2524,
+          264.9968
+        ],
+        [
+          569.2524,
+          261.7252
+        ],
+        [
+          569.2524,
+          258.4537
+        ],
+        [
+          569.2524,
+          255.1821
+        ],
+        [
+          569.2524,
+          251.9105
+        ],
+        [
+          569.2524,
+          248.639
+        ],
+        [
+          569.2524,
+          245.3674
+        ],
+        [
+          569.2524,
+          242.0958
+        ],
+        [
+          569.2524,
+          238.8243
+        ],
+        [
+          569.2524,
+          235.5527
+        ],
+        [
+          569.2524,
+          232.2812
+        ],
+        [
+          569.2524,
+          229.0096
+        ],
+        [
+          569.2524,
+          225.738
+        ],
+        [
+          569.2524,
+          222.4665
+        ],
+        [
+          569.2524,
+          219.1949
+        ],
+        [
+          569.2524,
+          215.9233
+        ],
+        [
+          569.2524,
+          212.6518
+        ],
+        [
+          569.2524,
+          209.3802
+        ],
+        [
+          569.2524,
+          206.1086
+        ],
+        [
+          569.2524,
+          202.8371
+        ],
+        [
+          569.2524,
+          199.5655
+        ],
+        [
+          569.2524,
+          196.2939
+        ],
+        [
+          569.2524,
+          193.0224
+        ],
+        [
+          569.2524,
+          189.7508
+        ],
+        [
+          569.2524,
+          186.4792
+        ],
+        [
+          569.2524,
+          183.2077
+        ],
+        [
+          569.2524,
+          179.9361
+        ],
+        [
+          569.2524,
+          176.6645
+        ],
+        [
+          569.2524,
+          173.393
+        ],
+        [
+          569.2524,
+          170.1214
+        ],
+        [
+          569.2524,
+          166.8498
+        ],
+        [
+          569.2524,
+          163.5783
+        ]
+      ],
+      "graph_edges": [
+        18,
+        14,
+        15,
+        25,
+        22,
+        21
+      ],
+      "is_loop": false,
+      "path": "M 569.252,677.214 L 569.252,163.578",
+      "commands": [
+        [
+          "M",
+          569.2524,
+          677.2141
+        ],
+        [
+          "L",
+          569.2524,
+          163.5783
+        ]
+      ],
+      "maximum_fit_error": 3.2716,
+      "curve_segments": 1,
+      "id": "stroke-3",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 1.0,
+      "maximum_fit_error_font_units": 3.2716
+    },
+    {
+      "points": [
+        [
+          569.2524,
+          677.2141
+        ],
+        [
+          565.9808,
+          677.2141
+        ],
+        [
+          565.9808,
+          680.4856
+        ],
+        [
+          562.7093,
+          680.4856
+        ],
+        [
+          559.4377,
+          680.4856
+        ],
+        [
+          556.1661,
+          683.7572
+        ],
+        [
+          552.8946,
+          683.7572
+        ],
+        [
+          549.623,
+          687.0288
+        ],
+        [
+          546.3514,
+          687.0288
+        ],
+        [
+          543.0799,
+          690.3003
+        ],
+        [
+          539.8083,
+          693.5719
+        ],
+        [
+          536.5367,
+          696.8435
+        ],
+        [
+          533.2652,
+          696.8435
+        ],
+        [
+          533.2652,
+          700.115
+        ],
+        [
+          529.9936,
+          700.115
+        ],
+        [
+          526.722,
+          703.3866
+        ],
+        [
+          523.4505,
+          703.3866
+        ],
+        [
+          523.4505,
+          706.6581
+        ],
+        [
+          520.1789,
+          706.6581
+        ],
+        [
+          520.1789,
+          709.9297
+        ],
+        [
+          516.9073,
+          709.9297
+        ],
+        [
+          513.6358,
+          713.2013
+        ],
+        [
+          510.3642,
+          713.2013
+        ],
+        [
+          510.3642,
+          716.4728
+        ],
+        [
+          507.0927,
+          716.4728
+        ],
+        [
+          503.8211,
+          719.7444
+        ],
+        [
+          500.5495,
+          723.016
+        ]
+      ],
+      "graph_edges": [
+        29
+      ],
+      "is_loop": false,
+      "path": "M 569.252,677.214 C 541.482,687.696 522.284,708.067 500.55,723.016",
+      "commands": [
+        [
+          "M",
+          569.2524,
+          677.2141
+        ],
+        [
+          "C",
+          541.4824,
+          687.6962,
+          522.2845,
+          708.0669,
+          500.5495,
+          723.016
+        ]
+      ],
+      "maximum_fit_error": 2.4461,
+      "curve_segments": 1,
+      "id": "stroke-4",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.7477,
+      "maximum_fit_error_font_units": 2.4461
+    },
+    {
+      "points": [
+        [
+          569.2524,
+          677.2141
+        ],
+        [
+          572.524,
+          680.4856
+        ],
+        [
+          575.7955,
+          680.4856
+        ],
+        [
+          579.0671,
+          683.7572
+        ],
+        [
+          582.3387,
+          683.7572
+        ],
+        [
+          585.6102,
+          683.7572
+        ],
+        [
+          588.8818,
+          687.0288
+        ],
+        [
+          592.1534,
+          690.3003
+        ],
+        [
+          595.4249,
+          690.3003
+        ],
+        [
+          595.4249,
+          693.5719
+        ],
+        [
+          598.6965,
+          693.5719
+        ],
+        [
+          601.9681,
+          696.8435
+        ],
+        [
+          605.2396,
+          700.115
+        ],
+        [
+          608.5112,
+          700.115
+        ],
+        [
+          608.5112,
+          703.3866
+        ],
+        [
+          611.7827,
+          703.3866
+        ],
+        [
+          611.7827,
+          706.6581
+        ],
+        [
+          615.0543,
+          706.6581
+        ],
+        [
+          618.3259,
+          709.9297
+        ],
+        [
+          621.5974,
+          709.9297
+        ],
+        [
+          621.5974,
+          713.2013
+        ],
+        [
+          624.869,
+          713.2013
+        ],
+        [
+          624.869,
+          716.4728
+        ],
+        [
+          628.1406,
+          716.4728
+        ],
+        [
+          631.4121,
+          719.7444
+        ],
+        [
+          634.6837,
+          719.7444
         ]
       ],
       "graph_edges": [
         30
       ],
       "is_loop": false,
-      "path": "M 723.016,359.872 C 730.641,367.042 734.224,368.493 738.53,373.834 C 741.187,377.128 744.118,381.903 746.791,385.158 C 748.451,387.18 750.012,388.615 751.631,390.157 C 753.791,392.212 756.055,394.455 758.207,396.685 C 759.82,398.357 761.371,400.022 763.034,401.59 C 766.59,404.94 770.662,407.842 772.09,415.489",
+      "path": "M 569.252,677.214 C 598.27,688.046 612.377,708.647 634.684,719.744",
       "commands": [
         [
           "M",
-          723.016,
-          359.8722
+          569.2524,
+          677.2141
         ],
         [
           "C",
-          730.6413,
-          367.0418,
-          734.224,
-          368.4928,
-          738.5304,
-          373.8339
-        ],
-        [
-          "C",
-          741.1866,
-          377.1281,
-          744.1182,
-          381.9026,
-          746.7908,
-          385.1575
-        ],
-        [
-          "C",
-          748.4511,
-          387.18,
-          750.0116,
-          388.6155,
-          751.6314,
-          390.1571
-        ],
-        [
-          "C",
-          753.7906,
-          392.212,
-          756.0549,
-          394.4546,
-          758.2066,
-          396.6848
-        ],
-        [
-          "C",
-          759.8204,
-          398.3573,
-          761.3708,
-          400.0225,
-          763.0341,
-          401.5896
-        ],
-        [
-          "C",
-          766.59,
-          404.9403,
-          770.6624,
-          407.8422,
-          772.0895,
-          415.4888
+          598.2699,
+          688.0456,
+          612.3772,
+          708.6466,
+          634.6837,
+          719.7444
         ]
       ],
-      "maximum_fit_error": 1.3907,
-      "curve_segments": 6,
+      "maximum_fit_error": 2.3487,
+      "curve_segments": 1,
       "id": "stroke-5",
       "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.4251,
-      "maximum_fit_error_font_units": 1.3907
+      "maximum_fit_error_analysis_pixels": 0.7179,
+      "maximum_fit_error_font_units": 2.3487
     },
     {
       "points": [
         [
-          726.2875,
-          297.7125
-        ],
-        [
-          723.016,
-          297.7125
-        ],
-        [
-          719.7444,
-          297.7125
-        ],
-        [
-          716.4728,
-          297.7125
-        ],
-        [
-          713.2013,
-          297.7125
-        ],
-        [
-          709.9297,
-          297.7125
-        ],
-        [
-          706.6581,
-          297.7125
-        ],
-        [
-          703.3866,
-          297.7125
-        ],
-        [
-          700.115,
-          297.7125
-        ],
-        [
-          696.8435,
-          297.7125
-        ],
-        [
-          693.5719,
-          297.7125
-        ],
-        [
-          690.3003,
-          297.7125
-        ],
-        [
-          687.0288,
-          297.7125
-        ],
-        [
-          683.7572,
-          297.7125
-        ],
-        [
-          680.4856,
-          297.7125
-        ],
-        [
-          677.2141,
-          297.7125
-        ],
-        [
-          673.9425,
-          297.7125
-        ],
-        [
-          670.6709,
-          297.7125
-        ],
-        [
-          667.3994,
-          297.7125
-        ],
-        [
-          664.1278,
-          297.7125
-        ],
-        [
-          660.8562,
-          297.7125
-        ],
-        [
-          657.5847,
-          297.7125
-        ],
-        [
-          654.3131,
-          297.7125
-        ],
-        [
-          651.0415,
-          297.7125
-        ],
-        [
-          647.77,
-          297.7125
-        ],
-        [
-          644.4984,
-          297.7125
-        ],
-        [
-          641.2268,
-          297.7125
-        ],
-        [
-          637.9553,
-          297.7125
-        ],
-        [
-          634.6837,
-          297.7125
-        ],
-        [
-          631.4121,
-          297.7125
-        ],
-        [
-          628.1406,
-          297.7125
-        ],
-        [
-          624.869,
-          297.7125
-        ],
-        [
-          621.5974,
-          297.7125
+          618.3259,
+          775.361
         ],
         [
           618.3259,
-          297.7125
+          778.6326
         ],
         [
-          615.0543,
-          297.7125
+          618.3259,
+          781.9042
         ],
         [
-          611.7827,
-          297.7125
+          618.3259,
+          785.1757
         ],
         [
-          608.5112,
-          297.7125
+          618.3259,
+          788.4473
         ],
         [
-          605.2396,
-          297.7125
+          618.3259,
+          791.7188
         ],
         [
-          601.9681,
-          297.7125
+          618.3259,
+          794.9904
         ],
         [
-          598.6965,
-          297.7125
+          618.3259,
+          798.262
         ],
         [
-          595.4249,
-          297.7125
+          618.3259,
+          801.5335
         ],
         [
-          592.1534,
-          297.7125
+          618.3259,
+          804.8051
         ],
         [
-          588.8818,
-          297.7125
+          618.3259,
+          808.0767
         ],
         [
-          585.6102,
-          297.7125
+          618.3259,
+          811.3482
         ],
         [
-          582.3387,
-          297.7125
+          618.3259,
+          814.6198
         ],
         [
-          579.0671,
-          297.7125
+          618.3259,
+          817.8914
         ],
         [
-          575.7955,
-          297.7125
+          618.3259,
+          821.1629
         ],
         [
-          572.524,
-          297.7125
+          618.3259,
+          824.4345
         ],
         [
-          569.2524,
-          297.7125
+          618.3259,
+          827.7061
         ],
         [
-          565.9808,
-          297.7125
+          618.3259,
+          830.9776
         ],
         [
-          562.7093,
-          297.7125
+          618.3259,
+          834.2492
         ],
         [
-          559.4377,
-          297.7125
+          618.3259,
+          837.5208
         ],
         [
-          556.1661,
-          297.7125
+          618.3259,
+          840.7923
         ],
         [
-          552.8946,
-          297.7125
+          618.3259,
+          844.0639
         ],
         [
-          549.623,
-          297.7125
+          618.3259,
+          847.3355
         ],
         [
-          546.3514,
-          297.7125
+          618.3259,
+          850.607
         ],
         [
-          543.0799,
-          297.7125
+          618.3259,
+          853.8786
         ],
         [
-          539.8083,
-          297.7125
+          618.3259,
+          857.1502
         ],
         [
-          536.5367,
-          297.7125
+          618.3259,
+          860.4217
         ],
         [
-          533.2652,
-          297.7125
+          618.3259,
+          863.6933
         ],
         [
-          529.9936,
-          297.7125
+          618.3259,
+          866.9649
         ],
         [
-          526.722,
-          297.7125
+          618.3259,
+          870.2364
         ],
         [
-          523.4505,
-          297.7125
+          618.3259,
+          873.508
         ],
         [
-          520.1789,
-          297.7125
+          618.3259,
+          876.7796
         ],
         [
-          516.9073,
-          297.7125
+          618.3259,
+          880.0511
         ],
         [
-          513.6358,
-          297.7125
+          618.3259,
+          883.3227
         ],
         [
-          510.3642,
-          297.7125
+          618.3259,
+          886.5942
         ],
         [
-          507.0927,
-          297.7125
+          618.3259,
+          889.8658
         ],
         [
-          503.8211,
-          297.7125
+          618.3259,
+          893.1374
         ],
         [
-          500.5495,
-          297.7125
+          618.3259,
+          896.4089
         ],
         [
-          497.278,
-          297.7125
-        ],
-        [
-          494.0064,
-          297.7125
-        ],
-        [
-          490.7348,
-          297.7125
-        ],
-        [
-          487.4633,
-          297.7125
-        ],
-        [
-          484.1917,
-          297.7125
-        ],
-        [
-          480.9201,
-          297.7125
-        ],
-        [
-          477.6486,
-          297.7125
-        ],
-        [
-          474.377,
-          297.7125
-        ],
-        [
-          471.1054,
-          297.7125
-        ],
-        [
-          467.8339,
-          297.7125
-        ],
-        [
-          464.5623,
-          297.7125
-        ],
-        [
-          461.2907,
-          297.7125
-        ],
-        [
-          458.0192,
-          297.7125
-        ],
-        [
-          454.7476,
-          297.7125
-        ],
-        [
-          451.476,
-          297.7125
-        ],
-        [
-          448.2045,
-          297.7125
-        ],
-        [
-          444.9329,
-          297.7125
+          618.3259,
+          899.6805
         ]
       ],
       "graph_edges": [
-        14,
-        12
+        31
       ],
       "is_loop": false,
-      "path": "M 726.288,297.712 L 444.933,297.712",
+      "path": "M 618.326,775.361 L 618.326,899.681",
       "commands": [
         [
           "M",
-          726.2875,
-          297.7125
+          618.3259,
+          775.361
         ],
         [
           "L",
-          444.9329,
-          297.7125
+          618.3259,
+          899.6805
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -3343,520 +2387,562 @@
       "maximum_fit_error_font_units": 0.0
     },
     {
-      "points": [
-        [
-          229.0096,
-          651.0415
-        ],
-        [
-          232.2812,
-          651.0415
-        ],
-        [
-          235.5527,
-          651.0415
-        ],
-        [
-          238.8243,
-          651.0415
-        ],
-        [
-          242.0958,
-          651.0415
-        ],
-        [
-          245.3674,
-          651.0415
-        ],
-        [
-          248.639,
-          651.0415
-        ],
-        [
-          251.9105,
-          651.0415
-        ],
-        [
-          255.1821,
-          651.0415
-        ],
-        [
-          258.4537,
-          651.0415
-        ],
-        [
-          261.7252,
-          651.0415
-        ],
-        [
-          264.9968,
-          651.0415
-        ],
-        [
-          268.2684,
-          651.0415
-        ],
-        [
-          271.5399,
-          651.0415
-        ],
-        [
-          274.8115,
-          651.0415
-        ],
-        [
-          278.0831,
-          651.0415
-        ],
-        [
-          281.3546,
-          651.0415
-        ],
-        [
-          284.6262,
-          651.0415
-        ],
-        [
-          287.8978,
-          651.0415
-        ],
-        [
-          291.1693,
-          647.77
-        ],
-        [
-          294.4409,
-          647.77
-        ],
-        [
-          297.7125,
-          647.77
-        ],
-        [
-          300.984,
-          651.0415
-        ],
-        [
-          304.2556,
-          651.0415
-        ],
-        [
-          307.5272,
-          651.0415
-        ],
-        [
-          310.7987,
-          651.0415
-        ],
-        [
-          314.0703,
-          651.0415
-        ],
-        [
-          317.3419,
-          651.0415
-        ],
-        [
-          320.6134,
-          651.0415
-        ],
-        [
-          323.885,
-          651.0415
-        ],
-        [
-          327.1565,
-          651.0415
-        ],
-        [
-          330.4281,
-          651.0415
-        ],
-        [
-          333.6997,
-          651.0415
-        ],
-        [
-          336.9712,
-          651.0415
-        ],
-        [
-          340.2428,
-          651.0415
-        ],
-        [
-          343.5144,
-          651.0415
-        ]
-      ],
       "graph_edges": [
-        6,
-        7
+        34
       ],
       "is_loop": false,
-      "path": "M 229.01,651.042 L 343.514,651.042",
-      "commands": [
-        [
-          "M",
-          229.0096,
-          651.0415
-        ],
-        [
-          "L",
-          343.5144,
-          651.0415
-        ]
-      ],
-      "maximum_fit_error": 3.2716,
-      "curve_segments": 1,
+      "path": "M 700,320.613 C 733,329 766,352 790,375",
+      "curve_segments": 25,
       "id": "stroke-7",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 1.0,
-      "maximum_fit_error_font_units": 3.2716
+      "closed": false
     },
     {
       "points": [
         [
-          232.2812,
-          474.377
+          745.9169,
+          317.3419
         ],
         [
-          235.5527,
-          474.377
+          742.6454,
+          317.3419
         ],
         [
-          238.8243,
-          474.377
+          739.3738,
+          317.3419
         ],
         [
-          242.0958,
-          474.377
+          736.1022,
+          317.3419
         ],
         [
-          245.3674,
-          474.377
+          732.8307,
+          317.3419
         ],
         [
-          248.639,
-          474.377
+          729.5591,
+          317.3419
         ],
         [
-          251.9105,
-          474.377
+          726.2875,
+          317.3419
         ],
         [
-          255.1821,
-          474.377
+          723.016,
+          317.3419
         ],
         [
-          258.4537,
-          474.377
+          719.7444,
+          317.3419
         ],
         [
-          261.7252,
-          474.377
+          716.4728,
+          317.3419
         ],
         [
-          264.9968,
-          474.377
+          713.2013,
+          317.3419
         ],
         [
-          268.2684,
-          474.377
+          709.9297,
+          317.3419
         ],
         [
-          271.5399,
-          474.377
+          706.6581,
+          317.3419
         ],
         [
-          274.8115,
-          474.377
+          703.3866,
+          317.3419
         ],
         [
-          278.0831,
-          474.377
+          700.115,
+          317.3419
         ],
         [
-          281.3546,
-          474.377
+          696.8435,
+          317.3419
         ],
         [
-          284.6262,
-          474.377
+          693.5719,
+          317.3419
         ],
         [
-          287.8978,
-          474.377
+          690.3003,
+          317.3419
         ],
         [
-          291.1693,
-          474.377
+          687.0288,
+          317.3419
         ],
         [
-          294.4409,
-          474.377
+          683.7572,
+          317.3419
         ],
         [
-          297.7125,
-          474.377
+          680.4856,
+          317.3419
         ],
         [
-          300.984,
-          474.377
+          677.2141,
+          317.3419
         ],
         [
-          304.2556,
-          474.377
+          673.9425,
+          317.3419
         ],
         [
-          307.5272,
-          474.377
+          670.6709,
+          317.3419
         ],
         [
-          310.7987,
-          474.377
+          667.3994,
+          317.3419
         ],
         [
-          314.0703,
-          474.377
+          664.1278,
+          317.3419
         ],
         [
-          317.3419,
-          474.377
+          660.8562,
+          317.3419
         ],
         [
-          320.6134,
-          474.377
+          657.5847,
+          317.3419
         ],
         [
-          323.885,
-          474.377
+          654.3131,
+          317.3419
         ],
         [
-          327.1565,
-          474.377
+          651.0415,
+          317.3419
         ],
         [
-          330.4281,
-          474.377
+          647.77,
+          317.3419
         ],
         [
-          333.6997,
-          474.377
+          644.4984,
+          317.3419
         ],
         [
-          336.9712,
-          474.377
+          641.2268,
+          317.3419
         ],
         [
-          340.2428,
-          474.377
+          637.9553,
+          317.3419
         ],
         [
-          343.5144,
-          474.377
+          634.6837,
+          317.3419
         ],
         [
-          346.7859,
-          474.377
+          631.4121,
+          317.3419
         ],
         [
-          350.0575,
-          474.377
+          628.1406,
+          317.3419
         ],
         [
-          353.3291,
-          474.377
+          624.869,
+          317.3419
+        ],
+        [
+          621.5974,
+          317.3419
+        ],
+        [
+          618.3259,
+          317.3419
+        ],
+        [
+          615.0543,
+          317.3419
+        ],
+        [
+          611.7827,
+          317.3419
+        ],
+        [
+          608.5112,
+          317.3419
+        ],
+        [
+          605.2396,
+          317.3419
+        ],
+        [
+          601.9681,
+          317.3419
+        ],
+        [
+          598.6965,
+          317.3419
+        ],
+        [
+          595.4249,
+          317.3419
+        ],
+        [
+          592.1534,
+          317.3419
+        ],
+        [
+          588.8818,
+          317.3419
+        ],
+        [
+          585.6102,
+          317.3419
+        ],
+        [
+          582.3387,
+          317.3419
+        ],
+        [
+          579.0671,
+          317.3419
+        ],
+        [
+          575.7955,
+          317.3419
+        ],
+        [
+          572.524,
+          317.3419
+        ],
+        [
+          569.2524,
+          317.3419
+        ],
+        [
+          565.9808,
+          317.3419
+        ],
+        [
+          562.7093,
+          317.3419
+        ],
+        [
+          559.4377,
+          317.3419
+        ],
+        [
+          556.1661,
+          317.3419
+        ],
+        [
+          552.8946,
+          317.3419
+        ],
+        [
+          549.623,
+          317.3419
+        ],
+        [
+          546.3514,
+          317.3419
+        ],
+        [
+          543.0799,
+          317.3419
+        ],
+        [
+          539.8083,
+          317.3419
+        ],
+        [
+          536.5367,
+          317.3419
+        ],
+        [
+          533.2652,
+          317.3419
+        ],
+        [
+          529.9936,
+          317.3419
+        ],
+        [
+          526.722,
+          317.3419
+        ],
+        [
+          523.4505,
+          317.3419
+        ],
+        [
+          520.1789,
+          317.3419
+        ],
+        [
+          516.9073,
+          317.3419
+        ],
+        [
+          513.6358,
+          317.3419
+        ],
+        [
+          510.3642,
+          317.3419
+        ],
+        [
+          507.0927,
+          317.3419
+        ],
+        [
+          503.8211,
+          317.3419
+        ],
+        [
+          500.5495,
+          317.3419
+        ],
+        [
+          497.278,
+          317.3419
+        ],
+        [
+          494.0064,
+          317.3419
+        ],
+        [
+          490.7348,
+          317.3419
+        ],
+        [
+          487.4633,
+          317.3419
+        ],
+        [
+          484.1917,
+          317.3419
+        ],
+        [
+          480.9201,
+          320.6134
         ]
       ],
       "graph_edges": [
-        3,
-        5
+        26,
+        24
       ],
       "is_loop": false,
-      "path": "M 232.281,474.377 L 353.329,474.377",
+      "path": "M 745.917,317.342 L 480.92,320.613",
       "commands": [
         [
           "M",
-          232.2812,
-          474.377
+          745.9169,
+          317.3419
         ],
         [
           "L",
-          353.3291,
-          474.377
+          480.9201,
+          320.6134
         ]
       ],
-      "maximum_fit_error": 0.0,
+      "maximum_fit_error": 3.231,
       "curve_segments": 1,
       "id": "stroke-8",
       "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.0,
-      "maximum_fit_error_font_units": 0.0
+      "maximum_fit_error_analysis_pixels": 0.9876,
+      "maximum_fit_error_font_units": 3.231
     },
     {
       "points": [
         [
-          238.8243,
-          304.2556
-        ],
-        [
-          242.0958,
-          304.2556
-        ],
-        [
-          245.3674,
-          304.2556
-        ],
-        [
-          248.639,
-          304.2556
-        ],
-        [
-          251.9105,
-          304.2556
-        ],
-        [
-          255.1821,
-          304.2556
-        ],
-        [
-          258.4537,
-          304.2556
-        ],
-        [
           261.7252,
-          304.2556
+          471.1054
         ],
         [
           264.9968,
-          304.2556
+          471.1054
         ],
         [
           268.2684,
-          304.2556
+          471.1054
         ],
         [
           271.5399,
-          304.2556
+          471.1054
         ],
         [
           274.8115,
-          304.2556
+          471.1054
         ],
         [
           278.0831,
-          304.2556
+          471.1054
         ],
         [
           281.3546,
-          304.2556
+          471.1054
         ],
         [
           284.6262,
-          304.2556
+          471.1054
         ],
         [
           287.8978,
-          304.2556
+          471.1054
         ],
         [
           291.1693,
-          304.2556
+          471.1054
         ],
         [
           294.4409,
-          304.2556
+          471.1054
         ],
         [
           297.7125,
-          304.2556
+          471.1054
         ],
         [
           300.984,
-          304.2556
+          471.1054
         ],
         [
           304.2556,
-          304.2556
+          471.1054
         ],
         [
           307.5272,
-          304.2556
+          471.1054
         ],
         [
           310.7987,
-          304.2556
+          471.1054
         ],
         [
           314.0703,
-          304.2556
+          471.1054
         ],
         [
           317.3419,
-          304.2556
+          471.1054
         ],
         [
           320.6134,
-          304.2556
+          471.1054
         ],
         [
           323.885,
-          304.2556
+          471.1054
         ],
         [
           327.1565,
-          304.2556
+          471.1054
         ],
         [
           330.4281,
-          304.2556
+          471.1054
         ],
         [
           333.6997,
-          304.2556
+          471.1054
         ],
         [
           336.9712,
-          304.2556
+          471.1054
         ],
         [
           340.2428,
-          304.2556
+          471.1054
         ],
         [
           343.5144,
-          304.2556
+          471.1054
         ],
         [
           346.7859,
-          304.2556
+          471.1054
         ],
         [
           350.0575,
-          304.2556
+          471.1054
         ],
         [
           353.3291,
-          304.2556
+          471.1054
+        ],
+        [
+          356.6006,
+          471.1054
+        ],
+        [
+          359.8722,
+          471.1054
+        ],
+        [
+          363.1438,
+          471.1054
+        ],
+        [
+          366.4153,
+          471.1054
+        ],
+        [
+          369.6869,
+          471.1054
+        ],
+        [
+          372.9585,
+          471.1054
+        ],
+        [
+          376.23,
+          471.1054
+        ],
+        [
+          379.5016,
+          471.1054
+        ],
+        [
+          382.7732,
+          471.1054
+        ],
+        [
+          386.0447,
+          471.1054
+        ],
+        [
+          389.3163,
+          471.1054
+        ],
+        [
+          392.5879,
+          471.1054
+        ],
+        [
+          395.8594,
+          471.1054
+        ],
+        [
+          399.131,
+          471.1054
         ]
       ],
       "graph_edges": [
         0,
-        2
+        3
       ],
       "is_loop": false,
-      "path": "M 238.824,304.256 L 353.329,304.256",
+      "path": "M 261.725,471.105 L 399.131,471.105",
       "commands": [
         [
           "M",
-          238.8243,
-          304.2556
+          261.7252,
+          471.1054
         ],
         [
           "L",
-          353.3291,
-          304.2556
+          399.131,
+          471.1054
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -3869,462 +2955,182 @@
     {
       "points": [
         [
+          264.9968,
+          693.5719
+        ],
+        [
+          268.2684,
+          693.5719
+        ],
+        [
+          271.5399,
+          693.5719
+        ],
+        [
+          274.8115,
+          693.5719
+        ],
+        [
+          278.0831,
+          693.5719
+        ],
+        [
+          281.3546,
+          693.5719
+        ],
+        [
+          284.6262,
+          693.5719
+        ],
+        [
+          287.8978,
+          693.5719
+        ],
+        [
+          291.1693,
+          693.5719
+        ],
+        [
+          294.4409,
+          693.5719
+        ],
+        [
+          297.7125,
+          693.5719
+        ],
+        [
+          300.984,
+          693.5719
+        ],
+        [
+          304.2556,
+          693.5719
+        ],
+        [
+          307.5272,
+          693.5719
+        ],
+        [
+          310.7987,
+          693.5719
+        ],
+        [
+          314.0703,
+          693.5719
+        ],
+        [
+          317.3419,
+          693.5719
+        ],
+        [
+          320.6134,
+          693.5719
+        ],
+        [
+          323.885,
+          693.5719
+        ],
+        [
+          327.1565,
+          690.3003
+        ],
+        [
+          330.4281,
+          693.5719
+        ],
+        [
+          333.6997,
+          693.5719
+        ],
+        [
+          336.9712,
+          693.5719
+        ],
+        [
+          340.2428,
+          693.5719
+        ],
+        [
+          343.5144,
+          693.5719
+        ],
+        [
+          346.7859,
+          693.5719
+        ],
+        [
+          350.0575,
+          693.5719
+        ],
+        [
+          353.3291,
+          693.5719
+        ],
+        [
+          356.6006,
+          693.5719
+        ],
+        [
+          359.8722,
+          693.5719
+        ],
+        [
+          363.1438,
+          693.5719
+        ],
+        [
+          366.4153,
+          693.5719
+        ],
+        [
+          369.6869,
+          693.5719
+        ],
+        [
+          372.9585,
+          693.5719
+        ],
+        [
           376.23,
-          860.4217
+          693.5719
         ],
         [
           379.5016,
-          860.4217
+          693.5719
         ],
         [
           382.7732,
-          860.4217
+          693.5719
         ],
         [
           386.0447,
-          860.4217
+          693.5719
         ],
         [
           389.3163,
-          860.4217
+          693.5719
         ],
         [
           392.5879,
-          860.4217
-        ],
-        [
-          395.8594,
-          860.4217
-        ],
-        [
-          399.131,
-          860.4217
-        ],
-        [
-          402.4026,
-          860.4217
-        ],
-        [
-          405.6741,
-          860.4217
-        ],
-        [
-          408.9457,
-          860.4217
-        ],
-        [
-          412.2173,
-          860.4217
-        ],
-        [
-          415.4888,
-          860.4217
-        ],
-        [
-          418.7604,
-          860.4217
-        ],
-        [
-          422.0319,
-          860.4217
-        ],
-        [
-          425.3035,
-          860.4217
-        ],
-        [
-          428.5751,
-          860.4217
-        ],
-        [
-          431.8466,
-          860.4217
-        ],
-        [
-          435.1182,
-          860.4217
-        ],
-        [
-          438.3898,
-          860.4217
-        ],
-        [
-          441.6613,
-          860.4217
-        ],
-        [
-          444.9329,
-          860.4217
-        ],
-        [
-          448.2045,
-          860.4217
-        ],
-        [
-          451.476,
-          860.4217
-        ],
-        [
-          454.7476,
-          860.4217
-        ],
-        [
-          458.0192,
-          860.4217
-        ],
-        [
-          461.2907,
-          860.4217
-        ],
-        [
-          464.5623,
-          860.4217
-        ],
-        [
-          467.8339,
-          860.4217
-        ],
-        [
-          471.1054,
-          860.4217
-        ],
-        [
-          474.377,
-          860.4217
-        ],
-        [
-          477.6486,
-          860.4217
-        ],
-        [
-          480.9201,
-          860.4217
-        ],
-        [
-          484.1917,
-          860.4217
-        ],
-        [
-          487.4633,
-          860.4217
-        ],
-        [
-          490.7348,
-          860.4217
-        ],
-        [
-          494.0064,
-          860.4217
-        ],
-        [
-          497.278,
-          860.4217
-        ],
-        [
-          500.5495,
-          860.4217
-        ],
-        [
-          503.8211,
-          860.4217
-        ],
-        [
-          507.0927,
-          860.4217
-        ],
-        [
-          510.3642,
-          860.4217
-        ],
-        [
-          513.6358,
-          860.4217
-        ],
-        [
-          516.9073,
-          860.4217
-        ],
-        [
-          520.1789,
-          860.4217
-        ],
-        [
-          523.4505,
-          860.4217
-        ],
-        [
-          526.722,
-          860.4217
-        ],
-        [
-          529.9936,
-          860.4217
-        ],
-        [
-          533.2652,
-          860.4217
-        ],
-        [
-          536.5367,
-          860.4217
-        ],
-        [
-          539.8083,
-          860.4217
-        ],
-        [
-          543.0799,
-          860.4217
-        ],
-        [
-          546.3514,
-          857.1502
-        ],
-        [
-          549.623,
-          857.1502
-        ],
-        [
-          552.8946,
-          860.4217
-        ],
-        [
-          556.1661,
-          860.4217
-        ],
-        [
-          559.4377,
-          860.4217
-        ],
-        [
-          562.7093,
-          860.4217
-        ],
-        [
-          565.9808,
-          860.4217
-        ],
-        [
-          569.2524,
-          860.4217
-        ],
-        [
-          572.524,
-          860.4217
-        ],
-        [
-          575.7955,
-          860.4217
-        ],
-        [
-          579.0671,
-          860.4217
-        ],
-        [
-          582.3387,
-          860.4217
-        ],
-        [
-          585.6102,
-          860.4217
-        ],
-        [
-          588.8818,
-          860.4217
-        ],
-        [
-          592.1534,
-          860.4217
-        ],
-        [
-          595.4249,
-          860.4217
-        ],
-        [
-          598.6965,
-          860.4217
-        ],
-        [
-          601.9681,
-          860.4217
-        ],
-        [
-          605.2396,
-          860.4217
-        ],
-        [
-          608.5112,
-          860.4217
-        ],
-        [
-          611.7827,
-          860.4217
-        ],
-        [
-          615.0543,
-          860.4217
-        ],
-        [
-          618.3259,
-          860.4217
-        ],
-        [
-          621.5974,
-          860.4217
-        ],
-        [
-          624.869,
-          860.4217
-        ],
-        [
-          628.1406,
-          860.4217
-        ],
-        [
-          631.4121,
-          860.4217
-        ],
-        [
-          634.6837,
-          860.4217
-        ],
-        [
-          637.9553,
-          860.4217
-        ],
-        [
-          641.2268,
-          860.4217
-        ],
-        [
-          644.4984,
-          860.4217
-        ],
-        [
-          647.77,
-          860.4217
-        ],
-        [
-          651.0415,
-          860.4217
-        ],
-        [
-          654.3131,
-          860.4217
-        ],
-        [
-          657.5847,
-          860.4217
-        ],
-        [
-          660.8562,
-          860.4217
-        ],
-        [
-          664.1278,
-          860.4217
-        ],
-        [
-          667.3994,
-          860.4217
-        ],
-        [
-          670.6709,
-          860.4217
-        ],
-        [
-          673.9425,
-          860.4217
-        ],
-        [
-          677.2141,
-          860.4217
-        ],
-        [
-          680.4856,
-          860.4217
-        ],
-        [
-          683.7572,
-          860.4217
-        ],
-        [
-          687.0288,
-          860.4217
-        ],
-        [
-          690.3003,
-          860.4217
-        ],
-        [
-          693.5719,
-          860.4217
-        ],
-        [
-          696.8435,
-          860.4217
-        ],
-        [
-          700.115,
-          860.4217
-        ],
-        [
-          703.3866,
-          860.4217
-        ],
-        [
-          706.6581,
-          860.4217
-        ],
-        [
-          709.9297,
-          860.4217
-        ],
-        [
-          713.2013,
-          860.4217
-        ],
-        [
-          716.4728,
-          860.4217
-        ],
-        [
-          719.7444,
-          860.4217
-        ],
-        [
-          723.016,
-          860.4217
-        ],
-        [
-          726.2875,
-          860.4217
-        ],
-        [
-          729.5591,
-          860.4217
-        ],
-        [
-          732.8307,
-          860.4217
+          693.5719
         ]
       ],
       "graph_edges": [
-        27,
-        28
+        4,
+        5
       ],
       "is_loop": false,
-      "path": "M 376.23,860.422 L 732.831,860.422",
+      "path": "M 264.997,693.572 L 392.588,693.572",
       "commands": [
         [
           "M",
-          376.23,
-          860.4217
+          264.9968,
+          693.5719
         ],
         [
           "L",
-          732.8307,
-          860.4217
+          392.5879,
+          693.5719
         ]
       ],
       "maximum_fit_error": 3.2716,
@@ -4337,1779 +3143,904 @@
     {
       "points": [
         [
-          392.5879,
-          569.2524
+          268.2684,
+          278.0831
+        ],
+        [
+          271.5399,
+          278.0831
+        ],
+        [
+          274.8115,
+          278.0831
+        ],
+        [
+          278.0831,
+          278.0831
+        ],
+        [
+          281.3546,
+          278.0831
+        ],
+        [
+          284.6262,
+          278.0831
+        ],
+        [
+          287.8978,
+          278.0831
+        ],
+        [
+          291.1693,
+          278.0831
+        ],
+        [
+          294.4409,
+          278.0831
+        ],
+        [
+          297.7125,
+          278.0831
+        ],
+        [
+          300.984,
+          278.0831
+        ],
+        [
+          304.2556,
+          278.0831
+        ],
+        [
+          307.5272,
+          278.0831
+        ],
+        [
+          310.7987,
+          278.0831
+        ],
+        [
+          314.0703,
+          278.0831
+        ],
+        [
+          317.3419,
+          278.0831
+        ],
+        [
+          320.6134,
+          278.0831
+        ],
+        [
+          323.885,
+          278.0831
+        ],
+        [
+          327.1565,
+          278.0831
+        ],
+        [
+          330.4281,
+          278.0831
+        ],
+        [
+          333.6997,
+          278.0831
+        ],
+        [
+          336.9712,
+          278.0831
+        ],
+        [
+          340.2428,
+          278.0831
+        ],
+        [
+          343.5144,
+          278.0831
+        ],
+        [
+          346.7859,
+          278.0831
+        ],
+        [
+          350.0575,
+          278.0831
+        ],
+        [
+          353.3291,
+          278.0831
+        ],
+        [
+          356.6006,
+          278.0831
+        ],
+        [
+          359.8722,
+          278.0831
+        ],
+        [
+          363.1438,
+          278.0831
+        ],
+        [
+          366.4153,
+          278.0831
+        ],
+        [
+          369.6869,
+          278.0831
+        ],
+        [
+          372.9585,
+          278.0831
+        ],
+        [
+          376.23,
+          278.0831
+        ],
+        [
+          379.5016,
+          278.0831
+        ],
+        [
+          382.7732,
+          278.0831
+        ],
+        [
+          386.0447,
+          278.0831
+        ],
+        [
+          389.3163,
+          278.0831
         ],
         [
           392.5879,
-          572.524
+          278.0831
+        ]
+      ],
+      "graph_edges": [
+        6,
+        7
+      ],
+      "is_loop": false,
+      "path": "M 268.268,278.083 L 392.588,278.083",
+      "commands": [
+        [
+          "M",
+          268.2684,
+          278.0831
         ],
         [
+          "L",
           392.5879,
-          575.7955
-        ],
-        [
-          392.5879,
-          579.0671
-        ],
-        [
-          392.5879,
-          582.3387
-        ],
-        [
-          392.5879,
-          585.6102
-        ],
-        [
-          392.5879,
-          588.8818
-        ],
-        [
-          392.5879,
-          592.1534
-        ],
-        [
-          392.5879,
-          595.4249
-        ],
-        [
-          392.5879,
-          598.6965
-        ],
-        [
-          392.5879,
-          601.9681
-        ],
-        [
-          392.5879,
-          605.2396
-        ],
-        [
-          392.5879,
-          608.5112
-        ],
-        [
-          392.5879,
-          611.7827
-        ],
-        [
-          392.5879,
-          615.0543
-        ],
-        [
-          392.5879,
-          618.3259
-        ],
-        [
-          392.5879,
-          621.5974
-        ],
-        [
-          392.5879,
-          624.869
-        ],
-        [
-          392.5879,
-          628.1406
-        ],
-        [
-          392.5879,
-          631.4121
-        ],
-        [
-          392.5879,
-          634.6837
-        ],
-        [
-          392.5879,
-          637.9553
-        ],
-        [
-          392.5879,
-          641.2268
-        ],
-        [
-          392.5879,
-          644.4984
-        ],
-        [
-          392.5879,
-          647.77
-        ],
-        [
-          395.8594,
-          651.0415
-        ],
-        [
-          395.8594,
-          654.3131
-        ],
-        [
-          395.8594,
-          657.5847
-        ],
-        [
-          395.8594,
-          660.8562
-        ],
-        [
-          395.8594,
-          664.1278
-        ],
-        [
-          395.8594,
-          667.3994
-        ],
-        [
-          399.131,
-          670.6709
-        ],
-        [
-          399.131,
-          673.9425
-        ],
-        [
-          402.4026,
-          677.2141
-        ],
-        [
-          402.4026,
-          680.4856
-        ],
-        [
-          405.6741,
-          683.7572
-        ],
-        [
-          405.6741,
-          687.0288
-        ],
-        [
-          408.9457,
-          690.3003
-        ],
-        [
-          412.2173,
-          690.3003
-        ],
-        [
-          412.2173,
-          693.5719
-        ],
-        [
-          415.4888,
-          693.5719
-        ],
-        [
-          415.4888,
-          696.8435
-        ],
-        [
-          418.7604,
-          696.8435
-        ],
-        [
-          418.7604,
-          700.115
-        ],
-        [
-          422.0319,
-          700.115
-        ],
-        [
-          422.0319,
-          703.3866
-        ],
-        [
-          425.3035,
-          703.3866
-        ],
-        [
-          428.5751,
-          703.3866
-        ],
-        [
-          428.5751,
-          706.6581
-        ],
-        [
-          431.8466,
-          706.6581
-        ],
-        [
-          435.1182,
-          706.6581
-        ],
-        [
-          435.1182,
-          709.9297
-        ],
+          278.0831
+        ]
+      ],
+      "maximum_fit_error": 0.0,
+      "curve_segments": 1,
+      "id": "stroke-11",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.0,
+      "maximum_fit_error_font_units": 0.0
+    },
+    {
+      "points": [
         [
           438.3898,
-          709.9297
+          902.9521
         ],
         [
           441.6613,
-          709.9297
+          899.6805
         ],
         [
           444.9329,
-          713.2013
+          899.6805
         ],
         [
           448.2045,
-          713.2013
+          899.6805
         ],
         [
           451.476,
-          716.4728
+          899.6805
         ],
         [
           454.7476,
-          716.4728
+          899.6805
         ],
         [
           458.0192,
-          716.4728
+          899.6805
         ],
         [
           461.2907,
-          716.4728
+          899.6805
         ],
         [
           464.5623,
-          716.4728
+          899.6805
         ],
         [
           467.8339,
-          716.4728
+          899.6805
         ],
         [
           471.1054,
-          716.4728
+          899.6805
         ],
         [
           474.377,
-          716.4728
+          899.6805
         ],
         [
           477.6486,
-          716.4728
+          899.6805
         ],
         [
           480.9201,
-          716.4728
+          899.6805
         ],
         [
           484.1917,
-          716.4728
+          899.6805
         ],
         [
           487.4633,
-          716.4728
+          899.6805
         ],
         [
           490.7348,
-          716.4728
+          899.6805
         ],
         [
           494.0064,
-          716.4728
+          899.6805
         ],
         [
           497.278,
-          716.4728
+          899.6805
         ],
         [
           500.5495,
-          716.4728
+          899.6805
         ],
         [
           503.8211,
-          716.4728
+          899.6805
         ],
         [
           507.0927,
-          716.4728
+          899.6805
         ],
         [
           510.3642,
-          716.4728
+          899.6805
         ],
         [
           513.6358,
-          716.4728
+          899.6805
         ],
         [
           516.9073,
-          716.4728
+          899.6805
         ],
         [
           520.1789,
-          716.4728
+          899.6805
         ],
         [
           523.4505,
-          716.4728
+          899.6805
         ],
         [
           526.722,
-          716.4728
+          899.6805
         ],
         [
           529.9936,
-          716.4728
+          899.6805
         ],
         [
           533.2652,
-          716.4728
+          899.6805
         ],
         [
           536.5367,
-          716.4728
+          899.6805
         ],
         [
           539.8083,
-          716.4728
+          899.6805
         ],
         [
           543.0799,
-          716.4728
+          899.6805
         ],
         [
           546.3514,
-          716.4728
+          899.6805
         ],
         [
           549.623,
-          716.4728
+          899.6805
         ],
         [
           552.8946,
-          716.4728
+          899.6805
         ],
         [
           556.1661,
-          716.4728
+          899.6805
         ],
         [
           559.4377,
-          716.4728
+          899.6805
         ],
         [
           562.7093,
-          716.4728
+          899.6805
         ],
         [
           565.9808,
-          716.4728
+          899.6805
         ],
         [
           569.2524,
-          716.4728
+          899.6805
         ],
         [
           572.524,
-          716.4728
+          899.6805
         ],
         [
           575.7955,
-          716.4728
+          899.6805
         ],
         [
           579.0671,
-          716.4728
+          899.6805
         ],
         [
           582.3387,
-          716.4728
+          899.6805
         ],
         [
           585.6102,
-          716.4728
+          899.6805
         ],
         [
           588.8818,
-          716.4728
+          899.6805
         ],
         [
           592.1534,
-          716.4728
+          899.6805
         ],
         [
           595.4249,
-          716.4728
+          899.6805
         ],
         [
           598.6965,
-          716.4728
+          899.6805
         ],
         [
           601.9681,
-          716.4728
+          899.6805
         ],
         [
           605.2396,
-          716.4728
+          899.6805
         ],
         [
           608.5112,
-          716.4728
+          899.6805
         ],
         [
           611.7827,
-          716.4728
+          899.6805
         ],
         [
           615.0543,
-          716.4728
+          899.6805
         ],
         [
           618.3259,
-          716.4728
+          899.6805
         ],
         [
           621.5974,
-          716.4728
+          899.6805
         ],
         [
           624.869,
-          716.4728
+          899.6805
         ],
         [
           628.1406,
-          716.4728
+          899.6805
         ],
         [
           631.4121,
-          716.4728
+          899.6805
         ],
         [
           634.6837,
-          716.4728
+          899.6805
         ],
         [
           637.9553,
-          716.4728
+          899.6805
         ],
         [
           641.2268,
-          716.4728
+          899.6805
         ],
         [
           644.4984,
-          716.4728
+          899.6805
         ],
         [
           647.77,
-          716.4728
+          899.6805
         ],
         [
           651.0415,
-          713.2013
+          899.6805
         ],
         [
           654.3131,
-          713.2013
+          899.6805
         ],
         [
           657.5847,
-          709.9297
+          899.6805
         ],
         [
           660.8562,
-          709.9297
+          899.6805
         ],
         [
           664.1278,
-          709.9297
+          899.6805
         ],
         [
           667.3994,
-          709.9297
-        ],
-        [
-          667.3994,
-          706.6581
+          899.6805
         ],
         [
           670.6709,
-          706.6581
+          899.6805
         ],
         [
           673.9425,
-          703.3866
+          899.6805
         ],
         [
           677.2141,
-          703.3866
-        ],
-        [
-          677.2141,
-          700.115
+          899.6805
         ],
         [
           680.4856,
-          700.115
+          899.6805
         ],
         [
           683.7572,
-          696.8435
+          899.6805
         ],
         [
           687.0288,
-          696.8435
-        ],
-        [
-          687.0288,
-          693.5719
+          899.6805
         ],
         [
           690.3003,
-          690.3003
+          899.6805
         ],
         [
           693.5719,
-          687.0288
-        ],
-        [
-          693.5719,
-          683.7572
+          899.6805
         ],
         [
           696.8435,
-          680.4856
+          899.6805
         ],
         [
           700.115,
-          677.2141
-        ],
-        [
-          700.115,
-          673.9425
+          899.6805
         ],
         [
           703.3866,
-          670.6709
-        ],
-        [
-          703.3866,
-          667.3994
-        ],
-        [
-          703.3866,
-          664.1278
-        ],
-        [
-          703.3866,
-          660.8562
-        ],
-        [
-          703.3866,
-          657.5847
+          899.6805
         ],
         [
           706.6581,
-          654.3131
+          899.6805
         ],
         [
-          706.6581,
-          651.0415
+          709.9297,
+          899.6805
         ],
         [
-          706.6581,
-          647.77
+          713.2013,
+          899.6805
         ],
         [
-          706.6581,
-          644.4984
+          716.4728,
+          899.6805
         ],
         [
-          706.6581,
-          641.2268
+          719.7444,
+          899.6805
         ],
         [
-          706.6581,
-          637.9553
-        ],
-        [
-          706.6581,
-          634.6837
-        ],
-        [
-          706.6581,
-          631.4121
-        ],
-        [
-          706.6581,
-          628.1406
-        ],
-        [
-          706.6581,
-          624.869
-        ],
-        [
-          706.6581,
-          621.5974
-        ],
-        [
-          706.6581,
-          618.3259
-        ],
-        [
-          706.6581,
-          615.0543
-        ],
-        [
-          706.6581,
-          611.7827
-        ],
-        [
-          706.6581,
-          608.5112
-        ],
-        [
-          706.6581,
-          605.2396
-        ],
-        [
-          706.6581,
-          601.9681
-        ],
-        [
-          706.6581,
-          598.6965
-        ],
-        [
-          706.6581,
-          595.4249
-        ],
-        [
-          706.6581,
-          592.1534
-        ],
-        [
-          706.6581,
-          588.8818
-        ],
-        [
-          706.6581,
-          585.6102
-        ],
-        [
-          706.6581,
-          582.3387
-        ],
-        [
-          706.6581,
-          579.0671
-        ],
-        [
-          706.6581,
-          575.7955
-        ],
-        [
-          706.6581,
-          572.524
+          723.016,
+          899.6805
         ]
       ],
       "graph_edges": [
-        24,
-        26
+        11,
+        12,
+        33
       ],
       "is_loop": false,
-      "path": "M 392.588,569.252 C 393.104,590.875 390.82,615.841 392.819,638.322 C 395.015,663.021 402.381,684.721 416.893,697.992 C 423.813,704.319 432.357,708.731 442.188,711.627 C 451.866,714.479 462.792,715.862 474.158,716.498 C 496.201,717.731 519.899,716.153 543.135,716.069 C 566.371,715.984 589.145,717.394 611.944,717.072 C 636.091,716.731 660.268,714.446 677.058,702.888 C 695.098,690.47 704.611,667.344 706.955,641.53 C 709.014,618.847 705.539,594.089 706.658,572.524",
+      "path": "M 438.39,902.952 L 723.016,899.681",
       "commands": [
         [
           "M",
-          392.5879,
-          569.2524
-        ],
-        [
-          "C",
-          393.1044,
-          590.8752,
-          390.8202,
-          615.8408,
-          392.8192,
-          638.322
-        ],
-        [
-          "C",
-          395.0154,
-          663.0207,
-          402.381,
-          684.7207,
-          416.8933,
-          697.9918
-        ],
-        [
-          "C",
-          423.8127,
-          704.3193,
-          432.3567,
-          708.7307,
-          442.1881,
-          711.6273
-        ],
-        [
-          "C",
-          451.8663,
-          714.4785,
-          462.7921,
-          715.862,
-          474.1581,
-          716.498
-        ],
-        [
-          "C",
-          496.2006,
-          717.7311,
-          519.8995,
-          716.1529,
-          543.1355,
-          716.0688
-        ],
-        [
-          "C",
-          566.3715,
-          715.9844,
-          589.1448,
-          717.3944,
-          611.9437,
-          717.0722
-        ],
-        [
-          "C",
-          636.0915,
-          716.731,
-          660.268,
-          714.4464,
-          677.0577,
-          702.8883
-        ],
-        [
-          "C",
-          695.0984,
-          690.4695,
-          704.6111,
-          667.3437,
-          706.9549,
-          641.5298
-        ],
-        [
-          "C",
-          709.0143,
-          618.8474,
-          705.5389,
-          594.0891,
-          706.6581,
-          572.524
-        ]
-      ],
-      "maximum_fit_error": 2.7318,
-      "curve_segments": 9,
-      "id": "stroke-11",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.835,
-      "maximum_fit_error_font_units": 2.7318
-    },
-    {
-      "points": [
-        [
-          415.4888,
-          497.278
-        ],
-        [
-          418.7604,
-          497.278
-        ],
-        [
-          422.0319,
-          494.0064
-        ],
-        [
-          425.3035,
-          494.0064
-        ],
-        [
-          428.5751,
-          490.7348
-        ],
-        [
-          431.8466,
-          487.4633
-        ],
-        [
-          435.1182,
-          487.4633
-        ],
-        [
           438.3898,
-          484.1917
+          902.9521
         ],
         [
-          441.6613,
-          484.1917
-        ],
-        [
-          444.9329,
-          480.9201
-        ],
-        [
-          448.2045,
-          477.6486
-        ],
-        [
-          451.476,
-          477.6486
-        ],
-        [
-          454.7476,
-          474.377
-        ],
-        [
-          458.0192,
-          471.1054
-        ],
-        [
-          461.2907,
-          471.1054
-        ],
-        [
-          464.5623,
-          467.8339
-        ],
-        [
-          467.8339,
-          467.8339
-        ],
-        [
-          471.1054,
-          464.5623
-        ],
-        [
-          474.377,
-          461.2907
-        ],
-        [
-          477.6486,
-          461.2907
-        ],
-        [
-          480.9201,
-          458.0192
-        ],
-        [
-          484.1917,
-          458.0192
-        ],
-        [
-          484.1917,
-          454.7476
-        ],
-        [
-          487.4633,
-          454.7476
-        ],
-        [
-          490.7348,
-          451.476
-        ],
-        [
-          494.0064,
-          451.476
-        ],
-        [
-          497.278,
-          448.2045
-        ],
-        [
-          500.5495,
-          448.2045
-        ],
-        [
-          500.5495,
-          444.9329
-        ],
-        [
-          503.8211,
-          444.9329
-        ],
-        [
-          507.0927,
-          441.6613
-        ],
-        [
-          510.3642,
-          441.6613
-        ],
-        [
-          513.6358,
-          438.3898
-        ],
-        [
-          516.9073,
-          438.3898
-        ],
-        [
-          520.1789,
-          438.3898
-        ],
-        [
-          523.4505,
-          438.3898
-        ],
-        [
-          526.722,
-          435.1182
-        ],
-        [
-          529.9936,
-          435.1182
-        ],
-        [
-          533.2652,
-          435.1182
-        ],
-        [
-          536.5367,
-          435.1182
-        ],
-        [
-          539.8083,
-          435.1182
-        ],
-        [
-          543.0799,
-          431.8466
-        ],
-        [
-          546.3514,
-          431.8466
-        ],
-        [
-          549.623,
-          431.8466
-        ],
-        [
-          552.8946,
-          431.8466
-        ],
-        [
-          556.1661,
-          431.8466
-        ],
-        [
-          559.4377,
-          431.8466
-        ],
-        [
-          562.7093,
-          431.8466
-        ],
-        [
-          565.9808,
-          431.8466
-        ],
-        [
-          569.2524,
-          431.8466
-        ],
-        [
-          572.524,
-          435.1182
-        ],
-        [
-          575.7955,
-          435.1182
-        ],
-        [
-          579.0671,
-          435.1182
-        ],
-        [
-          582.3387,
-          435.1182
-        ],
-        [
-          585.6102,
-          438.3898
-        ],
-        [
-          588.8818,
-          438.3898
-        ],
-        [
-          592.1534,
-          441.6613
-        ],
-        [
-          595.4249,
-          441.6613
-        ],
-        [
-          598.6965,
-          444.9329
-        ],
-        [
-          601.9681,
-          444.9329
-        ],
-        [
-          601.9681,
-          448.2045
-        ],
-        [
-          605.2396,
-          448.2045
-        ],
-        [
-          608.5112,
-          451.476
-        ],
-        [
-          611.7827,
-          451.476
-        ],
-        [
-          611.7827,
-          454.7476
-        ],
-        [
-          615.0543,
-          454.7476
-        ],
-        [
-          618.3259,
-          454.7476
-        ],
-        [
-          618.3259,
-          458.0192
-        ],
-        [
-          621.5974,
-          458.0192
-        ],
-        [
-          621.5974,
-          461.2907
-        ],
-        [
-          624.869,
-          461.2907
-        ],
-        [
-          628.1406,
-          461.2907
-        ],
-        [
-          628.1406,
-          464.5623
-        ],
-        [
-          631.4121,
-          464.5623
-        ],
-        [
-          634.6837,
-          467.8339
-        ],
-        [
-          637.9553,
-          467.8339
-        ],
-        [
-          637.9553,
-          471.1054
-        ],
-        [
-          641.2268,
-          471.1054
-        ],
-        [
-          644.4984,
-          471.1054
-        ],
-        [
-          644.4984,
-          474.377
-        ],
-        [
-          647.77,
-          474.377
-        ],
-        [
-          651.0415,
-          477.6486
-        ],
-        [
-          654.3131,
-          477.6486
-        ],
-        [
-          654.3131,
-          480.9201
-        ],
-        [
-          657.5847,
-          480.9201
-        ],
-        [
-          660.8562,
-          484.1917
-        ],
-        [
-          664.1278,
-          484.1917
-        ],
-        [
-          664.1278,
-          487.4633
-        ],
-        [
-          667.3994,
-          487.4633
-        ],
-        [
-          670.6709,
-          490.7348
-        ],
-        [
-          673.9425,
-          490.7348
-        ],
-        [
-          677.2141,
-          494.0064
-        ],
-        [
-          680.4856,
-          494.0064
-        ],
-        [
-          680.4856,
-          497.278
-        ],
-        [
-          683.7572,
-          497.278
-        ],
-        [
-          687.0288,
-          500.5495
-        ],
-        [
-          690.3003,
-          500.5495
+          "L",
+          723.016,
+          899.6805
         ]
       ],
-      "graph_edges": [
-        18,
-        20
-      ],
-      "is_loop": false,
-      "path": "M 415.489,497.278 C 445.097,485.133 464.925,465.711 490.315,451.414 C 512.841,438.729 539.746,430.08 565.056,433.414 C 578.314,435.16 591.135,440.195 602.418,446.201 C 612.674,451.66 621.659,457.921 630.336,463.912 C 648.848,476.695 665.956,488.25 690.3,500.55",
-      "commands": [
-        [
-          "M",
-          415.4888,
-          497.278
-        ],
-        [
-          "C",
-          445.0968,
-          485.1332,
-          464.9251,
-          465.7109,
-          490.3148,
-          451.4139
-        ],
-        [
-          "C",
-          512.8411,
-          438.7294,
-          539.7458,
-          430.0797,
-          565.056,
-          433.4137
-        ],
-        [
-          "C",
-          578.314,
-          435.1601,
-          591.1349,
-          440.195,
-          602.4176,
-          446.2006
-        ],
-        [
-          "C",
-          612.6736,
-          451.6596,
-          621.6589,
-          457.9207,
-          630.3358,
-          463.9119
-        ],
-        [
-          "C",
-          648.8476,
-          476.6946,
-          665.9556,
-          488.2501,
-          690.3003,
-          500.5495
-        ]
-      ],
-      "maximum_fit_error": 2.9572,
-      "curve_segments": 5,
+      "maximum_fit_error": 3.2336,
+      "curve_segments": 1,
       "id": "stroke-12",
       "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.9039,
-      "maximum_fit_error_font_units": 2.9572
+      "maximum_fit_error_analysis_pixels": 0.9884,
+      "maximum_fit_error_font_units": 3.2336
     },
     {
       "points": [
         [
-          438.3898,
-          579.0671
-        ],
-        [
-          441.6613,
-          579.0671
-        ],
-        [
-          444.9329,
-          575.7955
+          448.2045,
+          853.8786
         ],
         [
           448.2045,
-          575.7955
+          850.607
         ],
         [
           451.476,
-          572.524
+          847.3355
+        ],
+        [
+          451.476,
+          844.0639
         ],
         [
           454.7476,
-          569.2524
+          840.7923
+        ],
+        [
+          454.7476,
+          837.5208
         ],
         [
           458.0192,
-          569.2524
+          834.2492
         ],
         [
           461.2907,
-          565.9808
+          830.9776
+        ],
+        [
+          461.2907,
+          827.7061
         ],
         [
           464.5623,
-          562.7093
+          824.4345
+        ],
+        [
+          464.5623,
+          821.1629
         ],
         [
           467.8339,
-          562.7093
-        ],
-        [
-          467.8339,
-          559.4377
+          817.8914
         ],
         [
           471.1054,
-          559.4377
-        ],
-        [
-          474.377,
-          556.1661
-        ],
-        [
-          477.6486,
-          556.1661
-        ],
-        [
-          477.6486,
-          552.8946
-        ],
-        [
-          480.9201,
-          552.8946
-        ],
-        [
-          484.1917,
-          552.8946
-        ],
-        [
-          484.1917,
-          549.623
-        ],
-        [
-          487.4633,
-          549.623
-        ],
-        [
-          487.4633,
-          546.3514
-        ],
-        [
-          490.7348,
-          546.3514
-        ],
-        [
-          494.0064,
-          546.3514
-        ],
-        [
-          494.0064,
-          543.0799
-        ],
-        [
-          497.278,
-          543.0799
-        ],
-        [
-          497.278,
-          539.8083
-        ],
-        [
-          500.5495,
-          539.8083
-        ],
-        [
-          503.8211,
-          539.8083
-        ],
-        [
-          503.8211,
-          536.5367
-        ],
-        [
-          507.0927,
-          536.5367
-        ],
-        [
-          510.3642,
-          533.2652
-        ],
-        [
-          513.6358,
-          533.2652
-        ],
-        [
-          516.9073,
-          529.9936
-        ],
-        [
-          520.1789,
-          529.9936
-        ],
-        [
-          523.4505,
-          529.9936
-        ],
-        [
-          526.722,
-          529.9936
-        ],
-        [
-          529.9936,
-          526.722
-        ],
-        [
-          533.2652,
-          526.722
-        ],
-        [
-          536.5367,
-          526.722
-        ],
-        [
-          539.8083,
-          526.722
-        ],
-        [
-          543.0799,
-          526.722
-        ],
-        [
-          546.3514,
-          526.722
-        ],
-        [
-          549.623,
-          526.722
-        ],
-        [
-          552.8946,
-          526.722
-        ],
-        [
-          556.1661,
-          526.722
-        ],
-        [
-          559.4377,
-          526.722
-        ],
-        [
-          562.7093,
-          526.722
-        ],
-        [
-          565.9808,
-          526.722
-        ],
-        [
-          569.2524,
-          526.722
-        ],
-        [
-          572.524,
-          529.9936
-        ],
-        [
-          575.7955,
-          529.9936
-        ],
-        [
-          579.0671,
-          529.9936
-        ],
-        [
-          582.3387,
-          529.9936
-        ],
-        [
-          585.6102,
-          529.9936
-        ],
-        [
-          588.8818,
-          533.2652
-        ],
-        [
-          592.1534,
-          533.2652
-        ],
-        [
-          592.1534,
-          536.5367
-        ],
-        [
-          595.4249,
-          536.5367
-        ],
-        [
-          598.6965,
-          539.8083
-        ],
-        [
-          601.9681,
-          539.8083
-        ],
-        [
-          601.9681,
-          543.0799
-        ],
-        [
-          605.2396,
-          543.0799
-        ],
-        [
-          608.5112,
-          543.0799
-        ],
-        [
-          608.5112,
-          546.3514
-        ],
-        [
-          611.7827,
-          546.3514
-        ],
-        [
-          611.7827,
-          549.623
-        ],
-        [
-          615.0543,
-          549.623
-        ],
-        [
-          618.3259,
-          549.623
-        ],
-        [
-          618.3259,
-          552.8946
-        ],
-        [
-          621.5974,
-          552.8946
-        ],
-        [
-          621.5974,
-          556.1661
-        ],
-        [
-          624.869,
-          556.1661
-        ],
-        [
-          628.1406,
-          556.1661
-        ],
-        [
-          628.1406,
-          559.4377
-        ],
-        [
-          631.4121,
-          559.4377
-        ],
-        [
-          634.6837,
-          562.7093
-        ],
-        [
-          637.9553,
-          562.7093
-        ],
-        [
-          637.9553,
-          565.9808
-        ],
-        [
-          641.2268,
-          565.9808
-        ],
-        [
-          644.4984,
-          569.2524
-        ],
-        [
-          647.77,
-          569.2524
-        ],
-        [
-          647.77,
-          572.524
-        ],
-        [
-          651.0415,
-          572.524
-        ],
-        [
-          654.3131,
-          575.7955
-        ],
-        [
-          657.5847,
-          579.0671
-        ],
-        [
-          660.8562,
-          579.0671
-        ]
-      ],
-      "graph_edges": [
-        21,
-        23
-      ],
-      "is_loop": false,
-      "path": "M 438.39,579.067 C 451.411,572.88 462.939,565.69 471.786,559.21 C 478.834,554.047 484.182,549.335 491.361,544.717 C 506.697,534.856 530.393,525.428 552.926,525.925 C 575.46,526.421 596.831,536.841 612.27,546.792 C 627.997,556.928 637.569,566.578 660.856,579.067",
-      "commands": [
-        [
-          "M",
-          438.3898,
-          579.0671
-        ],
-        [
-          "C",
-          451.4109,
-          572.8802,
-          462.9386,
-          565.6903,
-          471.7856,
-          559.21
-        ],
-        [
-          "C",
-          478.8345,
-          554.0468,
-          484.1816,
-          549.3345,
-          491.3613,
-          544.717
-        ],
-        [
-          "C",
-          506.6965,
-          534.8555,
-          530.3927,
-          525.4281,
-          552.9263,
-          525.9248
-        ],
-        [
-          "C",
-          575.4599,
-          526.4214,
-          596.8307,
-          536.8413,
-          612.2699,
-          546.7921
-        ],
-        [
-          "C",
-          627.997,
-          556.9284,
-          637.5692,
-          566.5776,
-          660.8562,
-          579.0671
-        ]
-      ],
-      "maximum_fit_error": 3.1093,
-      "curve_segments": 5,
-      "id": "stroke-13",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.9504,
-      "maximum_fit_error_font_units": 3.1093
-    },
-    {
-      "points": [
-        [
-          441.6613,
           814.6198
         ],
         [
-          441.6613,
+          471.1054,
           811.3482
-        ],
-        [
-          444.9329,
-          808.0767
-        ],
-        [
-          444.9329,
-          804.8051
-        ],
-        [
-          448.2045,
-          804.8051
-        ],
-        [
-          448.2045,
-          801.5335
-        ],
-        [
-          451.476,
-          801.5335
-        ],
-        [
-          451.476,
-          798.262
-        ],
-        [
-          454.7476,
-          798.262
-        ],
-        [
-          454.7476,
-          794.9904
-        ],
-        [
-          458.0192,
-          791.7188
-        ],
-        [
-          458.0192,
-          788.4473
-        ],
-        [
-          461.2907,
-          788.4473
-        ],
-        [
-          461.2907,
-          785.1757
-        ],
-        [
-          464.5623,
-          785.1757
-        ],
-        [
-          464.5623,
-          781.9042
-        ],
-        [
-          467.8339,
-          781.9042
-        ],
-        [
-          467.8339,
-          778.6326
-        ],
-        [
-          471.1054,
-          775.361
-        ],
-        [
-          471.1054,
-          772.0895
         ]
       ],
       "graph_edges": [
-        31
+        36
       ],
       "is_loop": false,
-      "path": "M 441.661,814.62 L 471.105,772.09",
+      "path": "M 448.204,853.879 L 471.105,811.348",
       "commands": [
         [
           "M",
-          441.6613,
-          814.6198
+          448.2045,
+          853.8786
         ],
         [
           "L",
           471.1054,
-          772.0895
+          811.3482
         ]
       ],
-      "maximum_fit_error": 2.8966,
+      "maximum_fit_error": 1.9943,
       "curve_segments": 1,
-      "id": "stroke-14",
+      "id": "stroke-13",
       "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.8854,
-      "maximum_fit_error_font_units": 2.8966
+      "maximum_fit_error_analysis_pixels": 0.6096,
+      "maximum_fit_error_font_units": 1.9943
     },
     {
       "points": [
         [
-          615.0543,
+          454.7476,
+          719.7444
+        ],
+        [
+          454.7476,
+          723.016
+        ],
+        [
+          454.7476,
+          726.2875
+        ],
+        [
+          454.7476,
+          729.5591
+        ],
+        [
+          454.7476,
+          732.8307
+        ],
+        [
+          458.0192,
+          736.1022
+        ],
+        [
+          458.0192,
+          739.3738
+        ],
+        [
+          458.0192,
+          742.6454
+        ],
+        [
+          458.0192,
+          745.9169
+        ],
+        [
+          461.2907,
+          745.9169
+        ],
+        [
+          461.2907,
+          749.1885
+        ],
+        [
+          461.2907,
+          752.4601
+        ],
+        [
+          464.5623,
+          752.4601
+        ],
+        [
+          464.5623,
+          755.7316
+        ],
+        [
+          467.8339,
+          755.7316
+        ],
+        [
+          467.8339,
+          759.0032
+        ],
+        [
+          471.1054,
+          759.0032
+        ],
+        [
+          474.377,
           762.2748
         ],
         [
-          618.3259,
+          477.6486,
+          762.2748
+        ],
+        [
+          480.9201,
           765.5463
         ],
         [
+          484.1917,
+          765.5463
+        ],
+        [
+          487.4633,
+          768.8179
+        ],
+        [
+          490.7348,
+          768.8179
+        ],
+        [
+          494.0064,
+          768.8179
+        ],
+        [
+          497.278,
+          772.0895
+        ],
+        [
+          500.5495,
+          772.0895
+        ],
+        [
+          503.8211,
+          772.0895
+        ],
+        [
+          507.0927,
+          772.0895
+        ],
+        [
+          510.3642,
+          772.0895
+        ],
+        [
+          513.6358,
+          772.0895
+        ],
+        [
+          516.9073,
+          772.0895
+        ],
+        [
+          520.1789,
+          772.0895
+        ],
+        [
+          523.4505,
+          775.361
+        ],
+        [
+          526.722,
+          775.361
+        ],
+        [
+          529.9936,
+          775.361
+        ],
+        [
+          533.2652,
+          775.361
+        ],
+        [
+          536.5367,
+          775.361
+        ],
+        [
+          539.8083,
+          775.361
+        ],
+        [
+          543.0799,
+          775.361
+        ],
+        [
+          546.3514,
+          775.361
+        ],
+        [
+          549.623,
+          775.361
+        ],
+        [
+          552.8946,
+          775.361
+        ],
+        [
+          556.1661,
+          775.361
+        ],
+        [
+          559.4377,
+          775.361
+        ],
+        [
+          562.7093,
+          775.361
+        ],
+        [
+          565.9808,
+          775.361
+        ],
+        [
+          569.2524,
+          775.361
+        ],
+        [
+          572.524,
+          775.361
+        ],
+        [
+          575.7955,
+          775.361
+        ],
+        [
+          579.0671,
+          775.361
+        ],
+        [
+          582.3387,
+          775.361
+        ],
+        [
+          585.6102,
+          775.361
+        ],
+        [
+          588.8818,
+          775.361
+        ],
+        [
+          592.1534,
+          775.361
+        ],
+        [
+          595.4249,
+          775.361
+        ],
+        [
+          598.6965,
+          775.361
+        ],
+        [
+          601.9681,
+          775.361
+        ],
+        [
+          605.2396,
+          775.361
+        ],
+        [
+          608.5112,
+          775.361
+        ],
+        [
+          611.7827,
+          775.361
+        ],
+        [
+          615.0543,
+          775.361
+        ],
+        [
           618.3259,
-          768.8179
+          775.361
         ],
         [
           621.5974,
-          768.8179
-        ],
-        [
-          621.5974,
-          772.0895
-        ],
-        [
-          624.869,
-          772.0895
+          775.361
         ],
         [
           624.869,
@@ -6120,101 +4051,1018 @@
           775.361
         ],
         [
-          628.1406,
-          778.6326
-        ],
-        [
           631.4121,
-          781.9042
-        ],
-        [
-          631.4121,
-          785.1757
+          775.361
         ],
         [
           634.6837,
-          785.1757
-        ],
-        [
-          634.6837,
-          788.4473
+          775.361
         ],
         [
           637.9553,
-          788.4473
-        ],
-        [
-          637.9553,
-          791.7188
+          772.0895
         ],
         [
           641.2268,
-          791.7188
-        ],
-        [
-          641.2268,
-          794.9904
+          772.0895
         ],
         [
           644.4984,
-          798.262
-        ],
-        [
-          644.4984,
-          801.5335
+          772.0895
         ],
         [
           647.77,
-          801.5335
-        ],
-        [
-          647.77,
-          804.8051
+          772.0895
         ],
         [
           651.0415,
-          804.8051
-        ],
-        [
-          651.0415,
-          808.0767
+          772.0895
         ],
         [
           654.3131,
-          808.0767
-        ],
-        [
-          654.3131,
-          811.3482
+          772.0895
         ],
         [
           657.5847,
-          814.6198
-        ]
-      ],
-      "graph_edges": [
-        32
-      ],
-      "is_loop": false,
-      "path": "M 615.054,762.275 L 657.585,814.62",
-      "commands": [
+          772.0895
+        ],
         [
-          "M",
-          615.0543,
+          660.8562,
+          772.0895
+        ],
+        [
+          664.1278,
+          772.0895
+        ],
+        [
+          667.3994,
+          772.0895
+        ],
+        [
+          670.6709,
+          768.8179
+        ],
+        [
+          673.9425,
+          768.8179
+        ],
+        [
+          677.2141,
+          768.8179
+        ],
+        [
+          680.4856,
+          768.8179
+        ],
+        [
+          683.7572,
+          765.5463
+        ],
+        [
+          687.0288,
+          765.5463
+        ],
+        [
+          690.3003,
           762.2748
         ],
         [
-          "L",
-          657.5847,
-          814.6198
+          693.5719,
+          759.0032
+        ],
+        [
+          696.8435,
+          759.0032
+        ],
+        [
+          696.8435,
+          755.7316
+        ],
+        [
+          700.115,
+          755.7316
+        ],
+        [
+          700.115,
+          752.4601
+        ],
+        [
+          703.3866,
+          752.4601
+        ],
+        [
+          703.3866,
+          749.1885
+        ],
+        [
+          706.6581,
+          749.1885
+        ],
+        [
+          706.6581,
+          745.9169
+        ],
+        [
+          706.6581,
+          742.6454
+        ],
+        [
+          709.9297,
+          742.6454
+        ],
+        [
+          709.9297,
+          739.3738
+        ],
+        [
+          709.9297,
+          736.1022
+        ],
+        [
+          709.9297,
+          732.8307
+        ],
+        [
+          713.2013,
+          729.5591
+        ],
+        [
+          713.2013,
+          726.2875
+        ],
+        [
+          713.2013,
+          723.016
+        ],
+        [
+          716.4728,
+          719.7444
+        ],
+        [
+          716.4728,
+          716.4728
+        ],
+        [
+          716.4728,
+          713.2013
+        ],
+        [
+          716.4728,
+          709.9297
+        ],
+        [
+          716.4728,
+          706.6581
+        ],
+        [
+          716.4728,
+          703.3866
         ]
       ],
-      "maximum_fit_error": 1.9044,
+      "graph_edges": [
+        8,
+        10,
+        32
+      ],
+      "is_loop": false,
+      "path": "M 454.748,719.744 C 454.159,736.758 458.364,748.76 467.599,756.914 C 476.988,765.206 491.577,769.52 506.793,772.092 C 534.213,776.727 563.668,775.702 592.166,775.282 C 607.717,775.052 622.984,775.002 638.625,774.044 C 653.18,773.152 668.06,771.472 680.092,767.01 C 692.866,762.271 702.43,754.395 708.086,743.391 C 713.578,732.707 715.388,719.074 716.473,703.387",
+      "commands": [
+        [
+          "M",
+          454.7476,
+          719.7444
+        ],
+        [
+          "C",
+          454.159,
+          736.7579,
+          458.3643,
+          748.7596,
+          467.5986,
+          756.914
+        ],
+        [
+          "C",
+          476.988,
+          765.2061,
+          491.5773,
+          769.5203,
+          506.7926,
+          772.0921
+        ],
+        [
+          "C",
+          534.2133,
+          776.7269,
+          563.6685,
+          775.7022,
+          592.1661,
+          775.2815
+        ],
+        [
+          "C",
+          607.7175,
+          775.0519,
+          622.9836,
+          775.0021,
+          638.6246,
+          774.0436
+        ],
+        [
+          "C",
+          653.1802,
+          773.1517,
+          668.0602,
+          771.4724,
+          680.0917,
+          767.0097
+        ],
+        [
+          "C",
+          692.8665,
+          762.2715,
+          702.4296,
+          754.3949,
+          708.0862,
+          743.3906
+        ],
+        [
+          "C",
+          713.5785,
+          732.7067,
+          715.3877,
+          719.0741,
+          716.4728,
+          703.3866
+        ]
+      ],
+      "maximum_fit_error": 2.1468,
+      "curve_segments": 7,
+      "id": "stroke-14",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.6562,
+      "maximum_fit_error_font_units": 2.1468
+    },
+    {
+      "points": [
+        [
+          458.0192,
+          660.8562
+        ],
+        [
+          458.0192,
+          657.5847
+        ],
+        [
+          461.2907,
+          654.3131
+        ],
+        [
+          464.5623,
+          651.0415
+        ],
+        [
+          467.8339,
+          647.77
+        ],
+        [
+          471.1054,
+          644.4984
+        ],
+        [
+          471.1054,
+          641.2268
+        ],
+        [
+          474.377,
+          641.2268
+        ],
+        [
+          474.377,
+          637.9553
+        ],
+        [
+          477.6486,
+          634.6837
+        ],
+        [
+          480.9201,
+          631.4121
+        ],
+        [
+          480.9201,
+          628.1406
+        ]
+      ],
+      "graph_edges": [
+        37
+      ],
+      "is_loop": false,
+      "path": "M 458.019,660.856 C 465.249,647.297 475.805,641.332 480.92,628.141",
+      "commands": [
+        [
+          "M",
+          458.0192,
+          660.8562
+        ],
+        [
+          "C",
+          465.2487,
+          647.2972,
+          475.805,
+          641.3322,
+          480.9201,
+          628.1406
+        ]
+      ],
+      "maximum_fit_error": 1.7012,
       "curve_segments": 1,
       "id": "stroke-15",
       "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.5821,
-      "maximum_fit_error_font_units": 1.9044
+      "maximum_fit_error_analysis_pixels": 0.52,
+      "maximum_fit_error_font_units": 1.7012
+    },
+    {
+      "graph_edges": [
+        27,
+        28,
+        35,
+        23,
+        20
+      ],
+      "is_loop": false,
+      "path": "M 474.377,405.527 L 690.035,405.527 C 692.4,405.527 694.8,401.456 697.165,399.939 C 703.957,398.541 710.659,396.967 716.928,393.545 C 721.361,391.126 725.579,387.783 728.583,385.08 C 730.45,383.401 731.848,381.97 733.581,379.867 C 735.791,377.183 738.547,373.407 739.945,370.048 C 741.041,367.416 741.303,365.04 741.753,362.425 C 742.864,355.962 745.116,348.035 745.802,340.075 C 746.357,333.633 745.887,327.169 745.771,320.642 C 745.5,305.415 747.159,289.85 745.252,275.062 C 744.186,266.794 742.005,258.769 739.346,252.331 C 738.327,249.864 737.238,247.63 735.638,245.785 C 733.816,243.684 731.332,242.087 728.852,240.062 C 725.645,237.444 722.444,234.111 718.582,233.107 C 715.957,232.425 713.026,232.82 710.005,232.552 C 706.984,232.283 703.873,231.353 700.752,230.735 C 697.201,230.032 693.637,229.733 690.035,229.506 C 676.32,228.642 662.054,228.809 647.821,228.914 C 589.795,229.34 532.33,228.72 474.377,229.01",
+      "curve_segments": 32,
+      "id": "stroke-16",
+      "closed": false
+    },
+    {
+      "points": [
+        [
+          477.6486,
+          526.722
+        ],
+        [
+          480.9201,
+          526.722
+        ],
+        [
+          484.1917,
+          526.722
+        ],
+        [
+          484.1917,
+          523.4505
+        ],
+        [
+          487.4633,
+          523.4505
+        ],
+        [
+          490.7348,
+          520.1789
+        ],
+        [
+          494.0064,
+          520.1789
+        ],
+        [
+          494.0064,
+          516.9073
+        ],
+        [
+          497.278,
+          516.9073
+        ],
+        [
+          500.5495,
+          513.6358
+        ],
+        [
+          503.8211,
+          513.6358
+        ],
+        [
+          507.0927,
+          510.3642
+        ],
+        [
+          510.3642,
+          507.0927
+        ],
+        [
+          513.6358,
+          507.0927
+        ],
+        [
+          516.9073,
+          503.8211
+        ],
+        [
+          520.1789,
+          503.8211
+        ],
+        [
+          523.4505,
+          500.5495
+        ],
+        [
+          526.722,
+          497.278
+        ],
+        [
+          529.9936,
+          497.278
+        ],
+        [
+          533.2652,
+          497.278
+        ],
+        [
+          536.5367,
+          494.0064
+        ],
+        [
+          539.8083,
+          494.0064
+        ],
+        [
+          543.0799,
+          494.0064
+        ],
+        [
+          546.3514,
+          494.0064
+        ],
+        [
+          549.623,
+          490.7348
+        ],
+        [
+          552.8946,
+          490.7348
+        ],
+        [
+          556.1661,
+          490.7348
+        ],
+        [
+          559.4377,
+          490.7348
+        ],
+        [
+          562.7093,
+          487.4633
+        ],
+        [
+          567.6166,
+          487.4633
+        ],
+        [
+          572.524,
+          487.4633
+        ],
+        [
+          575.7955,
+          490.7348
+        ],
+        [
+          579.0671,
+          490.7348
+        ],
+        [
+          582.3387,
+          490.7348
+        ],
+        [
+          585.6102,
+          490.7348
+        ],
+        [
+          588.8818,
+          494.0064
+        ],
+        [
+          592.1534,
+          494.0064
+        ],
+        [
+          595.4249,
+          494.0064
+        ],
+        [
+          598.6965,
+          494.0064
+        ],
+        [
+          601.9681,
+          497.278
+        ],
+        [
+          605.2396,
+          497.278
+        ],
+        [
+          608.5112,
+          497.278
+        ],
+        [
+          611.7827,
+          500.5495
+        ],
+        [
+          615.0543,
+          503.8211
+        ],
+        [
+          618.3259,
+          503.8211
+        ],
+        [
+          621.5974,
+          507.0927
+        ],
+        [
+          624.869,
+          510.3642
+        ],
+        [
+          628.1406,
+          510.3642
+        ],
+        [
+          631.4121,
+          513.6358
+        ],
+        [
+          634.6837,
+          516.9073
+        ],
+        [
+          637.9553,
+          516.9073
+        ],
+        [
+          641.2268,
+          520.1789
+        ],
+        [
+          644.4984,
+          520.1789
+        ],
+        [
+          647.77,
+          523.4505
+        ],
+        [
+          651.0415,
+          526.722
+        ],
+        [
+          654.3131,
+          526.722
+        ]
+      ],
+      "graph_edges": [
+        13,
+        16
+      ],
+      "is_loop": false,
+      "path": "M 477.649,526.722 C 490.105,522.631 502.675,512.233 516.914,504.232 C 524.218,500.128 531.96,496.655 539.937,494 C 547.513,491.478 555.301,489.692 563.128,489.239 C 571.955,488.727 580.832,489.908 589.474,492.214 C 597.137,494.259 604.614,497.187 611.662,500.92 C 626.35,508.699 639.177,519.97 654.313,526.722",
+      "commands": [
+        [
+          "M",
+          477.6486,
+          526.722
+        ],
+        [
+          "C",
+          490.1047,
+          522.6313,
+          502.6751,
+          512.2329,
+          516.9145,
+          504.232
+        ],
+        [
+          "C",
+          524.2177,
+          500.1285,
+          531.9598,
+          496.6554,
+          539.9366,
+          493.9998
+        ],
+        [
+          "C",
+          547.5128,
+          491.4775,
+          555.3005,
+          489.6925,
+          563.128,
+          489.2387
+        ],
+        [
+          "C",
+          571.955,
+          488.7271,
+          580.8324,
+          489.9084,
+          589.4739,
+          492.2142
+        ],
+        [
+          "C",
+          597.1366,
+          494.2586,
+          604.6138,
+          497.1873,
+          611.662,
+          500.9202
+        ],
+        [
+          "C",
+          626.3504,
+          508.699,
+          639.1772,
+          519.9695,
+          654.3131,
+          526.722
+        ]
+      ],
+      "maximum_fit_error": 2.6084,
+      "curve_segments": 6,
+      "id": "stroke-17",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.7973,
+      "maximum_fit_error_font_units": 2.6084
+    },
+    {
+      "points": [
+        [
+          510.3642,
+          575.7955
+        ],
+        [
+          513.6358,
+          575.7955
+        ],
+        [
+          516.9073,
+          575.7955
+        ],
+        [
+          520.1789,
+          575.7955
+        ],
+        [
+          523.4505,
+          575.7955
+        ],
+        [
+          526.722,
+          575.7955
+        ],
+        [
+          529.9936,
+          575.7955
+        ],
+        [
+          533.2652,
+          575.7955
+        ],
+        [
+          536.5367,
+          575.7955
+        ],
+        [
+          539.8083,
+          575.7955
+        ],
+        [
+          543.0799,
+          575.7955
+        ],
+        [
+          546.3514,
+          575.7955
+        ],
+        [
+          549.623,
+          575.7955
+        ],
+        [
+          552.8946,
+          575.7955
+        ],
+        [
+          556.1661,
+          575.7955
+        ],
+        [
+          559.4377,
+          575.7955
+        ],
+        [
+          562.7093,
+          575.7955
+        ],
+        [
+          565.9808,
+          575.7955
+        ],
+        [
+          569.2524,
+          575.7955
+        ],
+        [
+          572.524,
+          575.7955
+        ],
+        [
+          575.7955,
+          575.7955
+        ],
+        [
+          579.0671,
+          575.7955
+        ],
+        [
+          582.3387,
+          575.7955
+        ],
+        [
+          585.6102,
+          575.7955
+        ],
+        [
+          588.8818,
+          575.7955
+        ],
+        [
+          592.1534,
+          575.7955
+        ],
+        [
+          595.4249,
+          575.7955
+        ],
+        [
+          598.6965,
+          575.7955
+        ],
+        [
+          601.9681,
+          575.7955
+        ],
+        [
+          605.2396,
+          575.7955
+        ],
+        [
+          608.5112,
+          575.7955
+        ],
+        [
+          611.7827,
+          575.7955
+        ],
+        [
+          615.0543,
+          575.7955
+        ],
+        [
+          618.3259,
+          575.7955
+        ],
+        [
+          621.5974,
+          575.7955
+        ],
+        [
+          624.869,
+          575.7955
+        ],
+        [
+          628.1406,
+          575.7955
+        ]
+      ],
+      "graph_edges": [
+        17,
+        19
+      ],
+      "is_loop": false,
+      "path": "M 510.364,575.795 L 628.141,575.795",
+      "commands": [
+        [
+          "M",
+          510.3642,
+          575.7955
+        ],
+        [
+          "L",
+          628.1406,
+          575.7955
+        ]
+      ],
+      "maximum_fit_error": 0.0,
+      "curve_segments": 1,
+      "id": "stroke-18",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.0,
+      "maximum_fit_error_font_units": 0.0
+    },
+    {
+      "points": [
+        [
+          654.3131,
+          624.869
+        ],
+        [
+          654.3131,
+          628.1406
+        ],
+        [
+          657.5847,
+          631.4121
+        ],
+        [
+          660.8562,
+          634.6837
+        ],
+        [
+          664.1278,
+          637.9553
+        ],
+        [
+          667.3994,
+          641.2268
+        ],
+        [
+          667.3994,
+          644.4984
+        ],
+        [
+          670.6709,
+          647.77
+        ],
+        [
+          673.9425,
+          651.0415
+        ],
+        [
+          677.2141,
+          654.3131
+        ],
+        [
+          680.4856,
+          657.5847
+        ]
+      ],
+      "graph_edges": [
+        38
+      ],
+      "is_loop": false,
+      "path": "M 654.313,624.869 L 680.486,657.585",
+      "commands": [
+        [
+          "M",
+          654.3131,
+          624.869
+        ],
+        [
+          "L",
+          680.4856,
+          657.5847
+        ]
+      ],
+      "maximum_fit_error": 2.0437,
+      "curve_segments": 1,
+      "id": "stroke-19",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.6247,
+      "maximum_fit_error_font_units": 2.0437
+    },
+    {
+      "points": [
+        [
+          683.7572,
+          817.8914
+        ],
+        [
+          683.7572,
+          821.1629
+        ],
+        [
+          683.7572,
+          824.4345
+        ],
+        [
+          687.0288,
+          824.4345
+        ],
+        [
+          687.0288,
+          827.7061
+        ],
+        [
+          690.3003,
+          830.9776
+        ],
+        [
+          690.3003,
+          834.2492
+        ],
+        [
+          693.5719,
+          834.2492
+        ],
+        [
+          693.5719,
+          837.5208
+        ],
+        [
+          693.5719,
+          840.7923
+        ],
+        [
+          696.8435,
+          840.7923
+        ],
+        [
+          696.8435,
+          844.0639
+        ],
+        [
+          700.115,
+          847.3355
+        ],
+        [
+          700.115,
+          850.607
+        ],
+        [
+          703.3866,
+          850.607
+        ],
+        [
+          703.3866,
+          853.8786
+        ],
+        [
+          706.6581,
+          857.1502
+        ]
+      ],
+      "graph_edges": [
+        39
+      ],
+      "is_loop": false,
+      "path": "M 683.757,817.891 C 689.612,832.549 697.143,843.694 706.658,857.15",
+      "commands": [
+        [
+          "M",
+          683.7572,
+          817.8914
+        ],
+        [
+          "C",
+          689.6117,
+          832.5486,
+          697.1431,
+          843.6939,
+          706.6581,
+          857.1502
+        ]
+      ],
+      "maximum_fit_error": 2.6297,
+      "curve_segments": 1,
+      "id": "stroke-20",
+      "closed": false,
+      "maximum_fit_error_analysis_pixels": 0.8038,
+      "maximum_fit_error_font_units": 2.6297
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Whole THX independently inspected enlarged: lower enclosure rail should be horizontal, while right outward tail exits middle rail. Flatten only lower-left rail course and move tail attachment from lower rail to middle rail; preserve intended single chevron stroke17, short bar, detached side diagonals, lower chevron, cup and paired lower stems. Native attempt2 retains wrong rail/tail contacts and is not approved by this vector repair.",
+      "changes": [
+        {
+          "stroke_id": "stroke-7",
+          "previous_path": "M 641.227,408.946 C 643.281,412.67 643.682,417.683 645.268,421.794 C 646.643,425.36 648.909,428.249 650.457,432.026 C 651.837,435.394 652.645,439.469 655.209,440.841 C 656.712,441.645 658.816,441.521 659.976,442.506 C 660.555,442.998 660.898,443.768 661.563,444.208 C 662.894,445.089 665.511,444.65 666.771,445.567 C 667.402,446.025 667.692,446.822 668.112,447.491 C 669.372,449.498 671.796,450.351 673.913,451.507 C 675.323,452.278 676.597,453.183 678.222,453.739 C 679.035,454.016 679.935,454.207 680.728,454.505 C 683.109,455.397 684.527,457.249 686.179,458.869 C 687.28,459.949 688.484,460.926 690.137,461.454 C 690.964,461.718 691.903,461.869 692.667,462.196 C 694.195,462.848 695.025,464.2 696.677,464.729 C 697.503,464.993 698.534,465.053 699.341,465.337 C 700.953,465.905 701.667,467.372 702.447,468.774 C 702.836,469.475 703.242,470.159 703.947,470.545 C 705.356,471.317 707.96,470.894 709.37,471.666 C 710.075,472.051 710.481,472.735 710.87,473.436 C 711.649,474.839 712.361,476.308 713.974,476.875 C 714.781,477.159 715.814,477.217 716.642,477.479 C 718.297,478.005 719.133,479.35 720.64,480.024 C 721.394,480.361 722.315,480.531 723.146,480.79 C 725.641,481.567 727.325,483.155 728.759,484.992 C 730.193,486.829 731.377,488.916 736.102,487.463",
+          "repaired_path": "M 700,320.613 C 733,329 766,352 790,375"
+        },
+        {
+          "stroke_id": "stroke-16",
+          "previous_path": "M 467.834,435.118 C 471.283,431.429 476.714,429.976 480.77,428.449 C 483.289,427.5 485.277,426.522 487.706,425.462 C 491.279,423.902 495.805,422.163 499.523,420.822 C 502.05,419.911 504.204,419.182 506.712,418.142 C 510.747,416.469 515.698,413.988 520.435,412.42 C 523.784,411.311 527.026,410.659 530.395,410.022 C 536.317,408.903 542.631,407.83 548.951,407.132 C 563.081,405.571 577.236,405.882 592.063,405.527 C 599.8,405.341 607.72,404.974 615.096,405.748 C 621.855,406.457 628.157,408.125 634.833,408.747 C 638.995,409.136 643.303,409.118 645.547,406.893 C 646.668,405.781 647.274,404.116 648.693,403.29 C 649.404,402.877 650.317,402.673 651.267,402.517 C 657.916,401.426 666.332,402.677 674.091,402.72 C 682.31,402.766 689.791,401.456 697.165,399.939 C 703.957,398.541 710.659,396.967 716.928,393.545 C 721.361,391.126 725.579,387.783 728.583,385.08 C 730.45,383.401 731.848,381.97 733.581,379.867 C 735.791,377.183 738.547,373.407 739.945,370.048 C 741.041,367.416 741.303,365.04 741.753,362.425 C 742.864,355.962 745.116,348.035 745.802,340.075 C 746.357,333.633 745.887,327.169 745.771,320.642 C 745.5,305.415 747.159,289.85 745.252,275.062 C 744.186,266.794 742.005,258.769 739.346,252.331 C 738.327,249.864 737.238,247.63 735.638,245.785 C 733.816,243.684 731.332,242.087 728.852,240.062 C 725.645,237.444 722.444,234.111 718.582,233.107 C 715.957,232.425 713.026,232.82 710.005,232.552 C 706.984,232.283 703.873,231.353 700.752,230.735 C 697.201,230.032 693.637,229.733 690.035,229.506 C 676.32,228.642 662.054,228.809 647.821,228.914 C 589.795,229.34 532.33,228.72 474.377,229.01",
+          "repaired_path": "M 474.377,405.527 L 690.035,405.527 C 692.4,405.527 694.8,401.456 697.165,399.939 C 703.957,398.541 710.659,396.967 716.928,393.545 C 721.361,391.126 725.579,387.783 728.583,385.08 C 730.45,383.401 731.848,381.97 733.581,379.867 C 735.791,377.183 738.547,373.407 739.945,370.048 C 741.041,367.416 741.303,365.04 741.753,362.425 C 742.864,355.962 745.116,348.035 745.802,340.075 C 746.357,333.633 745.887,327.169 745.771,320.642 C 745.5,305.415 747.159,289.85 745.252,275.062 C 744.186,266.794 742.005,258.769 739.346,252.331 C 738.327,249.864 737.238,247.63 735.638,245.785 C 733.816,243.684 731.332,242.087 728.852,240.062 C 725.645,237.444 722.444,234.111 718.582,233.107 C 715.957,232.425 713.026,232.82 710.005,232.552 C 706.984,232.283 703.873,231.353 700.752,230.735 C 697.201,230.032 693.637,229.733 690.035,229.506 C 676.32,228.642 662.054,228.809 647.821,228.914 C 589.795,229.34 532.33,228.72 474.377,229.01"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

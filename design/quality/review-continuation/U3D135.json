@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D135",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D135.json",
+  "source_png_sha256": "71bc0efd1566244f074a17a5a8bc3ec579d3bd55e5ca6643573017bb7a5191ff",
+  "source_png": "design/seal-individual/U3D135.png",
+  "reference_png_sha256": "f52f68f7fac18c8b555d1466ed55245ecf1d099cfd47675887fae16b61f93386",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D135.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D133135-shared-junctions-v2/sources/U3D135.json",
+  "source_json_sha256": "fbac8dec37f182c6c6167c579daa33f6353342383c70cb29f3ad723e84a720ff",
+  "geometry_sha256": "d681af5124da2e273ed77e3adf00022be6c5870cb7d7caed064c6b3e7f111495",
+  "font_file": "design/quality/proofs/continuation/U3D133135-shared-junctions-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "6f198173de02eae5666214099fabbed6bf7c0170decbc0262f21c2ce136c8d0a",
+  "raster_file": "design/quality/proofs/continuation/U3D133135-shared-junctions-v2/U3D135-Regular400.png",
+  "raster_sha256": "6d81590d064d3ed14c1cb71ea7896fc2708d5f06ecc11b7f02ab582cfdaacd99",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      222,
+      -64,
+      802,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Rechecked full compiled Regular400 and enlarged lower right connection against previously inspected full native2/all four whole references. Left chevron branch now joins L upright as coherent THX; right tip free, H-to-oval gap retained, two oval counters open. Left hooked fork and three lower stems unchanged. Smooth rounded common pen, all intended gaps and proportional envelope preserved. Native2 missing lower left connection remains mismatch.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d490226c52cdd2eebd34dd3fe4feea4a1f0d6ee870ae70f62102eec8f08c89dd",
+      "source_json_sha256": "dab6158805b92a25d101034f64dc953ffbd3990c8216c1633e7f47b08bd55479",
+      "font_sha256": "03716ecd944c4d294ff5ac6ca401bdf54b4c6fd0853f43488ff59b986e5cee7a",
+      "raster_sha256": "6bab5eac795c43ff4761f076acd333e5ae88a0fbf45ac38e7825336957985747",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native/all four enlarged whole specimens/full actual Regular400 and enlarged lower right compared to THX inspected. Left hooked fork and three lower stems correct, upper right H detached from two-counter oval as THX. Lower left chevron branch stops short of separate L upright, whereas THX joins it to L; QJZ detached branch accompanies joined upper H/oval and cannot support current mixed combination. Hold for one bounded THX connection, preserving right chevron free tip and lower base.",
+      "requested_corrections": [
+        "Extend only lower left chevron branch to join lower L upright at attested THX height; preserve right branch free tip, H-to-oval gap, two counters and all other paths."
+      ]
+    }
+  ]
+}
