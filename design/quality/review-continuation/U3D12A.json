@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D12A.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fourteenth-eight/sources/U3D12A.json",
-  "source_json_sha256": "e0135b0146758c566da0a0b682d9c5ef9ece86cd6272db535d4af222b21ce7cd",
-  "geometry_sha256": "d16b8dba1c6220881418effa5dc423cdaab4a7740954367bdf340e8d96a30962",
-  "font_file": "design/quality/proofs/continuation/review-fourteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "2f96590614fb1b5d3ca101f55d764fc687bc9f94063355632bf3f710c557dc46",
-  "raster_file": "design/quality/proofs/continuation/review-fourteenth-eight/U3D12A-Regular400.png",
-  "raster_sha256": "26fabd72328e85799556aee119f7483e09bc8d43b5846ead175fd287c71107f9",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D12A166-restored-contact-stub-v1/sources/U3D12A.json",
+  "source_json_sha256": "107cb3238ffee525f16e6ecda46e327be579c1a133892b73d04dbd95b62dc70c",
+  "geometry_sha256": "343f38b5d08df9ac45c530231805eb3d4116bb37aeece7ec743ec0c1a1c625c9",
+  "font_file": "design/quality/proofs/continuation/U3D12A166-restored-contact-stub-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3c50bc5813fca17cec71455b424bfc76d14ab69196d0cdd8dc05f0e44ec859d5",
+  "raster_file": "design/quality/proofs/continuation/U3D12A166-restored-contact-stub-v1/U3D12A-Regular400.png",
+  "raster_sha256": "3154170fa053bbdf27b396c3f010b8a385bbdbaea6dd38f982480dcd47db6316",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged glyph crop inspected. Native follows THX upper arch with free inner dash and two lower detached legs, but lower spanning bar is detached from left tall staff. THX joins bar to left staff; DYC detached-left version instead joins lower legs to bar and inner dash to arch. Current mixture lacks coherent whole support. Hold bounded extension of lower bar left to staff, preserving free lower legs/dash.",
-  "requested_corrections": [
-    "Extend lower spanning horizontal bar leftward to join tall left staff as coherent THX; preserve detached paired lower legs and detached inner dash."
-  ],
+  "notes": "Rechecked full actual Regular400 and enlarged bar/staff contact against previously inspected full native/all four whole specimens. Lower bar now joins tall left staff as coherent THX; lower paired legs and inner arch dash remain detached, upper arch/top flag/gaps unchanged. Rounded common pen/proportional envelope consistent. Native mixed detached-left contact remains uncertain.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "d16b8dba1c6220881418effa5dc423cdaab4a7740954367bdf340e8d96a30962",
+      "source_json_sha256": "e0135b0146758c566da0a0b682d9c5ef9ece86cd6272db535d4af222b21ce7cd",
+      "font_sha256": "2f96590614fb1b5d3ca101f55d764fc687bc9f94063355632bf3f710c557dc46",
+      "raster_sha256": "26fabd72328e85799556aee119f7483e09bc8d43b5846ead175fd287c71107f9",
+      "regular400_verdict": "held",
+      "native_verdict": "uncertain",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged glyph crop inspected. Native follows THX upper arch with free inner dash and two lower detached legs, but lower spanning bar is detached from left tall staff. THX joins bar to left staff; DYC detached-left version instead joins lower legs to bar and inner dash to arch. Current mixture lacks coherent whole support. Hold bounded extension of lower bar left to staff, preserving free lower legs/dash.",
+      "requested_corrections": [
+        "Extend lower spanning horizontal bar leftward to join tall left staff as coherent THX; preserve detached paired lower legs and detached inner dash."
+      ]
+    }
   ]
 }

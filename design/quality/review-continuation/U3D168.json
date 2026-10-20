@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D168",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D168.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D168.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight8/sources/U3D168.json",
-  "source_json_sha256": "1f745667515112af2e133514c9426b054c61b027482b5c293afa02f5d2a04fe3",
-  "geometry_sha256": "c2c11417d7e6a10a74b4e430d937c8c91fe1402ae5f287851ddf3c80225bbb8e",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight8/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "3be4d1994fe2e2a4ad233de6b9717acbe9cd765f6ce9365c15845733cef1caf5",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight8/U3D168-Regular400.png",
-  "raster_sha256": "207d5fd5c583033f2b261f31d386d37fa91c9488e032174a03513bd24fbcdc08",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D162168-THX-staff-contacts-v1/sources/U3D168.json",
+  "source_json_sha256": "5e19378a80f824a5195fd16009290a9ae1d1be2ed091fe9b5260ac3b945ef74e",
+  "geometry_sha256": "fbac5ed4d6edf8272410c7c90a1476e33428f43503633d77b3f5b3bcd1b975d6",
+  "font_file": "design/quality/proofs/continuation/U3D162168-THX-staff-contacts-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "11b5632ffb2d4b4a76ddbc500ecdbb0e130956aedd124eea7c87bce608dde80e",
+  "raster_file": "design/quality/proofs/continuation/U3D162168-THX-staff-contacts-v1/U3D168-Regular400.png",
+  "raster_sha256": "9b0dec9abdd50023a76cb5a716fe62b81320da74da0d1a7c36403647ff778863",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged upper inner staff inspected. Detached upper tridents and winding outer right course with separate left two-bar staff follow THX. Native inner staff ending above paired cups stops free below outer roof; THX joins it to roof. CCZ/QJZ alternatives alter upper trident/roof contacts, so the current detached-fork plus detached-inner-stem combination does not demonstrate coherent whole attested construction. Actual font retains missing link.",
-  "requested_corrections": [
-    "Restore coherent chosen whole form; for THX extend only inner staff upward to outer roof while keeping both upper tridents detached, paired cups and all lower tails intact."
-  ],
+  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged inner-staff/roof junction inspected. Smooth link now connects inner staff to roof as coherent THX while both upper forks detached. Two inner U courses stay joined to descending staff, their tips free; left two-bar staff and long winding right course separate. Consistent rounded common pen/open gaps/proportional envelope. Native detached roof link remains mismatch.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "c2c11417d7e6a10a74b4e430d937c8c91fe1402ae5f287851ddf3c80225bbb8e",
+      "source_json_sha256": "1f745667515112af2e133514c9426b054c61b027482b5c293afa02f5d2a04fe3",
+      "font_sha256": "3be4d1994fe2e2a4ad233de6b9717acbe9cd765f6ce9365c15845733cef1caf5",
+      "raster_sha256": "207d5fd5c583033f2b261f31d386d37fa91c9488e032174a03513bd24fbcdc08",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged upper inner staff inspected. Detached upper tridents and winding outer right course with separate left two-bar staff follow THX. Native inner staff ending above paired cups stops free below outer roof; THX joins it to roof. CCZ/QJZ alternatives alter upper trident/roof contacts, so the current detached-fork plus detached-inner-stem combination does not demonstrate coherent whole attested construction. Actual font retains missing link.",
+      "requested_corrections": [
+        "Restore coherent chosen whole form; for THX extend only inner staff upward to outer roof while keeping both upper tridents detached, paired cups and all lower tails intact."
+      ]
+    }
   ]
 }

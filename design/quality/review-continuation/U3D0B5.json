@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0B5",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B5.json",
+  "source_png_sha256": "def96b3e7918309c693e9cd52e3956fdea815421a137ff3178c028d933d5e5b5",
+  "source_png": "design/seal-individual/U3D0B5.png",
+  "reference_png_sha256": "e6ecdab298c42f92b31945f84f29c9a9d442a3b1e46536c28ed396e65f1c7a93",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0B5.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B5131-crossing-smoothing-v1/sources/U3D0B5.json",
+  "source_json_sha256": "c6386327e1ac5b6a24976642d6694d8cfe003974fc0336469275ae0f0b4f99fd",
+  "geometry_sha256": "637cfe7414f1b4bce1966eba7f65193a8235cea4791db3444a14954e14a12b25",
+  "font_file": "design/quality/proofs/continuation/U3D0B5131-crossing-smoothing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b03f7da15179af13e55dc71c86a65381f3b4cb7074c6c1849e08c8ea206391b6",
+  "raster_file": "design/quality/proofs/continuation/U3D0B5131-crossing-smoothing-v1/U3D0B5-Regular400.png",
+  "raster_sha256": "b7c0528016a2cf8c01c2873d80ffd8eb15ae3f0e77965b31606316ba6e4235e4",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      210,
+      -64,
+      814,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual Regular400 full raster and enlarged central crossing independently inspected. Native coherent THX upper left staff/paired branched staffs and lower genuine X with upper sidebranch retained. Bounded repair replaces tracing two-Y bridge with one shared X junction and preserves four original outer courses/endpoints, separate flanking descenders and all upper gaps. Smooth constant-width actual crossing accepted.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f0c79b7b63616f8dab8333b79beb49f6e9f7f51acd048cff187210aa529c5bac",
+      "source_json_sha256": "81b33b24c326a847514a000fc2f4a2b6954668f28ad5153b24be7c5ba30a8f3c",
+      "font_sha256": "b9a345bff0a3f3cc52dd7bbe7cf5cd5637f376d85054e546a45cc007da0d6c53",
+      "raster_sha256": "b384a6fb3ed97f8f7f42e1bb6873b21fe647be97294242ecbc5d1f42ed8b670e",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete specimens, actual Regular400 and enlarged central lower crossing inspected. Native upper opposed bar-staff compound and lower central courses agree with attested construction. Actual tracing changes native one lower X crossing into two Y nodes separated by short vertical segment, as visible enlarged; all four crossing arms survive but continuity is wrong.",
+      "requested_corrections": [
+        "Restore one genuine shared lower X crossing, removing invented short vertical bridge while preserving all four original course endpoints, upper inner branch and outer side descents."
+      ]
+    }
+  ]
+}

@@ -1,13 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D0ED",
-  "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
-  "notes": [
-    "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged inner structure inspected. Left winding component, right outer cap/stub, long right inner return and lower three-counter oval with paired legs retained. Native inner T stem stops free above lower L rail, and L rail itself stops before long return wall. THX joins stem and L base to return, closing small internal counter; native/font omit required contacts and counter."
-  ],
+  "verdict": "match",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": "Retry2 matches coherent whole THX contacts, including inner T/L/right return closing one small counter, lower three-counter capsule, separate left curl.",
   "source_png": "design/seal-individual/U3D0ED.png",
-  "source_png_sha256": "bd32c81cebc4edaf555777c5a914b9ae5bd0c87760fa06e1cffb042ae3145c6f",
+  "source_png_sha256": "33354865a31f958d07900deb6545aa6ea03736c7f0804d9322e556a515355d06",
   "reference_overview": "reference/seal/individual/U3D0ED.png",
   "reference_png_sha256": "fe68e08cdfaa1ff92895145c71466b259dcb851b2a9b2c20fa451880a83c8101",
   "reviewed_specimens": [
@@ -21,5 +19,15 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "bd32c81cebc4edaf555777c5a914b9ae5bd0c87760fa06e1cffb042ae3145c6f",
+      "verdict": "mismatch",
+      "notes": [
+        "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged inner structure inspected. Left winding component, right outer cap/stub, long right inner return and lower three-counter oval with paired legs retained. Native inner T stem stops free above lower L rail, and L rail itself stops before long return wall. THX joins stem and L base to return, closing small internal counter; native/font omit required contacts and counter."
+      ],
+      "reference_png_sha256": "fe68e08cdfaa1ff92895145c71466b259dcb851b2a9b2c20fa451880a83c8101"
+    }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "code_point": "U+3D1DB",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "prompt": "Draw exactly ONE original Small Seal glyph from the attached four-specimen reference. Inspect all available THX CCZ QJZ DYC specimens; choose coherent whole THX construction, no blending variants. Rounded Gothic sans-serif MONOLINE, absolutely constant stroke width about 3% canvas, round caps and joins, smooth curves, no taper or brush or serif. Faithful connections, separate strokes and counters. Center glyph within central 70% square canvas. Pure BLACK on fully TRANSPARENT background. No labels, grids, text or multiple glyphs. Only THX QJZ available. Two detached top tridents; beneath them separate long horizontal bar with long straight central vertical stem dropping to baseline, simple T. Toptridents remain detached from T rail as THX.",
+  "reference": "reference/seal/individual/U3D1DB.png",
+  "reference_viewed_before_generation": true,
+  "original_generated_file": "/workspace/generated_images/exec-9b52619b-672a-4bb4-8549-98fb6cd6b92e.png",
+  "output_file": "design/seal-individual/U3D1DB.png",
+  "original_pixels_unchanged": true,
+  "visual_review_status": "pending_independent_review",
+  "coverage_eligible": false,
+  "sha256": "393c8ede545a4da04031f3c4f5d285cf021ff883158d701f750e645b352fd207",
+  "reference_sha256": "7d4f44801d0d5bd19b1c84e9611f82390686c5af87f5bf3da4c9ac6d429cbbc9",
+  "reference_metadata_sha256": "16a138514ee7f7849a96ccec298f8a61d51ef7847584e15d458177c27368b92f",
+  "four_specimen_evidence": {
+    "codepoint": "U+3D1DB",
+    "page": 9,
+    "label_bbox": [
+      384.8999938964844,
+      570.5501708984375,
+      417.1293029785156,
+      581.7099609375
+    ],
+    "variants": {
+      "THX": {
+        "available": true,
+        "page": 9,
+        "font": "xiaozhuan1",
+        "font_size": 21.0,
+        "bbox": [
+          420.7799987792969,
+          571.9080200195312,
+          441.7799987792969,
+          593.3699951171875
+        ],
+        "crop_bbox": [
+          418.79999389648435,
+          569.3532958984375,
+          443.79999389648435,
+          594.3332275390625
+        ],
+        "source_label": "TH-Y015"
+      },
+      "CCZ": {
+        "available": false,
+        "reason": "blank source column in chart"
+      },
+      "QJZ": {
+        "available": true,
+        "page": 9,
+        "font": "qjz",
+        "font_size": 18.999799728393555,
+        "bbox": [
+          475.1400146484375,
+          571.6342163085938,
+          494.1398010253906,
+          593.2559814453125
+        ],
+        "crop_bbox": [
+          472.09999389648436,
+          566.7501708984375,
+          497.09999389648436,
+          594.3332275390625
+        ],
+        "source_label": "K-00443"
+      },
+      "DYC": {
+        "available": false,
+        "reason": "blank source column in chart"
+      }
+    }
+  }
+}

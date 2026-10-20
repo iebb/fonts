@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D164.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-162164/sources/U3D164.json",
-  "source_json_sha256": "f755e9f669c456677235c3d72bd1e3d225e6a01c9da8908ca8e48dfc4ecfb0f1",
-  "geometry_sha256": "19fa6d76d0ba5dcc16f476e94c81a1ef0f10ff48d98184f53c54794543d1c24b",
-  "font_file": "design/quality/proofs/continuation/review-retries-162164/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "892eb2434f413ba6211c913d77e976d55b271c2809b14d0a1f846315f5872703",
-  "raster_file": "design/quality/proofs/continuation/review-retries-162164/U3D164-Regular400.png",
-  "raster_sha256": "db8812b976b470415e09f5bf69b139a8333b76616db0c70d497b51f24aa6c891",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D164-smooth-diagonal-transitions-v2/sources/U3D164.json",
+  "source_json_sha256": "ca8e565767ba003ae09767a18e604089c9a96c83f04c60a4e6e6cb4f6001d006",
+  "geometry_sha256": "76c3485845403f1f13b287b3b8091ffd69569aa2123e05b332f453fec4f83e7e",
+  "font_file": "design/quality/proofs/continuation/U3D164-smooth-diagonal-transitions-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "225e83a2d12513a563edecabb001eebc04852c23c4d0b1f841f87864b04f7a91",
+  "raster_file": "design/quality/proofs/continuation/U3D164-smooth-diagonal-transitions-v2/U3D164-Regular400.png",
+  "raster_sha256": "2b9168ee2a3462d54a65d84da915137b5a89cbe2e143b597319d2de417ffd950",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,11 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Hanging central cup and winding paired forks restored. Bottom upper-left/upper-right diagonal marks remain detached from horizontal bar, whereas coherent THX joins their lower ends to bar. Additionally actual font lower-left detached diagonal collapses to short dot while native retains full slant. Hold bounded upper diagonal-to-bar extensions and recovery of lower-left diagonal trajectory, preserving lower-right mark/native.",
-  "requested_corrections": [
-    "Extend lower ends of both UPPER diagonal marks to bottom horizontal bar as THX, retaining detached lower pair.",
-    "Restore actual-font lower-left detached diagonal full native trajectory; currently collapsed to dot."
-  ],
+  "notes": "Independently viewed full native2, all four enlarged whole specimens, actual Regular400 full raster and enlarged lower diagonal contacts. Coherent THX construction restored: two detached forks, hanging central U with its stacked fields/right return and attached lower winding forks; lower upper diagonal pair now joins horizontal rail smoothly, with free upper tips, central vertical and two detached full lower slants preserved. V2 removes prior sharp extension elbows. Native2 remains mismatch because its upper diagonal pair stops free of rail; vector repair accepted at exact hash only.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
@@ -60,6 +57,41 @@
       "requested_corrections": [
         "Restore coherent THX hanging central cup beneath rails with paired attached winding branches and required split terminals; preserve detached tridents, rail/outer descent and lower cross.",
         "Restore all four diagonal marks as complete slanted courses in actual font, with attested cross contacts according to chosen whole variant."
+      ]
+    },
+    {
+      "geometry_sha256": "19fa6d76d0ba5dcc16f476e94c81a1ef0f10ff48d98184f53c54794543d1c24b",
+      "source_json_sha256": "f755e9f669c456677235c3d72bd1e3d225e6a01c9da8908ca8e48dfc4ecfb0f1",
+      "font_sha256": "892eb2434f413ba6211c913d77e976d55b271c2809b14d0a1f846315f5872703",
+      "raster_sha256": "db8812b976b470415e09f5bf69b139a8333b76616db0c70d497b51f24aa6c891",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Hanging central cup and winding paired forks restored. Bottom upper-left/upper-right diagonal marks remain detached from horizontal bar, whereas coherent THX joins their lower ends to bar. Additionally actual font lower-left detached diagonal collapses to short dot while native retains full slant. Hold bounded upper diagonal-to-bar extensions and recovery of lower-left diagonal trajectory, preserving lower-right mark/native.",
+      "requested_corrections": [
+        "Extend lower ends of both UPPER diagonal marks to bottom horizontal bar as THX, retaining detached lower pair.",
+        "Restore actual-font lower-left detached diagonal full native trajectory; currently collapsed to dot."
+      ]
+    },
+    {
+      "geometry_sha256": "bbffa23958bbc7f9fb47e4ed11f342cec5a7677b40b54a3cfcb59c9e082c2ca3",
+      "source_json_sha256": "4a5af3dccbe5bd8bd94ebd67c6666dc7443cea10b80c5b76f8e327002fdde5ca",
+      "font_sha256": "f8d88790a8d78d529623d1a3ca48adf74262d3a6dd3e123c5ddb5728a63a60cf",
+      "raster_sha256": "3cbeaae4a27a329ee868f093200f5cf5d29b8a4527351c04934bc9f6bfcc463d",
+      "regular400_verdict": "accepted",
+      "native_verdict": "mismatch",
+      "notes": "Rechecked full actual Regular400 and enlarged bottom diagonals against previously inspected full native2/all four whole specimens. Both upper diagonal marks now join horizontal bar as coherent THX; lower-left diagonal recovered to full native slant rather than dot, lower pair remain detached. Hanging cup/right return/winding fork branches preserved, all three upper counters and component gaps open. Consistent rounded common pen/proportional envelope. Native2 missing upper diagonal contacts remains mismatch.",
+      "requested_corrections": []
+    },
+    {
+      "geometry_sha256": "bbffa23958bbc7f9fb47e4ed11f342cec5a7677b40b54a3cfcb59c9e082c2ca3",
+      "source_json_sha256": "4a5af3dccbe5bd8bd94ebd67c6666dc7443cea10b80c5b76f8e327002fdde5ca",
+      "font_sha256": "f8d88790a8d78d529623d1a3ca48adf74262d3a6dd3e123c5ddb5728a63a60cf",
+      "raster_sha256": "3cbeaae4a27a329ee868f093200f5cf5d29b8a4527351c04934bc9f6bfcc463d",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Structural contacts and lower-left recovery correct after full actual/detail reinspection, but enlargement shows abrupt elbows where new upper diagonal extensions meet original marks. Retracting preliminary acceptance before promotion: smooth only these extension transitions to maintain consistent seal trajectory, retaining bar contacts, endpoints and all other courses. Native mismatch remains.",
+      "requested_corrections": [
+        "Smooth both upper diagonal extension transitions where original slants bend abruptly toward horizontal bar; preserve restored contacts, all endpoints and other paths."
       ]
     }
   ]

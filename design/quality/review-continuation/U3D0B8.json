@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0B8",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B8.json",
+  "source_png_sha256": "a2c14cd7ae0e055cacdd34061c03d7b1b49a2d22a1652cf6d12e47cc9a6f1c3f",
+  "source_png": "design/seal-individual/U3D0B8.png",
+  "reference_png_sha256": "b011718726c3fc565f0554a68622e8f726c46afbeb53975f5ab77430fefda4a3",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0B8.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D0B8.json",
+  "source_json_sha256": "1c769f3c19cba7c6286b7b819c0889a80fb044fd65aa0cd799b24d0faf78f9d8",
+  "geometry_sha256": "eff773ab942cc4d9c5343de366ec5c26add24dd3f89432c89fc3766bf6682c47",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D0B8-Regular400.png",
+  "raster_sha256": "74347a96f8b5aec5d76af0ee003fb91f9faeb3831909161b58a9bdc65f69431a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      223,
+      -64,
+      801,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_trajectory_smoothing",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four whole specimens, actual Regular400 and enlarged lower compound inspected. Native coherent THX has left three-bar staff and upper crossed cup over four-counter lower roof/fork with three descents. Font retains contacts/counters but roof shoulder tracking is visibly scalloped and bumpy, unlike deliberate smooth native roof.",
+  "requested_corrections": [
+    "Smooth only lower compound roof/shoulder tracking while preserving all contacts, counters, proportions and endpoints."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D15D",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root",
   "review_date_utc": "2026-10-20",
-  "native_verdict": "mismatch",
-  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D15D.json",
-  "source_png_sha256": "4e271a87e49e61d23d76ab6b0190ca78ed144383ff6c2be30d390e3ad4fa293a",
+  "native_verdict": "match",
+  "native_review_report": "design/seal-individual/reviews/U3D15D.json",
   "source_png": "design/seal-individual/U3D15D.png",
+  "source_png_sha256": "466d81be4a74fe24e45f9cc744809c23b8ce341ea0e14fbbb830d3adc1bae678",
   "reference_png_sha256": "5f485c2f35d5545db893a4b6f67aeb3f8db30acae8e92f5900d4ccd266f44794",
   "reviewed_specimens": [
     "THX",
@@ -16,36 +16,49 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D15D.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight5/sources/U3D15D.json",
-  "source_json_sha256": "508eb5cf94c9e085f4f80bd475cb3e45965258bdf25ddc4e19f59785fdbc2983",
-  "geometry_sha256": "f49a417469991bdef7d4efb39effe997c393c7633f09ccdf5456137d9487d996",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight5/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "f0cdba02889cc78e23d517a51950de97c57185b2bb3733807c1d28915f22694c",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight5/U3D15D-Regular400.png",
-  "raster_sha256": "5c8809ae0aaf6fbd9caa9108d4e27324b97790a4641962312c5bb8cbf6f18020",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-fresh-retries-four1-v1/sources/U3D15D.json",
+  "source_json_sha256": "c65f5fc78a719ca112d5138c75d9c1279435c697486d8e410dbeb5571403cfb7",
+  "geometry_sha256": "3d433a5d57940d03d82783d9a4b52ffd16a8f64b4456538c374372b07e6379fb",
+  "font_file": "design/quality/proofs/continuation/root-fresh-retries-four1-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "8a2502047b525d42cb00beeedae49700f6abe654b1379a7c04b76c425c69ea0d",
+  "raster_file": "design/quality/proofs/continuation/root-fresh-retries-four1-v1/U3D15D-Regular400.png",
+  "raster_sha256": "1fc39660e8bf34110b7f665a046b3988e0abfc6c8e8f605901e1c557c646bc99",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      306,
+      300,
       -64,
-      718,
+      724,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged oval marks inspected. Native uses two short diagonal marks detached at both ends inside central oval split by staff. THX requires two joined upright dividers, making four oval counters; QJZ/DYC retain four-counter construction, while CCZ has asymmetric joined left divider and detached right mark plus differing upper contacts. Native pair does not establish a coherent complete attested construction. Actual tracing additionally touches left mark to lower oval wall, unlike native detached tip.",
-  "requested_corrections": [
-    "Select one coherent whole attested construction and restore central oval divider/contact structure, including four counters if choosing THX.",
-    "Correct accidental tracing contact of left inner mark to lower oval wall; retain all required gaps and verify enlarged actual Regular400."
-  ],
+  "notes": "Retry2 full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Coherent THX two detached upper tridents, paired two-field side courses with long outer legs, central cup and staff, restored two fully joined oval dividers yielding four oval counters, and lower three-legged course retained. Actual font has all eight total counters and clear fork gaps, side course separation and lower free terminals.",
+  "requested_corrections": [],
+  "review_comparison_sha256": "488badf4aba082d071195195b15cd99a0b8ef6fc474b9a1ed3e3c3ed12013028",
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
-    "Heavy weights not visually reviewed or accepted.",
-    "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "8111838ff238c1be43a145c535f2b4f0efe3807f8dba3104db483e631a6bc086",
+    "actual_font_enlargement_sha256": "013eb130a2a0fe4a677e58f6638b67338b8b7ab20219a547a504cd4eab23d65a"
+  },
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f49a417469991bdef7d4efb39effe997c393c7633f09ccdf5456137d9487d996",
+      "source_json_sha256": "508eb5cf94c9e085f4f80bd475cb3e45965258bdf25ddc4e19f59785fdbc2983",
+      "source_png_sha256": "4e271a87e49e61d23d76ab6b0190ca78ed144383ff6c2be30d390e3ad4fa293a",
+      "font_sha256": "f0cdba02889cc78e23d517a51950de97c57185b2bb3733807c1d28915f22694c",
+      "raster_sha256": "5c8809ae0aaf6fbd9caa9108d4e27324b97790a4641962312c5bb8cbf6f18020",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged oval marks inspected. Native uses two short diagonal marks detached at both ends inside central oval split by staff. THX requires two joined upright dividers, making four oval counters; QJZ/DYC retain four-counter construction, while CCZ has asymmetric joined left divider and detached right mark plus differing upper contacts. Native pair does not establish a coherent complete attested construction. Actual tracing additionally touches left mark to lower oval wall, unlike native detached tip."
+    }
   ]
 }

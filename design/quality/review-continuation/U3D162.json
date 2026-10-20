@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D162.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-162164/sources/U3D162.json",
-  "source_json_sha256": "b1e8ec3a3c05000ab6954c4757031049695c96209999d63358f03cd2cc759311",
-  "geometry_sha256": "6536f51da915da86b4cd8b4d8354b717c7a1fd9e9519b8c3cec06052a5bcbbab",
-  "font_file": "design/quality/proofs/continuation/review-retries-162164/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "892eb2434f413ba6211c913d77e976d55b271c2809b14d0a1f846315f5872703",
-  "raster_file": "design/quality/proofs/continuation/review-retries-162164/U3D162-Regular400.png",
-  "raster_sha256": "fea3ea28d34c5ba8f6f792cf67c1c99b3ce87e1f1b2237ba5fd2d4c849d62076",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D162168-THX-staff-contacts-v1/sources/U3D162.json",
+  "source_json_sha256": "a102ee6e3743a52432c20c1c427a3d07aa93213d8400be5edb40115b594f2ab9",
+  "geometry_sha256": "cb198757c18f4639b8cd8cd6c579dff1ac6645bc62268d070714a28a181e996d",
+  "font_file": "design/quality/proofs/continuation/U3D162168-THX-staff-contacts-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "11b5632ffb2d4b4a76ddbc500ecdbb0e130956aedd124eea7c87bce608dde80e",
+  "raster_file": "design/quality/proofs/continuation/U3D162168-THX-staff-contacts-v1/U3D162-Regular400.png",
+  "raster_sha256": "64198519192c1cc4a8cf576ef3d6106c622c55d10bf899e37381df3479275bb5",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,14 +34,11 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Missing lower curl/right staff/body counters restored, but new inner staff passes fully through diamond to its top apex, splitting it into two counters. THX has one diamond counter with short internal upward stub stopping near middle, no outer top apex stub. Native also adds outer top stub. Hold for bounded clipping of staff top and outer apex stub; preserve restored three body counters and left curl.",
-  "requested_corrections": [
-    "Clip inner right staff upper end to mid-diamond short stub, leaving one open diamond counter.",
-    "Remove extra outer diamond apex upward stub, preserving diamond boundary and detached right upper fork."
-  ],
+  "notes": "Rechecked full actual Regular400 and enlarged right compound against previously inspected full native2/all four whole specimens. Inner staff now stops as short stub inside one open diamond counter; extra outer apex stub removed. Three restored body fields and continuous inner staff confirmed in crop, left curl/cup/free X/small fork and detached top forks preserved. Consistent rounded common pen/proportional envelope. Native2 extra diamond division/apex stub remains mismatch.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
@@ -61,6 +58,19 @@
         "Restore right compound inner staff from diamond bottom through all three bars, giving three body counters and top short inner terminal as coherent THX.",
         "Restore lower left curled inner return attached to upper rail rather than detached dash.",
         "Use coherent THX detached upper forks and separate small left fork, detached X within cup."
+      ]
+    },
+    {
+      "geometry_sha256": "6536f51da915da86b4cd8b4d8354b717c7a1fd9e9519b8c3cec06052a5bcbbab",
+      "source_json_sha256": "b1e8ec3a3c05000ab6954c4757031049695c96209999d63358f03cd2cc759311",
+      "font_sha256": "892eb2434f413ba6211c913d77e976d55b271c2809b14d0a1f846315f5872703",
+      "raster_sha256": "fea3ea28d34c5ba8f6f792cf67c1c99b3ce87e1f1b2237ba5fd2d4c849d62076",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native/all four enlarged whole specimens/full compiled Regular400 and enlarged compound inspected. Missing lower curl/right staff/body counters restored, but new inner staff passes fully through diamond to its top apex, splitting it into two counters. THX has one diamond counter with short internal upward stub stopping near middle, no outer top apex stub. Native also adds outer top stub. Hold for bounded clipping of staff top and outer apex stub; preserve restored three body counters and left curl.",
+      "requested_corrections": [
+        "Clip inner right staff upper end to mid-diamond short stub, leaving one open diamond counter.",
+        "Remove extra outer diamond apex upward stub, preserving diamond boundary and detached right upper fork."
       ]
     }
   ]

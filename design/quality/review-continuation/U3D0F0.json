@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0F0",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0F0.json",
+  "source_png_sha256": "0532aede3406bec04774bf40df0df3229c1f581b7310a6baf80930f1d1af6084",
+  "source_png": "design/seal-individual/U3D0F0.png",
+  "reference_png_sha256": "3f549f316d65cfde398bc8b94208a3f669bb73b96f836aa9d1ec6668f84f9ca7",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0F0.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifteenth-eight/sources/U3D0F0.json",
+  "source_json_sha256": "915736ae84c64b49999effeffa9b0e36b06265bfdcabc5349e14884a216dc319",
+  "geometry_sha256": "c4fb656245ea6eb9c95129251a45a8e0e8f6b6ea9df38ee1dfbb9bdae54d45be",
+  "font_file": "design/quality/proofs/continuation/review-fifteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
+  "raster_file": "design/quality/proofs/continuation/review-fifteenth-eight/U3D0F0-Regular400.png",
+  "raster_sha256": "25f296c24e0927d0ec1b04fefc1641fc913ade3166420c10e471604c536cc4af",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      226,
+      -64,
+      798,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual Regular400 full raster and enlarged crown/crossing inspected. Native matches coherent THX peaked cap with top stub, single diamond counter and genuine crossed lower descent, separate left staff. Actual tracing introduces angular stepped shoulders where cap outer tips meet diamond sides and separates diamond-bottom junction from lower two-leg junction with a short narrow vertical bridge. Native has one shared crossed junction and continuous cap shoulders.",
+  "requested_corrections": [
+    "Unify diamond bottom and both descending legs into one shared crossing, preserving four outer trajectories/endpoints and diamond counter.",
+    "Smooth only upper cap shoulder transitions through both diamond-side branch junctions; remove tracking steps while preserving outer tips/top stub."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

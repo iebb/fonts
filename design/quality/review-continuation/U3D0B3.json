@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0B3",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B3.json",
+  "source_png_sha256": "9a479d81d15c0e0674014da91be948fee249ebef58f5ad80d633b688a51f6929",
+  "source_png": "design/seal-individual/U3D0B3.png",
+  "reference_png_sha256": "609a8675ed888dd5f18928edca8c707a5a1fdc42b1cc792a2a62d50cbc9ccf9f",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ"
+  ],
+  "unavailable_specimens": [
+    "DYC"
+  ],
+  "geometry_source": "design/strokes-individual/candidates/U3D0B3.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifteenth-eight/sources/U3D0B3.json",
+  "source_json_sha256": "79b5d61c5279eba518cbe325424f1dd96aaef4eb94c8b611bbd5e524a4336d18",
+  "geometry_sha256": "35958aa3a054561297d100df86e3363b7989f2d54b721145c859da4f68ef544a",
+  "font_file": "design/quality/proofs/continuation/review-fifteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
+  "raster_file": "design/quality/proofs/continuation/review-fifteenth-eight/U3D0B3-Regular400.png",
+  "raster_sha256": "8786ab81505a8696f386bb010f88804defa76271d4c3f01c61d2a5332d379d7f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      206,
+      -64,
+      818,
+      704
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all available enlarged whole specimens (DYC unavailable), full actual Regular400 and enlarged upper marks/inner winding inspected. Native has all four upper chevrons free of central upright, while no available whole attests this combination. Inner C return also detached from long outer descending course, whereas all available specimens join them. Actual tracking further loses right descending halves of both lower chevrons, leaving bent diagonal dashes.",
+  "requested_corrections": [
+    "Choose coherent THX whole contacts: both upper chevrons inner ends join central upright; lower-left inner end joins upright and lower-right remains free.",
+    "Join inner C leftmost bend to long descending outer course as in whole THX.",
+    "Restore full two-branch lower chevrons lost by tracing; preserve all four endpoints and open gaps required by selected whole variant."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

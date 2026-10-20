@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D169",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D169.json",
-  "source_png_sha256": "a77f54be7c4d1873bcb6f5c2fbfbdbed4421bb1b0e0a855298e2a18b08dbfbc0",
+  "source_png_sha256": "c6f3ccdcad20cced3a96098be0ba5453792361d6c6d4bf37482d63f650fdbb03",
   "source_png": "design/seal-individual/U3D169.png",
   "reference_png_sha256": "e47352d8bd7215e8af5fc27b170e111d2078b46f60675d5f935ad3234d7acc87",
   "reviewed_specimens": [
@@ -17,36 +17,51 @@
     "QJZ"
   ],
   "geometry_source": "design/strokes-individual/candidates/U3D169.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight8/sources/U3D169.json",
-  "source_json_sha256": "11caf496baafb70d548d7770a2e207d2d764b40096e6f7e7d31bf81629b36407",
-  "geometry_sha256": "f82c2ea2d03f0bd5f6c3653192438473e177454982c90b0f7fc67d4f65f5b6e4",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight8/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "3be4d1994fe2e2a4ad233de6b9717acbe9cd765f6ce9365c15845733cef1caf5",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight8/U3D169-Regular400.png",
-  "raster_sha256": "0f380bff495b4b9378dc2ea266ee09a1f869e3a3bbacb1396de140c8f7e71c8c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-retries-ED169/sources/U3D169.json",
+  "source_json_sha256": "002c031b6a0ce04e25887da358e3679b8420e93ede665e5806f793274e3dbcc1",
+  "geometry_sha256": "c4b391b8b0ba77cce9e8be18382eb9defe5daa71707a94d7f9386bab200a68a4",
+  "font_file": "design/quality/proofs/continuation/review-retries-ED169/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5c46820efae642958c1e0fafe5a691c7566682d829f213208bd340888a7ac427",
+  "raster_file": "design/quality/proofs/continuation/review-retries-ED169/U3D169-Regular400.png",
+  "raster_sha256": "686979a98549141ceaa0ab327ce3efc3a6d0fe1e7ef458248541af47a72d6ee3",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      274,
+      269,
       -64,
-      750,
+      755,
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
+  "regular400_verdict": "held",
   "accepted": false,
   "registry_modified": false,
-  "notes": "Full native, both available complete/enlarged THX/DYC specimens (CCZ/QJZ unavailable), actual Regular400 and enlarged right components inspected. Left component retained. Native upper right cup loses full crossbar left contact and separate small upper inner elbow, so expected closed counter absent. Lower right component replaces roof-linked central fork plus left L course/free branch ends with detached trident on base; roof connection, L course and correct fork direction/contacts missing. Actual font retains omissions.",
+  "notes": "Full native, available enlarged whole THX and DYC specimens (CCZ/QJZ unavailable), full actual Regular400 and enlarged right compound inspected. Retry2 retains left compound, but right top trident changed into an elbow/cup construction linked down into the middle cup. Neither available whole form attests this upper topology; lower inner L also remains detached from the descending inner fork left branch, unlike both available wholes.",
   "requested_corrections": [
-    "Restore coherent THX upper right cup: joined crossbar plus separate short upper inner elbow and correct counter.",
-    "Restore lower right roof-linked central fork and left bent L course, preserving attested free endpoints and outer reentrant wall/tail gap."
+    "Restore right upper genuine three-finger fork and short downstem detached from the separate middle cup; remove misplaced upper elbow/cup and long fork-to-middle connection.",
+    "Restore lower inner L-to-left branch contact of roof-linked descending fork, preserving outer winding boundary and free right fork tip."
   ],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "f82c2ea2d03f0bd5f6c3653192438473e177454982c90b0f7fc67d4f65f5b6e4",
+      "source_json_sha256": "11caf496baafb70d548d7770a2e207d2d764b40096e6f7e7d31bf81629b36407",
+      "font_sha256": "3be4d1994fe2e2a4ad233de6b9717acbe9cd765f6ce9365c15845733cef1caf5",
+      "raster_sha256": "0f380bff495b4b9378dc2ea266ee09a1f869e3a3bbacb1396de140c8f7e71c8c",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, both available complete/enlarged THX/DYC specimens (CCZ/QJZ unavailable), actual Regular400 and enlarged right components inspected. Left component retained. Native upper right cup loses full crossbar left contact and separate small upper inner elbow, so expected closed counter absent. Lower right component replaces roof-linked central fork plus left L course/free branch ends with detached trident on base; roof connection, L course and correct fork direction/contacts missing. Actual font retains omissions.",
+      "requested_corrections": [
+        "Restore coherent THX upper right cup: joined crossbar plus separate short upper inner elbow and correct counter.",
+        "Restore lower right roof-linked central fork and left bent L course, preserving attested free endpoints and outer reentrant wall/tail gap."
+      ]
+    }
   ]
 }

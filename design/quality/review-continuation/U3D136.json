@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D136",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D136.json",
+  "source_png_sha256": "0f91bd76c55a9310b385e1880d1fb067a5b507641dcee041d976f1761f387a94",
+  "source_png": "design/seal-individual/U3D136.png",
+  "reference_png_sha256": "8d5c498d979ae8287819a37b8beb266a99850c0d7330809296c38f62c87cd32a",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D136.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D136.json",
+  "source_json_sha256": "6a2f4de51adcc91b76940ecc09b3f24464d0cc80a2aefb51d002d2e6ae9c048e",
+  "geometry_sha256": "ac5cce7f3966a70a21ca222264a75588d615539123a76391c26fa1c754cd0e8a",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D136-Regular400.png",
+  "raster_sha256": "2a2c9bd700ab5247987f5aec5882871f44f637b04a47054074a28e2acf62c4dc",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      262,
+      -64,
+      762,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged middle joins inspected. Native follows detached upper tridents and THX lower winding tail but middle curved cup left tip stops below slanted rail; THX joins this tip to slant, creating a small counter. Joined-trident alternate specimens do not justify blending this detached arrangement and missing contact.",
+  "requested_corrections": [
+    "Join middle cup left terminal to existing upper slant for coherent THX small counter, preserving detached tridents and other courses."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

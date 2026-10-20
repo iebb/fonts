@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D166.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fourteenth-eight/sources/U3D166.json",
-  "source_json_sha256": "2deb5d76196198d3af4a601d0d247d66a63ee01260419b07f0760c6937d20275",
-  "geometry_sha256": "15a17800f68fdbb07733fa907ec70995b2daff0b86cd9288cf3c100d8ef136cc",
-  "font_file": "design/quality/proofs/continuation/review-fourteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "2f96590614fb1b5d3ca101f55d764fc687bc9f94063355632bf3f710c557dc46",
-  "raster_file": "design/quality/proofs/continuation/review-fourteenth-eight/U3D166-Regular400.png",
-  "raster_sha256": "080fa650ef08b1c31e2af986f22d52818f059582121f11c04e287cbf643eda91",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D12A166-restored-contact-stub-v1/sources/U3D166.json",
+  "source_json_sha256": "db7ebf18539e0acec82aaee61888c7d5d42976aa3bdc0c4e8784e2118146720d",
+  "geometry_sha256": "844ad06cde193aa0dda2c32ac86634375d9a1f00e11eedee0accc47d2f2c0fc3",
+  "font_file": "design/quality/proofs/continuation/U3D12A166-restored-contact-stub-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3c50bc5813fca17cec71455b424bfc76d14ab69196d0cdd8dc05f0e44ec859d5",
+  "raster_file": "design/quality/proofs/continuation/U3D12A166-restored-contact-stub-v1/U3D166-Regular400.png",
+  "raster_sha256": "19b78a5e3dc0821502ccaf1d32eb42dcbec53168778b533f055dbc789867156c",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged compound inspected. Left winding course/four detached marks and upper detached forks preserved. Right lower crossed bowl omits short inward lower stub from left fork intersection; THX and other specimens show this extra terminal distinct from long outer left foot and winding right course. Hold for bounded stub restoration, preserving four bowl fields and existing branches.",
-  "requested_corrections": [
-    "Restore short inward lower stub at left lower bowl fork crossing, extending down-right into gap as THX; preserve long left foot/right winding tail and four body fields."
-  ],
+  "notes": "Rechecked full actual Regular400 and enlarged bowl fork against previously inspected full native/all four whole specimens. Missing short inward down-right stub now restored at left bowl crossing as THX, separate from long left foot and right winding tail. Four bowl fields stay open, left winding staff/four marks and upper detached forks unchanged. Common rounded pen/proportional envelope consistent. Native missing stub remains mismatch.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "15a17800f68fdbb07733fa907ec70995b2daff0b86cd9288cf3c100d8ef136cc",
+      "source_json_sha256": "2deb5d76196198d3af4a601d0d247d66a63ee01260419b07f0760c6937d20275",
+      "font_sha256": "2f96590614fb1b5d3ca101f55d764fc687bc9f94063355632bf3f710c557dc46",
+      "raster_sha256": "080fa650ef08b1c31e2af986f22d52818f059582121f11c04e287cbf643eda91",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged compound inspected. Left winding course/four detached marks and upper detached forks preserved. Right lower crossed bowl omits short inward lower stub from left fork intersection; THX and other specimens show this extra terminal distinct from long outer left foot and winding right course. Hold for bounded stub restoration, preserving four bowl fields and existing branches.",
+      "requested_corrections": [
+        "Restore short inward lower stub at left lower bowl fork crossing, extending down-right into gap as THX; preserve long left foot/right winding tail and four body fields."
+      ]
+    }
   ]
 }

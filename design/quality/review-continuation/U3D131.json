@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D131",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "match",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D131.json",
+  "source_png_sha256": "41f42bd8fba61a6549629740fca5606880b7e4722c92bce364a8c4ce62cbb503",
+  "source_png": "design/seal-individual/U3D131.png",
+  "reference_png_sha256": "577bdfaa0a68998a6c5f577cf053231a350a1bee1d041acaa7295959808f2e34",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D131.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0B5131-crossing-smoothing-v1/sources/U3D131.json",
+  "source_json_sha256": "c1da672ab11213524e0275d642baa3c2270bb4ca6e3027d1ea6ee3b31b5dbf69",
+  "geometry_sha256": "9a5a111fe80912773016fd4d704b31405569923ffa8b43782c91f8c71ad0fff8",
+  "font_file": "design/quality/proofs/continuation/U3D0B5131-crossing-smoothing-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "b03f7da15179af13e55dc71c86a65381f3b4cb7074c6c1849e08c8ea206391b6",
+  "raster_file": "design/quality/proofs/continuation/U3D0B5131-crossing-smoothing-v1/U3D131-Regular400.png",
+  "raster_sha256": "760cc57fbb4f049089e623901c4310fc3ff691c2e012f5707c16dad4f6377467",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      209,
+      -64,
+      815,
+      704
+    ]
+  },
+  "regular400_verdict": "accepted",
+  "accepted": true,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, actual Regular400 full raster and enlarged rail/crossed-cup detail independently inspected. Coherent joined-fork whole variant attested QJZ/DYC retained, with four open fields in rounded crossed cup and separate lower stool/two legs. Repair smooths rail, cup corners and diagonals while preserving junctions/endpoints and spacing; no residual pronounced notches/lumps at repaired courses. Regular400 accepted.",
+  "requested_corrections": [],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "52499175cbfe150ef4776ca606a060ddd18318bd40e3992b0a789fcdb179132d",
+      "source_json_sha256": "93e7b204c241759229e17c9cda350a8b14ec7dfe0ba3b35fa2c2a9a8d671b698",
+      "font_sha256": "b9a345bff0a3f3cc52dd7bbe7cf5cd5637f376d85054e546a45cc007da0d6c53",
+      "raster_sha256": "4c82284a622c9253f82c7af17cb3c87511867f99d9411bbba8dfd8021d766326",
+      "regular400_verdict": "needs_trajectory_smoothing",
+      "native_verdict": "match",
+      "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged crossed cup inspected. Native follows QJZ joined upper fork contact variant with four cup counters and detached lower rail/paired feet. Font preserves topology but automatic trajectories introduce pronounced scalloping/notches in upper rail and cup corners, plus lumpy crossed diagonals. These visible irregularities differ from deliberate smooth monoline native/ref courses and need bounded correction for consistent style.",
+      "requested_corrections": [
+        "Smooth only affected upper rail, cup corner transitions and crossed diagonals, preserving native branch contacts, endpoints, four counter structure and lower separate rail/feet."
+      ]
+    }
+  ]
+}

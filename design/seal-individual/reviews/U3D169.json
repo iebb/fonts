@@ -2,12 +2,10 @@
   "schema_version": 1,
   "codepoint": "U+3D169",
   "verdict": "mismatch",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
-  "notes": [
-    "Full native, both available complete/enlarged THX/DYC specimens (CCZ/QJZ unavailable), actual Regular400 and enlarged right components inspected. Left component retained. Native upper right cup loses full crossbar left contact and separate small upper inner elbow, so expected closed counter absent. Lower right component replaces roof-linked central fork plus left L course/free branch ends with detached trident on base; roof connection, L course and correct fork direction/contacts missing. Actual font retains omissions."
-  ],
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "notes": "Full native, available enlarged whole THX and DYC specimens (CCZ/QJZ unavailable), full actual Regular400 and enlarged right compound inspected. Retry2 retains left compound, but right top trident changed into an elbow/cup construction linked down into the middle cup. Neither available whole form attests this upper topology; lower inner L also remains detached from the descending inner fork left branch, unlike both available wholes.",
   "source_png": "design/seal-individual/U3D169.png",
-  "source_png_sha256": "a77f54be7c4d1873bcb6f5c2fbfbdbed4421bb1b0e0a855298e2a18b08dbfbc0",
+  "source_png_sha256": "c6f3ccdcad20cced3a96098be0ba5453792361d6c6d4bf37482d63f650fdbb03",
   "reference_overview": "reference/seal/individual/U3D169.png",
   "reference_png_sha256": "e47352d8bd7215e8af5fc27b170e111d2078b46f60675d5f935ad3234d7acc87",
   "reviewed_specimens": [
@@ -22,5 +20,15 @@
     "Visual comparison against the supplied chart raster; not specialist paleographic certification.",
     "Does not verify historical writing order, exact metrics, or final font stroke width.",
     "Verdict applies only to the source PNG hash recorded here."
+  ],
+  "previous_reviews": [
+    {
+      "source_png_sha256": "a77f54be7c4d1873bcb6f5c2fbfbdbed4421bb1b0e0a855298e2a18b08dbfbc0",
+      "verdict": "mismatch",
+      "notes": [
+        "Full native, both available complete/enlarged THX/DYC specimens (CCZ/QJZ unavailable), actual Regular400 and enlarged right components inspected. Left component retained. Native upper right cup loses full crossbar left contact and separate small upper inner elbow, so expected closed counter absent. Lower right component replaces roof-linked central fork plus left L course/free branch ends with detached trident on base; roof connection, L course and correct fork direction/contacts missing. Actual font retains omissions."
+      ],
+      "reference_png_sha256": "e47352d8bd7215e8af5fc27b170e111d2078b46f60675d5f935ad3234d7acc87"
+    }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D137",
+  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D137.json",
+  "source_png_sha256": "55198092f01443cdc8708ffa975d7dabbf68695f0f7baffc8aee8106d71a2f00",
+  "source_png": "design/seal-individual/U3D137.png",
+  "reference_png_sha256": "96f9a5520b8a23365393d421e2e6698210e41661ab3c0e98bf38ea4bed55ae4a",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D137.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight10/sources/U3D137.json",
+  "source_json_sha256": "578991726efeaa219bfdd845aa5fd0a8e6629087491c34faabea2294313d39e5",
+  "geometry_sha256": "f9f7a19d2dbc1ce6102251469cd48991f3d676a1795325729bbada0ec2ff0f96",
+  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "261541e28ce285bfe8fdc18aeb0c2239a3c2632fb57ea12342287b7e39acbac2",
+  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight10/U3D137-Regular400.png",
+  "raster_sha256": "89bc5e84d279e47aa3fd06a5417751f229f03bb6d52abda16d979aec502c55fa",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      248,
+      -64,
+      776,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four whole/enlarged specimens, actual Regular400 and enlarged left compound inspected. Native makes both inner left diagonal marks wholly detached. THX and CCZ join both left ends to outer wall with right tips free; QJZ and DYC have different joined forms, none shows current both-free configuration. Right compound and detached tridents otherwise follow THX.",
+  "requested_corrections": [
+    "Restore both inner diagonal left ends to left outer wall for coherent THX; preserve both free right tips, outer winding descents and upper gaps."
+  ],
+  "limitations": [
+    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector review does not override uncertain or mismatching native verdict."
+  ]
+}

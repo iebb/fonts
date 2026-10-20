@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -1075,17 +1075,120 @@
         10
       ],
       "is_loop": false,
-      "path": "M 480.92,327.156 L 628.141,323.885",
+      "path": "M 638.209,298.529 C 631.915,300.838 627.321,306.706 621.087,309.339 C 615.079,311.876 607.548,311.409 601.213,312.504 C 598.25,313.016 595.549,313.87 593.392,315.201 C 591.235,316.531 589.623,318.338 587.838,320.41 C 585.56,323.054 583.001,326.13 581.465,329.301 C 580.261,331.785 579.684,334.327 579.012,337.052 C 577.798,341.97 576.27,347.481 575.875,353.344 C 575.437,359.841 576.39,366.77 575.467,372.851 C 574.571,378.756 571.905,383.862 570.436,389.711 C 568.716,396.564 568.64,404.439 563.644,409.395 C 559.078,413.926 550.4,416.018 546.351,418.76 C 533.0,427.0 505.0,419.0 481.5,419.0",
       "commands": [
         [
           "M",
-          480.9201,
-          327.1565
+          638.209,
+          298.529
         ],
         [
-          "L",
-          628.1406,
-          323.885
+          "C",
+          631.915,
+          300.838,
+          627.321,
+          306.706,
+          621.087,
+          309.339
+        ],
+        [
+          "C",
+          615.079,
+          311.876,
+          607.548,
+          311.409,
+          601.213,
+          312.504
+        ],
+        [
+          "C",
+          598.25,
+          313.016,
+          595.549,
+          313.87,
+          593.392,
+          315.201
+        ],
+        [
+          "C",
+          591.235,
+          316.531,
+          589.623,
+          318.338,
+          587.838,
+          320.41
+        ],
+        [
+          "C",
+          585.56,
+          323.054,
+          583.001,
+          326.13,
+          581.465,
+          329.301
+        ],
+        [
+          "C",
+          580.261,
+          331.785,
+          579.684,
+          334.327,
+          579.012,
+          337.052
+        ],
+        [
+          "C",
+          577.798,
+          341.97,
+          576.27,
+          347.481,
+          575.875,
+          353.344
+        ],
+        [
+          "C",
+          575.437,
+          359.841,
+          576.39,
+          366.77,
+          575.467,
+          372.851
+        ],
+        [
+          "C",
+          574.571,
+          378.756,
+          571.905,
+          383.862,
+          570.436,
+          389.711
+        ],
+        [
+          "C",
+          568.716,
+          396.564,
+          568.64,
+          404.439,
+          563.644,
+          409.395
+        ],
+        [
+          "C",
+          559.078,
+          413.926,
+          550.4,
+          416.018,
+          546.351,
+          418.76
+        ],
+        [
+          "C",
+          533.0,
+          427.0,
+          505.0,
+          419.0,
+          481.5,
+          419.0
         ]
       ],
       "maximum_fit_error": 2.4713,
@@ -4587,6 +4690,21 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore coherent complete THX bent upper inner return, which retry2 flattened into a horizontal rail. Reuse only the exact genuine native1 original drawing centerline tail from central return contact (638.209,298.529) through its curved upward/bent course to (546.351,418.760), then add one smooth continuation to existing native2 outer left wall (481.5,419). Preserve all seven other native2 paths, current outer body, four counters, middle bar and descending tail. Native2 canonical PNG/provenance unchanged and remains mismatching; no chart outlines used.",
+      "previous_paths": {
+        "stroke-2": "M 480.92,327.156 L 628.141,323.885"
+      },
+      "own_original_drawing_source": {
+        "snapshot": "design/seal-individual/attempts/U3D0E7-before-THX-bent-return/native1-source.json",
+        "source_json_sha256": "97d0d5c4ea82a8c84e69587300750ddbce6ff0d69dbf54ae0c4c9486570dc688",
+        "native_png": "design/seal-individual/attempts/U3D0E7-attempt-1.png",
+        "native_png_sha256": "f8f4952598c89b86f3c0b92cfa10acdf6ef5c39bdf10b6e204aa95b3df632323"
+      },
+      "native_png_unchanged_and_mismatch_retained": true
     }
   ]
 }

@@ -5,7 +5,7 @@
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0A9.json",
-  "source_png_sha256": "b942b208f7a6df9c962090a6be1f98fba204107fce91a9f0c80e60b836855871",
+  "source_png_sha256": "ac8028b8b905741ef3e86afa3186265994618db95c867ed314f5ade01a54c27a",
   "source_png": "design/seal-individual/U3D0A9.png",
   "reference_png_sha256": "cc2a36bb03a66ed3dbffd64256383d69d6d9d3931a8d59e8fa97fa1378f670d8",
   "reviewed_specimens": [
@@ -16,35 +16,57 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0A9.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirteenth-eight/sources/U3D0A9.json",
-  "source_json_sha256": "75630b7017e45d1814761588698262cf0d78aaad53a7cd7d2d1cceb1543cddb4",
-  "geometry_sha256": "eee0982826d3e18a0f667840d48d552e3d7ffeb77a9a966f8d2786a986218bba",
-  "font_file": "design/quality/proofs/continuation/review-thirteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
-  "raster_file": "design/quality/proofs/continuation/review-thirteenth-eight/U3D0A9-Regular400.png",
-  "raster_sha256": "6b74cf58215886a40f48785095a7b28cac5de3c6966e152390d977b0e75c6a2a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0A90E7-THX-gap-bent-return-v1/sources/U3D0A9.json",
+  "source_json_sha256": "90566c184484030b75977d2f5f571860bdf2c6c9343b2c99e643abc83febd5c8",
+  "geometry_sha256": "17ae1e7b4d182876dd409334913466b2693d80e2c8d68ee1f25138a84f0f4855",
+  "font_file": "design/quality/proofs/continuation/U3D0A90E7-THX-gap-bent-return-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3c7845019be137a69f4a19e6c8a358b774cb25f6952808ffa1c55559fa42ab13",
+  "raster_file": "design/quality/proofs/continuation/U3D0A90E7-THX-gap-bent-return-v1/U3D0A9-Regular400.png",
+  "raster_sha256": "bfceac495ba903626a7e2e4b39794fb4b765d591d9d7bd30112b59adabb96bfb",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      206,
+      189,
       -64,
-      818,
+      835,
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/all four enlarged whole specimens/full compiled Regular400 and enlarged lower central component inspected. Top counter and outer paired double-leg forms survive, but central bottom cap descends as one solid staff instead of two separate legs. All four references require paired central lower terminals, giving six bottom terminals overall; native/font currently five. Hold for correct central lower split preserving upper chevron and cap.",
-  "requested_corrections": [
-    "Restore two separate central lower legs under short lower cap bar rather than one solid staff, yielding six total bottom terminals, preserving upper central chevron and outer paired courses."
-  ],
+  "notes": "Full native2, all four enlarged whole specimens, full actual Regular400 and enlarged upper/lower cap gap inspected. Root split restores coherent THX detached lower short upstub below upper compound rail, retaining upper one-counter construction, six separate lower descending legs and detached flanking forks/left staff. All retained cubic courses/endpoints preserved and actual gap clear. Native2 remains mismatch for continuous upperrail-to-lower compound link.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "eee0982826d3e18a0f667840d48d552e3d7ffeb77a9a966f8d2786a986218bba",
+      "source_json_sha256": "75630b7017e45d1814761588698262cf0d78aaad53a7cd7d2d1cceb1543cddb4",
+      "source_png_sha256": "b942b208f7a6df9c962090a6be1f98fba204107fce91a9f0c80e60b836855871",
+      "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
+      "raster_sha256": "6b74cf58215886a40f48785095a7b28cac5de3c6966e152390d977b0e75c6a2a",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full compiled Regular400 and enlarged lower central component inspected. Top counter and outer paired double-leg forms survive, but central bottom cap descends as one solid staff instead of two separate legs. All four references require paired central lower terminals, giving six bottom terminals overall; native/font currently five. Hold for correct central lower split preserving upper chevron and cap."
+    },
+    {
+      "geometry_sha256": "f57670ca598fa554b346898f01c86e85ea58e75d1dd72d096d4f46ff59189c41",
+      "source_json_sha256": "9b40d523c1697690b6fddc2bc70af2918e450781da049506fa9b826fd0796259",
+      "font_sha256": "8a2502047b525d42cb00beeedae49700f6abe654b1379a7c04b76c425c69ea0d",
+      "raster_sha256": "29c09013fadab1691739de3affdc56e4fa6ee5c8543d5f239a4aa585500704ef",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Central bottom cap now has two separate legs, restoring six bottom terminals. Native still joins lower chevron/staff directly to upper bottom rail while outer paired leg courses stay detached. Coherent THX detached outer courses require short lower central upward stub detached from upper rail; CCZ/QJZ joined alternatives also alter the outer/left staff contacts, and DYC separates the lower cap. Hold for bounded central gap restoring complete THX contact pattern.",
+      "requested_corrections": [
+        "Retry2 full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Central bottom cap now has two separate legs, restoring six bottom terminals. Native still joins lower chevron/staff directly to upper bottom rail while outer paired leg courses stay detached. Coherent THX detached outer courses require short lower central upward stub detached from upper rail; CCZ/QJZ joined alternatives also alter the outer/left staff contacts, and DYC separates the lower cap. Hold for bounded central gap restoring complete THX contact pattern."
+      ]
+    }
   ]
 }

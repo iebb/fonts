@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -2505,250 +2505,24 @@
       "maximum_fit_error_font_units": 3.231
     },
     {
-      "points": [
-        [
-          327.1565,
-          539.8083
-        ],
-        [
-          330.4281,
-          543.0799
-        ],
-        [
-          333.6997,
-          546.3514
-        ],
-        [
-          336.9712,
-          546.3514
-        ],
-        [
-          340.2428,
-          549.623
-        ],
-        [
-          343.5144,
-          552.8946
-        ],
-        [
-          346.7859,
-          556.1661
-        ],
-        [
-          350.0575,
-          556.1661
-        ],
-        [
-          350.0575,
-          559.4377
-        ],
-        [
-          353.3291,
-          559.4377
-        ],
-        [
-          356.6006,
-          562.7093
-        ],
-        [
-          359.8722,
-          565.9808
-        ],
-        [
-          363.1438,
-          569.2524
-        ],
-        [
-          366.4153,
-          569.2524
-        ],
-        [
-          366.4153,
-          572.524
-        ],
-        [
-          369.6869,
-          572.524
-        ],
-        [
-          372.9585,
-          575.7955
-        ],
-        [
-          376.23,
-          579.0671
-        ],
-        [
-          379.5016,
-          582.3387
-        ],
-        [
-          382.7732,
-          582.3387
-        ],
-        [
-          386.0447,
-          585.6102
-        ],
-        [
-          389.3163,
-          588.8818
-        ],
-        [
-          392.5879,
-          592.1534
-        ],
-        [
-          395.8594,
-          595.4249
-        ],
-        [
-          399.131,
-          595.4249
-        ]
-      ],
       "graph_edges": [
         13
       ],
       "is_loop": false,
-      "path": "M 327.156,539.808 L 399.131,595.425",
-      "commands": [
-        [
-          "M",
-          327.1565,
-          539.8083
-        ],
-        [
-          "L",
-          399.131,
-          595.4249
-        ]
-      ],
-      "maximum_fit_error": 2.0002,
+      "path": "M 272,497.184 L 327.156,539.808 L 399.131,595.425",
       "curve_segments": 1,
       "id": "stroke-4",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.6114,
-      "maximum_fit_error_font_units": 2.0002
+      "closed": false
     },
     {
-      "points": [
-        [
-          346.7859,
-          454.7476
-        ],
-        [
-          350.0575,
-          458.0192
-        ],
-        [
-          353.3291,
-          458.0192
-        ],
-        [
-          356.6006,
-          461.2907
-        ],
-        [
-          359.8722,
-          464.5623
-        ],
-        [
-          363.1438,
-          464.5623
-        ],
-        [
-          366.4153,
-          467.8339
-        ],
-        [
-          369.6869,
-          471.1054
-        ],
-        [
-          372.9585,
-          474.377
-        ],
-        [
-          376.23,
-          474.377
-        ],
-        [
-          379.5016,
-          477.6486
-        ],
-        [
-          382.7732,
-          480.9201
-        ],
-        [
-          386.0447,
-          480.9201
-        ],
-        [
-          389.3163,
-          484.1917
-        ],
-        [
-          392.5879,
-          487.4633
-        ],
-        [
-          395.8594,
-          487.4633
-        ],
-        [
-          399.131,
-          490.7348
-        ],
-        [
-          402.4026,
-          494.0064
-        ],
-        [
-          405.6741,
-          497.278
-        ],
-        [
-          408.9457,
-          497.278
-        ],
-        [
-          412.2173,
-          500.5495
-        ],
-        [
-          415.4888,
-          503.8211
-        ],
-        [
-          418.7604,
-          503.8211
-        ]
-      ],
       "graph_edges": [
         14
       ],
       "is_loop": false,
-      "path": "M 346.786,454.748 L 418.76,503.821",
-      "commands": [
-        [
-          "M",
-          346.7859,
-          454.7476
-        ],
-        [
-          "L",
-          418.7604,
-          503.8211
-        ]
-      ],
-      "maximum_fit_error": 1.9659,
+      "path": "M 295,419.439 L 346.786,454.748 L 418.76,503.821",
       "curve_segments": 1,
       "id": "stroke-5",
-      "closed": false,
-      "maximum_fit_error_analysis_pixels": 0.6009,
-      "maximum_fit_error_font_units": 1.9659
+      "closed": false
     },
     {
       "points": [
@@ -4985,6 +4759,27 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Restore coherent THX two left inner diagonal left contacts onto outer wall while retaining each full original diagonal and exact free right terminal. Extend straight original courses back to existing wall; all seven other courses unchanged. Native detached inner marks remain mismatch.",
+      "changes": [
+        {
+          "stroke_id": "stroke-4",
+          "previous_path": "M 327.156,539.808 L 399.131,595.425",
+          "repaired_path": "M 272,497.184 L 327.156,539.808 L 399.131,595.425"
+        },
+        {
+          "stroke_id": "stroke-5",
+          "previous_path": "M 346.786,454.748 L 418.76,503.821",
+          "repaired_path": "M 295,419.439 L 346.786,454.748 L 418.76,503.821"
+        }
+      ],
+      "added_strokes": [],
+      "native_artwork_verdict": "mismatch",
+      "source_png_pixels_modified": false,
+      "independent_geometry_review": "pending"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "codepoint": "U+3D127",
-  "reviewer": "independent visual reviewer /root/seal_vector_repairs",
+  "reviewer": "independent visual reviewer /root/seal_review",
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D127.json",
@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D127.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/independent-repairs-agent-eight7/sources/U3D127.json",
-  "source_json_sha256": "547ad7ad8f8e3e687383366a5161a4a1b64e439ed627d287542659204d6eb723",
-  "geometry_sha256": "7cf7571f24e740543f0d4a83854fa4664e7c23a44ff492d7182be206529bf894",
-  "font_file": "design/quality/proofs/continuation/independent-repairs-agent-eight7/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "64d18243cca44c905567eb8b7e59e652112e1b10fd0ca7bf4045467fba146ced",
-  "raster_file": "design/quality/proofs/continuation/independent-repairs-agent-eight7/U3D127-Regular400.png",
-  "raster_sha256": "dff54cf43bd174e8315d8c364ef3583637b94c78da0397e6c0d79147ca28252a",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D127165-THX-bottom-contacts-v2/sources/U3D127.json",
+  "source_json_sha256": "5eef729286e28a716b34697db5ff4784a4d1fc7c7e654017375aca565d66bb21",
+  "geometry_sha256": "58459e3d86bef2a4631f87429d46700757edb1df6b54829ad235039747e238e3",
+  "font_file": "design/quality/proofs/continuation/U3D127165-THX-bottom-contacts-v2/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "c95f756711871958c0e6963e43aad8f632b82b3a5a0192494caa778e8323fab8",
+  "raster_file": "design/quality/proofs/continuation/U3D127165-THX-bottom-contacts-v2/U3D127-Regular400.png",
+  "raster_sha256": "b8cc4129df70b1cb53552f896d91bf5cedb3dccc56d651757cbac2c270718866",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "needs_structural_repair",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged capsule/feet inspected. Upper trident and four-counter capsule retained, but both immediately lower side feet are detached while lower central fork is also detached. THX requires right upper foot joined to capsule bottom; CCZ detached-foot variant has central lower courses joined. Native combines contact choices without a coherent complete specimen. Actual tracing retains same combination.",
-  "requested_corrections": [
-    "Choose coherent complete historical construction. For THX restore right upper side foot connection to capsule while preserving detached left foot and detached bottom-center fork, four capsule counters and all other branches."
-  ],
+  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged body/feet inspected. Coherent THX right upper foot now joins capsule base, left upper foot stays detached and lower central fork stays detached from upper fork. Four capsule fields open, all other foot tips preserved, smooth rounded common pen/proportional envelope. Native mixed foot contacts remains mismatch.",
+  "requested_corrections": [],
   "limitations": [
-    "Exact recorded native/source/geometry/font/raster hashes only; proportional envelope738 and Regular400 pen30.",
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
-    "Vector review does not override uncertain or mismatching native verdict."
+    "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "7cf7571f24e740543f0d4a83854fa4664e7c23a44ff492d7182be206529bf894",
+      "source_json_sha256": "547ad7ad8f8e3e687383366a5161a4a1b64e439ed627d287542659204d6eb723",
+      "font_sha256": "64d18243cca44c905567eb8b7e59e652112e1b10fd0ca7bf4045467fba146ced",
+      "raster_sha256": "dff54cf43bd174e8315d8c364ef3583637b94c78da0397e6c0d79147ca28252a",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Full native, all four complete/enlarged specimens, actual Regular400 and enlarged capsule/feet inspected. Upper trident and four-counter capsule retained, but both immediately lower side feet are detached while lower central fork is also detached. THX requires right upper foot joined to capsule bottom; CCZ detached-foot variant has central lower courses joined. Native combines contact choices without a coherent complete specimen. Actual tracing retains same combination.",
+      "requested_corrections": [
+        "Choose coherent complete historical construction. For THX restore right upper side foot connection to capsule while preserving detached left foot and detached bottom-center fork, four capsule counters and all other branches."
+      ]
+    }
   ]
 }

@@ -16,13 +16,13 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0AA.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirteenth-eight/sources/U3D0AA.json",
-  "source_json_sha256": "a747027472ee234b22a610aa267c994ad3285dbed98b885eec00e156bd735b95",
-  "geometry_sha256": "b2adc8558df4cacec45615977328c139ab7c885cf83b25199955c43d973d89fb",
-  "font_file": "design/quality/proofs/continuation/review-thirteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
-  "raster_file": "design/quality/proofs/continuation/review-thirteenth-eight/U3D0AA-Regular400.png",
-  "raster_sha256": "c9751aac5e2157a561a13b312e9657d89b214d4f409ec1b8225d513b16d9299c",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0AA-THX-curl-gap-v1/sources/U3D0AA.json",
+  "source_json_sha256": "7f169dcfaf24968419d33c18c7d904a5ba85c3b07387e8901240e7fa70db4a34",
+  "geometry_sha256": "bf1214e3e2a48474f15274b4ad779c1046f56941edddea99953cc9248f366e17",
+  "font_file": "design/quality/proofs/continuation/U3D0AA-THX-curl-gap-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "2affb4363df22b4350e24e736eb1299ade8e187454f1487fbaf3fa3560fe8866",
+  "raster_file": "design/quality/proofs/continuation/U3D0AA-THX-curl-gap-v1/U3D0AA-Regular400.png",
+  "raster_sha256": "c9bbe74f52141bfb49a869b31520ddc6e642c099bd2ec67c486f9f2c105a411a",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
@@ -34,17 +34,29 @@
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged lower-curl contact inspected. Native keeps left staff detached as THX, but links upper right bottom rail continuously into lower curl; THX lower curl is detached with its own short upward top stub. CCZ joined upper/lower accompanies left staff contact, unlike current mixed construction. Hold for coherent THX separation preserving two upper free interior bars, right long staff and lower winding free tips.",
-  "requested_corrections": [
-    "Choose coherent THX: detach lower winding curl from upper bottom rail and retain its short upward top stub; preserve detached left staff, right long upright and other free terminals."
-  ],
+  "notes": "Rechecked full actual Regular400 and enlarged curl/upper-rail gap against previously inspected full native/all four whole specimens. Coherent THX lower winding curl now detached from upper bottom rail, with its own short top upward stub. Two upper interior bars remain free, right long staff detached from lower curl tips, left three-bar staff separate. Smooth rounded common pen, open gaps/proportional envelope. Native mixed upper/lower contact remains uncertain.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "b2adc8558df4cacec45615977328c139ab7c885cf83b25199955c43d973d89fb",
+      "source_json_sha256": "a747027472ee234b22a610aa267c994ad3285dbed98b885eec00e156bd735b95",
+      "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
+      "raster_sha256": "c9751aac5e2157a561a13b312e9657d89b214d4f409ec1b8225d513b16d9299c",
+      "regular400_verdict": "held",
+      "native_verdict": "uncertain",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged lower-curl contact inspected. Native keeps left staff detached as THX, but links upper right bottom rail continuously into lower curl; THX lower curl is detached with its own short upward top stub. CCZ joined upper/lower accompanies left staff contact, unlike current mixed construction. Hold for coherent THX separation preserving two upper free interior bars, right long staff and lower winding free tips.",
+      "requested_corrections": [
+        "Choose coherent THX: detach lower winding curl from upper bottom rail and retain its short upward top stub; preserve detached left staff, right long upright and other free terminals."
+      ]
+    }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D173",
+  "reviewer": "independent visual reviewer /root",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "design/seal-individual/reviews/U3D173.json",
+  "source_png": "design/seal-individual/U3D173.png",
+  "source_png_sha256": "5992585549726043814b131e334ff80deaa7df3149df0e4f28dccd788b3d5b1e",
+  "reference_png_sha256": "8357b60a1868e463984487b8e448b8f0247d6aa7be5c206ef540acd7e8f38357",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D173.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/root-untouched-eight2-v1/sources/U3D173.json",
+  "source_json_sha256": "9a82b8b2c24de6d5f0ef19d436570516a37fca998209b650582e64036eecbe5e",
+  "geometry_sha256": "1844348fc5230dfeac61ba2c4dadcc26dc8932f8462015b122db33dcd37ca703",
+  "font_file": "design/quality/proofs/continuation/root-untouched-eight2-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "5e91f571b38a7818b3161152767210a441027a3ae2ebfbada3e238b4181a96b5",
+  "raster_file": "design/quality/proofs/continuation/root-untouched-eight2-v1/U3D173-Regular400.png",
+  "raster_sha256": "4df086b121e173ff4ab9bfed5191e267116a2676ef66af438dd03c6aba38922a",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      249,
+      -64,
+      775,
+      704
+    ]
+  },
+  "regular400_verdict": "needs_structural_repair",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native retains THX detached paired top forks, open left roof, middle crossbar and outer legs, but upper inner Y stem wrongly continues down into lower interior, stopping free above L baseline. Coherent THX upper Y crosses middle bar then bends right into outer right descending leg; a separate short lower inner upright begins below middle bar with a gap and joins the inner L baseline. Actual tracing retains both incorrect upper/lower flow and missing L-base contact.",
+  "requested_corrections": [
+    "Full native, all four complete/enlarged specimens and full/enlarged actual Regular inspected. Native retains THX detached paired top forks, open left roof, middle crossbar and outer legs, but upper inner Y stem wrongly continues down into lower interior, stopping free above L baseline. Coherent THX upper Y crosses middle bar then bends right into outer right descending leg; a separate short lower inner upright begins below middle bar with a gap and joins the inner L baseline. Actual tracing retains both incorrect upper/lower flow and missing L-base contact."
+  ],
+  "review_comparison_sha256": "06e6236c7dfe9d3ffa28362270de6c9e4fd6ac8e20f5e492493a57d0e0368677",
+  "limitations": [
+    "Exact source/native/font/raster fingerprints only; Regular400 pen30 and proportional extent738.",
+    "Heavy weights not visually accepted.",
+    "No paleographic or historical writing-order certification."
+  ],
+  "detail_review": {
+    "all_specimen_enlargement_sha256": "04d7a2b226768c6a92dc36a297d9113a72fba3b3d29b4cf1ee98e0006a85a697",
+    "actual_font_enlargement_sha256": "b4cbaf7b0e10c08457f7b31dec4828c85bd239779bb5a3d3bca7e06ade94b351"
+  }
+}

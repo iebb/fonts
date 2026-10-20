@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "codepoint": "U+3D0B2",
+  "reviewer": "independent visual reviewer /root/seal_review",
+  "review_date_utc": "2026-10-20",
+  "native_verdict": "mismatch",
+  "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0B2.json",
+  "source_png_sha256": "d79c2b52ce7ad7ad4015ac38091e858e04a48c98533cd68e543d26467f88d640",
+  "source_png": "design/seal-individual/U3D0B2.png",
+  "reference_png_sha256": "572c14ec42a276faffa55fd22912e8db4429623278be8c5cec9c3767921c405b",
+  "reviewed_specimens": [
+    "THX",
+    "CCZ",
+    "QJZ",
+    "DYC"
+  ],
+  "unavailable_specimens": [],
+  "geometry_source": "design/strokes-individual/candidates/U3D0B2.json",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-fifteenth-eight/sources/U3D0B2.json",
+  "source_json_sha256": "b36cda3f7f98dbce8e625a787407c027a49dab2f893a7e3a586e4a499dbfddeb",
+  "geometry_sha256": "a0c7b4be2e9c17b4bb89ac409b1917e881f58d8e07a042f19bcbdc2cab5407ef",
+  "font_file": "design/quality/proofs/continuation/review-fifteenth-eight/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "9e23621ea8e0addfee11c9056aa33722548aba91dd3fb74a60926127d69d3b01",
+  "raster_file": "design/quality/proofs/continuation/review-fifteenth-eight/U3D0B2-Regular400.png",
+  "raster_sha256": "abffce8c60da3033685aa10e60e7cf9b48a9d82c20c79a86b1c40a6c803be02f",
+  "reviewed_weight": 400,
+  "font_metrics": {
+    "units_per_em": 1024,
+    "advance": 1024,
+    "ink_bounds": [
+      128,
+      -60,
+      896,
+      700
+    ]
+  },
+  "regular400_verdict": "held",
+  "accepted": false,
+  "registry_modified": false,
+  "notes": "Full native, all four enlarged whole specimens, full actual Regular400 and enlarged left-bottom contact inspected. All available whole specimens attach staff lowest rightward bar into lower-left oval near its upper shoulder; native and actual instead leave a clear gap. Three four-field ovals retained but shared contact missing.",
+  "requested_corrections": [
+    "Restore staff lowest bar rightward connection to lower-left oval upper-left shoulder, preserving all twelve oval fields and other courses."
+  ],
+  "limitations": [
+    "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
+    "Heavy weights not visually reviewed or accepted.",
+    "No specialist paleographic or historical writing-order certification.",
+    "Vector correction does not change a mismatching native PNG verdict."
+  ]
+}

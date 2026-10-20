@@ -18,7 +18,7 @@ its recorded fingerprint. The original 128 glyphs' outlines and spacing are
 preserved exactly in the expanded development font.
 
 The [current development font](fonts/seal-individual/PanoramaGothicSealIndividual-Regular.ttf?raw=1)
-and [preview](fonts/seal-individual/preview-250.png) contain 250 independently reviewed glyphs.
+and [preview](fonts/seal-individual/preview-302.png) contain 302 independently reviewed glyphs.
 The [progress audit](design/quality/small-seal-progress.json) reports accepted
 geometry separately from drawings and pending candidates; its timestamp and
 fingerprints identify the evidence it assessed.

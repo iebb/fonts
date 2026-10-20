@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -4350,39 +4350,21 @@
         40
       ],
       "is_loop": false,
-      "path": "M 665.764,507.093 C 663.394,475.762 664.294,444.121 664.3,412.193 C 664.303,395.746 664.069,379.222 663.668,363.169 C 663.273,347.3 662.715,331.89 664.128,317.342",
+      "path": "M 665.764,507.093 C 664.0341123390448,484.2241770863344 664.0463799621158,461.1901957206662 664.1815324376429,438.0",
       "commands": [
         [
           "M",
-          665.7636,
-          507.0927
+          665.764,
+          507.093
         ],
         [
           "C",
-          663.3937,
-          475.7619,
-          664.2937,
-          444.1212,
-          664.2996,
-          412.1934
-        ],
-        [
-          "C",
-          664.3028,
-          395.7459,
-          664.0689,
-          379.2222,
-          663.6685,
-          363.1693
-        ],
-        [
-          "C",
-          663.2729,
-          347.2996,
-          662.7145,
-          331.8899,
-          664.1278,
-          317.3419
+          664.0341123390448,
+          484.2241770863344,
+          664.0463799621158,
+          461.1901957206662,
+          664.1815324376429,
+          438.0
         ]
       ],
       "maximum_fit_error": 2.4805,
@@ -9452,6 +9434,15 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent complete THX: clip only the top of existing right inner staff at y438 inside the diamond, restoring the short upward inner stub and a single diamond counter; the removed upper staff portion also removes unsupported outer apex stub. Preserve exact retained cubic portion, all other 20 original paths, three restored body counters, fork separations and lower-left curl.",
+      "previous_paths": {
+        "stroke-12": "M 665.764,507.093 C 663.394,475.762 664.294,444.121 664.3,412.193 C 664.303,395.746 664.069,379.222 663.668,363.169 C 663.273,347.3 662.715,331.89 664.128,317.342"
+      },
+      "native_png_unchanged_and_mismatch_retained": true
     }
   ]
 }

@@ -5,7 +5,7 @@
   "review_date_utc": "2026-10-20",
   "native_verdict": "mismatch",
   "native_review_report": "/workspace/fonts/design/seal-individual/reviews/U3D0E7.json",
-  "source_png_sha256": "f8f4952598c89b86f3c0b92cfa10acdf6ef5c39bdf10b6e204aa95b3df632323",
+  "source_png_sha256": "f31c79a2ee14b5fcfb1540e8efa0451b7b04165723f0f994f5b5918fa3b3b9cd",
   "source_png": "design/seal-individual/U3D0E7.png",
   "reference_png_sha256": "cd73e2e3a350689f20fd17b21b0fe2cd91e9a58a8d1dc5339669f5e85708a7a8",
   "reviewed_specimens": [
@@ -16,35 +16,57 @@
   ],
   "unavailable_specimens": [],
   "geometry_source": "design/strokes-individual/candidates/U3D0E7.json",
-  "reviewed_source_snapshot": "design/quality/proofs/continuation/review-thirteenth-eight/sources/U3D0E7.json",
-  "source_json_sha256": "97d0d5c4ea82a8c84e69587300750ddbce6ff0d69dbf54ae0c4c9486570dc688",
-  "geometry_sha256": "94dba6ef45a90285a84d1cd153ecacab23af3910cdbbdbc06f7098fc30fd0ad4",
-  "font_file": "design/quality/proofs/continuation/review-thirteenth-eight/font/SmallSealReview-Regular.ttf",
-  "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
-  "raster_file": "design/quality/proofs/continuation/review-thirteenth-eight/U3D0E7-Regular400.png",
-  "raster_sha256": "8ad5364d30d6354c34865e7030a1ea82626989df3f1aa502b0d5cc46c7e53c29",
+  "reviewed_source_snapshot": "design/quality/proofs/continuation/U3D0A90E7-THX-gap-bent-return-v1/sources/U3D0E7.json",
+  "source_json_sha256": "4313c7902116acfb41dc85de080041925b0d0a2d1b6eb4bf13f93b5378329a1b",
+  "geometry_sha256": "ad9e4800b24c06596aa378ff51d4d341c5b1ca440e6e3af70eb271bf1fc4d3b1",
+  "font_file": "design/quality/proofs/continuation/U3D0A90E7-THX-gap-bent-return-v1/font/SmallSealReview-Regular.ttf",
+  "font_sha256": "3c7845019be137a69f4a19e6c8a358b774cb25f6952808ffa1c55559fa42ab13",
+  "raster_file": "design/quality/proofs/continuation/U3D0A90E7-THX-gap-bent-return-v1/U3D0E7-Regular400.png",
+  "raster_sha256": "0985b57d95e124d936504befa0ef511be853e4f66b5e913623864334d5fab277",
   "reviewed_weight": 400,
   "font_metrics": {
     "units_per_em": 1024,
     "advance": 1024,
     "ink_bounds": [
-      243,
+      222,
       -64,
-      781,
+      802,
       704
     ]
   },
-  "regular400_verdict": "held",
-  "accepted": false,
+  "regular400_verdict": "accepted",
+  "accepted": true,
   "registry_modified": false,
-  "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged right compound inspected. Upper inner bent return stops free inside left chamber, whereas all whole references connect it to outer left wall, separating upper left and middle left counters. Native/font therefore lose one closed field. Hold for bounded inner return extension to wall, preserving top right counter, middle crossbar, lower counter and long tail.",
-  "requested_corrections": [
-    "Extend inner bent upper return leftward to existing outer left wall at attested mid-upper height, restoring separate closed upper-left/middle-left fields."
-  ],
+  "notes": "Full native2, all four enlarged whole specimens, full actual Regular400 and enlarged bent inner return/wall junction inspected. Root restores attested THX bent return into outer left wall using original native1 course while retaining native2 outer construction. Actual top small counter, bent left upper counter, middle chamber and lower counter distinct; separate left staff and long right descent retained. Native2 remains mismatch for straight inner horizontal replacing bent trajectory; exact repaired Regular400 accepted.",
+  "requested_corrections": [],
   "limitations": [
     "Exact geometry/native hashes only; Regular400 pen30 and proportional envelope738.",
     "Heavy weights not visually reviewed or accepted.",
     "No specialist paleographic or historical writing-order certification.",
     "Vector correction does not change a mismatching native PNG verdict."
+  ],
+  "previous_geometry_reviews": [
+    {
+      "geometry_sha256": "94dba6ef45a90285a84d1cd153ecacab23af3910cdbbdbc06f7098fc30fd0ad4",
+      "source_json_sha256": "97d0d5c4ea82a8c84e69587300750ddbce6ff0d69dbf54ae0c4c9486570dc688",
+      "source_png_sha256": "f8f4952598c89b86f3c0b92cfa10acdf6ef5c39bdf10b6e204aa95b3df632323",
+      "font_sha256": "2d63b6afd774575cd9f04b6183c5a9c9aac4a032638a53c774574332f7101c9e",
+      "raster_sha256": "8ad5364d30d6354c34865e7030a1ea82626989df3f1aa502b0d5cc46c7e53c29",
+      "regular400_verdict": "held",
+      "native_verdict": "mismatch",
+      "notes": "Full native/all four enlarged whole specimens/full actual Regular400 and enlarged right compound inspected. Upper inner bent return stops free inside left chamber, whereas all whole references connect it to outer left wall, separating upper left and middle left counters. Native/font therefore lose one closed field. Hold for bounded inner return extension to wall, preserving top right counter, middle crossbar, lower counter and long tail."
+    },
+    {
+      "geometry_sha256": "7e17c99f0b8c16dc2de948977ba7faf47679fc7947084e2196033121156a914d",
+      "source_json_sha256": "94fd74f2c9fa8506701eaef5ad8c508c221925b577d3bd59d5dbca612addb9d4",
+      "font_sha256": "8a2502047b525d42cb00beeedae49700f6abe654b1379a7c04b76c425c69ea0d",
+      "raster_sha256": "96628e60331109f8effb15e8a0b2286b8ed9c00293a8e3e97e6896c834091fc0",
+      "regular400_verdict": "needs_structural_repair",
+      "native_verdict": "mismatch",
+      "notes": "Retry2 full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Missing left wall contact and four fields restored, but upper inner bent return has been replaced with a simple horizontal bar across the left chamber. All whole witnesses retain the distinctive bent/upward inner course. Hold for restoration of that bent return between existing left-wall and central-staff contacts, preserving four counters, separate left staff, middle crossbar, lower return and long tail.",
+      "requested_corrections": [
+        "Retry2 full native, all four whole/enlarged specimens and full/enlarged actual Regular inspected. Missing left wall contact and four fields restored, but upper inner bent return has been replaced with a simple horizontal bar across the left chamber. All whole witnesses retain the distinctive bent/upward inner course. Hold for restoration of that bent return between existing left-wall and central-staff contacts, preserving four counters, separate left staff, middle crossbar, lower return and long tail."
+      ]
+    }
   ]
 }

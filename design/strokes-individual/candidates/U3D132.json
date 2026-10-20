@@ -10,7 +10,7 @@
   "stroke_width": 43,
   "linecap": "round",
   "linejoin": "round",
-  "status": "automatic_unreviewed",
+  "status": "manual_geometry_pending_review",
   "coverage_eligible": false,
   "character_identity_verified": false,
   "visual_reference_match_reviewed": false,
@@ -3122,17 +3122,17 @@
         20
       ],
       "is_loop": false,
-      "path": "M 386.045,549.623 L 386.045,853.879",
+      "path": "M 386.045,602.0 L 386.045,853.879",
       "commands": [
         [
           "M",
-          386.0447,
-          549.623
+          386.045,
+          602.0
         ],
         [
           "L",
-          386.0447,
-          853.8786
+          386.045,
+          853.879
         ]
       ],
       "maximum_fit_error": 0.0,
@@ -5579,17 +5579,17 @@
         37
       ],
       "is_loop": false,
-      "path": "M 631.412,853.879 L 634.684,549.623",
+      "path": "M 631.412,853.879 L 634.1207324095499,602.0",
       "commands": [
         [
           "M",
-          631.4121,
-          853.8786
+          631.412,
+          853.879
         ],
         [
           "L",
-          634.6837,
-          549.623
+          634.1207324095499,
+          602.0
         ]
       ],
       "maximum_fit_error": 3.2009,
@@ -8841,6 +8841,16 @@
       "closed": false,
       "maximum_fit_error_analysis_pixels": 0.0,
       "maximum_fit_error_font_units": 0.0
+    }
+  ],
+  "structural_corrections": [
+    {
+      "reason": "Choose coherent complete THX: clip only both inner diamond staff upper endpoints to y602, retaining each exact original straight-line remainder through the three lower body counters. Each diamond now has one open counter with a short upward internal stub. Both diamond outlines, paired fork/header/arch/four inner bars and all other 19 original paths unchanged. Native full-divider mismatch remains recorded.",
+      "previous_paths": {
+        "stroke-6": "M 386.045,549.623 L 386.045,853.879",
+        "stroke-12": "M 631.412,853.879 L 634.684,549.623"
+      },
+      "native_png_unchanged_and_mismatch_retained": true
     }
   ]
 }
